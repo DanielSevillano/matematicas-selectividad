@@ -46,7 +46,9 @@ main.cargando::after {
 }
 
 footer {
+    margin-inline: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 nav {
@@ -103,6 +105,7 @@ mjx-container {
     }
 
     header,
+    footer,
     nav,
     button {
         display: none;
