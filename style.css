@@ -45,6 +45,10 @@ main.cargando::after {
     }
 }
 
+footer {
+    margin-bottom: 20px;
+}
+
 nav {
     display: flex;
     gap: 5px;
