@@ -1,0 +1,10 @@
+Sea la función derivable $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \begin{cases}
+    e^{2ax - 4b}, & \text{si } x < 1, \\
+    1 - x\ln(x), & \text{si } x \geq 1.
+\end{cases}$$
+
+<ol>
+    <li>Determina los valores de $a$ y $b$.</li>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 2$.</li>
+</ol>

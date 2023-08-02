@@ -1,0 +1,6 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = \ln(x^2+1)$.
+
+<ol>
+    <li>Determina los intervalos de crecimiento y de decrecimiento de $f$.</li>
+    <li>Determina los intervalos de convexidad y de concavidad de $f$ y los puntos de inflexión de su gráfica.</li>
+</ol>

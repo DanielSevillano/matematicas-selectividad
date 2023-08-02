@@ -1,0 +1,10 @@
+Considera las rectas $r \equiv x = 1-y = z$ y
+$$s \equiv \begin{cases}
+    x + y - 3z = 4, \\
+    3x - y + z = -2.
+\end{cases}$$
+
+<ol>
+    <li>Estudia la posición relativa de $r$ y $s$.</li>
+    <li>Calcula la ecuación del plano que contiene a $s$ y es paralelo a $r$.</li>
+</ol>

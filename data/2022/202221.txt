@@ -1,0 +1,12 @@
+Sea $f$ la función continua definida por
+$$f(x) = \begin{cases}
+    x^2 + 2, & \text{si } x \leq 0, \\
+    \sqrt{ax + b}, & \text{si } 0 < x \leq 2, \\
+    \frac{-x}{2\sqrt{2}} + \frac{3}{\sqrt{2}}, & \text{si } 2 < x.
+\end{cases}$$
+
+<ol>
+    <li>Calcula $a$ y $b$.</li>
+    <li>Para $a = -1$ y $b = 4$, estudia si existe la derivada de $f$ en $x = 2$.
+    En caso afirmativo, calcula la ecuación de la recta tangente a la gráfica de $f$ en dicho punto.</li>
+</ol>

@@ -1,0 +1,10 @@
+Sea $f$ la función continua definida por
+$$f(x) = \begin{cases}
+    \frac{e^{\lambda x} - e^x - x}{x^2}, & \text{si } x \neq 0, \\
+    \mu, & \text{si } x = 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcula $\lambda$ y $\mu$.</li>
+    <li>Para $\lambda = 2$, calcula la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1$.</li>
+</ol>

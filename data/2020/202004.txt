@@ -1,0 +1,7 @@
+Siendo $a \neq 0$, considera las rectas
+$$r \equiv x-1 = y-2 = \frac{z-1}{a} \quad \text{y} \quad s \equiv \frac{x-3}{-a} = \frac{y-3}{-1} = \frac{z+1}{2}.$$
+
+<ol>
+    <li>Estudia la posición relativa de ambas rectas según los valores de $a$.</li>
+    <li>Para $a = 2$, determina las ecuaciones de la recta que pasa por el punto de corte de $r$ y $s$ y es perpendicular a ambas.</li>
+</ol>

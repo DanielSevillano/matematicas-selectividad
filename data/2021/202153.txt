@@ -1,0 +1,4 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = 1 + \int_0^x te^tdt.$$
+
+Determina los intervalos de concavidad y de convexidad de $f$ y sus puntos de inflexión (abscisas donde se obtienen y valores que se alcanzan).

@@ -1,0 +1,8 @@
+En una empresa se fabrican tres tipos de productos plásticos: botellas, garrafas y bidones.
+Se utiliza como materia prima 10 kg de polietileno cada hora.
+Se sabe que para fabricar cada botella se necesitan 50 gramos, para cada garrafa 100 gramos y 1 kg para cada bidón.
+
+El gerente también los dice que se debe producir el doble de botellas que de garrafas.
+Por último, se sabe que por motivos de capacidad de trabajo, en las máquinas se producen en total 52 productos cada hora.
+
+¿Cuántas botellas, garrafas y bidones se producen cada hora?

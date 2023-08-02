@@ -1,0 +1,6 @@
+Sea la función $f: [-2, 2] \to \mathbb{R}$, definida por $f(x) = x^3 - 2x + 5$.
+
+<ol>
+    <li>Determina las abscisas de los puntos, si existen, en los que la pendiente de la recta tangente coincide con la pendiente de la recta que pasa por los puntos $(-2, f(-2))$ y $(2, f(2))$.</li>
+    <li>Determina la ecuación de la recta tangente y la ecuación de la recta normal a la gráfica de $f$ en el punto de inflexión.</li>
+</ol>

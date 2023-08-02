@@ -1,0 +1,7 @@
+Considera las funciones $f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = x^3 + 2$ y $g(x) = -x^2 + 2x + 2$.
+
+<ol>
+    <li>Calcula los puntos de corte de las gráficas de $f$ y $g$.
+    Esboza sus gráficas.</li>
+    <li>Determina el área del recinto limitado por las gráficas de $f$ y $g$ en el primer cuadrante.</li>
+</ol>

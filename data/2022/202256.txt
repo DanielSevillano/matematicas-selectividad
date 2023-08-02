@@ -1,0 +1,23 @@
+Se sabe que
+$$\begin{vmatrix}
+    a & b & c \\
+    p & q & r \\
+    x & y & z
+\end{vmatrix} = -2.$$
+
+<ol>
+    <li>Calcula:
+    $$\begin{vmatrix}
+        a & c & b \\
+        2x & 2z & 2y \\
+        -3p & -3r & -3q
+    \end{vmatrix}.$$
+    </li>
+    <li>Calcula:
+    $$\begin{vmatrix}
+        x & a-3p & -2a \\
+        y & b-3q & -2b \\
+        z & c-3r & -2c
+    \end{vmatrix}.$$
+    </li>
+</ol>

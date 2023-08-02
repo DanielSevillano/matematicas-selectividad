@@ -1,0 +1,1 @@
+Calcula los vértices y el área del rectángulo de área máxima inscrito en el recinto limitado por la gráfica de la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = -x^2 + 12$ y el eje de abscisas, y que tiene su base sobre dicho eje.

@@ -1,0 +1,15 @@
+Considera las rectas
+$$r \equiv \begin{cases}
+    x = 3 + \lambda, \\
+    y = 1, \\
+    z = -3 - \lambda,
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x + y = 1, \\
+    z = 0.
+\end{cases}$$
+
+<ol>
+    <li>Estudia la posición relativa de $r$ y $s$.</li>
+    <li>Halla la recta que corta perpendicularmente a $r$ y a $s$.</li>
+</ol>

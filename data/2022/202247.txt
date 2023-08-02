@@ -1,0 +1,6 @@
+Sea el plano $\pi \equiv 2x + y - 2z - 2 = 0$.
+
+<ol>
+    <li>Halla las ecuaciones de los planos paralelos a $\pi$ que distan 2 unidades de dicho plano.</li>
+    <li>Calcula el volumen del tetraedro cuyos vértices son el origen de coordenadas y los puntos de corte del plano $\pi$ con los ejes coordenados.</li>
+</ol>

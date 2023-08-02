@@ -1,0 +1,22 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    0 & 3 & 4 \\
+    1 & -4 & -5 \\
+    -1 & 3 & 4
+\end{pmatrix}.$$
+
+<ol>
+    <li>Comprueba que $A^2 = -A^{-1}$.</li>
+    <li>Dadas las matrices
+    $$B = \begin{pmatrix}
+        1 & -1 \\
+        3 & 0 \\
+        -4 & 5
+    \end{pmatrix} \quad \text{y} \quad
+    C = \begin{pmatrix}
+        2 & 0 \\
+        -3 & 2 \\
+        1 & -1
+    \end{pmatrix},$$
+    calcula la matriz $X$ que verifica $A^4X + B = AC$.</li>
+</ol>

@@ -1,0 +1,10 @@
+Se considera el punto $A(1, -2, 0)$ y la recta
+$$r \equiv \begin{cases}
+    x + y = 0, \\
+    y - 3z + 2 = 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcula la ecuación del plano que pasa por $A$ y es perpendicular a $r$.</li>
+    <li>Calcula la ecuación del plano que pasa por $A$ y contiene a $r$.</li>
+</ol>

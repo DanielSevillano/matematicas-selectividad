@@ -1,0 +1,11 @@
+Considera el sistema:
+$$\begin{cases}
+    x - y + mz = -3, \\
+    -mx + 3y - z = 1, \\
+    x - 4y + mz = -6.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores de $m$.</li>
+    <li>Para $m = 2$ resuelve el sistema, si es posible.</li>
+</ol>

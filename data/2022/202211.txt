@@ -1,0 +1,10 @@
+Sea $f$ la función continua definida por
+$$f(x) = \begin{cases}
+    \frac{x^2+1}{x-1}, & \text{si } x \leq 0, \\
+    \frac{ax+b}{(x+1)^2}, & \text{si } x > 0.
+\end{cases}$$
+
+<ol>
+    <li>Determina $a$ y $b$ sabiendo que $f$ tiene un extremo relativo en el punto de abscisa $x = 2$.</li>
+    <li>Para $a = 2$ y $b = -1$, estudia la derivabilidad de $f$.</li>
+</ol>

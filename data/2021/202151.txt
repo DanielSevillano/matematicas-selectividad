@@ -1,0 +1,2 @@
+Calcula $a$ y $b$ sabiendo que
+$$\lim_{x \to 0} \frac{a(1-\cos(x)) + b\sin(x) - 2(e^x-1)}{x^2} = 7.$$

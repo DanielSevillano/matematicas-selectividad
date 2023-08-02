@@ -1,0 +1,11 @@
+Considera el punto $P(2, 0, -4)$ y el plano
+$$\pi \equiv \begin{cases}
+    x = 9\alpha + 3\beta, \\
+    y = -1 + 2\alpha, \\
+    z = 3 + 4\alpha + \beta.
+\end{cases}$$
+
+<ol>
+    <li>Halla el punto simétrico del punto $P$ respecto del plano $\pi$.</li>
+    <li>Calcula la distancia del punto $P$ al plano $\pi$.</li>
+</ol>

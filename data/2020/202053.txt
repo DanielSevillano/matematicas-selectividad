@@ -1,0 +1,23 @@
+Considera el sistema de ecuaciones dado por $AX = B$ siendo
+$$A = \begin{pmatrix}
+    1 & -2 & 1 \\
+    m & 4 & -2 \\
+    0 & m+2 & -3
+\end{pmatrix}, \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    2 \\
+    2m \\
+    1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Discute el sistema según los valores de $m$.</li>
+    <li>Para $m = -2$, ¿existe alguna solución con $z = 0$?
+    En caso afirmativo, calcúlala.
+    En caso negativo, justifica la respuesta.</li>
+</ol>

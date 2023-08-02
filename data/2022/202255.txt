@@ -1,0 +1,19 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & 0 \\
+    -2 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 1 & a \\
+    2 & a & 1 \\
+    2 & 2 & 0
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 0 & -2 \\
+    2 & -1 & -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina los valores de $a$ para los que la matriz $B$ no tiene inversa.</li>
+    <li>Para $a = 1$ calcula $X$ tal que $AXB = C$, si es posible.</li>
+</ol>

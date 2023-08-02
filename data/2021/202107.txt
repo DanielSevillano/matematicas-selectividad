@@ -1,0 +1,15 @@
+Considera las rectas
+$$r \equiv \begin{cases}
+    2x - 3y + z - 2 = 0, \\
+    -3x + 2y + 2z + 1 = 0,
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x = 3 - 2\lambda, \\
+    y = -1 + \lambda, \\
+    z = -2 + 2\lambda.
+\end{cases}$$
+
+<ol>
+    <li>Calcula el plano perpendicular a la recta $s$ que pasa por el punto $P(1, 0, -5)$.</li>
+    <li>Calcula el seno del ángulo que forma la recta $r$ con el plano $\pi \equiv -2x + y + 2z = 0$.</li>
+</ol>

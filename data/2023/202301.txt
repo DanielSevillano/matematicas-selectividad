@@ -1,0 +1,8 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \frac{1}{e^x + e^{-x}}.$$
+
+<ol>
+    <li>Estudia y halla los máximos y mínimos absolutos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
+    <li>Calcula
+    $$\lim_{x \to +\infty} x^2f(x).$$</li>
+</ol>

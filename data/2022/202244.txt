@@ -1,0 +1,2 @@
+Considera las funciones $f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = x^2$ y $g(x) = a|x|$, con $a > 0$.
+Determina el valor de $a$ para que el área total de los recintos limitados por las gráficas de amabs funciones sea de 9 unidades cuadradas.

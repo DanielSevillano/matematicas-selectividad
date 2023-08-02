@@ -1,0 +1,7 @@
+Sean los plantos $\pi_1 \equiv 2x + y + z - 3 = 0$, $\pi_2 \equiv x + 2y - z + 5 = 0$ y la recta
+$$r \equiv x-1 = \frac{y}{2} = \frac{z+1}{5}.$$
+
+<ol>
+    <li>Halla los puntos de $r$ que equidistan de $\pi_1$ y $\pi_2$.</li>
+    <li>Halla el seno del ángulo que forma el plano $\pi_1$ con la recta $r$.</li>
+</ol>

@@ -1,0 +1,11 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    1 & -1 & m+2 \\
+    0 & 1 & m+1 \\
+    m & 0 & 5
+\end{pmatrix}.$$
+
+<ol>
+    <li>Estudia el rango de $A$ según los valores de $m$.</li>
+    <li>Para $m = 2$, calcula la inversa de $2020A$.</li>
+</ol>

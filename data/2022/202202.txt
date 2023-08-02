@@ -1,0 +1,2 @@
+De entre todos los rectángulos con lados paralelos a los ejes de coordenadas, determina las dimensiones de aquel de área máxima que puede inscribirse en la región limitada por las gráficas de las funciones $f, g: \mathbb{R} \to \mathbb{R}$, definidas por
+$$f(x) = 4 - \frac{x^2}{3} \quad \text{y} \quad g(x) = \frac{x^6}{6}-2.$$

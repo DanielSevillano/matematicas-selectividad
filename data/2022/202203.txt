@@ -1,0 +1,10 @@
+Sea $f$ la función definida por
+$$f(x) = \begin{cases}
+        2x+4,    & \text{si } x < 0,    \\
+        (x-2)^2, & \text{si } x \geq 0.
+    \end{cases}$$
+
+<ol>
+    <li>Calcula los puntos de corte de la gráfica de $f$ con el eje de abscisas y esboza la gráfica de la función.</li>
+    <li>Halla el área del recinto limitado por la gráfica de $f$ y por el eje de abscisas.</li>
+</ol>

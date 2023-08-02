@@ -1,0 +1,21 @@
+Considera el sistema de ecuaciones lineales:
+$$\begin{pmatrix}
+    \alpha & 1 & 1 \\
+    \alpha & -1 & 1 \\
+    \alpha & 0 & \alpha
+\end{pmatrix}
+\begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix} =
+\begin{pmatrix}
+    0 \\
+    0 \\
+    0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Discute el sistema según los valores de $\alpha$.</li>
+    <li>Para $\alpha = 1$ resuelve el sistema y da una solución del mismo diferente de la solución trivial, si es posible.</li>
+</ol>

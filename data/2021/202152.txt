@@ -1,0 +1,3 @@
+Halla $a > 0$ y $b > 0$ sabiendo que la gráfica de la función $f: \mathbb{R} \to \mathbb{R}$ dada por
+$$f(x) = \frac{bx^2}{1 + ax^4}$$
+tiene en el punto $(1, 2)$ un punto crítico.

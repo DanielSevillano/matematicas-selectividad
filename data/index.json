@@ -1,0 +1,33 @@
+[
+    {
+        "curso": 2023,
+        "ediciones": [
+            0
+        ]
+    },
+    {
+        "curso": 2022,
+        "ediciones": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "curso": 2021,
+        "ediciones": [
+            0,
+            5
+        ]
+    },
+    {
+        "curso": 2020,
+        "ediciones": [
+            0,
+            5
+        ]
+    }
+]

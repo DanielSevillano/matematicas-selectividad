@@ -1,0 +1,8 @@
+Una empresa de mensajería opera en tres rutas distintas A, B y C.
+Semanalmente hace un total de 70 viajes, y el número de viajes por la ruta B es igual a la suma de los viajes por las rutas A y C.
+
+<ol>
+    <li>Si sabemos que el doble de la suma de los viajes por las rutas A y C es 70, ¿podemos deducir el número de viajes por cada ruta?
+    Razona la respuesta.</li>
+    <li>Si el doble de viajes por la ruta C es igual al número de viajes por la ruta B menos 5, ¿cuántos viajes hace por cada ruta?</li>
+</ol>

@@ -1,0 +1,4 @@
+Considera la función $f$ definida por
+$$f(x) = \frac{x^2+1}{x^2-1}$$
+(para $x \neq -1$, $x \neq 1$).
+Halla una primitiva de $f$ cuya gráfica pase por el punto $(2, 4)$.

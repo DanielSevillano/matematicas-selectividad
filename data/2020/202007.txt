@@ -1,0 +1,22 @@
+Considera
+$$A = \begin{pmatrix}
+    1 & 1 & 1 \\
+    1 & 0 & 1 \\
+    4 & 1 & 4
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    a \\
+    2a \\
+    3a
+\end{pmatrix}, \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Discute el sistema dado por $AX = B$, según los valores de $a$.</li>
+    <li>Para $a = 0$, resuelve el sistema dado por $AX = B$.
+    Calcula, si es posible, una solución en la que $y + z = 4$.</li>
+</ol>

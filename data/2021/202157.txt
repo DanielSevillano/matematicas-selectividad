@@ -1,0 +1,6 @@
+La recta perpendicular desde el punto $A(1, 1, 0)$ a un cierto plano $\pi$ corta a éste en el punto $B\left(1, \frac{1}{2}, \frac{1}{2}\right)$.
+
+<ol>
+    <li>Calcula la ecuación del plano $\pi$.</li>
+    <li>Halla la distancia del punto $A$ a su simétrico respecto a $\pi$.</li>
+</ol>

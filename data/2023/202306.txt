@@ -1,0 +1,16 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    0 & 0 & m \\
+    m & 0 & 0 \\
+    0 & m & 0
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & 0 & 0 \\
+    0 & 0 & 1 \\
+    0 & 1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina para qué valores de $m$ existe la inversa de la matriz $A$.</li>
+    <li>Para todo $m \neq -1$, resuelve, si es posible, la ecuación $AX + X = B$.</li>
+</ol>

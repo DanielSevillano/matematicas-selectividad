@@ -1,0 +1,2 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$, definida por $f(x) = x|x-1|$.
+Calcula el área del recinto limitado por la gráfica de dicha función y su recta tangente en el punto de abscisa $x = 0$.

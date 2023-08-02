@@ -1,0 +1,12 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    m & \sqrt{m} & \sqrt{m} \\
+    \sqrt{m} & m & 1 \\
+    \sqrt{m} & 1 & m
+\end{pmatrix},$$
+donde $m \geq 0$.
+
+<ol>
+    <li>¿Para qué valores de $m$ tiene inversa la matriz $A$?</li>
+    <li>Para $m = 4$ resuelve, si es posible, la ecuación matricial $AX = 12I$, donde $I$ es la matriz identidad de orden 3.</li>
+</ol>

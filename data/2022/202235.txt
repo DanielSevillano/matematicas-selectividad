@@ -1,0 +1,4 @@
+La suma de los seguidores en una determinada red social de Alberto, Begoña y Carlos es de 13000 personas.
+Aunque Carlos perdiera una tercera parte de sus seguidores, todavía seguiría teniendo el doble de seguidores que tiene Alberto.
+Por otro lado, los seguidores de Alberto más la quinta parte de los seguidores de Begoña, son tantos como la mitad de los de Carlos.
+Calcula cuántos seguidores tienen cada uno.

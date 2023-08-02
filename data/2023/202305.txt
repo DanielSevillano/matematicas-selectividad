@@ -1,0 +1,5 @@
+Una marca de vehículos ha vendido este mes coches de tres colores: blancos, negros y rojos.
+El $60\%$ de los coches blancos más el $50\%$ de los coches negros representan el $30\%$ de los coches vendidos.
+El $20\%$ de los coches blancos junto con el $60\%$ de los coches negros y el $60\%$ de los coches rojos representan la mitad de los coches vendidos.
+Se han vendido 100 coches negros más que blancos.
+Determina el número de coches vendidos de cada color.

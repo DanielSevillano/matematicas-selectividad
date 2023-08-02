@@ -1,0 +1,2 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = e^x(x^2 - 5x + 6)$.
+Determina los intervalos de concavidad y de convexidad de $f$ y los puntos de inflexión de su gráfica.

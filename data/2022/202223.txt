@@ -1,0 +1,7 @@
+Considera la función $F: [0, 2\pi] \to \mathbb{R}$ definida por
+$$F(x) = \int_0^x 2t\cos(t)dt.$$
+
+<ol>
+    <li>Determina los intervalos de crecimiento y decrecimiento de $F$.</li>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $F$ en el punto de abscisa $x = \pi$.</li>
+</ol>

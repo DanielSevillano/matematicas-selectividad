@@ -1,0 +1,19 @@
+Considera
+$$A = \begin{pmatrix}
+    1 & 2 & 3 \\
+    0 & 0 & 2 \\
+    0 & 1 & 1
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halla los valores de $\lambda$ tales que $|A - \lambda I| = 0$, donde $I$ es la matriz identidad de orden 3.</li>
+    <li>Para $\lambda = 1$, resuelve el sistema dado por $(A - \lambda I)X = 0$.
+    ¿Existe alguna solución tal que $z = 1$?
+    En caso afirmativo, calcúlala.
+    En caso negativo, justifica la respuesta.</li>
+</ol>

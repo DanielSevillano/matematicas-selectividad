@@ -1,0 +1,2 @@
+Calcula $a$ sabiendo que
+$$\lim_{x \to \infty} \frac{ax}{\ln^3(x) + 2x} = 1.$$

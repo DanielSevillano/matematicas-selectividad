@@ -1,0 +1,14 @@
+Cosidera las rectas
+$$r \equiv \begin{cases}
+    x = 0, \\
+    z = 0,
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x + y = 1, \\
+    x - y = 1.
+\end{cases}$$
+
+<ol>
+    <li>Determina la ecuación del plano que contiene a $r$ y es paralelo a $s$.</li>
+    <li>Determina la ecuación del plano que contiene a $r$ y es perpendicular a $s$.</li>
+</ol>

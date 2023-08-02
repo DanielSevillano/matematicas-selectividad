@@ -1,0 +1,2 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = e^x\sin(2x)$.
+Halla la primitiva de $f$ cuya gráfica pase por el punto $(0, 0)$.

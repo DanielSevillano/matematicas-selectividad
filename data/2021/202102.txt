@@ -1,0 +1,10 @@
+Considera la función continua $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \begin{cases}
+    (3x-6)e^x, & \text{si } x \leq 0, \\
+    \frac{36(\sin(x) - ax)}{x^3}, & \text{si } x > 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcula $a$.</li>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = -1$.</li>
+</ol>

@@ -1,0 +1,2 @@
+Se sabe que la gráfica de la función $f$ definida por $f(x) = \frac{ax^2 + bx + 2}{x-1}$ (para $x \neq 1$) tiene una asíntota oblicua que pasa por el punto $(1, 1)$ y tiene pendiente 2.
+Calcula $a$ y $b$.

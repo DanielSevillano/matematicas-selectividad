@@ -1,0 +1,11 @@
+Considera la función continua $f$ definida por
+$$f(x) = \begin{cases}
+    \dfrac{1}{x},     & \text{si } x < -1,       \\
+    ax + b,           & \text{si} -1 \leq x < 1, \\
+    \dfrac{x^2}{x+1}, & \text{si } x \geq 1.
+\end{cases}$$
+
+<ol>
+    <li>Calcula $a$ y $b$.</li>
+    <li>Estudia y halla las asíntotas de la gráfica de $f$.</li>
+</ol>
