@@ -22,6 +22,29 @@ main {
     box-sizing: border-box;
 }
 
+main.cargando::after {
+    content: "";
+    display: block;
+    margin-inline: auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-style: solid;
+    border-inline-color: transparent;
+    animation: carga 1s linear infinite;
+}
+
+@keyframes carga {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 nav {
     display: flex;
     gap: 5px;

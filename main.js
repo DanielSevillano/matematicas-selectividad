@@ -93,7 +93,10 @@ async function mostrarExamen(examen) {
         elemento.remove();
     }
 
+    main.classList.add("cargando");
+
     const articulo = await obtenerExamen(examen);
+    main.classList.remove("cargando");
     main.append(articulo);
     MathJax.typeset();
 }
