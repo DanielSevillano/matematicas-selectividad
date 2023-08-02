@@ -16,8 +16,7 @@ async function mostrarNavegacion() {
             if (edicion == 0) texto += "Junio de ";
             else if (edicion == 5) texto += "Septiembre de ";
             else texto += "Reserva " + edicion + " de ";
-            texto += examen.curso
-            console.log(texto);
+            texto += examen.curso;
 
             const boton = document.createElement("button");
             boton.textContent = texto;
