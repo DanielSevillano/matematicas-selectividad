@@ -1,0 +1,1 @@
+Calcula $a$, $b$, $c$ y $d$ sabiendo que la gráfica de la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = ax^3 + bx^2 + cx + d$ tiene un punto de inflexión en $(0, 4)$ y su recta normal en el punto $(1, 8)$ es paralela al eje de ordenadas.

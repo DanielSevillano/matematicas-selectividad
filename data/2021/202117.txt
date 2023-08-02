@@ -1,0 +1,6 @@
+Considera el punto $P(1, 2, 6)$ y el plano $\pi \equiv 2x - y + z = 0$.
+
+<ol>
+    <li>Halla las ecuaciones de los planos paralelos a $\pi$ cuya distancia a este sea $\sqrt{6}$ unidades.</li>
+    <li>Halla el simétrico del punto $P$ respecto al plano $\pi$.</li>
+</ol>

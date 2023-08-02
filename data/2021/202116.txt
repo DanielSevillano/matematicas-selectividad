@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones lineales
+$$\begin{cases}
+    x + my + mz = 1, \\
+    x + 2my + (m+1)z = 1, \\
+    2x + my + mz = 2.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores de $m$.</li>
+    <li>Resuelve el sistema, si es posible, para $m = 1$.</li>
+</ol>

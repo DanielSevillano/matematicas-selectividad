@@ -1,0 +1,6 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = e^x$.
+
+<ol>
+    <li>Calcula $a$ para que la recta tangente a la gráfica de $f$ en el punto $(a, f(a))$ pase por el origen de coordenadas.</li>
+    <li>Calcula el área del recinto limitado por la gráfica de $f$, la recta tangente a la misma en el punto $(1, f(1))$ y el eje de ordenadas.</li>
+</ol>

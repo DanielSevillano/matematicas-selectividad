@@ -1,0 +1,11 @@
+Considera los puntos $B(-1, 0, -1)$, $C(0, 1, -3)$ y la recta
+$$r \equiv \begin{cases}
+    x = -\lambda, \\
+    y = 1 + 2\lambda, \\
+    z = -1 + \lambda.
+\end{cases}$$
+
+<ol>
+    <li>Calcula un punto que esté en $r$ y equidiste de $B$ y $C$.</li>
+    <li>Siendo $D(1, -1, -2)$, calcula el área del triángulo con vértices en los puntos $B$, $C$ y $D$.</li>
+</ol>
