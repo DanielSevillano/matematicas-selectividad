@@ -1,0 +1,3 @@
+Sabiendo que
+$$\lim_{x \to 0} \left(\frac{x+1}{\ln(x+1)} - \frac{a}{x}\right)$$
+es finito, calcula $a$ y el valor del límite.

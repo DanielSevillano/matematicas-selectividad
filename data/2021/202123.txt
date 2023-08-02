@@ -1,0 +1,7 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^2 + |x-1|$.
+
+<ol>
+    <li>Determina los intervalos de crecimiento y de decrecimiento de $f$.</li>
+    <li>Calcula
+    $$\int_0^2 f(x)dx.$$</li>
+</ol>

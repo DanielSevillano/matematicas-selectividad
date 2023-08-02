@@ -1,0 +1,11 @@
+Considera las rectas
+$$r \equiv \frac{x-2}{-2} = y-1 = \frac{z}{-2} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x + 2y = 3, \\
+    2y + z = 2.
+\end{cases}$$
+
+<ol>
+    <li>Estudia la posición relativa de $r$ y $s$.</li>
+    <li>Calcula, si es posible, el plano que contiene a $r$ y a $s$.</li>
+</ol>

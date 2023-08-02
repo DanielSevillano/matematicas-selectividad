@@ -1,0 +1,12 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    m & m & m \\
+    m & m+1 & m \\
+    m & m & m+2
+\end{pmatrix}.$$
+
+<ol>
+    <li>¿Para qué valores de $m$ existe la inversa de la matriz $A$?
+    Razona la respuesta.</li>
+    <li>Para $m = 1$, halla $\left(\frac{1}{2}A\right)^{-1}$.</li>
+</ol>
