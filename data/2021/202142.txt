@@ -1,0 +1,7 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por
+$$f(x) = \frac{e^{2x} - 1}{e^{2x} + 1}.$$
+
+<ol>
+    <li>Estudia y halla las asíntotas de la gráfica de $f$.</li>
+    <li>Determina los intervalos de crecimiento y de decrecimiento de $f$.</li>
+</ol>

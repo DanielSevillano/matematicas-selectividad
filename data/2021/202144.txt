@@ -1,0 +1,6 @@
+Considera las funciones $f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = |x| - 2$ y por $g(x) = 4 - x^2$.
+
+<ol>
+    <li>Halla los puntos de corte de las gráficas de ambas funciones y esboza el recinto que delimitan.</li>
+    <li>Determina el área del recinto anterior.</li>
+</ol>

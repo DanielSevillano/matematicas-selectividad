@@ -1,0 +1,15 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & -1 & 0 \\
+    1 & m & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & 1 \\
+    0 & 2 \\
+    m & -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula $m$ para que $AB$ no tenga inversa.</li>
+    <li>Estudia el rango de la matriz $BA$ según los valores de $m$.</li>
+</ol>

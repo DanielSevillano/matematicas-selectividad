@@ -1,0 +1,22 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    2 & 0 & 2 \\
+    -1 & 2 & 1 \\
+    0 & 1 & 4
+\end{pmatrix}.$$
+
+<ol>
+    <li>Estudia, según los valores de $\lambda$, el rango de la matriz $A - \lambda I$, siendo $I$ la matriz identidad de orden tres.</li>
+    <li>Resuelve el sistema
+    $$(A - I)\begin{pmatrix}
+        x \\
+        y \\
+        z
+    \end{pmatrix} =
+    \begin{pmatrix}
+        0 \\
+        0 \\
+        0
+    \end{pmatrix}$$
+    y halla, si existe, una solución en la que $x = 2$.</li>
+</ol>

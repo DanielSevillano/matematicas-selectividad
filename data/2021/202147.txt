@@ -1,0 +1,15 @@
+Considera las rectas
+$$r \equiv \begin{cases}
+    x = 2 + 3\lambda, \\
+    y = -1 + 2\lambda, \\
+    z = 3 + \lambda
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    2x - y - 2 = 0, \\
+    y + 2z - 4 = 0.
+\end{cases}$$
+
+<ol>
+    <li>Halla el plano que contiene a $r$ y es paralelo a $s$.</li>
+    <li>Deduce razonadamente que ningún plano perpendicular a $s$ contiene a $r$.</li>
+</ol>
