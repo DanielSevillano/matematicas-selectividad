@@ -1,0 +1,15 @@
+Considera las rectas
+$$r \equiv \begin{cases}
+    x = 1 + \lambda, \\
+    y = 1 + \lambda, \\
+    z = 2 + m\lambda
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x - y + 2z = 3, \\
+    x + z = 2.
+\end{cases}$$
+
+<ol>
+    <li>Estudia la posición relativa de $r$ y $s$ según los valores de $m$.</li>
+    <li>Para $m = 1$, calcula el coseno del ángulo que forman las rectas $r$ y $s$.</li>
+</ol>

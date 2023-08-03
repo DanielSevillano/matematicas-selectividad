@@ -1,0 +1,8 @@
+Considera las rectas
+$$r \equiv \frac{x}{1} = \frac{y+2}{2} = \frac{z-1}{1} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x - y + z = 2, \\
+    3x - y - z = -4.
+\end{cases}$$
+
+Sabiendo que dos de los lados de un cuadrado están en las rectas $r$ y $s$, calcula su área.

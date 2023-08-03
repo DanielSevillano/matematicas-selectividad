@@ -1,0 +1,10 @@
+Sea la función derivable $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \begin{cases}
+    \frac{ax + b}{x - 1}, & \text{si } x \leq 0, \\
+    \ln(1+x), & \text{si } x > 0.
+\end{cases}$$
+
+<ol>
+    <li>Determina $a$ y $b$.</li>
+    <li>Halla las ecuaciones de las rectas tangente y normal a la gráfica de $f$ en el punto de abscisa $x = 2$.</li>
+</ol>
