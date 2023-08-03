@@ -8,7 +8,7 @@ B = \begin{pmatrix}
     a \\
     2a \\
     3a
-\end{pmatrix}, \quad \text{y} \quad
+\end{pmatrix} \quad \text{y} \quad
 X = \begin{pmatrix}
     x \\
     y \\

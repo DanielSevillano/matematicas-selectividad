@@ -2,7 +2,7 @@ Considera las rectas
 $$r \equiv \begin{cases}
     x = 3 + \lambda, \\
     y = 1, \\
-    z = -3 - \lambda,
+    z = -3 - \lambda
 \end{cases} \quad \text{y} \quad
 s \equiv \begin{cases}
     x + y = 1, \\

@@ -2,7 +2,7 @@ Sea $f$ la función continua definida por
 $$f(x) = \begin{cases}
     x^2 + 2, & \text{si } x \leq 0, \\
     \sqrt{ax + b}, & \text{si } 0 < x \leq 2, \\
-    \frac{-x}{2\sqrt{2}} + \frac{3}{\sqrt{2}}, & \text{si } 2 < x.
+    \dfrac{-x}{2\sqrt{2}} + \dfrac{3}{\sqrt{2}}, & \text{si } 2 < x.
 \end{cases}$$
 
 <ol>

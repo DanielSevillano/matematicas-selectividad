@@ -2,7 +2,7 @@ Considera el plano $\pi \equiv x + y + z = 0$ y la recta
 $$r \equiv \begin{cases}
     x = \lambda, \\
     y = 1 - \lambda, \\
-    z = 0
+    z = 0.
 \end{cases}$$
 
 

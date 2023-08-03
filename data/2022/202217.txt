@@ -1,7 +1,7 @@
 Cosidera las rectas
 $$r \equiv \begin{cases}
     x = 0, \\
-    z = 0,
+    z = 0
 \end{cases} \quad \text{y} \quad
 s \equiv \begin{cases}
     x + y = 1, \\

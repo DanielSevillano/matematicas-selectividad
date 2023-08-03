@@ -1,6 +1,6 @@
 Sea $f$ la función continua definida por
 $$f(x) = \begin{cases}
-    \frac{e^{\lambda x} - e^x - x}{x^2}, & \text{si } x \neq 0, \\
+    \dfrac{e^{\lambda x} - e^x - x}{x^2}, & \text{si } x \neq 0, \\
     \mu, & \text{si } x = 0.
 \end{cases}$$
 
