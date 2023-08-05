@@ -1,0 +1,3 @@
+Una familia desea acotar una zona rectangular en el jardín de su casa para dedicarla al cultivo ecológico.
+Para ello dispone de 96 metros de valla, pero necesita dejar una abertura de 4 metros en uno de los laterales para instalar una puerta.
+Determina las dimensiones de la zona rectangular de área máxima que puede acotarse de esta manera y el valor de dicha área.

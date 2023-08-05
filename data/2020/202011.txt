@@ -1,0 +1,2 @@
+Calcula $a$ sabiendo que
+$$\lim_{x \to 0} \left(\frac{1}{\ln(x-1)} - \frac{ax-1}{x}\right) = \frac{7}{2}.$$

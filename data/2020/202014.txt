@@ -1,0 +1,6 @@
+Considera el tetraedro de vértices $A(0, 0, 0)$, $B(1, 1, 0)$, $C(0, 1, 3)$ y $D(1, 0, 3)$.
+
+<ol>
+    <li>Calcula el volumen de dicho tetraedro.</li>
+    <li>Calcula la medida de la altura trazada desde el vértice $A$ de dicho tetraedro.</li>
+</ol>

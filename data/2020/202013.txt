@@ -1,0 +1,18 @@
+Considera
+$$A = \begin{pmatrix}
+    1 & 1 & 1 \\
+    1 & a & b \\
+    c & 1 & 4
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 \\
+    1 \\
+    1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    3 \\
+    2 \\
+    1
+\end{pmatrix}.$$
+
+Determina $a$, $b$ y $c$, sabiendo que $AB = C$ y la matriz $A$ tiene rango 2.
