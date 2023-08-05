@@ -112,4 +112,8 @@ async function mostrarExamen(examen) {
 }
 
 mostrarNavegacion();
-mostrarExamen(20230);
+
+const script = document.querySelector("#math-jax");
+script.addEventListener("load", function () {
+    mostrarExamen(20230);
+});
