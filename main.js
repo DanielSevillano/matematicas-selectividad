@@ -19,7 +19,7 @@ async function mostrarNavegacion() {
             seccionEdiciones.textContent = "";
 
             const tituloEdiciones = document.querySelector("#titulo-ediciones");
-            tituloEdiciones.textContent = "Exámenes de " + examen.curso;
+            tituloEdiciones.textContent = "📖 Exámenes de " + examen.curso;
 
             examen.ediciones.forEach(edicion => {
                 const botonEdicion = document.createElement("button");
