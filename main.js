@@ -5,27 +5,43 @@ window.MathJax = {
 };
 
 async function mostrarNavegacion() {
-    const navegacion = document.querySelector("nav");
+    const seccionCursos = document.querySelector("#cursos");
+    const seccionEdiciones = document.querySelector("#ediciones");
 
     const respuesta = await fetch("data\\index.json");
     const datos = await respuesta.json();
 
     datos.forEach(examen => {
-        examen.ediciones.forEach(edicion => {
-            let texto = "";
-            if (edicion == 0) texto += "Junio de ";
-            else if (edicion == 5) texto += "Septiembre de ";
-            else texto += "Reserva " + edicion + " de ";
-            texto += examen.curso;
+        const botonCurso = document.createElement("button");
+        botonCurso.textContent = examen.curso;
 
-            const boton = document.createElement("button");
-            boton.textContent = texto;
-            boton.addEventListener("click", function () {
-                mostrarExamen(examen.curso * 10 + edicion);
-            })
-            navegacion.append(boton);
-        })
+        botonCurso.addEventListener("click", function () {
+            seccionEdiciones.textContent = "";
+
+            const tituloEdiciones = document.querySelector("#titulo-ediciones");
+            tituloEdiciones.textContent = "Exámenes de " + examen.curso;
+
+            examen.ediciones.forEach(edicion => {
+                const botonEdicion = document.createElement("button");
+
+                let texto = "";
+                if (edicion == 0) texto += "Junio";
+                else if (edicion == 5) texto += "Septiembre";
+                else texto += "Reserva " + edicion;
+                botonEdicion.textContent = texto;
+
+                botonEdicion.addEventListener("click", function () {
+                    mostrarExamen(examen.curso * 10 + edicion);
+                })
+
+                seccionEdiciones.append(botonEdicion);
+            });
+        });
+
+        seccionCursos.append(botonCurso);
     });
+
+    if (seccionEdiciones.textContent == "") seccionCursos.firstChild.click();
 }
 
 async function obtenerEjercicio(examen, ejercicio) {

@@ -52,11 +52,14 @@ footer {
 }
 
 nav {
+    width: 100%;
+    max-width: 100ch;
+}
+
+section {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 100ch;
 }
 
 h2 {
