@@ -6,26 +6,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+    padding-inline: 20px;
     font-family: system-ui;
     line-height: 1.6;
 }
 
 header {
-    margin-inline: 20px;
     text-align: center;
 }
 
 main {
     width: 100%;
     max-width: 100ch;
-    margin-bottom: 30px;
-    padding-inline: 20px;
     box-sizing: border-box;
 }
 
 main.cargando::after {
     content: "";
     display: block;
+    margin-top: 20px;
     margin-inline: auto;
     width: 64px;
     height: 64px;
@@ -47,8 +47,7 @@ main.cargando::after {
 }
 
 footer {
-    margin-inline: 20px;
-    margin-bottom: 20px;
+    margin-block: 30px;
     text-align: center;
 }
 
@@ -56,7 +55,8 @@ nav {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    width: 100%;
+    max-width: 100ch;
 }
 
 h2 {

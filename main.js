@@ -86,12 +86,7 @@ async function mostrarEjercicio(examen, ejercicio) {
 
 async function mostrarExamen(examen) {
     const main = document.querySelector("main");
-
-    const articulos = document.getElementsByTagName("article");
-    for (const elemento of articulos) {
-        elemento.remove();
-    }
-
+    main.textContent = "";
     main.classList.add("cargando");
 
     const articulo = await obtenerExamen(examen);
