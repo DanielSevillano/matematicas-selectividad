@@ -1,0 +1,26 @@
+Considera
+$$A = \begin{pmatrix}
+    2 & 1 & 1 \\
+    1 & 0 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 0 \\
+    -1 & m \\
+    1 & 1
+\end{pmatrix}, \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    2 \\
+    -2 \\
+    3
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina los valores de $m$ para los que $AB$ no tiene inversa.</li>
+    <li>Determina los valores de $m$ para los que $BA$ no tiene inversa.</li>
+    <li>Para $m = 0$, resuelve, si es posible, el sistema dado por $BAX = C$ y halla una solución en la que $x + y + z = 0$.</li>
+</ol>

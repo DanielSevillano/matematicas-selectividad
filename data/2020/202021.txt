@@ -1,0 +1,3 @@
+Sabiendo que
+$$\lim_{x \to 0} \frac{xe^x - \ln(1+x) - (a+1)x}{x^2}$$
+es finito, calcula $a$ y el valor del límite.

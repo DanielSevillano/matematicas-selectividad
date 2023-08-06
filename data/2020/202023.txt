@@ -1,0 +1,11 @@
+Considera el sistema de ecuaciones
+$$\begin{cases}
+    ax + y + z = 1, \\
+    x + ay + z = a, \\
+    x + y + az = a^2.
+\end{cases}$$
+
+<ol>
+    <li>Discútelo según los valores de $a$.</li>
+    <li>Resuelve, si es posible, el sistema para $a = 1$ y $a = -2$.</li>
+</ol>

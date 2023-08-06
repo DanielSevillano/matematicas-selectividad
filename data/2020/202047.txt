@@ -1,0 +1,21 @@
+Considera
+$$A = \begin{pmatrix}
+    1 & -1 & m \\
+    m & 2 & -3 \\
+    m-1 & 0 & 4
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    5 \\
+    -1 \\
+    2
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    3 \\
+    1 \\
+    0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina los valores de $m$ para los que la ecuación $AX + B = C$ tiene solución única.</li>
+    <li>Para $m = 0$, halla $X$ tal que $AX + B = C$.</li>
+</ol>

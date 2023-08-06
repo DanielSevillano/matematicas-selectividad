@@ -1,0 +1,6 @@
+Considera los vectores $\vec{u} = (2, 1, 0)$, $\vec{v} = (1, 0, -1)$ y $\vec{w} = (a, b, 1)$.
+
+<ol>
+    <li>Halla $a$ y $b$ sabiendo que los tres vectores son linealmente dependientes y que $\vec{w}$ es ortogonal a $\vec{u}$.</li>
+    <li>Para $a = 1$, calcula el valor o valores de $b$ para que el volumen del paralelepípedo formado por dichos vectores sea de 6 unidades cúbicas.</li>
+<ol>

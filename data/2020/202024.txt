@@ -1,0 +1,10 @@
+Considera el punto $P(1, 0, -1)$ y la recta
+$$r \equiv \begin{cases}
+    x - y + 2z = 5, \\
+    x - z = 1.
+\end{cases}$$
+
+<ol>
+    <li>Determina el punto simétrico de $P$ respecto de la recta $r$.</li>
+    <li>Calcula el punto de la recta $r$ que dista $\sqrt{6}$ unidades de $P$.</li>
+</ol>

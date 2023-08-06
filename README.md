@@ -23,6 +23,6 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
     - [x] Junio
     - [x] Septiembre
     - [x] Reserva 1
-    - [ ] Reserva 2
-    - [ ] Reserva 3
-    - [ ] Reserva 4
+    - [x] Reserva 2
+    - [x] Reserva 3
+    - [x] Reserva 4

@@ -1,0 +1,10 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    -\frac{1}{2} & -\frac{\sqrt{3}}{2} \\
+    \frac{\sqrt{3}}{2} & -\frac{1}{2}
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula $A^{37}$ y $A^{41}$.</li>
+    <li>Halla el determinante de la matriz $3A^{52}(A^t)^4$, donde $A^t$ es la matriz traspuesta de $A$.</li>
+</ol>

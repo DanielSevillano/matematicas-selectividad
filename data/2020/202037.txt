@@ -1,0 +1,14 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & 1 \\
+    1 & 2
+\end{pmatrix} \quad \text{y} \quad
+\begin{pmatrix}
+    2 & 1 \\
+    2 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Sabiendo que una matriz $X$ verifica que $X^3AX = B^2$, halla los posibles valores de su determinante.</li>
+    <li>Determina, si existe, una matriz $Y$ que verifique $A^2YB^{-1} = A$.</li>
+</ol>

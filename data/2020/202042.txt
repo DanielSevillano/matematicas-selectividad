@@ -1,0 +1,11 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(t) = \frac{1}{1+e^t}.$$
+
+<ol>
+    <li>Calcula $\int f(t)dt$.
+    (Sugerencia: efectúa el cambio de variable $x = 1+e^t$).</li>
+    <li>Se define
+    $$g(x) = \int_0^x f(t)dt.$$
+    Calcula
+    $$\lim_{x \to 0} \frac{g(x)}{x}.$$</li>
+</ol>

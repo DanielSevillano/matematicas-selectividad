@@ -1,0 +1,12 @@
+Considera el sistema de ecuaciones
+$$\begin{cases}
+    -my + z = 1, \\
+    5x + 2y + mz = 0, \\
+    my + (m-3)z = -3.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema en función de $m$.</li>
+    <li>Para $m = 0$, resuelve el sistema.
+    Calcula, si es posible, una solución en la que $y = 5$.</li>
+</ol>

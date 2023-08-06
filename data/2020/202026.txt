@@ -1,0 +1,6 @@
+Considera las funciones $f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = -4x + 2$ y $g(x) = -x^2 + 2x + c$.
+
+<ol>
+    <li>Halla el valor de $c$ sabiendo que sus gráficas se cortan en el punto en el que $g$ alcanza su máximo.</li>
+    <li>Para $c = -3$, calcula el área de la región limitada por ambas gráficas.</li>
+</ol>

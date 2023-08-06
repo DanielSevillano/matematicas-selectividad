@@ -1,0 +1,8 @@
+Sea $f$ la función definida por
+$$f(x) = \frac{|x|}{2-x}$$
+para $x \neq 2$.
+
+<ol>
+    <li>Estudia la derivabilidad de $f$.</li>
+    <li>Determina los intervalos de crecimiento y de decrecimiento de $f$.</li>
+</ol>

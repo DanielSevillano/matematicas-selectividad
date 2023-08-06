@@ -1,0 +1,1 @@
+Calcula el valor de $a > 0$ para que el área comprendida entre la parábola $y = 3x^2 - 2ax$ y el eje de abscisas sea 4 unidades cuadradas.

@@ -1,0 +1,12 @@
+Considera el plano $\pi \equiv 2x - y + z - 3 = 0$, la recta
+$$r \equiv \begin{cases}
+    x = 3 + \lambda, \\
+    y = 1 - 2\lambda, \\
+    z = -2 - \lambda
+\end{cases}$$
+y el punto $P(1, 1, 2)$.
+
+<ol>
+    <li>Determina la ecuación general del plano perpendicular a $\pi$, paralelo a $r$ y que pasa por el punto $P$.</li>
+    <li>Calcula el punto simétrico de $P$ respecto de la recta $r$.</li>
+</ol>
