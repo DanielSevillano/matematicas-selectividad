@@ -1,0 +1,10 @@
+Calcula todas las matrices
+$$X = \begin{pmatrix}
+    a & b \\
+    c & d
+\end{pmatrix}$$
+tales que $a + d = 1$, tienen determinante 1 y cumplen $AX = AX$, siendo
+$$A = \begin{pmatrix}
+    0 & -1 \\
+    1 & 0
+\end{pmatrix}.$$

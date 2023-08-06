@@ -80,14 +80,44 @@ async function obtenerExamen(examen) {
     titulo.append(boton);
     articulo.append(titulo);
 
-    const lista = document.createElement("ol");
-    for (let i = 1; i <= 8; i++) {
-        const elemento = document.createElement("li");
-        const parrafo = await obtenerEjercicio(examen, i);
-        elemento.append(parrafo);
-        lista.append(elemento);
+    if (examen >= 20200) {
+        const lista = document.createElement("ol");
+        for (let i = 1; i <= 8; i++) {
+            const elemento = document.createElement("li");
+            const parrafo = await obtenerEjercicio(examen, i);
+            elemento.append(parrafo);
+            lista.append(elemento);
+        }
+
+        articulo.append(lista);
+    } else {
+        const opcionA = document.createElement("h3");
+        opcionA.textContent = "Opción A";
+        articulo.append(opcionA);
+
+        const listaA = document.createElement("ol");
+        for (let i = 1; i <= 4; i++) {
+            const elemento = document.createElement("li");
+            const parrafo = await obtenerEjercicio(examen, i);
+            elemento.append(parrafo);
+            listaA.append(elemento);
+        }
+        articulo.append(listaA);
+
+        const opcionB = document.createElement("h3");
+        opcionB.textContent = "Opción B";
+        articulo.append(opcionB);
+
+        const listaB = document.createElement("ol");
+        for (let i = 5; i <= 8; i++) {
+            const elemento = document.createElement("li");
+            const parrafo = await obtenerEjercicio(examen, i);
+            elemento.append(parrafo);
+            listaB.append(elemento);
+
+            articulo.append(listaB);
+        }
     }
-    articulo.append(lista);
 
     return articulo
 }

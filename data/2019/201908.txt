@@ -1,0 +1,6 @@
+Considera el triángulo cuyos vértices son los puntos $A(1, 1, 0)$, $B(1, 0, 2)$ y $C(0, 2, 1)$.
+
+<ol>
+    <li>Halla el área de dicho triángulo.</li>
+    <li>Calcula el coseno del ángulo en el vértice $A$.</li>
+</ol>

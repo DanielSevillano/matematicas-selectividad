@@ -1,0 +1,6 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = (x-a)e^x$.
+
+<ol>
+    <li>Determina $a$ sabiendo que la función tiene un punto crítico en $x = 0$.</li>
+    <li>Para $a = 1$, calcula los puntos de inflexión de la gráfica de $f$.</li>
+</ol>

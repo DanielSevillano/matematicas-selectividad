@@ -1,0 +1,8 @@
+Considera la función $f$ definida por
+$$f(x) = \frac{x^2 + 3x + 4}{2x + 2}$$
+para $x \neq -1$.
+
+<ol>
+    <li>Estudia y halla las asíntotas de la gráfica de $f$.</li>
+    <li>Determina los intervalos de crecimiento y de decrecimiento de $f$.</li>
+</ol>

@@ -1,0 +1,18 @@
+Dadas las matrices
+$$A = \begin{pmatrix}
+    2-m & 1 & 2m-1 \\
+    1 & m & 1 \\
+    m & 1 & 1
+\end{pmatrix}, \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    2m^2-1 \\
+    m \\
+    1
+\end{pmatrix},$$
+considera el sistema de ecuaciones lineales dado por $X^tA = B^t$, donde $X^t$, $B^t$ denotan las traspuestas.
+Discútelo según los distintos valores de $m$.

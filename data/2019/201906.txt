@@ -1,0 +1,7 @@
+Considera las funciones $f: (-2, +\infty) \to \mathbb{R}$, definida por $f(x) = \ln(x+2)$ y $g: \mathbb{R} \to \mathbb{R}$, definida por $g(x) = \frac{1}{2}(x-3)$.
+
+<ol>
+    <li>Esboza el recinto que determinan la gráfica de $f$, la gráfica de $g$, la recta $x = 1$ y la recta $x = 3$.
+    (No es necesario calcular los puntos de corte entre las dos gráficas).</li>
+    <li>Determina el área del recinto anterior.</li>
+</ol>

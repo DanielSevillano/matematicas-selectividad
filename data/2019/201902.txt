@@ -1,0 +1,5 @@
+Sea la función $f: (0, +\infty) \to \mathbb{R}$ definida por
+$$f(x) = \frac{1 + e^x}{1 - e^x}.$$
+
+Halla la primitiva de $f$ cuya gráfica pasa por el punto $(1, 1)$.
+(Sugerencia: cambio de variable $t = e^x$).
