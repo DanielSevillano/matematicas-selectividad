@@ -19,10 +19,4 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
     - [x] Junio
 - [x] 2022
 - [x] 2021
-- [ ] 2020
-    - [x] Junio
-    - [x] Septiembre
-    - [x] Reserva 1
-    - [x] Reserva 2
-    - [x] Reserva 3
-    - [x] Reserva 4
+- [x] 2020
