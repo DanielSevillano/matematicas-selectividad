@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones lineales
+$$\begin{cases}
+    x + y + 2z = 0, \\
+    (m+2)x + y - z = m, \\
+    3x + (m+2)y + z = m.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores de $m$.</li>
+    <li>Resuelve el sistema, si es posible, para $m = 0$.</li>
+</ol>

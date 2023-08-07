@@ -1,0 +1,7 @@
+Considera las rectas
+$$r \equiv \frac{x-2}{1} = \frac{y-k}{2} = \frac{z}{2} \quad \text{y} \quad s \equiv \frac{x+1}{-1} = \frac{y-1}{1} = \frac{z-3}{1}.$$
+
+<ol>
+    <li>Halla $k$ sabiendo que ambas rectas se cortan en un punto.</li>
+    <li>Para $k = 1$, halla la ecuación general del plano que contiene a $r$ y es paralelo a $s$.</li>
+</ol>

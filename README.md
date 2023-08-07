@@ -22,4 +22,4 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 - [x] 2020
 - [ ] 2019
     - [x] Junio
-    - [ ] Septiembre
+    - [x] Septiembre

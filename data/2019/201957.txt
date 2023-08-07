@@ -1,0 +1,1 @@
+Calcula, en grados, los tres ángulos de un triángulo sabiendo que el menor de ellos es la mitad del ángulo mayor y que la suma del ángulo menor y el ángulo mayor es el doble del otro ángulo.

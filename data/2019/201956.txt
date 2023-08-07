@@ -1,0 +1,6 @@
+Sea la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = xe^{-x^2}$.
+
+<ol>
+    <li>Calcula los puntos de corte de la gráfica de $f$ con los ejes coordenados y los extremos relativos de $f$ (abscisas en los que se obtienen y valores que se alcanzan).</li>
+    <li>Determina $a > 0$ de manera que sea $\frac{1}{4}$ el área del recinto determinado por la gráfica de $f$ en el intervalo $[0, a]$ y el eje de abscisas.</li>
+</ol>

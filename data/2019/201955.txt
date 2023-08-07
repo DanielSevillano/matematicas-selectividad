@@ -1,0 +1,7 @@
+Se sabe que la función $f: \mathbb{R} \to \mathbb{R}$, dada por
+$$\begin{cases}
+    \sin(x) + ax + b, & \text{si } x \leq 0, \\
+    \dfrac{\ln(x+1)}{x}, & \text{si } x > 0
+\end{cases}$$
+es derivable.
+Calcula $a$ y $b$.
