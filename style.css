@@ -85,6 +85,10 @@ button {
     transition: background 300ms;
 }
 
+button.seleccionado {
+    filter: invert(1);
+}
+
 button:hover {
     cursor: pointer;
 }

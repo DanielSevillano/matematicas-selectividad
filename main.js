@@ -36,12 +36,21 @@ async function mostrarNavegacion() {
 
                 seccionEdiciones.append(botonEdicion);
             });
+
+            const botones = seccionCursos.getElementsByTagName("button");
+            for (let boton of botones) {
+                if (boton == this) boton.classList.add("seleccionado");
+                else boton.classList.remove("seleccionado");
+            }
         });
 
         seccionCursos.append(botonCurso);
     });
 
-    if (seccionEdiciones.textContent == "") seccionCursos.firstChild.click();
+    if (seccionEdiciones.textContent == "") {
+        seccionCursos.firstChild.click();
+        seccionEdiciones.firstChild.click();
+    }
 }
 
 async function obtenerEjercicio(examen, ejercicio) {
@@ -142,4 +151,3 @@ async function mostrarExamen(examen) {
 }
 
 mostrarNavegacion();
-mostrarExamen(20230);
