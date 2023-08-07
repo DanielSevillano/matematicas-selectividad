@@ -102,6 +102,7 @@ ol ol {
 }
 
 li {
+    margin-block: 0.2em;
     padding-left: 0.125em;
 }
 
