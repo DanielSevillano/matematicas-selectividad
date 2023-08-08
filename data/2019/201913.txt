@@ -1,0 +1,16 @@
+Dadas las matrices
+$$A = \begin{pmatrix}
+    1 & m & 1 \\
+    m-1 & m & 0 \\
+    1 & 1 & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & -1 \\
+    2 & 0 \\
+    0 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula los valores de $m$ para los cuales $A$ tiene inversa.</li>
+    <li>Para $m = 2$, encuentra la matriz $X$ que cumple $AX - BB^t = I$, siendo $B^t$ la matriz traspuesta de $B$ e $I$ la matriz identidad de orden 3.</li>
+</ol>

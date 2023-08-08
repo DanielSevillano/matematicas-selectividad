@@ -1,0 +1,2 @@
+Calcula
+$$\int \ln\left(\frac{x^2 + 1}{x}\right)dx.$$

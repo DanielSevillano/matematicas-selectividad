@@ -1,0 +1,8 @@
+Considera el punto $A(2, 1, 0)$ y los planos $\pi_1 \equiv x + y + z = 0$ y $\pi_2 \equiv x - y + z = 0$.
+
+<ol>
+    <li>Calcula la recta que pasa por $A$ y es paralela a $\pi_1$ y $\pi_2$.</li>
+    <li>Calcula los puntos de la recta
+    $$s \equiv \frac{x-1}{2} = \frac{y-2}{3} = \frac{z}{2}$$
+    que equidistan de $\pi_1$ y $\pi_2$.</li>
+</ol>

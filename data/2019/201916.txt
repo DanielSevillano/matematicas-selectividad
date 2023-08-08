@@ -1,0 +1,6 @@
+Sean las funciones $f, g: [0, \pi] \to \mathbb{R}$ definidas por $f(x) = \sin(x)$ y $g(x) = \sin(2x)$.
+
+<ol>
+    <li>Esboza sus gráficas en unos mismos ejes coordenados y calcula sus puntos de corte.</li>
+    <li>Calcula el área del recinto limitado por ambas gráficas y las rectas $x = 0$ y $x = \frac{\pi}{3}$.</li>
+</ol>

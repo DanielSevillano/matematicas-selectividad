@@ -1,0 +1,2 @@
+Calcula
+$$\lim_{x \to 0} \frac{\cos(x) - e^{-2x} - 2x}{\sin^2(x)}.$$
