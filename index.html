@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="style.css" />
     <title>Matemáticas de Selectividad</title>
 
+    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+    <script type="module" src="theme.js"></script>
     <script defer src="load.js"></script>
 </head>
 
@@ -21,20 +23,16 @@
     </header>
 
     <nav>
-        <h2>Exámenes</h2>
-
-        <h3>📅 Año</h3>
-        <section id="cursos"></section>
-
-        <h3 id="titulo-ediciones"></h3>
-        <section id="ediciones"></section>
+        <h2>📘 Exámenes</h2>
     </nav>
 
     <main></main>
 
     <footer>
+        <fluent-divider></fluent-divider>
         🧐 Código fuente de la página web disponible en
-        <a href="https://github.com/DanielSevillano/matematicas-selectividad">GitHub</a>
+        <fluent-anchor appearance="hypertext" target="_blank"
+            href="https://github.com/DanielSevillano/matematicas-selectividad">GitHub</fluent-anchor>
     </footer>
 </body>
 

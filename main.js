@@ -5,52 +5,45 @@ window.MathJax = {
 };
 
 async function mostrarNavegacion() {
-    const seccionCursos = document.querySelector("#cursos");
-    const seccionEdiciones = document.querySelector("#ediciones");
+    const navegacion = document.querySelector("nav");
+    const navegacionExamenes = document.createElement("fluent-tabs");
 
     const respuesta = await fetch("data\\index.json");
     const datos = await respuesta.json();
 
     datos.forEach(examen => {
-        const botonCurso = document.createElement("button");
-        botonCurso.textContent = examen.curso;
+        const seccionCurso = document.createElement("fluent-tab");
+        seccionCurso.textContent = examen.curso;
+        navegacionExamenes.append(seccionCurso);
 
-        botonCurso.addEventListener("click", function () {
-            seccionEdiciones.textContent = "";
+        const navegacionEdiciones = document.createElement("fluent-tab-panel");
 
-            const tituloEdiciones = document.querySelector("#titulo-ediciones");
-            tituloEdiciones.textContent = "📖 Exámenes de " + examen.curso;
+        examen.ediciones.forEach(edicion => {
+            const botonEdicion = document.createElement("fluent-button");
+            let texto = "";
+            if (edicion == 0) texto += "Junio";
+            else if (edicion == 5) texto += "Septiembre";
+            else texto += "Reserva " + edicion;
+            botonEdicion.textContent = texto;
 
-            examen.ediciones.forEach(edicion => {
-                const botonEdicion = document.createElement("button");
+            botonEdicion.addEventListener("click", function () {
+                mostrarExamen(examen.curso * 10 + edicion);
 
-                let texto = "";
-                if (edicion == 0) texto += "Junio";
-                else if (edicion == 5) texto += "Septiembre";
-                else texto += "Reserva " + edicion;
-                botonEdicion.textContent = texto;
-
-                botonEdicion.addEventListener("click", function () {
-                    mostrarExamen(examen.curso * 10 + edicion);
-                })
-
-                seccionEdiciones.append(botonEdicion);
+                const botones = navegacion.getElementsByTagName("fluent-button");
+                for (let boton of botones) {
+                    if (boton == this) boton.appearance = "accent";
+                    else boton.appearance = "neutral";
+                }
             });
 
-            const botones = seccionCursos.getElementsByTagName("button");
-            for (let boton of botones) {
-                if (boton == this) boton.classList.add("seleccionado");
-                else boton.classList.remove("seleccionado");
-            }
+            navegacionEdiciones.append(botonEdicion);
         });
 
-        seccionCursos.append(botonCurso);
-    });
+        navegacionExamenes.append(navegacionEdiciones);
+    })
 
-    if (seccionEdiciones.textContent == "") {
-        seccionCursos.firstChild.click();
-        seccionEdiciones.firstChild.click();
-    }
+    navegacion.append(navegacionExamenes);
+    navegacion.querySelector("fluent-button").click();
 }
 
 async function obtenerEjercicio(examen, ejercicio) {
@@ -74,18 +67,16 @@ async function obtenerExamen(examen) {
     const curso = codigo.slice(0, 4);
     const edicion = codigo.slice(-1)
 
-    let texto = "";
+    let texto = "📋 ";
     if (edicion == 0) texto += "Junio de ";
     else if (edicion == 5) texto += "Septiembre de ";
     else texto += "Reserva " + edicion + " de ";
     texto += curso;
     titulo.innerText = texto;
 
-    const boton = document.createElement("button");
+    const boton = document.createElement("fluent-button");
     boton.textContent = "🖨️ Imprimir";
-    boton.addEventListener("click", function () {
-        window.print()
-    });
+    boton.addEventListener("click", () => window.print());
     titulo.append(boton);
     articulo.append(titulo);
 
@@ -141,12 +132,16 @@ async function mostrarEjercicio(examen, ejercicio) {
 
 async function mostrarExamen(examen) {
     const main = document.querySelector("main");
+    const footer = document.querySelector("footer");
+    const carga = document.createElement("fluent-progress-ring");
+    footer.style.visibility = "hidden";
     main.textContent = "";
-    main.classList.add("cargando");
+    main.append(carga);
 
     const articulo = await obtenerExamen(examen);
-    main.classList.remove("cargando");
+    main.textContent = "";
     main.append(articulo);
+    footer.style.visibility = "visible";
     MathJax.typeset();
 }
 

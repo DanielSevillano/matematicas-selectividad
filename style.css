@@ -8,7 +8,7 @@ body {
     align-items: center;
     gap: 20px;
     padding-inline: 20px;
-    font-family: system-ui;
+    font-family: var(--body-font, system-ui);
     line-height: 1.6;
 }
 
@@ -22,44 +22,14 @@ main {
     box-sizing: border-box;
 }
 
-main.cargando::after {
-    content: "";
-    display: block;
-    margin-top: 20px;
-    margin-inline: auto;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    border-width: 6px;
-    border-style: solid;
-    border-inline-color: transparent;
-    animation: carga 1s linear infinite;
-}
-
-@keyframes carga {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 footer {
-    margin-block: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
 nav {
     width: 100%;
     max-width: 100ch;
-}
-
-section {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
 }
 
 h1 {
@@ -73,24 +43,12 @@ h2 {
     gap: 10px;
 }
 
+h2:first-of-type {
+    margin-bottom: 5px;
+}
+
 article>h3:last-of-type {
     margin-top: 2.5em;
-}
-
-button {
-    padding: 8px 16px;
-    font-weight: bold;
-    border-radius: 20px;
-    border-color: transparent;
-    transition: background 300ms;
-}
-
-button.seleccionado {
-    filter: invert(1);
-}
-
-button:hover {
-    cursor: pointer;
 }
 
 ol {
@@ -108,6 +66,32 @@ li {
 
 li::marker {
     font-weight: bold;
+}
+
+fluent-tabs {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+fluent-tab:not(:first-child) {
+    margin-left: 5px;
+}
+
+fluent-tab-panel {
+    margin-top: 5px;
+}
+
+fluent-tab-panel>fluent-button+fluent-button {
+    margin-left: 5px;
+}
+
+fluent-progress-ring {
+    margin-top: 20px;
+    margin-inline: auto;
+}
+
+footer>fluent-divider {
+    margin-bottom: 20px;
 }
 
 mjx-container {
