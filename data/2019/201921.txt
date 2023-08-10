@@ -1,0 +1,7 @@
+Se considera la función $f: (-2\pi, 2\pi) \to \mathbb{R}$ definida por
+$$f(x) = \frac{\cos(x)}{2 + \cos(x)}.$$
+
+<ol>
+    <li>Calcula sus intervalos de crecimiento y de decrecimiento.</li>
+    <li>Halla sus máximos y sus mínimos relativos (abscisas en los que se obtienen y valores que se alcanzan).</li>
+</ol>

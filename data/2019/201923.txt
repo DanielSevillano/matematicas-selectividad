@@ -1,0 +1,18 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    a & b & c \\
+    d & e & f \\
+    g & h & i
+\end{pmatrix}$$
+de la que se sabe que tiene determinante 5.
+
+<ol>
+    <li>Calcula, indicando las propiedades que utilices, los determinantes de las matrices siguientes:
+    $$3A \quad \text{y} \quad
+    \begin{pmatrix}
+        2a & d+3a & g \\
+        2b & e+3b & h \\
+        2c & f+3c & i
+    \end{pmatrix}.$$</li>
+    <li>Si $B$ es otra matriz cuadrada de orden 3 y tiene determinante 4, calcula, indicando también las propiedades que utilices, el determinante de la matriz $BA^{-1}$.</li>
+</ol>

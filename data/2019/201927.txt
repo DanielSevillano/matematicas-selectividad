@@ -1,0 +1,16 @@
+Dadas las matrices
+$$A = \begin{pmatrix}
+    a & 1 & 1 \\
+    1 & a & 1 \\
+    1 & 1 & a
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Encuentra los valores de $a$ para los que el sistema dado por $AX = 2X$ tiene infinitas soluciones.</li>
+    <li>Para $a = 0$, si es posible, resuelve $AX = 2X$.</li>
+</ol>
