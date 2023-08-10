@@ -19,6 +19,7 @@ header {
 main {
     width: 100%;
     max-width: 100ch;
+    min-height: 100vh;
     box-sizing: border-box;
 }
 

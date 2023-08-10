@@ -132,16 +132,13 @@ async function mostrarEjercicio(examen, ejercicio) {
 
 async function mostrarExamen(examen) {
     const main = document.querySelector("main");
-    const footer = document.querySelector("footer");
     const carga = document.createElement("fluent-progress-ring");
-    footer.style.visibility = "hidden";
     main.textContent = "";
     main.append(carga);
 
     const articulo = await obtenerExamen(examen);
     main.textContent = "";
     main.append(articulo);
-    footer.style.visibility = "visible";
     MathJax.typeset();
 }
 
