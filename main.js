@@ -28,12 +28,14 @@ async function mostrarNavegacion() {
             botonEdicion.textContent = texto;
 
             botonEdicion.addEventListener("click", function () {
-                mostrarExamen(examen.curso * 10 + edicion);
+                if (this.appearance == "neutral") {
+                    mostrarExamen(examen.curso * 10 + edicion);
 
-                const botones = navegacion.getElementsByTagName("fluent-button");
-                for (let boton of botones) {
-                    if (boton == this) boton.appearance = "accent";
-                    else boton.appearance = "neutral";
+                    const botones = navegacion.getElementsByTagName("fluent-button");
+                    for (let boton of botones) {
+                        if (boton == this) boton.appearance = "accent";
+                        else boton.appearance = "neutral";
+                    }
                 }
             });
 
