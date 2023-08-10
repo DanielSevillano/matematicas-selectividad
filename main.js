@@ -17,6 +17,7 @@ async function mostrarNavegacion() {
         navegacionExamenes.append(seccionCurso);
 
         const navegacionEdiciones = document.createElement("fluent-tab-panel");
+        const contenedor = document.createElement("div");
 
         examen.ediciones.forEach(edicion => {
             const botonEdicion = document.createElement("fluent-button");
@@ -36,7 +37,8 @@ async function mostrarNavegacion() {
                 }
             });
 
-            navegacionEdiciones.append(botonEdicion);
+            contenedor.append(botonEdicion);
+            navegacionEdiciones.append(contenedor);
         });
 
         navegacionExamenes.append(navegacionEdiciones);

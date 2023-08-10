@@ -82,8 +82,10 @@ fluent-tab-panel {
     margin-top: 5px;
 }
 
-fluent-tab-panel>fluent-button+fluent-button {
-    margin-left: 5px;
+fluent-tab-panel>div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 fluent-progress-ring {
@@ -109,7 +111,7 @@ mjx-container {
     header,
     footer,
     nav,
-    button {
+    fluent-button {
         display: none;
     }
 }
