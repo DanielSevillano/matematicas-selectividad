@@ -50,7 +50,7 @@ async function mostrarNavegacion() {
     navegacion.querySelector("fluent-button").click();
 }
 
-async function obtenerEjercicio(examen, ejercicio) {
+async function obtenerEjercicio(examen, ejercicio, resuelto = false) {
     const parrafo = document.createElement("p");
 
     const curso = String(examen).slice(0, 4);
@@ -60,6 +60,28 @@ async function obtenerEjercicio(examen, ejercicio) {
     const datos = await respuesta.text();
 
     parrafo.innerHTML = datos;
+
+    if (resuelto) {
+        const contenedorResolucion = document.createElement("fluent-accordion");
+        const resolucion = document.createElement("fluent-accordion-item");
+        const tituloResolucion = document.createElement("span");
+        const textoResolucion = document.createElement("div");
+
+        tituloResolucion.textContent = "Resolución";
+        tituloResolucion.slot = "heading";
+
+        const ruta = "data\\" + curso + "\\" + examen + ejercicio + "R.txt";
+        const respuesta = await fetch(ruta);
+        const datos = await respuesta.text();
+
+        textoResolucion.innerHTML = datos;
+
+        resolucion.append(tituloResolucion);
+        resolucion.append(textoResolucion);
+        contenedorResolucion.append(resolucion);
+        parrafo.append(contenedorResolucion);
+    }
+
     return parrafo
 }
 
@@ -84,11 +106,21 @@ async function obtenerExamen(examen) {
     titulo.append(boton);
     articulo.append(titulo);
 
+    const respuesta = await fetch("data\\tags.json");
+    const datos = await respuesta.json();
+
     if (examen >= 20200) {
         const lista = document.createElement("ol");
-        for (let i = 1; i <= 8; i++) {
+        for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
             const elemento = document.createElement("li");
-            const parrafo = await obtenerEjercicio(examen, i);
+
+            const codigo = examen * 10 + ejercicio;
+            const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
+
+            let resuelto = false
+            if (datosEjercicio != undefined && datosEjercicio.resuelto) resuelto = true;
+
+            const parrafo = await obtenerEjercicio(examen, ejercicio, resuelto);
             elemento.append(parrafo);
             lista.append(elemento);
         }
@@ -100,9 +132,9 @@ async function obtenerExamen(examen) {
         articulo.append(opcionA);
 
         const listaA = document.createElement("ol");
-        for (let i = 1; i <= 4; i++) {
+        for (let ejercicio = 1; ejercicio <= 4; ejercicio++) {
             const elemento = document.createElement("li");
-            const parrafo = await obtenerEjercicio(examen, i);
+            const parrafo = await obtenerEjercicio(examen, ejercicio);
             elemento.append(parrafo);
             listaA.append(elemento);
         }

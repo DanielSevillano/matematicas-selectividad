@@ -7,7 +7,7 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 - [x] Visualización de exámenes
 - [x] Impresión de exámenes
 - [x] Navegación de exámenes por año
-- [ ] Ejercicios resueltos
+- [x] Ejercicios resueltos
 - [ ] Categorías de ejercicios
 - [ ] Página de inicio con subpáginas de exámenes y ejercicios
 - [ ] Navegación de ejercicios por categoría

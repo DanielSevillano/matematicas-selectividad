@@ -94,6 +94,19 @@ fluent-progress-ring {
     margin-inline: auto;
 }
 
+fluent-accordion {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+fluent-accordion-item>span {
+    margin-left: 10px;
+}
+
+fluent-accordion-item>div {
+    margin: 20px;
+}
+
 footer>fluent-divider {
     margin-bottom: 20px;
 }

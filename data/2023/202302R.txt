@@ -1,0 +1,25 @@
+<ol>
+    <li>Calculamos en primer lugar la pendiente de la recta que pasa por los puntos $(-2, f(-2)) = (-2, 1)$ y $(2, f(2)) = (2, 9)$.
+    $$m = \frac{9-1}{2-(-2)} = 2.$$
+
+    Por otro lado, la pendiente de la recta tangente a la gráfica de $f$ en un punto $a$ viene dada por el valor de $f'(a)$.
+    La derivada de $f$ es $f'(x) = 3x^2 - 2$.
+
+    Hallemos los puntos en los que la pendiente de la recta tangente es 2.
+    $$f'(x) = 2 \Leftrightarrow 3x^2 - 2 = 2 \Leftrightarrow 3x^2 = 4 \Leftrightarrow x = \pm \sqrt{\frac{4}{3}} = \pm \frac{2}{\sqrt{3}}.$$
+    Por tanto, las abscisas de los puntos en los que las pendientes coinciden son $x_1 = -\frac{2}{\sqrt{3}}$ y $x_2 = \frac{2}{\sqrt{3}}$.</li>
+
+    <li>Calculamos en primer lugar la segunda derivada de $f$.
+    $$f''(x) = 6x.$$
+
+    Para hallar el punto de inflexión, igualamos la segunda derivada de $f$ a cero.
+    $$f''(x) = 0 \Leftrightarrow 6x = 0 \Leftrightarrow x = 0.$$
+    Así que en $x = 0$ se encuentra el único punto de inflexión.
+
+    La ecuación de la recta tangente a la gráfica de $f$ en $x = 0$ es
+    $$y - f(0) = f'(0)(x - 0) \Leftrightarrow y - 5 = -2x \Leftrightarrow y = -2x + 5.$$
+
+    La recta normal a la gráfica de $f$ tiene como pendiente $-\frac{1}{f'(0)}$.
+    Por tanto, su ecuación es
+    $$y - f(0) = -\frac{1}{f'(0)}(x - 0) \Leftrightarrow y - 5 = \frac{1}{2}x \Leftrightarrow y = \frac{1}{2}x + 5.$$</li>
+</ol>
