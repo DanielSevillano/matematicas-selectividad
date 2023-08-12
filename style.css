@@ -125,7 +125,8 @@ mjx-container {
     header,
     footer,
     nav,
-    fluent-button {
+    fluent-button,
+    fluent-accordion {
         display: none;
     }
 }
