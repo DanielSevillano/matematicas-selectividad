@@ -76,7 +76,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false) {
         tituloResolucion.textContent = "Resolución";
         tituloResolucion.slot = "heading";
 
-        const ruta = "data\\" + curso + "\\" + examen + ejercicio + "R.txt";
+        const ruta = "data\\" + curso + "\\R" + examen + ejercicio + ".txt";
         const respuesta = await fetch(ruta);
         const datos = await respuesta.text();
 
@@ -118,7 +118,7 @@ async function obtenerExamen(examen) {
     titulo.append(boton);
     articulo.append(titulo);
 
-    const respuesta = await fetch("data\\tags.json");
+    const respuesta = await fetch("data\\metadata.json");
     const datos = await respuesta.json();
 
     if (examen >= 20200) {
