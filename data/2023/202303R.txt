@@ -10,7 +10,7 @@ Por tanto, la ecuación de la recta tangente es
 $$y - f(0) = f'(0)(x-0) \Leftrightarrow y = x.$$
 
 Representamos la función $f$ y la recta $y = x$ para visualizar el área del recinto.
-[Imagen]
+<!-- Imagen -->
 
 Calculamos los puntos de corte de la función con la recta.
 $$\begin{cases}
