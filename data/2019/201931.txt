@@ -1,0 +1,6 @@
+Según un determinado modelo, la concentración en sangre de cierto medicamento viene dada por la función $C(t) = te^{-t/2}$ mg/ml, siendo $t$ el tiempo en horas transcurridas desde que se le administra el medicamento al enfermo.
+
+<ol>
+    <li>Determina, si existe, el valor máximo absoluto de la función y en qué momento se alcanza.</li>
+    <li>Sabiendo que la máxima concentración sin peligro para el paciente es 1 mg/ml, señala si en algún momento del tratamiento hay riesgo para el paciente.</li>
+</ol>

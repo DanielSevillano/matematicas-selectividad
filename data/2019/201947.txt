@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones lineales.
+$$\begin{cases}
+    mx + (m+1)z = m, \\
+    my + z = m, \\
+    y + mz = m.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores de $m$.</li>
+    <li>Resuélvelo, si es posible, para $m = 1$.</li>
+</ol>

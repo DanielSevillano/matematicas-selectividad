@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones lineales.
+$$\begin{cases}
+    x + \lambda y + z = 4, \\
+    -\lambda x + y + z = 1, \\
+    x + y + z = \lambda + 3.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores de $\lambda$.</li>
+    <li>Resuelve el sistema, si es posible, para $\lambda = 1$.</li>
+</ol>

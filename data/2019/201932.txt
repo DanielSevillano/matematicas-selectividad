@@ -1,0 +1,2 @@
+Dado un número real $a > 0$, considera la función $f: \mathbb{R} \to \mathbb{R}$, dada por $f(x) = x^2 - ax$, y la recta $y = 2ax$.
+Determina $a$ sabiendo que el área del recinto limitado por la gráfica de $f$ y la recta anterior es 36.

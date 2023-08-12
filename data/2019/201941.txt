@@ -1,0 +1,1 @@
+Dada la función $f: (0, 2\pi) \to \mathbb{R}$, definida por $f(x) = \sin(x) + \cos(x)$, calcula sus máximos y mímimos relativos y los puntos de inflexión de la gráfica de $f$ (abscisas en los que se obtienen y valores que se alcanzan).

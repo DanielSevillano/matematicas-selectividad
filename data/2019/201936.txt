@@ -1,0 +1,8 @@
+Sea $f: \left[0, \frac{\pi}{6}\right] \to \mathbb{R}$ una función continua y sea $F$ la primitiva de $f$ que cumple $F(0) = \frac{\pi}{3}$ y $F\left(\frac{\pi}{6}\right) = \pi$.
+
+<ol>
+    <li>Calcula
+    $$\int_0^{\frac{\pi}{6}} (3f(x) - \cos(x))dx.$$</li>
+    <li>Calcula
+    $$\int_0^{\frac{\pi}{6}} \sin(F(x))f(x)dx.$$</li>
+</ol>

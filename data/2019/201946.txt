@@ -1,0 +1,3 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = -4x^2 + a$, siendo $a > 0$ un número real.
+Esboza el recinto limitado por la gráfica de $f$ y la recta $y = 0$.
+Calcula $a$ sabiendo que el área del recinto es 18.

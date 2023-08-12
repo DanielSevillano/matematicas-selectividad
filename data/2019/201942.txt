@@ -1,0 +1,11 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función dada por
+$$f(x) = \begin{cases}
+    -x^2 + 6x - 8, & \text{si } x \leq 4, \\
+    x^2 - 6x + 8, & \text{si } x > 4.
+\end{cases}$$
+
+<ol>
+    <li>Calcula los puntos de corte entre la gráfica de $f$ y la recta $y = 2x - 4$.
+    Esboza el recinto que delimitan la gráfica de $f$ y la recta.</li>
+    <li>Calcula el área del recinto anterior.</li>
+</ol>

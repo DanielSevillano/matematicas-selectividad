@@ -1,0 +1,8 @@
+Considera la recta
+$$r \equiv \frac{x-4}{2} = \frac{y}{1} = \frac{z-1}{5}$$
+y el plano $\pi \equiv 2x + y - z + 3 = 0$.
+
+<ol>
+    <li>Halla la ecuación general del plano perpendicular a $\pi$ que contiene a $r$.</li>
+    <li>Calcula la distancia entre $r$ y $\pi$.</li>
+</ol>

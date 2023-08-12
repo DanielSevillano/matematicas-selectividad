@@ -1,0 +1,21 @@
+Dadas las matrices
+$$A = \begin{pmatrix}
+    1 & m & 1 \\
+    m-1 & m & 0 \\
+    1 & 1 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    0 \\
+    1 \\
+    k
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Estudia el rango de $A$ según los valores de $m$.</li>
+    <li>Sabiendo que para $m = 1$ el sistema dado por $AX = B$ tiene solución, encuentra $k$ y resuélvelo.</li>
+</ol>
