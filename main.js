@@ -22,8 +22,14 @@ async function mostrarNavegacion() {
         examen.ediciones.forEach(edicion => {
             const botonEdicion = document.createElement("fluent-button");
             let texto = "";
-            if (edicion == 0) texto += "Junio";
-            else if (edicion == 5) texto += "Septiembre";
+            if (edicion == 0) {
+                if (examen.curso == 2020) texto += "Julio";
+                else texto += "Junio";
+            }
+            else if (edicion == 5) {
+                if (examen.curso >= 2021) texto += "Julio";
+                else texto += "Septiembre";
+            }
             else texto += "Reserva " + edicion;
             botonEdicion.textContent = texto;
 
@@ -94,8 +100,14 @@ async function obtenerExamen(examen) {
     const edicion = codigo.slice(-1)
 
     let texto = "📋 ";
-    if (edicion == 0) texto += "Junio de ";
-    else if (edicion == 5) texto += "Septiembre de ";
+    if (edicion == 0) {
+        if (curso == 2020) texto += "Julio de ";
+        else texto += "Junio de ";
+    }
+    else if (edicion == 5) {
+        if (curso >= 2021) texto += "Julio de ";
+        else texto += "Septiembre de ";
+    }
     else texto += "Reserva " + edicion + " de ";
     texto += curso;
     titulo.innerText = texto;
