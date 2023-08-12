@@ -3,14 +3,24 @@
         "ejercicio": 202301,
         "resuelto": true,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Funciones"
         ]
     },
     {
         "ejercicio": 202302,
         "resuelto": true,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202303,
+        "resuelto": true,
+        "categorias": [
+            "Análisis",
+            "Integrales"
         ]
     }
 ]

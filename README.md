@@ -13,13 +13,11 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 - [ ] Navegación de ejercicios por categoría
 - [ ] Funcionalidad para generar un examen aleatorio
 
-## 📖 Contenido
+## 📘 Exámenes
 
 - [x] 2023
     - [x] Junio
-- [x] 2022
-- [x] 2021
-- [x] 2020
+- [x] 2022-2020
 - [ ] 2019
     - [x] Junio
     - [x] Septiembre
@@ -27,3 +25,10 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
     - [x] Reserva 2
     - [ ] Reserva 3
     - [ ] Reserva 4
+
+## 📋 Ejercicios resueltos
+
+- [ ] Junio de 2023
+    - [x] 1 a 3
+    - [ ] 4 a 8
+- [ ] Junio de 2022
