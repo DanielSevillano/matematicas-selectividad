@@ -33,6 +33,10 @@ nav {
     max-width: 100ch;
 }
 
+section {
+    padding-inline: 0.25em;
+}
+
 h1 {
     margin-bottom: 0;
 }
@@ -48,16 +52,38 @@ h2:first-of-type {
     margin-bottom: 5px;
 }
 
+h3 {
+    font-size: larger;
+}
+
 article>h3:last-of-type {
     margin-top: 2.5em;
 }
 
-ol {
-    padding-left: 1.5em;
+section>h4 {
+    margin-top: 1.75em;
+    margin-bottom: 0.25em;
+    font-size: large;
 }
 
-ol ol {
-    padding-left: 1em;
+section:first-of-type>h4 {
+    margin-top: 1em;
+}
+
+section>ul {
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+section>p {
+    margin-top: 0.5em;
+}
+
+ol {
+    padding-left: 1.5em;
     list-style-type: lower-latin;
 }
 
@@ -118,13 +144,14 @@ mjx-container {
 }
 
 @media print {
-    li {
+    section {
         break-inside: avoid;
     }
 
     header,
     footer,
     nav,
+    section>ul,
     fluent-button,
     fluent-accordion {
         display: none;
