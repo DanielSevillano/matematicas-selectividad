@@ -22,5 +22,43 @@
             "Análisis",
             "Integrales"
         ]
+    },
+    {
+        "ejercicio": 202304,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202305,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202306,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices"
+        ]
+    },
+    {
+        "ejercicio": 202307,
+        "resuelto": false,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "ejercicio": 202308,
+        "resuelto": false,
+        "categorias": [
+            "Geometría"
+        ]
     }
 ]
