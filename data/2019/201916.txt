@@ -1,4 +1,4 @@
-Sean las funciones $f, g: [0, \pi] \to \mathbb{R}$ definidas por $f(x) = \sin(x)$ y $g(x) = \sin(2x)$.
+Sean las funciones $f, g: [0, \pi] \to \mathbb{R}$ definidas por $f(x) = \mathrm{sen}(x)$ y $g(x) = \mathrm{sen}(2x)$.
 
 <ol>
     <li>Esboza sus gráficas en unos mismos ejes coordenados y calcula sus puntos de corte.</li>
