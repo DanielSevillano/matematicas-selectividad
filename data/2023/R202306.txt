@@ -1,0 +1,55 @@
+<ol>
+    <li>Calculamos en primer lugar el determinante de la matriz $A$.
+    $$|A| = \begin{vmatrix}
+        0 & 0 & m \\
+        m & 0 & 0 \\
+        0 & m & 0
+    \end{vmatrix} = m^3.$$
+
+    La inversa de la matriz $A$ existe si y solo si su determinante es no nulo.
+    $$|A| = 0 \Leftrightarrow m^3 = 0 \Leftrightarrow m = 0.$$
+
+    Por tanto, la matriz $A$ tiene inversa si y solo si $m \neq 0$.</li>
+
+    <li>Resolvemos la ecuación matricial para $m \neq -1$.
+    $$AX + X = B \Leftrightarrow (A + I)X = B \Leftrightarrow X = (A + I)^{-1}B.$$
+
+    Operando,
+    $$A + I = \begin{pmatrix}
+        1 & 0 & m \\
+        m & 1 & 0 \\
+        0 & m & 1
+    \end{pmatrix},$$
+    Además, $|A + I| = m^3 + 1 \neq 0$ para $m \neq -1$, así que esta matriz es invertible.
+
+    Para hallar la inversa de la matriz $A + I$, calculamos primero su matriz adjunta.
+    $$\mathrm{Adj}(A + I) = \begin{pmatrix}
+        1 & -m & m^2 \\
+        m^2 & 1 & -m \\
+        -m & m^2 & 1
+    \end{pmatrix}.$$
+
+    Ahora podemos calcular la inversa como
+    $$(A + I)^{-1} = \frac{1}{|A + I|}(\mathrm{Adj}(A))^t = \frac{1}{m^3+1}\begin{pmatrix}
+        1 & m^2 & -m \\
+        -m & 1 & m^2 \\
+        m^2 & -m & 1
+    \end{pmatrix}.$$
+
+    Por último, calculamos la matriz $X$ operando.
+    $$X = (A + I)^{-1}B = \frac{1}{m^3+1}\begin{pmatrix}
+        1 & m^2 & -m \\
+        -m & 1 & m^2 \\
+        m^2 & -m & 1
+    \end{pmatrix}
+    \begin{pmatrix}
+        1 & 0 & 0 \\
+        0 & 0 & 1 \\
+        0 & 1 & 0
+    \end{pmatrix} =
+    \frac{1}{m^3+1}\begin{pmatrix}
+        1 & -m & m^2 \\
+        -m & m^2 & 1 \\
+        m^2 & 1 & -m
+    \end{pmatrix}.$$</li>
+</ol>

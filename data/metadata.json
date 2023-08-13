@@ -25,7 +25,7 @@
     },
     {
         "ejercicio": 202304,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -33,7 +33,7 @@
     },
     {
         "ejercicio": 202305,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas"
@@ -41,7 +41,7 @@
     },
     {
         "ejercicio": 202306,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices"

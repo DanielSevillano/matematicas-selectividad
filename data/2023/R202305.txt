@@ -1,0 +1,62 @@
+Llamamos $x$ al número de coches blancos vendidos, $y$ al número de coches negros y $z$ al número de coches rojos.
+
+En primer lugar, si el 60% de los coches blancos más el 50% de los coches negros representan el 30% de los coches vendidos, entonces
+$$0.6x + 0.5y = 0.3(x + y + z) \Rightarrow 6x + 5y = 3(x + y + z).$$
+
+Además, si el 20% de los coches blancos junto con el 60% de los coches negros y el 60% de los coches rojos representan la mitad de los coches vendidos,
+$$0.2x + 0.6y + 0.6z = 0.5(x + y + z) \Rightarrow 2x + 6y + 6z = 5(x + y + z).$$
+
+Por último, si se han vendido 100 coches negros más que blancos,
+$$y = x + 100.$$
+
+Por tanto, podemos plantear el sistema de ecuaciones lineales
+$$\begin{cases}
+    6x + 5y = 3(x + y + z), \\
+    2x + 6y + 6z = 5(x + y + z), \\
+    y = x + 100
+\end{cases} \Rightarrow
+\begin{cases}
+    3x + 2y - 3z = 0, \\
+    -3x + y + z = 0, \\
+    -x + y = 100.
+\end{cases}$$
+
+La matriz de coeficientes del sistema es
+$$A = \begin{pmatrix}
+    3 & 2 & -3 \\
+    -3 & 1 & 1 \\
+    -1 & 1 & 0
+\end{pmatrix}.$$
+Como $\det(A) = 1 \neq 0$, el rango de la matriz de coeficientes es máximo.
+Por el teorema de Rouché–Frobenius, este es un sistema compatible determinado, así que tiene solución única.
+
+Resolvemos el sistema mediante el método de Gauss.
+$$\begin{pmatrix}
+    3 & 2 & -3 & 0 \\
+    -3 & 1 & 1 & 0 \\
+    -1 & 1 & 0 & 100
+\end{pmatrix} \xrightarrow{F_1 + 3F_2}
+\begin{pmatrix}
+    -6 & 5 & 0 & 0 \\
+    -3 & 1 & 1 & 0 \\
+    -1 & 1 & 0 & 100
+\end{pmatrix} \xrightarrow{F_1 - 5F_3}
+\begin{pmatrix}
+    -1 & 0 & 0 & -500 \\
+    -3 & 1 & 1 & 0 \\
+    -1 & 1 & 0 & 100
+\end{pmatrix}.$$
+
+El sistema resultante es
+$$\begin{cases}
+    -x = -500, \\
+    -3x + y + z = 0, \\
+    -x + y = 100.
+\end{cases}$$
+
+Por tanto,
+$$\begin{cases}
+    x = 500, \\
+    y = 600, \\
+    z = 900.
+\end{cases}$$

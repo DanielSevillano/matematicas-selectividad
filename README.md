@@ -24,6 +24,6 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 ## 📋 Ejercicios resueltos
 
 - [ ] Junio de 2023
-    - [x] 1 a 3
-    - [ ] 4 a 8
+    - [x] 1 a 6
+    - [ ] 7 y 8
 - [ ] Junio de 2022
