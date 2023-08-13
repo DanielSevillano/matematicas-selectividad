@@ -1,0 +1,21 @@
+[
+    {
+        "bloque": "Análisis",
+        "categorias": [
+            "Funciones",
+            "Optimización",
+            "Integrales"
+        ]
+    },
+    {
+        "bloque": "Álgebra",
+        "categorias": [
+            "Matrices",
+            "Sistemas"
+        ]
+    },
+    {
+        "bloque": "Geometría",
+        "categorias": []
+    }
+]
