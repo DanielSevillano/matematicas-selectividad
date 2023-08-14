@@ -23,6 +23,6 @@ $$\begin{cases}
 
 Calculamos el área del recinto.
 $$\begin{align}
-A & = \int_0^2 (x-f(x))dx = \int_0^1 (x - (-x^2+x))dx + \int_1^2 (x - (x^2-x))dx \\
+\Delta & = \int_0^2 (x-f(x))dx = \int_0^1 (x - (-x^2+x))dx + \int_1^2 (x - (x^2-x))dx \\
 & = \int_0^1 x^2dx + \int_1^2 (-x^2 + 2x)dx = \left[\frac{x^3}{3}\right]_0^1 + \left[-\frac{x^3}{3} + x^2\right]_1^2 = 1 \; u^2.
 \end{align}$$

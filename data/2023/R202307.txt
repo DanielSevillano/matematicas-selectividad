@@ -1,0 +1,32 @@
+En primer lugar, calculamos el punto medio $M$ del segmento $\overline{PQ}$.
+$$M = \left(\frac{2}{2}, \frac{3+1}{2}, \frac{8+6}{2}\right) = (1, 2, 7).$$
+Además, el vector director del segmento $\overline{PQ}$ es $\vec{PQ} = (2, -2, -2)$.
+
+Llamamos $\pi$ al plano que queremos calcular.
+Como $\pi$ es perpendicular al segmento $\overline{PQ}$, entonces $\vec{n}_\pi = \vec{PQ} = (2, -2, -2)$.
+Además, $M(1, 2, 7) \in \pi$.
+Por tanto, podemos hallar la ecuación del plano como
+$$\pi \equiv 2(x-1) - 2(y-2) - 2(z-7) = 0 \Leftrightarrow 2x - 2y - 2z + 16 = 0 \Leftrightarrow x - y - z + 8 = 0.$$
+
+Calculamos ahora los puntos de corte del plano $\pi$ con los ejes coordenados.
+
+<ul>
+    <li>Si $y = z = 0$, obtenemos el punto $A(-8, 0, 0)$.</li>
+    <li>Si $x = z = 0$, obtenemos el punto $B(0, 8, 0)$.</li>
+    <li>Si $x = y = 0$, obtenemos el punto $C(0, 0, 8)$.</li>
+</ul>
+
+El área del triángulo viene dado por
+$$\Delta = \frac{1}{2}|\vec{AB} \times \vec{AC}|.$$
+
+Hallamos los vectores $\vec{AB} = (8, 8, 0)$ y $\vec{AC} = (8, 0, 8)$ y hacemos su producto vectorial.
+$$\vec{AB} \times \vec{AC} = \begin{vmatrix}
+    \vec{i} & \vec{j} & \vec{k} \\
+    8 & 8 & 0 \\
+    8 & 0 & 8
+\end{vmatrix} = (64, -64, -64),$$
+con módulo
+$$|\vec{AB} \times \vec{AC}| = |(64, -64, -64)| = \sqrt{64^2 + 64^2 + 64^2} = \sqrt{3 \cdot 64^2} = 64\sqrt{3}.$$
+
+Por tanto, el área del triángulo es
+$$\Delta = \frac{1}{2}|\vec{AB} \times \vec{AC}| = \frac{1}{2}64\sqrt{3} = 32\sqrt{3} \; u^2.$$

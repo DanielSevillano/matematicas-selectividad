@@ -9,8 +9,8 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 - [x] Navegación de exámenes por año
 - [x] Ejercicios resueltos
 - [x] Categorías de ejercicios
-- [ ] Página de inicio con subpáginas de exámenes y ejercicios
 - [ ] Navegación de ejercicios por categoría
+- [ ] Página de inicio con subpáginas de exámenes y ejercicios
 - [ ] Funcionalidad para generar un examen aleatorio
 
 ## 📘 Exámenes
@@ -23,7 +23,5 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 
 ## 📋 Ejercicios resueltos
 
-- [ ] Junio de 2023
-    - [x] 1 a 6
-    - [ ] 7 y 8
+- [x] Junio de 2023
 - [ ] Junio de 2022

@@ -49,14 +49,14 @@
     },
     {
         "ejercicio": 202307,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
     },
     {
         "ejercicio": 202308,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
