@@ -7,6 +7,12 @@ scriptMain.async = false;
 
 scriptMain.addEventListener("load", function () {
     document.head.append(scriptMathJax);
+
+    window.MathJax = {
+        tex: {
+            inlineMath: [["$", "$"]],
+        },
+    };
 });
 
 document.head.append(scriptMain);

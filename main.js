@@ -1,9 +1,3 @@
-window.MathJax = {
-    tex: {
-        inlineMath: [["$", "$"]],
-    },
-};
-
 async function mostrarNavegacionExamenes() {
     const navegacion = document.querySelector("nav");
     const navegacionExamenes = document.createElement("fluent-tabs");
