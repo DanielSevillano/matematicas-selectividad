@@ -1,5 +1,5 @@
-async function mostrarNavegacionExamenes() {
-    const navegacion = document.querySelector("nav");
+async function mostrarNavegacion() {
+    const navegacion = document.querySelector("#navegacion-local");
     const navegacionExamenes = document.createElement("fluent-tabs");
 
     const respuesta = await fetch("data\\index.json");
@@ -48,103 +48,6 @@ async function mostrarNavegacionExamenes() {
 
     navegacion.append(navegacionExamenes);
     navegacion.querySelector("fluent-button").click();
-}
-
-async function mostrarNavegacionEjercicios() {
-    const navegacion = document.querySelector("nav");
-    const navegacionEjercicios = document.createElement("fluent-tabs");
-
-    const respuesta = await fetch("data\\tags.json");
-    const datos = await respuesta.json();
-
-    datos.forEach(bloque => {
-        const seccionBloque = document.createElement("fluent-tab");
-        seccionBloque.textContent = bloque.bloque;
-        navegacionEjercicios.append(seccionBloque);
-
-        const navegacionCategorias = document.createElement("fluent-tab-panel");
-        const contenedor = document.createElement("div");
-
-        bloque.categorias.forEach(categoria => {
-            const botonCategoria = document.createElement("fluent-button");
-            botonCategoria.textContent = categoria;
-
-            botonCategoria.addEventListener("click", function () {
-                if (this.appearance == "neutral") {
-                    mostrarCategoria(categoria);
-
-                    const botones = navegacion.getElementsByTagName("fluent-button");
-                    for (let boton of botones) {
-                        if (boton == this) boton.appearance = "accent";
-                        else boton.appearance = "neutral";
-                    }
-                }
-            });
-
-            contenedor.append(botonCategoria);
-            navegacionCategorias.append(contenedor);
-        });
-
-        navegacionEjercicios.append(navegacionCategorias);
-    });
-
-    navegacion.append(navegacionEjercicios);
-    navegacion.querySelector("fluent-button").click();
-}
-
-async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias = []) {
-    const seccion = document.createElement("section");
-    const titulo = document.createElement("h4");
-    const parrafo = document.createElement("p");
-
-    let numeracion = ejercicio;
-    if (examen < 20200 && ejercicio >= 5) numeracion = ejercicio - 4;
-    titulo.textContent = "Ejercicio " + numeracion;
-    seccion.append(titulo);
-
-    const contenedorCategorias = document.createElement("ul");
-    categorias.forEach(categoria => {
-        const elementoCategoria = document.createElement("li");
-        const enlaceCategoria = document.createElement("fluent-anchor");
-        enlaceCategoria.textContent = categoria;
-        enlaceCategoria.appearance = "outline";
-        elementoCategoria.append(enlaceCategoria);
-        contenedorCategorias.append(elementoCategoria);
-    })
-    seccion.append(contenedorCategorias);
-
-    const curso = String(examen).slice(0, 4);
-    const ruta = "data\\" + curso + "\\" + examen + ejercicio + ".txt";
-
-    const respuesta = await fetch(ruta);
-    const datos = await respuesta.text();
-
-    parrafo.innerHTML = datos;
-
-    if (resuelto) {
-        const contenedorResolucion = document.createElement("fluent-accordion");
-        const resolucion = document.createElement("fluent-accordion-item");
-        const tituloResolucion = document.createElement("span");
-        const textoResolucion = document.createElement("div");
-
-        tituloResolucion.textContent = "Resolución";
-        tituloResolucion.slot = "heading";
-
-        const ruta = "data\\" + curso + "\\R" + examen + ejercicio + ".txt";
-        const respuesta = await fetch(ruta);
-        const datos = await respuesta.text();
-
-        textoResolucion.innerHTML = datos;
-
-        resolucion.append(tituloResolucion);
-        resolucion.append(textoResolucion);
-        contenedorResolucion.append(resolucion);
-        parrafo.append(contenedorResolucion);
-    }
-
-    seccion.append(parrafo);
-
-    return seccion
 }
 
 async function obtenerExamen(examen) {
@@ -215,22 +118,6 @@ async function obtenerExamen(examen) {
     return articulo
 }
 
-async function obtenerCategoria(categoria) {
-    const articulo = document.createElement("article");
-
-    const respuesta = await fetch("data\\metadata.json");
-    const datos = await respuesta.json();
-
-    const ejercicios = datos.filter(ejercicio => ejercicio.categorias.includes(categoria));
-
-    for (let ejercicio of ejercicios) {
-        const parrafo = await obtenerEjercicio(parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10);
-        articulo.append(parrafo);
-    };
-
-    return articulo
-}
-
 async function mostrarExamen(examen) {
     const main = document.querySelector("main");
     const carga = document.createElement("fluent-progress-ring");
@@ -243,16 +130,4 @@ async function mostrarExamen(examen) {
     MathJax.typeset();
 }
 
-async function mostrarCategoria(categoria) {
-    const main = document.querySelector("main");
-    const carga = document.createElement("fluent-progress-ring");
-    main.textContent = "";
-    main.append(carga);
-
-    const articulo = await obtenerCategoria(categoria);
-    main.textContent = "";
-    main.append(articulo);
-    MathJax.typeset();
-}
-
-mostrarNavegacionExamenes();
+mostrarNavegacion();
