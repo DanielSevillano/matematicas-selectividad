@@ -1,4 +1,4 @@
-Considera los plantis $\pi_1 \equiv x + y + 2 = 0$ y $\pi_2 \equiv x - z - 1 = 0$, así como la recta
+Considera los planos $\pi_1 \equiv x + y + 2 = 0$ y $\pi_2 \equiv x - z - 1 = 0$, así como la recta
 $$r \equiv \begin{cases}
     2x + z = 1, \\
     y = 1.
