@@ -1,0 +1,64 @@
+html {
+    color-scheme: light dark;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-inline: 20px;
+    font-family: var(--body-font, system-ui);
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    max-width: 100ch;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section {
+    margin-top: 40px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    gap: 15px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p:first-child {
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+}
+
+fluent-card {
+    padding: 20px;
+}
+
+fluent-card>h3 {
+    margin: 0;
+}
+
+fluent-card>p {
+    margin-top: 0.5em;
+}
+
+footer>fluent-divider {
+    margin-block: 20px;
+}

@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Una página web para ver los exámenes de Selectividad de matemáticas de Andalucía. ">
+        content="Una página web para ver los exámenes de Selectividad de matemáticas de Andalucía.">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Matemáticas de Selectividad</title>
 
     <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
-    <script type="module" src="theme.js"></script>
-    <script defer src="load.js"></script>
+    <script type="module" src="js/theme.js"></script>
 </head>
 
 <body>
@@ -22,16 +21,40 @@
         <h1>Matemáticas de Selectividad</h1>
 
         <nav id="navegacion-global">
-            <fluent-anchor appearance="accent">Exámenes</fluent-anchor>
+            <fluent-anchor appearance="accent">Inicio</fluent-anchor>
+            <fluent-anchor href="/examenes.html">Exámenes</fluent-anchor>
             <fluent-anchor href="/ejercicios.html">Ejercicios</fluent-anchor>
         </nav>
     </header>
 
-    <nav id="navegacion-local">
-        <h2>📘 Exámenes</h2>
-    </nav>
+    <main>
+        <p>¡Bienvenido a Matemáticas de Selectividad! 🥳</p>
 
-    <main></main>
+        <p>En esta página puedes encontrar los exámenes de Selectividad de matemáticas de Andalucía más recientes, con
+            ejercicios resueltos y distintas formas de navegar por ellos para que te sea más sencillo encontrar lo que
+            buscas.</p>
+
+        <p>Este es un proyecto en pleno desarrollo y de código abierto, gratuito y sin anuncios. Cualquiera puede
+            contribuir, así que toda ayuda es bienvenida.</p>
+
+        <p>Espero que esta página te sea de gran ayuda y que te vaya fenomenal este curso. ¡Mucho ánimo! 😊</p>
+
+        <section>
+            <h2>📘 Contenido</h2>
+            <div>
+                <fluent-card>
+                    <h3>Exámenes</h3>
+                    <p>Navega por los exámenes más recientes ordenados por año.</p>
+                    <fluent-anchor href="/examenes.html">Ir a la página</fluent-anchor>
+                </fluent-card>
+                <fluent-card>
+                    <h3>Ejercicios</h3>
+                    <p>Navega por los ejercicios ordenados por bloques y categorías.</p>
+                    <fluent-anchor href="/ejercicios.html">Ir a la página</fluent-anchor>
+                </fluent-card>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <fluent-divider></fluent-divider>

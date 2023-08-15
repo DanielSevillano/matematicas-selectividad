@@ -3,8 +3,8 @@ scriptMathJax.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 const ruta = window.location.pathname;
 const scriptMain = document.createElement("script");
-if (ruta.includes("ejercicios")) scriptMain.src = "ejercicios.js";
-else scriptMain.src = "main.js";
+if (ruta.includes("ejercicios")) scriptMain.src = "js\\ejercicios.js";
+else scriptMain.src = "js\\examenes.js";
 scriptMain.async = false;
 
 scriptMain.addEventListener("load", function () {

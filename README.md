@@ -10,7 +10,7 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 - [x] Ejercicios resueltos
 - [x] Categorías de ejercicios
 - [x] Navegación de ejercicios por categoría
-- [ ] Página de inicio con subpáginas de exámenes y ejercicios
+- [x] Página de inicio con subpáginas de exámenes y ejercicios
 - [ ] Funcionalidad para generar un examen aleatorio
 
 ## 📘 Exámenes
