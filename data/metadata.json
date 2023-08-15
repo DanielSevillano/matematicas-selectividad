@@ -1,69 +1,5 @@
 [
     {
-        "ejercicio": 202301,
-        "resuelto": true,
-        "categorias": [
-            "Análisis",
-            "Funciones"
-        ]
-    },
-    {
-        "ejercicio": 202302,
-        "resuelto": true,
-        "categorias": [
-            "Análisis",
-            "Funciones"
-        ]
-    },
-    {
-        "ejercicio": 202303,
-        "resuelto": true,
-        "categorias": [
-            "Análisis",
-            "Integrales"
-        ]
-    },
-    {
-        "ejercicio": 202304,
-        "resuelto": true,
-        "categorias": [
-            "Análisis",
-            "Integrales"
-        ]
-    },
-    {
-        "ejercicio": 202305,
-        "resuelto": true,
-        "categorias": [
-            "Álgebra",
-            "Sistemas"
-        ]
-    },
-    {
-        "ejercicio": 202306,
-        "resuelto": true,
-        "categorias": [
-            "Álgebra",
-            "Matrices"
-        ]
-    },
-    {
-        "ejercicio": 202307,
-        "resuelto": true,
-        "categorias": [
-            "Geometría",
-            "Problemas métricos"
-        ]
-    },
-    {
-        "ejercicio": 202308,
-        "resuelto": true,
-        "categorias": [
-            "Geometría",
-            "Problemas métricos"
-        ]
-    },
-    {
         "ejercicio": 202201,
         "resuelto": false,
         "categorias": [
@@ -125,6 +61,134 @@
         "categorias": [
             "Geometría",
             "Lugares geométricos"
+        ]
+    },
+    {
+        "ejercicio": 202211,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202212,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 202213,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202214,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202215,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices"
+        ]
+    },
+    {
+        "ejercicio": 202216,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202217,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Lugares geométricos"
+        ]
+    },
+    {
+        "ejercicio": 202218,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
+        "ejercicio": 202301,
+        "resuelto": true,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202302,
+        "resuelto": true,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202303,
+        "resuelto": true,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202304,
+        "resuelto": true,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202305,
+        "resuelto": true,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202306,
+        "resuelto": true,
+        "categorias": [
+            "Álgebra",
+            "Matrices"
+        ]
+    },
+    {
+        "ejercicio": 202307,
+        "resuelto": true,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
+        "ejercicio": 202308,
+        "resuelto": true,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
         ]
     }
 ]
