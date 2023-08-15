@@ -16,6 +16,10 @@
     },
     {
         "bloque": "Geometría",
-        "categorias": []
+        "categorias": [
+            "Vectores",
+            "Lugares geométricos",
+            "Problemas métricos"
+        ]
     }
 ]
