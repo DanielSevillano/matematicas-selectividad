@@ -31,3 +31,9 @@ fluent-card>h3 {
 #progreso fluent-card>p {
     margin-block: 0;
 }
+
+@media (prefers-color-scheme: light) {
+    fluent-card {
+        background-color: hsl(208, 50%, 40%, 0.05);
+    }
+}
