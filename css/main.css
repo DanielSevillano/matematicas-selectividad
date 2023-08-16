@@ -20,6 +20,7 @@ main {
     width: 100%;
     max-width: 100ch;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 footer {
@@ -41,7 +42,7 @@ h1 {
     margin-bottom: 0;
 }
 
-p:first-child {
+main>p:first-child {
     text-align: center;
     font-weight: 700;
     font-size: larger;
@@ -55,10 +56,10 @@ fluent-card>h3 {
     margin: 0;
 }
 
-fluent-card>p {
+#contenido fluent-card>p {
     margin-top: 0.5em;
 }
 
-footer>fluent-divider {
-    margin-block: 20px;
+#progreso fluent-card>p {
+    margin-block: 0;
 }

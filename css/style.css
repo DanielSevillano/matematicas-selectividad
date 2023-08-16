@@ -19,13 +19,8 @@ header {
 main {
     width: 100%;
     max-width: 100ch;
-    min-height: 100vh;
     box-sizing: border-box;
-}
-
-footer {
     margin-bottom: 30px;
-    text-align: center;
 }
 
 nav {
@@ -137,10 +132,6 @@ fluent-accordion-item>div {
     margin: 20px;
 }
 
-footer>fluent-divider {
-    margin-bottom: 20px;
-}
-
 mjx-container {
     max-width: 100%;
     overflow-x: auto;
@@ -153,7 +144,6 @@ mjx-container {
     }
 
     header,
-    footer,
     nav,
     section>ul,
     fluent-button,

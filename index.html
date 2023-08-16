@@ -14,6 +14,7 @@
 
     <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
     <script type="module" src="js/theme.js"></script>
+    <script defer src="js/main.js"></script>
 </head>
 
 <body>
@@ -34,14 +35,11 @@
             ejercicios resueltos y distintas formas de navegar por ellos para que te sea más sencillo encontrar lo que
             buscas.</p>
 
-        <p>Este es un proyecto en pleno desarrollo y de código abierto, gratuito y sin anuncios. Cualquiera puede
-            contribuir, así que toda ayuda es bienvenida.</p>
-
-        <p>Espero que esta página te sea de gran ayuda y que te vaya fenomenal este curso. ¡Mucho ánimo! 😊</p>
+        <p>Espero que te sea de gran ayuda y que te vaya fenomenal este curso. ¡Mucho ánimo! 😊</p>
 
         <section>
             <h2>📘 Contenido</h2>
-            <div>
+            <div id="contenido">
                 <fluent-card>
                     <h3>Exámenes</h3>
                     <p>Navega por los exámenes más recientes ordenados por año.</p>
@@ -54,14 +52,23 @@
                 </fluent-card>
             </div>
         </section>
-    </main>
 
-    <footer>
-        <fluent-divider></fluent-divider>
-        🧐 Código fuente de la página web disponible en
-        <fluent-anchor appearance="hypertext" target="_blank"
-            href="https://github.com/DanielSevillano/matematicas-selectividad">GitHub</fluent-anchor>
-    </footer>
+        <section>
+            <h2>📋 Progreso</h2>
+            <div id="progreso">
+            </div>
+        </section>
+
+        <section>
+            <h2>💻 Acerca del proyecto</h2>
+            <p>Este es un proyecto en pleno desarrollo y de código abierto.
+                Puedes encontrar el código fuente, proponer cambios y reportar errores en
+                <fluent-anchor href="https://github.com/DanielSevillano/matematicas-selectividad" target="_blank"
+                    appearance="hypertext">GitHub</fluent-anchor>.
+                Cualquiera puede contribuir y queda mucho contenido por añadir, así que toda ayuda es bienvenida.
+            </p>
+        </section>
+    </main>
 </body>
 
 </html>
