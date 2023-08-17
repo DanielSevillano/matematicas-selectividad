@@ -1,2 +1,4 @@
 Calcula
 $$\int_3^8 \frac{1}{\sqrt{1+x} - 1}dx.$$
+
+(Sugerencia: efectúa el cambio de variable $t = \sqrt{1+x} - 1$).

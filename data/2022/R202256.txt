@@ -1,0 +1,47 @@
+<ol>
+    <li>Calculamos el determinante.
+    $$\begin{vmatrix}
+        a & c & b \\
+        2x & 2z & 2y \\
+        -3p & -3r & -3q
+    \end{vmatrix} = 2(-3)\begin{vmatrix}
+        a & c & b \\
+        x & z & y \\
+        p & r & q
+    \end{vmatrix} = (-1)(-6)\begin{vmatrix}
+        a & b & c \\
+        x & y & z \\
+        p & q & r
+    \end{vmatrix} = -6\begin{vmatrix}
+        a & b & c \\
+        p & q & r \\
+        x & y & z
+    \end{vmatrix} = 12.$$</li>
+
+    <li>Calculamos el determinante.
+    $$\begin{vmatrix}
+        x & a-3p & -2a \\
+        y & b-3q & -2b \\
+        z & c-3r & -2c
+    \end{vmatrix} = \begin{vmatrix}
+        x & a & -2a \\
+        y & b & -2b \\
+        z & c & -2c
+    \end{vmatrix} + \begin{vmatrix}
+        x & -3p & -2a \\
+        y & -3q & -2b \\
+        z & -3r & -2c
+    \end{vmatrix} = (-3)(-2)\begin{vmatrix}
+        x & p & a \\
+        y & q & b \\
+        z & r & c
+    \end{vmatrix} = -6\begin{vmatrix}
+        a & p & x \\
+        b & q & y \\
+        c & r & z
+    \end{vmatrix} = -6\begin{vmatrix}
+        a & b & c \\
+        p & q & r \\
+        x & y & z
+    \end{vmatrix} = 12.$$</li>
+</ol>

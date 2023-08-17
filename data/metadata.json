@@ -321,7 +321,7 @@
     },
     {
         "ejercicio": 202251,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones"
@@ -337,7 +337,7 @@
     },
     {
         "ejercicio": 202253,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -361,7 +361,7 @@
     },
     {
         "ejercicio": 202256,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices"
@@ -369,7 +369,7 @@
     },
     {
         "ejercicio": 202257,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Lugares geométricos"

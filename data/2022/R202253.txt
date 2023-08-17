@@ -1,0 +1,14 @@
+Hacemos el cambio de variable
+$$t = \sqrt{1+x} - 1 \Leftrightarrow (t+1)^2 = 1+x \Leftrightarrow x = (t+1)^2 - 1.$$
+Derivando, $dx = 2(t+1)dt$.
+
+Hallamos en primer lugar una primitiva de la función aplicando el cambio de variable.
+$$\int \frac{1}{\sqrt{1+x} - 1}dx = \int \frac{1}{t}2(t+1)dt = 2\int 1dt + 2\int \frac{1}{t}dt = 2t + 2\ln(t).$$
+Deshaciendo el cambio de variable,
+$$\int \frac{1}{\sqrt{1+x} - 1}dx = 2(t + \ln(t)) = 2(\sqrt{1+x} - 1 + \ln(\sqrt{1+x} - 1)).$$
+
+Por último, calculamos la integral definida mediante la regla de Barrow.
+$$\begin{align*}
+    & \int_3^8 \frac{1}{\sqrt{1+x} - 1}dx = \left[2(\sqrt{1+x} - 1 + \ln(\sqrt{1+x} - 1))\right]_3^8 = \\
+    & = 2(\sqrt{9} - 1 + \ln(\sqrt{9}-1)) - 2(\sqrt{4} - 1 + \ln(\sqrt{4}-1)) = 2(2 + \ln(2)) - 2 = 2(1 + \ln(2)).
+\end{align*}$$
