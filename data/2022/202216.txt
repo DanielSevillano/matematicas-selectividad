@@ -1,6 +1,6 @@
 En un estudio del ciclo del sueño se monitoriza la fase NO-REM (es el momento del sueño que el cuerpo utiliza para descansar físicamente).
 Esta fase se divide a su vez en tres momentos: Fase I (adormecimiento), Fase II (sueño ligero) y Fase III (sueño profundo).
-Una persona dedica el $75\%$ de su sueño a la fase NO-REM.
+Una persona dedica el 75% de su sueño a la fase NO-REM.
 Además, el tiempo que dedica a la Fase II es el doble que el de la Fase I y III juntas.
 Por otro lado, a la Fase III se dedica el cuádruple que a la Fase I.
 Si una persona ha dormido 8 horas, ¿cuántos minutos dedica a las Fases I, II y III del ciclo del sueño?

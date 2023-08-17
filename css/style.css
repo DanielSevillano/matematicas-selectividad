@@ -69,6 +69,18 @@ section>p {
     margin-top: 0.5em;
 }
 
+img {
+    display: block;
+    max-width: min(100%, 30ch);
+    margin: 1em auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    img {
+        filter: invert(1);
+    }
+}
+
 fluent-tabs {
     max-width: 100%;
     overflow-x: auto;
