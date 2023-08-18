@@ -1,0 +1,12 @@
+<ol>
+    <li>Justifica que es posible hacer un pago de 34,50 euros cumpliendo las siguientes restricciones:
+    <ul>
+        <li>Utilizando únicamente monedas de 50 céntimos, de 1 euro y de 2 euros.</li>
+        <li>Se tienen que utilizar exactamente un total de 30 monedas.</li>
+        <li>Tiene que haber igual númmero de monedas de 1 euro como de 50 céntimos y 2 euros juntas.</li>
+    </ul>
+
+    ¿De cuántas maneras y con cuántas monedas de cada tipo se puede hacer el pago?</li>
+
+    <li>Si se redondea la cantidad a pagar a 35 euros, justifica si es posible o no seguir haciendo el pago bajo las mismas condiciones que en el apartado anterior.</li>
+</ol>

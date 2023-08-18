@@ -1,0 +1,6 @@
+Considera las funciones $f$ y $g: \mathbb{R} \to \mathbb{R}$ dadas por $f(x) = 6x - x^2$ y $g(x) = |x^2 - 2x|$.
+
+<ol>
+    <li>Esboza el recinto limitado por las gráficas de $f$ y $g$ y calcula los puntos de corte de dichas gráficas.</li>
+    <li>Calcula el área del recinto limitado por las gráficas de $f$ y $g$.</li>
+</ol>

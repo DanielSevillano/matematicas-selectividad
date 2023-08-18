@@ -1,0 +1,9 @@
+Considera las funciones $f$ y $g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = 3 - x^2$ y $g(x) = -\frac{x^2}{4}$.
+
+<ol>
+    <li>Calcula la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1$ y comprueba que también es tangente a la gráfica de $g$.
+    Determina el punto de tangencia con la gráfica de $g$.</li>
+    <li>Esboza el recinto limitado por la recta $y = 4-2x$ y las gráficas de $f$ y $g$.
+    Calcula todos los puntos de corte entre las gráficas (y la recta).</li>
+    <li>Calcula el área del recinto descrito en el apartado anterior.</li>
+</ol>

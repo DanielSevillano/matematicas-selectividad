@@ -1,0 +1,6 @@
+Determina $k \neq 0$ sabiendo que la función $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \begin{cases}
+    3 - kx^2, & \text{si } x \leq 1, \\
+    \frac{2}{kx}, & \text{si } x > 1
+\end{cases}$$
+es derivable.
