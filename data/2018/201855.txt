@@ -1,0 +1,6 @@
+Considera la función $f$ definida por $f(x) = a\ln(x) + bx^2 + x$ para $x > 0$.
+
+<ol>
+    <li>Halla $a$ y $b$ sabiendo que $f$ tiene extremos relativos en $x = 1$ y en $x = 2$.</li>
+    <li>¿Qué tipo de extremos tiene $f$ en $x = 1$ y en $x = 2$?</li>
+</ol>

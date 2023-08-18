@@ -1,0 +1,17 @@
+Considera las siguientes matrices:
+$$A = \begin{pmatrix}
+    0 & 0 & 1 \\
+    0 & -1 & 0 \\
+    1 & 0 & 0
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    a & b & c \\
+    0 & 1 & 0 \\
+    -1 & 0 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina, si existen, los valores de $a$, $b$ y $c$ para los que las matrices $A$ y $B$ conmutan.</li>
+    <li>Calcula $A^2$, $A^3$, $A^{2017}$ y $A^{2018}$.</li>
+    <li>Calcula, si existe, la matriz inversa de $A$.</li>
+</ol>

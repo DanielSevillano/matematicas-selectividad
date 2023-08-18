@@ -1,0 +1,7 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = e^{-2x}$.
+
+<ol>
+    <li>Determina el punto de la gráfica de $f$ en el que la recta tangente es $y = -2ex$.</li>
+    <li>Esboza el recinto limitado por la gráfica de $f$, la recta $y = -2ex$ y el eje de ordenadas.</li>
+    <li>Calcula el área del recinto descrito en el apartado anterior.</li>
+</ol>

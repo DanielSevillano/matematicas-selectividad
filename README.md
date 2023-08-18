@@ -2,17 +2,6 @@
 
 Una página web para ver los exámenes de Selectividad de matemáticas de Andalucía.
 
-## 📅 Hoja de ruta
-
-- [x] Visualización de exámenes
-- [x] Impresión de exámenes
-- [x] Navegación de exámenes por año
-- [x] Ejercicios resueltos
-- [x] Categorías de ejercicios
-- [x] Navegación de ejercicios por categoría
-- [x] Página de inicio con subpáginas de exámenes y ejercicios
-- [ ] Funcionalidad para generar un examen aleatorio
-
 ## 📘 Exámenes
 
 - [x] 2023
@@ -20,6 +9,8 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 - [x] 2019 a 2022
 - [ ] 2018
     - [x] Junio
+    - [x] Septiembre
+- [ ] 2017
 
 ## 📋 Ejercicios resueltos
 

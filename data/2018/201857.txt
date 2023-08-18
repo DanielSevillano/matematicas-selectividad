@@ -1,0 +1,12 @@
+Considera el siguiente sistema de ecuaciones lineales:
+$$\begin{cases}
+    x + y + mz = m^2, \\
+    y - z = m, \\
+    x + my + z = m.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores del parámetro $m$.</li>
+    <li>Resuélvelo para $m = 1$.
+    Para dicho valor de $m$, calcula, si es posible, una solución en la que $z = 2$.</li>
+</ol>

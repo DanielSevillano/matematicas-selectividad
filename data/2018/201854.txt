@@ -1,0 +1,11 @@
+Considera las rectas
+$$r \equiv \frac{x+1}{2} = \frac{y}{1} = \frac{z+1}{3} \quad \text{y} \quad
+s \equiv \begin{cases}
+    2x - 3y = -5, \\
+    y - 2z = -1.
+\end{cases}$$
+
+<ol>
+    <li>Estudia y determina la posición relativa de $r$ y $s$.</li>
+    <li>Calcula la distancia entre $r$ y $s$.</li>
+</ol>

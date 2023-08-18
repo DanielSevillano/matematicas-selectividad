@@ -1,0 +1,11 @@
+Considera las rectas
+$$r \equiv \frac{x-1}{2} = \frac{y+1}{m} = z \quad \text{y} \quad
+s \equiv \begin{cases}
+    x + nz = -2, \\
+    y - z = -3.
+\end{cases}$$
+
+<ol>
+    <li>Halla los valores de $m$ y $n$ para los que $r$ y $s$ se cortan perpendicularmente.</li>
+    <li>Para $m = 3$ y $n = 1$, calcula la ecuación general del plano que contiene a $r$ y a $s$.</li>
+</ol>
