@@ -4,5 +4,5 @@ para $x \neq 2$.
 
 <ol>
     <li>Calcula $\int f(x)dx$.</li>
-    <li>Calcula la primitiva de $f$ cuya gráfica para por el punto $(3, 5)$.</li>
+    <li>Calcula la primitiva de $f$ cuya gráfica pasa por el punto $(3, 5)$.</li>
 </ol>
