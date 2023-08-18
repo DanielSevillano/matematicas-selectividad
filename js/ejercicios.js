@@ -70,7 +70,7 @@ async function obtenerCategoria(categoria) {
         if (ejercicio != undefined && ejercicio.resuelto) resuelto = true;
 
         const parrafo = await obtenerEjercicio(parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, [], true);
-        articulo.prepend(parrafo);
+        articulo.append(parrafo);
     };
 
     return articulo
