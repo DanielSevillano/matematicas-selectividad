@@ -34,6 +34,6 @@ fluent-card>h3 {
 
 @media (prefers-color-scheme: light) {
     fluent-card {
-        background-color: hsl(208, 50%, 40%, 0.05);
+        background-color: hsl(0, 0%, 80%, 0.05);
     }
 }
