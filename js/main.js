@@ -8,6 +8,8 @@ function tarjetaProgreso(numero, texto) {
 
 async function mostrarProgreso() {
     const progreso = document.querySelector("#progreso");
+    const carga = document.createElement("fluent-progress-ring");
+    progreso.append(carga);
 
     const respuestaExamenes = await fetch("data\\index.json");
     const datosExamenes = await respuestaExamenes.json();
@@ -45,6 +47,7 @@ async function mostrarProgreso() {
     });
     tarjetaEjerciciosCategorizados = tarjetaProgreso(numero, "ejercicios categorizados");
 
+    progreso.textContent = "";
     progreso.append(tarjetaExamenes, tarjetaEjercicios, tarjetaCategorias, tarjetaEjerciciosResueltos, tarjetaEjerciciosCategorizados);
 }
 

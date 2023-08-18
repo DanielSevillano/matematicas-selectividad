@@ -26,3 +26,8 @@ main {
 h1 {
     margin-bottom: 0.2em;
 }
+
+fluent-progress-ring {
+    margin-top: 20px;
+    margin-inline: auto;
+}

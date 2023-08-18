@@ -100,11 +100,6 @@ fluent-tab-panel>div {
     gap: 5px;
 }
 
-fluent-progress-ring {
-    margin-top: 20px;
-    margin-inline: auto;
-}
-
 fluent-accordion {
     margin-top: 20px;
     margin-bottom: 30px;
