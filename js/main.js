@@ -1,8 +1,10 @@
-function tarjetaProgreso(numero, texto) {
+function tarjetaProgreso(numero, texto, progreso = 100) {
     const tarjeta = document.createElement("fluent-card");
     const contenido = document.createElement("p");
+    const barra = document.createElement("fluent-progress");
     contenido.textContent = numero + " " + texto;
-    tarjeta.append(contenido);
+    barra.value = progreso;
+    tarjeta.append(contenido, barra);
     return tarjeta
 }
 
@@ -20,32 +22,33 @@ async function mostrarProgreso() {
     const respuestaEjercicios = await fetch("data\\metadata.json");
     const datosEjercicios = await respuestaEjercicios.json();
 
-    let numero = 0;
+    let numeroExamenes = 0;
     datosExamenes.forEach(examen => {
-        numero += examen.ediciones.length;
+        numeroExamenes += examen.ediciones.length;
     });
-    const tarjetaExamenes = tarjetaProgreso(numero, "exámenes");
+    let progresoExamenes = numeroExamenes / 37 * 100;
+    const tarjetaExamenes = tarjetaProgreso(numeroExamenes, "exámenes", progresoExamenes);
 
-    numero *= 8;
-    const tarjetaEjercicios = tarjetaProgreso(numero, "ejercicios");
+    let numeroEjercicios = numeroExamenes * 8;
+    const tarjetaEjercicios = tarjetaProgreso(numeroEjercicios, "ejercicios", numeroExamenes / 37 * 100);
 
-    numero = 0;
+    let numeroCategorias = 0;
     datosCategorias.forEach(categoria => {
-        numero += categoria.categorias.length + 1;
+        numeroCategorias += categoria.categorias.length + 1;
     });
-    const tarjetaCategorias = tarjetaProgreso(numero, "categorías");
+    const tarjetaCategorias = tarjetaProgreso(numeroCategorias, "categorías", numeroCategorias / 20 * 100);
 
-    numero = 0;
+    let numeroEjerciciosResueltos = 0;
     datosEjercicios.forEach(ejercicio => {
-        if (ejercicio.resuelto) numero += 1;
+        if (ejercicio.resuelto) numeroEjerciciosResueltos += 1;
     });
-    const tarjetaEjerciciosResueltos = tarjetaProgreso(numero, "ejercicios resueltos");
+    const tarjetaEjerciciosResueltos = tarjetaProgreso(numeroEjerciciosResueltos, "ejercicios resueltos", numeroEjerciciosResueltos / numeroEjercicios * 100);
 
-    numero = 0;
+    let numeroEjerciciosCategorizados = 0;
     datosEjercicios.forEach(ejercicio => {
-        if (ejercicio.categorias.length >= 1) numero += 1;
+        if (ejercicio.categorias.length >= 1) numeroEjerciciosCategorizados += 1;
     });
-    tarjetaEjerciciosCategorizados = tarjetaProgreso(numero, "ejercicios categorizados");
+    const tarjetaEjerciciosCategorizados = tarjetaProgreso(numeroEjerciciosCategorizados, "ejercicios categorizados", numeroEjerciciosCategorizados / numeroEjercicios * 100);
 
     progreso.textContent = "";
     progreso.append(tarjetaExamenes, tarjetaEjercicios, tarjetaCategorias, tarjetaEjerciciosResueltos, tarjetaEjerciciosCategorizados);

@@ -29,7 +29,8 @@ fluent-card>h3 {
 }
 
 #progreso fluent-card>p {
-    margin-block: 0;
+    margin-top: 0;
+    margin-bottom: 0.4em;
 }
 
 @media (prefers-color-scheme: light) {
