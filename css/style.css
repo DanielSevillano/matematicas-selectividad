@@ -71,8 +71,12 @@ section>p {
 
 img {
     display: block;
-    max-width: min(100%, 30ch);
+    max-width: min(100%, 40ch);
     margin: 1em auto;
+}
+
+#figura {
+    max-width: min(100%, 30ch);
 }
 
 @media (prefers-color-scheme: dark) {
