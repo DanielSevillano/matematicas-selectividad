@@ -4,14 +4,18 @@
         "categorias": [
             "Funciones",
             "Optimización",
-            "Integrales"
+            "Integrales",
+            "Límites",
+            "Teorema fundamental del cálculo"
         ]
     },
     {
         "bloque": "Álgebra",
         "categorias": [
             "Matrices",
-            "Sistemas"
+            "Sistemas",
+            "Determinantes",
+            "Ecuaciones matriciales"
         ]
     },
     {

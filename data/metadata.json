@@ -4,7 +4,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Límites"
         ]
     },
     {
@@ -28,7 +29,9 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Límites",
+            "Teorema fundamental del cálculo"
         ]
     },
     {
@@ -44,7 +47,8 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Ecuaciones matriciales"
         ]
     },
     {
@@ -108,7 +112,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Ecuaciones matriciales"
         ]
     },
     {
@@ -164,7 +169,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Ecuaciones matriciales"
         ]
     },
     {
@@ -212,7 +218,8 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Teorema fundamental del cálculo"
         ]
     },
     {
@@ -236,7 +243,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Ecuaciones matriciales"
         ]
     },
     {
@@ -260,7 +268,8 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Límites"
         ]
     },
     {
@@ -300,7 +309,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Ecuaciones matriciales"
         ]
     },
     {
@@ -388,7 +398,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Límites"
         ]
     },
     {
@@ -420,7 +431,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Ecuaciones matriciales"
         ]
     },
     {
@@ -428,7 +440,8 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Determinantes"
         ]
     },
     {
@@ -476,7 +489,8 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Teorema fundamental del cálculo"
         ]
     },
     {
@@ -548,7 +562,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Determinantes"
         ]
     },
     {
@@ -580,7 +595,8 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Límites"
         ]
     },
     {
@@ -684,7 +700,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Determinantes"
         ]
     },
     {
@@ -772,7 +789,8 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Límites"
         ]
     },
     {
@@ -788,7 +806,8 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Teorema fundamental del cálculo"
         ]
     },
     {
@@ -804,7 +823,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Ecuaciones matriciales"
         ]
     },
     {
@@ -900,7 +920,8 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Límites"
         ]
     },
     {
@@ -964,7 +985,8 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Límites"
         ]
     },
     {
@@ -1012,7 +1034,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Determinantes"
         ]
     },
     {
