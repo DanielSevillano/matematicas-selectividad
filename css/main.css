@@ -18,6 +18,7 @@ main>p:first-child {
 
 fluent-card {
     padding: 20px;
+    background-color: var(--neutral-layer-1);
 }
 
 fluent-card>h3 {
@@ -30,11 +31,5 @@ fluent-card>h3 {
 
 #progreso fluent-card>p {
     margin-top: 0;
-    margin-bottom: 0.4em;
-}
-
-@media (prefers-color-scheme: light) {
-    fluent-card {
-        background-color: hsl(0, 0%, 80%, 0.05);
-    }
+    margin-bottom: 0.5em;
 }
