@@ -1045,5 +1045,202 @@
             "Geometría",
             "Vectores"
         ]
+    },
+    {
+        "ejercicio": 202031,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202032,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202033,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202034,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
+        "ejercicio": 202035,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202036,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202037,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices",
+            "Determinantes",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202038,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Lugares geométricos"
+        ]
+    },
+    {
+        "ejercicio": 202041,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202042,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Límites",
+            "Teorema fundamental del cálculo"
+        ]
+    },
+    {
+        "ejercicio": 202043,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202044,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
+        "ejercicio": 202045,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202046,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202047,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202048,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Lugares geométricos"
+        ]
+    },
+    {
+        "ejercicio": 202051,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202052,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202053,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202054,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Lugares geométricos"
+        ]
+    },
+    {
+        "ejercicio": 202055,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 202056,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202057,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202058,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
     }
 ]
