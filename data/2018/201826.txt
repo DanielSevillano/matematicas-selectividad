@@ -1,0 +1,6 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = x\cos\left(\frac{x}{2}\right)$.
+
+<ol>
+    <li>Calcula $\int f(x)dx$.</li>
+    <li>Encuentra la primitiva de $f$ cuya gráfica pasa por el punto $(0, 1)$.</li>
+</ol>

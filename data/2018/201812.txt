@@ -1,0 +1,7 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = e^{2-x}$.
+
+<ol>
+    <li>Calcula la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 2$.</li>
+    <li>Esboza el recinto limitado por la gráfica de $f$, el eje de ordenadas y la recta $x + y = 3$.</li>
+    <li>Calcula el área del recinto indicado.</li>
+</ol>

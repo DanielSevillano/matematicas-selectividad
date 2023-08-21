@@ -1,0 +1,21 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    2 & -1 & \lambda \\
+    2 & -\lambda & 1 \\
+    2\lambda & -1 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    -1 \\
+    1 \\
+    0
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Discute el rango de $A$ según los valores del parámetro $\lambda$.</li>
+    <li>Para $\lambda = -2$, estudia y resuelve el sistema dado por $AX = B$.</li>
+</ol>

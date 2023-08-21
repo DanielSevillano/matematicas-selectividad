@@ -1,0 +1,10 @@
+Se desea construir una canaleta, para la recogida de agua, cuya sección es como la de la figura.
+La base y los costados deben medir 10 cm y se trata de darle la inclinación adecuada a los costados para obtener una sección de área máxima.
+<img class="figura" src="img/201821.png" alt="Figura" loading="lazy">
+
+Se pide:
+<ol>
+    <li>Halla la altura de la canaleta en función de $x$.</li>
+    <li>Halla el área de la sección de la canaleta en función de $x$.</li>
+    <li>Encuentra el valor de $x$ que hace máximo dicho área.</li>
+</ol>

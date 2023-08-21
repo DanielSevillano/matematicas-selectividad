@@ -1,0 +1,7 @@
+Considera los puntos $A(2, -1, -2)$ y $B(-1, -1, 2)$, y la recta $r$ dada por
+$$x-1 = \frac{y-1}{-1} = \frac{z-1}{2}.$$
+
+<ol>
+    <li>Determina los puntos del segmento $AB$ que lo dividen en 3 segmentos de la misma longitud.</li>
+    <li>Determina un punto $C$ de $r$ de forma que el triángulo $ABC$ sea rectángulo en $C$.</li>
+</ol>

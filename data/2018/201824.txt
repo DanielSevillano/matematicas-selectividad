@@ -1,0 +1,14 @@
+Considera las rectas $r$ y $s$ dadas por
+$$r \equiv \begin{cases}
+    x + y = z + 4, \\
+    x + 2y = 7
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x - 2 = 0, \\
+    y + 3 = 0.
+\end{cases}$$
+
+<ol>
+    <li>Estudia y determina la posición relativa de $r$ y $s$.</li>
+    <li>Determina la recta perpendicular común a $r$ y a $s$.</li>
+</ol>

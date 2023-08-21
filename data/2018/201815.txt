@@ -1,0 +1,11 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ dada por
+$$f(x) = \begin{cases}
+    -xe^{x-1}, & \text{si } x \leq 0, \\
+    xe^{x-1}, & \text{si } 0 < x \leq 1, \\
+    xe^{1-x}, & \text{si } 1 < x.
+\end{cases}$$
+
+<ol>
+    <li>Estudia la derivabilidad de $f$ en $x = 0$ y en $x = 1$.</li>
+    <li>Estudia la existencia de asíntotas horizontales de la gráfica de $f$.</li>
+</ol>

@@ -1,0 +1,13 @@
+Considera las rectas $r$ y $s$ dadas por
+$$r \equiv x - 2 = y - 2 = z \quad \text{y} \quad
+s \equiv \begin{cases}
+    x = 4 + t, \\
+    y = 4 + t, \\
+    z = mt.
+\end{cases}$$
+
+<ol>
+    <li>Determina $m$ para que $r$ y $s$ sean paralelas.</li>
+    <li>Halla, si existe, un valor de $m$ para el que ambas rectas sean la misma.</li>
+    <li>Para $m = 1$, calcula la ecuación del plano que contiene a $r$ y a $s$.</li>
+</ol>

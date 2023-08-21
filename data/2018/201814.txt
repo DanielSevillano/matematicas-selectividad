@@ -1,0 +1,7 @@
+Considera el plano $\pi$ de ecuación $x + 2y + z = 6$.
+
+<ol>
+    <li>Determina la recta perpendicular a $\pi$ que pasa por el origen de coordenadas.</li>
+    <li>Halla el punto simétrico del origen de coordenadas con respecto a $\pi$.</li>
+    <li>Calcula el volumen del tetraedro determinado por el origen de coordenadas y los puntos de corte de $\pi$ con los ejes coordenados.</li>
+</ol>

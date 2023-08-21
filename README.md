@@ -10,6 +10,7 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 - [ ] 2018
     - [x] Junio
     - [x] Septiembre
+    - [x] Reservas 1 y 2
 - [ ] 2017
 
 ## 📋 Ejercicios resueltos

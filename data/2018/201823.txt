@@ -1,0 +1,19 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & 1 & 1 \\
+    0 & 1 & 0 \\
+    0 & 0 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    0 \\
+    1 \\
+    -1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 1 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula $A^{2018}$.</li>
+    <li>Determina, si existe, la matriz $X$ que verifica $A(X + 2I) = BC$, donde $I$ es la matriz identidad.</li>
+</ol>

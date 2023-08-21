@@ -1,0 +1,6 @@
+Considera la función $f: \left(-\frac{e}{2}, +\infty\right) \to \mathbb{R}$ definida por $f(x) = \ln(2x + e)$.
+
+<ol>
+    <li>Haz un esbozo de la gráfica de $f$ calculando sus puntos de corte con los ejes coordenados.</li>
+    <li>Calcula el área del recinto limitado por la gráfica de $f$ y los ejes de coordenadas.</li>
+</ol>

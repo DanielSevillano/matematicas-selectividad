@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones
+$$\begin{cases}
+    x + y + mz = 1, \\
+    x + my + z = 1, \\
+    x + 2y + 4z = m.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema en función del parámetro $m$.</li>
+    <li>Si es posible, resuelve el sistema para $m = 1$.</li>
+</ol>
