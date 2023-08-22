@@ -83,7 +83,7 @@ async function mostrarCategoria(categoria) {
     main.append(carga);
 
     const articulo = await obtenerCategoria(categoria);
-    main.textContent = "";
+    carga.remove();
     main.append(articulo);
     MathJax.typeset();
 }

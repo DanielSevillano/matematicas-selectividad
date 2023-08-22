@@ -125,7 +125,7 @@ async function mostrarExamen(examen) {
     main.append(carga);
 
     const articulo = await obtenerExamen(examen);
-    main.textContent = "";
+    carga.remove();
     main.append(articulo);
     MathJax.typeset();
 }

@@ -50,7 +50,7 @@ async function mostrarProgreso() {
     });
     const tarjetaEjerciciosCategorizados = tarjetaProgreso(numeroEjerciciosCategorizados, "ejercicios categorizados", numeroEjerciciosCategorizados / numeroEjercicios * 100);
 
-    progreso.textContent = "";
+    carga.remove();
     progreso.append(tarjetaExamenes, tarjetaEjercicios, tarjetaCategorias, tarjetaEjerciciosResueltos, tarjetaEjerciciosCategorizados);
 }
 
