@@ -67,9 +67,13 @@ async function obtenerCategoria(categoria) {
 
     for (let ejercicio of ejercicios) {
         let resuelto = false
-        if (ejercicio != undefined && ejercicio.resuelto) resuelto = true;
+        let categorias = []
+        if (ejercicio != undefined) {
+            if (ejercicio.resuelto) resuelto = true;
+            categorias = ejercicio.categorias;
+        }
 
-        const parrafo = await obtenerEjercicio(parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, [], true);
+        const parrafo = await obtenerEjercicio(parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
         articulo.append(parrafo);
     };
 
