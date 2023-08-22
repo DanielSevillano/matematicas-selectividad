@@ -29,7 +29,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         const curso = codigo.slice(0, 4);
         const edicion = codigo.slice(-1)
 
-        let texto = "Ejercicio " + ejercicio + " de "
+        let texto = "Ejercicio " + numeracion + ": "
         if (edicion == 0) {
             if (curso == 2020) texto += "julio";
             else texto += "junio";
@@ -40,6 +40,10 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         }
         else texto += "reserva " + edicion;
         texto += " de " + curso;
+        if (examen < 20200) {
+            if (ejercicio == numeracion) texto += ", opción A";
+            else texto += ", opción B";
+        }
         titulo.textContent = texto;
     } else titulo.textContent = "Ejercicio " + numeracion;
 
