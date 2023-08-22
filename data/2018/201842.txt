@@ -1,0 +1,6 @@
+Considera las funciones $f$ y $g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = -x^2 - x + 3$ y $g(x) = |x|$.
+
+<ol>
+    <li>Esboza el recinto limitado por las gráficas de $f$ y $g$ y calcula los puntos de corte entre ambas gráficas.</li>
+    <li>Calcula el área del recinto descrito en el apartado anterior.</li>
+</ol>

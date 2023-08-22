@@ -1,0 +1,6 @@
+Se sabe que los puntos $A(-1, 2, 6)$ y $B(1, 4, -2)$ son simétricos respecto de un plano $\pi$.
+
+<ol>
+    <li>Calcula la distancia de $A$ a $\pi$.</li>
+    <li>Determina la ecuación general del plano $\pi$.</li>
+</ol>

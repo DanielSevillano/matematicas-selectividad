@@ -1,0 +1,24 @@
+Considera la matriz
+$$M = \begin{pmatrix}
+    1 & 2 & 3 \\
+    6 & 0 & 3 \\
+    x & y & z
+\end{pmatrix}.$$
+
+Sabiendo que el determinante de $M$ es 2, calcula los siguientes determinantes e indica las propiedades que utilices.
+
+<ol>
+    <li>El determinante de la matriz $5M^4$.</li>
+    <li>El determinante
+    $$\begin{vmatrix}
+        2 & 0 & 1 \\
+        1 & 2 & 3 \\
+        x & y & z
+    \end{vmatrix}.$$</li>
+    <li>El determinante
+    $$\begin{vmatrix}
+        1 & x+6 & x \\
+        2 & y & y \\
+        3 & z+3 & z
+    \end{vmatrix}.$$</li>
+</ol>

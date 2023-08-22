@@ -1,0 +1,5 @@
+<ol>
+    <li>Determina la ecuación del plano que pasa por el punto $A(0, 1, 0)$ y es perpendicular a la recta $r$ dada por
+    $$x+1 = \frac{y+2}{2} = z-1.$$</li>
+    <li>Calcula el área del triángulo cuyos vértices son los puntos de corte del plano de ecuación $2x + 3y + 4z = 12$ con los ejes coordenados.</li>
+</ol>

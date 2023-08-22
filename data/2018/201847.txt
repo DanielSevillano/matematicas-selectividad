@@ -1,0 +1,12 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    0 & -1 & -2 \\
+    0 & 2 & 0 \\
+    1 & 1 & 3
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halla, si existe, la inversa de $A$.</li>
+    <li>Determina los valores de $m$ tales que $(A-mI)$ tiene inversa.</li>
+    <li>Calcula el rango de $(A - 2I)$.</li>
+</ol>

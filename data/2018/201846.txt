@@ -1,0 +1,12 @@
+Se sabe que la función $f: [0, +\infty) \to \mathbb{R}$ dada por
+$$f(x) = \begin{cases}
+    \sqrt{ax}, & \text{si } 0 \leq x \leq 0, \\
+    \dfrac{x^2 - 32}{x - 4}, & \text{si } x > 8
+\end{cases}$$
+es continua.
+
+<ol>
+    <li>Determina $a$.</li>
+    <li>Para $a = 8$, calcula
+    $$\int_0^{10} f(x)dx.$$</li>
+</ol>

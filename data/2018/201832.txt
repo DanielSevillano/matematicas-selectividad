@@ -1,0 +1,7 @@
+Siendo $a > 1$, considera el rectángulo de vértices $A(1, 0)$, $B(1, 1)$, $C(a, 1)$ y $D(a, 0)$.
+La gráfica de la función $f$ definida por $f(x) = \frac{1}{x^2}$ para $x \neq 0$ divide al rectángulo anterior en dos recintos.
+
+<ol>
+    <li>Haz un esbozo de la gráfica de $f$ y del rectángulo descrito.</li>
+    <li>Determina el valor de $a$ para el que los dos recintos descritos tienen igual área.</li>
+</ol>

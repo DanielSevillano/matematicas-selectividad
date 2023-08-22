@@ -1,0 +1,3 @@
+Se desea construir una caja sin tapadera de base cuadrada.
+El precio del material es de 18 euros/m<sup>2</sup> para los laterales y de 24 euros/m<sup>2</sup>$ para la base.
+Halla las dimensiones de la caja de mayor volumen que se puede construir si disponemos de 50 euros.

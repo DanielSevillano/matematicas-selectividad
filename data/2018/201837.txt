@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones:
+$$\begin{cases}
+    x - z = m, \\
+    my + 3z = 1, \\
+    4x + y - mz = 5.
+\end{cases}$$
+
+<ol>
+    <li>Discútelo según los valores del parámetro $m$.</li>
+    <li>Para $m = 1$ resuelve el sistema y encuentra, si es posible, una solución para la que sea $x = z$.</li>
+</ol>

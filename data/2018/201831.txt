@@ -1,0 +1,4 @@
+Considera un triángulo isósceles en el que el lado desigual mide 8 cm y la altura correspondiente mide 5 cm.
+Calcula las dimensiones del rectángulo de área máxima que se puede inscribir en dicho triángulo.
+
+<!-- Imagen -->

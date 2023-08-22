@@ -1,0 +1,17 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    2 & 0 & 0 \\
+    1 & 2 & 1 \\
+    1 & 0 & 3
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Discute el sistema dado por $AX = mX$ según los valores del parámetro $m$.</li>
+    <li>Da la solución del sistema en los casos en que es compatible determinado.</li>
+    <li>Para $m = 3$ resuelve el sistema y halla, si es posible, una solución en la que $x + y + z = 3$.</li>
+</ol>
