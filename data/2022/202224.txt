@@ -1,2 +1,2 @@
 Calcula
-$$\int_0^1 x\arctan(x)dx.$$
+$$\int_0^1 x\mathrm{arctg}(x)dx.$$
