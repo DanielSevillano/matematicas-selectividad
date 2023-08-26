@@ -1,0 +1,7 @@
+Sabemos que el coste de 3 lápices, 1 rotulador y 2 carpetas es de 15 euros, mientras que el de 2 lápices, 4 rotuladores y 1 carpeta es de 20 euros.
+
+<ol>
+    <li>Sabiendo que 1 lápiz y 7 rotuladores cuestan 25 euros ¿podemos deducir el precio de cada uno de los artículos?
+    Razona la respuesta.</li>
+    <li>Si por el precio de una carpeta se pueden comprar 10 lápices ¿cuánto cuesta cada uno de los artículos?</li>
+</ol>

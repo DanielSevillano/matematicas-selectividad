@@ -1,0 +1,6 @@
+Considera los vectores $\vec{u} = (1, 0, 1)$, $\vec{v} = (0, 2, 1)$ y $\vec{w} = (m, 1, n)$.
+
+<ol>
+    <li>Halla $m$ y $n$ sabiendo que $\vec{u}$, $\vec{v}$ y $\vec{w}$ son linealmente dependientes y que $\vec{w}$ es ortogonal a $\vec{u}$.</li>
+    <li>Para $n = 1$, halla los valores de $m$ para que el tetraedro determinado por $\vec{u}$, $\vec{v}$ y $\vec{w}$ tenga volumen 10 unidades cúbicas.</li>
+</ol>

@@ -1,0 +1,11 @@
+Considera el punto $P(1, -1, 0)$ y la recta $r$ dada por
+$$\begin{cases}
+    x = 1 + 3t, \\
+    y = -2, \\
+    z = t.
+\end{cases}$$
+
+<ol>
+    <li>Determina la ecuación del plano que pasa por $P$ y contiene a $r$.</li>
+    <li>Halla las coordenadas del punto simétrico de $P$ respecto de $r$.</li>
+</ol>

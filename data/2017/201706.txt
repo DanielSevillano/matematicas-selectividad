@@ -1,0 +1,3 @@
+Calcula
+$$\int_1^{16} \frac{dx}{\sqrt{x} + \sqrt[4]{x}}.$$
+(Sugerencia $t = \sqrt[4]{x}$).

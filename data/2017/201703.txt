@@ -1,0 +1,17 @@
+Considera
+$$A = \begin{pmatrix}
+    -2 & -2 & 0 \\
+    -2 & 1 & 0 \\
+    0 & 0 & -2
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina los valores de $\lambda$ para los que la matriz $A + \lambda I$ no tiene inversa.</li>
+    <li>Resuelve $AX = -3X$.
+    Determina, si existe, alguna solución con $x = 1$.</li>
+</ol>
