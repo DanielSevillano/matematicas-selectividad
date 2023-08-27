@@ -76,7 +76,7 @@ img {
     margin: 1.5em auto;
 }
 
-#figura {
+.figura {
     max-width: min(100%, 30ch);
     max-height: 25ch;
 }
