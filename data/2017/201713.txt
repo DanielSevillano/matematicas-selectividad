@@ -1,0 +1,16 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    -2 & 0 & 0 \\
+    1 & 1 & 0 \\
+    4 & 2 & -2
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    2 & 1 & 2 \\
+    0 & -1 & 5 \\
+    0 & 0 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula la matriz inversa de $A + B$.</li>
+    <li>Calcula el determinante de $2A^{-1}(A+B)^t$, siendo $(A+B)^t$ la matriz traspuesta de $A + B$.</li>
+</ol>

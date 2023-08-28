@@ -1,0 +1,17 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & 2 \\
+    2 & 1 \\
+    0 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    3 & 1 & 1 \\
+    2 & -1 & 1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 1 & 0 \\
+    -1 & 2 & 1 \\
+    1 & -1 & 1
+\end{pmatrix}.$$
+
+Determina, si existe, la matriz $X$ que verifica que $ABX - 2C = CX$.

@@ -1,0 +1,7 @@
+Considera la función dada por $f(x) = \sqrt{3 + |x|}$ para $x \in [-3, 3]$.
+
+<ol>
+    <li>Expresa la función $f$ definida a trozos.</li>
+    <li>Halla
+    $$\int_{-3}^3 f(x)dx.$$</li>
+</ol>

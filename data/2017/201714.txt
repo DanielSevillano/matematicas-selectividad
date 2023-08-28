@@ -1,0 +1,6 @@
+Considera los vectores $\vec{u} = (2, 3, 4)$, $\vec{v} = (-1, -1, -1)$ y $\vec{w} = (-1, \lambda, -5)$ siendo $\lambda$ un número real.
+
+<ol>
+    <li>Halla los valores de $\lambda$ para los que el paralelepípedo determinado por $\vec{u}$, $\vec{v}$ y $\vec{w}$ tiene volumen 6 unidades cúbicas.</li>
+    <li>Determina el valor de $\lambda$ para el que $\vec{u}$, $\vec{v}$ y $\vec{w}$ son linealmente dependientes.</li>
+</ol>

@@ -1,0 +1,12 @@
+Se sabe que la función $f: \mathbb{R} \to \mathbb{R}$ dada por
+$$f(x) = \begin{cases}
+    3x + 2, & \text{si } x < 0, \\
+    x^2 + 2a\cos(x), & \text{si } 0 \leq x < \pi, \\
+    ax^2 + b, & \text{si } x \geq \pi
+\end{cases}$$
+es continua.
+
+<ol>
+    <li>Determina $a$ y $b$.</li>
+    <li>Estudia la derivabilidad de $f$.</li>
+</ol>

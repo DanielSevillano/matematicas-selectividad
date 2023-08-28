@@ -1,0 +1,2 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = x\mathrm{arctg}(x)$.
+Determina la primitiva de $f$ cuya gráfica pasa por el punto $(0, \pi)$.

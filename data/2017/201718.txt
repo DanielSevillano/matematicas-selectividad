@@ -1,0 +1,11 @@
+Sea $r$ la recta que pasa por $A(4, 3, 6)$ y $B(-2, 0, 0)$ y sea $s$ la recta dada por
+$$\begin{cases}
+    x = 2 + \lambda, \\
+    y = \lambda, \\
+    z = 1 - 2\lambda.
+\end{cases}$$
+
+<ol>
+    <li>Determina la posición relativa de $r$ y $s$.</li>
+    <li>Calcula, si existen, los puntos $C$ de $s$ tales que los vectores $\vec{CA}$ y $\vec{CB}$ son ortogonales.</li>
+</ol>
