@@ -101,7 +101,17 @@ async function obtenerExamen(examen) {
         articulo.append(opcionA);
 
         for (let ejercicio = 1; ejercicio <= 4; ejercicio++) {
-            const seccion = await obtenerEjercicio(examen, ejercicio);
+            const codigo = examen * 10 + ejercicio;
+            const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
+
+            let resuelto = false
+            let categorias = []
+            if (datosEjercicio != undefined) {
+                if (datosEjercicio.resuelto) resuelto = true;
+                categorias = datosEjercicio.categorias;
+            }
+
+            const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
             articulo.append(seccion);
         }
 
@@ -110,7 +120,17 @@ async function obtenerExamen(examen) {
         articulo.append(opcionB);
 
         for (let ejercicio = 5; ejercicio <= 8; ejercicio++) {
-            const seccion = await obtenerEjercicio(examen, ejercicio);
+            const codigo = examen * 10 + ejercicio;
+            const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
+
+            let resuelto = false
+            let categorias = []
+            if (datosEjercicio != undefined) {
+                if (datosEjercicio.resuelto) resuelto = true;
+                categorias = datosEjercicio.categorias;
+            }
+
+            const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
             articulo.append(seccion);
         }
     }
