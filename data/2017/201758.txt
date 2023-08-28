@@ -1,0 +1,10 @@
+Considera el punto $P(0, 1, 1)$ y la recta $r$ dada por
+$$\begin{cases}
+    x - 2y = -5, \\
+    z = 2.
+\end{cases}$$
+
+<ol>
+    <li>Determina la ecuación del plano que pasa por $P$ y contiene a $r$.</li>
+    <li>Halla las coordenadas del punto simétrico de $P$ respecto de $r$.</li>
+</ol>

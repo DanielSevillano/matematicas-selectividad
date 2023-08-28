@@ -1,0 +1,2 @@
+Una imprenta recibe un encargo para realizar una tarjeta rectangular con las siguientes características: la superficie rectangular que debe ocupar la zona impresa debe ser de 100 cm<sup>2</sup>, el margen superior tiene que ser de 2 cm, el inferior de 3 cm y los laterales de 5 cm cada uno.
+Calcula, si es posible, las dimensiones que debe tener la tarjeta de forma que se utilice la menor cantidad de papel posible.
