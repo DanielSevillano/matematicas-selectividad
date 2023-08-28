@@ -457,7 +457,7 @@
     },
     {
         "ejercicio": 202258,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Lugares geométricos"
