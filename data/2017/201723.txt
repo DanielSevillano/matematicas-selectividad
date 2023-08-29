@@ -1,0 +1,25 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    -1 & 1 & 2 \\
+    -2 & 2 & 4 \\
+    1 & -1 & -2
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 \\
+    2 \\
+    -1
+\end{pmatrix}, \quad
+M = \begin{pmatrix}
+    -1 & 1 & 2
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula $BM$.</li>
+    <li>Razona si el sistema dado por $AX = B$ tiene solución o no y, en caso afirmaivo, cuántas soluciones tiene.</li>
+    <li>Resuelve $AX = B$.</li>
+</ol>

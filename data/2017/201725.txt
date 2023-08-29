@@ -1,0 +1,2 @@
+Una cuerda de un metro de longitud se divide en dos trozos con los que se construyen un cuadrado y una circunferencia respectivamente.
+Determina, si es posible, las longitudes de los trozos para que la suma de las áreas sea mínima.

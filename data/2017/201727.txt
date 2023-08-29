@@ -1,0 +1,12 @@
+Considera el siguiente sistema de ecuaciones
+$$\begin{cases}
+    3x + ky = 1, \\
+    2x - y + kz = 1, \\
+    x - 3y + 2z = 1
+\end{cases}$$
+del que se sabe que para un cierto valor de $k$ es compatible indeterminado.
+
+<ol>
+    <li>Determina el valor de $k$.</li>
+    <li>Resuelve el sistema para $k = 1$.</li>
+</ol>

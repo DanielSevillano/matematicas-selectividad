@@ -1,0 +1,15 @@
+Considera las rectas dadas por
+$$r \equiv \begin{cases}
+    x - y + 1 = 0, \\
+    x - z + 1 = 0,
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x = 1 - t, \\
+    y = t, \\
+    z = 2.
+\end{cases}$$
+
+<ol>
+    <li>Determina la ecuación de la recta que corta perpendicularmente a $r$ y a $s$.</li>
+    <li>Halla la distancia entre las rectas $r$ y $s$.</li>
+</ol>
