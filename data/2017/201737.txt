@@ -1,0 +1,12 @@
+Sea $A$ una matriz $3 \times 3$ tal que $\det(2A) = 8$.
+
+<ol>
+    <li>¿Cuánto vale $\det(A)$?</li>
+    <li>Siendo $B$ la matriz que se obtiene de $A$ multiplicando por 3 la primera fila y por -1 la tercera, ¿cuánto vale $\det(B)$?</li>
+    <li>Determina los valores de $x$ para los que la siguiente matriz $A$ verifica que $\det(2A) = 8$:
+    $$A = \begin{pmatrix}
+        x & 1 & 1 \\
+        x+1 & 2 & 2 \\
+        x & -x+2 & 1
+    \end{pmatrix}.$$</li>
+</ol>

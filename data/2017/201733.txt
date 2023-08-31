@@ -1,0 +1,11 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    2 & -1 \\
+    -1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Comprueba que $AA^t - 2A = I$.</li>
+    <li>Calcula $A^{-1}$.</li>
+    <li>Determina, si existe, la matriz $X$ que verifica $XA + I = 3A$.</li>
+</ol>

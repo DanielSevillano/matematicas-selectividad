@@ -1,0 +1,6 @@
+Considera el punto $P(-1, 0, 1)$, el vector $\vec{u} = (1, 2, 1)$ y el plano $\pi$ de ecuación $y = 0$.
+
+<ol>
+    <li>Halla la ecuación de la recta que pasa por $P$, está contenida en $\pi$ y cuyo vector director es perpendicular a $\vec{u}$.</li>
+    <li>Determina la ecuación del plano que pasa por $P$, es perpendicular a $\pi$ y del que $\vec{u}$ es un vector director.</li>
+</ol>

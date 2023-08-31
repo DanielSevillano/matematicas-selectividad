@@ -1,0 +1,16 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & 0 & m-1 \\
+    0 & m-1 & 2-m \\
+    0 & -1 & 2-m
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    -1 & 0 & 1 \\
+    1 & -1 & 0 \\
+    0 & 1 & -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina los valores de $m$ para los que la matriz $A$ no tiene inversa.</li>
+    <li>Para $m = 1$, calcula, si existe, la matriz $X$ que verifica la igualdad $A^{-1}XA + I = B$, siendo $I$ la matriz identidad.</li>
+</ol>

@@ -6,11 +6,7 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 
 - [x] 2023
     - [x] Junio
-- [x] 2018 a 2022
-- [ ] 2017
-    - [x] Junio
-    - [x] Septiembre
-    - [x] Reservas 1 y 2
+- [x] 2017 a 2022
 
 ## 📋 Ejercicios resueltos
 

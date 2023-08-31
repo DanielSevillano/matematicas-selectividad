@@ -1,0 +1,1 @@
+Calcula la función polinómica, de grado 3, de la que se sabe que tiene un extremo relativo en el punto $(0, 2)$ y que la tangente a su gráfica en el punto de abscisa $x = 1$ es la recta $x + y = 3$.

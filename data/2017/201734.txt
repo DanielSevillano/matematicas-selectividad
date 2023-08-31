@@ -1,0 +1,6 @@
+Considera los puntos $A(-1, -2, -1)$ y $B(1, 0, 1)$.
+
+<ol>
+    <li>Determina la ecuación del plano respecto del cual los puntos $A$ y $B$ son simétricos.</li>
+    <li>Calcula la distancia de $P(-1, 0, 1)$ a la recta que pasa por los puntos $A$ y $B$.</li>
+</ol>

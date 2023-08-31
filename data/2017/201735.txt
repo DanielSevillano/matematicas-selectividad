@@ -1,0 +1,2 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = ax^3 + bx^2 + cx + d$.
+Calcula $a$, $b$, $c$ y $d$ sabiendo que $f$ tiene un extremo relativo en $(0, 1)$ y su gráfica un punto de inflexión en $(1, -1)$.

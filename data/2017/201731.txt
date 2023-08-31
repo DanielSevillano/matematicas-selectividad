@@ -1,0 +1,3 @@
+Se necesita construir un depósito cilíndrico, con tapas inferior y superior, con capacidad de $20\pi$ m<sup>3</sup>.
+El material para las tapas cuesta 10 euros cada m<sup>2</sup> y el material para el resto del cilindro 8 euros cada m<sup>2</sup>.
+Calcula, si existe, el radio de las tapas y la altura del cilindro que hace que el coste total sea mínimo.

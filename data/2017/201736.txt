@@ -1,0 +1,7 @@
+Considera la región limitada por la gráfica de la función dada por $f(x) = \sqrt{2x - 2}$ para $x \geq 1$, la recta $y = x-5$ y el eje de abscisas.
+
+<ol>
+    <li>Esboza la gráfica de la región dada, hallando los puntos de corte entre la gráfica de $f$ y las rectas.</li>
+    <li>Expresa mediante integrales el área del recinto anterior.</li>
+    <li>Calcula el área.</li>
+</ol>

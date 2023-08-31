@@ -1,0 +1,7 @@
+Sea
+$$I = \int_0^8 \frac{1}{2 + \sqrt{x+1}}dx.$$
+
+<ol>
+    <li>Expresa $I$ aplicando el cambio de variable $t = 2 + \sqrt{x+1}$.</li>
+    <li>Calcula el valor de $I$.</li>
+</ol>
