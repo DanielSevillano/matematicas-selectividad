@@ -70,7 +70,7 @@ section>p {
     margin-top: 0.5em;
 }
 
-img {
+main img {
     display: block;
     max-width: min(100%, 40ch);
     margin: 1.5em auto;
@@ -82,7 +82,7 @@ img {
 }
 
 @media (prefers-color-scheme: dark) {
-    img {
+    main img {
         filter: invert(1) hue-rotate(180deg);
     }
 }
