@@ -1,3 +1,17 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --header-color: white;
+        --background-color: #FAFAFA;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header-color: black;
+        --background-color: #1F1F1F;
+    }
+}
+
 html {
     color-scheme: light dark;
 }
@@ -6,37 +20,96 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding-inline: 20px;
+    margin: 0;
+    background-color: var(--background-color);
     font-family: var(--body-font, system-ui);
     line-height: 1.6;
-}
-
-header {
-    text-align: center;
 }
 
 main {
     width: 100%;
     max-width: 100ch;
-    box-sizing: border-box;
     margin-bottom: 30px;
+    padding-inline: 20px;
+    box-sizing: border-box;
 }
 
-h1 {
+nav ul {
     display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 0.2em;
-}
-
-@media (max-width: 600px) {
-    header img {
-        display: none;
-    }
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 fluent-progress-ring {
     margin-top: 20px;
     margin-inline: auto;
+}
+
+/********************
+Encabezado
+********************/
+
+header {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    width: 100%;
+    padding: 0.75em 20px;
+    box-sizing: border-box;
+    background-color: var(--header-color);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#navegacion-global a {
+    font-size: 14px;
+}
+
+.github {
+    margin-left: auto;
+    height: 25px;
+}
+
+/********************
+Adaptabilidad
+********************/
+
+@media (max-width: 560px) {
+    .github {
+        display: none;
+    }
+
+    #navegacion-global {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+    }
+
+    #navegacion-global {
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    svg {
+        filter: invert(1);
+    }
 }

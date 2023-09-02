@@ -1,12 +1,13 @@
-nav {
+#navegacion-local {
     width: 100%;
     max-width: 100ch;
+    padding-inline: 20px;
+    box-sizing: border-box;
 }
 
 section {
     padding-inline: 0.25em;
 }
-
 
 h2 {
     display: flex;
@@ -46,7 +47,7 @@ ol {
     list-style-type: lower-latin;
 }
 
-li {
+ol li {
     margin-block: 0.2em;
     padding-left: 0.125em;
 }

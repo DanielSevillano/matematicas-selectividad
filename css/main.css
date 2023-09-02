@@ -11,12 +11,11 @@ div {
 main>p:first-child {
     text-align: center;
     font-weight: 700;
-    font-size: larger;
 }
 
 fluent-card {
     padding: 20px;
-    background-color: var(--neutral-layer-1);
+    background-color: var(--neutral-layer-floating);
 }
 
 fluent-card>h3 {
