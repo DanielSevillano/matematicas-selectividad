@@ -2,7 +2,11 @@ section {
     margin-top: 40px;
 }
 
-div {
+a {
+    color: var(--accent-foreground-rest);
+}
+
+.galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
     gap: 15px;
@@ -13,20 +17,23 @@ main>p:first-child {
     font-weight: 700;
 }
 
-fluent-card {
+.tarjeta {
     padding: 20px;
     background-color: var(--neutral-layer-floating);
+    border: 1px solid var(--neutral-stroke-layer-rest);
+    border-radius: 10px;
+    box-shadow: var(--elevation-shadow-card-rest);
 }
 
-fluent-card>h3 {
+.tarjeta>h3 {
     margin: 0;
 }
 
-#contenido fluent-card>p {
+#contenido .tarjeta>p {
     margin-top: 0.5em;
 }
 
-#progreso fluent-card>p {
+#progreso .tarjeta>p {
     margin-top: 0;
     margin-bottom: 0.5em;
 }

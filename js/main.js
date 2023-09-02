@@ -1,10 +1,13 @@
 function tarjetaProgreso(numero, texto, progreso = 100) {
-    const tarjeta = document.createElement("fluent-card");
+    const tarjeta = document.createElement("div");
     const contenido = document.createElement("p");
     const barra = document.createElement("fluent-progress");
+
+    tarjeta.classList.add("tarjeta");
     contenido.textContent = numero + " " + texto;
     barra.value = progreso;
     tarjeta.append(contenido, barra);
+
     return tarjeta
 }
 
