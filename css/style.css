@@ -80,12 +80,6 @@ main img {
     max-height: 25ch;
 }
 
-@media (prefers-color-scheme: dark) {
-    main img {
-        filter: invert(1) hue-rotate(180deg);
-    }
-}
-
 fluent-tabs {
     max-width: 100%;
     overflow-x: auto;
@@ -177,6 +171,16 @@ mjx-container {
 }
 
 /********************
+Adaptabilidad
+********************/
+
+@media (prefers-color-scheme: dark) {
+    main img {
+        filter: invert(1) hue-rotate(180deg);
+    }
+}
+
+/********************
 Impresión
 ********************/
 
@@ -185,10 +189,10 @@ Impresión
         break-inside: avoid;
     }
 
-    header,
+    body>header,
     nav,
     section>ul,
-    fluent-button,
+    button,
     fluent-accordion {
         display: none;
     }
