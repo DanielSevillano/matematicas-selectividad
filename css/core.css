@@ -64,7 +64,7 @@ body {
 main {
     width: 100%;
     max-width: 100ch;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-inline: 20px;
     box-sizing: border-box;
 }
@@ -139,7 +139,7 @@ Adaptabilidad
 }
 
 @media (max-width: 500px) {
-    header {
+    body>header {
         position: initial;
         flex-direction: column;
     }
@@ -150,7 +150,7 @@ Adaptabilidad
 }
 
 @media (prefers-color-scheme: dark) {
-    header svg {
+    body>header svg {
         filter: invert(1);
     }
 }
