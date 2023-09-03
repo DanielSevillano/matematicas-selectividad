@@ -13,17 +13,17 @@ async function mostrarNavegacion() {
         const navegacionCategorias = document.createElement("fluent-tab-panel");
         const contenedor = document.createElement("div");
 
-        const botonTodos = document.createElement("fluent-button");
+        const botonTodos = document.createElement("button");
         botonTodos.textContent = "Todos";
 
         botonTodos.addEventListener("click", function () {
-            if (this.appearance == "neutral") {
+            if (!this.classList.contains("acento")) {
                 mostrarCategoria(bloque.bloque);
 
-                const botones = navegacion.getElementsByTagName("fluent-button");
+                const botones = navegacion.getElementsByTagName("button");
                 for (let boton of botones) {
-                    if (boton == this) boton.appearance = "accent";
-                    else boton.appearance = "neutral";
+                    if (boton == this) boton.classList.add("acento");
+                    else boton.classList.remove("acento");
                 }
             }
         });
@@ -31,17 +31,17 @@ async function mostrarNavegacion() {
         contenedor.append(botonTodos);
 
         bloque.categorias.forEach(categoria => {
-            const botonCategoria = document.createElement("fluent-button");
+            const botonCategoria = document.createElement("button");
             botonCategoria.textContent = categoria;
 
             botonCategoria.addEventListener("click", function () {
-                if (this.appearance == "neutral") {
+                if (!this.classList.contains("acento")) {
                     mostrarCategoria(categoria);
 
-                    const botones = navegacion.getElementsByTagName("fluent-button");
+                    const botones = navegacion.getElementsByTagName("button");
                     for (let boton of botones) {
-                        if (boton == this) boton.appearance = "accent";
-                        else boton.appearance = "neutral";
+                        if (boton == this) boton.classList.add("acento");
+                        else boton.classList.remove("acento");
                     }
                 }
             });
@@ -54,7 +54,7 @@ async function mostrarNavegacion() {
     });
 
     navegacion.append(navegacionEjercicios);
-    navegacion.querySelector("fluent-button").click();
+    navegacion.querySelector("button").click();
 }
 
 async function obtenerCategoria(categoria) {

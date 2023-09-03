@@ -14,7 +14,7 @@ async function mostrarNavegacion() {
         const contenedor = document.createElement("div");
 
         examen.ediciones.forEach(edicion => {
-            const botonEdicion = document.createElement("fluent-button");
+            const botonEdicion = document.createElement("button");
             let texto = "";
             if (edicion == 0) {
                 if (examen.curso == 2020) texto += "Julio";
@@ -28,13 +28,13 @@ async function mostrarNavegacion() {
             botonEdicion.textContent = texto;
 
             botonEdicion.addEventListener("click", function () {
-                if (this.appearance == "neutral") {
+                if (!this.classList.contains("acento")) {
                     mostrarExamen(examen.curso * 10 + edicion);
 
-                    const botones = navegacion.getElementsByTagName("fluent-button");
+                    const botones = navegacion.getElementsByTagName("button");
                     for (let boton of botones) {
-                        if (boton == this) boton.appearance = "accent";
-                        else boton.appearance = "neutral";
+                        if (boton == this) boton.classList.add("acento");
+                        else boton.classList.remove("acento");
                     }
                 }
             });
@@ -47,7 +47,7 @@ async function mostrarNavegacion() {
     })
 
     navegacion.append(navegacionExamenes);
-    navegacion.querySelector("fluent-button").click();
+    navegacion.querySelector("button").click();
 }
 
 async function obtenerExamen(examen) {
@@ -71,7 +71,7 @@ async function obtenerExamen(examen) {
     texto += curso;
     titulo.innerText = texto;
 
-    const boton = document.createElement("fluent-button");
+    const boton = document.createElement("button");
     boton.textContent = "🖨️ Imprimir";
     boton.addEventListener("click", () => window.print());
     titulo.append(boton);
