@@ -2,10 +2,6 @@ section {
     margin-top: 40px;
 }
 
-a {
-    color: var(--accent-foreground-rest);
-}
-
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
@@ -24,23 +20,56 @@ Tarjeta
 
 .tarjeta {
     padding: 20px;
-    background-color: var(--neutral-layer-floating);
-    border: 1px solid var(--neutral-stroke-layer-rest);
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
     border-radius: 10px;
-    box-shadow: var(--elevation-shadow-card-rest);
+    box-shadow:
+        0 0 2px rgba(0, 0, 0, 0.12),
+        0 2px 4px rgba(0, 0, 0, 0.14);
 }
 
-.tarjeta>h3 {
+.tarjeta header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
     margin: 0;
 }
 
-#contenido .tarjeta>p {
+.tarjeta header p {
+    margin: 0;
+    padding: 5px 10px;
+    background-color: var(--background-color);
+    box-shadow: 0 0 1px hsla(0, 0%, 25%, 0.25);
+    font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.tarjeta h3 {
+    margin: 0;
+}
+
+.tarjeta>p {
     margin-top: 0.5em;
 }
 
-#progreso .tarjeta>p {
-    margin-top: 0;
-    margin-bottom: 0.5em;
+/********************
+Enlace
+********************/
+
+a {
+    color: var(--accent-link);
+    transition: color 200ms;
+}
+
+a:hover {
+    color: var(--accent-link-hover);
+}
+
+a:active {
+    color: var(--accent-link-active);
 }
 
 /********************
@@ -49,8 +78,8 @@ Enlace con acento
 
 a.acento {
     display: inline-block;
-    background-color: var(--accent-fill-rest);
-    color: var(--foreground-on-accent-active);
+    background-color: var(--accent-color);
+    color: var(--on-accent);
     padding: 5px 10px;
     font-size: 14px;
     text-align: center;
@@ -60,9 +89,9 @@ a.acento {
 }
 
 a.acento:hover {
-    background-color: var(--accent-fill-hover);
+    background-color: var(--accent-color-hover);
 }
 
 a.acento:active {
-    background-color: var(--accent-fill-active);
+    background-color: var(--accent-color-active);
 }

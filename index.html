@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Matemáticas de Selectividad</title>
 
-    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
-    <script type="module" src="js/theme.js"></script>
     <script defer src="js/main.js"></script>
 </head>
 
@@ -57,24 +55,23 @@
 
         <section>
             <h2>📘 Contenido</h2>
-            <div class="galeria" id="contenido">
+            <div class="galeria">
                 <div class="tarjeta">
-                    <h3>Exámenes</h3>
+                    <header id="encabezado-examenes">
+                        <h3>Exámenes</h3>
+                    </header>
                     <p>Navega por los exámenes más recientes ordenados por año.</p>
                     <a href="/examenes.html" class="acento">Ir a la página</a>
                 </div>
 
                 <div class="tarjeta">
-                    <h3>Ejercicios</h3>
+                    <header id="encabezado-ejercicios">
+                        <h3>Ejercicios</h3>
+                    </header>
                     <p>Navega por los ejercicios ordenados por bloques y categorías.</p>
                     <a href="/ejercicios.html" class="acento">Ir a la página</a>
                 </div>
             </div>
-        </section>
-
-        <section>
-            <h2>📋 Progreso</h2>
-            <div class="galeria" id="progreso"></div>
         </section>
 
         <section>
