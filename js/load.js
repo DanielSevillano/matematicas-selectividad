@@ -53,9 +53,10 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
     const contenedorCategorias = document.createElement("ul");
     categorias.forEach(categoria => {
         const elementoCategoria = document.createElement("li");
-        const enlaceCategoria = document.createElement("fluent-anchor");
+        const enlaceCategoria = document.createElement("a");
         enlaceCategoria.textContent = categoria;
-        enlaceCategoria.appearance = "outline";
+        enlaceCategoria.href = "#";
+        enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
     })
