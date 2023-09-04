@@ -13,6 +13,7 @@
         --accent-link-active: #0360b9;
 
         --container-color: white;
+        --container-color-alt: white;
         --border-color: #efefef;
 
         --button-background-color: white;
@@ -37,6 +38,7 @@
         --accent-link-active: #3db5fb;
 
         --container-color: #333333;
+        --container-color-alt: #212121;
         --border-color: #383838;
 
         --button-background-color: #292929;

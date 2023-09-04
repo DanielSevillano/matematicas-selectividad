@@ -30,7 +30,7 @@ article>h3:last-of-type {
 
 section>h4 {
     margin-top: 1.75em;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.5em;
     font-size: large;
 }
 
@@ -130,12 +130,12 @@ button {
     font-size: 14px;
     font-weight: 600;
     border-radius: 4px;
+    cursor: pointer;
     transition: background-color 200ms;
 }
 
 button:hover {
     background-color: var(--button-background-color-hover);
-    cursor: pointer;
 }
 
 button:active {
@@ -183,6 +183,40 @@ a.contorno {
 
 a.contorno:hover {
     cursor: default;
+}
+
+/********************
+Acordeón
+********************/
+
+details {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--container-color-alt);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+summary {
+    padding: 15px 20px;
+    background-color: var(--container-color);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+details div {
+    margin: 20px;
+}
+
+details ol {
+    padding-left: 1em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid var(--border-color);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 /********************

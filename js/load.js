@@ -71,13 +71,11 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
     parrafo.innerHTML = datos;
 
     if (resuelto) {
-        const contenedorResolucion = document.createElement("fluent-accordion");
-        const resolucion = document.createElement("fluent-accordion-item");
-        const tituloResolucion = document.createElement("span");
+        const contenedorResolucion = document.createElement("details");
+        const tituloResolucion = document.createElement("summary");
         const textoResolucion = document.createElement("div");
 
         tituloResolucion.textContent = "Resolución";
-        tituloResolucion.slot = "heading";
 
         const ruta = "data\\" + curso + "\\R" + examen + ejercicio + ".txt";
         const respuesta = await fetch(ruta);
@@ -85,9 +83,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
 
         textoResolucion.innerHTML = datos;
 
-        resolucion.append(tituloResolucion);
-        resolucion.append(textoResolucion);
-        contenedorResolucion.append(resolucion);
+        contenedorResolucion.append(tituloResolucion, textoResolucion);
         parrafo.append(contenedorResolucion);
     }
 
