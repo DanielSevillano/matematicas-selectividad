@@ -431,7 +431,7 @@
     },
     {
         "ejercicio": 202255,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices",

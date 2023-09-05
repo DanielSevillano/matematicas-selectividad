@@ -1,0 +1,82 @@
+<ol>
+    <li>Calculamos en primer lugar el determinante de la matriz $B$.
+    $$|B| = \begin{vmatrix}
+        1 & 1 & a \\
+        2 & a & 1 \\
+        2 & 2 & 0
+    \end{vmatrix} = 2 + 4a - 2a^2 - 2 = -2a^2 + 4a.$$
+
+    La inversa de la matriz $B$ no existe si y solo si su determinante es nulo.
+    $$|B| = 0 \Leftrightarrow -2a^2 + 4a = 0 \Leftrightarrow a(a - 2) = 0 \Leftrightarrow \begin{cases}
+        a = 0, \\
+        a = 2.
+    \end{cases}$$
+
+    Por tanto, la matriz $B$ no tiene inversa si y solo si $a = 0$ o $a = 2$.</li>
+
+    <li>Resolvemos la ecuación matricial para $a = 1$.
+    $$AXB = C \Leftrightarrow X = A^{-1}CB^{-1}.$$
+    Sabemos que la matriz $B$ es invertible dado que $a \neq 0, 2$.
+    Observamos que $A$ también es invertible, porque $\det(A) = 1 \neq 0$.
+    
+    Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
+    $$\mathrm{Adj}(A) = \begin{pmatrix}
+        1 & 2 \\
+        0 & 1
+    \end{pmatrix}.$$
+
+    Ahora podemos calcular su inversa como
+    $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \begin{pmatrix}
+        1 & 0 \\
+        2 & 1
+    \end{pmatrix}.$$
+
+    Repetimos el mismo procedimiento para hallar la inversa de $B$.
+    Calculamos su matriz adjunta:
+    $$\mathrm{Adj}(B) = \begin{pmatrix}
+        -2 & 2 & 2 \\
+        2 & -2 & 0 \\
+        0 & 1 & -1
+    \end{pmatrix}.$$
+    Como $\det(B) = -2a^2 + 4a = 2$,
+    $$B^{-1} = \frac{1}{|B|}\mathrm{Adj}(B)^t = \frac{1}{2}\begin{pmatrix}
+        -2 & 2 & 0 \\
+        2 & -2 & 1 \\
+        2 & 0 & -1
+    \end{pmatrix}.$$
+
+    Por último, calculamos la matriz $X$ operando.
+    $$\begin{align*}
+        X &= A^{-1}CB^{-1} = \frac{1}{2}\begin{pmatrix}
+            1 & 0 \\
+            2 & 1
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & 0 & -2 \\
+            2 & -1 & -1
+        \end{pmatrix}
+        \begin{pmatrix}
+            -2 & 2 & 0 \\
+            2 & -2 & 1 \\
+            2 & 0 & -1
+        \end{pmatrix} = \frac{1}{2}
+        \begin{pmatrix}
+            1 & 0 & -2 \\
+            4 & -1 & -5
+        \end{pmatrix}
+        \begin{pmatrix}
+            -2 & 2 & 0 \\
+            2 & -2 & 1 \\
+            2 & 0 & -1
+        \end{pmatrix} = \\
+        & = \frac{1}{2}
+        \begin{pmatrix}
+            -6 & 2 & 2 \\
+            -20 & 10 & 4
+        \end{pmatrix}
+        = \begin{pmatrix}
+            -3 & 1 & 1 \\
+            -10 & 5 & 2
+        \end{pmatrix}.
+    \end{align*}$$</li>
+</ol>

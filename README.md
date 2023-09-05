@@ -13,6 +13,6 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
 - [x] Junio de 2023
 - [ ] Julio de 2022
     - [x] 1 a 3
-    - [ ] 4 y 5
-    - [x] 6 a 8
+    - [ ] 4
+    - [x] 5 a 8
 - [ ] Junio de 2022
