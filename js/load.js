@@ -19,17 +19,25 @@ scriptMain.addEventListener("load", function () {
 
 async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false) {
     const seccion = document.createElement("section");
-    const titulo = document.createElement("h4");
+    const titulo = document.createElement("h3");
     const parrafo = document.createElement("p");
 
     let numeracion = ejercicio;
-    if (examen < 20200 && ejercicio >= 5) numeracion = ejercicio - 4;
+    let letra = "";
+    if (examen < 20200) {
+        if (ejercicio <= 4) letra = "A";
+        else {
+            numeracion = ejercicio - 4;
+            letra = "B"
+
+        }
+    }
     if (tituloCompleto) {
         const codigo = String(examen);
         const curso = codigo.slice(0, 4);
         const edicion = codigo.slice(-1)
 
-        let texto = "Ejercicio " + numeracion + ": "
+        let texto = "Ejercicio " + letra + numeracion + ": "
         if (edicion == 0) {
             if (curso == 2020) texto += "julio";
             else texto += "junio";
@@ -40,13 +48,8 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         }
         else texto += "reserva " + edicion;
         texto += " de " + curso;
-        if (examen < 20200) {
-            if (ejercicio == numeracion) texto += ", opción A";
-            else texto += ", opción B";
-        }
         titulo.textContent = texto;
-    } else titulo.textContent = "Ejercicio " + numeracion;
-
+    } else titulo.textContent = "Ejercicio " + letra + numeracion;
 
     seccion.append(titulo);
 

@@ -24,17 +24,13 @@ h3 {
     font-size: larger;
 }
 
-article>h3:last-of-type {
-    margin-top: 2.5em;
-}
-
-section>h4 {
+section>h3 {
     margin-top: 1.75em;
     margin-bottom: 0.5em;
     font-size: large;
 }
 
-section:first-of-type>h4 {
+section:first-of-type>h3 {
     margin-top: 1em;
 }
 
@@ -66,8 +62,12 @@ section>ul {
 }
 
 section>p {
-    margin-top: 0.5em;
+    margin-top: 0.75em;
 }
+
+/********************
+Imágenes
+********************/
 
 main img {
     display: block;
@@ -79,6 +79,10 @@ main img {
     max-width: min(100%, 30ch);
     max-height: 25ch;
 }
+
+/********************
+Pestañas
+********************/
 
 fluent-tabs {
     max-width: 100%;

@@ -80,59 +80,19 @@ async function obtenerExamen(examen) {
     const respuesta = await fetch("data\\metadata.json");
     const datos = await respuesta.json();
 
-    if (examen >= 20200) {
-        for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
-            const codigo = examen * 10 + ejercicio;
-            const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
+    for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
+        const codigo = examen * 10 + ejercicio;
+        const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
 
-            let resuelto = false
-            let categorias = []
-            if (datosEjercicio != undefined) {
-                if (datosEjercicio.resuelto) resuelto = true;
-                categorias = datosEjercicio.categorias;
-            }
-
-            const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
-            articulo.append(seccion);
-        }
-    } else {
-        const opcionA = document.createElement("h3");
-        opcionA.textContent = "⭐ Opción A";
-        articulo.append(opcionA);
-
-        for (let ejercicio = 1; ejercicio <= 4; ejercicio++) {
-            const codigo = examen * 10 + ejercicio;
-            const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
-
-            let resuelto = false
-            let categorias = []
-            if (datosEjercicio != undefined) {
-                if (datosEjercicio.resuelto) resuelto = true;
-                categorias = datosEjercicio.categorias;
-            }
-
-            const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
-            articulo.append(seccion);
+        let resuelto = false
+        let categorias = []
+        if (datosEjercicio != undefined) {
+            if (datosEjercicio.resuelto) resuelto = true;
+            categorias = datosEjercicio.categorias;
         }
 
-        const opcionB = document.createElement("h3");
-        opcionB.textContent = "⭐ Opción B";
-        articulo.append(opcionB);
-
-        for (let ejercicio = 5; ejercicio <= 8; ejercicio++) {
-            const codigo = examen * 10 + ejercicio;
-            const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
-
-            let resuelto = false
-            let categorias = []
-            if (datosEjercicio != undefined) {
-                if (datosEjercicio.resuelto) resuelto = true;
-                categorias = datosEjercicio.categorias;
-            }
-
-            const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
-            articulo.append(seccion);
-        }
+        const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
+        articulo.append(seccion);
     }
 
     return articulo
