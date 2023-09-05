@@ -264,7 +264,7 @@ Impresión
     nav,
     section>ul,
     button,
-    fluent-accordion {
+    details {
         display: none;
     }
 }
