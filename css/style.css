@@ -9,6 +9,12 @@ section {
     padding-inline: 0.25em;
 }
 
+main>p {
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
 h2 {
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +32,7 @@ section>h3 {
     font-size: large;
 }
 
-section:first-of-type>h3 {
+h2+section h3 {
     margin-top: 1em;
 }
 

@@ -47,7 +47,6 @@ async function mostrarNavegacion() {
     })
 
     navegacion.append(navegacionExamenes);
-    navegacion.querySelector("button").click();
 }
 
 async function obtenerExamen(examen) {

@@ -54,7 +54,6 @@ async function mostrarNavegacion() {
     });
 
     navegacion.append(navegacionEjercicios);
-    navegacion.querySelector("button").click();
 }
 
 async function obtenerCategoria(categoria) {
