@@ -99,19 +99,6 @@ fluent-tab-panel>div {
     gap: 5px;
 }
 
-fluent-accordion {
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-fluent-accordion-item>span {
-    margin-left: 10px;
-}
-
-fluent-accordion-item>div {
-    margin: 20px;
-}
-
 /********************
 Botón
 ********************/
