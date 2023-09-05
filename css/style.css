@@ -20,10 +20,6 @@ h2:first-of-type {
     margin-bottom: 5px;
 }
 
-h3 {
-    font-size: larger;
-}
-
 section>h3 {
     margin-top: 1.75em;
     margin-bottom: 0.5em;
