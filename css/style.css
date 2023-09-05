@@ -199,14 +199,35 @@ details {
 }
 
 summary {
-    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
     background-color: var(--container-color);
     border-radius: 7px;
+    list-style: none;
     cursor: pointer;
 }
 
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: "⯆";
+    margin-left: auto;
+    padding: 5px 10px;
+    aspect-ratio: 1;
+    border-radius: 4px;
+}
+
+summary:hover::after {
+    background-color: var(--background-color);
+}
+
 details div {
-    margin: 20px;
+    margin-inline: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 details ol {
@@ -217,6 +238,10 @@ details[open] summary {
     border-bottom: 1px solid var(--border-color);
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+details[open] summary::after {
+    content: "⯅";
 }
 
 /********************
