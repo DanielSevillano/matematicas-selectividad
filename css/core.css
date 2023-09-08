@@ -79,6 +79,18 @@ nav ul {
     list-style: none;
 }
 
+h1 {
+    font-size: 1.125rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.125rem;
+}
+
 fluent-progress-ring {
     margin-top: 20px;
     margin-inline: auto;
@@ -108,7 +120,6 @@ h1 {
     align-items: center;
     gap: 10px;
     margin-block: 0;
-    font-size: 18px;
     text-align: center;
 }
 
@@ -118,12 +129,29 @@ header a {
 }
 
 #navegacion-global a {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .github {
     margin-left: auto;
     height: 25px;
+}
+
+/********************
+Enlace
+********************/
+
+a {
+    color: var(--accent-link);
+    transition: color 200ms;
+}
+
+a:hover {
+    color: var(--accent-link-hover);
+}
+
+a:active {
+    color: var(--accent-link-active);
 }
 
 /********************

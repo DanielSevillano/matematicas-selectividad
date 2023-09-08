@@ -37,23 +37,6 @@ Tarjeta
 }
 
 /********************
-Enlace
-********************/
-
-a {
-    color: var(--accent-link);
-    transition: color 200ms;
-}
-
-a:hover {
-    color: var(--accent-link-hover);
-}
-
-a:active {
-    color: var(--accent-link-active);
-}
-
-/********************
 Enlace con acento
 ********************/
 
@@ -67,7 +50,7 @@ a.acento {
     box-sizing: border-box;
     background-color: var(--accent-color);
     color: var(--on-accent);
-    font-size: 14px;
+    font-size: 0.875rem;
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 200ms;
