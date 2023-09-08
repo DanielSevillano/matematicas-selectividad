@@ -1,52 +1,48 @@
-async function mostrarNavegacion() {
-    const navegacion = document.querySelector("#navegacion-local");
-    const navegacionExamenes = document.createElement("fluent-tabs");
+// Pestañas
+const grupos = document.querySelectorAll(".grupo");
+const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
+const botones = document.querySelectorAll(".contorno");
 
-    const respuesta = await fetch("data\\index.json");
-    const datos = await respuesta.json();
-
-    datos.forEach(examen => {
-        const seccionCurso = document.createElement("fluent-tab");
-        seccionCurso.textContent = examen.curso;
-        navegacionExamenes.append(seccionCurso);
-
-        const navegacionEdiciones = document.createElement("fluent-tab-panel");
-        const contenedor = document.createElement("div");
-
-        examen.ediciones.forEach(edicion => {
-            const botonEdicion = document.createElement("button");
-            let texto = "";
-            if (edicion == 0) {
-                if (examen.curso == 2020) texto += "Julio";
-                else texto += "Junio";
-            }
-            else if (edicion == 5) {
-                if (examen.curso >= 2021) texto += "Julio";
-                else texto += "Septiembre";
-            }
-            else texto += "Reserva " + edicion;
-            botonEdicion.textContent = texto;
-
-            botonEdicion.addEventListener("click", function () {
-                if (!this.classList.contains("acento")) {
-                    mostrarExamen(examen.curso * 10 + edicion);
-
-                    const botones = navegacion.getElementsByTagName("button");
-                    for (let boton of botones) {
-                        if (boton == this) boton.classList.add("acento");
-                        else boton.classList.remove("acento");
-                    }
-                }
-            });
-
-            contenedor.append(botonEdicion);
-            navegacionEdiciones.append(contenedor);
+grupos.forEach((grupo, indice) => {
+    grupo.addEventListener("click", () => {
+        grupos.forEach(g => {
+            if (grupo == g) g.classList.add("seleccionado");
+            else g.classList.remove("seleccionado");
         });
 
-        navegacionExamenes.append(navegacionEdiciones);
-    })
+        contenidoGrupos.forEach((contenido, i) => {
+            if (indice == i) contenido.classList.add("visible");
+            else contenido.classList.remove("visible");
+        });
+    });
+});
 
-    navegacion.append(navegacionExamenes);
+botones.forEach(boton => {
+    boton.addEventListener("click", () => {
+        mostrarExamen(boton.id.slice(-5));
+
+        botones.forEach(b => {
+            if (boton == b) b.classList.add("seleccionado");
+            else b.classList.remove("seleccionado");
+        });
+    });
+});
+
+// Parámetros de navegación
+const direccion = new URL(location.href);
+const parametros = direccion.searchParams;
+const examen = parametros.get("examen");
+
+if (!examen) document.querySelector(".grupo").click();
+else {
+    const curso = examen.slice(0, 4);
+    try {
+        document.querySelector("#boton-" + examen).click();
+        document.querySelector("#grupo-" + curso).click();
+    }
+    catch {
+        document.querySelector(".grupo").click();
+    }
 }
 
 async function obtenerExamen(examen) {
@@ -108,5 +104,3 @@ async function mostrarExamen(examen) {
     main.append(articulo);
     MathJax.typeset();
 }
-
-mostrarNavegacion();

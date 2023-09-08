@@ -17,6 +17,17 @@ scriptMain.addEventListener("load", function () {
     };
 });
 
+function normalizar(texto) {
+    let procesado = texto.toLowerCase();
+    procesado = procesado.replaceAll("á", "a");
+    procesado = procesado.replaceAll("é", "e");
+    procesado = procesado.replaceAll("í", "i");
+    procesado = procesado.replaceAll("ó", "o");
+    procesado = procesado.replaceAll("ú", "u");
+    procesado = procesado.replaceAll(" ", "-");
+    return procesado;
+}
+
 async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false) {
     const seccion = document.createElement("section");
     const titulo = document.createElement("h3");
@@ -58,7 +69,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         const elementoCategoria = document.createElement("li");
         const enlaceCategoria = document.createElement("a");
         enlaceCategoria.textContent = categoria;
-        enlaceCategoria.href = "#";
+        enlaceCategoria.href = "/ejercicios.html?categoria=" + normalizar(categoria);
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);

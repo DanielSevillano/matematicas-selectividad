@@ -1,59 +1,49 @@
-async function mostrarNavegacion() {
-    const navegacion = document.querySelector("#navegacion-local");
-    const navegacionEjercicios = document.createElement("fluent-tabs");
+// Pestañas
+const grupos = document.querySelectorAll(".grupo");
+const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
+const botones = document.querySelectorAll(".contorno");
 
-    const respuesta = await fetch("data\\tags.json");
-    const datos = await respuesta.json();
-
-    datos.forEach(bloque => {
-        const seccionBloque = document.createElement("fluent-tab");
-        seccionBloque.textContent = bloque.bloque;
-        navegacionEjercicios.append(seccionBloque);
-
-        const navegacionCategorias = document.createElement("fluent-tab-panel");
-        const contenedor = document.createElement("div");
-
-        const botonTodos = document.createElement("button");
-        botonTodos.textContent = "Todos";
-
-        botonTodos.addEventListener("click", function () {
-            if (!this.classList.contains("acento")) {
-                mostrarCategoria(bloque.bloque);
-
-                const botones = navegacion.getElementsByTagName("button");
-                for (let boton of botones) {
-                    if (boton == this) boton.classList.add("acento");
-                    else boton.classList.remove("acento");
-                }
-            }
+grupos.forEach((grupo, indice) => {
+    grupo.addEventListener("click", () => {
+        grupos.forEach(g => {
+            if (grupo == g) g.classList.add("seleccionado");
+            else g.classList.remove("seleccionado");
         });
 
-        contenedor.append(botonTodos);
-
-        bloque.categorias.forEach(categoria => {
-            const botonCategoria = document.createElement("button");
-            botonCategoria.textContent = categoria;
-
-            botonCategoria.addEventListener("click", function () {
-                if (!this.classList.contains("acento")) {
-                    mostrarCategoria(categoria);
-
-                    const botones = navegacion.getElementsByTagName("button");
-                    for (let boton of botones) {
-                        if (boton == this) boton.classList.add("acento");
-                        else boton.classList.remove("acento");
-                    }
-                }
-            });
-
-            contenedor.append(botonCategoria);
-            navegacionCategorias.append(contenedor);
+        contenidoGrupos.forEach((contenido, i) => {
+            if (indice == i) contenido.classList.add("visible");
+            else contenido.classList.remove("visible");
         });
-
-        navegacionEjercicios.append(navegacionCategorias);
     });
+});
 
-    navegacion.append(navegacionEjercicios);
+botones.forEach(boton => {
+    boton.addEventListener("click", () => {
+        mostrarCategoria(boton.id.replace("boton-", ""));
+
+        botones.forEach(b => {
+            if (boton == b) b.classList.add("seleccionado");
+            else b.classList.remove("seleccionado");
+        });
+    });
+});
+
+// Parámetros de navegación
+const direccion = new URL(location.href);
+const parametros = direccion.searchParams;
+const categoria = parametros.get("categoria");
+
+if (!categoria) document.querySelector(".grupo").click();
+else {
+    try {
+        document.querySelector("#boton-" + categoria).click();
+        if (["analisis", "funciones", "optimizacion", "integrales", "limites", "teorema-fundamental-del-calculo"].includes(categoria)) document.querySelector("#grupo-analisis").click();
+        else if (["algebra", "matrices", "sistemas", "determinantes", "ecuaciones-matriciales", "problemas"].includes(categoria)) document.querySelector("#grupo-algebra").click();
+        else document.querySelector("#grupo-geometria").click();
+    }
+    catch {
+        document.querySelector(".grupo").click();
+    }
 }
 
 async function obtenerCategoria(categoria) {
@@ -62,7 +52,7 @@ async function obtenerCategoria(categoria) {
     const respuesta = await fetch("data\\metadata.json");
     const datos = await respuesta.json();
 
-    const ejercicios = datos.filter(ejercicio => ejercicio.categorias.includes(categoria));
+    const ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
 
     for (let ejercicio of ejercicios) {
         let resuelto = false
@@ -90,5 +80,3 @@ async function mostrarCategoria(categoria) {
     main.append(articulo);
     MathJax.typeset();
 }
-
-mostrarNavegacion();
