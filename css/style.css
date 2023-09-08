@@ -259,11 +259,13 @@ summary::-webkit-details-marker {
 }
 
 summary::after {
-    content: "⯆";
+    content: url(/img/icono-acordeon.svg);
+    display: flex;
     margin-left: auto;
     padding: 5px 10px;
     aspect-ratio: 1;
     border-radius: 4px;
+    rotate: 180deg;
 }
 
 summary:hover::after {
@@ -287,7 +289,7 @@ details[open] summary {
 }
 
 details[open] summary::after {
-    content: "⯅";
+    rotate: 0deg;
 }
 
 /********************
