@@ -1,0 +1,4 @@
+El dueño de un bar ha comprado refrescos, cerveza y vino por un importe de 500 euros sin incluir impuestos.
+El gato en vino es de 60 euros menos que los gastos en refrescos y cerveza conjuntamente, sin incluir impuestos.
+Teniendo en cuenta que los impuestos de los refrescos, la cerveza y el vino son el 6%, el 12% y el 30%, respectivamente, entonces el importe total de la factura incluyendo impuestos ha ascendido a 592,4 euros.
+Calcula el importa, incluyendo impuestos, invertido en cada una de las bebidas.

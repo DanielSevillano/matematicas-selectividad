@@ -1,0 +1,12 @@
+Sea la matriz
+$$A = \begin{pmatrix}
+    1 & 1 & 1 \\
+    1 & 1 & 1 \\
+    1 & 1 & 1
+\end{pmatrix}$$
+y sea $I$ la matriz identidad de orden 3.
+
+<ol>
+    <li>Halla los valores de $m$ para que la matriz $A - mI$ no tenga inversa.</li>
+    <li>Halla $x$, distinto de cero, para que $A - xI$ sea la inversa de la matriz $\frac{1}{x}(A-I)$.</li>
+</ol>

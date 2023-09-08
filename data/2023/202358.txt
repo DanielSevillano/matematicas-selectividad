@@ -1,0 +1,1 @@
+Calcula el volumen del tetraedro que limita el plano determinado por los puntos $A(0, 2, -2)$, $B(3, 2, 1)$ y $C(2, 3, 2)$ con los planos cartesianos.

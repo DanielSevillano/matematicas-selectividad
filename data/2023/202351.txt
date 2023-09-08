@@ -1,0 +1,10 @@
+Sea la función $f: [-2, 2\pi] \to \mathbb{R}$, definida por
+$$f(x) = \begin{cases}
+    5x+1, & \text{si } -2 \leq x \leq 0, \\
+    e^x\cos(x), & \text{si } 0 < x \leq 2\pi.
+\end{cases}$$
+
+<ol>
+    <li>Halla los extremos relativos y absolutos de $f$ (absicsas donde se obtienen y valores que se alcanzan).</li>
+    <li>Determina la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = \frac{\pi}{2}$.</li>
+</ol>

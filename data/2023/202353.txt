@@ -1,0 +1,2 @@
+Calcula $a$ con $0 < a < 1$, tal que
+$$\int_a^1 \frac{\ln(x)}{x}dx + 2 = 0.$$

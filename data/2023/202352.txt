@@ -1,0 +1,6 @@
+Sea $f: (0, +\infty) \to \mathbb{R}$ la función definida por $f(x) = x\ln^2(x)$.
+
+<ol>
+    <li>Calcula, si existen, sus extremos relativos (abscisas donde se obtienen y valores que se alcanzan).</li>
+    <li>Calcula, si existen, sus extremos absolutos (abscisas donde se obtienen y valores que se alcanzan).</li>
+</ol>
