@@ -1,4 +1,7 @@
-// Pestañas
+const direccion = new URL(location.href);
+const parametros = direccion.searchParams;
+const examen = parametros.get("examen");
+
 const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
@@ -19,19 +22,18 @@ grupos.forEach((grupo, indice) => {
 
 botones.forEach(boton => {
     boton.addEventListener("click", () => {
-        mostrarExamen(boton.id.slice(-5));
+        if (!boton.classList.contains("seleccionado")) {
+            const examen = boton.id.replace("boton-", "");
+            mostrarExamen(examen);
+            history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
 
-        botones.forEach(b => {
-            if (boton == b) b.classList.add("seleccionado");
-            else b.classList.remove("seleccionado");
-        });
+            botones.forEach(b => {
+                if (boton == b) b.classList.add("seleccionado");
+                else b.classList.remove("seleccionado");
+            });
+        }
     });
 });
-
-// Parámetros de navegación
-const direccion = new URL(location.href);
-const parametros = direccion.searchParams;
-const examen = parametros.get("examen");
 
 if (!examen) document.querySelector(".grupo").click();
 else {

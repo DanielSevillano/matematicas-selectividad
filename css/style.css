@@ -141,6 +141,12 @@ button.contorno.seleccionado {
     color: var(--accent-color);
     border-color: var(--accent-color);
     border-width: 2px;
+    cursor: initial;
+}
+
+button.contorno.seleccionado:hover,
+button.contorno.seleccionado:active {
+    background-color: inherit;
 }
 
 /********************

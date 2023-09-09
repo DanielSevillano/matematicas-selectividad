@@ -1,4 +1,7 @@
-// Pestañas
+const direccion = new URL(location.href);
+const parametros = direccion.searchParams;
+const categoria = parametros.get("categoria");
+
 const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
@@ -19,19 +22,18 @@ grupos.forEach((grupo, indice) => {
 
 botones.forEach(boton => {
     boton.addEventListener("click", () => {
-        mostrarCategoria(boton.id.replace("boton-", ""));
+        if (!boton.classList.contains("seleccionado")) {
+            const categoria = boton.id.replace("boton-", "");
+            mostrarCategoria(categoria);
+            history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
-        botones.forEach(b => {
-            if (boton == b) b.classList.add("seleccionado");
-            else b.classList.remove("seleccionado");
-        });
+            botones.forEach(b => {
+                if (boton == b) b.classList.add("seleccionado");
+                else b.classList.remove("seleccionado");
+            });
+        }
     });
 });
-
-// Parámetros de navegación
-const direccion = new URL(location.href);
-const parametros = direccion.searchParams;
-const categoria = parametros.get("categoria");
 
 if (!categoria) document.querySelector(".grupo").click();
 else {
