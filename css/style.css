@@ -269,7 +269,7 @@ summary::after {
 }
 
 summary:hover::after {
-    background-color: var(--background-color);
+    background-color: hsla(0, 0%, 50%, 0.1);
 }
 
 details div {
@@ -309,6 +309,10 @@ Adaptabilidad
 @media (prefers-color-scheme: dark) {
     main img {
         filter: invert(1) hue-rotate(180deg);
+    }
+
+    summary::after {
+        filter: invert(1);
     }
 }
 
