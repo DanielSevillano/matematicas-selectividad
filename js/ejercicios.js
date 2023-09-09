@@ -1,3 +1,5 @@
+import { mostrarCategoria } from "/js/math.js"
+
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
 const categoria = parametros.get("categoria");
@@ -46,39 +48,4 @@ else {
     catch {
         document.querySelector(".grupo").click();
     }
-}
-
-async function obtenerCategoria(categoria) {
-    const articulo = document.createElement("article");
-
-    const respuesta = await fetch("data\\metadata.json");
-    const datos = await respuesta.json();
-
-    const ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
-
-    for (let ejercicio of ejercicios) {
-        let resuelto = false
-        let categorias = []
-        if (ejercicio != undefined) {
-            if (ejercicio.resuelto) resuelto = true;
-            categorias = ejercicio.categorias;
-        }
-
-        const parrafo = await obtenerEjercicio(parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
-        articulo.append(parrafo);
-    };
-
-    return articulo
-}
-
-async function mostrarCategoria(categoria) {
-    const main = document.querySelector("main");
-    const carga = document.createElement("fluent-progress-ring");
-    main.textContent = "";
-    main.append(carga);
-
-    const articulo = await obtenerCategoria(categoria);
-    carga.remove();
-    main.append(articulo);
-    MathJax.typeset();
 }
