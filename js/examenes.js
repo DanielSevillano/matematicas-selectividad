@@ -1,5 +1,3 @@
-import { mostrarExamen } from "/js/math.js"
-
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
 const examen = parametros.get("examen");
@@ -47,4 +45,64 @@ else {
     catch {
         document.querySelector(".grupo").click();
     }
+}
+
+async function obtenerExamen(examen) {
+    const articulo = document.createElement("article");
+
+    const titulo = document.createElement("h2");
+    const codigo = String(examen);
+    const curso = codigo.slice(0, 4);
+    const edicion = codigo.slice(-1)
+
+    let texto = "📋 ";
+    if (edicion == 0) {
+        if (curso == 2020) texto += "Julio de ";
+        else texto += "Junio de ";
+    }
+    else if (edicion == 5) {
+        if (curso >= 2021) texto += "Julio de ";
+        else texto += "Septiembre de ";
+    }
+    else texto += "Reserva " + edicion + " de ";
+    texto += curso;
+    titulo.innerText = texto;
+
+    const boton = document.createElement("button");
+    boton.textContent = "🖨️ Imprimir";
+    boton.addEventListener("click", () => window.print());
+    titulo.append(boton);
+    articulo.append(titulo);
+
+    const respuesta = await fetch("data\\metadata.json");
+    const datos = await respuesta.json();
+
+    for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
+        const codigo = examen * 10 + ejercicio;
+        const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
+
+        let resuelto = false
+        let categorias = []
+        if (datosEjercicio != undefined) {
+            if (datosEjercicio.resuelto) resuelto = true;
+            categorias = datosEjercicio.categorias;
+        }
+
+        const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
+        articulo.append(seccion);
+    }
+
+    return articulo
+}
+
+async function mostrarExamen(examen) {
+    const main = document.querySelector("main");
+    const carga = document.createElement("fluent-progress-ring");
+    main.textContent = "";
+    main.append(carga);
+
+    const articulo = await obtenerExamen(examen);
+    carga.remove();
+    main.append(articulo);
+    MathJax.typeset();
 }
