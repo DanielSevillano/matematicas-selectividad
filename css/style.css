@@ -309,7 +309,7 @@ Progreso
 main.cargando::after {
     content: "";
     display: block;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-inline: auto;
     width: 32px;
     height: 32px;
