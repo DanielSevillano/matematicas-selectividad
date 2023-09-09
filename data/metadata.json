@@ -488,7 +488,7 @@
     },
     {
         "ejercicio": 202254,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
