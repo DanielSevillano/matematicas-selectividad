@@ -278,6 +278,10 @@ summary:hover::after {
     background-color: hsla(0, 0%, 50%, 0.1);
 }
 
+summary:active::after {
+    background-color: hsla(0, 0%, 50%, 0.2);
+}
+
 details div {
     margin-inline: 20px;
     margin-top: 20px;
