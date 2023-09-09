@@ -303,6 +303,34 @@ details[open] summary::after {
 }
 
 /********************
+Progreso
+********************/
+
+main.cargando::after {
+    content: "";
+    display: block;
+    margin-top: 20px;
+    margin-inline: auto;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-inline-color: transparent;
+    animation: carga 1s linear infinite;
+}
+
+@keyframes carga {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/********************
 MathJax
 ********************/
 

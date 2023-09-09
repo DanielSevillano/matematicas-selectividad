@@ -73,12 +73,11 @@ async function obtenerCategoria(categoria) {
 
 async function mostrarCategoria(categoria) {
     const main = document.querySelector("main");
-    const carga = document.createElement("fluent-progress-ring");
     main.textContent = "";
-    main.append(carga);
+    main.classList.add("cargando");
 
     const articulo = await obtenerCategoria(categoria);
-    carga.remove();
+    main.classList.remove("cargando");
     main.append(articulo);
     MathJax.typeset();
 }

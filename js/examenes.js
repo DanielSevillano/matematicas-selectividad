@@ -97,12 +97,11 @@ async function obtenerExamen(examen) {
 
 async function mostrarExamen(examen) {
     const main = document.querySelector("main");
-    const carga = document.createElement("fluent-progress-ring");
     main.textContent = "";
-    main.append(carga);
+    main.classList.add("cargando");
 
     const articulo = await obtenerExamen(examen);
-    carga.remove();
+    main.classList.remove("cargando");
     main.append(articulo);
     MathJax.typeset();
 }
