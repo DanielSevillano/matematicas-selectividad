@@ -314,10 +314,9 @@ main.cargando::after {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    border-width: 3px;
-    border-style: solid;
-    border-inline-color: transparent;
-    animation: carga 1s linear infinite;
+    border: 3px solid var(--accent-color);
+    border-top-color: transparent;
+    animation: carga 800ms linear infinite;
 }
 
 @keyframes carga {
