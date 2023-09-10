@@ -2,6 +2,7 @@ const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
 const examen = parametros.get("examen");
 
+const main = document.querySelector("main");
 const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
@@ -22,7 +23,7 @@ grupos.forEach((grupo, indice) => {
 
 botones.forEach(boton => {
     boton.addEventListener("click", () => {
-        if (!boton.classList.contains("seleccionado")) {
+        if (!boton.classList.contains("seleccionado") || !main.classList.contains("cargando")) {
             const examen = boton.id.replace("boton-", "");
             mostrarExamen(examen);
             history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
