@@ -49,7 +49,7 @@ else {
 }
 
 async function obtenerExamen(examen) {
-    const articulo = document.createElement("article");
+    const main = document.querySelector("main");
 
     const titulo = document.createElement("h2");
     const codigo = String(examen);
@@ -73,7 +73,7 @@ async function obtenerExamen(examen) {
     boton.textContent = "🖨️ Imprimir";
     boton.addEventListener("click", () => window.print());
     titulo.append(boton);
-    articulo.append(titulo);
+    main.append(titulo);
 
     const respuesta = await fetch("data\\metadata.json");
     const datos = await respuesta.json();
@@ -90,10 +90,11 @@ async function obtenerExamen(examen) {
         }
 
         const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
-        articulo.append(seccion);
+        main.append(seccion);
+        MathJax.typeset([seccion]);
     }
 
-    return articulo
+    return true;
 }
 
 async function mostrarExamen(examen) {
@@ -101,8 +102,5 @@ async function mostrarExamen(examen) {
     main.textContent = "";
     main.classList.add("cargando");
 
-    const articulo = await obtenerExamen(examen);
-    main.classList.remove("cargando");
-    main.append(articulo);
-    MathJax.typeset();
+    obtenerExamen(examen).then(() => main.classList.remove("cargando"));
 }

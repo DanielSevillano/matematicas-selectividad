@@ -50,7 +50,7 @@ else {
 }
 
 async function obtenerCategoria(categoria) {
-    const articulo = document.createElement("article");
+    const main = document.querySelector("main");
 
     const respuesta = await fetch("data\\metadata.json");
     const datos = await respuesta.json();
@@ -66,10 +66,11 @@ async function obtenerCategoria(categoria) {
         }
 
         const parrafo = await obtenerEjercicio(parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
-        articulo.append(parrafo);
+        main.append(parrafo);
+        MathJax.typeset([parrafo]);
     };
 
-    return articulo
+    return true;
 }
 
 async function mostrarCategoria(categoria) {
@@ -77,8 +78,5 @@ async function mostrarCategoria(categoria) {
     main.textContent = "";
     main.classList.add("cargando");
 
-    const articulo = await obtenerCategoria(categoria);
-    main.classList.remove("cargando");
-    main.append(articulo);
-    MathJax.typeset();
+    obtenerCategoria(categoria).then(() => main.classList.remove("cargando"));
 }
