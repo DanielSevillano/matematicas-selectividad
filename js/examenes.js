@@ -23,7 +23,7 @@ grupos.forEach((grupo, indice) => {
 
 botones.forEach(boton => {
     boton.addEventListener("click", () => {
-        if (!boton.classList.contains("seleccionado") || !main.classList.contains("cargando")) {
+        if (!boton.classList.contains("seleccionado") && !main.classList.contains("cargando")) {
             const examen = boton.id.replace("boton-", "");
             mostrarExamen(examen);
             history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
