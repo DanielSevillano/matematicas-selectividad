@@ -12,12 +12,9 @@ function normalizar(texto) {
 }
 
 function formatear(elemento) {
-    try {
-        MathJax.typeset([elemento]);
-    }
-    catch {
-        setTimeout(() => formatear(elemento), 100);
-    }
+    if (typeof MathJax !== "object") setInterval(() => formatear(elemento), 100);
+    else if (typeof MathJax.startup !== "object") setInterval(() => formatear(elemento), 100);
+    else MathJax.startup.promise.then(() => MathJax.typeset([elemento]));
 }
 
 async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false) {
