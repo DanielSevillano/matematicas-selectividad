@@ -1,21 +1,4 @@
-const scriptMathJax = document.createElement("script");
-scriptMathJax.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
-
-const ruta = window.location.pathname;
-const scriptMain = document.createElement("script");
-if (ruta.includes("ejercicios")) scriptMain.src = "js\\ejercicios.js";
-else scriptMain.src = "js\\examenes.js";
-scriptMain.async = false;
-
-scriptMain.addEventListener("load", function () {
-    document.head.append(scriptMathJax);
-
-    window.MathJax = {
-        tex: {
-            inlineMath: [["$", "$"]],
-        },
-    };
-});
+export { mostrarExamen, mostrarCategoria }
 
 function normalizar(texto) {
     let procesado = texto.toLowerCase();
@@ -26,6 +9,15 @@ function normalizar(texto) {
     procesado = procesado.replaceAll("ú", "u");
     procesado = procesado.replaceAll(" ", "-");
     return procesado;
+}
+
+function formatear(elemento) {
+    try {
+        MathJax.typeset([elemento]);
+    }
+    catch {
+        setTimeout(() => formatear(elemento), 100);
+    }
 }
 
 async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false) {
@@ -109,7 +101,94 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
 
     seccion.append(parrafo);
 
-    return seccion
+    return seccion;
 }
 
-document.head.append(scriptMain);
+async function obtenerExamen(examen) {
+    const main = document.querySelector("main");
+
+    const titulo = document.createElement("h2");
+    const codigo = String(examen);
+    const curso = codigo.slice(0, 4);
+    const edicion = codigo.slice(-1)
+
+    let texto = "📋 ";
+    if (edicion == 0) {
+        if (curso == 2020) texto += "Julio de ";
+        else texto += "Junio de ";
+    }
+    else if (edicion == 5) {
+        if (curso >= 2021) texto += "Julio de ";
+        else texto += "Septiembre de ";
+    }
+    else texto += "Reserva " + edicion + " de ";
+    texto += curso;
+    titulo.innerText = texto;
+
+    const boton = document.createElement("button");
+    boton.textContent = "🖨️ Imprimir";
+    boton.addEventListener("click", () => window.print());
+    titulo.append(boton);
+    main.append(titulo);
+
+    const respuesta = await fetch("data\\metadata.json");
+    const datos = await respuesta.json();
+
+    for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
+        const codigo = examen * 10 + ejercicio;
+        const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
+
+        let resuelto = false
+        let categorias = []
+        if (datosEjercicio != undefined) {
+            if (datosEjercicio.resuelto) resuelto = true;
+            categorias = datosEjercicio.categorias;
+        }
+
+        const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
+        main.append(seccion);
+        formatear(seccion);
+    }
+
+    return true;
+}
+
+async function mostrarExamen(examen) {
+    const main = document.querySelector("main");
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    obtenerExamen(examen).then(() => main.classList.remove("cargando"));
+}
+
+async function obtenerCategoria(categoria) {
+    const main = document.querySelector("main");
+
+    const respuesta = await fetch("data\\metadata.json");
+    const datos = await respuesta.json();
+
+    const ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
+
+    for (let ejercicio of ejercicios) {
+        let resuelto = false
+        let categorias = []
+        if (ejercicio != undefined) {
+            if (ejercicio.resuelto) resuelto = true;
+            categorias = ejercicio.categorias;
+        }
+
+        const parrafo = await obtenerEjercicio(parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
+        main.append(parrafo);
+        formatear(parrafo);
+    };
+
+    return true;
+}
+
+async function mostrarCategoria(categoria) {
+    const main = document.querySelector("main");
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    obtenerCategoria(categoria).then(() => main.classList.remove("cargando"));
+}
