@@ -130,6 +130,15 @@ header a {
 .github {
     margin-left: auto;
     height: 25px;
+    transition: opacity 200ms;
+}
+
+.github:hover {
+    opacity: 80%;
+}
+
+.github:active {
+    opacity: 60%;
 }
 
 /********************
