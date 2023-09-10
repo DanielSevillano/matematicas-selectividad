@@ -46,20 +46,26 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
     if (tituloCompleto) {
         const codigo = String(examen);
         const curso = codigo.slice(0, 4);
-        const edicion = codigo.slice(-1)
+        const edicion = codigo.slice(-1);
 
-        let texto = "Ejercicio " + letra + numeracion + ": "
+        titulo.textContent = "Ejercicio " + letra + numeracion + ": ";
+
+        const enlace = document.createElement("a");
+        let texto = ""
         if (edicion == 0) {
-            if (curso == 2020) texto += "julio";
-            else texto += "junio";
+            if (curso == 2020) texto += "Julio";
+            else texto += "Junio";
         }
         else if (edicion == 5) {
-            if (curso >= 2021) texto += "julio";
-            else texto += "septiembre";
+            if (curso >= 2021) texto += "Julio";
+            else texto += "Septiembre";
         }
-        else texto += "reserva " + edicion;
+        else texto += "Reserva " + edicion;
         texto += " de " + curso;
-        titulo.textContent = texto;
+        enlace.textContent = texto;
+        enlace.href = "/examenes.html?examen=" + codigo;
+
+        titulo.append(enlace);
     } else titulo.textContent = "Ejercicio " + letra + numeracion;
 
     seccion.append(titulo);
