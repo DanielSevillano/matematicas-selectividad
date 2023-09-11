@@ -11,6 +11,26 @@ function normalizar(texto) {
     return procesado;
 }
 
+function tituloExamen(examen) {
+    const codigo = String(examen);
+    const curso = codigo.slice(0, 4);
+    const edicion = codigo.slice(-1);
+
+    let titulo = "";
+    if (edicion == 0) {
+        if (curso == 2020) titulo += "Julio";
+        else titulo += "Junio";
+    }
+    else if (edicion == 5) {
+        if (curso >= 2021) titulo += "Julio";
+        else titulo += "Septiembre";
+    }
+    else titulo += "Reserva " + edicion;
+    titulo += " de " + curso;
+
+    return titulo;
+}
+
 function formatear(elemento) {
     if (math) MathJax.typeset([elemento]);
     else setTimeout(() => formatear(elemento));
@@ -32,26 +52,11 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         }
     }
     if (tituloCompleto) {
-        const codigo = String(examen);
-        const curso = codigo.slice(0, 4);
-        const edicion = codigo.slice(-1);
-
         titulo.textContent = "Ejercicio " + letra + numeracion + ": ";
 
         const enlace = document.createElement("a");
-        let texto = ""
-        if (edicion == 0) {
-            if (curso == 2020) texto += "Julio";
-            else texto += "Junio";
-        }
-        else if (edicion == 5) {
-            if (curso >= 2021) texto += "Julio";
-            else texto += "Septiembre";
-        }
-        else texto += "Reserva " + edicion;
-        texto += " de " + curso;
-        enlace.textContent = texto;
-        enlace.href = "/examenes.html?examen=" + codigo;
+        enlace.textContent = tituloExamen(examen);
+        enlace.href = "/examenes.html?examen=" + examen;
 
         titulo.append(enlace);
     } else titulo.textContent = "Ejercicio " + letra + numeracion;
@@ -104,22 +109,7 @@ async function obtenerExamen(examen) {
     const main = document.querySelector("main");
 
     const titulo = document.createElement("h2");
-    const codigo = String(examen);
-    const curso = codigo.slice(0, 4);
-    const edicion = codigo.slice(-1)
-
-    let texto = "📋 ";
-    if (edicion == 0) {
-        if (curso == 2020) texto += "Julio de ";
-        else texto += "Junio de ";
-    }
-    else if (edicion == 5) {
-        if (curso >= 2021) texto += "Julio de ";
-        else texto += "Septiembre de ";
-    }
-    else texto += "Reserva " + edicion + " de ";
-    texto += curso;
-    titulo.innerText = texto;
+    titulo.innerText = "📋 " + tituloExamen(examen);
 
     main.append(titulo);
 
