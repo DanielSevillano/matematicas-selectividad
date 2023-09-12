@@ -103,12 +103,16 @@ button {
     transition: background-color 200ms;
 }
 
-button:hover {
+button:hover:enabled {
     background-color: var(--button-background-color-hover);
 }
 
-button:active {
+button:active:enabled {
     background-color: var(--button-background-color-active);
+}
+
+button:disabled {
+    cursor: default;
 }
 
 /********************

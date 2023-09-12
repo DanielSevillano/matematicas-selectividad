@@ -111,6 +111,12 @@ async function obtenerExamen(examen) {
     const titulo = document.createElement("h2");
     titulo.innerText = "📋 " + tituloExamen(examen);
 
+    const boton = document.createElement("button");
+    boton.textContent = "🖨️ Imprimir";
+    boton.disabled = true;
+    boton.addEventListener("click", () => window.print());
+    titulo.append(boton);
+
     main.append(titulo);
 
     const respuesta = await fetch("data\\metadata.json");
@@ -132,10 +138,7 @@ async function obtenerExamen(examen) {
         formatear(seccion);
     }
 
-    const boton = document.createElement("button");
-    boton.textContent = "🖨️ Imprimir";
-    boton.addEventListener("click", () => window.print());
-    titulo.append(boton);
+    boton.disabled = false;
 
     return true;
 }
