@@ -1,4 +1,4 @@
-import { mostrarCategoria } from "/js/math.js";
+import { estado, mostrarCategoria } from "/js/math.js";
 
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
@@ -23,17 +23,25 @@ grupos.forEach((grupo, indice) => {
     });
 });
 
+function pulsar(boton) {
+    if (!estado.cancelado) {
+        const categoria = boton.id.replace("boton-", "");
+        mostrarCategoria(categoria);
+        history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
+
+        botones.forEach(b => {
+            if (boton == b) b.classList.add("seleccionado");
+            else b.classList.remove("seleccionado");
+        });
+    }
+    else setTimeout(() => pulsar(boton));
+}
+
 botones.forEach(boton => {
     boton.addEventListener("click", () => {
-        if (!boton.classList.contains("seleccionado") && !main.classList.contains("cargando")) {
-            const categoria = boton.id.replace("boton-", "");
-            mostrarCategoria(categoria);
-            history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
-
-            botones.forEach(b => {
-                if (boton == b) b.classList.add("seleccionado");
-                else b.classList.remove("seleccionado");
-            });
+        if (!boton.classList.contains("seleccionado")) {
+            if (main.classList.contains("cargando")) estado.cancelar();
+            pulsar(boton);
         }
     });
 });

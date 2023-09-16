@@ -1,4 +1,14 @@
-export { mostrarExamen, mostrarCategoria }
+export { estado, mostrarExamen, mostrarCategoria }
+
+const estado = new Object({
+    cancelado: false,
+    reanudar: function () {
+        this.cancelado = false;
+    },
+    cancelar: function () {
+        this.cancelado = true;
+    }
+});
 
 function normalizar(texto) {
     let procesado = texto.toLowerCase();
@@ -123,6 +133,11 @@ async function obtenerExamen(examen) {
     const datos = await respuesta.json();
 
     for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
+        if (estado.cancelado) {
+            estado.reanudar();
+            return false;
+        }
+
         const codigo = examen * 10 + ejercicio;
         const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
 
@@ -149,6 +164,7 @@ async function mostrarExamen(examen) {
     main.classList.add("cargando");
 
     obtenerExamen(examen).then(() => main.classList.remove("cargando"));
+    estado.reanudar();
 }
 
 async function obtenerCategoria(categoria) {
@@ -160,6 +176,11 @@ async function obtenerCategoria(categoria) {
     const ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
 
     for (let ejercicio of ejercicios) {
+        if (estado.cancelado) {
+            estado.reanudar();
+            return false;
+        }
+
         let resuelto = false
         let categorias = []
         if (ejercicio != undefined) {
@@ -181,4 +202,5 @@ async function mostrarCategoria(categoria) {
     main.classList.add("cargando");
 
     obtenerCategoria(categoria).then(() => main.classList.remove("cargando"));
+    estado.reanudar();
 }
