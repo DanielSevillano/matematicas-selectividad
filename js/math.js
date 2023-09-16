@@ -124,6 +124,7 @@ async function obtenerExamen(examen) {
     const boton = document.createElement("button");
     boton.textContent = "🖨️ Imprimir";
     boton.disabled = true;
+    boton.classList.add("cargando");
     boton.addEventListener("click", () => window.print());
     titulo.append(boton);
 
@@ -154,6 +155,7 @@ async function obtenerExamen(examen) {
     }
 
     boton.disabled = false;
+    boton.classList.remove("cargando");
 
     return true;
 }

@@ -89,6 +89,7 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     min-height: 32px;
     min-width: 96px;
     padding-inline: 12px;
@@ -310,6 +311,16 @@ details[open] summary::after {
 Progreso
 ********************/
 
+@keyframes carga {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 main.cargando::after {
     content: "";
     display: block;
@@ -323,14 +334,16 @@ main.cargando::after {
     animation: carga 800ms linear infinite;
 }
 
-@keyframes carga {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+button.cargando::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 3px solid var(--accent-color);
+    border-top-color: transparent;
+    animation: carga 800ms linear infinite;
 }
 
 /********************
