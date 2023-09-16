@@ -165,8 +165,10 @@ async function mostrarExamen(examen) {
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerExamen(examen).then(() => main.classList.remove("cargando"));
-    estado.reanudar();
+    obtenerExamen(examen).then(() => {
+        main.classList.remove("cargando");
+        estado.reanudar();
+    });
 }
 
 async function obtenerCategoria(categoria) {
@@ -203,6 +205,8 @@ async function mostrarCategoria(categoria) {
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerCategoria(categoria).then(() => main.classList.remove("cargando"));
-    estado.reanudar();
+    obtenerCategoria(categoria).then(() => {
+        main.classList.remove("cargando");
+        estado.reanudar();
+    });
 }
