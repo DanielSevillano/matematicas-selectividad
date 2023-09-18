@@ -311,16 +311,6 @@ details[open] summary::after {
 Progreso
 ********************/
 
-@keyframes carga {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 main.cargando::after {
     content: "";
     display: block;
@@ -334,16 +324,25 @@ main.cargando::after {
     animation: carga 800ms linear infinite;
 }
 
+@keyframes carga {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 button.cargando::after {
     content: "";
     position: absolute;
-    top: 3px;
-    bottom: 3px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    border: 3px solid var(--accent-color);
-    border-top-color: transparent;
-    animation: carga 800ms linear infinite;
+    left: 0;
+    bottom: 0;
+    width: calc(var(--progreso, 0) * 1%);
+    height: 2px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
 }
 
 /********************

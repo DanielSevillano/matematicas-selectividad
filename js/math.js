@@ -142,12 +142,14 @@ async function obtenerExamen(examen) {
         const codigo = examen * 10 + ejercicio;
         const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
 
-        let resuelto = false
-        let categorias = []
+        let resuelto = false;
+        let categorias = [];
         if (datosEjercicio != undefined) {
             if (datosEjercicio.resuelto) resuelto = true;
             categorias = datosEjercicio.categorias;
         }
+
+        boton.style.setProperty("--progreso", ejercicio / 8 * 100);
 
         const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
         main.append(seccion);
