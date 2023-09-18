@@ -1,0 +1,15 @@
+Considera las rectas $r$ y $s$ dadas por
+$$r \equiv \begin{cases}
+    x = 1 + 2\lambda, \\
+    y = 1 - \lambda, \\
+    z = 1
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x + 2y = -1, \\
+    z = -1.
+\end{cases}$$
+
+<ol>
+    <li>Comprueba que ambas rectas son coplanarias y halla la ecuación del plano que las contiene.</li>
+    <li>Sabiendo que dos de los lados de un cuadrado están en las rectas $r$ y $s$, calcula su área.</li>
+</ol>

@@ -1,0 +1,10 @@
+Considera el punto $P(1, 0, 5)$ y la recta $r$ dada por
+$$\begin{cases}
+    y + 2z = 0, \\
+    x = 1.
+\end{cases}$$
+
+<ol>
+    <li>Determina la ecuación del plano que pasa por $P$ y es perpendicular a $r$.</li>
+    <li>Calcula la distancia de $P$ a la recta $r$ y el punto simétrico de $P$ respecto a $r$.</li>
+</ol>

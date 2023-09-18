@@ -8,6 +8,8 @@ Una página web para ver los exámenes de Selectividad de matemáticas de Andalu
     - [x] Junio
     - [x] Julio
 - [x] 2017 a 2022
+- [ ] 2016
+    - [x] Junio
 
 ## 📋 Ejercicios resueltos
 

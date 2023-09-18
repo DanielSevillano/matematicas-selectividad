@@ -1,0 +1,11 @@
+Se considera el sistema de ecuaciones lineales
+$$\begin{cases}
+    (3\alpha - 1)x + 2y = 5-\alpha, \\
+    \alpha x + y = 2, \\
+    3\alpha x + 3y = \alpha + 5.
+\end{cases}$$
+
+<ol>
+    <li>Discútelo según los valores del parámetro $\alpha$.</li>
+    <li>Resuélvelo para $\alpha = 1$ y determina en dicho caso, si existe, alguna solución donde $x = 4$.</li>
+</ol>

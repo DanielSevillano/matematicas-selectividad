@@ -1,0 +1,3 @@
+Sabiendo que
+$$\lim_{x \to 0} \frac{\ln(x+1) - a\mathrm{sen}(x) + x\cos(3x)}{x^2}$$
+es finito, calcula $a$ y el valor del límite.

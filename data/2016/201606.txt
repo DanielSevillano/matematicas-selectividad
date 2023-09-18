@@ -1,0 +1,7 @@
+Sea $f: (0, +\infty) \to \mathbb{R}$ la función dada por $f(x) = \ln(x)$.
+
+<ol>
+    <li>Calcula la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1$.</li>
+    <li>Esboza el recinto comprendido entre la gráfica de $f$, la recta $y = x-1$ y la recta $x = 3$.
+    Calcula su área.</li>
+</ol>
