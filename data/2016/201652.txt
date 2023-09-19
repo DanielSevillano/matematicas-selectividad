@@ -1,0 +1,2 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = x^4$.
+Encuentra la recta horizontal que corta a la gráfica de $f$ formando con ella un recinto con área $\frac{8}{5}$.

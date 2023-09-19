@@ -1,0 +1,6 @@
+Calcula la distancia entre las rectas dadas por las siguientes ecuaciones
+$$x = y = z \quad \text{y} \quad \begin{cases}
+    x = 1 + \mu, \\
+    y = 3 + \mu, \\
+    z = -\mu.
+\end{cases}$$

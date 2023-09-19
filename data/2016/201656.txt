@@ -1,0 +1,3 @@
+Calcula
+$$\int \frac{x}{1 + \sqrt{x}}dx.$$
+(Sugerencia: $t = \sqrt{x}$).
