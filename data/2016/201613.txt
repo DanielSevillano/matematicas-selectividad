@@ -1,0 +1,11 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & 0 \\
+    1 & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & 2 \\
+    0 & 1
+\end{pmatrix}.$$
+
+Determina, si existe, la matriz $X$ que verifica $AX + B^2 = BX + A^2$.

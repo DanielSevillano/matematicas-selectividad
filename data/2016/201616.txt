@@ -1,0 +1,3 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función dada por
+$$f(x) = \frac{2x}{(x^2+1)^2}.$$
+Calcula el área del recinto limitado por la gráfica de $f$, el eje de abscisas y las rectas $x = 0$ y $x = 1$.

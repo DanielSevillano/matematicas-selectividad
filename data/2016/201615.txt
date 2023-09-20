@@ -1,0 +1,3 @@
+Se dispone de un cartón cuadrado de 50 cm de lado para construir una caja sin tapadera a partir del cartón.
+Para ello, se corta un cuadrado de $x$ cm de lado en cada una de las esquinas.
+Halla el valor de $x$ para que el volumen de la caja sea máximo y calcula dicho volumen.

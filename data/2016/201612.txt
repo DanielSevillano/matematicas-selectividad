@@ -1,0 +1,7 @@
+Considera la función $f$ dada por $f(x) = \sqrt{x} + \frac{\ln(x)}{x}$ para $x > 0$.
+
+<ol>
+    <li>Halla todas las primitivas de $f$.</li>
+    <li>Halla $\int_1^3 f(x)dx$.</li>
+    <li>Determina la primitiva de $f$ que toma el valor 3 para $x = 1$.</li>
+</ol>
