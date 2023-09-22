@@ -208,7 +208,10 @@ Pestañas
 .contenido-grupo.visible {
     display: flex;
 
-    @starting-style {
+}
+
+@starting-style {
+    .contenido-grupo.visible {
         opacity: 0;
     }
 }

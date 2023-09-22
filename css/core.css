@@ -58,7 +58,7 @@ body {
     align-items: center;
     margin: 0;
     background-color: var(--background-color);
-    font-family: var(--body-font, system-ui);
+    font-family: system-ui;
     line-height: 1.6;
     transition: background-color 200ms;
 }
