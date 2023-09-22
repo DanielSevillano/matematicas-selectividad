@@ -1,0 +1,8 @@
+Considera un rectángulo de vértices consecutivos $A$, $B$, $C$ y $D$ siendo $A(1, 1, 0)$ y $B(2, 2, 1)$.
+Sabiendo que la recta $r$ que contiene a los puntos $C$ y $D$ pasa por el origen de coordenadas se pide:
+
+<ol>
+    <li>Halla unas ecuaciones paramétricas de $r$.</li>
+    <li>Calcula el área del triángulo $ABC$.</li>
+    <li>Determina las coordenadas del punto $D$.</li>
+</ol>

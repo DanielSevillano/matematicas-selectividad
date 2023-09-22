@@ -1,0 +1,2 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = x^3 + ax^2 + bx + c$.
+Determina $a$, $b$, $c$ sabiendo que la gráfica de $f$ tiene una tangente horizontal en el punto de abscisa $x = 1$ y un punto de inflexión en $(-1, 5)$.

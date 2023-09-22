@@ -1,0 +1,20 @@
+Sea la matriz
+$$A = \begin{pmatrix}
+    2 & 1 & 0 \\
+    0 & 1 & -1 \\
+    0 & 2 & 4
+\end{pmatrix}.$$
+
+<ol>
+    <li>Estudia, según los valores de $\lambda$, el rango de la matriz $A - \lambda I$, siendo $I$ la matriz identidad de orden 3.</li>
+    <li>Resuelve el sistema dado por
+    $$(A-2I)\begin{pmatrix}
+        x \\
+        y \\
+        z
+    \end{pmatrix} = \begin{pmatrix}
+        0 \\
+        0 \\
+        0
+    \end{pmatrix}.$$</li>
+</ol>

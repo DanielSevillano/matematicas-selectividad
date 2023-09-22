@@ -1,0 +1,13 @@
+Considera el siguiente sistema de ecuaciones lineales
+$$\begin{cases}
+    x + (\lambda + 1)y + z = 1, \\
+    \lambda y + z = 0, \\
+    \lambda y + \lambda z = \lambda.
+\end{cases}$$
+
+<ol>
+    <li>Discútelo según los valores de $\lambda$.</li>
+    <li>Resuélvelo para $\lambda = 0$.</li>
+    <li>Determina, si existe, el valor de $\lambda$ para el que hay una solución en la que $z = 2$.
+    Calcula esa solución.</li>
+</ol>

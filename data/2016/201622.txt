@@ -1,0 +1,2 @@
+De la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = ae^x - bx$, donde $a, b \in \mathbb{R}$, se sabe que su gráfica tiene tangente horizontal en $x = 0$ y que $\int_0^1 f(x)dx = e - \frac{3}{2}$.
+Halla los valores de $a$ y $b$.

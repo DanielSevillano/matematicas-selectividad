@@ -1,0 +1,16 @@
+Sea $r$ la recta dada por
+$$\begin{cases}
+    x + z = 1, \\
+    y = -1
+\end{cases}$$
+y sea $s$ la recta definida por
+$$\begin{cases}
+    x = 2 + \lambda, \\
+    y = 2, \\
+    z = 2 + 2\lambda.
+\end{cases}$$
+
+<ol>
+    <li>Comprueba que las rectas $r$ y $s$ se cruzan y halla la ecuación de la recta que corta perpendicularmente a $r$ y a $s$.</li>
+    <li>Calcula la distancia entre $r$ y $s$.</li>
+</ol>
