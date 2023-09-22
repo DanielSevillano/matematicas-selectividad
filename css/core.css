@@ -253,6 +253,7 @@ summary::after {
     aspect-ratio: 1;
     border-radius: 4px;
     rotate: 180deg;
+    transition: background-color 200ms;
 }
 
 summary:hover::after {
