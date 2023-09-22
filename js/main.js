@@ -4,8 +4,8 @@ async function ejercicioDiario() {
     const contenedor = document.querySelector("#ejercicio-diario");
 
     const fecha = new Date();
-    const semilla = fecha.getDate() * 100 + fecha.getMonth();
-    const indice = semilla % 366;
+    const semilla = fecha.getMonth() * 100 + fecha.getDate();
+    const indice = (semilla * 115) % 366;
 
     const respuesta = await fetch("data\\metadata.json");
     const datos = await respuesta.json();
