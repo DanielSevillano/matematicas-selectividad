@@ -151,6 +151,28 @@ header a {
 }
 
 /********************
+Lista
+********************/
+
+ul,
+ol {
+    padding-left: 1.5em;
+}
+
+article ol {
+    list-style-type: lower-latin;
+}
+
+article ol li {
+    margin-block: 0.2em;
+    padding-left: 0.125em;
+}
+
+article li::marker {
+    font-weight: bold;
+}
+
+/********************
 Enlace
 ********************/
 
