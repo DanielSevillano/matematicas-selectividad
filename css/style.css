@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-section {
+article {
     padding-inline: 0.25em;
 }
 
@@ -31,7 +31,7 @@ h3 {
     margin-bottom: 0.5em;
 }
 
-h2+section h3 {
+h2+article h3 {
     margin-top: 1em;
 }
 
@@ -53,16 +53,7 @@ li::marker {
     font-weight: bold;
 }
 
-section>ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-}
-
-section>p {
+article>p {
     margin-top: 0.75em;
 }
 
@@ -217,35 +208,6 @@ Pestañas
 }
 
 /********************
-Enlace con contorno
-********************/
-
-a.contorno {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 32px;
-    min-width: 96px;
-    padding-inline: 12px;
-    box-sizing: border-box;
-    background-color: transparent;
-    border: 1px solid var(--button-border-color);
-    color: inherit;
-    font-size: 0.875rem;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 200ms;
-}
-
-a.contorno:hover {
-    background-color: var(--button-background-color);
-}
-
-a.contorno:active {
-    background-color: var(--button-background-color-active);
-}
-
-/********************
 Acordeón
 ********************/
 
@@ -298,16 +260,6 @@ button.cargando::after {
 }
 
 /********************
-MathJax
-********************/
-
-mjx-container {
-    max-width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-
-/********************
 Adaptabilidad
 ********************/
 
@@ -322,13 +274,13 @@ Impresión
 ********************/
 
 @media print {
-    section {
+    article {
         break-inside: avoid;
     }
 
     body>header,
     nav,
-    section>ul,
+    article>ul,
     button,
     details {
         display: none;

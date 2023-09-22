@@ -1,4 +1,4 @@
-export { estado, mostrarExamen, mostrarCategoria }
+export { estado, formatear, obtenerEjercicio, mostrarExamen, mostrarCategoria }
 
 const estado = new Object({
     cancelado: false,
@@ -47,7 +47,7 @@ function formatear(elemento) {
 }
 
 async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false) {
-    const seccion = document.createElement("section");
+    const articulo = document.createElement("article");
     const titulo = document.createElement("h3");
     const parrafo = document.createElement("p");
 
@@ -71,7 +71,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         titulo.append(enlace);
     } else titulo.textContent = "Ejercicio " + letra + numeracion;
 
-    seccion.append(titulo);
+    articulo.append(titulo);
 
     const contenedorCategorias = document.createElement("ul");
     categorias.forEach(categoria => {
@@ -83,7 +83,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
     })
-    seccion.append(contenedorCategorias);
+    articulo.append(contenedorCategorias);
 
     const curso = String(examen).slice(0, 4);
     const ruta = "data\\" + curso + "\\" + examen + ejercicio + ".txt";
@@ -110,9 +110,9 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         parrafo.append(contenedorResolucion);
     }
 
-    seccion.append(parrafo);
+    articulo.append(parrafo);
 
-    return seccion;
+    return articulo;
 }
 
 async function obtenerExamen(examen) {

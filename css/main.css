@@ -36,6 +36,10 @@ Tarjeta
     margin-top: 0.5em;
 }
 
+.tarjeta>ul {
+    margin-top: 0.5em;
+}
+
 /********************
 Enlace con acento
 ********************/

@@ -79,6 +79,15 @@ nav ul {
     list-style: none;
 }
 
+article>ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
 h1 {
     font-size: 1.125rem;
 }
@@ -159,6 +168,35 @@ a:active {
 }
 
 /********************
+Enlace con contorno
+********************/
+
+a.contorno {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    min-width: 96px;
+    padding-inline: 12px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid var(--button-border-color);
+    color: inherit;
+    font-size: 0.875rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 200ms;
+}
+
+a.contorno:hover {
+    background-color: var(--button-background-color);
+}
+
+a.contorno:active {
+    background-color: var(--button-background-color-active);
+}
+
+/********************
 Acordeón
 ********************/
 
@@ -211,6 +249,16 @@ details[open] summary {
 
 details[open] summary::after {
     rotate: 0deg;
+}
+
+/********************
+MathJax
+********************/
+
+mjx-container {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 /********************
