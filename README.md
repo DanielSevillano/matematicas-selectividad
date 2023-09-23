@@ -35,11 +35,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [x] 2023
     - [x] Junio
     - [x] Julio
-- [x] 2017 a 2022
-- [ ] 2016
-    - [x] Junio
-    - [x] Septiembre
-    - [x] Reservas 1 a 3
+- [x] 2016 a 2022
 
 ### Ejercicios resueltos
 - [x] Junio de 2023

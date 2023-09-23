@@ -1,0 +1,6 @@
+Determina el punto de la recta $r \equiv \frac{x-1}{2} = y+1 = \frac{z}{3}$ que equidista de los planos
+$$\pi \equiv x + y + z + 3 = 0 \quad \text{y} \quad \pi' \equiv \begin{cases}
+    x = -3 + \lambda, \\
+    y = -\lambda + \mu, \\
+    z = -6 - \mu.
+\end{cases}$$

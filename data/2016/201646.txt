@@ -1,0 +1,2 @@
+Determina la función $f: \mathbb{R} \to \mathbb{R}$ tal que
+$$f''(x) = -2\mathrm{sen}(2x), \quad f(0) = 1 \quad \text{y} \quad f\left(\frac{\pi}{2}\right) = 0.$$

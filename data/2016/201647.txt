@@ -1,0 +1,11 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    1 & 0 & \lambda+1 \\
+    \lambda & 1 & -1 \\
+    0 & 0 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina, si existen, los valores de $\lambda$ para los que $A^{-1} = 2I-A$ (siendo $I$ la matriz identidad de orden 3).</li>
+    <li>Determina, si existen, los valores de $\lambda$ para los que la matriz $A + A^t$ no tiene inversa.</li>
+</ol>

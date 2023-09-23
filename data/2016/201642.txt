@@ -1,0 +1,3 @@
+Calcula
+$$\int \frac{\sqrt{2x+1}}{2x+1 + \sqrt{2x+1}}dx.$$
+(Sugerencia: $t = \sqrt{2x+1}$).

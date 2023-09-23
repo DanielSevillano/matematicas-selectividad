@@ -1,0 +1,7 @@
+Considera el plano $\pi$ de ecuación $6x - my + 2z = 1$ y la recta $r$ dada por
+$$\frac{x-1}{-3} = \frac{y+1}{2} = \frac{z+2}{-1}.$$
+
+<ol>
+    <li>Calcula $m$ en el caso en que la recta $r$ es perpendicular al plano $\pi$.</li>
+    <li>¿Existe algún valor de $m$ para el que la recta $r$ esté contenida en el plano $\pi$?</li>
+</ol>

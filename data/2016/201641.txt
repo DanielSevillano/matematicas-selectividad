@@ -1,0 +1,2 @@
+Se quiere construir un bote de conservas cilíndrico, con tapa, de un litro de capacidad.
+Calcula las dimensiones del bote para que en su construcción se utilice la menor cantidad posible de hojalata.
