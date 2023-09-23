@@ -1,0 +1,21 @@
+Considera el sistema de ecuaciones dado en forma matricial mediante $AX = B$ siendo
+$$A = \begin{pmatrix}
+    1 & 1 & 2 \\
+    -1 & m+2 & m \\
+    1 & 1 & m+2
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 - m \\
+    m \\
+    7
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Discute el sistema según los valores de $m$.</li>
+    <li>Resuelve el sistema para $m = -3$ y determina en dicho caso, si existe, una solución en la que $x = 2$.</li>
+</ol>

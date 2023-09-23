@@ -1,0 +1,2 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ dada for $f(x) = -x^2 + mx$ siendo $m > 0$.
+Esboza el recinto limitado por la gráfica de $f$ y la recta $y = -mx$ y calcula el valor de $m$ para que el área de dicho recinto sea 36.

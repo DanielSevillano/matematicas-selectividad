@@ -1,0 +1,10 @@
+Sea $r$ la recta que pasa por los puntos $A(1, 1, 0)$ y $B(3, -1, 1)$ y $s$ la recta dada por
+$$\begin{cases}
+    x + 2y = -1, \\
+    y + z = -1.
+\end{cases}$$
+
+<ol>
+    <li>Halla la ecuación general del plano que pasa por el origen de coordenadas y es paralelo a las rectas dadas.</li>
+    <li>Halla unas ecuaciones paramétricas del plano que pasa por $B$ y es perpendicular a $s$.</li>
+</ol>

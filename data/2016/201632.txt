@@ -1,0 +1,2 @@
+Calcula el valor de $a > 0$ para el que se verifica
+$$\int_0^a \frac{x}{2 + x^2}dx = 1.$$

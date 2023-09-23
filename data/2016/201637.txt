@@ -1,0 +1,10 @@
+De los datos recabados en un informe sobre los beneficios obtenidos por las empresas A, B y C el pasado año, se desprende lo siguiente:
+<ul>
+    <li>La empresa B obtiene el mismo beneficio que las empresas A y C juntas.</li>
+    <li>El beneficio de la empresa A es la media aritmética del de las otras dos.</li>
+</ul>
+
+<ol>
+    <li>Determina si se puede hallar el beneficio de cada empresa sabiendo que A ha obtenido el doble que C.</li>
+    <li>Calcula el beneficio de cada empresa sabiendo que entre las tres han obtenido 210 millones de euros.</li>
+</ol>
