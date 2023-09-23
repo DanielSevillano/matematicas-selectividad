@@ -1,4 +1,4 @@
-import { estado, mostrarCategoria } from "/js/math.js";
+import { estado, mostrarCategoria } from "./math.js";
 
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
