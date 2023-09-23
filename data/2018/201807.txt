@@ -3,7 +3,7 @@
     <ul>
         <li>Utilizando únicamente monedas de 50 céntimos, de 1 euro y de 2 euros.</li>
         <li>Se tienen que utilizar exactamente un total de 30 monedas.</li>
-        <li>Tiene que haber igual númmero de monedas de 1 euro como de 50 céntimos y 2 euros juntas.</li>
+        <li>Tiene que haber igual número de monedas de 1 euro como de 50 céntimos y 2 euros juntas.</li>
     </ul>
 
     ¿De cuántas maneras y con cuántas monedas de cada tipo se puede hacer el pago?</li>
