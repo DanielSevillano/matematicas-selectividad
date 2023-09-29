@@ -1,2 +1,2 @@
-Calcula $\int \ln(x^2 + 2x + 2)dx$.
+Calcula $\int \ln(x^2 + 2x + 2)dx.$
 (Sugerencia: efectúa el cambio de variable $t = x+1$).

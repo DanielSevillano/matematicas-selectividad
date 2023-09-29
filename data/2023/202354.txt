@@ -1,6 +1,6 @@
-Considera las funciones $f: \mathbb{R} \to \mathbb{R}$ y $g: \mathbb{R} \setminus \{0\} \to \mathbb{R}$ definidas por $f(x) = 5-x^2$ y $g(x) = \frac{4}{x^2}$.
+Considera las funciones $f: \mathbb{R} \to \mathbb{R}$ y $g: \mathbb{R} \setminus \{0\} \to \mathbb{R}$ definidas por $f(x) = 5-x^2$ y $g(x) = \frac{4}{x^2}.$
 
 <ol>
     <li>Esboza las gráficas de las dos funciones y calcula los puntos de corte entre ellas.</li>
-    <li>Calcula la suma de las áreas de los recintos limitados por las gráficas de $f$ y $g$.</li>
+    <li>Calcula la suma de las áreas de los recintos limitados por las gráficas de $f$ y $g.$</li>
 </ol>

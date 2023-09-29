@@ -1,3 +1,3 @@
 Considera la función $F: [0, +\infty) \to \mathbb{R}$ definida por
 $$F(x) = \int_0^x (2t + \sqrt{t})dt.$$
-Halla la ecuación de la recta tangente a la gráfica de $F$ en el punto de abscisa $x = 1$.
+Halla la ecuación de la recta tangente a la gráfica de $F$ en el punto de abscisa $x = 1.$

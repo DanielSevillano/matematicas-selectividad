@@ -6,7 +6,7 @@ $$A = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Comprueba que $A^2 = -A^{-1}$.</li>
+    <li>Comprueba que $A^2 = -A^{-1}.$</li>
     <li>Dadas las matrices
     $$B = \begin{pmatrix}
         1 & -1 \\
@@ -18,5 +18,5 @@ $$A = \begin{pmatrix}
         -3 & 2 \\
         1 & -1
     \end{pmatrix},$$
-    calcula la matriz $X$ que verifica $A^4X + B = AC$.</li>
+    calcula la matriz $X$ que verifica $A^4X + B = AC.$</li>
 </ol>

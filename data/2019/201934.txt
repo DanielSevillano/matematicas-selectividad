@@ -3,9 +3,9 @@ $$r \equiv \begin{cases}
     x + y + 2 = 0, \\
     -y + z + 5 = 0
 \end{cases}$$
-y el plano $\pi \equiv 2x + y - mz = 1$.
+y el plano $\pi \equiv 2x + y - mz = 1.$
 
 <ol>
     <li>Calcula $m$ sabiendo que $r$ y $\pi$ son paralelos.</li>
-    <li>Para $m = -1$, calcula la distancia entre $r$ y $\pi$.</li>
+    <li>Para $m = -1$, calcula la distancia entre $r$ y $\pi.$</li>
 </ol>

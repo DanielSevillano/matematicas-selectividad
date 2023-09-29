@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discute el sistema según los valores de $\lambda$.</li>
-    <li>Resuélvelo, si es posible, para $\lambda = 4$.</li>
+    <li>Discute el sistema según los valores de $\lambda.$</li>
+    <li>Resuélvelo, si es posible, para $\lambda = 4.$</li>
 </ol>

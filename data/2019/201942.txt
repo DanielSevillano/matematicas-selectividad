@@ -5,7 +5,7 @@ $$f(x) = \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Calcula los puntos de corte entre la gráfica de $f$ y la recta $y = 2x - 4$.
+    <li>Calcula los puntos de corte entre la gráfica de $f$ y la recta $y = 2x - 4.$
     Esboza el recinto que delimitan la gráfica de $f$ y la recta.</li>
     <li>Calcula el área del recinto anterior.</li>
 </ol>

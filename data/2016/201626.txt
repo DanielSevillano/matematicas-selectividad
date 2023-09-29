@@ -1,4 +1,4 @@
 Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por
 $$f(x) = \frac{3x(2m-x)}{m^3},$$
-con $m > 0$.
+con $m > 0.$
 Calcula el área del recinto encerrado por la gráfica de $f$ y el eje OX.

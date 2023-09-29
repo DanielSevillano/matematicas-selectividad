@@ -7,6 +7,6 @@ $$r \equiv \begin{cases}
 
 
 <ol>
-    <li>Determina la ecuación del plano perpendicular a $\pi$ que contiene a $r$.</li>
-    <li>Calcula la distancia entre $r$ y $\pi$.</li>
+    <li>Determina la ecuación del plano perpendicular a $\pi$ que contiene a $r.$</li>
+    <li>Calcula la distancia entre $r$ y $\pi.$</li>
 </ol>

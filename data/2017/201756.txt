@@ -1,4 +1,4 @@
-Considera el recinto del primer cuadrante limitado por el eje OX, la recta $y = x$, la gráfica $y = \frac{1}{x^3}$ y la recta $x = 3$.
+Considera el recinto del primer cuadrante limitado por el eje OX, la recta $y = x$, la gráfica $y = \frac{1}{x^3}$ y la recta $x = 3.$
 
 <ol>
     <li>Haz un esbozo del recinto descrito.</li>

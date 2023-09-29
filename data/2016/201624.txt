@@ -11,6 +11,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Comprueba que las rectas $r$ y $s$ se cruzan y halla la ecuación de la recta que corta perpendicularmente a $r$ y a $s$.</li>
-    <li>Calcula la distancia entre $r$ y $s$.</li>
+    <li>Comprueba que las rectas $r$ y $s$ se cruzan y halla la ecuación de la recta que corta perpendicularmente a $r$ y a $s.$</li>
+    <li>Calcula la distancia entre $r$ y $s.$</li>
 </ol>

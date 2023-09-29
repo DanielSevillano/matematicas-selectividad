@@ -2,6 +2,6 @@ Considera el punto $P(-5, 3, 1)$ y la recta
 $$r \equiv \frac{x}{2} = \frac{y-3}{2} = \frac{z-2}{-1}.$$
 
 <ol>
-    <li>Calcula la ecuación general del plano que pasa por $P$ y contiene a $r$.</li>
-    <li>Calcula la ecuación de la recta que pasa por $P$ y corta perpendicularmente a $r$.</li>
+    <li>Calcula la ecuación general del plano que pasa por $P$ y contiene a $r.$</li>
+    <li>Calcula la ecuación de la recta que pasa por $P$ y corta perpendicularmente a $r.$</li>
 </ol>

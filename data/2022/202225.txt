@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discute el sistema según los valores de $m$.</li>
-    <li>Para $m = -2$ encuentra, si es posible, $y_0$ para que la solución del sistema sea $x = \lambda$, $y = y_0$, $z = \lambda - \frac{3}{7}$.</li>
+    <li>Discute el sistema según los valores de $m.$</li>
+    <li>Para $m = -2$ encuentra, si es posible, $y_0$ para que la solución del sistema sea $x = \lambda$, $y = y_0$, $z = \lambda - \frac{3}{7}.$</li>
 </ol>

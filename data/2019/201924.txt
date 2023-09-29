@@ -1,7 +1,7 @@
-Sea $r$ la recta que pasa por el punto $P(2, -2, -1)$ con vector director $\vec{v} = (k, 3+k, -2k)$ y sea $\pi$ el plano de ecuación $-x + 2y + 2z - 1 = 0$.
+Sea $r$ la recta que pasa por el punto $P(2, -2, -1)$ con vector director $\vec{v} = (k, 3+k, -2k)$ y sea $\pi$ el plano de ecuación $-x + 2y + 2z - 1 = 0.$
 
 <ol>
-    <li>Calcula el valor de $k$ para que $r$ sea paralela a $\pi$.</li>
-    <li>Calcula el valor de $k$ para que $r$ sea perpendicular a $\pi$.</li>
-    <li>Para $k = -1$, calcula los puntos de $r$ que distan 3 unidades de $\pi$.</li>
+    <li>Calcula el valor de $k$ para que $r$ sea paralela a $\pi.$</li>
+    <li>Calcula el valor de $k$ para que $r$ sea perpendicular a $\pi.$</li>
+    <li>Para $k = -1$, calcula los puntos de $r$ que distan 3 unidades de $\pi.$</li>
 </ol>

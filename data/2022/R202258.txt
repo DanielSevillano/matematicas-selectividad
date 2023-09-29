@@ -1,5 +1,5 @@
 <ol>
-    <li>En primer lugar hallamos las ecuaciones paramétricas de la recta $r$.
+    <li>En primer lugar hallamos las ecuaciones paramétricas de la recta $r.$
     Como su vector director es $\vec{d}_r = (1, 3, 1)$ y pasa por el punto $(0, 0, 1)$,
     $$r \equiv \begin{cases}
         x = \lambda, \\
@@ -10,12 +10,12 @@
     Para hallar el punto de intersección de $r$ y $\pi$, sustituimos las ecuaciones de $r$ en la ecuación del plano.
     $$\lambda + 3\lambda - (1 + \lambda) = 2 \Leftrightarrow 3\lambda = 3 \Leftrightarrow \lambda = 1.$$
     
-    Por tanto, el punto de intersección es $(1, 3, 2)$.</li>
+    Por tanto, el punto de intersección es $(1, 3, 2).$</li>
 
-    <li>Para hallar el punto simétrico $Q'$ de $Q$ con respecto de $\pi$ podemos trazar una recta $s$ perpendicular al plano que pase por el punto $Q$.
-    Esta recta cortará a $\pi$ en un punto $M$, que será el punto medio de $Q$ y $Q'$.
+    <li>Para hallar el punto simétrico $Q'$ de $Q$ con respecto de $\pi$ podemos trazar una recta $s$ perpendicular al plano que pase por el punto $Q.$
+    Esta recta cortará a $\pi$ en un punto $M$, que será el punto medio de $Q$ y $Q'.$
 
-    Si $s$ es perpendicular a $\pi$, su vector director es $\vec{d}_s = \vec{n}_\pi = (1, 1, -1)$.
+    Si $s$ es perpendicular a $\pi$, su vector director es $\vec{d}_s = \vec{n}_\pi = (1, 1, -1).$
     Así que la ecuación de la recta $s$ es
     $$s \equiv \begin{cases}
         x = 2 + \mu, \\
@@ -23,12 +23,12 @@
         z = 3 - \mu.
     \end{cases}$$
 
-    Calculamos el punto $M = s \cap \pi$.
+    Calculamos el punto $M = s \cap \pi.$
     Para ello sustituimos las ecuaciones paramétricas de $s$ en la ecuación del plano.
     $$2 + \mu + 6 + \mu - (3 - \mu) = 2 \Leftrightarrow \mu = -1.$$
-    Por tanto, el punto de corte es $M(1, 5, 4)$.
+    Por tanto, el punto de corte es $M(1, 5, 4).$
 
-    Llamamos $Q' = (a, b, c)$.
+    Llamamos $Q' = (a, b, c).$
     Como $M$ es el punto medio de $Q$ y $Q'$, entonces:
     $$\begin{cases}
         \frac{2 + a}{2} = 1, \\
@@ -36,6 +36,6 @@
         \frac{3 + c}{2} = 4.
     \end{cases}$$
 
-    Resolviendo el sistema, $a = 0$, $b = 4$ y $c = 5$.
-    Luego el simétrico de $Q$ con respecto al plano $\pi$ es $Q'(0, 4, 5)$.</li>
+    Resolviendo el sistema, $a = 0$, $b = 4$ y $c = 5.$
+    Luego el simétrico de $Q$ con respecto al plano $\pi$ es $Q'(0, 4, 5).$</li>
 </ol>

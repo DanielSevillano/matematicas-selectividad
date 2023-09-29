@@ -1,9 +1,9 @@
 Sea $f$ la función definida por
 $$f(x) = \frac{e^x}{x-1}$$
-para $x \neq 1$.
+para $x \neq 1.$
 
 <ol>
-    <li>Estudia y determina las asíntotas de la gráfica de $f$.</li>
+    <li>Estudia y determina las asíntotas de la gráfica de $f.$</li>
     <li>Determina los intervalos de crecimiento y de decrecimiento de $f$ y halla sus máximos y mínimos relativos (puntos en los que se obtienen y valores que alcanza la función).</li>
     <li>Esboza la gráfica de $f$ indicando sus puntos de corte con los ejes coordenados.</li>
 </ol>

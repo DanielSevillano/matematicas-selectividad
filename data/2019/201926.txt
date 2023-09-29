@@ -1,6 +1,6 @@
-Considera las funciones $f, g: [-\pi, \pi] \to \mathbb{R}$ definidas por $f(x) = \cos(x)$ y $g(x) = \mathrm{sen}(x)$.
+Considera las funciones $f, g: [-\pi, \pi] \to \mathbb{R}$ definidas por $f(x) = \cos(x)$ y $g(x) = \mathrm{sen}(x).$
 
 <ol>
     <li>Esboza sus gráficas en unos mismos ejes coordenados y calcula sus puntos de corte.</li>
-    <li>Calcula el área del recinto deliminato por las gráficas de $f$ y de $g$ en el intervalo $\left[-\frac{3\pi}{4}, \frac{\pi}{4}\right]$.</li>
+    <li>Calcula el área del recinto deliminato por las gráficas de $f$ y de $g$ en el intervalo $\left[-\frac{3\pi}{4}, \frac{\pi}{4}\right].$</li>
 </ol>

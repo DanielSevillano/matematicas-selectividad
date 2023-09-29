@@ -6,7 +6,7 @@ $$f(x) = \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Calcula $a$ y $b$.</li>
-    <li>Para $a = -1$ y $b = 4$, estudia si existe la derivada de $f$ en $x = 2$.
+    <li>Calcula $a$ y $b.$</li>
+    <li>Para $a = -1$ y $b = 4$, estudia si existe la derivada de $f$ en $x = 2.$
     En caso afirmativo, calcula la ecuación de la recta tangente a la gráfica de $f$ en dicho punto.</li>
 </ol>

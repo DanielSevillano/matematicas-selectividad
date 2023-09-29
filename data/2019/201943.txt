@@ -16,6 +16,6 @@ X = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Estudia el rango de $A$ según los valores de $m$.</li>
+    <li>Estudia el rango de $A$ según los valores de $m.$</li>
     <li>Sabiendo que para $m = 1$ el sistema dado por $AX = B$ tiene solución, encuentra $k$ y resuélvelo.</li>
 </ol>

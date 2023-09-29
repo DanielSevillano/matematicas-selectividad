@@ -5,6 +5,6 @@ $$f(x) = \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Determina $a$ y $b$ sabiendo que $f$ tiene un extremo relativo en el punto de abscisa $x = 2$.</li>
-    <li>Para $a = 2$ y $b = -1$, estudia la derivabilidad de $f$.</li>
+    <li>Determina $a$ y $b$ sabiendo que $f$ tiene un extremo relativo en el punto de abscisa $x = 2.$</li>
+    <li>Para $a = 2$ y $b = -1$, estudia la derivabilidad de $f.$</li>
 </ol>

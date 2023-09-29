@@ -16,7 +16,7 @@ B = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Discute el sistema según los valores de $m$.</li>
+    <li>Discute el sistema según los valores de $m.$</li>
     <li>Para $m = -2$, ¿existe alguna solución con $z = 0$?
     En caso afirmativo, calcúlala.
     En caso negativo, justifica la respuesta.</li>

@@ -1,6 +1,6 @@
 Hacemos el cambio de variable
 $$t = \sqrt{1+x} - 1 \Leftrightarrow (t+1)^2 = 1+x \Leftrightarrow x = (t+1)^2 - 1.$$
-Derivando, $dx = 2(t+1)dt$.
+Derivando, $dx = 2(t+1)dt.$
 
 Hallamos en primer lugar una primitiva de la función aplicando el cambio de variable.
 $$\int \frac{1}{\sqrt{1+x} - 1}dx = \int \frac{1}{t}2(t+1)dt = 2\int 1dt + 2\int \frac{1}{t}dt = 2t + 2\ln(t).$$

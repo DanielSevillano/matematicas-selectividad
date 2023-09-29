@@ -1,7 +1,7 @@
-Considera las funciones $f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = 1-x^2$ y $g(x) = 2x^2$.
+Considera las funciones $f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = 1-x^2$ y $g(x) = 2x^2.$
 
 <ol>
-    <li>Calcula los puntos de corte de las gráficas de $f$ y $g$.
+    <li>Calcula los puntos de corte de las gráficas de $f$ y $g.$
     Esboza el recinto que delimitan.</li>
     <li>Determina el área del recinto anterior.</li>
 </ol>

@@ -4,9 +4,9 @@ $$r \equiv \begin{cases}
     y = 1 - 2\lambda, \\
     z = -2 - \lambda
 \end{cases}$$
-y el punto $P(1, 1, 2)$.
+y el punto $P(1, 1, 2).$
 
 <ol>
-    <li>Determina la ecuación general del plano perpendicular a $\pi$, paralelo a $r$ y que pasa por el punto $P$.</li>
-    <li>Calcula el punto simétrico de $P$ respecto de la recta $r$.</li>
+    <li>Determina la ecuación general del plano perpendicular a $\pi$, paralelo a $r$ y que pasa por el punto $P.$</li>
+    <li>Calcula el punto simétrico de $P$ respecto de la recta $r.$</li>
 </ol>

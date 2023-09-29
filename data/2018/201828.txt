@@ -3,5 +3,5 @@ $$x-1 = \frac{y-1}{-1} = \frac{z-1}{2}.$$
 
 <ol>
     <li>Determina los puntos del segmento $AB$ que lo dividen en 3 segmentos de la misma longitud.</li>
-    <li>Determina un punto $C$ de $r$ de forma que el triángulo $ABC$ sea rectángulo en $C$.</li>
+    <li>Determina un punto $C$ de $r$ de forma que el triángulo $ABC$ sea rectángulo en $C.$</li>
 </ol>

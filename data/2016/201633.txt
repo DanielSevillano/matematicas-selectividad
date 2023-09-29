@@ -16,6 +16,6 @@ X = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Discute el sistema según los valores de $m$.</li>
-    <li>Resuelve el sistema para $m = -3$ y determina en dicho caso, si existe, una solución en la que $x = 2$.</li>
+    <li>Discute el sistema según los valores de $m.$</li>
+    <li>Resuelve el sistema para $m = -3$ y determina en dicho caso, si existe, una solución en la que $x = 2.$</li>
 </ol>

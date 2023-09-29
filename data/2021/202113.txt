@@ -1,4 +1,4 @@
-Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = e^x$.
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = e^x.$
 
 <ol>
     <li>Calcula $a$ para que la recta tangente a la gráfica de $f$ en el punto $(a, f(a))$ pase por el origen de coordenadas.</li>

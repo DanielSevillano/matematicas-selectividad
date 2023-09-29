@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discútelo según los valores de $a$.</li>
-    <li>Resuelve, si es posible, el sistema para $a = 1$ y $a = -2$.</li>
+    <li>Discútelo según los valores de $a.$</li>
+    <li>Resuelve, si es posible, el sistema para $a = 1$ y $a = -2.$</li>
 </ol>

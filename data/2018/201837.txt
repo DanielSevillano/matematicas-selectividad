@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discútelo según los valores del parámetro $m$.</li>
-    <li>Para $m = 1$ resuelve el sistema y encuentra, si es posible, una solución para la que sea $x = z$.</li>
+    <li>Discútelo según los valores del parámetro $m.$</li>
+    <li>Para $m = 1$ resuelve el sistema y encuentra, si es posible, una solución para la que sea $x = z.$</li>
 </ol>

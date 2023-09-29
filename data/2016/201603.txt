@@ -11,6 +11,6 @@ B = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Halla la matriz $X$ que verifica $AX + B = 2A$.</li>
-    <li>Calcula $B^2$ y $B^{2016}$.</li>
+    <li>Halla la matriz $X$ que verifica $AX + B = 2A.$</li>
+    <li>Calcula $B^2$ y $B^{2016}.$</li>
 </ol>

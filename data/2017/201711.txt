@@ -7,6 +7,6 @@ $$f(x) = \begin{cases}
 es continua.
 
 <ol>
-    <li>Determina $a$ y $b$.</li>
-    <li>Estudia la derivabilidad de $f$.</li>
+    <li>Determina $a$ y $b.$</li>
+    <li>Estudia la derivabilidad de $f.$</li>
 </ol>

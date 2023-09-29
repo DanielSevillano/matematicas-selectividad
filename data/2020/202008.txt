@@ -5,6 +5,6 @@ $$r \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Calcula la ecuación del plano que pasa por $A$ y es perpendicular a $r$.</li>
-    <li>Calcula la ecuación del plano que pasa por $A$ y contiene a $r$.</li>
+    <li>Calcula la ecuación del plano que pasa por $A$ y es perpendicular a $r.$</li>
+    <li>Calcula la ecuación del plano que pasa por $A$ y contiene a $r.$</li>
 </ol>

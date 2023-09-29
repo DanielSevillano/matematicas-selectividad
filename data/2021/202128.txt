@@ -6,6 +6,6 @@ s \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Estudia la posición relativa de $r$ y $s$.</li>
-    <li>Calcula, si es posible, el plano que contiene a $r$ y a $s$.</li>
+    <li>Estudia la posición relativa de $r$ y $s.$</li>
+    <li>Calcula, si es posible, el plano que contiene a $r$ y a $s.$</li>
 </ol>

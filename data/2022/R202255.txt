@@ -1,5 +1,5 @@
 <ol>
-    <li>Calculamos en primer lugar el determinante de la matriz $B$.
+    <li>Calculamos en primer lugar el determinante de la matriz $B.$
     $$|B| = \begin{vmatrix}
         1 & 1 & a \\
         2 & a & 1 \\
@@ -12,12 +12,12 @@
         a = 2.
     \end{cases}$$
 
-    Por tanto, la matriz $B$ no tiene inversa si y solo si $a = 0$ o $a = 2$.</li>
+    Por tanto, la matriz $B$ no tiene inversa si y solo si $a = 0$ o $a = 2.$</li>
 
-    <li>Resolvemos la ecuación matricial para $a = 1$.
+    <li>Resolvemos la ecuación matricial para $a = 1.$
     $$AXB = C \Leftrightarrow X = A^{-1}CB^{-1}.$$
-    Sabemos que la matriz $B$ es invertible dado que $a \neq 0, 2$.
-    Observamos que $A$ también es invertible, porque $\det(A) = 1 \neq 0$.
+    Sabemos que la matriz $B$ es invertible dado que $a \neq 0, 2.$
+    Observamos que $A$ también es invertible, porque $\det(A) = 1 \neq 0.$
     
     Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
     $$\mathrm{Adj}(A) = \begin{pmatrix}
@@ -31,7 +31,7 @@
         2 & 1
     \end{pmatrix}.$$
 
-    Repetimos el mismo procedimiento para hallar la inversa de $B$.
+    Repetimos el mismo procedimiento para hallar la inversa de $B.$
     Calculamos su matriz adjunta:
     $$\mathrm{Adj}(B) = \begin{pmatrix}
         -2 & 2 & 2 \\

@@ -6,6 +6,6 @@ $$A = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Estudia el rango de $A$ según los valores de $m$.</li>
-    <li>Para $m = 2$, calcula la inversa de $2020A$.</li>
+    <li>Estudia el rango de $A$ según los valores de $m.$</li>
+    <li>Para $m = 2$, calcula la inversa de $2020A.$</li>
 </ol>

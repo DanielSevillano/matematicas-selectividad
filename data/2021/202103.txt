@@ -1,6 +1,6 @@
-Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = 4x^3 - x^4$.
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = 4x^3 - x^4.$
 
 <ol>
-    <li>Determina los intervalos de crecimiento y decrecimiento de $f$.</li>
+    <li>Determina los intervalos de crecimiento y decrecimiento de $f.$</li>
     <li>Esboza la gráfica de $f$ y calcula el área del recinto limitado por dicha gráfica y el eje de abscisas.</li>
 </ol>

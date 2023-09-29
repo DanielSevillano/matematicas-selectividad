@@ -5,7 +5,7 @@ $$A = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Comprueba que $AA^t - 2A = I$.</li>
-    <li>Calcula $A^{-1}$.</li>
-    <li>Determina, si existe, la matriz $X$ que verifica $XA + I = 3A$.</li>
+    <li>Comprueba que $AA^t - 2A = I.$</li>
+    <li>Calcula $A^{-1}.$</li>
+    <li>Determina, si existe, la matriz $X$ que verifica $XA + I = 3A.$</li>
 </ol>

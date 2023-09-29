@@ -1,20 +1,20 @@
 La función $f(x) = -x^2 + 12$ es simétrica par, así que todo rectángulo inscrito en el recinto limitado por su gráfica y el eje de abscisas estará centrado con respecto al eje de ordenadas.
 Llamamos $x$ a la distancia del centro a cada uno de los extremos del rectángulo horizontalmente.
 Por otro lado, llamamos $y$ a la altura del rectángulo.
-Como $x$ e $y$ son distancias, necesariamente $x, y \geq 0$.
+Como $x$ e $y$ son distancias, necesariamente $x, y \geq 0.$
 Representamos la figura.
 <img src="img/R202252.png" alt="Figura" loading="lazy">
 
-Como la base del rectángulo es $2x$, el área viene dada por $2xy$.
-Como además los vértices superiores del rectángulos están sobre la gráfica de la función $f$, entonces $y = f(x) = -x^2 + 12$.
+Como la base del rectángulo es $2x$, el área viene dada por $2xy.$
+Como además los vértices superiores del rectángulos están sobre la gráfica de la función $f$, entonces $y = f(x) = -x^2 + 12.$
 Por tanto, la función a maximizar es
 $$S(x) = 2x \cdot (-x^2 + 12) = -2x^3 + 24x,$$
-sustituyendo el valor de $y$.
+sustituyendo el valor de $y.$
 
-Para hallar los puntos críticos de $f$, igualamos a cero la derivada $f'(x) = -6x^2 + 24$.
+Para hallar los puntos críticos de $f$, igualamos a cero la derivada $f'(x) = -6x^2 + 24.$
 $$f'(x) = 0 \Leftrightarrow -6x^2 + 24 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$
-Como $x \geq 0$ por ser una distancia, necesariamente $x = 2$.
-Por tanto, $y = -x^2 + 12 = 8$.
+Como $x \geq 0$ por ser una distancia, necesariamente $x = 2.$
+Por tanto, $y = -x^2 + 12 = 8.$
 
-Así que el rectángulo tiene base $4 \; u$ y altura $8 \; u$, por lo que su área es $\Delta = 4 \cdot 8 = 32 \; u^2$.
-Además, sus vértices son $(2, 0)$, $(-2, 0)$, $(2, 8)$ y $(-2, 8)$.
+Así que el rectángulo tiene base $4 \; u$ y altura $8 \; u$, por lo que su área es $\Delta = 4 \cdot 8 = 32 \; u^2.$
+Además, sus vértices son $(2, 0)$, $(-2, 0)$, $(2, 8)$ y $(-2, 8).$

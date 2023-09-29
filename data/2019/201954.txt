@@ -1,7 +1,7 @@
 Se consideran los vectores $\vec{u} = (1, 2, 3)$, $\vec{v} = (1, -2, -1)$ y $\vec{w} = (2, \alpha, \beta)$, donde $\alpha$ y $\beta$ son números reales.
 
 <ol>
-    <li>Determina los valores de $\alpha$ y $\beta$ para los que $\vec{w}$ es ortogonal a los vectores $\vec{u}$ y $\vec{v}$.</li>
+    <li>Determina los valores de $\alpha$ y $\beta$ para los que $\vec{w}$ es ortogonal a los vectores $\vec{u}$ y $\vec{v}.$</li>
     <li>Determina los valores de $\alpha$ y $\beta$ para los que $\vec{w}$ y $\vec{v}$ tienen la misma dirección.</li>
-    <li>Para $\alpha = 8$, determina el valor de $\beta$ para el que $\vec{w}$ es combinación lineal de $\vec{u}$ y $\vec{v}$.</li>
+    <li>Para $\alpha = 8$, determina el valor de $\beta$ para el que $\vec{w}$ es combinación lineal de $\vec{u}$ y $\vec{v}.$</li>
 </ol>

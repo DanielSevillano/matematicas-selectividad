@@ -1,6 +1,6 @@
-Considera el punto $A(0, 1, -2)$ y los planos $\pi_1 \equiv 2x - y - z + 5 = 0$ y $\pi_2 \equiv x + 5y - 6z - 4 = 0$.
+Considera el punto $A(0, 1, -2)$ y los planos $\pi_1 \equiv 2x - y - z + 5 = 0$ y $\pi_2 \equiv x + 5y - 6z - 4 = 0.$
 
 <ol>
-    <li>Halla el punto simétrico de $A$ respecto de $\pi_1$.</li>
-    <li>Determina la recta que pasa por $A$ y es paralela a $\pi_1$ y $\pi_2$.</li>
+    <li>Halla el punto simétrico de $A$ respecto de $\pi_1.$</li>
+    <li>Determina la recta que pasa por $A$ y es paralela a $\pi_1$ y $\pi_2.$</li>
 </ol>

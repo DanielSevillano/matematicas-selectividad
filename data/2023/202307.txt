@@ -1,2 +1,2 @@
-El plano perpendicular al segmento de extremos $P(0, 3, 8)$ y $Q(2, 1, 6)$ que pasa por su punto medio corta a los ejes coordenados en los puntos $A$, $B$ y $C$.
-Halla el área del triángulo cuyos vértices son los puntos $A$, $B$ y $C$.
+El plano perpendicular al segmento de extremos $P(0, 3, 8)$ y $Q(2, 1, 6)$ que pasa por su punto medio corta a los ejes coordenados en los puntos $A$, $B$ y $C.$
+Halla el área del triángulo cuyos vértices son los puntos $A$, $B$ y $C.$

@@ -1,3 +1,3 @@
 Determina la función $f: (0, +\infty) \to \mathbb{R}$ sabiendo que es derivable, que su función derivada cumple
 $$f'(x) = \frac{\ln(x)}{\sqrt{x}}$$
-y que la gráfica de $f$ pasa por el punto $(1, 0)$.
+y que la gráfica de $f$ pasa por el punto $(1, 0).$

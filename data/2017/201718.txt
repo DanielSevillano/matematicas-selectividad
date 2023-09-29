@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Determina la posición relativa de $r$ y $s$.</li>
+    <li>Determina la posición relativa de $r$ y $s.$</li>
     <li>Calcula, si existen, los puntos $C$ de $s$ tales que los vectores $\vec{CA}$ y $\vec{CB}$ son ortogonales.</li>
 </ol>

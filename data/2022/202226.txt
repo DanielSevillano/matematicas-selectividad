@@ -10,6 +10,6 @@ B = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Determina para qué valores de $a$ se cumple que $A^{-1} = \frac{1}{4}A$.</li>
-    <li>Para $a = 1$ calcula, si es posible, la matriz $X$ tal que $AX = B^t$, donde $B^t$ denota la matriz traspuesta de $B$.</li>
+    <li>Determina para qué valores de $a$ se cumple que $A^{-1} = \frac{1}{4}A.$</li>
+    <li>Para $a = 1$ calcula, si es posible, la matriz $X$ tal que $AX = B^t$, donde $B^t$ denota la matriz traspuesta de $B.$</li>
 </ol>

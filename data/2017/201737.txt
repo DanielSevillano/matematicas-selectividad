@@ -1,4 +1,4 @@
-Sea $A$ una matriz $3 \times 3$ tal que $\det(2A) = 8$.
+Sea $A$ una matriz $3 \times 3$ tal que $\det(2A) = 8.$
 
 <ol>
     <li>¿Cuánto vale $\det(A)$?</li>

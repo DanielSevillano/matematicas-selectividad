@@ -1,6 +1,6 @@
-Considera los puntos $A(-1, 3, 2)$, $B(2, -1, -1)$ y $C(a-2, 7, b)$.
+Considera los puntos $A(-1, 3, 2)$, $B(2, -1, -1)$ y $C(a-2, 7, b).$
 
 <ol>
     <li>Determina $a$ y $b$ para que los puntos $A$, $B$ y $C$ estén alineados.</li>
-    <li>En el caso $a = b = 1$, halla la recta que pasa por el origen de coordenadas y es perpendicular al plano que contiene a los puntos $A$, $B$ y $C$.</li>
+    <li>En el caso $a = b = 1$, halla la recta que pasa por el origen de coordenadas y es perpendicular al plano que contiene a los puntos $A$, $B$ y $C.$</li>
 </ol>

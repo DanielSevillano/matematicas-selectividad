@@ -9,5 +9,5 @@ s \equiv \begin{cases}
 <ol>
     <li>Determina $m$ para que $r$ y $s$ sean paralelas.</li>
     <li>Halla, si existe, un valor de $m$ para el que ambas rectas sean la misma.</li>
-    <li>Para $m = 1$, calcula la ecuación del plano que contiene a $r$ y a $s$.</li>
+    <li>Para $m = 1$, calcula la ecuación del plano que contiene a $r$ y a $s.$</li>
 </ol>

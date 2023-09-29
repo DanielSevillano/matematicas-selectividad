@@ -14,5 +14,5 @@ de la que se sabe que tiene determinante 5.
         2b & e+3b & h \\
         2c & f+3c & i
     \end{pmatrix}.$$</li>
-    <li>Si $B$ es otra matriz cuadrada de orden 3 y tiene determinante 4, calcula, indicando también las propiedades que utilices, el determinante de la matriz $BA^{-1}$.</li>
+    <li>Si $B$ es otra matriz cuadrada de orden 3 y tiene determinante 4, calcula, indicando también las propiedades que utilices, el determinante de la matriz $BA^{-1}.$</li>
 </ol>

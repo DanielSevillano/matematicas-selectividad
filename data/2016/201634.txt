@@ -1,6 +1,6 @@
-Considera el plano $\pi$ de ecuación $x + 2y + z = 1$.
+Considera el plano $\pi$ de ecuación $x + 2y + z = 1.$
 
 <ol>
-    <li>Halla el punto de $\pi$ más próximo al punto $(3, 1, 2)$.</li>
-    <li>Determina la ecuación de un plano paralelo a $\pi$ que forma con los ejes de coordenadas un triángulo de área $\sqrt{6}$.</li>
+    <li>Halla el punto de $\pi$ más próximo al punto $(3, 1, 2).$</li>
+    <li>Determina la ecuación de un plano paralelo a $\pi$ que forma con los ejes de coordenadas un triángulo de área $\sqrt{6}.$</li>
 </ol>

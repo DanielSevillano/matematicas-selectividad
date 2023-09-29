@@ -1,2 +1,2 @@
-Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = (e^{ax}+b)x$, con $a \neq 0$.
-Calcula $a$ y $b$ sabiendo que $f$ tiene un extremo relativo en $x = 0$ y su gráfica, un punto de inflexión en el punto cuya abscisa es $x = 1$.
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = (e^{ax}+b)x$, con $a \neq 0.$
+Calcula $a$ y $b$ sabiendo que $f$ tiene un extremo relativo en $x = 0$ y su gráfica, un punto de inflexión en el punto cuya abscisa es $x = 1.$

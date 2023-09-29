@@ -5,6 +5,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Determina la ecuación del plano que pasa por $P$ y es perpendicular a $r$.</li>
-    <li>Calcula la distancia de $P$ a la recta $r$ y el punto simétrico de $P$ respecto a $r$.</li>
+    <li>Determina la ecuación del plano que pasa por $P$ y es perpendicular a $r.$</li>
+    <li>Calcula la distancia de $P$ a la recta $r$ y el punto simétrico de $P$ respecto a $r.$</li>
 </ol>

@@ -1,4 +1,4 @@
 Se sabe que la función $f: \mathbb{R} \to \mathbb{R}$ dada por
 $$f(x) = ax^3 + bx^2 + cx - 1,$$
-tiene un punto crítico en $x = 2$ y que la recta normal a su gráfica en el punto de abscisa $x = 1$ es $y = \frac{1}{2}x + \frac{3}{2}$.
-Calcula $a$, $b$ y $c$.
+tiene un punto crítico en $x = 2$ y que la recta normal a su gráfica en el punto de abscisa $x = 1$ es $y = \frac{1}{2}x + \frac{3}{2}.$
+Calcula $a$, $b$ y $c.$

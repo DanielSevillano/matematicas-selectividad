@@ -6,6 +6,6 @@ s \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Estudia y determina la posición relativa de $r$ y $s$.</li>
-    <li>Calcula la distancia entre $r$ y $s$.</li>
+    <li>Estudia y determina la posición relativa de $r$ y $s.$</li>
+    <li>Calcula la distancia entre $r$ y $s.$</li>
 </ol>

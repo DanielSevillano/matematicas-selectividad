@@ -6,6 +6,6 @@ $$r \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Calcula un punto que esté en $r$ y equidiste de $B$ y $C$.</li>
-    <li>Siendo $D(1, -1, -2)$, calcula el área del triángulo con vértices en los puntos $B$, $C$ y $D$.</li>
+    <li>Calcula un punto que esté en $r$ y equidiste de $B$ y $C.$</li>
+    <li>Siendo $D(1, -1, -2)$, calcula el área del triángulo con vértices en los puntos $B$, $C$ y $D.$</li>
 </ol>

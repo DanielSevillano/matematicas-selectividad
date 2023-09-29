@@ -5,6 +5,6 @@ $$f(x) = \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Determina los valores de $a$ y $b$.</li>
-    <li>Halla la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 2$.</li>
+    <li>Determina los valores de $a$ y $b.$</li>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 2.$</li>
 </ol>

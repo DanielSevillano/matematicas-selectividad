@@ -17,5 +17,5 @@ C = \begin{pmatrix}
 
 <ol>
     <li>Calcula el rango de $AB^t + \lambda I$ según los valores de $\lambda$ ($B^t$ es la matriz traspuesta de $B$, $I$ es la matriz identidad de orden 3).</li>
-    <li>Calcula la matriz $X$ que verifica $CX - X = 2I$.</li>
+    <li>Calcula la matriz $X$ que verifica $CX - X = 2I.$</li>
 </ol>

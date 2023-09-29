@@ -1,6 +1,6 @@
-Considera los planos $\pi_1 \equiv x - y + z = 0$ y $\pi_2 \equiv x + y = 2$.
+Considera los planos $\pi_1 \equiv x - y + z = 0$ y $\pi_2 \equiv x + y = 2.$
 
 <ol>
-    <li>Calcula la distancia entre la recta intersección de $\pi_1$ y $\pi_2$ y el punto $P(2, 6, -2)$.</li>
-    <li>Halla el ángulo que forman $\pi_1$ y $\pi_2$.</li>
+    <li>Calcula la distancia entre la recta intersección de $\pi_1$ y $\pi_2$ y el punto $P(2, 6, -2).$</li>
+    <li>Halla el ángulo que forman $\pi_1$ y $\pi_2.$</li>
 </ol>

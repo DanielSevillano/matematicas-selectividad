@@ -6,6 +6,6 @@ $$A = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Discute el rango de $A$ según los valores de $k$.</li>
-    <li>Para $k = 1$, calcula el determinante de $2(A^tA^{-1})^{2017}$, siendo $A^t$ la traspuesta de $A$.</li>
+    <li>Discute el rango de $A$ según los valores de $k.$</li>
+    <li>Para $k = 1$, calcula el determinante de $2(A^tA^{-1})^{2017}$, siendo $A^t$ la traspuesta de $A.$</li>
 </ol>

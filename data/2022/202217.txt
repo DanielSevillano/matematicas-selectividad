@@ -9,6 +9,6 @@ s \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Determina la ecuación del plano que contiene a $r$ y es paralelo a $s$.</li>
-    <li>Determina la ecuación del plano que contiene a $r$ y es perpendicular a $s$.</li>
+    <li>Determina la ecuación del plano que contiene a $r$ y es paralelo a $s.$</li>
+    <li>Determina la ecuación del plano que contiene a $r$ y es perpendicular a $s.$</li>
 </ol>

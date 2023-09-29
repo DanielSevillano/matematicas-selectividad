@@ -6,6 +6,6 @@ $$r \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Calcula la distancia del punto $A$ a la recta $r$.</li>
-    <li>Determina el área del triángulo de vértices $A$, $B$ y $O$.</li>
+    <li>Calcula la distancia del punto $A$ a la recta $r.$</li>
+    <li>Determina el área del triángulo de vértices $A$, $B$ y $O.$</li>
 </ol>

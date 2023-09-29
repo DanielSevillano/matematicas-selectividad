@@ -1,5 +1,5 @@
 <ol>
-    <li>Calculamos en primer lugar el determinante de la matriz $A$.
+    <li>Calculamos en primer lugar el determinante de la matriz $A.$
     $$|A| = \begin{vmatrix}
         0 & 0 & m \\
         m & 0 & 0 \\
@@ -9,9 +9,9 @@
     La inversa de la matriz $A$ existe si y solo si su determinante es no nulo.
     $$|A| = 0 \Leftrightarrow m^3 = 0 \Leftrightarrow m = 0.$$
 
-    Por tanto, la matriz $A$ tiene inversa si y solo si $m \neq 0$.</li>
+    Por tanto, la matriz $A$ tiene inversa si y solo si $m \neq 0.$</li>
 
-    <li>Resolvemos la ecuación matricial para $m \neq -1$.
+    <li>Resolvemos la ecuación matricial para $m \neq -1.$
     $$AX + X = B \Leftrightarrow (A + I)X = B \Leftrightarrow X = (A + I)^{-1}B.$$
 
     Operando,

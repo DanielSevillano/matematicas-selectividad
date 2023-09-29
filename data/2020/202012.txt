@@ -1,4 +1,4 @@
 Sea $f$ la función definida por
 $$f(x) = \frac{-x^3 + 2x - 3}{x^2 - x}$$
-para $x \neq 0$, $x \neq 1$.
-Halla la primitiva de $f$ cuya gráfica para por el punto $(2, 3\ln(2))$.
+para $x \neq 0$, $x \neq 1.$
+Halla la primitiva de $f$ cuya gráfica para por el punto $(2, 3\ln(2)).$

@@ -18,5 +18,5 @@ $$A = \begin{pmatrix}
         0 \\
         0
     \end{pmatrix}$$
-    y halla, si existe, una solución en la que $x = 2$.</li>
+    y halla, si existe, una solución en la que $x = 2.$</li>
 </ol>

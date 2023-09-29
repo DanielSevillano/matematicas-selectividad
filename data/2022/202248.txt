@@ -5,6 +5,6 @@ $$s \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Estudia la posición relativa de $r$ y $s$.</li>
-    <li>Calcula la ecuación del plano que contiene a $s$ y es paralelo a $r$.</li>
+    <li>Estudia la posición relativa de $r$ y $s.$</li>
+    <li>Calcula la ecuación del plano que contiene a $s$ y es paralelo a $r.$</li>
 </ol>

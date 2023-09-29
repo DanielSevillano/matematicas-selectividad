@@ -1,1 +1,1 @@
-Calcula $a > 0$ sabiendo que el área de la región determinada por la gráfica de la función $f(x) = xe^{3x}$, el eje de abscisas y la recta $x = a$ vale $\frac{1}{9}$.
+Calcula $a > 0$ sabiendo que el área de la región determinada por la gráfica de la función $f(x) = xe^{3x}$, el eje de abscisas y la recta $x = a$ vale $\frac{1}{9}.$

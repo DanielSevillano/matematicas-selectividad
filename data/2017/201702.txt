@@ -1,4 +1,4 @@
-Considera la región limitada por las curvas $y = x^2$ e $y = -x^2 + 4x$.
+Considera la región limitada por las curvas $y = x^2$ e $y = -x^2 + 4x.$
 
 <ol>
     <li>Esboza la gráfica de la región dada, hallando los puntos de corte de ambas curvas.</li>

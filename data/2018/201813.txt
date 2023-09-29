@@ -16,6 +16,6 @@ X = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Discute el rango de $A$ según los valores del parámetro $\lambda$.</li>
-    <li>Para $\lambda = -2$, estudia y resuelve el sistema dado por $AX = B$.</li>
+    <li>Discute el rango de $A$ según los valores del parámetro $\lambda.$</li>
+    <li>Para $\lambda = -2$, estudia y resuelve el sistema dado por $AX = B.$</li>
 </ol>

@@ -1,6 +1,6 @@
-Considera los puntos $A(t, 2, -1)$, $B(0, 1, 1)$, $C(-1, 0, 2)$ y $D(2, 3, -t-1)$.
+Considera los puntos $A(t, 2, -1)$, $B(0, 1, 1)$, $C(-1, 0, 2)$ y $D(2, 3, -t-1).$
 
 <ol>
     <li>Calcula el valor o valores de $t$ para que el volumen del tetraedro de vértices $A$, $B$, $C$, $D$ sea 5 unidades cúbicas.</li>
-    <li>Para $t = 0$, calcula la distancia del punto $A$ a la recta determinada por los puntos $B$ y $C$.</li>
+    <li>Para $t = 0$, calcula la distancia del punto $A$ a la recta determinada por los puntos $B$ y $C.$</li>
 </ol>

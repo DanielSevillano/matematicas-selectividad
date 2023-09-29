@@ -7,5 +7,5 @@ s \equiv \begin{cases}
 
 <ol>
     <li>Halla los valores de $m$ y $n$ para los que $r$ y $s$ se cortan perpendicularmente.</li>
-    <li>Para $m = 3$ y $n = 1$, calcula la ecuación general del plano que contiene a $r$ y a $s$.</li>
+    <li>Para $m = 3$ y $n = 1$, calcula la ecuación general del plano que contiene a $r$ y a $s.$</li>
 </ol>

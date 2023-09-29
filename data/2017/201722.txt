@@ -1,6 +1,6 @@
-Sea $f$ la función definida como $f(x) = (x+2)\ln(x)$ para $x > 0$.
+Sea $f$ la función definida como $f(x) = (x+2)\ln(x)$ para $x > 0.$
 
 <ol>
-    <li>Calcula $\int f(x)dx$.</li>
-    <li>Encuentra la primitiva de $f$ cuya gráfica para por el punto $(1, 0)$.</li>
+    <li>Calcula $\int f(x)dx.$</li>
+    <li>Encuentra la primitiva de $f$ cuya gráfica para por el punto $(1, 0).$</li>
 </ol>

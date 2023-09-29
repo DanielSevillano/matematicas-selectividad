@@ -10,6 +10,6 @@ s \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Calcula el plano perpendicular a la recta $s$ que pasa por el punto $P(1, 0, -5)$.</li>
-    <li>Calcula el seno del ángulo que forma la recta $r$ con el plano $\pi \equiv -2x + y + 2z = 0$.</li>
+    <li>Calcula el plano perpendicular a la recta $s$ que pasa por el punto $P(1, 0, -5).$</li>
+    <li>Calcula el seno del ángulo que forma la recta $r$ con el plano $\pi \equiv -2x + y + 2z = 0.$</li>
 </ol>

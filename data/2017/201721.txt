@@ -1,8 +1,8 @@
 Se considera la función $f$ dada por
 $$f(x) = \frac{-3x^2 + 2}{x-1}$$
-para $x \neq 1$.
+para $x \neq 1.$
 
 <ol>
-    <li>Estudia y calcula las asíntotas de la gráfica de $f$.</li>
-    <li>Determina los intervalos de crecimiento y de decrecimiento de $f$.</li>
+    <li>Estudia y calcula las asíntotas de la gráfica de $f.$</li>
+    <li>Determina los intervalos de crecimiento y de decrecimiento de $f.$</li>
 </ol>

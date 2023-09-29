@@ -6,6 +6,6 @@ $$\pi \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Halla el punto simétrico del punto $P$ respecto del plano $\pi$.</li>
-    <li>Calcula la distancia del punto $P$ al plano $\pi$.</li>
+    <li>Halla el punto simétrico del punto $P$ respecto del plano $\pi.$</li>
+    <li>Calcula la distancia del punto $P$ al plano $\pi.$</li>
 </ol>

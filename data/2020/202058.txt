@@ -2,6 +2,6 @@ Considera el plano $\pi \equiv x - y + z = 2$ y la recta
 $$r \equiv \frac{x}{2} = \frac{y+1}{1} = \frac{z+2}{-1}.$$
 
 <ol>
-    <li>Calcula la distancia entre $r$ y $\pi$.</li>
-    <li>Halla la ecuación general del plano perpendicular a $\pi$ que contiene a $r$.</li>
+    <li>Calcula la distancia entre $r$ y $\pi.$</li>
+    <li>Halla la ecuación general del plano perpendicular a $\pi$ que contiene a $r.$</li>
 </ol>

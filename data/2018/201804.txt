@@ -2,6 +2,6 @@ Considera los puntos $P(1, 0, -1)$, $Q(2, 1, 1)$ y la recta $r$ dada por
 $$r \equiv x-5 = y = \frac{z+2}{-2}.$$
 
 <ol>
-    <li>Determina el punto simétrico de $P$ respecto de $r$.</li>
-    <li>Calcula el punto de $r$ que equidista de $P$ y $Q$.</li>
+    <li>Determina el punto simétrico de $P$ respecto de $r.$</li>
+    <li>Calcula el punto de $r$ que equidista de $P$ y $Q.$</li>
 </ol>

@@ -1,1 +1,1 @@
-Dada la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = 6 - \frac{1}{6}x^2$, calcula las dimensiones del rectángulo de área máxima, de lados paralelos a los ejes, inscrito en el recinto comprendido entre la gráfica de $f$ y la recta $y = 0$.
+Dada la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = 6 - \frac{1}{6}x^2$, calcula las dimensiones del rectángulo de área máxima, de lados paralelos a los ejes, inscrito en el recinto comprendido entre la gráfica de $f$ y la recta $y = 0.$

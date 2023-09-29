@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discute el sistema según los valores de $m$.</li>
+    <li>Discute el sistema según los valores de $m.$</li>
     <li>Para $m = 1$ resuelve el sistema, si es posible.</li>
 </ol>

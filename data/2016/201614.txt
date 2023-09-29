@@ -1,7 +1,7 @@
-Considera el paralelogramo de vértices consecutivos $A$, $B$, $C$ y $D$ siendo $A(1, 0, -1)$, $B(3, 2, 1)$ y $C(-7, 1, 5)$.
+Considera el paralelogramo de vértices consecutivos $A$, $B$, $C$ y $D$ siendo $A(1, 0, -1)$, $B(3, 2, 1)$ y $C(-7, 1, 5).$
 
 <ol>
-    <li>Determina las coordenadas del punto $D$.</li>
+    <li>Determina las coordenadas del punto $D.$</li>
     <li>Calcula el área del paralelogramo.</li>
     <li>Halla la ecuación general del plano que contiene al paralelogramo.</li>
 </ol>

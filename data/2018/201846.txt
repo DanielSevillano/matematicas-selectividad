@@ -6,7 +6,7 @@ $$f(x) = \begin{cases}
 es continua.
 
 <ol>
-    <li>Determina $a$.</li>
+    <li>Determina $a.$</li>
     <li>Para $a = 8$, calcula
     $$\int_0^{10} f(x)dx.$$</li>
 </ol>

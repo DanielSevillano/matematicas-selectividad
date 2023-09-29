@@ -6,5 +6,5 @@ $$\begin{cases}
 
 <ol>
     <li>Halla la ecuación general del plano que pasa por el origen de coordenadas y es paralelo a las rectas dadas.</li>
-    <li>Halla unas ecuaciones paramétricas del plano que pasa por $B$ y es perpendicular a $s$.</li>
+    <li>Halla unas ecuaciones paramétricas del plano que pasa por $B$ y es perpendicular a $s.$</li>
 </ol>

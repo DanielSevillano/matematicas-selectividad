@@ -1,2 +1,2 @@
-Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^3-x$.
-Calcula el área total de los recintos limitados por la gráfica de la función $f$ y la recta normal a dicha gráfica en el punto de abscisa $x = 0$.
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^3-x.$
+Calcula el área total de los recintos limitados por la gráfica de la función $f$ y la recta normal a dicha gráfica en el punto de abscisa $x = 0.$

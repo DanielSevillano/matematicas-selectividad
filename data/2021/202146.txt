@@ -11,5 +11,5 @@ B = \begin{pmatrix}
 
 <ol>
     <li>Calcula $m$ para que $AB$ no tenga inversa.</li>
-    <li>Estudia el rango de la matriz $BA$ según los valores de $m$.</li>
+    <li>Estudia el rango de la matriz $BA$ según los valores de $m.$</li>
 </ol>

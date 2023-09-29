@@ -1,8 +1,8 @@
 Considera la recta
 $$r \equiv \frac{x-2}{-1} = \frac{y-2}{3} = \frac{z-1}{1}$$
-y los planos $\pi_1 \equiv x = 0$ y $\pi_2 \equiv y = 0$.
+y los planos $\pi_1 \equiv x = 0$ y $\pi_2 \equiv y = 0.$
 
 <ol>
-    <li>Halla los puntos de la recta $r$ que equidistan de los planos $\pi_1$ y $\pi_2$.</li>
-    <li>Determina la posición relativa de la recta $r$ y la recta intersección de los planos $\pi_1$ y $\pi_2$.</li>
+    <li>Halla los puntos de la recta $r$ que equidistan de los planos $\pi_1$ y $\pi_2.$</li>
+    <li>Determina la posición relativa de la recta $r$ y la recta intersección de los planos $\pi_1$ y $\pi_2.$</li>
 </ol>

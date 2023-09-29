@@ -6,7 +6,7 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discute el sistema según los valores del parámetro $m$.</li>
-    <li>Resuélvelo para $m = 1$.
-    Para dicho valor de $m$, calcula, si es posible, una solución en la que $z = 2$.</li>
+    <li>Discute el sistema según los valores del parámetro $m.$</li>
+    <li>Resuélvelo para $m = 1.$
+    Para dicho valor de $m$, calcula, si es posible, una solución en la que $z = 2.$</li>
 </ol>

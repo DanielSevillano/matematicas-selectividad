@@ -6,6 +6,6 @@ $$A = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Calcula $A^{-1}$.</li>
+    <li>Calcula $A^{-1}.$</li>
     <li>Calcula la matriz $X$ de orden 3 que verifica $AX + (A-X)^2 = X^2 + I$, siendo $I$ la matriz identidad de orden 3.</li>
 </ol>

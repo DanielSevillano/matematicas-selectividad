@@ -8,7 +8,7 @@ $$M = \begin{pmatrix}
 Sabiendo que el determinante de $M$ es 2, calcula los siguientes determinantes e indica las propiedades que utilices.
 
 <ol>
-    <li>El determinante de la matriz $5M^4$.</li>
+    <li>El determinante de la matriz $5M^4.$</li>
     <li>El determinante
     $$\begin{vmatrix}
         2 & 0 & 1 \\

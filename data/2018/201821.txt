@@ -4,7 +4,7 @@ La base y los costados deben medir 10 cm y se trata de darle la inclinación ade
 
 Se pide:
 <ol>
-    <li>Halla la altura de la canaleta en función de $x$.</li>
-    <li>Halla el área de la sección de la canaleta en función de $x$.</li>
+    <li>Halla la altura de la canaleta en función de $x.$</li>
+    <li>Halla el área de la sección de la canaleta en función de $x.$</li>
     <li>Encuentra el valor de $x$ que hace máximo dicho área.</li>
 </ol>

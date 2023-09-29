@@ -1,6 +1,6 @@
-Considera la función $f: [0, +\infty) \to \mathbb{R}$ definida por $f(x) = xe^x$.
+Considera la función $f: [0, +\infty) \to \mathbb{R}$ definida por $f(x) = xe^x.$
 
 <ol>
-    <li>Esboza el recinto limitado por la gráfica de $f$ y las rectas $x = 2$, $y = x$.</li>
+    <li>Esboza el recinto limitado por la gráfica de $f$ y las rectas $x = 2$, $y = x.$</li>
     <li>Determina el área del recinto anterior.</li>
 </ol>

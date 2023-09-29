@@ -15,4 +15,4 @@ B = \begin{pmatrix}
     1
 \end{pmatrix},$$
 considera el sistema de ecuaciones lineales dado por $X^tA = B^t$, donde $X^t$, $B^t$ denotan las traspuestas.
-Discútelo según los distintos valores de $m$.
+Discútelo según los distintos valores de $m.$

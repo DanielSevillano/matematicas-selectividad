@@ -4,7 +4,7 @@ $$A = \begin{pmatrix}
     \sqrt{m} & m & 1 \\
     \sqrt{m} & 1 & m
 \end{pmatrix},$$
-donde $m \geq 0$.
+donde $m \geq 0.$
 
 <ol>
     <li>¿Para qué valores de $m$ tiene inversa la matriz $A$?</li>

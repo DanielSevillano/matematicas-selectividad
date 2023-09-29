@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Calcula las coordenadas del punto simétrico de $A$ respecto a $r$.</li>
-    <li>Determina la ecuación del plano que contiene a $r$ y pasa por $A$.</li>
+    <li>Calcula las coordenadas del punto simétrico de $A$ respecto a $r.$</li>
+    <li>Determina la ecuación del plano que contiene a $r$ y pasa por $A.$</li>
 </ol>

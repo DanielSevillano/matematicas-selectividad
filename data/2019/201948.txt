@@ -2,6 +2,6 @@ Se consideran los puntos $A(0, -1, 3)$, $B(2, 3, -1)$ y la recta
 $$r \equiv \frac{x+2}{1} = \frac{y-2}{2} = \frac{z-3}{3}.$$
 
 <ol>
-    <li>Halla un punto $C$ de $r$ de forma que el triángulo $ABC$ sea rectángulo en $A$.</li>
-    <li>Calcula los puntos de $r$ que equidistan de los puntos $A$ y $B$.</li>
+    <li>Halla un punto $C$ de $r$ de forma que el triángulo $ABC$ sea rectángulo en $A.$</li>
+    <li>Calcula los puntos de $r$ que equidistan de los puntos $A$ y $B.$</li>
 </ol>

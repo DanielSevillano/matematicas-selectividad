@@ -5,6 +5,6 @@ $$r \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Calcula los puntos de la recta $r$ que equidistan de los planos $\pi_1$ y $\pi_2$.</li>
-    <li>Halla el ángulo que forman los planos $\pi_1$ y $\pi_2$.</li>
+    <li>Calcula los puntos de la recta $r$ que equidistan de los planos $\pi_1$ y $\pi_2.$</li>
+    <li>Halla el ángulo que forman los planos $\pi_1$ y $\pi_2.$</li>
 </ol>

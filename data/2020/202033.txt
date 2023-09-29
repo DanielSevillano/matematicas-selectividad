@@ -22,5 +22,5 @@ C = \begin{pmatrix}
 <ol>
     <li>Determina los valores de $m$ para los que $AB$ no tiene inversa.</li>
     <li>Determina los valores de $m$ para los que $BA$ no tiene inversa.</li>
-    <li>Para $m = 0$, resuelve, si es posible, el sistema dado por $BAX = C$ y halla una solución en la que $x + y + z = 0$.</li>
+    <li>Para $m = 0$, resuelve, si es posible, el sistema dado por $BAX = C$ y halla una solución en la que $x + y + z = 0.$</li>
 </ol>

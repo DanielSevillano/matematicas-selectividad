@@ -5,6 +5,6 @@ $$f(x) = \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Determina $a$ y $b$.</li>
-    <li>Halla las ecuaciones de las rectas tangente y normal a la gráfica de $f$ en el punto de abscisa $x = 2$.</li>
+    <li>Determina $a$ y $b.$</li>
+    <li>Halla las ecuaciones de las rectas tangente y normal a la gráfica de $f$ en el punto de abscisa $x = 2.$</li>
 </ol>

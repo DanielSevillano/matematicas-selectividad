@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discútelo según los valores del parámetro $\alpha$.</li>
-    <li>Resuélvelo para $\alpha = 1$ y determina en dicho caso, si existe, alguna solución donde $x = 4$.</li>
+    <li>Discútelo según los valores del parámetro $\alpha.$</li>
+    <li>Resuélvelo para $\alpha = 1$ y determina en dicho caso, si existe, alguna solución donde $x = 4.$</li>
 </ol>

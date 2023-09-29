@@ -5,6 +5,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Determina la posición relativa de $r$ y $s$.</li>
-    <li>Calcula la distancia entre $r$ y $s$.</li>
+    <li>Determina la posición relativa de $r$ y $s.$</li>
+    <li>Calcula la distancia entre $r$ y $s.$</li>
 </ol>

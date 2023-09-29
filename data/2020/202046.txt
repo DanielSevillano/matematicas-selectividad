@@ -1,1 +1,1 @@
-Calcula $\int \cos(\ln(x))dx$.
+Calcula $\int \cos(\ln(x))dx.$

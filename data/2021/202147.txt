@@ -10,6 +10,6 @@ s \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Halla el plano que contiene a $r$ y es paralelo a $s$.</li>
-    <li>Deduce razonadamente que ningún plano perpendicular a $s$ contiene a $r$.</li>
+    <li>Halla el plano que contiene a $r$ y es paralelo a $s.$</li>
+    <li>Deduce razonadamente que ningún plano perpendicular a $s$ contiene a $r.$</li>
 </ol>

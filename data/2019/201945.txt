@@ -1,5 +1,5 @@
 Considera la función $f$ definida por
 $$f(x) = \frac{ax+b}{cx+1}$$
-para $cx + 1 \neq 0$.
+para $cx + 1 \neq 0.$
 
-Determina $a$, $b$ y $c$ sabiendo que la recta $x = -1$ es una asíntota vertical a la gráfica de $f$ y que $y = 2x + 4$ es la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1$.
+Determina $a$, $b$ y $c$ sabiendo que la recta $x = -1$ es una asíntota vertical a la gráfica de $f$ y que $y = 2x + 4$ es la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1.$

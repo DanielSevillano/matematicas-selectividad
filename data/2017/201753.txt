@@ -16,6 +16,6 @@ B = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Discute el sistema según los valores de $m$.</li>
-    <li>Para $m = 2$, calcula, si es posible, una solución del sistema anterior para la que $z = 17$.</li>
+    <li>Discute el sistema según los valores de $m.$</li>
+    <li>Para $m = 2$, calcula, si es posible, una solución del sistema anterior para la que $z = 17.$</li>
 </ol>

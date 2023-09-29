@@ -1,1 +1,1 @@
-Determina la función $f: (-1, +\infty) \to \mathbb{R}$, sabiendo que es dos veces derivable, su gráfica pasa por el punto $(0, 1)$, $f'(0) = 0$ y $f''(x) = \frac{1}{x+1}$.
+Determina la función $f: (-1, +\infty) \to \mathbb{R}$, sabiendo que es dos veces derivable, su gráfica pasa por el punto $(0, 1)$, $f'(0) = 0$ y $f''(x) = \frac{1}{x+1}.$

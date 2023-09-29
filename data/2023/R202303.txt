@@ -4,8 +4,8 @@ $$f(x) = x|x-1| = \begin{cases}
     x(x-1) = x^2-x, & \text{si } x \geq 1.
 \end{cases}$$
 
-La pendiente de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0$ viene dada por el valor de $f'(0)$.
-Si $x > 1$, la derivada de $f$ es $f'(x) = 2x - 1$.
+La pendiente de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0$ viene dada por el valor de $f'(0).$
+Si $x > 1$, la derivada de $f$ es $f'(x) = 2x - 1.$
 Por tanto, la ecuación de la recta tangente es
 $$y - f(0) = f'(0)(x-0) \Leftrightarrow y = x.$$
 

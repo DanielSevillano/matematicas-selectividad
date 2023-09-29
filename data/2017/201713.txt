@@ -11,6 +11,6 @@ B = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Calcula la matriz inversa de $A + B$.</li>
-    <li>Calcula el determinante de $2A^{-1}(A+B)^t$, siendo $(A+B)^t$ la matriz traspuesta de $A + B$.</li>
+    <li>Calcula la matriz inversa de $A + B.$</li>
+    <li>Calcula el determinante de $2A^{-1}(A+B)^t$, siendo $(A+B)^t$ la matriz traspuesta de $A + B.$</li>
 </ol>

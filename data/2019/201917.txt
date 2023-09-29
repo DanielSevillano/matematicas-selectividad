@@ -7,7 +7,7 @@ $$\begin{cases}
 
 <ol>
     <li>Encuentra los valores de $m$ para los que el sistema tiene infinitas soluciones.</li>
-    <li>Resuelve el sistema para $m = 3$.
+    <li>Resuelve el sistema para $m = 3.$
     En este caso, ¿hay alguna solución en la que $x = 10$?
     Razona tu respuesta.</li>
 </ol>

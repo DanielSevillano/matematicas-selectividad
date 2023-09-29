@@ -5,6 +5,6 @@ $$r \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Determina el punto simétrico de $P$ respecto de la recta $r$.</li>
-    <li>Calcula el punto de la recta $r$ que dista $\sqrt{6}$ unidades de $P$.</li>
+    <li>Determina el punto simétrico de $P$ respecto de la recta $r.$</li>
+    <li>Calcula el punto de la recta $r$ que dista $\sqrt{6}$ unidades de $P.$</li>
 </ol>

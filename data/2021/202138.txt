@@ -10,6 +10,6 @@ s \equiv \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Estudia la posición relativa de $r$ y $s$ según los valores de $m$.</li>
-    <li>Para $m = 1$, calcula el coseno del ángulo que forman las rectas $r$ y $s$.</li>
+    <li>Estudia la posición relativa de $r$ y $s$ según los valores de $m.$</li>
+    <li>Para $m = 1$, calcula el coseno del ángulo que forman las rectas $r$ y $s.$</li>
 </ol>

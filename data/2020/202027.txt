@@ -5,6 +5,6 @@ $$A = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Calcula $A^{37}$ y $A^{41}$.</li>
-    <li>Halla el determinante de la matriz $3A^{52}(A^t)^4$, donde $A^t$ es la matriz traspuesta de $A$.</li>
+    <li>Calcula $A^{37}$ y $A^{41}.$</li>
+    <li>Halla el determinante de la matriz $3A^{52}(A^t)^4$, donde $A^t$ es la matriz traspuesta de $A.$</li>
 </ol>

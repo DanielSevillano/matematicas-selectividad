@@ -16,7 +16,7 @@ X = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Discute el sistema dado por $AX = B$, según los valores de $a$.</li>
-    <li>Para $a = 0$, resuelve el sistema dado por $AX = B$.
-    Calcula, si es posible, una solución en la que $y + z = 4$.</li>
+    <li>Discute el sistema dado por $AX = B$, según los valores de $a.$</li>
+    <li>Para $a = 0$, resuelve el sistema dado por $AX = B.$
+    Calcula, si es posible, una solución en la que $y + z = 4.$</li>
 </ol>

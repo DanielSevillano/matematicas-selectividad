@@ -1,6 +1,6 @@
-Considera los puntos $A(1, 2, 3)$, $B(-2, 4, -3)$ y $C(-10, 1, 0)$.
+Considera los puntos $A(1, 2, 3)$, $B(-2, 4, -3)$ y $C(-10, 1, 0).$
 
 <ol>
-    <li>Halla el área del triángulo de vértices $A$, $B$ y $C$.</li>
-    <li>Halla el plano que equidista de $A$ y $B$.</li>
+    <li>Halla el área del triángulo de vértices $A$, $B$ y $C.$</li>
+    <li>Halla el plano que equidista de $A$ y $B.$</li>
 </ol>

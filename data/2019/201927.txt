@@ -12,5 +12,5 @@ X = \begin{pmatrix}
 
 <ol>
     <li>Encuentra los valores de $a$ para los que el sistema dado por $AX = 2X$ tiene infinitas soluciones.</li>
-    <li>Para $a = 0$, si es posible, resuelve $AX = 2X$.</li>
+    <li>Para $a = 0$, si es posible, resuelve $AX = 2X.$</li>
 </ol>

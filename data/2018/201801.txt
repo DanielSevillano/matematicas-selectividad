@@ -1,1 +1,1 @@
-Halla los coeficientes $a$, $b$ y $c$ sabiendo que la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^3 + ax^2 + bx + c$ tiene en $x = 1$ un punto de derivada nula que no es extremo relativo y que la gráfica de $f$ pasa por el punto $(1, 1)$.
+Halla los coeficientes $a$, $b$ y $c$ sabiendo que la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^3 + ax^2 + bx + c$ tiene en $x = 1$ un punto de derivada nula que no es extremo relativo y que la gráfica de $f$ pasa por el punto $(1, 1).$

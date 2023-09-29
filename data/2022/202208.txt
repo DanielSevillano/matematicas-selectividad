@@ -1,6 +1,6 @@
 Considera la recta
 $$r \equiv x-2 = \frac{y}{-1} = \frac{z-1}{2},$$
-así como la recta $s$ determinada por el punto $P(1, 2, 3)$ y el vector director $\vec{v} = (1+a, -a, 3a)$.
+así como la recta $s$ determinada por el punto $P(1, 2, 3)$ y el vector director $\vec{v} = (1+a, -a, 3a).$
 
 <ol>
     <li>Calcula $a$ para que las rectas $r$ y $s$ se corten.</li>

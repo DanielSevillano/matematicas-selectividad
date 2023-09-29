@@ -7,5 +7,5 @@ $$\begin{cases}
 
 <ol>
     <li>Determina, si existen, los valores de $\lambda$ para los que el sistema tiene infinitas soluciones.</li>
-    <li>Resuelve el sistema para $\lambda = -2$.</li>
+    <li>Resuelve el sistema para $\lambda = -2.$</li>
 </ol>

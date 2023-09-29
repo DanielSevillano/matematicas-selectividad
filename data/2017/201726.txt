@@ -2,5 +2,5 @@
     <li>Halla
     $$\int \frac{x^2}{(1+x^3)^{3/2}}dx.$$
     (Sugerencia $t = 1 + x^3$).</li>
-    <li>Halla la primitiva cuya gráfica para por $(2, 0)$.</li>
+    <li>Halla la primitiva cuya gráfica para por $(2, 0).$</li>
 </ol>

@@ -6,6 +6,6 @@ $$f(x) = \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Estudia la derivabilidad de $f$ en $x = 0$ y en $x = 1$.</li>
-    <li>Estudia la existencia de asíntotas horizontales de la gráfica de $f$.</li>
+    <li>Estudia la derivabilidad de $f$ en $x = 0$ y en $x = 1.$</li>
+    <li>Estudia la existencia de asíntotas horizontales de la gráfica de $f.$</li>
 </ol>

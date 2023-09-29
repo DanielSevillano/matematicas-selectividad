@@ -1,1 +1,1 @@
-Halla $a$, $b$ y $c$ sabiendo que la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = a + b\mathrm{sen}(x) + c\mathrm{sen}(2x)$ tiene un punto crítico en el punto de abscisa $x = \pi$ y la recta $y = -\frac{1}{2}x + 3$ es normal a la gráfica de $f$ en el punto de abscisa $x = 0$.
+Halla $a$, $b$ y $c$ sabiendo que la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = a + b\mathrm{sen}(x) + c\mathrm{sen}(2x)$ tiene un punto crítico en el punto de abscisa $x = \pi$ y la recta $y = -\frac{1}{2}x + 3$ es normal a la gráfica de $f$ en el punto de abscisa $x = 0.$

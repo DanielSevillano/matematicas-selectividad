@@ -6,8 +6,8 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discute el sistema según los valores de $m$.</li>
-    <li>Resuelve el sistema para $m = 0$.
+    <li>Discute el sistema según los valores de $m.$</li>
+    <li>Resuelve el sistema para $m = 0.$
     ¿Hay alguna solución en la que $x = 0$?
     En caso afirmativo, calcúlala.
     En caso negativo, justifica la respuesta.</li>

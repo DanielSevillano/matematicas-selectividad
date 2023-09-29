@@ -16,6 +16,6 @@ $$\begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Discute el sistema según los valores de $\alpha$.</li>
+    <li>Discute el sistema según los valores de $\alpha.$</li>
     <li>Para $\alpha = 1$ resuelve el sistema y da una solución del mismo diferente de la solución trivial, si es posible.</li>
 </ol>

@@ -11,6 +11,6 @@ B = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Determina para qué valores de $m$ existe la inversa de la matriz $A$.</li>
-    <li>Para todo $m \neq -1$, resuelve, si es posible, la ecuación $AX + X = B$.</li>
+    <li>Determina para qué valores de $m$ existe la inversa de la matriz $A.$</li>
+    <li>Para todo $m \neq -1$, resuelve, si es posible, la ecuación $AX + X = B.$</li>
 </ol>

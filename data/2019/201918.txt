@@ -1,7 +1,7 @@
-Considera los puntos $A(0, 3, -1)$ y $B(0, 1, a)$ y el plano $\pi$ de ecuación $x - y + z = 0$.
+Considera los puntos $A(0, 3, -1)$ y $B(0, 1, a)$ y el plano $\pi$ de ecuación $x - y + z = 0.$
 
 <ol>
-    <li>Determina $a$ sabiendo que la recta que pasa por $A$ y por $B$ es paralela al plano $\pi$.</li>
+    <li>Determina $a$ sabiendo que la recta que pasa por $A$ y por $B$ es paralela al plano $\pi.$</li>
     <li>Halla el punto de corte del plano $\pi$ con la recta que pasa por $A$ y es perpendicular a dicho plano.</li>
-    <li>Para $a = 2$, halla el plano que contiene a los puntos $A$ y $B$ y es perpendicular al plano $\pi$.</li>
+    <li>Para $a = 2$, halla el plano que contiene a los puntos $A$ y $B$ y es perpendicular al plano $\pi.$</li>
 </ol>

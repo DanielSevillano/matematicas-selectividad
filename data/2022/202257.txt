@@ -8,5 +8,5 @@ $$r \equiv x+1 = y-a = -z \quad \text{y} \quad s \equiv \begin{cases}
 <ol>
     <li>Calcula $a$ para que $r$ y $s$ se corten.
     Determina dicho punto de corte.</li>
-    <li>Halla la ecuación del plano que pasa por $P(8, -7, 2)$ y que contiene a la recta $s$.</li>
+    <li>Halla la ecuación del plano que pasa por $P(8, -7, 2)$ y que contiene a la recta $s.$</li>
 </ol>

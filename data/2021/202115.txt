@@ -7,7 +7,7 @@ $$A = \begin{pmatrix}
 con determinante igual a 5.
 
 <ol>
-    <li>Calcula razonadamente el determinante de $2A^3$.</li>
+    <li>Calcula razonadamente el determinante de $2A^3.$</li>
     <li>Calcula razonadamente los determinantes
     $$\begin{vmatrix}
         2a & -1 & 3 \\

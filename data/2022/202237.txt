@@ -1,4 +1,4 @@
-Considera el triángulo cuyos vértices son los puntos $A(0, 2, 3)$, $B(m, 0, 1)$ y $C(2, 1, 2)$.
+Considera el triángulo cuyos vértices son los puntos $A(0, 2, 3)$, $B(m, 0, 1)$ y $C(2, 1, 2).$
 
 <ol>
     <li>Halla los valores de $m$, sabiendo que el área del triángulo es $\frac{\sqrt{18}}{2}$ unidades cuadradas.</li>

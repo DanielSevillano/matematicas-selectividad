@@ -1,1 +1,1 @@
-Determina la función $f: \mathbb{R} \to \mathbb{R}$ tal que $f''(x) = xe^x$, cuya gráfica pasa por el origen de coordenadas y tiene un extremo relativo en $x = 1$.
+Determina la función $f: \mathbb{R} \to \mathbb{R}$ tal que $f''(x) = xe^x$, cuya gráfica pasa por el origen de coordenadas y tiene un extremo relativo en $x = 1.$

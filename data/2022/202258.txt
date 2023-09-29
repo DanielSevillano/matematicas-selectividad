@@ -2,6 +2,6 @@ Sean el plano $\pi \equiv x + y - z = 2$ y la recta
 $$r \equiv x = \frac{y}{3} = z-1.$$
 
 <ol>
-    <li>Calcula, si existe, el punto de intersección de $\pi$ y $r$.</li>
-    <li>Dado el punto $Q(2, 6, 3)$, halla su simétrico respecto del plano $\pi$.</li>
+    <li>Calcula, si existe, el punto de intersección de $\pi$ y $r.$</li>
+    <li>Dado el punto $Q(2, 6, 3)$, halla su simétrico respecto del plano $\pi.$</li>
 </ol>

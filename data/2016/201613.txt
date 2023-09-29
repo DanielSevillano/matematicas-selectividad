@@ -8,4 +8,4 @@ B = \begin{pmatrix}
     0 & 1
 \end{pmatrix}.$$
 
-Determina, si existe, la matriz $X$ que verifica $AX + B^2 = BX + A^2$.
+Determina, si existe, la matriz $X$ que verifica $AX + B^2 = BX + A^2.$

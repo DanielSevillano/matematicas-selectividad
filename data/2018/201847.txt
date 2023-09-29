@@ -6,7 +6,7 @@ $$A = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Halla, si existe, la inversa de $A$.</li>
+    <li>Halla, si existe, la inversa de $A.$</li>
     <li>Determina los valores de $m$ tales que $(A-mI)$ tiene inversa.</li>
-    <li>Calcula el rango de $(A - 2I)$.</li>
+    <li>Calcula el rango de $(A - 2I).$</li>
 </ol>

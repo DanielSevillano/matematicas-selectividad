@@ -6,8 +6,8 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discútelo según los valores de $\lambda$.</li>
-    <li>Resuélvelo para $\lambda = 0$.</li>
-    <li>Determina, si existe, el valor de $\lambda$ para el que hay una solución en la que $z = 2$.
+    <li>Discútelo según los valores de $\lambda.$</li>
+    <li>Resuélvelo para $\lambda = 0.$</li>
+    <li>Determina, si existe, el valor de $\lambda$ para el que hay una solución en la que $z = 2.$
     Calcula esa solución.</li>
 </ol>

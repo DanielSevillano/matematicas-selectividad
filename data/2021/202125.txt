@@ -8,5 +8,5 @@ $$A = \begin{pmatrix}
 <ol>
     <li>¿Para qué valores de $m$ existe la inversa de la matriz $A$?
     Razona la respuesta.</li>
-    <li>Para $m = 1$, halla $\left(\frac{1}{2}A\right)^{-1}$.</li>
+    <li>Para $m = 1$, halla $\left(\frac{1}{2}A\right)^{-1}.$</li>
 </ol>

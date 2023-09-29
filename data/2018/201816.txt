@@ -1,4 +1,4 @@
-Considera la función $f: \left(-\frac{e}{2}, +\infty\right) \to \mathbb{R}$ definida por $f(x) = \ln(2x + e)$.
+Considera la función $f: \left(-\frac{e}{2}, +\infty\right) \to \mathbb{R}$ definida por $f(x) = \ln(2x + e).$
 
 <ol>
     <li>Haz un esbozo de la gráfica de $f$ calculando sus puntos de corte con los ejes coordenados.</li>

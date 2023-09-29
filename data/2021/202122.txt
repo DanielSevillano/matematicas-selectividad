@@ -4,5 +4,5 @@ $$f(x) = \frac{ax^2 + b}{a - x}$$
 
 <ol>
     <li>Halla $a$ y $b$ sabiendo que la gráfica de $f$ pasa por el punto $(2, 3)$ y tiene una asíntota oblicua cuya pendiente vale -4.</li>
-    <li>Para $a = 2$ y $b = 3$, calcula las ecuaciones de las rectas tangente y normal a la gráfica de $f$ en el punto de abscisa $x = 1$.</li>
+    <li>Para $a = 2$ y $b = 3$, calcula las ecuaciones de las rectas tangente y normal a la gráfica de $f$ en el punto de abscisa $x = 1.$</li>
 </ol>

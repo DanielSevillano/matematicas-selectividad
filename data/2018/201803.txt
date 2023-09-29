@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discútelo según los valores del parámetro $m$.</li>
-    <li>Resuelve el sistema para $m = -2$.</li>
+    <li>Discútelo según los valores del parámetro $m.$</li>
+    <li>Resuelve el sistema para $m = -2.$</li>
 </ol>

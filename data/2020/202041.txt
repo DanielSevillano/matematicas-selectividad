@@ -1,2 +1,2 @@
-Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = (5-x)e^{x-4}$.
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = (5-x)e^{x-4}.$
 Determina los puntos de la gráfica de $f$ cuya recta tangente tiene pendiente máxima.

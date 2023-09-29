@@ -1,2 +1,2 @@
-Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = e^x\mathrm{sen}(2x)$.
-Halla la primitiva de $f$ cuya gráfica pase por el punto $(0, 0)$.
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = e^x\mathrm{sen}(2x).$
+Halla la primitiva de $f$ cuya gráfica pase por el punto $(0, 0).$

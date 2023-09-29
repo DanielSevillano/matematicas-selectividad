@@ -6,7 +6,7 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discute el sistema en función de $m$.</li>
+    <li>Discute el sistema en función de $m.$</li>
     <li>Para $m = 0$, resuelve el sistema.
-    Calcula, si es posible, una solución en la que $y = 5$.</li>
+    Calcula, si es posible, una solución en la que $y = 5.$</li>
 </ol>

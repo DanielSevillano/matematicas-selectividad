@@ -18,4 +18,4 @@ D = \begin{pmatrix}
     4 & -5 & 6
 \end{pmatrix}.$$
 
-Determina, si existe, la matriz $X$ que verifica que $A^2X - BA + X = CD$.
+Determina, si existe, la matriz $X$ que verifica que $A^2X - BA + X = CD.$

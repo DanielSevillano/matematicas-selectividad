@@ -6,6 +6,6 @@ $$\begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Discute el sistema en función del parámetro $m$.</li>
-    <li>Si es posible, resuelve el sistema para $m = 1$.</li>
+    <li>Discute el sistema en función del parámetro $m.$</li>
+    <li>Si es posible, resuelve el sistema para $m = 1.$</li>
 </ol>

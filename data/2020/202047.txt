@@ -17,5 +17,5 @@ C = \begin{pmatrix}
 
 <ol>
     <li>Determina los valores de $m$ para los que la ecuación $AX + B = C$ tiene solución única.</li>
-    <li>Para $m = 0$, halla $X$ tal que $AX + B = C$.</li>
+    <li>Para $m = 0$, halla $X$ tal que $AX + B = C.$</li>
 </ol>

@@ -1,2 +1,2 @@
-Se sabe que la gráfica de la función $f: \mathbb{R} \to \mathbb{R}$, dada por $f(x) = 2x^3 + ax^2 + bx + c$, tiene un punto de inflexión para $x = 1$ y que la ecuación de la recta tangente a dicha gráfica en ese punto es $y = -6x + 6$.
-Calcula $a$, $b$ y $c$.
+Se sabe que la gráfica de la función $f: \mathbb{R} \to \mathbb{R}$, dada por $f(x) = 2x^3 + ax^2 + bx + c$, tiene un punto de inflexión para $x = 1$ y que la ecuación de la recta tangente a dicha gráfica en ese punto es $y = -6x + 6.$
+Calcula $a$, $b$ y $c.$

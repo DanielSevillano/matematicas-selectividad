@@ -14,6 +14,6 @@ C = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Calcula $A^{2018}$.</li>
+    <li>Calcula $A^{2018}.$</li>
     <li>Determina, si existe, la matriz $X$ que verifica $A(X + 2I) = BC$, donde $I$ es la matriz identidad.</li>
 </ol>

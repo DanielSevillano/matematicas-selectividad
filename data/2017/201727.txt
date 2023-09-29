@@ -7,6 +7,6 @@ $$\begin{cases}
 del que se sabe que para un cierto valor de $k$ es compatible indeterminado.
 
 <ol>
-    <li>Determina el valor de $k$.</li>
-    <li>Resuelve el sistema para $k = 1$.</li>
+    <li>Determina el valor de $k.$</li>
+    <li>Resuelve el sistema para $k = 1.$</li>
 </ol>

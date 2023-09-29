@@ -12,6 +12,6 @@ X = \begin{pmatrix}
 
 <ol>
     <li>Determina los valores de $\lambda$ para los que la matriz $A + \lambda I$ no tiene inversa.</li>
-    <li>Resuelve $AX = -3X$.
-    Determina, si existe, alguna solución con $x = 1$.</li>
+    <li>Resuelve $AX = -3X.$
+    Determina, si existe, alguna solución con $x = 1.$</li>
 </ol>

@@ -1,6 +1,6 @@
-Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = x + xe^{-x}$.
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = x + xe^{-x}.$
 
 <ol>
-    <li>Calcula la ecuación de la recta tangente a la gráfica de $f$ que es paralela a la recta $x - y + 1 = 0$.</li>
-    <li>Estudia y determina las asíntotas de la gráfica de $f$.</li>
+    <li>Calcula la ecuación de la recta tangente a la gráfica de $f$ que es paralela a la recta $x - y + 1 = 0.$</li>
+    <li>Estudia y determina las asíntotas de la gráfica de $f.$</li>
 </ol>

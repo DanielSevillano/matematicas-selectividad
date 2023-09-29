@@ -1,8 +1,8 @@
 Considera la función $f$ definida por
 $$f(x) = \frac{x^4 - 3x^2 + 2}{(x+2)^3},$$
-para $x \neq -2$.
+para $x \neq -2.$
 
 <ol>
-    <li>Estudia y halla las asíntotas de la gráfica de $f$.</li>
-    <li>Calcula la ecuación de la recta normal a la gráfica de $f$ en el punto de abscisa $x = 0$.</li>
+    <li>Estudia y halla las asíntotas de la gráfica de $f.$</li>
+    <li>Calcula la ecuación de la recta normal a la gráfica de $f$ en el punto de abscisa $x = 0.$</li>
 </ol>

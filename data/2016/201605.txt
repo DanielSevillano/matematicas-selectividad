@@ -2,8 +2,8 @@ Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por
 $$f(x) = \frac{x}{x^2+1}.$$
 
 <ol>
-    <li>Estudia y determina las asíntotas de la gráfica de $f$.
-    Calcula los puntos de corte de dichas asíntotas con la gráfica de $f$.</li>
+    <li>Estudia y determina las asíntotas de la gráfica de $f.$
+    Calcula los puntos de corte de dichas asíntotas con la gráfica de $f.$</li>
     <li>Halla los intervalos de crecimiento y de decrecimiento y los extremos relativos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
-    <li>Esboza la gráfica de $f$.</li>
+    <li>Esboza la gráfica de $f.$</li>
 </ol>

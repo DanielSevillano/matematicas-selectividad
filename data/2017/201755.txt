@@ -2,7 +2,7 @@ Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por
 $$f(x) = \frac{e^x + e^{-x}}{2}.$$
 
 <ol>
-    <li>Estudia y determina los intervalos de crecimiento y los intervalos de decrecimiento de $f$.
+    <li>Estudia y determina los intervalos de crecimiento y los intervalos de decrecimiento de $f.$
     Calcula los extremos relativos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
-    <li>Halla la ecuación de la recta normal a la gráfica de $f$ en el punto de abscisa $x = 0$.</li>
+    <li>Halla la ecuación de la recta normal a la gráfica de $f$ en el punto de abscisa $x = 0.$</li>
 </ol>

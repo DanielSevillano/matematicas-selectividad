@@ -1,4 +1,4 @@
-Sea la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = xe^{-x^2}$.
+Sea la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = xe^{-x^2}.$
 
 <ol>
     <li>Calcula los puntos de corte de la gráfica de $f$ con los ejes coordenados y los extremos relativos de $f$ (abscisas en los que se obtienen y valores que se alcanzan).</li>

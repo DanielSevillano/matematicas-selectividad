@@ -1,16 +1,16 @@
 <ol>
-    <li>El vector director de la recta $r$ es $\vec{d}_r = (1, 1, -1)$ y el vector director de $s$ es $\vec{d}_s = (2, 0, -1)$.
+    <li>El vector director de la recta $r$ es $\vec{d}_r = (1, 1, -1)$ y el vector director de $s$ es $\vec{d}_s = (2, 0, -1).$
     Observamos que los vectores directores no son proporcionales, así que las dos rectas no son paralelas ni coincidentes.
 
-    Tomamos un punto $R(-1, a, 0)$ de $r$ y $S(5, -3, 2)$ de $s$.
+    Tomamos un punto $R(-1, a, 0)$ de $r$ y $S(5, -3, 2)$ de $s.$
     Las dos rectas se cortan si están contenidas en un mismo plano, es decir, si $\vec{d}_r$, $\vec{d}_s$ y $\vec{PQ} = (6, -3-a, 2)$ son linealmente dependientes.
     $$\begin{vmatrix}
         1 & 1 & -1 \\
         2 & 0 & -1 \\
         6 & -3-a & 2
     \end{vmatrix} = a - 7.$$
-    Los tres vectores son linealmente dependientes si y solo si $a - 7 = 0 \Leftrightarrow a = 7$.
-    Por tanto, $r$ y $s$ se cortan si y solo si $a = 7$.
+    Los tres vectores son linealmente dependientes si y solo si $a - 7 = 0 \Leftrightarrow a = 7.$
+    Por tanto, $r$ y $s$ se cortan si y solo si $a = 7.$
 
     Para hallar su punto de corte, primero escribimos la recta $r$ en ecuaciones paramétricas.
     $$r \equiv \begin{cases}
@@ -24,11 +24,11 @@
         -3 = 7 + \mu, \\
         2 - \lambda = -\mu.
     \end{cases}$$
-    Obtenemos que $\mu = -10$ y $\lambda = -8$.
-    Por tanto, el punto de corte es $(-11, -3, 10)$.</li>
+    Obtenemos que $\mu = -10$ y $\lambda = -8.$
+    Por tanto, el punto de corte es $(-11, -3, 10).$</li>
 
     <li>Llamamos $\pi$ al plano que queremos calcular.
-    Como contiene a la recta $s$, el vector $\vec{d}_s = (2, 0, -1)$ es una dirección del plano y además $S(5, -3, 2) \in \pi$.
+    Como contiene a la recta $s$, el vector $\vec{d}_s = (2, 0, -1)$ es una dirección del plano y además $S(5, -3, 2) \in \pi.$
     Por otro lado, $\pi$ pasa por $P(8, -7, 2)$, así que el vector $\vec{PS} = (-3, 4, 0)$ es también una dirección del plano.
     Por tanto, el vector normal al plano $\pi$ es perpendicular a ambos vectores.
     $$\vec{n}_\pi = \vec{d}_s \times \vec{PS} = \begin{vmatrix}

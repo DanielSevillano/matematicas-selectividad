@@ -1,6 +1,6 @@
-Se consideran los vectores $\vec{u} = (-1, 2, 3)$ y $\vec{v} = (2, 0, -1)$, así como el punto $A(-4, 4, 7)$.
+Se consideran los vectores $\vec{u} = (-1, 2, 3)$ y $\vec{v} = (2, 0, -1)$, así como el punto $A(-4, 4, 7).$
 
 <ol>
-    <li>Calcula $a$ y $b$ para que el vector $\vec{w} = (1, a, b)$ sea ortogonal a $\vec{u}$ y $\vec{v}$.</li>
+    <li>Calcula $a$ y $b$ para que el vector $\vec{w} = (1, a, b)$ sea ortogonal a $\vec{u}$ y $\vec{v}.$</li>
     <li>Determina los cuatro vértices de un paralelogramo cuyos lados tienen las direcciones de los vectores $\vec{u}$ y $\vec{v}$, y que tiene al vector $\vec{OA}$ como una de sus diagonales, siendo $O$ el origen de coordenadas.</li>
 </ol>

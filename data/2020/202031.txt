@@ -1,8 +1,8 @@
 Considera la función $f$ definida por
 $$f(x) = \frac{x^3}{x^2-1}$$
-para $x \neq -1, 1$.
+para $x \neq -1, 1.$
 
 <ol>
-    <li>Estudia y halla las asíntotas de la gráfica de $f$.</li>
-    <li>Determina los intervalos de crecimiento y decrecimiento de $f$.</li>
+    <li>Estudia y halla las asíntotas de la gráfica de $f.$</li>
+    <li>Determina los intervalos de crecimiento y decrecimiento de $f.$</li>
 </ol>

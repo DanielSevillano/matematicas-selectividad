@@ -1,7 +1,7 @@
-Considera la función definida por $f(x) = -x + \frac{4}{x^2}$ para $x \neq 0$.
+Considera la función definida por $f(x) = -x + \frac{4}{x^2}$ para $x \neq 0.$
 
 <ol>
-    <li>Estudia y determina las asíntotas de la gráfica de $f$.</li>
+    <li>Estudia y determina las asíntotas de la gráfica de $f.$</li>
     <li>Determina los intervalos de crecimiento y de decrecimiento de $f$ y calcula sus extremos relativos (abscisas donde se obtienen y valores que se alcanzan).</li>
-    <li>Esboza la gráfica de $f$.</li>
+    <li>Esboza la gráfica de $f.$</li>
 </ol>
