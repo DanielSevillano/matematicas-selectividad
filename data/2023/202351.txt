@@ -5,6 +5,6 @@ $$f(x) = \begin{cases}
 \end{cases}$$
 
 <ol>
-    <li>Halla los extremos relativos y absolutos de $f$ (absicsas donde se obtienen y valores que se alcanzan).</li>
+    <li>Halla los extremos relativos y absolutos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
     <li>Determina la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = \frac{\pi}{2}.$</li>
 </ol>
