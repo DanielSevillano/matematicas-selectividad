@@ -1,0 +1,3 @@
+Se quiere construir un depósito abierto de base cuadrada y paredes verticales con capacidad para 13,5 metros cúbicos.
+Para ello se dispone de una chapa de acero con grosor uniforme.
+Calcula las dimensiones del depósito para que el gasto en chapa sea el mínimo posible.

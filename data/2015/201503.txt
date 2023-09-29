@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones
+$$\begin{cases}
+    \lambda x + y - z = -1, \\
+    \lambda x + \lambda z = \lambda, \\
+    x + y - \lambda z = 0.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores de $\lambda.$</li>
+    <li>Resuelve el sistema para $\lambda = 0.$</li>
+</ol>

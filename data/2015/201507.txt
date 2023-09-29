@@ -1,0 +1,15 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    -1 & 2 \\
+    2 & m
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & 2 & 0 \\
+    -2 & m & 0 \\
+    3 & 2 & m
+\end{pmatrix}.$$
+
+<ol>
+    <li>Encuentra el valor, o los valores, de $m$ para los que $A$ y $B$ tienen el mismo rango.</li>
+    <li>Determina, si existen, los valores de $m$ para los que $A$ y $B$ tienen el mismo determinante.</li>
+</ol>

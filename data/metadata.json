@@ -2871,5 +2871,70 @@
             "Geometría",
             "Problemas métricos"
         ]
+    },
+    {
+        "ejercicio": 201501,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201502,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201503,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201504,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
+        "ejercicio": 201505,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones",
+            "Límites"
+        ]
+    },
+    {
+        "ejercicio": 201506,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201507,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices"
+        ]
+    },
+    {
+        "ejercicio": 201508,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
     }
 ]
