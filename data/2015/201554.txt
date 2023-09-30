@@ -1,0 +1,16 @@
+Sea $r$ la recta definida por
+$$\begin{cases}
+    x = 1, \\
+    y = 1, \\
+    z = \lambda - 2
+\end{cases}$$
+y $s$ la recta dada por
+$$\begin{cases}
+    x-y = 1, \\
+    z = -1.
+\end{cases}$$
+
+<ol>
+    <li>Halla la ecuación de la recta que corta perpendicularmente a las rectas dadas.</li>
+    <li>Calcula la distancia entre $r$ y $s.$</li>
+</ol>

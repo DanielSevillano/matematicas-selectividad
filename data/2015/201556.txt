@@ -1,0 +1,6 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = |x^2-4|.$
+
+<ol>
+    <li>Haz un esbozo de la gráfica de $f.$</li>
+    <li>Calcula el área del recinto limitado por la gráfica de $f$ y la recta $y = 5.$</li>
+</ol>

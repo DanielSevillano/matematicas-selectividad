@@ -1,0 +1,7 @@
+Considera el plano $\pi$ de ecuación $mx + 5y + 2z = 0$ y la recta $r$ dada por
+$$\frac{x+1}{3} = \frac{y}{n} = \frac{z-1}{2}.$$
+
+<ol>
+    <li>Calcula $m$ y $n$ en el caso en el que la recta $r$ es perpendicular al plano $\pi.$</li>
+    <li>Calcula $m$ y $n$ en el caso en el que la recta $r$ está contenida en el plano $\pi.$</li>
+</ol>

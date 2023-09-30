@@ -1,0 +1,19 @@
+Considera las siguientes matrices:
+$$A = \begin{pmatrix}
+    -1 & 2 \\
+    2 & -1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 0 & 0 \\
+    -2 & 1 & 0 \\
+    3 & 2 & 1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 0 & 0 \\
+    -1 & 5 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina la matriz $X$ para la que $A^tXB^{-1} = C.$</li>
+    <li>Calcula el determinante de $B^{-1}(C^tC)B.$</li>
+</ol>

@@ -2936,5 +2936,71 @@
             "Geometría",
             "Problemas métricos"
         ]
+    },
+    {
+        "ejercicio": 201551,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 201552,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201553,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices",
+            "Ecuaciones matriciales",
+            "Determinantes"
+        ]
+    },
+    {
+        "ejercicio": 201554,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
+        "ejercicio": 201555,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201556,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201557,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201558,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Lugares geométricos"
+        ]
     }
 ]

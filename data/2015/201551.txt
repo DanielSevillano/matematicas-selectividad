@@ -1,0 +1,3 @@
+Halla los valores de $a$, $b$ y $c$ sabiendo que la gráfica de la función
+$$f(x) = \frac{ax^2+b}{x+c}$$
+tiene una asíntota vertical en $x = 1$, una asíntota oblicua de pendiente 2, y un extremo local en el punto de abscisa $x = 3.$

@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones.
+$$\begin{cases}
+    2x + y + (\alpha - 1)z = \alpha - 1, \\
+    x - \alpha y - 3z = 1, \\
+    x + y + 2z = 2\alpha - 2.
+\end{cases}$$
+
+<ol>
+    <li>Resuelve el sistema para $\alpha = 1.$</li>
+    <li>Determina, si existe, el valor de $\alpha$ para el que $(x, y, z) = (1, -3, \alpha)$ es la única solución del sistema dado.</li>
+</ol>

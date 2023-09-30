@@ -1,0 +1,2 @@
+Calcula
+$$\int_0^\pi x^2\mathrm{sen}(x)dx.$$

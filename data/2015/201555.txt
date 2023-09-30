@@ -1,0 +1,3 @@
+Un granjero desea vallar un terreno rectangular de pasto adyacente a un río.
+El terreno debe tener 180.000 m<sup>2</sup> para producir suficiente pasto para su ganado.
+¿Qué dimensiones tendrá el terreno rectangular de modo que utilice la mínima cantidad de valla, si el lado que da al río no necesita vallado?
