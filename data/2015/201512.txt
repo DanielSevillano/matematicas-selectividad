@@ -1,0 +1,3 @@
+Calcula
+$$\int \frac{dx}{(x-2)\sqrt{x+2}}.$$
+(Sugerencia: $\sqrt{x+2} = t$).

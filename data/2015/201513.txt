@@ -1,0 +1,16 @@
+Halla la matriz $X$ que verifica la igualdad $AXA^{-1} + B = CA^{-1}$ sabiendo que
+$$A = \begin{pmatrix}
+    0 & -1 & 0 \\
+    -1 & -3 & 0 \\
+    1 & 4 & 1
+\end{pmatrix}, \quad
+C = \begin{pmatrix}
+    1 & -1 & 2 \\
+    0 & 0 & -1 \\
+    1 & 0 & -1
+\end{pmatrix} \quad \text{y} \quad
+BA = \begin{pmatrix}
+    1 & 1 & 0 \\
+    1 & 1 & -1 \\
+    -1 & -5 & -3
+\end{pmatrix}.$$

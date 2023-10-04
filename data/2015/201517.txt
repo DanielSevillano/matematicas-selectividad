@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones
+$$\begin{cases}
+    \lambda x + \lambda y + \lambda z = 0, \\
+    \lambda x + 2y + 2z = 0, \\
+    \lambda x + 2y + z = 0.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores de $\lambda.$</li>
+    <li>Determina, si existen, los valores de $\lambda$ para los que el sistema tiene alguna solución en la que $z \neq 0.$</li>
+</ol>

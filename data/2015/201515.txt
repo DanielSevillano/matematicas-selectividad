@@ -1,0 +1,6 @@
+Determina $a$ y $b$ sabiendo que $b > 0$ y que la función $f: \mathbb{R} \to \mathbb{R}$ definida como
+$$f(x) = \begin{cases}
+    a\cos(x) + 2x, & \text{si } x < 0, \\
+    a^2\ln(x+1) + \dfrac{b}{x+1}, & \text{si } x \geq 0
+\end{cases}$$
+es derivable.

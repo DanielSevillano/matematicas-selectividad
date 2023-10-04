@@ -1,0 +1,11 @@
+Los puntos $A(0, 1, 1)$ y $B(2, 1, 3)$ son dos vértices de un triángulo.
+El tercer vértice es un punto de la recta $r$ dada por
+$$\begin{cases}
+    2x + y = 0, \\
+    z = 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcula las coordenadas de los posibles puntos $C$ de $r$ para que el triángulo $ABC$ tenga un ángulo recto en el vértice $A.$</li>
+    <li>Calcula las coordenadas de los posibles puntos $D$ de $r$ para que el triángulo $ABC$ tenga un área igual a $\sqrt{2}.$</li>
+</ol>

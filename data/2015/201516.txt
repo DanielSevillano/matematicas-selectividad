@@ -1,0 +1,2 @@
+Sea $g$ la función definida por $g(x) = \ln(x)$ para $x > 0.$
+Calcula el valor de $a > 1$ para que el área del recinto limitado por la gráfica de $g$, el eje de abscisas y la recta $x = a$ es 1.

@@ -1,0 +1,10 @@
+Considera el punto $P(-3, 1, 6)$ y la recta $r$ dada por
+$$\begin{cases}
+    2x - y - 5 = 0, \\
+    y - z + 2 = 0.
+\end{cases}$$
+
+<ol>
+    <li>Determina la ecuación del plano que pasa por $P$ y es perpendicular a $r.$</li>
+    <li>Calcula las coordenadas del punto simétrico de $P$ respecto de la recta $r.$</li>
+</ol>

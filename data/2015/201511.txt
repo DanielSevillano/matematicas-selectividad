@@ -1,0 +1,2 @@
+Se quiere vallar un campo rectangular que está junto a un camino.
+Si la valla del lado del camino cuesta 80 euros/metro y la de los otros lados 10 euros/metro, halla las dimensiones del campo de área máxima que puede vallarse con 28.800 euros.
