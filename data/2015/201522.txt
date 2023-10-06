@@ -1,0 +1,7 @@
+Sea $f$ la función definida por $f(x) = |\ln(x)|$ para $x > 0.$
+
+<ol>
+    <li>Esboza el recinto limitado por la gráfica de $f$ y la recta $y = 1.$</li>
+    <li>Calcula los puntos de corte de la gráfica de $f$ con la recta $y = 1.$</li>
+    <li>Calcula el área del recinto citado.</li>
+</ol>

@@ -1,0 +1,11 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    0 & 1 & m \\
+    m-1 & 0 & 2 \\
+    0 & 1-m & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halla el valor, o valores, de $m$ para los que la matriz $A$ tiene rango 2.</li>
+    <li>Para $m = 1$, determina $A^{2015}.$</li>
+</ol>

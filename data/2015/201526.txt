@@ -1,0 +1,2 @@
+Calcula
+$$\int e^{2x}\mathrm{sen}(x)dx.$$

@@ -1,0 +1,6 @@
+Sean los planos $\pi \equiv x + 3y + 2z - 5 = 0$ y $\pi' \equiv -2x + y + 3z + 3 = 0.$
+
+<ol>
+    <li>Determina el ángulo que forman $\pi$ y $\pi'.$</li>
+    <li>Calcula el volumen del tetraedro limitado por $\pi$ y los planos coordenados.</li>
+</ol>
