@@ -1,0 +1,8 @@
+Sea $f$ la función definida por
+$$f(x) = \frac{x^2 + 1}{x^2(x-1)}$$
+para $x \neq 0$ y $x \neq 1$ y sea $F$ la primitiva de $f$ cuya gráfica pasa por el punto $P(2, \ln(2)).$
+
+<ol>
+    <li>Calcula la recta tangente a la gráfica $F$ en el punto $P.$</li>
+    <li>Determina la función $F.$</li>
+</ol>

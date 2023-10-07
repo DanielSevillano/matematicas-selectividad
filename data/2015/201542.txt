@@ -1,0 +1,1 @@
+Calcula el valor de $a > 1$ sabiendo que el área del recinto comprendido entre la parábola $y = -x^2 + ax$ y la recta $y = x$ es $\frac{4}{3}.$

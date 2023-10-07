@@ -1,0 +1,2 @@
+Halla unas ecuaciones paramétricas para la recta $r$, que contiene al punto $P(3, -5, 4)$ y corta perpendicularmente a la recta
+$$s \equiv \frac{x-4}{5} = \frac{y-8}{-3} = \frac{z}{4}.$$

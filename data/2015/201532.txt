@@ -1,0 +1,8 @@
+Sea $f$ la función definida por
+$$f(x) = \frac{\ln(x)}{2x}$$
+para $x > 0$ y sea $F$ la primitiva de $f$ tal que $F(1) = 2.$
+
+<ol>
+    <li>Calcula $F'(e).$</li>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $F$ en el punto de abscisa $x = e.$</li>
+</ol>

@@ -1,0 +1,7 @@
+Sea $r$ la recta de ecuación
+$$\frac{x+2}{3} = \frac{y+1}{4} = z.$$
+
+<ol>
+    <li>Halla el punto de $r$ que equidista del origen de coordenadas y del punto $P(4, -2, 2).$</li>
+    <li>Determina el punto de la recta $r$ más próximo al origen de coordenadas.</li>
+</ol>

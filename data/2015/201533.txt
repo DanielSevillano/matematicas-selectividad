@@ -1,0 +1,12 @@
+Considera el siguiente sistema de ecuaciones
+$$\begin{cases}
+    \alpha x + y + 3z = 4, \\
+    x + y - 2z = -2, \\
+    -x + 2y + (3 + \alpha)z = 4 + \alpha.
+\end{cases}$$
+
+<ol>
+    <li>Determina, si existen, los valores de $\alpha$ para los que el sistema dado tiene solución única.</li>
+    <li>Determina, si existen, los valores de $\alpha$ para los que el sistema dado tiene al menos dos soluciones.
+    Halla todas las soluciones en dichos casos.</li>
+</ol>

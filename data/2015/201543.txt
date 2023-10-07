@@ -1,0 +1,23 @@
+Considera el sistema dado por $AX = B$
+$$A = \begin{pmatrix}
+    \alpha & 2 & -1 \\
+    0 & 1 & 2 \\
+    3 & 4 & \alpha
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 \\
+    \alpha - 2 \\
+    3
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina, si existen, los valores de $\alpha$ para los que el sistema tiene solución única.</li>
+    <li>Determina, si existen, los valores de $\alpha$ para los que el sistema no tiene solución.</li>
+    <li>Determina, si existen, los valores de $\alpha$ para los que el sistema tiene al menos dos soluciones.
+    Halla todas las soluciones en dichos casos.</li>
+</ol>

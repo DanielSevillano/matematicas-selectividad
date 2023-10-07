@@ -1,0 +1,2 @@
+Queremos fabricar una caja con base cuadrada, de tal manera que la altura de la caja más el perímetro de la base sumen 60 cm.
+Determina sus dimensiones para que contenga el mayor volumen posible.

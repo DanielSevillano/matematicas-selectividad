@@ -1,0 +1,7 @@
+Sea $f: [0, \infty) \to \mathbb{R}$ y $g: \mathbb{R} \to \mathbb{R}$ las funciones definidas por $f(x) = \sqrt{2x}$ y $g(x) = \frac{1}{2}x^2.$
+
+<ol>
+    <li>Halla los puntos de corte de las gráficas de $f$ y $g.$
+    Haz un esbozo del recinto que limitan.</li>
+    <li>Calcula el área de dicho recinto.</li>
+</ol>

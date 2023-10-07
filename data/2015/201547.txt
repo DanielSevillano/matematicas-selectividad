@@ -1,0 +1,16 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & 1 & 1 \\
+    1 & 2 & 3 \\
+    1 & 4 & 9
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    -1 & 1 & 1 \\
+    1 & -1 & 1 \\
+    1 & 1 & -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halla la matriz $X$ que verifica $AX - B = I$ ($I$ denota la matriz identidad de orden 3).</li>
+    <li>Calcula el determinante de la matriz $(A^2B^{-1})^{2015}.$</li>
+</ol>

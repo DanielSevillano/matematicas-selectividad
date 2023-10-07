@@ -1,0 +1,10 @@
+Considera los puntos $B(1, 2, -3)$, $C(9, -1, 2)$, $D(5, 0, -1)$ y la recta
+$$r \equiv \begin{cases}
+    x + y + 1 = 0, \\
+    y - z = 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcula el área del triángulo cuyos vértices son $B$, $C$ y $D.$</li>
+    <li>Halla un punto $A$ en la recta $r$ de forma que el triángulo $ABC$ sea rectángulo en $A.$</li>
+</ol>

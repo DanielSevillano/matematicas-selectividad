@@ -1,0 +1,10 @@
+Considera el punto $P(1, 0, -1)$ y la recta $r$ dada por
+$$\begin{cases}
+    x + y = 0, \\
+    z - 1 = 0.
+\end{cases}$$
+
+<ol>
+    <li>Halla la distancia de $P$ a $r.$</li>
+    <li>Determina la ecuación general del plano que pasa por $P$ y contiene a $r.$</li>
+</ol>
