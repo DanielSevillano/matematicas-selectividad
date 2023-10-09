@@ -1,6 +1,6 @@
 <ol>
     <li>En primer lugar, observamos que $f$ es continua en cada una de sus ramas.
-    Estudiamos entonces su continuidad en las abscisas $x = -1$ y $x = 1.$
+    Pasamos a estudiar su continuidad en las abscisas $x = -1$ y $x = 1.$
 
     <ul>
         <li>Si $x = -1$,
