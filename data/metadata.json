@@ -167,7 +167,7 @@
     },
     {
         "ejercicio": 202205,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas"
