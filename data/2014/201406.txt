@@ -1,0 +1,2 @@
+Sea $f$ la función definida por $f(x) = x\ln(x+1)$ para $x > -1.$
+Determina la primitiva de $f$ cuya gráfica pasa por el punto $(1, 0).$

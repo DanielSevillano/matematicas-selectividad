@@ -1,0 +1,2 @@
+Se desea construir un depósito en forma de cilindro recto, con base circular y sin tapadera, que tenga una capacidad de 125 m<sup>3</sup>.
+Halla el radio de la base y la altura que debe tener el depósito para que la superficie sea mínima.

@@ -1,0 +1,13 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    0 & 1 & 1 \\
+    1 & 0 & 0 \\
+    0 & 0 & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & -1 & 1 \\
+    1 & -1 & 0 \\
+    -1 & 2 & 3
+\end{pmatrix}.$$
+
+Determina, si existe, la matriz $X$ que verifica $AX + B = A^2.$

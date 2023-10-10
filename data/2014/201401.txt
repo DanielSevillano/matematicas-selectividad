@@ -1,0 +1,6 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^3 + ax^2 + bx + c.$
+
+<ol>
+    <li>Halla $a$, $b$ y $c$ para que la gráfica de $f$ tenga un punto de inflexión de abscisa $x = \frac{1}{2}$ y que la recta tangente en el punto de abscisa $x = 0$ tenga por ecuación $y = 5 - 6x.$</li>
+    <li>Para $a = 3$, $b = -9$ y $c = 8$, calcula los extremos relativos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
+</ol>

@@ -1,0 +1,6 @@
+Considera la recta $r$ que pasa por los puntos $A(1, 0, -1)$ y $B(-1, 1, 0).$
+
+<ol>
+    <li>Halla la ecuación de la recta $s$ paralela a $r$ que pasa por $C(-2, 3, 2).$</li>
+    <li>Calcula la distancia de $r$ a $s.$</li>
+</ol>

@@ -1,0 +1,10 @@
+Sea $r$ la recta definida por
+$$\begin{cases}
+    x + 2y - z = 3, \\
+    2x - y + z = 1.
+\end{cases}$$
+
+<ol>
+    <li>Determina la ecuación general del plano que contiene a $r$ y pasa por el origen de coordenadas.</li>
+    <li>Halla las ecuaciones paramétricas del plano que corta perpendicularmente a $r$ en el punto $(1, 1, 0).$</li>
+</ol>
