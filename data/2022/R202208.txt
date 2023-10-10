@@ -1,0 +1,23 @@
+<ol>
+    <li>El vector director de la recta $r$ es $\vec{d}_r = (1, -1, 2).$
+    Observamos que los vectores directores no pueden ser proporcionales, porque
+    $$\frac{1+a}{1} = 1+a \neq a = \frac{-a}{-1}.$$
+    Así que las dos rectas no son paralelas ni coincidentes.
+    Tomamos un punto $R(2, 0, 1)$ de $r.$
+    Las dos rectas se cortan si están contenidas en un mismo plano, es decir, si $\vec{d}_r$, $\vec{v}$ y $\vec{PR} = (1, -2, -2)$ son linealmente dependientes.
+    $$\begin{vmatrix}
+        1 & -1 & 2 \\
+        1+a & -a & 3a \\
+        1 & -2 & -2
+    \end{vmatrix} = a-6.$$
+    Los tres vectores son linealmente dependientes si y solo si $a-6 = 0 \Leftrightarrow a = 6.$
+    Por tanto, $r$ y $s$ se cortan si y solo si $a = 6.$
+    En otro caso, estas rectas se cruzan.</li>
+
+    <li>Las rectas son perpendiculares si sus vectores directores lo son, es decir, si su producto escalar es nulo.
+    Calculamos entonces el producto escalar de los dos vectores directores.
+    $$\vec{d}_r \cdot \vec{v} = 8a + 1.$$
+    Así que
+    $$\vec{d}_r \cdot \vec{v} = 0 \Leftrightarrow 8a + 1 = 0 \Leftrightarrow a = -\frac{1}{8}.$$
+    Por tanto, $r$ y $s$ son perpendiculares si y solo si $a = -\frac{1}{8}.$</li>
+</ol>

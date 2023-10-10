@@ -43,5 +43,4 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [ ] Julio de 2023
 - [x] Junio de 2023
 - [x] Julio de 2022
-- [ ] Junio de 2022
-    - [x] Ejercicios 1, 4, 5 y 6
+- [ ] Junio de 2022 (1, 4, 5, 6 y 8)
