@@ -175,7 +175,7 @@
     },
     {
         "ejercicio": 202206,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices",
