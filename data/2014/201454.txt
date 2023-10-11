@@ -1,0 +1,11 @@
+Considera los puntos $A(1, 1, 2)$ y $B(1, -1, -2)$ y la recta $r$ dada por
+$$\begin{cases}
+    x = 1 + 2t, \\
+    y = t, \\
+    z = 1.
+\end{cases}$$
+
+<ol>
+    <li>Halla la ecuación general del plano que contiene a $r$ y es paralelo a la recta que pasa por $A$ y por $B.$</li>
+    <li>Halla el punto de la recta $r$ que está a la misma distancia de $A$ y de $B.$</li>
+</ol>

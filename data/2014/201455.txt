@@ -1,0 +1,1 @@
+De todos los números reales positivos, determina el que sumado con su inverso da suma mínima.

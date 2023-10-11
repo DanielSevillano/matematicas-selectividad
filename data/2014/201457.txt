@@ -1,0 +1,22 @@
+Sabiendo que el determinante de la matriz
+$$A = \begin{pmatrix}
+    x & y & z \\
+    1 & 0 & 1 \\
+    1 & 2 & 3
+\end{pmatrix}$$
+es 2, calcula los siguientes determinantes indicando, en cada caso, las propiedades que utilices.
+
+<ol>
+    <li>$\det(3A).$</li>
+    <li>$\det(A^{-1}).$</li>
+    <li>$$\begin{vmatrix}
+        3 & 0 & 1 \\
+        3x & 2y & z \\
+        3 & 4 & 3
+    \end{vmatrix}.$$</li>
+    <li>$$\begin{vmatrix}
+        1 & 2 & 3 \\
+        x+2 & y+4 & z+6 \\
+        -1 & 0 & -1
+    \end{vmatrix}.$$</li>
+</ol>
