@@ -132,15 +132,18 @@ Pestañas
 ********************/
 
 .contenedor-grupos {
+    --shadow-color: hsla(0, 0%, 40%, 0.3);
+    --shadow-margin: 30px;
+    --shadow-width: 10px;
     display: flex;
     flex-direction: row;
     max-width: 100%;
     overflow-x: auto;
     background:
-        linear-gradient(to right, var(--background-color) 30%, transparent) left / 30px 100% local,
-        linear-gradient(to left, var(--background-color) 70%, transparent) right / 30px 100% local,
-        radial-gradient(farthest-side at 0, var(--border-color), transparent) left / 15px 100% scroll,
-        radial-gradient(farthest-side at 100%, var(--border-color), transparent) right / 15px 100% scroll;
+        linear-gradient(to right, var(--background-color) 30%, transparent) left / var(--shadow-margin) 100% local,
+        linear-gradient(to left, var(--background-color) 70%, transparent) right / var(--shadow-margin) 100% local,
+        radial-gradient(farthest-side at 0, var(--shadow-color), transparent) left / var(--shadow-width) 100% scroll,
+        radial-gradient(farthest-side at 100%, var(--shadow-color), transparent) right / var(--shadow-width) 100% scroll;
     background-repeat: no-repeat;
 }
 
