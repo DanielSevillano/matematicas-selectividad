@@ -1,0 +1,7 @@
+Considera el recinto limitado por las siguientes curvas:
+$$y = x^2, \quad y = 2-x^2, \quad y = 4.$$
+
+<ol>
+    <li>Haz un esbozo del recinto y calcula los puntos de corte de las curvas.</li>
+    <li>Calcula el área del recinto.</li>
+</ol>

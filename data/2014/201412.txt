@@ -1,0 +1,5 @@
+Determina una función derivable $f: \mathbb{R} \to \mathbb{R}$ sabiendo que $f(1) = -1$ y que
+$$f'(x) = \begin{cases}
+    x^2 - 2x, & \text{si } x < 0, \\
+    e^x - 1, & \text{si } x \geq 0.
+\end{cases}$$

@@ -1,0 +1,10 @@
+Considera la función derivable $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \begin{cases}
+    \dfrac{e^x - e^{-x}}{2x}, & \text{si } x < 0, \\
+    ax + b, & \text{si } x \geq 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcula $a$ y $b.$</li>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = -1.$</li>
+</ol>

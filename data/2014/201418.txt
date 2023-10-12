@@ -1,0 +1,12 @@
+Sea $r$ la recta dada por
+$$\frac{x+2}{2} = y+1 = \frac{z-1}{-3}$$
+y sea $s$ la recta dada por
+$$\begin{cases}
+    x - y - 3 = 0, \\
+    3y - z + 6 = 0.
+\end{cases}$$
+
+<ol>
+    <li>Estudia la posición relativa de $r$ y $s.$</li>
+    <li>Halla la ecuación general del plano que contiene a $r$ y es paralelo a $s.$</li>
+</ol>

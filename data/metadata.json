@@ -3329,6 +3329,73 @@
         ]
     },
     {
+        "ejercicio": 201411,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones",
+            "Límites"
+        ]
+    },
+    {
+        "ejercicio": 201412,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 201413,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices",
+            "Determinantes"
+        ]
+    },
+    {
+        "ejercicio": 201414,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Vectores"
+        ]
+    },
+    {
+        "ejercicio": 201415,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 201416,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201417,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201418,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Lugares geométricos"
+        ]
+    },
+    {
         "ejercicio": 201451,
         "resuelto": false,
         "categorias": [
