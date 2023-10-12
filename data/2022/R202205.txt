@@ -20,7 +20,7 @@
         m = -1, \\
         m = 1.
     \end{cases}$$
-    Es decir, $\mathrm{rang}(A) = 2$ si y solo si $m = -1$ o $m = 1$.
+    Es decir, $\mathrm{rang}(A) = 2$ si y solo si $m = -1$ o $m = 1.$
     En otro caso, $\mathrm{rang}(A) = 3.$
 
     Por tanto,

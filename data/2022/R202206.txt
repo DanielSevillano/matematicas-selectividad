@@ -1,5 +1,5 @@
 <ol>
-    <li>Calculamos en primer lugar el determinante de la matriz $A$.
+    <li>Calculamos en primer lugar el determinante de la matriz $A.$
     $$|A| = \begin{vmatrix}
         m & \sqrt{m} & \sqrt{m} \\
         \sqrt{m} & m & 1 \\
