@@ -132,19 +132,10 @@ Pestañas
 ********************/
 
 .contenedor-grupos {
-    --shadow-color: hsla(0, 0%, 40%, 0.3);
-    --shadow-margin: 30px;
-    --shadow-width: 10px;
     display: flex;
     flex-direction: row;
     max-width: 100%;
     overflow-x: auto;
-    background:
-        linear-gradient(to right, var(--background-color) 30%, transparent) left / var(--shadow-margin) 100% local,
-        linear-gradient(to left, var(--background-color) 70%, transparent) right / var(--shadow-margin) 100% local,
-        radial-gradient(farthest-side at 0, var(--shadow-color), transparent) left / var(--shadow-width) 100% scroll,
-        radial-gradient(farthest-side at 100%, var(--shadow-color), transparent) right / var(--shadow-width) 100% scroll;
-    background-repeat: no-repeat;
 }
 
 .grupo {
@@ -248,6 +239,24 @@ button.cargando::after {
     height: 2px;
     background-color: var(--accent-color);
     border-radius: 10px;
+}
+
+/********************
+Sombras de desplazamiento
+********************/
+
+.contenedor-grupos,
+mjx-container {
+    --shadow-color: hsla(0, 0%, 50%, 0.4);
+    --shadow-margin: 40px;
+    --shadow-width: 10px;
+
+    background:
+        linear-gradient(to right, var(--background-color) 30%, transparent) left / var(--shadow-margin) 100% local,
+        linear-gradient(to left, var(--background-color) 70%, transparent) right / var(--shadow-margin) 100% local,
+        radial-gradient(farthest-side at 0, var(--shadow-color), transparent) left / var(--shadow-width) 100% scroll,
+        radial-gradient(farthest-side at 100%, var(--shadow-color), transparent) right / var(--shadow-width) 100% scroll;
+    background-repeat: no-repeat;
 }
 
 /********************
