@@ -310,7 +310,7 @@ Adaptabilidad
 }
 
 @media (prefers-color-scheme: dark) {
-    body>header svg {
+    .github img {
         filter: invert(1);
     }
 
