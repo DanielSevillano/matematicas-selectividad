@@ -1,0 +1,6 @@
+Sea $f$ la función definida por $f(x) = \frac{1}{2x} + \ln(x)$ para $x > 0.$
+
+<ol>
+    <li>Determina el punto de la gráfica de $f$ en el que la pendiente de la recta tangente es máxima.</li>
+    <li>Halla la ecuación de la recta normal a la gráfica de $f$ en el punto de abscisa $x = 1.$</li>
+</ol>

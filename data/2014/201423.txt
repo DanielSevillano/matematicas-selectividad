@@ -1,0 +1,12 @@
+Considera el siguiente sistema de ecuaciones lineales:
+$$\begin{cases}
+    x + (m+1)y + 2z = -1, \\
+    mx + y + z = m, \\
+    (1-m)x + 2y + z = -m-1.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores del parámetro $m.$</li>
+    <li>Resuélvelo para $m = 2$.
+    Para dicho valor de $m$, calcula, si es posible, una solución en la que $z = 2.$</li>
+</ol>

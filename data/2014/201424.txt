@@ -1,0 +1,8 @@
+Considera los vectores $\vec{u} = (1, -1, 0)$, $\vec{v} = (0, 1, 2)$ y $\vec{w} = (1+\alpha, 2\alpha, 2-3\alpha).$
+Halla los valores de $\alpha$ en cada uno de los siguientes casos.
+
+<ol>
+    <li>$\vec{u}$, $\vec{v}$ y $\vec{w}$ están en el mismo plano.</li>
+    <li>$\vec{w}$ es perpendicular a $\vec{u}$ y $\vec{v}.$</li>
+    <li>El volumen del tetraedro que tiene por aristas a los vectores $\vec{u}$, $\vec{v}$ y $\vec{w}$ es $\frac{1}{6}.$</li>
+</ol>

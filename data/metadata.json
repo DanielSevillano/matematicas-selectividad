@@ -3396,6 +3396,72 @@
         ]
     },
     {
+        "ejercicio": 201421,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 201422,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201423,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201424,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Vectores"
+        ]
+    },
+    {
+        "ejercicio": 201425,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones",
+            "Límites"
+        ]
+    },
+    {
+        "ejercicio": 201426,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201427,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201428,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
         "ejercicio": 201451,
         "resuelto": false,
         "categorias": [

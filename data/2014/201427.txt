@@ -1,0 +1,14 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1+m & 1 \\
+    1 & 1-m
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & -1 \\
+    1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>¿Para qué valores de $m$ se verifica que $A^2 = 2A + I?$</li>
+    <li>Para $m = 1$, calcula $A^{-1}$ y la matriz $X$ que satisface $AX - B = AB.$</li>
+</ol>

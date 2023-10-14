@@ -1,0 +1,7 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = -x^2 + 2x + 3.$
+
+<ol>
+    <li>Calcula la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 2.$</li>
+    <li>Esboza el recinto limitado por la gráfica de $f$, la recta $2x + y - 7 = 0$ y el eje OX, calculando los puntos de corte.</li>
+    <li>Halla el área del recinto descrito en el apartado anterior.</li>
+</ol>
