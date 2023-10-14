@@ -20,8 +20,9 @@ El diseño está inspirado en [Fluent Design](https://fluent2.microsoft.design),
 ### Reportar errores
 Para reportar un error, crea una [propuesta](https://github.com/DanielSevillano/matematicas-selectividad/issues).
 
-- ✒️ Erratas en los ejercicios.
-- ❌ Categorías incorrectas.
+- ✒️ Erratas en los ejercicios y las resoluciones.
+- ❌ Errores en las resoluciones.
+- 🏷️ Categorías incorrectas.
 
 ### Proponer nuevas ideas
 Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/matematicas-selectividad/issues).
