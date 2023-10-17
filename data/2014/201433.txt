@@ -1,0 +1,12 @@
+Considera el siguiente sistema de ecuaciones con incógnitas $x$, $y$, $z.$
+$$\begin{cases}
+    \lambda y + (\lambda + 1)z = \lambda, \\
+    \lambda x + z = \lambda, \\
+    x + \lambda z = \lambda.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores del parámetro $\lambda.$</li>
+    <li>Resuelve el sistema para $\lambda = 1.$</li>
+    <li>Para $\lambda = 0$, si es posible, da tres soluciones distintas.</li>
+</ol>

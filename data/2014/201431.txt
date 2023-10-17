@@ -1,0 +1,2 @@
+Calcula
+$$\lim_{x \to 0} \frac{\mathrm{tg}(x) - \mathrm{sen}(x)}{x - \mathrm{sen}(x)}.$$

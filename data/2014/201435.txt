@@ -1,0 +1,7 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^2e^{-x^2}.$
+
+<ol>
+    <li>Estudia y determina las asíntotas de la gráfica de $f.$</li>
+    <li>Halla los intervalos de crecimiento y de decrecimiento y los extremos relativos (abscisas donde se obtienen y valores que se alcanzan).</li>
+    <li>Esboza la gráfica de $f.$</li>
+</ol>

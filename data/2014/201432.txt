@@ -1,0 +1,6 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = x^3 - 3x^2 - x + 3.$
+
+<ol>
+    <li>Halla, si existe, el punto de la gráfica de $f$ en el que la recta tangente es $y = 3-x.$</li>
+    <li>Calcula el área del recinto limitado por la gráfica de $f$ y la recta del apartado anterior.</li>
+</ol>

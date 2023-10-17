@@ -1,0 +1,7 @@
+Sean $A(-3, 4, 0)$, $B(3, 6, 3)$ y $C(-1, 2, 1)$ los vértices de un triángulo.
+
+<ol>
+    <li>Halla la ecuación del plano $\pi$ que contiene al triángulo.</li>
+    <li>Halla la ecuación de la recta perpendicular a $\pi$ que pasa por el origen de coordenadas.</li>
+    <li>Calcula el área del triángulo $ABC.$</li>
+</ol>
