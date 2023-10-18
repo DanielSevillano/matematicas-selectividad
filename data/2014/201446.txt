@@ -1,0 +1,6 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = e^x\cos(x).$
+
+<ol>
+    <li>Calcula la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0.$</li>
+    <li>Calcula la primitiva de $f$ cuya gráfica pasa por el punto $(0, 0).$</li>
+</ol>

@@ -1,0 +1,21 @@
+Sabiendo que el determinante de la matriz
+$$A = \begin{pmatrix}
+    a & b & c \\
+    b & d & e \\
+    c & e & f
+\end{pmatrix}$$
+es 3, halla los siguientes determinantes indicando, en cada caso, las propiedades que utilices.
+
+<ol>
+    <li>$\det(A^3)$, $\det(A^{-1})$ y $\det(A + A^t).$</li>
+    <li>$$\det\begin{pmatrix}
+        a & b & c \\
+        c & e & f \\
+        2b & 2d & 2e
+    \end{pmatrix}.$$</li>
+    <li>$$\det\begin{pmatrix}
+        a & b & 4a-c \\
+        b & d & 4b-e \\
+        c & e & 4c-f
+    \end{pmatrix}.$$</li>
+</ol>

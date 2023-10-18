@@ -1,0 +1,10 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función derivable definida por
+$$f(x) = \begin{cases}
+    a-x, & \text{si } x \leq 1, \\
+    \dfrac{b}{x} + \ln(x), & \text{si } x > 1.
+\end{cases}$$
+
+<ol>
+    <li>Calcula $a$ y $b.$</li>
+    <li>Para $a = 3$ y $b = 2$ calcula los extremos absolutos de $f$ en el intervalo $[0, e]$ (abscisas donde se obtienen y valores que se alcanzan).</li>
+</ol>

@@ -1,0 +1,8 @@
+Considera el plano $\pi$ de ecuación $2x + y - z + 2 = 0$, y la recta $r$ de ecuación
+$$\frac{x-5}{-2} = y = \frac{z-6}{-3}.$$
+
+<ol>
+    <li>Determina la posición relativa de $\pi$ y $r.$</li>
+    <li>Halla la ecuación general del plano que contiene a $r$ y es perpendicular a $\pi.$</li>
+    <li>Halla las ecuaciones paramétricas del plano paralelo a $\pi$ que contiene a $r.$</li>
+</ol>
