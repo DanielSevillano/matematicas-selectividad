@@ -12,5 +12,5 @@ B = \begin{pmatrix}
 
 <ol>
     <li>Calcula los valores de $m$ para los cuales $A$ tiene inversa.</li>
-    <li>Para $m = 2$, encuentra la matriz $X$ que cumple $AX - BB^t = I$, siendo $B^t$ la matriz traspuesta de $B$ e $I$ la matriz identidad de orden 3.</li>
+    <li>Para $m = 2$, encuentra la matriz $X$ que cumple $AX - BB^t = I$, siendo $I$ la matriz identidad de orden 3.</li>
 </ol>

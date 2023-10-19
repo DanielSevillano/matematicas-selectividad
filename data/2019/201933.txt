@@ -4,4 +4,4 @@ $$A = \begin{pmatrix}
     4 & 2 & 2 \\
     3 & 2 & 1
 \end{pmatrix},$$
-halla la matriz $X$ que cumple $AX = (A^{-1}A^t + I)^2$, siendo $A^t$ la matriz traspuesta de $A$ e $I$ la matriz identidad de orden 3.
+halla la matriz $X$ que cumple $AX = (A^{-1}A^t + I)^2$, siendo $I$ la matriz identidad de orden 3.

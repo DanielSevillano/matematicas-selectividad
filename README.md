@@ -38,7 +38,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [x] Julio
 - [x] 2014 a 2022
 - [ ] 2013
-    - [ ] Junio
+    - [x] Junio
 
 ### Ejercicios resueltos
 - [ ] Julio de 2023

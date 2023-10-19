@@ -14,5 +14,5 @@ B = \begin{pmatrix}
     m \\
     1
 \end{pmatrix},$$
-considera el sistema de ecuaciones lineales dado por $X^tA = B^t$, donde $X^t$, $B^t$ denotan las traspuestas.
+considera el sistema de ecuaciones lineales dado por $X^tA = B^t.$
 Discútelo según los distintos valores de $m.$
