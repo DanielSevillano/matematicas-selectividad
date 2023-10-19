@@ -1,0 +1,8 @@
+Sean $f: \mathbb{R} \to \mathbb{R}$ y $g: \mathbb{R} \to \mathbb{R}$ las funciones definidas mediante
+$$f(x) = |x(x-2)| \quad \text{y} \quad g(x) = x+4.$$
+
+<ol>
+    <li>Esboza las gráficas de $f$ y $g$ sobre los mismos ejes.
+    Calcula los puntos de corte entre ambas gráficas.</li>
+    <li>Calcula el área del recinto limitado por las gráficas de $f$ y $g.$</li>
+</ol>

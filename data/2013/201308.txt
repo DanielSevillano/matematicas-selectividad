@@ -1,0 +1,6 @@
+Considera los puntos $P(2, 3, 1)$ y $Q(0, 1, 1).$
+
+<ol>
+    <li>Halla la ecuación del plano $\pi$ respecto del cual $P$ y $Q$ son simétricos.</li>
+    <li>Calcula la distancia de $P$ a $\pi.$</li>
+</ol>

@@ -1,0 +1,2 @@
+Sea $g: \mathbb{R} \to \mathbb{R}$ la función definida por $g(x) = \ln(x^2+1).$
+Calcula la primitiva de $g$ cuya gráfica pasa por el origen de coordenadas.
