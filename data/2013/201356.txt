@@ -1,0 +1,7 @@
+Sea $g: \mathbb{R} \to \mathbb{R}$ la función definida por $g(x) = -x^2 + 6x - 5.$
+
+<ol>
+    <li>Halla la ecuación de la recta normal a la gráfica de $g$ en el punto de abscisa $x = 4.$</li>
+    <li>Esboza el recinto limitado por la gráfica de $g$ y la recta $x - 2y + 2 = 0.$
+    Calcula el área de este recinto.</li>
+</ol>

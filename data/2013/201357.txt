@@ -1,0 +1,12 @@
+Considera el siguiente sistema de ecuaciones lineales:
+$$\begin{cases}
+    2x - 4y + 6z = 6, \\
+    my + 2z = m+1, \\
+    -3x + 6y - 3mz = -9.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores del parámetro $m.$</li>
+    <li>Resuélvelo para $m = 3.$
+    Para dicho valor de $m$, calcula, si es posible, una solución en la que $y = 0.$</li>
+</ol>

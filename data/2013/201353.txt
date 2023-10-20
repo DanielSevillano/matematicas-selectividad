@@ -1,0 +1,17 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & 0 & 1 \\
+    1 & 1 & 0 \\
+    0 & 0 & 2
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    -1 & 1 & 1 \\
+    1 & -1 & 1 \\
+    0 & 0 & -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halla, si es posible, $A^{-1}$ y $B^{-1}.$</li>
+    <li>Halla el determinante de $AB^{2013}A^t.$</li>
+    <li>Calcula la matriz $X$ que satisface $AX - B = AB.$</li>
+</ol>

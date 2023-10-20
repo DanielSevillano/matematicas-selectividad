@@ -1,0 +1,7 @@
+Sea $f: (0, +\infty) \to \mathbb{R}$ la función definida por
+$$f(x) = \frac{2\ln(x)}{x^2}.$$
+
+<ol>
+    <li>Determina los intervalos de crecimiento y de decrecimiento y los extremos relativos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
+    <li>Estudia y determina las asíntotas de la gráfica de $f.$</li>
+</ol>

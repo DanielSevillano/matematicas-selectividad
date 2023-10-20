@@ -1,0 +1,3 @@
+Un alambre de 10 metros de longitud se divide en dos trozos.
+Con uno de ellos se forma un triángulo equilátero y con el otro un cuadrado.
+Halla la longitud de dichos trozos para que la suma de las áreas sea mínima.

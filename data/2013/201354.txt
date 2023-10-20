@@ -1,0 +1,6 @@
+Considera el plano $\pi$ de ecuación $2x + y + 3z - 6 = 0.$
+
+<ol>
+    <li>Calcula el área del triángulo cuyos vértices son los puntos de corte del plano $\pi$ con los ejes coordenados.</li>
+    <li>Calcula el volumen del tetraedro determinado por el plano $\pi$ y los planos coordenados.</li>
+</ol>
