@@ -1,5 +1,5 @@
-Emn una cafetería, tres cafés, una tostada y dos zumos de naranja cuestan 7.50 €.
-Cuatro cafés, una tostada y un zumo de naranja cuestan 7.20 €.
+En una cafetería, tres cafés, una tostada y dos zumos de naranja cuestan 7,50 €.
+Cuatro cafés, una tostada y un zumo de naranja cuestan 7,20 €.
 
 <ol>
     <li>Calcula, de forma razonada, el precio total de dos cafés, una tostada y tres zumos de naranja.</li>
