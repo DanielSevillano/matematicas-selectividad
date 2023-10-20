@@ -261,7 +261,7 @@ mjx-container {
 }
 
 details mjx-container {
-    --parent-color: var(--container-color);
+    --parent-color: var(--container-color-alt);
 }
 
 /********************
