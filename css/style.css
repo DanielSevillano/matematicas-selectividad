@@ -207,29 +207,6 @@ details ol {
 Progreso
 ********************/
 
-main.cargando::after {
-    content: "";
-    display: block;
-    margin-top: 40px;
-    margin-inline: auto;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: 3px solid var(--accent-color);
-    border-top-color: transparent;
-    animation: carga 800ms linear infinite;
-}
-
-@keyframes carga {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 button.cargando::after {
     content: "";
     position: absolute;
