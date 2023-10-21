@@ -279,7 +279,7 @@ details[open] summary::after {
 Progreso
 ********************/
 
-article.cargando::after,
+main.cargando::after,
 section.cargando::after {
     content: "";
     display: block;
