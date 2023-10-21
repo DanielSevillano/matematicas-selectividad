@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+    <title>Temario — Matemáticas de Selectividad</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/core.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/temario.js"></script>
+    <script src="js/config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        h2,
+        h3,
+        h4 {
+            margin-bottom: 0;
+        }
+
+        h2+p,
+        h3+p,
+        h4+p {
+            margin-top: 5px;
+        }
+
+        main li {
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h1>
+                <img src="img/favicon.png" alt="Icono" width="25px" height="25px">
+                Matemáticas de Selectividad
+            </h1>
+        </a>
+
+        <nav id="navegacion-global">
+            <ul>
+                <li><a href="/examenes.html">Exámenes</a></li>
+                <li><a href="/ejercicios.html">Ejercicios</a></li>
+            </ul>
+        </nav>
+
+        <a class="github" href="https://github.com/DanielSevillano/matematicas-selectividad" title="GitHub"
+            target="_blank">
+            <img src="img/icono-github.svg" alt="GitHub">
+        </a>
+    </header>
+
+    <nav id="navegacion-local">
+        <h2>📘 Temario</h2>
+
+        <div class="contenedor-grupos">
+            <button id="grupo-algebra" class="grupo">Álgebra</button>
+            <button id="grupo-analisis" class="grupo" disabled="true">Análisis</button>
+            <button id="grupo-geometria" class="grupo" disabled="true">Geometría</button>
+        </div>
+
+        <div class="contenido-grupo">
+            <button id="boton-algebra" class="contorno">Introducción</button>
+            <button id="boton-matrices" class="contorno">Matrices</button>
+            <button id="boton-determinantes" class="contorno">Determinantes</button>
+            <button id="boton-sistemas" class="contorno" disabled="true">Sistemas</button>
+        </div>
+
+        <!--
+        <div class="contenido-grupo">
+            <button id="boton-funciones" class="contorno" disabled="true">Funciones</button>
+            <button id="boton-optimizacion" class="contorno" disabled="true">Optimización</button>
+            <button id="boton-integrales" class="contorno" disabled="true">Integrales</button>
+        </div>
+
+        <div class="contenido-grupo">
+            <button id="boton-vectores" class="contorno" disabled="true">Vectores</button>
+            <button id="boton-lugares-geometricos" class="contorno" disabled="true">Lugares geométricos</button>
+            <button id="boton-problemas-metricos" class="contorno" disabled="true">Problemas métricos</button>
+        </div> -->
+    </nav>
+
+    <main>
+        <p>Selecciona una sección para abrirla.</p>
+    </main>
+</body>
+
+</html>

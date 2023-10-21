@@ -1,4 +1,4 @@
-export { estado, formatear, obtenerEjercicio, mostrarExamen, mostrarCategoria }
+export { estado, formatear, obtenerEjercicio, mostrarExamen, mostrarCategoria, mostrarTemario }
 
 const estado = new Object({
     cancelado: false,
@@ -211,5 +211,29 @@ async function mostrarCategoria(categoria) {
     obtenerCategoria(categoria).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
+    });
+}
+
+async function obtenerTemario(seccion) {
+    const main = document.querySelector("main");
+
+    const respuesta = await fetch("data\\temario\\" + seccion + ".txt");
+    const datos = await respuesta.text();
+
+    const articulo = document.createElement("article");
+    articulo.innerHTML = datos;
+    main.append(articulo);
+    formatear(articulo);
+
+    return true;
+}
+
+async function mostrarTemario(seccion) {
+    const main = document.querySelector("main");
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    obtenerTemario(seccion).then(() => {
+        main.classList.remove("cargando");
     });
 }

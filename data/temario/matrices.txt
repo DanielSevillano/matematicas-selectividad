@@ -1,0 +1,623 @@
+<h2>Matrices</h2>
+
+<p>
+    Una <b>matriz</b> es un conjunto de números organizados en filas y columnas.
+    Por ejemplo:
+    $$A = \begin{pmatrix}
+        1 & 2 & -5 \\
+        -4 & 0 & 1
+    \end{pmatrix}.$$
+
+    Cada uno de los números que forman una matriz es un <b>elemento</b>.
+    En este caso, 1, 2 y -5 son algunos de los elementos de la matriz $A$.
+</p>
+
+<p>
+    Se dice que una matriz es de dimensión $m \times n$ cuando tiene $m$ filas y $n$ columnas.
+    La matriz $A$ es de dimensión $2 \times 3$, porque tiene 2 filas y 3 columnas.
+    Además, el elemento que está situado en la fila $i$ y columna $j$ se denota por $a_{ij}$.
+    Por ejemplo, $a_{13} = 5$ y $a_{22} = 0$.
+</p>
+
+<p>
+    En general, una matriz de tamaño $m \times n$ es de la forma
+    $$A_{m \times n} = \begin{pmatrix}
+        a_{11} & a_{12} & \dots & a_{1n} \\
+        a_{21} & a_{22} & \dots & a_{2n} \\
+        \vdots & \vdots & \ddots & \vdots \\
+        a_{m1} & a_{m2} & \dots & a_{mn}
+    \end{pmatrix}.$$
+</p>
+
+<p>
+    Se llama <b>matriz traspuesta</b> a la matriz que se obtiene al cambiar las filas por columnas y las columnas por filas.
+    Por ejemplo, la matriz traspuesta de $A$ se denota por $A^t$ y queda como
+    $$A^t = \begin{pmatrix}
+        1 & -4 \\
+        2 & 0 \\
+        -5 & 1
+    \end{pmatrix}.$$
+
+    En general, la traspuesta de una matriz $A_{m \times n}$ es una matriz $B_{n \times m}$ tal que $b_{ij} = a_{ji}$.
+</p>
+
+<h3>Tipos de matrices</h3>
+<p>Podemos clasificar las matrices según el número de filas y columnas.</p>
+<ul>
+    <li>
+        Una matriz es <b>cuadrada</b> si tiene el mismo número de filas y columnas.
+        Por ejemplo:
+        $$\begin{pmatrix}
+            1 & 2 \\
+            0 & -3
+        \end{pmatrix} \quad \text{y} \quad
+        \begin{pmatrix}
+            5 & -8 & 0 \\
+            1 & 3 & -2 \\
+            10 & 0 & 4
+        \end{pmatrix}.$$
+
+        Una matriz cuadrada de dimensión $n \times n$ se dice que es de orden $n$.
+        En este caso, la primera matriz es de orden 2 y la segunda de orden 3.
+    </li>
+
+    <li>
+        Una <b>matriz fila</b> es una matriz con una sola fila.
+        Por ejemplo:
+        $$\begin{pmatrix}
+            1 & 0 & -3
+        \end{pmatrix} \quad \text{y} \quad
+        \begin{pmatrix}
+            5 & -8 & 3 & -1 & 0
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Una <b>matriz columna</b> es una matriz con una sola columna.
+        Por ejemplo:
+        $$\begin{pmatrix}
+            1 \\
+            0 \\
+            -3
+        \end{pmatrix} \quad \text{y} \quad
+        \begin{pmatrix}
+            5 \\
+            -8 \\
+            3 \\
+            -1
+        \end{pmatrix}.$$
+    </li>
+</ul>
+
+<p>
+    Los elementos de las matrices cuadradas de la forma $a_{ii}$ forman la diagonal principal.
+    Por ejemplo, la diagonal principal de la matriz
+    $$A = \begin{pmatrix}
+        1 & 0 & -3 \\
+        4 & 8 & 1 \\
+        0 & -2 & 5
+    \end{pmatrix}$$
+    está formada por los elementos $a_{11} = 1$, $a_{22} = 8$ y $a_{33} = 5$.<br>
+
+    Podemos distringuir los siguientes tipos de matrices.
+</p>
+<ul>
+    <li>Una matriz es <b>triangular superior</b> si son nulos todos los elementos situados debajo de la diagonal principal.
+        Por ejemplo:
+        $$\begin{pmatrix}
+            1 & 2 & -4 \\
+            0 & 5 & -3 \\
+            0 & 0 & 7
+        \end{pmatrix} \quad \text{y} \quad
+        \begin{pmatrix}
+            2 & 0 & 3 \\
+            0 & -8 & 5 \\
+            0 & 0 & 0
+        \end{pmatrix}.$$
+
+        De igual forma, una matriz es <b>triangular inferior</b> si son nulos todos los elementos situados encima de la diagonal principal.
+        Por ejemplo:
+        $$\begin{pmatrix}
+            1 & 0 & 0 \\
+            2 & 5 & 0 \\
+            -4 & -3 & 7
+        \end{pmatrix} \quad \text{y} \quad
+        \begin{pmatrix}
+            2 & 0 & 0 \\
+            0 & -8 & 0 \\
+            3 & 5 & 0
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Una matriz es <b>diagonal</b> si son nulos todos los elementos que no pertenecen a la diagonal principal.
+        Por ejemplo:
+        $$\begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & -3 & 0 \\
+            0 & 0 & -7
+        \end{pmatrix} \quad \text{y} \quad
+        \begin{pmatrix}
+            2 & 0 & 0 \\
+            0 & 0 & 0 \\
+            0 & 0 & -4
+        \end{pmatrix}.$$
+    </li>
+</ul>
+
+<p>Hay dos matrices cuadradas que destacan por su contenido.</p>
+<ul>
+    <li>La <b>matriz identidad</b> es una matriz cuyos elementos de la diagonal principal son todos 1.
+        Por ejemplo:
+        $$I_2 = \begin{pmatrix}
+            1 & 0 \\
+            0 & 1
+        \end{pmatrix} \quad \text{y} \quad
+        I_3 = \begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}.$$
+
+        En general, si es de orden $n$ se suele denotar por $I_n$.
+        Si no hay confusión con el orden, se suele escribir simplemente como $I$.
+    </li>
+
+    <li>
+        La <b>matriz nula</b> es una matriz cuyos elementos son todos nulos.
+        Por ejemplo:
+        $$\begin{pmatrix}
+            0 & 0 & 0 \\
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{pmatrix}.$$
+    </li>
+</ul>
+
+<p>
+    Además, una matriz cuadrada es simétrica si es igual a su traspuesta.
+    Por ejemplo:
+    $$\begin{pmatrix}
+        1 & -2 \\
+        -2 & 8
+    \end{pmatrix} \quad \text{y} \quad
+    \begin{pmatrix}
+        0 & -3 & 1 \\
+        -3 & 5 & 7 \\
+        1 & 7 & 2
+    \end{pmatrix}.$$
+</p>
+
+<h3>Operaciones con matrices</h3>
+Con las matrices podemos hacer las siguientes operaciones fundamentales.
+<ul>
+    <li>
+        <b>Suma de matrices.</b>
+        Dadas dos matrices $A$ y $B$ de la misma dimensión, la suma es una matriz de igual dimensión formada por la suma de los elementos de $A$ y $B$ que ocupan la misma posición.
+        Por ejemplo:
+        $$\begin{pmatrix}
+            7 & 0 & 1 \\
+            -2 & 3 & -2 \\
+            5 & 1 & 9
+        \end{pmatrix} +
+        \begin{pmatrix}
+            0 & 2 & -1 \\
+            5 & 7 & 2 \\
+            -3 & 1 & -6
+        \end{pmatrix} =
+        \begin{pmatrix}
+            7+0 & 0+2 & 1-1 \\
+            -2+5 & 3+7 & -2+2 \\
+            5-3 & 1+1 & 9-6
+        \end{pmatrix} =
+        \begin{pmatrix}
+            7 & 2 & 0 \\
+            3 & 10 & 0 \\
+            2 & 2 & 3
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Producto por un escalar.</b>
+        Dada una matriz $A$ y un número real $\lambda$, el producto es una matriz que se obtiene multiplicando cada elemento de $A$ por $\lambda$.
+        Por ejemplo:
+        $$3\begin{pmatrix}
+            0 & 2 & -1 \\
+            5 & 7 & 2 \\
+            -3 & 1 & -6
+        \end{pmatrix} =
+        \begin{pmatrix}
+            3 \cdot 0 & 3 \cdot 2 & 3 \cdot (-1) \\
+            3 \cdot 5 & 3 \cdot 7 & 3 \cdot 2 \\
+            3 \cdot (-3) & 3 \cdot 1 & 3 \cdot (-6)
+        \end{pmatrix} =
+        \begin{pmatrix}
+            0 & 6 & -3 \\
+            15 & 21 & 6 \\
+            -9 & 3 & -18
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Producto de matrices.</b>
+        Dadas dos matrices $A_{m \times n}$ y $B_{r \times s}$ con $n = r$, el producto es una matriz $P$ de dimensión $m \times s$ cuyos elementos se calculan mediante el producto escalar de la fila de $A$ y la columna de $B$ correspondientes.
+        Por ejemplo, el elemento $p_{12}$ se obtiene multiplicando escalarmente la fila 1 de $A$ y la columna 2 de $B$.
+        En general,
+        $$p_{ij} = a_{i1}b_{1j} + a_{i2}b_{2j} + \dots + a_{in}b_{nj}.$$
+        Por ejemplo:
+        $$\begin{pmatrix}
+            7 & 0 \\
+            -2 & 3 \\
+            5 & 1
+        \end{pmatrix} \cdot
+        \begin{pmatrix}
+            0 & 2 & -1 \\
+            5 & 7 & 2 \\
+        \end{pmatrix} =
+        \begin{pmatrix}
+            7 \cdot 0 + 0 \cdot 5 & 7 \cdot 2 + 0 \cdot 7 & 0 \cdot (-1) + 0 \cdot 2 \\
+            -2 \cdot 0 + 3 \cdot 5 & -2 \cdot 2 + 3 \cdot 7 & -2 \cdot (-1) + 3 \cdot 2 \\
+            5 \cdot 0 + 1 \cdot 5 & 5 \cdot 2 + 1 \cdot 7 & 5 \cdot (-1) + 1 \cdot 2
+        \end{pmatrix} =
+        \begin{pmatrix}
+            0 & 14 & 0 \\
+            15 & 17 & 8 \\
+            5 & 17 & -3
+        \end{pmatrix}.$$
+
+        El producto de matrices, a diferencia del resto de operaciones, no es conmutativo.
+        Por ejemplo:
+        \begin{align*}
+            & \begin{pmatrix}
+                2 & 0 \\
+                1 & -3
+            \end{pmatrix} \cdot
+            \begin{pmatrix}
+                4 & -1 \\
+                5 & 0
+            \end{pmatrix} =
+            \begin{pmatrix}
+                2 \cdot 4 + 0 \cdot 5 & 2 \cdot (-1) + 0 \cdot 0 \\
+                1 \cdot 4 - 3 \cdot 5 & 1 \cdot (-1) - 3 \cdot 0
+            \end{pmatrix} =
+            \begin{pmatrix}
+                8 & -2 \\
+                -11 & -1
+            \end{pmatrix}, \\
+            & \begin{pmatrix}
+                4 & -1 \\
+                5 & 0
+            \end{pmatrix} \cdot
+            \begin{pmatrix}
+                2 & 0 \\
+                1 & -3
+            \end{pmatrix} =
+            \begin{pmatrix}
+                4 \cdot 2 - 1 \cdot 1 & 4 \cdot 0 - 1 \cdot (-3) \\
+                5 \cdot 2 + 0 \cdot 2 & 5 \cdot 0 + 0 \cdot (-3)
+            \end{pmatrix} =
+            \begin{pmatrix}
+                7 & 3 \\
+                10 & 0
+            \end{pmatrix}.
+        \end{align*}
+    </li>
+</ul>
+
+Tomando como base el producto de matrices, podemos definir las potencias.
+Dada una matriz cuadrada $A$, la potencia $A^n$ es el producto $A \cdot A \cdot \ldots \cdot A$, con $A$ multiplicado $n$ veces.
+Por ejemplo:
+\begin{align*}
+    & \begin{pmatrix}
+        1 & -2 & 3 \\
+        0 & -1 & 0 \\
+        2 & 5 & -3
+    \end{pmatrix}^2 =
+    \begin{pmatrix}
+        1 & -2 & 3 \\
+        0 & -1 & 0 \\
+        2 & 5 & -3
+    \end{pmatrix}
+    \begin{pmatrix}
+        1 & -2 & 3 \\
+        0 & -1 & 0 \\
+        2 & 5 & -3
+    \end{pmatrix} =
+    \begin{pmatrix}
+        7 & 15 & -6 \\
+        0 & 1 & 0 \\
+        -4 & -24 & 15
+    \end{pmatrix}, \\
+    & \begin{pmatrix}
+        1 & -2 & 3 \\
+        0 & -1 & 0 \\
+        2 & 5 & -3
+    \end{pmatrix}^3 =
+    \begin{pmatrix}
+        7 & 15 & -6 \\
+        0 & 1 & 0 \\
+        -4 & -24 & 15
+    \end{pmatrix}
+    \begin{pmatrix}
+        1 & -2 & 3 \\
+        0 & -1 & 0 \\
+        2 & 5 & -3
+    \end{pmatrix} =
+    \begin{pmatrix}
+        -5 & -59 & 39 \\
+        0 & -1 & 0 \\
+        26 & 107 & -57
+    \end{pmatrix}.
+\end{align*}
+
+<h3>Rango de matrices</h3>
+<p>
+    Una fila es <b>combinación lineal</b> de otras si se puede expresar como suma de esas filas, pudiendo estar cada una de ellas multiplicada por un número real.
+    Esto es igualmente válido para las columnas.
+    Por ejemplo, en la matriz
+    $$A = \begin{pmatrix}
+        1 & 2 & 3 \\
+        -2 & 5 & 1 \\
+        0 & 9 & 7
+    \end{pmatrix},$$
+    podemos ver que la tercera fila es combinación lineal de las dos primeras, puesto que $F_3 = 2F_1 + F_2$, donde $F_1$, $F_2$ y $F_3$ denotan a cada una de las filas.<br>
+    Se dice que una serie de filas (o columnas) son <b>linealmente independientes</b> si ninguna puede expresarse como combinación lineal de las demás.
+</p>
+
+<p>
+    El <b>rango</b> de una matriz es el número de filas o columnas linealmente independientes.
+    Por ejemplo, el rango de $A$ se denota por $\mathrm{rang}(A)$ y es 2, porque hemos visto que la tercera fila es combinación lineal de las dos primeras.
+</p>
+
+<p>
+    Hay una serie de transformaciones que conservan el rango de una matriz.
+    Estas son las siguientes.
+</p>
+
+<ul>
+    <li>
+        <b>Intercambiar dos filas de posición.</b>
+        Por ejemplo:
+        $$\mathrm{rang}\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \mathrm{rang}\begin{pmatrix}
+            -2 & 5 & 1 \\
+            1 & 2 & 3 \\
+            0 & 9 & 7
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Multiplicar una fila por un número no nulo.</b>
+        Por ejemplo:
+        $$\mathrm{rang}\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \mathrm{rang}\begin{pmatrix}
+            1 \cdot 4 & 2 \cdot 4 & 3 \cdot 4 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \mathrm{rang}\begin{pmatrix}
+            4 & 8 & 12 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Sumar a una fila una combinación lineal de otras filas.</b>
+        Por ejemplo, si a la tercera fila le sumamos $2F_1 - F_2$,
+        $$\mathrm{rang}\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 1 & 1
+        \end{pmatrix} =
+        \mathrm{rang}\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            4 & 0 & 6
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Eliminar una fila que es combinación lineal de otras filas.</b>
+        Por ejemplo, como vimos que la tercera fila era combinación lineal de las dos primeras,
+        $$\mathrm{rang}\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \mathrm{rang}\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Eliminar una fila de ceros.</b>
+        Por ejemplo:
+        $$\mathrm{rang}\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 0 & 0
+        \end{pmatrix} =
+        \mathrm{rang}\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Trasponer la matriz.</b>
+        Por ejemplo:
+        $$\mathrm{rang}\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \mathrm{rang}\begin{pmatrix}
+            1 & -2 & 0 \\
+            2 & 5 & 9 \\
+            3 & 1 & 7
+        \end{pmatrix}.$$
+    </li>
+</ul>
+
+<p>Se llaman <b>transformaciones elementales</b> y también conservan el rango si se hacen por columnas.</p>
+
+<p>
+    Se puede calcular el rango de una matriz mediante el <b>método de Gauss</b>, que consiste en realizar transformaciones elementales sucesivas hasta llegar a una matriz escalonada.<br>
+    Un ejemplo de una matriz escalonada es
+    $$\begin{pmatrix}
+        1 & 8 & -1 & 3 \\
+        0 & 1 & 3 & -2 \\
+        0 & 0 & 7 & -5
+    \end{pmatrix},$$
+    por la escalera de ceros que tiene en la esquina inferior izquierda.
+</p>
+
+
+<p>
+    El objetivo del método de Gauss es convertir elementos en cero en las posiciones indicadas para conseguir llegar a una forma escalonada.
+    Por ejemplo:
+    $$\begin{pmatrix}
+        1 & -1 & 1 & 3 \\
+        1 & -2 & 1 & 5 \\
+        1 & -3 & 1 & 7
+    \end{pmatrix} \xrightarrow[F_3 - F_1]{F_2 - F_1}
+    \begin{pmatrix}
+        1 & -1 & 1 & 3 \\
+        0 & -1 & 0 & 2 \\
+        0 & -2 & 0 & 4
+    \end{pmatrix} \xrightarrow{F_3 - 2F_2}
+    \begin{pmatrix}
+        1 & -1 & 1 & 3 \\
+        0 & -1 & 0 & 2 \\
+        0 & 0 & 0 & 0
+    \end{pmatrix} \rightarrow
+    \begin{pmatrix}
+        1 & -1 & 1 & 3 \\
+        0 & -1 & 0 & 2
+    \end{pmatrix}.$$
+    Por tanto, esta matriz tiene rango 2.
+</p>
+
+<h3>Inversa de una matriz</h3>
+<p>
+    Una matriz cuadrada $A$ es invertible si existe una matriz $B$ de igual dimensión de forma que $AB = I$.
+    En tal caso $B$ es la matriz inversa de $A$ y se denota $A^{-1}$.
+    Por ejemplo:
+    $$\begin{pmatrix}
+        0 & 0 & 1 \\
+        0 & -1 & 0 \\
+        2 & 0 & 0
+    \end{pmatrix}
+    \begin{pmatrix}
+        0 & 0 & \frac{1}{2} \\
+        0 & -1 & 0 \\
+        1 & 0 & 0
+    \end{pmatrix} =
+    \begin{pmatrix}
+        1 & 0 & 0 \\
+        0 & 1 & 0 \\
+        0 & 0 & 1
+    \end{pmatrix},$$
+    así que una matriz es la inversa de la otra.
+</p>
+
+<p>
+    Una matriz cuadrada es invertible si tiene rango máximo.
+    Si tiene orden $n$, esto es equivalente a que su rango sea $n$.
+    Por ejemplo, la matriz
+    $$A = \begin{pmatrix}
+        1 & 0 & -1 \\
+        0 & 1 & 0 \\
+        5 & 2 & -3
+    \end{pmatrix}$$
+    tiene rango 3, así que es invertible.
+</p>
+
+<p>
+    Se puede calcular la inversa de una matriz invertible mediante el método de Gauss-Jordan.
+    Este consiste en obtener la identidad a partir de la matriz original mediante transformaciones elementales.
+    Al principio se coloca una matriz identidad a la derecha de nuestra matriz y se le aplican las mismas transformaciones que a esta.
+    La matriz que resulta es la matriz inversa.<br>
+
+    Por ejemplo, hallemos la inversa de la matriz $A$.
+    Completamos esta matriz con la identidad a su derecha y aplicamos el método de Gauss-Jordan.
+    \begin{align*}
+        & \begin{pmatrix}
+            1 & 0 & -1 & 1 & 0 & 0 \\
+            0 & 1 & 0 & 0 & 1 & 0 \\
+            5 & 2 & -3 & 0 & 0 & 1
+        \end{pmatrix} \xrightarrow{F_3 - 5F_1}
+        \begin{pmatrix}
+            1 & 0 & -1 & 1 & 0 & 0 \\
+            0 & 1 & 0 & 0 & 1 & 0 \\
+            0 & 2 & 2 & -5 & 0 & 1
+        \end{pmatrix} \xrightarrow{F_3 - 2F_2}
+        \begin{pmatrix}
+            1 & 0 & -1 & 1 & 0 & 0 \\
+            0 & 1 & 0 & 0 & 1 & 0 \\
+            0 & 0 & 2 & -5 & -2 & 1
+        \end{pmatrix} \\
+        & \xrightarrow{F_3/2}
+        \begin{pmatrix}
+            1 & 0 & -1 & 1 & 0 & 0 \\
+            0 & 1 & 0 & 0 & 1 & 0 \\
+            0 & 0 & 1 & -5/2 & -1 & 1/2
+        \end{pmatrix} \xrightarrow{F_1 + F_3}
+        \begin{pmatrix}
+            1 & 0 & 0 & -3/2 & -1 & 1/2 \\
+            0 & 1 & 0 & 0 & 1 & 0 \\
+            0 & 0 & 1 & -5/2 & -1 & 1/2
+        \end{pmatrix}.
+    \end{align*}
+
+    Así que la matriz inversa de $A$ es
+    $$A^{-1} = \begin{pmatrix}
+        -3/2 & -1 & 1/2 \\
+        0 & 1 & 0 \\
+        -5/2 & -1 & 1/2
+    \end{pmatrix}.$$
+</p>
+
+<h3>Ecuaciones matriciales</h3>
+<p>En la resolución de ecuaciones matriciales se aplican la mayoría de los métodos usados en ecuaciones
+    polinómicas.
+</p>
+
+<ul>
+    <li>
+        Se puede sumar la misma matriz en los dos miembros.
+        Por ejemplo:
+        $$X - A = B \Leftrightarrow X - A + A = B + A \Leftrightarrow X = B + A.$$
+    </li>
+
+    <li>
+        Se puede multiplicar por un mismo número real no nulo en los dos miembros.
+        Por ejemplo:
+        $$2X = A \Leftrightarrow \frac{1}{2}2X = \frac{1}{2}A \Leftrightarrow X = \frac{1}{2}A.$$
+    </li>
+
+    <li>
+        Se puede multiplicar por una misma matriz en los dos miembros por el mismo lado.
+        Por ejemplo, si $A$ es invertible,
+        \begin{align*}
+        & AX = B \Leftrightarrow A^{-1}AX = A^{-1}B \Leftrightarrow X = A^{-1}B, \\
+        & XA = B \Leftrightarrow XAA^{-1} = BA^{-1} \Leftrightarrow X = BA^{-1}.
+        \end{align*}
+    </li>
+</ul>
+
+<p>
+    Todas estas herramientas se aplican de forma conjunta.
+    Por ejemplo:
+    $$A^2 - XA = I \Leftrightarrow XA = A^2 - I \Leftrightarrow XAA^{-1} = (A^2 - I)A^{-1} \Leftrightarrow X = A - A^{-1}.$$
+</p>
