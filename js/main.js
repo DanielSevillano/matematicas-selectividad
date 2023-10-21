@@ -2,7 +2,6 @@ import { formatear, obtenerEjercicio } from "./math.js";
 
 async function ejercicioDiario() {
     const contenedor = document.querySelector("#ejercicio-diario");
-    contenedor.classList.add("cargando");
 
     const fecha = new Date();
     const inicio = new Date(fecha.getFullYear(), 0, 1);
