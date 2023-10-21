@@ -256,9 +256,9 @@ Impresión
 
     body>header,
     nav,
-    article>ul,
     button,
-    details {
+    details,
+    .categorias {
         display: none;
     }
 }

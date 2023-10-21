@@ -71,7 +71,7 @@ main {
     box-sizing: border-box;
 }
 
-article>ul {
+.categorias {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
