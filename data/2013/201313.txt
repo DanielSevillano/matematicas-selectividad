@@ -1,0 +1,20 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    -1 & 1 & 0 \\
+    2 & 0 & 0 \\
+    1 & 0 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    0 & 2 & 1 \\
+    1 & 2 & 0
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 2 \\
+    -1 & 6
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halla $A^{-1}.$</li>
+    <li>Calcula la matriz $X$ que satisface $AX = B^tC.$</li>
+    <li>Halla el determinante de $A^{2013}B^tB(A^{-1})^{2013}.$</li>
+</ol>

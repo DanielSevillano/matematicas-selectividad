@@ -1,0 +1,21 @@
+Sabiendo que el determinante de una matriz
+$$A = \begin{pmatrix}
+    a & b & c \\
+    d & e & f \\
+    p & q & r
+\end{pmatrix}$$
+es 4, calcula los siguientes determinantes indicando, en cada caso, las propiedades que utilizas.
+
+<ol>
+    <li>$\det(-2A)$ y $\det(A^{-1}).$</li>
+    <li>$$\begin{vmatrix}
+        a & -b & c \\
+        2d & -2e & 2f \\
+        p & -q & r
+    \end{vmatrix} \quad \text{y} \quad
+    \begin{vmatrix}
+        -3d & -3e & -3f \\
+        a & b & c \\
+        -p & -q & -r
+    \end{vmatrix}.$$</li>
+</ol>

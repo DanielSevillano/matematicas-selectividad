@@ -1,0 +1,2 @@
+Calcula la distancia entre las rectas
+$$r \equiv x = y = z \quad \text{y} \quad s \equiv x-1 = y-2 = z-3.$$

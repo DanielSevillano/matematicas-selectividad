@@ -1,0 +1,13 @@
+Considera las rectas
+$$r \equiv x = y = z, \quad
+s \equiv \begin{cases}
+    x = 2, \\
+    y = 1
+\end{cases} \quad \text{y} \quad
+t \equiv \begin{cases}
+    x = 1 + 2\lambda, \\
+    y = 3\lambda, \\
+    z = -1 + \lambda.
+\end{cases}$$
+
+Halla la recta que corta a $r$ y a $s$ y es paralela a $t.$

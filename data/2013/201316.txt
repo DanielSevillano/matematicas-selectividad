@@ -1,0 +1,2 @@
+Calcula
+$$\int_2^4 \frac{x^2}{x^2 - 6x + 5}dx.$$

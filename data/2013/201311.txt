@@ -1,0 +1,8 @@
+Sea $g$ la función definida por
+$$g(x) = \frac{mx^3}{(x-n)^2}$$
+para $x \neq n.$
+
+<ol>
+    <li>Halla $m$ y $n$ sabiendo que la recta $y = 2x - 4$ es una asíntota de la gráfica de $g.$</li>
+    <li>Determina si la gráfica de $g$ es simétrica respecto al origen.</li>
+</ol>
