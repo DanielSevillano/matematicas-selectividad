@@ -279,7 +279,8 @@ details[open] summary::after {
 Progreso
 ********************/
 
-.cargando::after {
+article.cargando::after,
+section.cargando::after {
     content: "";
     display: block;
     margin-top: 40px;
