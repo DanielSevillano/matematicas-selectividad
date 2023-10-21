@@ -1,0 +1,265 @@
+<h2>Sistemas de ecuaciones lineales</h2>
+
+<p>
+    Una <b>ecuación lineal</b> es una ecuación de primer grado que puede incluir a una o más variables.
+    Es decir, una ecuación en la que las variables aparecen elevadas a 1 y no contiene productos entre variables.
+    Por ejemplo:
+    $$2x + 3 = 0, \quad 3x - y = 2 \quad \text{y} \quad -x + 3y + 5z = -2.$$
+</p>
+
+<p>
+    Un <b>sistema de ecuaciones lineales</b> es un conjunto de ecuaciones lineales que debe tener una solución común.
+    Por ejemplo:
+    $$\begin{cases}
+        2x + 3 = 0, \\
+        3x - y = 2, \\
+        -x + 3y + 5z = -2.
+    \end{cases}$$
+
+    En general, un sistema de $m$ ecuaciones lineales con $n$ incógnitas se puede escribir de la forma
+    $$\begin{cases}
+        a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = b_1, \\
+        a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = b_2, \\
+        \vdots \\
+        a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = b_m,
+    \end{cases}$$
+    donde $a_{ij}$ son los <b>coeficientes</b>, $x_j$ las <b>incógnitas</b> y $b_i$ los <b>términos independientes</b>.<br>
+    Normalmente trabajaremos con sistemas de tres incógnitas, a las que llamaremos $x$, $y$ y $z$ en vez de $x_1$, $x_2$ y $x_3$.
+</p>
+
+<p>
+    Un sistema de ecuaciones puede escribirse como una ecuación matricial usando las matrices asociadas.
+    $$AX = B \Leftrightarrow \begin{pmatrix}
+        a_{11} & a_{12} & \dots & a_{1n} \\
+        a_{21} & a_{22} & \dots & a_{2n} \\
+        \vdots & \vdots & \ddots & \vdots \\
+        a_{m1} & a_{m2} & \dots & a_{mn}
+    \end{pmatrix}
+    \begin{pmatrix}
+        x_1 \\
+        x_2 \\
+        \vdots \\
+        x_n
+    \end{pmatrix} =
+    \begin{pmatrix}
+        b_1 \\
+        b_2 \\
+        \vdots \\
+        b_m
+    \end{pmatrix},$$
+    donde $A$ se llama <b>matriz de coeficientes</b>, $X$ <b>matriz de incógnitas</b> y $B$ <b>matriz de términos independientes</b>.
+    También es útil considerar la <b>matriz ampliada</b> $(A|B)$.<br>
+    Por ejemplo, el sistema anterior se puede escribir matricialmente como
+    $$\begin{pmatrix}
+        2 & 0 & 0 \\
+        3 & -1 & 0 \\
+        -1 & 3 & 5
+    \end{pmatrix}
+    \begin{pmatrix}
+        x \\
+        y \\
+        z
+    \end{pmatrix} =
+    \begin{pmatrix}
+        0 \\
+        2 \\
+        -2
+    \end{pmatrix}.$$
+</p>
+
+<p>
+    Un sistema de ecuaciones es <b>compatible</b> cuando tiene alguna solución e <b>incompatible</b> en caso contrario.
+    Los sistemas <b>compatibles</b> son determinados si tienen una única solución e <b>indeterminados</b> si tienen infinitas soluciones.
+</p>
+
+<h3>Teorema de Rouché-Frobenius</h3>
+
+<p>
+    Al estudio de las soluciones de un sistema de ecuaciones lineales sin resolverlo primero se le llama <b>discusión del sistema</b>.
+    Como herramienta fundamental, el <b>teorema de Rouché-Frobenius</b> afirma que un sistema de ecuaciones lineales es compatible si $\mathrm{rang}(A) = \mathrm{rang}(A|B)$.
+    En caso contrario, el sistema es incompatible.
+</p>
+
+<p>
+    Además, en el caso de un sistema compatible con $n$ incógnitas, si $\mathrm{rang}(A) = n$ entonces el sistema es determinado.
+    Si por el contrario $\mathrm{rang}(A) < n$, el sistema es indeterminado.
+</p>
+
+<p>
+    Por ejemplo, discutamos el sistema
+    $$\begin{cases}
+        2x + 3 = 0, \\
+        3x - y = 2, \\
+        -x + 3y + 5z = -2.
+    \end{cases}$$
+
+    Para poder usar el teorema de Rouché-Frobenius, empezamos estudiando el rango de la matriz de coeficientes
+    $$A = \begin{pmatrix}
+        2 & 0 & 0 \\
+        3 & -1 & 0 \\
+        -1 & 3 & 5
+    \end{pmatrix}.$$
+
+    Podemos ver que $\det(A) = -10 \neq 0$, así que el rango de $A$ es 3.
+    Como además el rango máximo de la matriz ampliada es 3 y es una extensión de la matriz $A$, entonces $\mathrm{rang}(A|B) = 3$.
+    Los rangos de las dos matrices coinciden, así que por el teorema de Rouché-Frobenius podemos afirmar que el sistema es compatible.
+    Puesto que además el sistema tiene 3 incógnitas, el sistema es compatible determinado.
+    Es decir, tiene solución única.
+</p>
+
+<!-- Discusión de sistemas con parámetros -->
+
+<h3>Sistemas homogéneos</h3>
+<p>
+    Los <b>sistemas homogéneos</b> son un tipo de sistemas que se caracteriza por tener todos los términos independientes nulos.
+    Es decir, son sistemas de la forma
+    $$\begin{cases}
+        a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = 0, \\
+        a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = 0, \\
+        \vdots \\
+        a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = 0.
+    \end{cases}$$
+
+    Por ejemplo:
+    $$\begin{cases}
+        2x - y + 8z = 0, \\
+        3x - y = 0, \\
+        -x + 3y + 5z = 0.
+    \end{cases}$$
+
+    La característica más importante de estos sistemas es que siempre tienen una solución: la trivial.
+    Esto es, $x_1 = 0, x_2 = 0, \ldots x_n = 0$.
+    Por tanto, estos sistemas siempre son compatibles.<br>
+
+    En el ejemplo anterior es fácil ver que $x = 0, y = 0, z = 0$ es solución del sistema.
+</p>
+
+<p>
+    Esta observación se puede verificar con el teorema de Rouché-Frobenius.
+    $$\mathrm{rang}(A|B) = \mathrm{rang}\begin{pmatrix}
+        a_{11} & a_{12} & \dots & a_{1n} & 0 \\
+        a_{21} & a_{22} & \dots & a_{2n} & 0 \\
+        \vdots & \vdots & \ddots & \vdots & \vdots \\
+        a_{m1} & a_{m2} & \dots & a_{mn} & 0
+    \end{pmatrix} =
+    \mathrm{rang}\begin{pmatrix}
+        a_{11} & a_{12} & \dots & a_{1n} \\
+        a_{21} & a_{22} & \dots & a_{2n} \\
+        \vdots & \vdots & \ddots & \vdots \\
+        a_{m1} & a_{m2} & \dots & a_{mn}
+    \end{pmatrix} = \mathrm{rang}(A).$$
+    Como estos dos rangos coinciden, el sistema es compatible.
+</p>
+
+
+<h3>Resolución de sistemas</h3>
+<p>
+    Hay tres métodos principales para resolver un sistema de ecuaciones compatible.
+    Vamos a usar todos ellos para resolver el sistema
+    $$\begin{cases}
+        x - y + 2z = -3, \\
+        -2x + 3y - z = 1, \\
+        x - 4y + 2z = -6.
+    \end{cases}$$
+</p>
+
+<h4>Resolución directa</h4>
+<p>
+    Si la matriz de coeficientes $A$ es cuadrada e invertible, entonces tiene solución única y se puede calcular como $X = A^{-1}B$.
+    Esto viene de despejar la expresión matricial
+    $$AX = B \Leftrightarrow X = A^{-1}B.$$
+    En nuestro ejemplo, podemos ver que $\det(A) = 9 \neq 0$, por lo que $A$ es cuadrada e invertible.
+    Así que podemos hallar $X$ de manera directa como $X = A^{-1}B$.
+    La matriz inversa de $A$ es
+    $$A^{-1} = \frac{1}{9}\begin{pmatrix}
+        2 & -6 & -5 \\
+        3 & 0 & -3 \\
+        5 & 3 & 1
+    \end{pmatrix}.$$
+    Por tanto,
+    $$X = \frac{1}{9}\begin{pmatrix}
+        2 & -6 & -5 \\
+        3 & 0 & -3 \\
+        5 & 3 & 1
+    \end{pmatrix}
+    \begin{pmatrix}
+        -3 \\
+        1 \\
+        -6
+    \end{pmatrix} =
+    \begin{pmatrix}
+        2 \\
+        1 \\
+        -2
+    \end{pmatrix}.$$
+    Es decir, la solución del sistema es
+    $$\begin{cases}
+        x = 2, \\
+        y = 1, \\
+        z = -2.
+    \end{cases}$$
+</p>
+
+<h4>Método de Gauss</h4>
+<p>
+    Se transforma el sistema en otro equivalente escalonado mediante transformaciones elementales de la matriz $(A|B)$ y se resuelve este nuevo sistema.<br>
+    Aplicamos el método de Gauss a nuestro ejemplo.
+    $$\begin{pmatrix}
+        1 & -1 & 2 & -3 \\
+        -2 & 3 & -1 & 1 \\
+        1 & -4 & 2 & -6
+    \end{pmatrix} \xrightarrow[F_3 - F_1]{F_2 + 2F_1}
+    \begin{pmatrix}
+        1 & -1 & 2 & -3 \\
+        0 & 1 & 3 & -5 \\
+        0 & -3 & 0 & -3
+    \end{pmatrix}.$$
+    El sistema resultante es
+    $$\begin{cases}
+        x - y + 2z = -3, \\
+        y + 3z = -5, \\
+        -3y = -3.
+    \end{cases}$$
+    Se trata de un sistema escalonado, así que podemos resolverlo con facilidad.
+    \begin{align*}
+        & -3y = -3 \Leftrightarrow y = 1, \\
+        & y + 3z = -5 \xrightarrow{y = 1} 1 + 3z = -5 \Leftrightarrow 3z = -6 \Leftrightarrow z = -2, \\
+        & x - y + 2z = -3 \xrightarrow[z = -2]{y = 1} x - 1 - 4 = -3 \Leftrightarrow x = 2.
+    \end{align*}
+</p>
+
+<h4>Método de Cramer</h4>
+<p>
+    Si la matriz $A$ es cuadrada y $\det(A) \neq 0$, entonces tiene solución única y se puede
+    obtener como
+    $$x = \frac{|\Delta_1|}{|A|}, \quad y = \frac{|\Delta_2|}{|A|} \quad \text{y} \quad z = \frac{|\Delta_3|}{|A|},$$
+    donde $\Delta_i$ es la matriz resultante de reemplazar la columna $i$ de $A$ por la matriz columna $B$.<br>
+    
+    En nuestro ejemplo, hemos visto que $A$ es cuadrada y $\det(A) = 9 \neq 0$.
+    Por tanto, podemos hallar la solución con el método de Cramer:
+    \begin{align*}
+        & x = \frac{
+            \begin{vmatrix}
+                -3 & -1 & 2 \\
+                1 & 3 & -1 \\
+                -6 & -4 & 2
+            \end{vmatrix}
+        }{|A|} = \frac{18}{9} = 2, \\
+        & y = \frac{
+            \begin{vmatrix}
+                1 & -3 & 2 \\
+                -2 & 1 & -1 \\
+                1 & -6 & 2
+            \end{vmatrix}
+        }{|A|} = \frac{9}{9} = 1, \\
+        & z = \frac{
+            \begin{vmatrix}
+                1 & -1 & -3 \\
+                -2 & 3 & 1 \\
+                1 & -4 & -6
+            \end{vmatrix}
+        }{|A|} = \frac{-18}{9} = -2.
+    \end{align*}
+</p>
+
+<!-- Método de Cramer para sistemas compatibles indeterminados -->
