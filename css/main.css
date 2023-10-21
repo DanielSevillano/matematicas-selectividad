@@ -19,6 +19,7 @@ Tarjeta
 ********************/
 
 .tarjeta {
+    --parent-color: var(--container-color);
     padding: 20px;
     background-color: var(--container-color);
     border: 1px solid var(--border-color);

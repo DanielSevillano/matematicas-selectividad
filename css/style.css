@@ -245,23 +245,17 @@ button.cargando::after {
 Sombras de desplazamiento
 ********************/
 
-.contenedor-grupos,
-mjx-container {
-    --parent-color: var(--background-color);
+.contenedor-grupos {
     --shadow-color: hsla(0, 0%, 50%, 0.4);
     --shadow-margin: 40px;
     --shadow-width: 10px;
 
     background:
-        linear-gradient(to right, var(--parent-color) 30%, transparent) left / var(--shadow-margin) 100% local,
-        linear-gradient(to left, var(--parent-color) 70%, transparent) right / var(--shadow-margin) 100% local,
+        linear-gradient(to right, var(--background-color) 30%, transparent) left / var(--shadow-margin) 100% local,
+        linear-gradient(to left, var(--background-color) 70%, transparent) right / var(--shadow-margin) 100% local,
         radial-gradient(farthest-side at 0, var(--shadow-color), transparent) left / var(--shadow-width) 100% scroll,
         radial-gradient(farthest-side at 100%, var(--shadow-color), transparent) right / var(--shadow-width) 100% scroll;
     background-repeat: no-repeat;
-}
-
-details mjx-container {
-    --parent-color: var(--container-color-alt);
 }
 
 /********************
