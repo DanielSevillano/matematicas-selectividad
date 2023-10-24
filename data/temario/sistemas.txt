@@ -69,7 +69,7 @@
 
 <p>
     Un sistema de ecuaciones es <b>compatible</b> cuando tiene alguna solución e <b>incompatible</b> en caso contrario.
-    Los sistemas <b>compatibles</b> son determinados si tienen una única solución e <b>indeterminados</b> si tienen infinitas soluciones.
+    Los sistemas compatibles son <b>determinados</b> si tienen una única solución e <b>indeterminados</b> si tienen infinitas soluciones.
 </p>
 
 <h3>Teorema de Rouché-Frobenius</h3>
