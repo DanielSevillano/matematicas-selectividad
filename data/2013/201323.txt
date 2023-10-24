@@ -1,0 +1,12 @@
+Considera el siguiente sistema de ecuaciones lineales:
+$$\begin{cases}
+    x - y + z = 0, \\
+    2x + 3y - z = 3.
+\end{cases}$$
+
+<ol>
+    <li>Determina el valor de $m$ para el que al añadir una ecuación
+    $$x + my + 4z = -3$$
+    al sistema anterior se obtenga un sistema con las mismas soluciones.</li>
+    <li>Calcula la solución del sistema para la que la suma de los valores de las incógnitas sea 6.</li>
+</ol>

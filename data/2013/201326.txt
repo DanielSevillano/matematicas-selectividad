@@ -1,0 +1,7 @@
+Sea $g: (0, +\infty) \to \mathbb{R}$ la función definida por $g(x) = |\ln(x)|.$
+
+<ol>
+    <li>Esboza el recinto limitado por la gráfica de $g$ y la recta $y = 1.$
+    Calcula los puntos de corte entre ellas.</li>
+    <li>Calcula el área del recinto anterior.</li>
+</ol>

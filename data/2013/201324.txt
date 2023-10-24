@@ -1,0 +1,7 @@
+Del paralelogramo $ABCD$ se conocen los vértices $A(-1, 0, 3)$, $B(2, -1, 1)$ y $C(3, 2, -3).$
+
+<ol>
+    <li>Halla la ecuación del plano que contiene al paralelogramo.</li>
+    <li>Halla la ecuación de la recta que contiene a la diagonal $AC$ del paralelogramo.</li>
+    <li>Calcula las coordenadas del vértice $D.$</li>
+</ol>

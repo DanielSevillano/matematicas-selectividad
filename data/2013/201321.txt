@@ -1,0 +1,2 @@
+Un rectángulo está inscrito en un semicírculo de $\sqrt{5}$ cm de radio, de forma que uno de sus lados está contenido en el diámetro del semicírculo y el lado opuesto tiene sus vértices sobre la semicircunferencia.
+Calcula las dimensiones del rectángulo sabiendo que es el de mayor perímetro posible.

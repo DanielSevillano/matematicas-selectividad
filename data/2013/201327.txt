@@ -1,0 +1,14 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    -1 & 2 \\
+    0 & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & -1 \\
+    1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula $X$ e $Y$ tales que $X - Y = A^t$ y $2X - Y = B.$</li>
+    <li>Calcula $Z$ tal que $AZ = BZ + A.$</li>
+</ol>

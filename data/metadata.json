@@ -3790,6 +3790,71 @@
         ]
     },
     {
+        "ejercicio": 201321,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201322,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201323,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201324,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Lugares geométricos"
+        ]
+    },
+    {
+        "ejercicio": 201325,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 201326,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201327,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201328,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
         "ejercicio": 201351,
         "resuelto": false,
         "categorias": [

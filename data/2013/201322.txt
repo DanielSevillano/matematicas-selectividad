@@ -1,0 +1,3 @@
+Halla
+$$\int \frac{x+1}{1+\sqrt{x}}dx.$$
+Sugerencia: se puede hacer el cambio de variable $t = \sqrt{x}.$

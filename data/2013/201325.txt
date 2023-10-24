@@ -1,0 +1,2 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = x^3 + ax^2 + bx + c.$
+Determina $a$, $b$ y $c$ sabiendo que la recta normal a la gráfica de $f$ en el punto de abscisa $x = 0$ es $y + x = -3$ y que el punto de inflexión tiene abscisa $x = 1.$

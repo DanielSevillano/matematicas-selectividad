@@ -1,0 +1,6 @@
+Considera los puntos $A(1, 2, 3)$ y $B(-1, 0, 4).$
+
+<ol>
+    <li>Calcula las coordenadas de los puntos que dividen al segmento $AB$ en tres partes iguales.</li>
+    <li>Halla la ecuación del plano que pasa por el punto $A$ y es perpendicular al segmento $AB.$</li>
+</ol>
