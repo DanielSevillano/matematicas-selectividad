@@ -51,7 +51,6 @@ botonAleatorio.addEventListener("click", () => {
     const boton = botones[Math.floor(Math.random() * botones.length)];
     const curso = boton.id.replace("boton-", "").slice(0, 4);
     boton.click();
-    console.log(curso);
     document.querySelector("#grupo-" + curso).click();
 });
 
