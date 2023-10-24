@@ -8,6 +8,7 @@ const main = document.querySelector("main");
 const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
+const botonAleatorio = document.querySelector("#aleatorio");
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
@@ -44,6 +45,10 @@ botones.forEach(boton => {
             pulsar(boton);
         }
     });
+});
+
+botonAleatorio.addEventListener("click", () => {
+    botones[Math.floor(Math.random() * botones.length)].click();
 });
 
 if (!examen) document.querySelector(".grupo").click();
