@@ -1,0 +1,1 @@
+Halla las dimensiones del rectángulo de área máxima inscrito en un triángulo isósceles de 6 metros de base (el lado desigual) y 4 metros de alto.

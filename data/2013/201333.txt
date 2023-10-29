@@ -1,0 +1,22 @@
+Sean
+$$A = \begin{pmatrix}
+    -2 & 1 & -3 \\
+    -1 & m & m-2 \\
+    m & 0 & 2
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 \\
+    1 \\
+    0
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix}
+    x \\
+    y \\
+    z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina el rango de $A$ según los valores del parámetro $m.$</li>
+    <li>Discute el sistema $AX = B$ según los valores del parámetro $m.$</li>
+    <li>Resuelve el sistema $AX = B$ para $m = 1.$</li>
+</ol>

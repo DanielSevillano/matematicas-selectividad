@@ -1,0 +1,6 @@
+Sea $f$ la función definida por $f(x) = xe^{\frac{1}{x}}$ para $x \geq -1$, $x \neq 0.$
+
+<ol>
+    <li>Calcula los límites laterales de $f$ en $x = 0.$</li>
+    <li>Estudia y determina las asíntotas de la gráfica de $f.$</li>
+</ol>

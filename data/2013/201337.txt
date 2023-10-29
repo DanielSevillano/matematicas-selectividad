@@ -1,0 +1,14 @@
+Sean $A$ y $B$ las matrices
+$$A = \begin{pmatrix}
+    2 & -3 \\
+    -3 & 5
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & -4 \\
+    -9 & 5
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula las matrices $X$ e $Y$ para las que $2X - Y = A$ y $X - 3Y = B.$</li>
+    <li>Halla la matriz $Z$ que verifica $B^2 + ZA + B^t = 3I.$</li>
+</ol>

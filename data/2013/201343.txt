@@ -1,0 +1,11 @@
+Considera el siguiente sistema de ecuaciones lineales:
+$$\begin{cases}
+    x + 2y + z = 0, \\
+    x - y + mz = m-2, \\
+    mx + y + 3z = m-2.
+\end{cases}$$
+
+<ol>
+    <li>Discute el sistema según los valores del parámetro $m.$</li>
+    <li>Resuélvelo, si es posible, para $m = 2.$</li>
+</ol>

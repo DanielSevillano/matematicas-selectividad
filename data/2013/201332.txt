@@ -1,0 +1,5 @@
+Sea $g: (0, +\infty) \to \mathbb{R}$ la función definida por
+$$g(x) = \frac{1}{x + \sqrt{x}}.$$
+
+Determina la primitiva de $g$ cuya gráfica pasa por el punto $P(1, 0).$
+Sugerencia: se puede usar el cambio de variable $t = \sqrt{x}.$

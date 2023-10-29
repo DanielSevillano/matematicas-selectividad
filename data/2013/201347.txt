@@ -1,0 +1,8 @@
+Sea $M$ una matriz cuadrada de orden 3 tal que su determinante es $\det(M) = 2.$
+Calcula:
+<ol>
+    <li>El rango de $M^3.$</li>
+    <li>El determinante de $2M^t.$</li>
+    <li>El determinante de $(M^{-1})^2.$</li>
+    <li>El determinante de $N$, donde $N$ es la matriz resultante de intercambiar la primera y la segunda filas de $M.$</li>
+</ol>

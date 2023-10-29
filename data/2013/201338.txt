@@ -1,0 +1,15 @@
+Considera las rectas $r$ y $s$ dadas por
+$$r \equiv \begin{cases}
+    x = 2 - 3\lambda, \\
+    y = 3 + 5\lambda, \\
+    z = \lambda
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x + y - 1 = 0, \\
+    z - 5 = 0.
+\end{cases}$$
+
+<ol>
+    <li>Determina la posición relativa de $r$ y $s.$</li>
+    <li>Calcula la distancia entre $r$ y $s.$</li>
+</ol>

@@ -1,0 +1,2 @@
+Calcula
+$$\int_0^{\pi/2} x\mathrm{sen}(2x)dx.$$

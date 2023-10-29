@@ -1,0 +1,6 @@
+Considera los puntos $A(1, 2, 1)$, $B(-1, 0, 2)$ y $C(3, 2, 0)$ y el plano $\pi$ determinado por ellos.
+
+<ol>
+    <li>Halla la ecuación de la recta $r$ que está contenida en $\pi$ y tal que $A$ y $B$ son simétricos respecto de $r.$</li>
+    <li>Calcula la distancia de $A$ a $r.$</li>
+</ol>

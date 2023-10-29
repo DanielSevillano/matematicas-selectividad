@@ -1,0 +1,8 @@
+Sea $f$ la función definida por
+$$f(x) = \frac{x}{\ln(x)}$$
+para $x > 0$, $x \neq 1.$
+
+<ol>
+    <li>Estudia y determina las asíntotas de la gráfica de $f.$</li>
+    <li>Calcula la ecuación de la recta tangente y de la recta normal a la gráfica de $f$ en el punto de abscisa $x = e.$</li>
+</ol>

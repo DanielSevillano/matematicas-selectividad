@@ -1,0 +1,9 @@
+Sean $f$ y $g$ las funciones definidas por $f(x) = 2-x$ y
+$$g(x) = \frac{2}{x+1}$$
+para $x \neq -1.$
+
+<ol>
+    <li>Calcula los puntos de corte entre las gráficas de $f$ y $g.$</li>
+    <li>Esboza las gráficas de $f$ y $g$ sobre los mismos ejes.</li>
+    <li>Halla el área del recinto limitado por las gráficas de $f$ y $g.$</li>
+</ol>

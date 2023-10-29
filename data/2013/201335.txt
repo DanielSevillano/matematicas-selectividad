@@ -1,0 +1,8 @@
+Sea $f$ la función definida por
+$$f(x) = \frac{k}{(x-a)(2x-1)}$$
+para $x \neq a$ y $x \neq \frac{1}{2}.$
+
+<ol>
+    <li>Halla $a$ y $k$ sabiendo que la gráfica de $f$ pasa por el punto $(0, 2)$ y que la recta $x = 2$ es una asíntota de dicha gráfica.</li>
+    <li>Para $k = 4$ y $a = 2$, halla los extremos relativos de $f$ (abscisas donde se obtienen y valores que se alcanzan) y sus intervalos de crecimiento y de decrecimiento.</li>
+</ol>
