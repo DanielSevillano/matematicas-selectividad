@@ -8,6 +8,7 @@ const main = document.querySelector("main");
 const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
+const botonAleatorio = document.querySelector("#aleatorio");
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
@@ -44,6 +45,15 @@ botones.forEach(boton => {
             pulsar(boton);
         }
     });
+});
+
+botonAleatorio.addEventListener("click", () => {
+    const boton = botones[Math.floor(Math.random() * botones.length)];
+    const categoria = boton.id.replace("boton-", "");
+    boton.click();
+    if (["analisis", "funciones", "optimizacion", "integrales", "limites", "teorema-fundamental-del-calculo"].includes(categoria)) document.querySelector("#grupo-analisis").click();
+    else if (["algebra", "matrices", "sistemas", "determinantes", "ecuaciones-matriciales", "problemas"].includes(categoria)) document.querySelector("#grupo-algebra").click();
+    else document.querySelector("#grupo-geometria").click();
 });
 
 if (!categoria) document.querySelector(".grupo").click();
