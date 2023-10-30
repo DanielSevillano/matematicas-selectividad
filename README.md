@@ -1,12 +1,13 @@
 # Matemáticas de Selectividad
 
-Matemáticas de Selectividad es una página web para ver los exámenes de Selectividad de matemáticas de Andalucía, navegar por los ejercicios de forma sencilla y revisar sus resoluciones.
+Matemáticas de Selectividad es una página web para ver los exámenes de Selectividad de matemáticas de Andalucía, navegar por los ejercicios de forma sencilla, revisar sus resoluciones y explorar el temario del curso.
 
 Los principales objetivos son los siguientes.
 
 - 🔍 Navegación intuitiva y rápida.
 - 📱 Adaptabilidad a dispositivos móviles.
 - ⌚ Tiempos de carga reducidos.
+- 💰 Libre de anuncios y coste.
 
 La página hace uso de [MathJax](https://www.mathjax.org/) para mostrar los ejercicios directamente en el navegador.
 Los exámenes están ordenados por año y los ejercicios están clasificados por categorías.
