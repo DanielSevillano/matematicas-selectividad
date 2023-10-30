@@ -10,19 +10,19 @@
 <p>
     Un <b>sistema de ecuaciones lineales</b> es un conjunto de ecuaciones lineales que debe tener una solución común.
     Por ejemplo:
-    $$\begin{cases}
+    \begin{cases}
         2x + 3 = 0, \\
         3x - y = 2, \\
         -x + 3y + 5z = -2.
-    \end{cases}$$
+    \end{cases}
 
     En general, un sistema de $m$ ecuaciones lineales con $n$ incógnitas se puede escribir de la forma
-    $$\begin{cases}
+    \begin{cases}
         a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = b_1, \\
         a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = b_2, \\
         \vdots \\
         a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = b_m,
-    \end{cases}$$
+    \end{cases}
     donde $a_{ij}$ son los <b>coeficientes</b>, $x_j$ las <b>incógnitas</b> y $b_i$ los <b>términos independientes</b>.<br>
     Normalmente trabajaremos con sistemas de tres incógnitas, a las que llamaremos $x$, $y$ y $z$ en vez de $x_1$, $x_2$ y $x_3$.
 </p>
@@ -87,11 +87,11 @@
 
 <p>
     Por ejemplo, discutamos el sistema
-    $$\begin{cases}
+    \begin{cases}
         2x + 3 = 0, \\
         3x - y = 2, \\
         -x + 3y + 5z = -2.
-    \end{cases}$$
+    \end{cases}
 
     Para poder usar el teorema de Rouché-Frobenius, empezamos estudiando el rango de la matriz de coeficientes
     $$A = \begin{pmatrix}
@@ -107,25 +107,80 @@
     Es decir, tiene solución única.
 </p>
 
-<!-- Discusión de sistemas con parámetros -->
+<h4>Discusión de sistemas con parámetros</h4>
+<p>
+    En ocasiones, tendremos que discutir un sistema en función de un parámetro.
+    Por ejemplo, discutamos en función del parámetro $\lambda$ el sistema
+    \begin{cases}
+        \lambda x - y + z = 1, \\
+        x - y - z = \lambda - 1, \\
+        x - \lambda y + 2z = 2.
+    \end{cases}
+
+    Para ello, tendremos que empezar estudiando en función de $\lambda$ el rango de la matriz de coeficientes
+    $$A = \begin{pmatrix}
+        \lambda & -1 & 1 \\
+        1 & -1 & -1 \\
+        1 & -\lambda & 2
+    \end{pmatrix}.$$
+
+    En primer lugar, podemos observar que el menor
+    $$\begin{vmatrix}
+        -1 & 1 \\
+        -1 & -1
+    \end{vmatrix} = 2 \neq 0.$$
+    Así que $\mathrm{rang}(A) \geq 2$ para todo valor de $\lambda$.
+
+    Veamos para qué valores de $\lambda$ alcanza el rango máximo calculando su determinante.
+    $$\det(A) = 3 - 3\lambda.$$
+    Observamos que
+    $$\det(A) = 0 \Leftrightarrow 3 - 3\lambda = 0 \Leftrightarrow \lambda = 1.$$
+    Distinguimos dos casos.
+
+    <ul>
+        <li>
+            Si $\lambda \neq 1$ entonces $\det(A) \neq 0$, así que $\mathrm{rang}(A) = 3$.
+            Como además el rango máximo de la matriz ampliada es 3, $\mathrm{rang}(A|B) = 3$.
+            Los rangos de las dos matrices coinciden entre sí y con el número de incógnitas, así que por el teorema de Rouché-Frobenius el sistema es compatible determinado.
+        </li>
+
+        <li>
+            Si $\lambda = 1$ entonces $\det(A) = 0$, así que $\mathrm{rang}(A) = 2$.
+            Queda por estudiar para $\lambda = 1$ el rango de la matriz ampliada, que puede ser 2 o 3.
+            $$(A|B) = \begin{pmatrix}
+                1 & -1 & 1 & 1 \\
+                1 & -1 & -1 & 0 \\
+                1 & -1 & 2 & 2
+            \end{pmatrix}.$$
+            El menor
+            $$\begin{vmatrix}
+                1 & 1 & 1 \\
+                1 & -1 & 0 \\
+                1 & 2 & 2
+            \end{vmatrix} = -1 \neq 0,$$
+            así que $\mathrm{rang}(A|B) = 3$.
+            Como los rangos de las dos matrices no coinciden, por el teorema de Rouché-Frobenius el sistema es incompatible.
+        </li>
+    </ul>
+</p>
 
 <h3>Sistemas homogéneos</h3>
 <p>
     Los <b>sistemas homogéneos</b> son un tipo de sistemas que se caracteriza por tener todos los términos independientes nulos.
     Es decir, son sistemas de la forma
-    $$\begin{cases}
+    \begin{cases}
         a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = 0, \\
         a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = 0, \\
         \vdots \\
         a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = 0.
-    \end{cases}$$
+    \end{cases}
 
     Por ejemplo:
-    $$\begin{cases}
+    \begin{cases}
         2x - y + 8z = 0, \\
         3x - y = 0, \\
         -x + 3y + 5z = 0.
-    \end{cases}$$
+    \end{cases}
 
     La característica más importante de estos sistemas es que siempre tienen una solución: la trivial.
     Esto es, $x_1 = 0, x_2 = 0, \ldots x_n = 0$.
@@ -156,11 +211,11 @@
 <p>
     Hay tres métodos principales para resolver un sistema de ecuaciones compatible.
     Vamos a usar todos ellos para resolver el sistema
-    $$\begin{cases}
+    \begin{cases}
         x - y + 2z = -3, \\
         -2x + 3y - z = 1, \\
         x - 4y + 2z = -6.
-    \end{cases}$$
+    \end{cases}
 </p>
 
 <h4>Resolución directa</h4>
@@ -193,11 +248,11 @@
         -2
     \end{pmatrix}.$$
     Es decir, la solución del sistema es
-    $$\begin{cases}
+    \begin{cases}
         x = 2, \\
         y = 1, \\
         z = -2.
-    \end{cases}$$
+    \end{cases}
 </p>
 
 <h4>Método de Gauss</h4>
@@ -215,11 +270,11 @@
         0 & -3 & 0 & -3
     \end{pmatrix}.$$
     El sistema resultante es
-    $$\begin{cases}
+    \begin{cases}
         x - y + 2z = -3, \\
         y + 3z = -5, \\
         -3y = -3.
-    \end{cases}$$
+    \end{cases}
     Se trata de un sistema escalonado, así que podemos resolverlo con facilidad.
     \begin{align*}
         & -3y = -3 \Leftrightarrow y = 1, \\
@@ -262,4 +317,42 @@
     \end{align*}
 </p>
 
-<!-- Método de Cramer para sistemas compatibles indeterminados -->
+<p>
+    El método de Cramer también se puede adaptar a sistemas compatibles indeterminados.
+    Al eliminar las ecuaciones sobrantes en estos casos, los sistemas resultantes quedan con más incógnitas que ecuaciones.
+    La estrategia consiste en transformar incógnitas en parámetros para conseguir tener el mismo número de incógnitas que ecuaciones.<br>
+    Por ejemplo, resolvamos el sistema
+    \begin{cases}
+        5x + 3y - 2z = 1, \\
+        7x + 4y + z = 3.
+    \end{cases}
+    Es fácil ver que tenemos 3 incógnitas y $\mathrm{rang}(A) = \mathrm{rang}(A|B) = 2$, así que se trata de un sistema compatible indeterminado por el teorema de Rouché-Frobenius.
+    Como nos sobra una incógnita, transformamos una de ellas en parámetro, por ejemplo $z = \lambda$.
+    Entonces, podemos escribir el sistema como
+    \begin{cases}
+        5x + 3y = 1 + 2\lambda, \\
+        7x + 4y = 3 - \lambda.
+    \end{cases}
+    De esta forma, tenemos un sistema de dos ecuaciones con dos incógnitas, con una nueva matriz de coeficientes
+    $$A^\ast = \begin{pmatrix}
+        5 & 3 \\
+        7 & 4
+    \end{pmatrix}$$
+    cuadrada y con determinante no nulo.
+    Por tanto, podemos aplicar el método de Cramer:
+    \begin{align*}
+        & x = \frac{
+            \begin{vmatrix}
+                1+2\lambda & 3 \\
+                3-\lambda & 4
+            \end{vmatrix}
+        }{|A^\ast|} = \frac{11\lambda - 5}{-1} = 5 - 11\lambda, \\
+        & y = \frac{
+            \begin{vmatrix}
+                5 & 1+2\lambda \\
+                7 & 3-\lambda
+            \end{vmatrix}
+        }{|A^\ast|} = \frac{8 - 19\lambda}{-1} = 19\lambda - 8, \\
+        & z = \lambda.
+    \end{align*}
+</p>

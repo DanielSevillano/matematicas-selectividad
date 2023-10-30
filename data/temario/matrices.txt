@@ -189,7 +189,8 @@
 </p>
 
 <h3>Operaciones con matrices</h3>
-Con las matrices podemos hacer las siguientes operaciones fundamentales.
+<p>Con las matrices podemos hacer las siguientes operaciones fundamentales.</p>
+
 <ul>
     <li>
         <b>Suma de matrices.</b>
@@ -304,51 +305,90 @@ Con las matrices podemos hacer las siguientes operaciones fundamentales.
     </li>
 </ul>
 
-Tomando como base el producto de matrices, podemos definir las potencias.
-Dada una matriz cuadrada $A$, la potencia $A^n$ es el producto $A \cdot A \cdot \ldots \cdot A$, con $A$ multiplicado $n$ veces.
-Por ejemplo:
-\begin{align*}
-    & \begin{pmatrix}
-        1 & -2 & 3 \\
-        0 & -1 & 0 \\
-        2 & 5 & -3
-    \end{pmatrix}^2 =
-    \begin{pmatrix}
-        1 & -2 & 3 \\
-        0 & -1 & 0 \\
-        2 & 5 & -3
-    \end{pmatrix}
-    \begin{pmatrix}
-        1 & -2 & 3 \\
-        0 & -1 & 0 \\
-        2 & 5 & -3
-    \end{pmatrix} =
-    \begin{pmatrix}
-        7 & 15 & -6 \\
-        0 & 1 & 0 \\
-        -4 & -24 & 15
-    \end{pmatrix}, \\
-    & \begin{pmatrix}
-        1 & -2 & 3 \\
-        0 & -1 & 0 \\
-        2 & 5 & -3
-    \end{pmatrix}^3 =
-    \begin{pmatrix}
-        7 & 15 & -6 \\
-        0 & 1 & 0 \\
-        -4 & -24 & 15
-    \end{pmatrix}
-    \begin{pmatrix}
-        1 & -2 & 3 \\
-        0 & -1 & 0 \\
-        2 & 5 & -3
-    \end{pmatrix} =
-    \begin{pmatrix}
-        -5 & -59 & 39 \\
-        0 & -1 & 0 \\
-        26 & 107 & -57
-    \end{pmatrix}.
-\end{align*}
+<p>
+    Tomando como base el producto de matrices, podemos definir las potencias.
+    Dada una matriz cuadrada $A$, la potencia $A^n$ es el producto $A \cdot A \cdot \ldots \cdot A$, con $A$ multiplicado $n$ veces.
+    Por ejemplo:
+
+    \begin{align*}
+        & \begin{pmatrix}
+            1 & -2 & 3 \\
+            0 & -1 & 0 \\
+            2 & 5 & -3
+        \end{pmatrix}^2 =
+        \begin{pmatrix}
+            1 & -2 & 3 \\
+            0 & -1 & 0 \\
+            2 & 5 & -3
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & -2 & 3 \\
+            0 & -1 & 0 \\
+            2 & 5 & -3
+        \end{pmatrix} =
+        \begin{pmatrix}
+            7 & 15 & -6 \\
+            0 & 1 & 0 \\
+            -4 & -24 & 15
+        \end{pmatrix}, \\
+        & \begin{pmatrix}
+            1 & -2 & 3 \\
+            0 & -1 & 0 \\
+            2 & 5 & -3
+        \end{pmatrix}^3 =
+        \begin{pmatrix}
+            7 & 15 & -6 \\
+            0 & 1 & 0 \\
+            -4 & -24 & 15
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & -2 & 3 \\
+            0 & -1 & 0 \\
+            2 & 5 & -3
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -5 & -59 & 39 \\
+            0 & -1 & 0 \\
+            26 & 107 & -57
+        \end{pmatrix}.
+    \end{align*}
+</p>
+
+<p>
+    En algunas ocasiones, podemos hallar una fórmula para $A^n$ en general encontrando un patrón.
+    Por ejemplo, si tomamos la matriz
+    $$A = \begin{pmatrix}
+        1 & 0 \\
+        2 & 1
+    \end{pmatrix},$$
+    sus primeras potencias son:
+    $$A^2 = A \cdot A = \begin{pmatrix}
+        1 & 0 \\
+        4 & 1
+    \end{pmatrix}, \quad
+    A^3 = A^2 \cdot A = \begin{pmatrix}
+        1 & 0 \\
+        6 & 1
+    \end{pmatrix} \quad \text{y} \quad
+    A^4 = A^3 \cdot A = \begin{pmatrix}
+        1 & 0 \\
+        8 & 1
+    \end{pmatrix}.$$
+
+    Podemos observar que el elemento en la posición $(2, 1)$ es el doble del exponente, mientras que el resto de elementos permanecen igual.
+    Entonces podemos concluir que, en general,
+    $$A^n = \begin{pmatrix}
+        1 & 0 \\
+        2n & 1
+    \end{pmatrix}.$$
+
+    Esto nos permite calcular potencias con exponentes muy elevados sin tener que hacer todos los cálculos.
+    Por ejemplo,
+    $$A^{100} = \begin{pmatrix}
+        1 & 0 \\
+        200 & 1
+    \end{pmatrix}.$$
+</p>
 
 <h3>Rango de matrices</h3>
 <p>
@@ -589,9 +629,7 @@ Por ejemplo:
 </p>
 
 <h3>Ecuaciones matriciales</h3>
-<p>En la resolución de ecuaciones matriciales se aplican la mayoría de los métodos usados en ecuaciones
-    polinómicas.
-</p>
+<p>En la resolución de ecuaciones matriciales se aplican la mayoría de los métodos usados en ecuaciones polinómicas.</p>
 
 <ul>
     <li>
