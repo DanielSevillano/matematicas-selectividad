@@ -50,6 +50,7 @@
 
 html {
     color-scheme: light dark;
+    scrollbar-gutter: stable;
 }
 
 body {
