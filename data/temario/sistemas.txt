@@ -158,7 +158,7 @@
     <ul>
         <li>
             Si $\lambda \neq 1$ entonces $\det(A) \neq 0$, así que $\mathrm{rang}(A) = 3$.
-            Como además el rango máximo de la matriz ampliada es 3, $\mathrm{rang}(A|B) = 3$.
+            Como además el rango máximo de la matriz ampliada es 3 y $\mathrm{rang}(A|B) \geq \mathrm{rang}(A)$, entonces $\mathrm{rang}(A|B) = 3$.
             Los rangos de las dos matrices coinciden entre sí y con el número de incógnitas, así que por el teorema de Rouché-Frobenius el sistema es compatible determinado.
         </li>
 
@@ -342,9 +342,9 @@
     Por ejemplo, $z = \lambda$.
     Entonces:
     \begin{align*}
-        & z = \lambda,
+        & z = \lambda, \\
         & -y - z = -2 \xrightarrow{z = \lambda} - y - 3\lambda = -2 \Leftrightarrow y = 2 - 3\lambda, \\
-        & x + y + z = 3 \xrightarrow[y = 2-\lambda]{z = \lambda} x + 2 - 3\lambda + \lambda = 3 \Leftrightarrow x = 1 + 2\lambda. \\
+        & x + y + z = 3 \xrightarrow[y = 2-\lambda]{z = \lambda} x + 2 - 3\lambda + \lambda = 3 \Leftrightarrow x = 1 + 2\lambda.
     \end{align*}
 </p>
 
