@@ -1,0 +1,12 @@
+Considera el sistema de ecuaciones
+\begin{cases}
+    x + y + z = \lambda + 1, \\
+    3y + 2z = 2\lambda + 3, \\
+    3x + (\lambda-1)y + z = \lambda.
+\end{cases}
+
+<ol>
+    <li>Resuelve el sistema para $\lambda = 1.$</li>
+    <li>Halla los valores de $\lambda$ para los que el sistema tiene una única solución.</li>
+    <li>¿Existe algún valor de $\lambda$ para el que el sistema admite la solución $\left(-\frac{1}{2}, 0, \frac{1}{2}\right)$?</li>
+</ol>

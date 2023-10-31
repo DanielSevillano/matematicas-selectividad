@@ -4049,5 +4049,72 @@
             "Geometría",
             "Problemas métricos"
         ]
+    },
+    {
+        "ejercicio": 201201,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 201202,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Teorema fundamental del cálculo"
+        ]
+    },
+    {
+        "ejercicio": 201203,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201204,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
+        "ejercicio": 201205,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones",
+            "Límites"
+        ]
+    },
+    {
+        "ejercicio": 201206,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201207,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201208,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Lugares geométricos"
+        ]
     }
 ]

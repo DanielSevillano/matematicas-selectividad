@@ -1,0 +1,7 @@
+De un paralelogramo $ABCD$ conocemos tres vértices consecutivos: $A(2, -1, 0)$, $B(-2, 1, 0)$ y $C(0, 1, 2).$
+
+<ol>
+    <li>Calcula la ecuación de la recta que pasa por el centro del paralelogramo y es perpendicular al plano que lo contiene.</li>
+    <li>Halla el área de dicho paralelogramo.</li>
+    <li>Calcula el vértice $D.$</li>
+</ol>

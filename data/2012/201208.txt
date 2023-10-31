@@ -1,0 +1,11 @@
+Sean $r$ y $s$ las rectas dadas por
+$$r \equiv \begin{cases}
+    x + y - z = 6, \\
+    x + z = 3
+\end{cases} \quad \text{y} \quad
+s \equiv \frac{x-1}{-1} = \frac{y+1}{6} = \frac{z}{2}.$$
+
+<ol>
+    <li>Determina el punto de intersección de ambas rectas.</li>
+    <li>Calcula la ecuación general del plano que las contiene.</li>
+</ol>

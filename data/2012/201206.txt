@@ -1,0 +1,8 @@
+Sea la función $f$ definida por
+$$f(x) = \frac{2}{x^2-1}$$
+para $x \neq -1$ y $x \neq 1.$
+
+<ol>
+    <li>Halla una primitiva de $f.$</li>
+    <li>Calcula el valor de $k$ para que el área del recinto limitado por el eje de abscisas y la gráfica de $f$ en el intervalo $[2, k]$ sea $\ln(2).$</li>
+</ol>

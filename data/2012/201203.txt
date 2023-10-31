@@ -1,0 +1,12 @@
+Sea la matriz
+$$A = \begin{pmatrix}
+    0 & 0 & 1 \\
+    2 & 1 & 2 \\
+    1 & k & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>¿Para qué valores del parámetro $k$ no existe la inversa de la matriz $A$?
+    Justifica la respuesta.</li>
+    <li>Para $k = 0$, resuelve la ecuación matricial $(X+I)A = A^t.$</li>
+</ol>

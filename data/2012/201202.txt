@@ -1,0 +1,8 @@
+Sea $f$ una función continua en el intervalo $[2, 3]$ y $F$ una función primitiva de $f$ tal que $F(2) = 1$ y $F(3) = 2.$
+Calcula:
+
+<ol>
+    <li>$\int_2^3 f(x)dx.$</li>
+    <li>$\int_2^3 (5f(x) - 7)dx.$</li>
+    <li>$\int_2^3 (F(x))^2f(x)dx.$</li>
+</ol>
