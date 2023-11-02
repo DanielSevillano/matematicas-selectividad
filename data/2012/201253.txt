@@ -1,0 +1,12 @@
+Considera el siguiente sistema de ecuaciones con dos incógnitas:
+\begin{cases}
+    kx + 2y = 2, \\
+    2x + ky = k, \\
+    x - y = -1.
+\end{cases}
+
+<ol>
+    <li>Prueba que el sistema es compatible para cualquier valor del parámetro $k.$</li>
+    <li>Especifica para qué valores del parámetro $k$ es determinado y para cuáles indeterminado.</li>
+    <li>Halla las soluciones en cada caso.</li>
+</ol>

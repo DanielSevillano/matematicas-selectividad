@@ -1,0 +1,11 @@
+Considera el sistema de ecuaciones con tres incógnitas
+\begin{cases}
+    x - y = \lambda, \\
+    2\lambda y + \lambda z = \lambda, \\
+    -x - y + \lambda z = 0.
+\end{cases}
+
+<ol>
+    <li>Clasifícalo según los distintos valores del parámetro $\lambda.$</li>
+    <li>Resuélvelo para $\lambda = 0$ y $\lambda = -1.$</li>
+</ol>

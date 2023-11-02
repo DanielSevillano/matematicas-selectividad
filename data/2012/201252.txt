@@ -1,0 +1,7 @@
+Sea
+$$I = \int_0^1 \frac{x}{1 + \sqrt{1-x}}dx.$$
+
+<ol>
+    <li>Expresa la integral $I$ aplicando el cambio de variable $t = \sqrt{1-x}.$</li>
+    <li>Calcula el valor de $I.$</li>
+</ol>

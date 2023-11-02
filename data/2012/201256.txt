@@ -1,0 +1,8 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por
+$$f(x) = \frac{9-x^2}{4}.$$
+
+<ol>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1.$</li>
+    <li>Esboza el recinto limitado por la gráfica de $f$, la recta $x + 2y = 5$ y el eje de abscisas.
+    Calcula el área de dicho recinto.</li>
+</ol>

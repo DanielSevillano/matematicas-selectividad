@@ -1,0 +1,5 @@
+Halla el punto simétrico de $P(2, 1, -5)$ respecto de la recta $r$ definida por
+\begin{cases}
+    x - z = 0, \\
+    x + y + 2 = 0.
+\end{cases}

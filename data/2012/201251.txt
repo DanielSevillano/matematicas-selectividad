@@ -1,0 +1,10 @@
+Sea la función continua $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \begin{cases}
+    x+k, & \text{si } x \leq 0, \\
+    \dfrac{e^{x^2}-1}{x^2}, & \text{si } x > 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcula el valor de $k.$</li>
+    <li>Halla la ecuación de la recta tangente a la gráfica de la función $f$ en el punto de abscisa $x = 1.$</li>
+</ol>

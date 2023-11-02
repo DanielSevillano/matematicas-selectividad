@@ -1,0 +1,8 @@
+Sea la función $f$ definida por
+$$f(x) = \frac{e^{-x}}{1-x}$$
+para $x \neq 1.$
+
+<ol>
+    <li>Estudia las asíntotas de la gráfica de la función $f.$</li>
+    <li>Halla los extremos relativos (abscisas donde se obtienen y valores que se alcanzan) y los intervalos de crecimiento y de decrecimiento de $f.$</li>
+</ol>
