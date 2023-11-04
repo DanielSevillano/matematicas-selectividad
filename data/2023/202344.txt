@@ -1,0 +1,2 @@
+Considera la función $f: (-1, +\infty) \to \mathbb{R}$, definida por $f(x) = \ln(x+1).$
+Calcula el área del recinto limitado por la gráfica de $f$, el eje de abscisas y la recta $x = e-1.$

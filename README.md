@@ -34,10 +34,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ## 📋 Progreso
 
 ### Exámenes
-- [x] 2023
-    - [x] Junio
-    - [x] Julio
-- [x] 2013 a 2022
+- [x] 2023 a 2013
 - [ ] 2012
     - [x] Junio
     - [x] Septiembre

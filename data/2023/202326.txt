@@ -1,0 +1,17 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    x & y & z \\
+    y & x & x \\
+    z & z & y
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    \alpha & 1 & 1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 1 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Discute el sistema $BA = C$, según los valores de $\alpha.$</li>
+    <li>Resuelve el sistema, si es posible, para $\alpha = 0$ y para $\alpha = 1.$</li>
+</ol>

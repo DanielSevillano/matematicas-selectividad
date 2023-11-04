@@ -1,0 +1,3 @@
+Considera la función $f: [0, +\infty) \to \mathbb{R}$ definida por $f(x) = \cos(\sqrt{x}).$
+Calcula, si es posible, una primitiva de $f$ cuya gráfica pase por el punto $(0, 5).$
+Sugerencia: haz el cambio $t = \sqrt{x}.$

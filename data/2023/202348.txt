@@ -1,0 +1,11 @@
+Considera la recta
+$$r \equiv \begin{cases}
+    x - y + z = 1, \\
+    3x - 2z = -2.
+\end{cases}$$
+
+<ol>
+    <li>Determina la ecuación del plano paralelo a $r$ que contiene a la recta
+    $$-x+1 = y = \frac{z-3}{2}.$$</li>
+    <li>Calcula la distancia entre la recta $r$ y el plano $2x + 5y + 3z = 41.$</li>
+</ol>

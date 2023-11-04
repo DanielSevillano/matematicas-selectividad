@@ -1,0 +1,5 @@
+Una plataforma de streaming se especializa en series de tres géneros: animación, ciencia ficción y comedia.
+Se sabe que el 30% de las series de animación más el 50% de las de ciencia ficción coincide con el 20% del total de series.
+El 25% de las series de animación más el 50% de las de ciencia ficción más el 60% de las de comedia representan la mitad del total de series.
+Hay 100 series menos de animación que de ciencia ficción.
+Halla el número de series de cada género.

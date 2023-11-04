@@ -1,0 +1,3 @@
+Sabiendo que
+$$\lim_{x \to 0} \frac{\mathrm{sen}(x) - \ln(1+x)}{ax^2 - x + e^x - \cos(2x)} = -\frac{1}{7},$$
+calcula $a.$

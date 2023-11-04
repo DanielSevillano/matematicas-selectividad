@@ -1,0 +1,9 @@
+Considera la función
+$$f(x) = \frac{1}{x|x|},$$
+para $x \neq 0.$
+
+<ol>
+    <li>Calcula los intervalos de concavidad y de convexidad de $f$, así como los puntos de inflexión de su gráfica, si existen.</li>
+    <li>Estudia y calcula las asíntotas de la función.
+    Esboza su gráfica.</li>
+</ol>

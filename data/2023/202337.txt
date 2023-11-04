@@ -1,0 +1,7 @@
+Considera el plano $\pi$, determinado por los puntos $A(-1, 0, 0)$, $B(0, 1, 1)$ y $C(2, 1, 0)$, y la recta
+$$r \equiv \begin{cases}
+    x - 2z - 3 = 0, \\
+    y - z - 2 = 0.
+\end{cases}$$
+
+Halla los puntos de $r$ cuya distancia a $\pi$ es $\sqrt{14}$ unidades.

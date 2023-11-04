@@ -1,0 +1,1 @@
+Determina el punto simétrico de $A(2, 4, -3)$ con respecto al plano que contiene a los puntos $B(1, 1, 2)$, $C\left(0, \frac{1}{3}, 1\right)$ y $D(-3, 0, 3).$

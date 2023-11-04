@@ -1,0 +1,6 @@
+Considera el paralelogramo cuyos vértices consecutivos son los puntos $P(-1, 2, 3)$, $Q(-2, 1, 0)$, $R(0, 5, 1)$ y $S.$
+
+<ol>
+    <li>Halla las coordenadas del punto $S.$</li>
+    <li>Calcula la ecuación de la recta que pasa por el origen de coordenadas y es perpendicular al plano que contiene a los puntos $P$, $Q$ y $R.$</li>
+</ol>

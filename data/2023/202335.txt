@@ -1,0 +1,11 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    0 & a & -b \\
+    0 & 0 & b \\
+    0 & 0 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula $A^{10}.$</li>
+    <li>Calcula, si es posible, la matriz inversa de $I + A + A^2$, donde $I$ denota la matriz identidad de orden 3.</li>
+</ol>

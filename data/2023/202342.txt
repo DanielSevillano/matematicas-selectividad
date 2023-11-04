@@ -1,0 +1,2 @@
+En una fábrica de pinturas, las latas que se utilizan para envasar la pintura tienen forma cilíndrica y una capacidad de 20 litros.
+Halla las dimensiones del cilindro, con tapas, para que la chapa empleada en su contrucción sea mínima.

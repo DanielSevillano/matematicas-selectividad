@@ -1,0 +1,4 @@
+Una fábrica dispone de tres líquidos $L_1$, $L_2$ y $L_3$, en los que se encuentran disueltas dos sustancias: sodio y magnesio.
+Cada litro de líquido $L_1$ contiene 120 mg de sodio y 90 mg de magnesio, cada litro del líquido $L_2$ contiene 100 mg de sodio y 90 mg de magnesio y cada litro del líquido $L_3$ contiene 60 mg de sodio y 180 mg de magnesio.
+¿Es posible obtener un litro de un líquido mezclando distintas cantidades de $L_1$, $L_2$ y $L_3$ en el que la cantidad de sodio y de magnesio sea de 100 mg cada una?
+En caso afirmativo, calcula dichas cantidades.

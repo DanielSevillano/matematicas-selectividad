@@ -1,0 +1,7 @@
+Sea $f: (-1, +\infty) \to \mathbb{R}$ la función definida por
+$$f(x) = \frac{\ln(x+1) + a}{3x + 4}.$$
+
+<ol>
+    <li>Determina $a$ sabiendo que la pendiente de la recta tangente a la gráfica de la función $f$ en el punto de abscisa $x = 0$ es 1.</li>
+    <li>Para $a = 0$, estudia y calcula las asíntotas de $f.$</li>
+</ol>

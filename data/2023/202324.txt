@@ -1,0 +1,6 @@
+Considera las funciones $f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = |x^2-1|$ y $g(x) = x+5.$
+
+<ol>
+    <li>Calcula los puntos de corte de las gráficas de ambas funciones y esboza el recinto que determinan.</li>
+    <li>Determina el área del recinto anterior.</li>
+</ol>

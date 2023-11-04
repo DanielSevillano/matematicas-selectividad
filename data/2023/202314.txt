@@ -1,0 +1,7 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^2 + 1.$
+
+<ol>
+    <li>Determina el punto de la gráfica de $f$ en el que la recta tangente es $y = 4x - 3.$</li>
+    <li>Haz un esbozo del recinto limitado por la gráfica de $f$, la recta $y = 4x - 3$ y el eje de ordenadas.
+    Calcula el área del recinto indicado.</li>
+</ol>

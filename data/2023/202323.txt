@@ -1,0 +1,1 @@
+Determina la función $f: (0, +\infty) \to \mathbb{R}$, sabiendo que es dos veces derivable, su gráfica pasa por el punto $(1, 0)$, $f'(e) = e$ y $f''(x) = 2\ln(x) + 1$, para todo $x > 0.$

@@ -1,0 +1,6 @@
+Sabiendo que $F: \mathbb{R} \to \mathbb{R}$ definida por $F(x) = e^{x^2}$ es una primitiva de $f.$
+
+<ol>
+    <li>Comprueba que $f$ es creciente.</li>
+    <li>Calcula el área del recinto limitado por la gráfica de la función $f$, el eje de abscisas y la recta $x = 1.$</li>
+</ol>

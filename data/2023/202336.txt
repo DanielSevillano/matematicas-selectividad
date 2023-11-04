@@ -1,0 +1,17 @@
+Dadas las matrices
+$$A = \begin{pmatrix}
+    1 & 1 & 0 \\
+    1 & 0 & 1 \\
+    0 & 1 & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    0 & 0 & 1 \\
+    0 & 1 & 0 \\
+    1 & 0 & 0
+\end{pmatrix},$$
+se define la matriz $M = A + (\lambda - 1)B.$
+
+<ol>
+    <li>Halla los valores de $\lambda$ para los que la matriz $M$ tiene rango menor que 3.</li>
+    <li>Para $\lambda = -1$, resuelve el sistema lineal homogéneo cuya matriz de coeficientes es $M.$</li>
+</ol>

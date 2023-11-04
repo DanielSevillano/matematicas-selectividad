@@ -1,0 +1,2 @@
+Calcula
+$$\int_6^{12} \frac{1}{9-x^2}dx.$$

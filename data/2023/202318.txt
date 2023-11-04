@@ -1,0 +1,4 @@
+Considera el plano $\pi \equiv x + y + z = 0$ y la recta
+$$r \equiv x-1 = \frac{y}{2} = \frac{z+1}{2}.$$
+
+Halla la ecuación de un plano $\pi'$, paralelo a $\pi$, tal que si $Q$ y $Q'$ son respectivamente los puntos de corte de la recta $r$ con los planos $\pi$ y $\pi'$, entonces la distancia entre $Q$ y $Q'$ sea de 2 unidades.
