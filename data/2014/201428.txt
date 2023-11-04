@@ -1,8 +1,8 @@
 Considera el punto $P(2, -2, 0)$ y la recta $r$ dada por
-$$\begin{cases}
+\begin{cases}
     x + z - 2 = 0, \\
     y + z - 1 = 0.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Halla la ecuación del plano que contiene a $P$ y es perpendicular a $r.$</li>

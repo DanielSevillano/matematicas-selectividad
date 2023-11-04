@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones lineales,
-$$\begin{cases}
+\begin{cases}
     2x - 4y + 2z = 1, \\
     5x - 11y + 9z = \lambda, \\
     x - 3y + 5z = 2.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema según los valores de $\lambda.$</li>

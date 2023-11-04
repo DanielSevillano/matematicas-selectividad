@@ -1,8 +1,8 @@
 Considera el siguiente sistema de ecuaciones lineales:
-$$\begin{cases}
+\begin{cases}
     x - y + z = 0, \\
     2x + 3y - z = 3.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Determina el valor de $m$ para el que al añadir una ecuación

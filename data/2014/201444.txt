@@ -1,9 +1,9 @@
 Sea $r$ la recta definida por
-$$\begin{cases}
+\begin{cases}
     x = 1 + \lambda, \\
     y = 1 + \lambda, \\
     z = \lambda
-\end{cases}$$
+\end{cases}
 y $s$ la recta dada por
 $$\frac{x-1}{-2} = \frac{y}{1} = \frac{z-1}{-2}.$$
 

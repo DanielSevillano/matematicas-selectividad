@@ -30,11 +30,11 @@
 
     Llamamos $Q' = (a, b, c).$
     Como $M$ es el punto medio de $Q$ y $Q'$, entonces:
-    $$\begin{cases}
+    \begin{cases}
         \dfrac{2 + a}{2} = 1, \\
         \dfrac{6 + b}{2} = 5, \\
         \dfrac{3 + c}{2} = 4.
-    \end{cases}$$
+    \end{cases}
 
     Resolviendo el sistema, $a = 0$, $b = 4$ y $c = 5.$
     Luego el simétrico de $Q$ con respecto al plano $\pi$ es $Q'(0, 4, 5).$</li>

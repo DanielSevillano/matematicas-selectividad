@@ -1,8 +1,8 @@
 Sea $r$ la recta que pasa por el punto $(1, 0, 0)$ y tiene como vector dirección $(a, 2a, 1)$ y sea $s$ la recta dada por
-$$\begin{cases}
+\begin{cases}
     -2x + y = -2, \\
     -ax + z = 0.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Calcula los valores de $a$ para los que $r$ y $s$ son paralelas.</li>

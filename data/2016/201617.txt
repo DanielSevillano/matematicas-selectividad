@@ -1,9 +1,9 @@
 Se considera el siguiente sistema de ecuaciones lineales
-$$\begin{cases}
+\begin{cases}
     x + \lambda y + z = \lambda, \\
     \lambda x + y + z = 1, \\
     x + y + \lambda z = 1.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Determina, si existen, los valores de $\lambda$ para los que el sistema tiene infinitas soluciones.</li>

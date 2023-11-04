@@ -1,8 +1,8 @@
 Considera el punto $P(0, 1, 1)$ y la recta $r$ dada por
-$$\begin{cases}
+\begin{cases}
     x - 2y = -5, \\
     z = 2.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Determina la ecuación del plano que pasa por $P$ y contiene a $r.$</li>

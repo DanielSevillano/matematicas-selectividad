@@ -1,8 +1,8 @@
 Considera el siguiente sistema de ecuaciones lineales.
-$$\begin{cases}
+\begin{cases}
     x + 2y - 3z = 3, \\
     2x + 3y + z = 5.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Calcula $\alpha$ de manera que al añadir una tercera ecuación de la forma $\alpha x + y - 7z = 1$ el sistema resultante tenga las mismas soluciones que el original.</li>

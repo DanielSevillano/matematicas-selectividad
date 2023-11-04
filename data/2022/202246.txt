@@ -1,9 +1,9 @@
 Considera el sistema:
-$$\begin{cases}
+\begin{cases}
     x - my - 2z = m, \\
     x + y + z = 2m, \\
     x + 2y + mz = 3m.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema según los valores de $m.$</li>

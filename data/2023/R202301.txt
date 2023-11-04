@@ -25,8 +25,8 @@
     <li>Calculamos el límite.
     $$\lim_{x \to \infty} x^2f(x) = \lim_{x \to \infty} \frac{x^2}{e^x + e^{-x}} \; \left(\frac{\infty}{\infty}\right).$$
     Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
-    $$\begin{align*}
+    \begin{align*}
         & \lim_{x \to \infty} \frac{x^2}{e^x + e^{-x}} = \lim_{x \to \infty} \frac{2x}{e^x - e^{-x}} \; \left(\frac{\infty}{\infty}\right). \\
         & \lim_{x \to \infty} \frac{2x}{e^x - e^{-x}} = \lim_{x \to \infty} \frac{2}{e^x + e^{-x}} = 0.
-    \end{align*}$$</li>
+    \end{align*}</li>
 </ol>

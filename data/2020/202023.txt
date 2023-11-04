@@ -1,9 +1,9 @@
 Considera el sistema de ecuaciones
-$$\begin{cases}
+\begin{cases}
     ax + y + z = 1, \\
     x + ay + z = a, \\
     x + y + az = a^2.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discútelo según los valores de $a.$</li>

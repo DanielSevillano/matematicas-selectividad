@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones lineales:
-$$\begin{cases}
+\begin{cases}
     2x - 4y + 6z = 6, \\
     my + 2z = m+1, \\
     -3x + 6y - 3mz = -9.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema según los valores del parámetro $m.$</li>

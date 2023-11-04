@@ -1,9 +1,9 @@
 Considera el sistema de ecuaciones
-$$\begin{cases}
+\begin{cases}
     -my + z = 1, \\
     5x + 2y + mz = 0, \\
     my + (m-3)z = -3.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema en función de $m.$</li>

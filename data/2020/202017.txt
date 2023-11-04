@@ -1,8 +1,8 @@
 Siendo $\lambda$ un número real, considera el siguiente sistema de ecuaciones lineales con dos incógnitas.
-$$\begin{cases}
+\begin{cases}
     x + \lambda y = 2, \\
     2x + 4y = 1, \\
     \lambda x + y = 2\lambda.
-\end{cases}$$
+\end{cases}
 
 Discútelo según los valores de $\lambda$ y resuélvelo cuando sea posible.

@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones
-$$\begin{cases}
+\begin{cases}
     x + 2y + (m+3)z = 3, \\
     x + y + z = 3m, \\
     2x + 4y + 3(m+1)z = 8.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discútelo según los valores del parámetro $m.$</li>

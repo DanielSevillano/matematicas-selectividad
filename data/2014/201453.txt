@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones:
-$$\begin{cases}
+\begin{cases}
     x - y + mz = 0, \\
     mx + 2y + z = 0, \\
     -x + y + 2mz = 0.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Halla los valores del parámetro $m$ para los que el sistema tiene una única solución.</li>

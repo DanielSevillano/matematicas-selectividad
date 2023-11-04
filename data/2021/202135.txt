@@ -1,9 +1,9 @@
 Considera el sistema de ecuaciones
-$$\begin{cases}
+\begin{cases}
     x + y + 2z = 0, \\
     3x - y - 2z = 0, \\
     -x + 2y + mz = 0.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Calcula $m$ para que el sistema tenga infinitas soluciones y hállalas.</li>

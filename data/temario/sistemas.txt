@@ -307,11 +307,11 @@
 <p>
     El método de Gauss también se puede usar para resolver sistemas compatibles indeterminados.
     Por ejemplo, resolvamos el sistema
-    $$\begin{cases}
+    \begin{cases}
         x + y + z = 3, \\
         2x + y - z = 4, \\
         5x + 2y - 4z = 9.
-    \end{cases}$$
+    \end{cases}
     De nuevo, el objetivo es llegar a un sistema escalonado usando transformaciones elementales.
     $$\begin{pmatrix}
         1 & 1 & 1 & 3 \\

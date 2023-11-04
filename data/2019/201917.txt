@@ -1,9 +1,9 @@
 Dado el sistema de ecuaciones lineales
-$$\begin{cases}
+\begin{cases}
     mx - y + 13z = 0, \\
     2x - my + 4z = 0, \\
     x + y + 7z = 0.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Encuentra los valores de $m$ para los que el sistema tiene infinitas soluciones.</li>

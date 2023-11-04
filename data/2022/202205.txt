@@ -1,9 +1,9 @@
 Considera el sistema:
-$$\begin{cases}
+\begin{cases}
     x - y + mz = -3, \\
     -mx + 3y - z = 1, \\
     x - 4y + mz = -6.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema según los valores de $m.$</li>

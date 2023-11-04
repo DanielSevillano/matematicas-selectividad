@@ -48,15 +48,15 @@ $$\begin{pmatrix}
 \end{pmatrix}.$$
 
 El sistema resultante es
-$$\begin{cases}
+\begin{cases}
     -x = -500, \\
     -3x + y + z = 0, \\
     -x + y = 100.
-\end{cases}$$
+\end{cases}
 
 Por tanto,
-$$\begin{cases}
+\begin{cases}
     x = 500, \\
     y = 600, \\
     z = 900.
-\end{cases}$$
+\end{cases}

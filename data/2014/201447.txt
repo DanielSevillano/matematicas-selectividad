@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones:
-$$\begin{cases}
+\begin{cases}
     mx - 2y + z = 1, \\
     x - 2my + z = -2, \\
     x - 2y + mz = 1.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema según los valores del parámetro $m.$</li>

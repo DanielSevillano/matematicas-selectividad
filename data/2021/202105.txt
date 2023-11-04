@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones lineales
-$$\begin{cases}
+\begin{cases}
     mx + 2y - z = 1, \\
     5x - 4y + 2z = 0, \\
     x + 3my = m + \frac{2}{5}.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema según los valores de $m.$</li>

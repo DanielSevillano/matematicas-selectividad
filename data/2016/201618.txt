@@ -3,8 +3,8 @@ Considera el punto $P(1, 0, -1)$ y el plano $\pi$ de ecuación $2x - y + z + 1 =
 <ol>
     <li>Halla el simétrico del punto $P$ respecto del plano $\pi.$</li>
     <li>Determina la ecuación del plano que contiene al punto $P$, es perpendicular al plano $\pi$ y es paralelo a la recta
-    $$\begin{cases}
+    \begin{cases}
         x - 2y = 1, \\
         z = 3.
-    \end{cases}$$</li>
+    \end{cases}</li>
 </ol>

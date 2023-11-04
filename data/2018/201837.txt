@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones:
-$$\begin{cases}
+\begin{cases}
     x - z = m, \\
     my + 3z = 1, \\
     4x + y - mz = 5.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discútelo según los valores del parámetro $m.$</li>

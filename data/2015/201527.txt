@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones
-$$\begin{cases}
+\begin{cases}
     x + \alpha z = 2, \\
     2x + \alpha y = \alpha + 4, \\
     3x + y + (\alpha + 4)z = 7.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema según los valores de $\alpha.$</li>

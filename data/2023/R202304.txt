@@ -10,9 +10,9 @@ $$\lim_{x \to 0} \frac{xF(x)}{\mathrm{sen}(x^2)}$$
 es una indeterminación de tipo $\frac{0}{0}.$
 
 Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
-$$\begin{align*}
+\begin{align*}
     & \lim_{x \to 0} \frac{xF(x)}{\mathrm{sen}(x^2)} = \lim_{x \to 0} \frac{F(x) + xF'(x)}{2x\cos(x^2)} \; \left(\frac{0}{0}\right). \\
     & \lim_{x \to 0} \frac{F(x) + xF'(x)}{2x\cos(x^2)} = \lim_{x \to 0} \frac{F'(x) + F'(x) + xF''(x)}{2\cos(x^2) - 4x^2\mathrm{sen}(x^2)} = \lim_{x \to 0} \frac{2\mathrm{sen}(x^2) + 2x^2\cos(x^2)}{2\cos(x^2) - 4x^2\mathrm{sen}(x^2)} = 0.
-\end{align*}$$
+\end{align*}
 
 Hemos usado que $F''(x) = f'(x) = 2x\cos(x^2).$

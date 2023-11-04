@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones lineales
-$$\begin{cases}
+\begin{cases}
     x + (\lambda + 1)y + z = 1, \\
     \lambda y + z = 0, \\
     \lambda y + \lambda z = \lambda.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discútelo según los valores de $\lambda.$</li>

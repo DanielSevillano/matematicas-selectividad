@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones lineales.
-$$\begin{cases}
+\begin{cases}
     mx + (m+1)z = m, \\
     my + z = m, \\
     y + mz = m.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema según los valores de $m.$</li>

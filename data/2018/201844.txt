@@ -1,8 +1,8 @@
 Sea $r$ la recta que pasa por los puntos $A(3, 6, 7)$ y $B(7, 8, 3)$ y sea $s$ la recta dada por
-$$\begin{cases}
+\begin{cases}
     x - 4y - z = -10, \\
     3x - 4y + z = -2.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Determina la posición relativa de $r$ y $s.$</li>

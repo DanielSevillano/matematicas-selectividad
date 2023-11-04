@@ -4,18 +4,18 @@
 
     <ul>
         <li>Si $x = -1$,
-        $$\begin{align*}
+        \begin{align*}
             & \lim_{x \to -1^-} f(x) = -1, \\
             & \lim_{x \to -1^+} f(x) = f(-1) = -a + b.
-        \end{align*}$$
+        \end{align*}
 
         Por tanto, $f$ es continua en $x = -1$ si y solo si $-a + b = -1.$</li>
 
         <li>Si $x = 1$,
-        $$\begin{align*}
+        \begin{align*}
             & \lim_{x \to 1^-} f(x) = a + b, \\
             & \lim_{x \to 1^+} f(x) = f(1) = \frac{1}{2}.
-        \end{align*}$$
+        \end{align*}
 
         Por tanto, $f$ es continua en $x = 1$ si y solo si $a + b = \frac{1}{2}.$</li>
     </ul>

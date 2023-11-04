@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones
-$$\begin{cases}
+\begin{cases}
     3x + ky = 1, \\
     2x - y + kz = 1, \\
     x - 3y + 2z = 1
-\end{cases}$$
+\end{cases}
 del que se sabe que para un cierto valor de $k$ es compatible indeterminado.
 
 <ol>

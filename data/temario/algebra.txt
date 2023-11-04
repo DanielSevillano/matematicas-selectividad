@@ -8,10 +8,10 @@
 <p>
     Nuestro objetivo en este bloque será aprender <b>resolver sistemas de ecuaciones lineales</b> con el número de ecuaciones y el número de incógnitas que queramos.
     Por ejemplo:
-    $$\begin{cases}
+    \begin{cases}
         2x + y + z = 0, \\
         -x + 3y - z = 3.
-    \end{cases}$$
+    \end{cases}
 </p>
 
 <p>

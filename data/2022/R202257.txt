@@ -19,11 +19,11 @@
         z = -\mu.
     \end{cases}$$
     Calculamos el punto de corte igualando las ecuaciones entre sí.
-    $$\begin{cases}
+    \begin{cases}
         5 + 2\lambda = -1 + \mu, \\
         -3 = 7 + \mu, \\
         2 - \lambda = -\mu.
-    \end{cases}$$
+    \end{cases}
     Obtenemos que $\mu = -10$ y $\lambda = -8.$
     Por tanto, el punto de corte es $(-11, -3, 10).$</li>
 

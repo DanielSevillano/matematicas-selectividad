@@ -1,9 +1,9 @@
 Considera el punto $A(1, -1, 1)$ y la recta $r$ dada por
-$$\begin{cases}
+\begin{cases}
     x = 1 + 2\lambda, \\
     y = 1 - \lambda, \\
     z = 1.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Calcula las coordenadas del punto simétrico de $A$ respecto a $r.$</li>

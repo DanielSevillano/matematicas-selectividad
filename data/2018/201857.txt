@@ -1,9 +1,9 @@
 Considera el siguiente sistema de ecuaciones lineales:
-$$\begin{cases}
+\begin{cases}
     x + y + mz = m^2, \\
     y - z = m, \\
     x + my + z = m.
-\end{cases}$$
+\end{cases}
 
 <ol>
     <li>Discute el sistema según los valores del parámetro $m.$</li>
