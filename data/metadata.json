@@ -78,7 +78,7 @@
     },
     {
         "ejercicio": 202312,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones",
@@ -595,7 +595,7 @@
     },
     {
         "ejercicio": 202231,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones",
@@ -924,7 +924,7 @@
     },
     {
         "ejercicio": 202121,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones",
@@ -1119,7 +1119,7 @@
     },
     {
         "ejercicio": 202151,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones",

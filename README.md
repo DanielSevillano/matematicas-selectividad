@@ -40,7 +40,13 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [x] Septiembre
 
 ### Ejercicios resueltos
-- [ ] Julio de 2023
-- [x] Junio de 2023
-- [x] Julio de 2022
-- [ ] Junio de 2022 (1, 4, 5, 6 y 8)
+- [ ] 2023
+    - [x] Junio
+    - [ ] Reserva 1 (2)
+- [ ] 2022
+    - [ ] Junio (1, 4, 5, 6 y 8)
+    - [x] Julio
+    - [ ] Reserva 3 (1)
+- [ ] 2021
+    - [ ] Julio (1)
+    - [ ] Reserva 2 (1)

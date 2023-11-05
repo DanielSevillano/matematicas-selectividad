@@ -1,0 +1,20 @@
+<p>
+    Calculamos el límite.
+    $$\lim_{x \to 0} \frac{a(1-\cos(x)) + b\mathrm{sen}(x) - 2(e^x-1)}{x^2} = \frac{0}{0}.$$
+</p>
+
+<p>
+    Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
+    $$\lim_{x \to 0} \frac{a(1-\cos(x)) + b\mathrm{sen}(x) - 2(e^x-1)}{x^2} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{a\mathrm{sen}(x) + b\cos(x) - 2e^x}{2x} = \frac{b-2}{0}.$$
+    Si $b \neq 2$ este límite será infinito, así que necesariamente $b = 2.$
+</p>
+
+<p>
+    Continuamos resolviendo el límite para $b = 2.$
+    $$\lim_{x \to 0} \frac{a\mathrm{sen}(x) + 2\cos(x) - 2e^x}{2x} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{a\cos(x) - 2\mathrm{sen}(x) - 2e^x}{2} = \frac{a-2}{2}.$$
+</p>
+
+<p>
+    Por tanto,
+    $$\lim_{x \to 0} \frac{a(1-\cos(x)) + b\mathrm{sen}(x) - 2(e^x-1)}{x^2} = 7 \Leftrightarrow \frac{a-2}{2} = 7 \Leftrightarrow a = 16.$$
+</p>

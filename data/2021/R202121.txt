@@ -1,0 +1,15 @@
+<p>
+    Calculamos el límite.
+    $$\lim_{x \to 0} \left(\frac{x+1}{\ln(x+1)} - \frac{a}{x}\right) = \lim_{x \to 0} \frac{x(x+1) - a\ln(x+1)}{x\ln(x+1)} = \frac{0}{0}.$$
+</p>
+
+<p>
+    Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
+    $$\lim_{x \to 0} \frac{x(x+1) - a\ln(x+1)}{x\ln(x+1)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{2x + 1 - \frac{a}{x+1}}{\ln(x+1) + \frac{x}{x+1}} = \frac{1-a}{0}.$$
+    Si $a \neq 1$ este límite será infinito, así que necesariamente $a = 1.$
+</p>
+
+<p>
+    Continuamos resolviendo el límite para $a = 1.$
+    $$\lim_{x \to 0} \frac{2x + 1 - \frac{1}{x+1}}{\ln(x+1) + \frac{x}{x+1}} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{2 + \frac{1}{(x+1)^2}}{\frac{1}{x+1} + \frac{1}{(x+1)^2}} = \frac{3}{2}.$$
+</p>

@@ -1,0 +1,14 @@
+<p>
+    Calculamos el límite.
+    $$\lim_{x \to 0} \frac{\mathrm{sen}(x) - \ln(1+x)}{ax^2 - x + e^x - \cos(2x)} = \frac{0}{0}.$$
+</p>
+
+<p>
+    Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
+    $$\lim_{x \to 0} \frac{\mathrm{sen}(x) - \ln(1+x)}{ax^2 - x + e^x - \cos(2x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{\cos(x) - \frac{1}{1+x}}{2ax - 1 + e^x + 2\mathrm{sen}(2x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{-\mathrm{sen}(x) + \frac{1}{(1+x)^2}}{2a + e^x + 4\cos(2x)} = \frac{1}{2a + 5}.$$
+</p>
+
+<p>
+    Por tanto,
+    $$\lim_{x \to 0} \frac{\mathrm{sen}(x) - \ln(1+x)}{ax^2 - x + e^x - \cos(2x)} = -\frac{1}{7} \Leftrightarrow \frac{1}{2a+5} = -\frac{1}{7} \Leftrightarrow 2a+5 = -7 \Leftrightarrow a = -6.$$
+</p>
