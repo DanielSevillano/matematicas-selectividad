@@ -1,8 +1,14 @@
-Calculamos el límite.
-$$\lim_{x \to +\infty} \frac{ax}{\ln^3(x) + 2x} \; \left(\frac{\infty}{\infty}\right).$$
+<p>
+    Calculamos el límite.
+    $$\lim_{x \to +\infty} \frac{ax}{\ln^3(x) + 2x} = \frac{\infty}{\infty}.$$
+</p>
 
-Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
-$$\lim_{x \to +\infty} \frac{ax}{\ln^3(x) + 2x} = \lim_{x \to +\infty} \frac{a}{3\ln^2(x)\frac{1}{x} + 2} = \frac{a}{2}.$$
+<p>
+    Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
+    $$\lim_{x \to +\infty} \frac{ax}{\ln^3(x) + 2x} \overset{\text{L'H}}{=} \lim_{x \to +\infty} \frac{a}{3\ln^2(x)\frac{1}{x} + 2} = \frac{a}{2}.$$
+</p>
 
-Por tanto,
-$$\lim_{x \to +\infty} \frac{ax}{\ln^3(x) + 2x} = 1 \Leftrightarrow \frac{a}{2} = 1 \Leftrightarrow a = 2.$$
+<p>
+    Por tanto,
+    $$\lim_{x \to +\infty} \frac{ax}{\ln^3(x) + 2x} = 1 \Leftrightarrow \frac{a}{2} = 1 \Leftrightarrow a = 2.$$
+</p>
