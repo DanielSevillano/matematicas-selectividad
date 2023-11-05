@@ -891,7 +891,7 @@
     },
     {
         "ejercicio": 202115,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices",
@@ -1365,7 +1365,7 @@
     },
     {
         "ejercicio": 202027,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices",

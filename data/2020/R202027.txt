@@ -1,0 +1,29 @@
+<ol>
+    <li>Calculamos las primeras potencias de $A.$
+    $$A^2 = \begin{pmatrix}
+        -\frac{1}{2} & \frac{\sqrt{3}}{2} \\
+        -\frac{\sqrt{3}}{2} & -\frac{1}{2}
+    \end{pmatrix} \quad \text{y} \quad
+    A^3 = \begin{pmatrix}
+        1 & 0 \\
+        0 & 1
+    \end{pmatrix}.$$
+
+    Como $A^3 = I$, entonces
+    $$A^4 = A^3 \cdot A = A, \quad A^5 = A^3 \cdot A^2 = A^2, \quad A^6 = A^3 \cdot A^3 = I, \quad \dots$$
+
+    La división $37/3$ tiene resto 1 y $41/3$ tiene resto 2.
+    Por tanto,
+    $$A^{37} = A = \begin{pmatrix}
+        -\frac{1}{2} & -\frac{\sqrt{3}}{2} \\
+        \frac{\sqrt{3}}{2} & -\frac{1}{2}
+    \end{pmatrix} \quad \text{y} \quad
+    A^{41} = A^2 = \begin{pmatrix}
+        -\frac{1}{2} & \frac{\sqrt{3}}{2} \\
+        -\frac{\sqrt{3}}{2} & -\frac{1}{2}
+    \end{pmatrix}.$$</li>
+
+    <li>Calculamos el determinante.
+    Como la matriz $A$ es de orden 2 y $\det(A) = 1$,
+    $$|3A^{52}(A^t)^4| = 3^2|A|^{52}|A|^4 = 9.$$</li>
+</ol>

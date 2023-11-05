@@ -49,4 +49,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Reserva 3 (1)
 - [ ] 2021
     - [ ] Julio (1)
+    - [ ] Reserva 1 (5)
     - [ ] Reserva 2 (1)
+- [ ] 2020
+    - [ ] Reserva 2 (7)
