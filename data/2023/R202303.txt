@@ -1,28 +1,36 @@
-En primer lugar, expresamos la función $f$ como función a trozos.
-$$f(x) = x|x-1| = \begin{cases}
-    -x(x-1) = -x^2+x, & \text{si } x < 1, \\
-    x(x-1) = x^2-x, & \text{si } x \geq 1.
-\end{cases}$$
+<p>
+    En primer lugar, expresamos la función $f$ como función a trozos.
+    $$f(x) = x|x-1| = \begin{cases}
+        -x(x-1) = -x^2+x, & \text{si } x < 1, \\
+        x(x-1) = x^2-x, & \text{si } x \geq 1.
+    \end{cases}$$
+</p>
 
-La pendiente de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0$ viene dada por el valor de $f'(0).$
-Si $x > 1$, la derivada de $f$ es $f'(x) = 2x - 1.$
-Por tanto, la ecuación de la recta tangente es
-$$y - f(0) = f'(0)(x-0) \Leftrightarrow y = x.$$
+<p>
+    La pendiente de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0$ viene dada por el valor de $f'(0).$
+    Si $x > 1$, la derivada de $f$ es $f'(x) = 2x - 1.$
+    Por tanto, la ecuación de la recta tangente es
+    $$y - f(0) = f'(0)(x-0) \Leftrightarrow y = x.$$
+</p>
 
-Representamos la función $f$ y la recta $y = x$ para visualizar el área del recinto.
+<p>Representamos la función $f$ y la recta $y = x$ para visualizar el área del recinto.</p>
 <img src="img/R202303.png" alt="Figura" loading="lazy">
 
-Calculamos los puntos de corte de la función con la recta.
-$$\begin{cases}
-    y = x^2 - x \\
-    y = x
-\end{cases} \Rightarrow x^2 - x = x \Leftrightarrow x(x - 2) = 0 \Leftrightarrow \begin{cases}
-    x_1 = 0, \\
-    x_2 = 2.
-\end{cases}$$
+<p>
+    Calculamos los puntos de corte de la función con la recta.
+    $$\begin{cases}
+        y = x^2 - x \\
+        y = x
+    \end{cases} \Rightarrow x^2 - x = x \Leftrightarrow x(x - 2) = 0 \Leftrightarrow \begin{cases}
+        x_1 = 0, \\
+        x_2 = 2.
+    \end{cases}$$
+</p>
 
-Calculamos el área del recinto.
-$$\begin{align}
-\Delta & = \int_0^2 (x-f(x))dx = \int_0^1 (x - (-x^2+x))dx + \int_1^2 (x - (x^2-x))dx \\
-& = \int_0^1 x^2dx + \int_1^2 (-x^2 + 2x)dx = \left[\frac{x^3}{3}\right]_0^1 + \left[-\frac{x^3}{3} + x^2\right]_1^2 = 1 \; u^2.
-\end{align}$$
+<p>
+    Por último, calculamos el área del recinto.
+    $$\begin{align}
+    \Delta & = \int_0^2 (x-f(x))dx = \int_0^1 (x - (-x^2+x))dx + \int_1^2 (x - (x^2-x))dx \\
+    & = \int_0^1 x^2dx + \int_1^2 (-x^2 + 2x)dx = \left[\frac{x^3}{3}\right]_0^1 + \left[-\frac{x^3}{3} + x^2\right]_1^2 = 1 \; u^2.
+    \end{align}$$
+</p>
