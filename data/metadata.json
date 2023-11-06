@@ -1030,7 +1030,7 @@
     },
     {
         "ejercicio": 202136,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices",

@@ -1,0 +1,51 @@
+<ol>
+    <li>Calculamos el determinante.
+    Como $A$ es de orden 3,
+    $$\left|\frac{1}{3}A^{-1}A^t\right| = \left(\frac{1}{3}\right)^3 \cdot |A|^{-1} \cdot |A| = \frac{1}{27} \cdot \frac{1}{2} \cdot 2 = \frac{1}{27}.$$</li>
+
+    <li>Calculamos el primer determinante.
+    $$\begin{vmatrix}
+        6c & 2b & 2a \\
+        3f & e & d \\
+        9 & 2 & 1
+    \end{vmatrix} = 2 \cdot \begin{vmatrix}
+        3c & b & a \\
+        3f & e & d \\
+        9 & 2 & 1
+    \end{vmatrix} = 3 \cdot 2 \cdot \begin{vmatrix}
+        c & b & a \\
+        f & e & d \\
+        3 & 2 & 1
+    \end{vmatrix} = -6 \cdot \begin{vmatrix}
+        a & b & c \\
+        d & e & f \\
+        1 & 2 & 3
+    \end{vmatrix} = -12.$$
+
+    Calculamos ahora el segundo determinante.
+    $$\begin{vmatrix}
+        2a-2b & c & b \\
+        2d-2e & f & e \\
+        -2 & 3 & 2
+    \end{vmatrix} = 2 \cdot \begin{vmatrix}
+        a-b & c & b \\
+        d-e & f & e \\
+        -1 & 3 & 2
+    \end{vmatrix} = 2 \cdot \begin{vmatrix}
+        a & c & b \\
+        d & f & e \\
+        1 & 3 & 2
+    \end{vmatrix} + 2 \cdot \begin{vmatrix}
+        -b & c & b \\
+        -e & f & e \\
+        -2 & 3 & 2
+    \end{vmatrix} = 2 \cdot \begin{vmatrix}
+        a & c & b \\
+        d & f & e \\
+        1 & 3 & 2
+    \end{vmatrix} = -2 \cdot \begin{vmatrix}
+        a & b & c \\
+        d & e & f \\
+        1 & 2 & 3
+    \end{vmatrix} = -4.$$</li>
+</ol>
