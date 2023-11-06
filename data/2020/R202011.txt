@@ -1,0 +1,14 @@
+<p>
+    Calculamos el límite.
+    $$\lim_{x \to 0} \left(\frac{1}{\ln(1-x)} - \frac{ax-1}{x}\right) = \lim_{x \to 0} \frac{x - (ax-1)\ln(1-x)}{x\ln(1-x)} = \frac{0}{0}.$$
+</p>
+
+<p>
+    Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
+    $$\lim_{x \to 0} \frac{x - (ax-1)\ln(1-x)}{x\ln(1-x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{1 - a\ln(1-x) + \frac{ax-1}{1-x}}{\ln(1-x) - \frac{x}{1-x}} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{\frac{a}{1-x} + \frac{a-1}{(1-x)^2}}{-\frac{1}{1-x} - \frac{1}{1-x}} = \frac{2a - 1}{-2}.$$
+</p>
+
+<p>
+    Por tanto,
+    $$\lim_{x \to 0} \left(\frac{1}{\ln(1-x)} - \frac{ax-1}{x}\right) = \frac{7}{2} \Leftrightarrow \frac{2a - 1}{-2} = \frac{7}{2} \Leftrightarrow 1-2a = 7 \Leftrightarrow a = -3.$$
+</p>

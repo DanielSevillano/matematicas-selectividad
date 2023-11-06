@@ -1,0 +1,15 @@
+<p>
+    Calculamos el límite.
+    $$\lim_{x \to 0} \frac{xe^x - \ln(1+x) - (a+1)x}{x^2} = \frac{0}{0}.$$
+</p>
+
+<p>
+    Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
+    $$\lim_{x \to 0} \frac{xe^x - \ln(1+x) - (a+1)x}{x^2} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{e^x + xe^x - \frac{1}{1+x} - a - 1}{2x} = \frac{-a-1}{0}.$$
+    Si $a \neq -1$ este límite será infinito, así que necesariamente $a = -1.$
+</p>
+
+<p>
+    Continuamos resolviendo el límite para $a = -1.$
+    $$\lim_{x \to 0} \frac{e^x + xe^x - \frac{1}{1+x}}{2x} \overset{\text{L'H}}{=} \frac{2e^x + xe^x + \frac{1}{(1+x)^2}}{2} = \frac{3}{2}.$$
+</p>
