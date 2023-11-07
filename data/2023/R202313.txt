@@ -1,0 +1,31 @@
+<p>
+    En primer lugar, hallamos una primitiva de la función
+    $$f(x) = \frac{1}{9-x^2}.$$
+</p>
+
+<p>
+    Para resolver esta integral, expresamos la función como suma de fracciones simples.
+    Las raíces del denominador son -3 y 3, así que la función se puede escribir como
+    $$\frac{1}{9-x^2} = \frac{A}{x+3} + \frac{B}{x-3} = \frac{Ax - 3A + Bx + 3B}{x^2 - 9} = \frac{(-A-B)x + 3A - 3B}{9-x^2}.$$
+    Igualdando ambas expresiones, obtenemos que
+    $$\begin{cases}
+        -A - B = 0, \\
+        3A - 3B = 1
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        A = \frac{1}{6}, \\
+        B = -\frac{1}{6}.
+    \end{cases}$$
+    Por tanto,
+    $$\frac{1}{9-x^2} = \frac{1}{6(x+3)} - \frac{1}{6(x-3)}.$$
+</p>
+
+<p>
+    Resolvemos la integral.
+    $$\int \frac{1}{9-x^2}dx = \frac{1}{6} \int \frac{1}{x+3}dx - \frac{1}{6} \int \frac{1}{x-3}dx = \frac{1}{6}\ln|x+3| - \frac{1}{6}\ln|x-3| = \frac{1}{6} \left(\ln|x+3| - \ln|x-3|\right).$$
+</p>
+
+<p>
+    Por último, calculamos la integral definida.
+    $$\int_6^{12} \frac{1}{9-x^2}dx = \frac{1}{6}\Big[\ln|x+3| - \ln|x-3|\Big]_6^{12} = \frac{1}{6} \left(\ln(15) - \ln(9) - \ln(9) + \ln(3)\right) = \frac{1}{6} \ln\left(\frac{15 \cdot 3}{9 \cdot 9}\right) = \frac{1}{6} \ln\left(\frac{5}{9}\right).$$
+</p>

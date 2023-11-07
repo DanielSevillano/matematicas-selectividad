@@ -87,7 +87,7 @@
     },
     {
         "ejercicio": 202313,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -227,7 +227,7 @@
     },
     {
         "ejercicio": 202334,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -283,7 +283,7 @@
     },
     {
         "ejercicio": 202343,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -349,7 +349,7 @@
     },
     {
         "ejercicio": 202353,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"

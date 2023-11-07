@@ -1,0 +1,40 @@
+<p>
+    En primer lugar, hallamos todas las primitivas de la función $f.$
+    $$F(x) = \int f(x)dx = \int \mathrm{arctg}(\sqrt{x})dx.$$
+</p>
+
+<p>
+    Para resolver esta integral, usamos el cambio de variable
+    \begin{align*}
+        x & = t^2 \Rightarrow \sqrt{x} = t, \\
+        dx & = 2tdt.
+    \end{align*}
+
+    De esta forma,
+    $$F(x) = \int \mathrm{arctg}(\sqrt{x})dx = \int 2t\mathrm{arctg}(t)dt.$$
+</p>
+
+<p>
+    Resolvemos la integral por partes.
+    \begin{align*}
+        u = \mathrm{arctg}(t) & \Rightarrow u' = \frac{1}{1+t^2}, \\
+        v' = 2t & \Rightarrow v = t^2.
+    \end{align*}
+
+    Entonces:
+    $$F(x) = \int 2t\mathrm{arctg}(t)dt = t^2\mathrm{arctg}(t) - \int \frac{t^2}{1+t^2}dt.$$
+</p>
+
+<p>
+    Hacemos la división con los dos polinomios del integrando.
+    $$\frac{t^2}{1+t^2} = 1 - \frac{1}{1+t^2}.$$
+
+    Así que:
+    $$F(x) = t^2\mathrm{arctg}(t) - \int 1dt + \int \frac{1}{1+t^2}dt = t^2\mathrm{arctg}(t) - t + \mathrm{arctg}(t) + C = (x+1)\mathrm{arctg}(\sqrt{x}) - \sqrt{x} + C.$$
+</p>
+
+<p>
+    La primitiva que pasa por el punto $(0, 1)$ ha de verificar $F(0) = 1.$
+    Por tanto,
+    $$F(0) = 1 \Leftrightarrow C = 1.$$
+</p>

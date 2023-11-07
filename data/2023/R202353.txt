@@ -1,0 +1,28 @@
+<p>
+    En primer lugar, hallamos una primitiva de la función
+    $$f(x) = \frac{\ln(x)}{x} = \frac{1}{x}\ln(x).$$
+</p>
+
+<p>
+    Resolvemos la integral por partes.
+    \begin{align*}
+        u = \ln(x) & \Rightarrow u' = \frac{1}{x}, \\
+        v ' = \frac{1}{x} & \Rightarrow v = \ln(x).
+    \end{align*}
+
+    Entonces:
+    $$\int \frac{1}{x}\ln(x) = \ln^2(x) - \int \frac{1}{x}\ln(x)dx \Rightarrow \int \frac{\ln(x)}{x}dx = \frac{1}{2}\ln^2(x).$$
+</p>
+
+<p>
+    Calculamos la integral definida.
+    $$\int_a^1 \frac{\ln(x)}{x}dx = \frac{1}{2}\Big[\ln^2(x)\Big]_a^1 = -\frac{1}{2}\ln^2(a).$$
+</p>
+
+<p>
+    Por tanto,
+    $$\int_a^1 \frac{\ln(x)}{x}dx + 2 = 0 \Leftrightarrow -\frac{1}{2}\ln^2(a) + 2 = 0 \Leftrightarrow \ln^2(a) = 4.$$
+    Como $0 < a < 1$, entonces $\ln(a) < 0$.
+    Así que
+    $$\ln^2(a) = 4 \Rightarrow \ln(a) = -2 \Leftrightarrow a = e^{-2}.$$
+</p>
