@@ -1,0 +1,20 @@
+<p>
+    En primer lugar, hallamos una primitiva de la función
+    $$f(x) = \frac{x}{\sqrt{1+x}}.$$
+</p>
+
+<p>
+    Para resolver esta integral, usamos el cambio de variable
+    \begin{align*}
+        t = \sqrt{1+x} \Rightarrow t^2 = 1+x \Rightarrow x & = t^2-1, \\
+        dx & = 2tdt.
+    \end{align*}
+
+    De esta forma,
+    $$\int \frac{x}{\sqrt{1+x}}dx = \int \frac{t^2-1}{t}2tdt = 2\int (t^2-1)dt = \frac{2}{3}t^3 - 2t = \frac{2}{3}(1+x)^{3/2} - 2\sqrt{1+x} = \frac{2}{3}(x-2)\sqrt{1+x}.$$
+</p>
+
+<p>
+    Por último, calculamos la integral definida.
+    $$\int_0^3 \frac{x}{\sqrt{1+x}}dx = \frac{2}{3} \Big[(x-2)\sqrt{1+x}\Big]_0^3 = \frac{2}{3} (2 + 2) = \frac{8}{3}.$$
+</p>

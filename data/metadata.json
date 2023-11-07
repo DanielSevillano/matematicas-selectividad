@@ -620,7 +620,7 @@
     },
     {
         "ejercicio": 202234,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
