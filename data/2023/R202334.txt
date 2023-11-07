@@ -29,4 +29,6 @@
     La primitiva que pasa por el punto $(0, 5)$ ha de verificar $F(0) = 5.$
     Por tanto,
     $$F(0) = 5 \Leftrightarrow 2 + C = 5 \Leftrightarrow C = 3.$$
+    Luego la primitiva es
+    $$F(x) = 2t\mathrm{sen}(\sqrt{x}) + 2\cos(\sqrt{x}) + 3.$$
 </p>

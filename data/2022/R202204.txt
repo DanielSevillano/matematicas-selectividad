@@ -1,21 +1,19 @@
 <p>
-    En primer lugar, hallamos todas las primitivas $F$ de la función $f.$
+    En primer lugar, hallamos todas las primitivas de la función $f.$
     $$F(x) = \int f(x)dx = \int \frac{x^3}{x^2-2x+1}dx.$$
 </p>
 
 <p>
-    Para resolver esta integral, primero dividimos los dos polinomios y obtenemos como cociente $x+2$ y como resto $3x-2.$
-    Luego podemos expresar la función como
-    $$f(x) = \frac{x^3}{x^2-2x+1} = x+2 + \frac{3x-2}{x^2-2x+1}.$$
-    Así que
+    Para resolver esta integral, hacemos la división con los dos polinomios del integrando.
+    $$\frac{x^3}{x^2-2x+1} = x+2 + \frac{3x-2}{x^2-2x+1}.$$
+
+    Así que:
     $$F(x) = \int \frac{x^3}{x^2-2x+1}dx = \int (x+2)dx + \int \frac{3x-2}{x^2-2x+1}dx = \frac{x^2}{2} + 2x + \int \frac{3x-2}{x^2-2x+1}dx.$$
 </p>
 
 <p>
-    Para resolver esta segunda integral, expresamos el integrando como suma de fracciones simples.
-    Hallamos las raíces del denominador.
-    $$x^2 - 2x + 1 = 0 \Leftrightarrow x = 1.$$
-    Como $x = 1$ es una raíz doble, el integrando se puede expresar como suma de fracciones simples de la forma
+    Expresamos la función como suma de fracciones simples.
+    Las raíz doble del denominador es 1, así que la función se puede escribir como 
     $$\frac{3x-2}{x^2-2x+1} = \frac{A}{x-1} + \frac{B}{(x-1)^2} = \frac{A(x-1) + B}{(x-1)^2} = \frac{Ax - A + B}{x^2-2x+1}.$$
     Igualando ambas expresiones, obtenemos que
     $$\begin{cases}
@@ -26,6 +24,7 @@
         A = 3, \\
         B = 1.
     \end{cases}$$
+
     Por tanto,
     $$\frac{3x-2}{x^2-2x+1} = \frac{3}{x-1} + \frac{1}{(x-1)^2}.$$
 </p>
@@ -36,7 +35,8 @@
 </p>
 
 <p>
-    Como queremos hallar la primitiva que pasa por el punto $(2, 6)$, tiene que ocurrir que $F(2) = 6.$
+    La primitiva que pasa por el punto $(2, 6)$ ha de verificar $F(2) = 6.$
+    Por tanto,
     $$F(2) = 6 \Leftrightarrow 2 + 4 - 1 + C = 6 \Leftrightarrow C = 1.$$
     Luego la primitiva es
     $$F(x) = \frac{x^2}{2} + 2x + 3\ln|x-1| - \frac{1}{x-1} + 1.$$

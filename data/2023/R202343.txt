@@ -37,4 +37,6 @@
     La primitiva que pasa por el punto $(0, 1)$ ha de verificar $F(0) = 1.$
     Por tanto,
     $$F(0) = 1 \Leftrightarrow C = 1.$$
+    Luego la primitiva es
+    $$F(x) = (x+1)\mathrm{arctg}(\sqrt{x}) - \sqrt{x} + 1.$$
 </p>
