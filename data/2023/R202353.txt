@@ -5,10 +5,10 @@
 
 <p>
     Resolvemos la integral por partes.
-    \begin{align*}
+    \begin{align}
         u = \ln(x) & \Rightarrow u' = \frac{1}{x}, \\
         v ' = \frac{1}{x} & \Rightarrow v = \ln(x).
-    \end{align*}
+    \end{align}
 
     Entonces:
     $$\int \frac{1}{x}\ln(x) = \ln^2(x) - \int \frac{1}{x}\ln(x)dx \Rightarrow \int \frac{\ln(x)}{x}dx = \frac{1}{2}\ln^2(x).$$

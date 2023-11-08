@@ -5,19 +5,19 @@
 
 <p>
     Resolvemos la integral por partes.
-    \begin{align*}
+    \begin{align}
         u = \mathrm{sen(2x)} & \Rightarrow u' = 2\cos(2x), \\
         v' = e^x & \Rightarrow v = e^x.
-    \end{align*}
+    \end{align}
     Entonces:
 
     $$F(x) = \int e^x\mathrm{sen(2x)}dx = e^x\mathrm{sen(2x)} - 2\int e^x\cos(2x)dx.$$
 
     Integramos de nuevo por partes.
-    \begin{align*}
+    \begin{align}
         u = \cos(2x) & \Rightarrow u' = -2\mathrm{sen(2x)}, \\
         v' = e^x & \Rightarrow v = e^x.
-    \end{align*}
+    \end{align}
 
     Luego
     $$F(x) = e^x\mathrm{sen(2x)} - 2\int e^x\cos(2x)dx = e^x\mathrm{sen(2x)} - 2e^x\cos(2x) - 4\int e^x\mathrm{sen(2x)}dx.$$

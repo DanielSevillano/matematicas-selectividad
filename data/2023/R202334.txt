@@ -5,10 +5,10 @@
 
 <p>
     Para resolver esta integral, usamos el cambio de variable
-    \begin{align*}
+    \begin{align}
         t = \sqrt{x} \Rightarrow t^2 & = x, \\
         2tdt & = dx.
-    \end{align*}
+    \end{align}
 
     De esta forma,
     $$F(x) = \int \cos(\sqrt{x})dx = 2\int t\cos(t)dt.$$
@@ -16,10 +16,10 @@
 
 <p>
     Resolvemos la integral por partes.
-    \begin{align*}
+    \begin{align}
         u = t & \Rightarrow u' = 1, \\
         v' = \cos(t) & \Rightarrow v = \mathrm{sen}(t).
-    \end{align*}
+    \end{align}
 
     Entonces:
     $$F(x) = 2\int t\cos(t)dt = 2t\mathrm{sen}(t) - 2\int \mathrm{sen}(t)dt = 2t\mathrm{sen}(t) + 2\cos(t) + C = 2t\mathrm{sen}(\sqrt{x}) + 2\cos(\sqrt{x}) + C.$$

@@ -268,7 +268,7 @@
 
         El producto de matrices, a diferencia del resto de operaciones, no es conmutativo.
         Por ejemplo:
-        \begin{align*}
+        \begin{align}
             & \begin{pmatrix}
                 2 & 0 \\
                 1 & -3
@@ -301,7 +301,7 @@
                 7 & 3 \\
                 10 & 0
             \end{pmatrix}.
-        \end{align*}
+        \end{align}
     </li>
 </ul>
 
@@ -310,7 +310,7 @@
     Dada una matriz cuadrada $A$, la potencia $A^n$ es el producto $A \cdot A \cdot \ldots \cdot A$, con $A$ multiplicado $n$ veces.
     Por ejemplo:
 
-    \begin{align*}
+    \begin{align}
         & \begin{pmatrix}
             1 & -2 & 3 \\
             0 & -1 & 0 \\
@@ -351,7 +351,7 @@
             0 & -1 & 0 \\
             26 & 107 & -57
         \end{pmatrix}.
-    \end{align*}
+    \end{align}
 </p>
 
 <p>
@@ -591,7 +591,7 @@
 
     Por ejemplo, hallemos la inversa de la matriz $A$.
     Completamos esta matriz con la identidad a su derecha y aplicamos el método de Gauss-Jordan.
-    \begin{align*}
+    \begin{align}
         & \begin{pmatrix}
             1 & 0 & -1 & 1 & 0 & 0 \\
             0 & 1 & 0 & 0 & 1 & 0 \\
@@ -618,7 +618,7 @@
             0 & 1 & 0 & 0 & 1 & 0 \\
             0 & 0 & 1 & -5/2 & -1 & 1/2
         \end{pmatrix}.
-    \end{align*}
+    \end{align}
 
     Así que la matriz inversa de $A$ es
     $$A^{-1} = \begin{pmatrix}
@@ -647,10 +647,10 @@
     <li>
         Se puede multiplicar por una misma matriz en los dos miembros por el mismo lado.
         Por ejemplo, si $A$ es invertible,
-        \begin{align*}
+        \begin{align}
         & AX = B \Leftrightarrow A^{-1}AX = A^{-1}B \Leftrightarrow X = A^{-1}B, \\
         & XA = B \Leftrightarrow XAA^{-1} = BA^{-1} \Leftrightarrow X = BA^{-1}.
-        \end{align*}
+        \end{align}
     </li>
 </ul>
 

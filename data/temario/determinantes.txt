@@ -330,7 +330,7 @@
     \end{vmatrix} = -1 \neq 0,$$
     así que $\mathrm{rang}(A) \geq 2$ para cualquier valor de $\lambda$.<br>
     Ahora calculamos todos los menores de orden 3.
-    \begin{align*}
+    \begin{align}
         & m_1 = \begin{vmatrix}
             2 & 1 & 0 \\
             \lambda & 2 & -1 \\
@@ -351,15 +351,15 @@
             2 & -1 & 0 \\
             -2 & \lambda+2 & 8
         \end{vmatrix} = 2\lambda-6.
-    \end{align*}
+    \end{align}
 
     Veamos cuándo se anulan.
-    \begin{align*}
+    \begin{align}
         & m_1 = 0 \Leftrightarrow -\lambda^2 + 2\lambda + 3 = 0 \Leftrightarrow \lambda = -1 \text{ o } \lambda = 3, &
         & m_2 = 0 \Leftrightarrow 30-10\lambda = 0 \Leftrightarrow \lambda = 3, \\
         & m_3 = 0 \Leftrightarrow \lambda^2 + 2\lambda - 15 = 0 \Leftrightarrow \lambda = -5 \text{ o } \lambda = 3, &
         & m_4 = 0 \Leftrightarrow 2\lambda-6 = 0 \Leftrightarrow \lambda = 3.
-    \end{align*}
+    \end{align}
 
     Estudiamos los casos:
     

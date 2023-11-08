@@ -15,7 +15,7 @@
     \end{vmatrix} = -15.$$
 
     Calculamos ahora el segundo determinante.
-    \begin{align*}
+    \begin{align}
         & \begin{vmatrix}
             a & b & c \\
             a+4 & b-2 & c+2 \\
@@ -54,5 +54,5 @@
             b & -1 & 1 \\
             c & 1 & 1
         \end{vmatrix} = 10.
-    \end{align*}</li>
+    \end{align}</li>
 </ol>

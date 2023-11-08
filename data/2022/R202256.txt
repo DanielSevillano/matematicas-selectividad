@@ -19,7 +19,7 @@
     \end{vmatrix} = 12.$$</li>
 
     <li>Calculamos el determinante.
-    \begin{align*}
+    \begin{align}
         & \begin{vmatrix}
             x & a-3p & -2a \\
             y & b-3q & -2b \\
@@ -50,5 +50,5 @@
             p & q & r \\
             x & y & z
         \end{vmatrix} = 12.
-    \end{align*}</li>
+    \end{align}</li>
 </ol>

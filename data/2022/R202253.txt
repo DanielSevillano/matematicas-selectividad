@@ -13,8 +13,8 @@
 
 <p>
     Por último, calculamos la integral definida mediante la regla de Barrow.
-    \begin{align*}
+    \begin{align}
         & \int_3^8 \frac{1}{\sqrt{1+x} - 1}dx = \left[2(\sqrt{1+x} - 1 + \ln(\sqrt{1+x} - 1))\right]_3^8 = \\
         & = 2(\sqrt{9} - 1 + \ln(\sqrt{9}-1)) - 2(\sqrt{4} - 1 + \ln(\sqrt{4}-1)) = 2(2 + \ln(2)) - 2 = 2(1 + \ln(2)).
-    \end{align*}
+    \end{align}
 </p>

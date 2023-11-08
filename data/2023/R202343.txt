@@ -5,10 +5,10 @@
 
 <p>
     Para resolver esta integral, usamos el cambio de variable
-    \begin{align*}
+    \begin{align}
         x & = t^2 \Rightarrow \sqrt{x} = t, \\
         dx & = 2tdt.
-    \end{align*}
+    \end{align}
 
     De esta forma,
     $$F(x) = \int \mathrm{arctg}(\sqrt{x})dx = \int 2t\mathrm{arctg}(t)dt.$$
@@ -16,10 +16,10 @@
 
 <p>
     Resolvemos la integral por partes.
-    \begin{align*}
+    \begin{align}
         u = \mathrm{arctg}(t) & \Rightarrow u' = \frac{1}{1+t^2}, \\
         v' = 2t & \Rightarrow v = t^2.
-    \end{align*}
+    \end{align}
 
     Entonces:
     $$F(x) = \int 2t\mathrm{arctg}(t)dt = t^2\mathrm{arctg}(t) - \int \frac{t^2}{1+t^2}dt.$$

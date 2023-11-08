@@ -297,11 +297,11 @@
         -3y = -3.
     \end{cases}
     Se trata de un sistema escalonado, así que podemos resolverlo con facilidad.
-    \begin{align*}
+    \begin{align}
         & -3y = -3 \Leftrightarrow y = 1, \\
         & y + 3z = -5 \xrightarrow{y = 1} 1 + 3z = -5 \Leftrightarrow 3z = -6 \Leftrightarrow z = -2, \\
         & x - y + 2z = -3 \xrightarrow[z = -2]{y = 1} x - 1 - 4 = -3 \Leftrightarrow x = 2.
-    \end{align*}
+    \end{align}
 </p>
 
 <p>
@@ -341,11 +341,11 @@
     Para resolver este sistema, tenemos que darle a una incógnita un parámetro como valor.
     Por ejemplo, $z = \lambda$.
     Entonces:
-    \begin{align*}
+    \begin{align}
         & z = \lambda, \\
         & -y - z = -2 \xrightarrow{z = \lambda} - y - 3\lambda = -2 \Leftrightarrow y = 2 - 3\lambda, \\
         & x + y + z = 3 \xrightarrow[y = 2-\lambda]{z = \lambda} x + 2 - 3\lambda + \lambda = 3 \Leftrightarrow x = 1 + 2\lambda.
-    \end{align*}
+    \end{align}
 </p>
 
 <h4>Método de Cramer</h4>
@@ -355,7 +355,7 @@
     donde $\Delta_i$ es la matriz resultante de reemplazar la columna $i$ de $A$ por la matriz columna $B$.<br>
     
     En nuestro ejemplo, podemos hallar la solución con el método de Cramer:
-    \begin{align*}
+    \begin{align}
         & x = \frac{
             \begin{vmatrix}
                 -3 & -1 & 2 \\
@@ -377,7 +377,7 @@
                 1 & -4 & -6
             \end{vmatrix}
         }{|A|} = \frac{-18}{9} = -2.
-    \end{align*}
+    \end{align}
 </p>
 
 <p>
@@ -403,7 +403,7 @@
     \end{pmatrix}$$
     cuadrada y con determinante no nulo.
     Por tanto, podemos aplicar el método de Cramer:
-    \begin{align*}
+    \begin{align}
         & x = \frac{
             \begin{vmatrix}
                 1+2\lambda & 3 \\
@@ -417,5 +417,5 @@
             \end{vmatrix}
         }{|A^\ast|} = \frac{8 - 19\lambda}{-1} = 19\lambda - 8, \\
         & z = \lambda.
-    \end{align*}
+    \end{align}
 </p>

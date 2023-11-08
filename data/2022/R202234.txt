@@ -5,10 +5,10 @@
 
 <p>
     Para resolver esta integral, usamos el cambio de variable
-    \begin{align*}
+    \begin{align}
         t = \sqrt{1+x} \Rightarrow t^2 = 1+x \Rightarrow x & = t^2-1, \\
         dx & = 2tdt.
-    \end{align*}
+    \end{align}
 
     De esta forma,
     $$\int \frac{x}{\sqrt{1+x}}dx = \int \frac{t^2-1}{t}2tdt = 2\int (t^2-1)dt = \frac{2}{3}t^3 - 2t = \frac{2}{3}(1+x)^{3/2} - 2\sqrt{1+x} = \frac{2}{3}(x-2)\sqrt{1+x}.$$

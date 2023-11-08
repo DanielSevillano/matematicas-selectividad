@@ -68,9 +68,9 @@
 
 <p>
     Por tanto,
-    \begin{align*}
+    \begin{align}
         & -x = -500 \Leftrightarrow x = 500, \\
         & -x + y = 100 \xrightarrow{x = 500} -500 + y = 100 \Leftrightarrow y = 600, \\
         & -3x + y + z = 0 \xrightarrow[y = 600]{x = 500} -3 \cdot 500 + 600 + z = 0 \Leftrightarrow z = 900.
-    \end{align*}
+    \end{align}
 </p>

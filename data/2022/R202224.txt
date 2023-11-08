@@ -5,10 +5,10 @@
 
 <p>
     Resolvemos la integral por partes.
-    \begin{align*}
+    \begin{align}
         u = \mathrm{arctg}(x) & \Rightarrow u' = \frac{1}{1+x^2}, \\
         v' = x & \Rightarrow v = \frac{x^2}{2}.
-    \end{align*}
+    \end{align}
 
     Entonces:
     $$\int x\mathrm{arctg}(x)dx = \frac{1}{2}x^2\mathrm{arctg}(x) - \frac{1}{2} \int \frac{x^2}{1+x^2}dx.$$
