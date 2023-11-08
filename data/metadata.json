@@ -479,7 +479,7 @@
     },
     {
         "ejercicio": 202213,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -554,7 +554,7 @@
     },
     {
         "ejercicio": 202224,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
