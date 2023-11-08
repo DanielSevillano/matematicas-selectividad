@@ -26,7 +26,7 @@
 </p>
 
 <p>
-    Hacemos la división con los dos polinomios del integrando.
+    Hacemos la división de polinomios del integrando. 
     $$\frac{t^2}{1+t^2} = 1 - \frac{1}{1+t^2}.$$
 
     Así que:

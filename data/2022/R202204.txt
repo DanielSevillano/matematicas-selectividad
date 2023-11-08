@@ -4,7 +4,7 @@
 </p>
 
 <p>
-    Para resolver esta integral, hacemos la división con los dos polinomios del integrando.
+    Para resolver esta integral, hacemos la división de polinomios del integrando. 
     $$\frac{x^3}{x^2-2x+1} = x+2 + \frac{3x-2}{x^2-2x+1}.$$
 
     Así que:

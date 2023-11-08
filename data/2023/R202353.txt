@@ -22,7 +22,7 @@
 <p>
     Por tanto,
     $$\int_a^1 \frac{\ln(x)}{x}dx + 2 = 0 \Leftrightarrow -\frac{1}{2}\ln^2(a) + 2 = 0 \Leftrightarrow \ln^2(a) = 4.$$
-    Como $0 < a < 1$, entonces $\ln(a) < 0$.
+    Como $0 < a < 1$, entonces $\ln(a) < 0.$
     Así que
     $$\ln^2(a) = 4 \Rightarrow \ln(a) = -2 \Leftrightarrow a = e^{-2}.$$
 </p>
