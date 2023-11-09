@@ -1,0 +1,6 @@
+Sean $f, g: \mathbb{R} \to \mathbb{R}$ las funciones definidas por $f(x) = x^2-2x$ y $g(x) = -x^2+4x$ respectivamente.
+
+<ol>
+    <li>Halla los puntos de corte de sus gráficas y realiza un esbozo del recinto que limitan.</li>
+    <li>Calcula el área de dicho recinto.</li>
+</ol>

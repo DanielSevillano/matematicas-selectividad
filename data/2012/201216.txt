@@ -1,0 +1,2 @@
+Sea la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^2\cos(x).$
+Determina la primitiva de $f$ cuya gráfica pasa por el punto $(\pi, 0).$

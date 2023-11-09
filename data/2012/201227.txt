@@ -1,0 +1,11 @@
+Encuentra la matriz $X$ que satisface la ecuación $XA + A^3B = A$, siendo
+$$A = \begin{pmatrix}
+    0 & 0 & 1 \\
+    0 & 1 & 0 \\
+    1 & 0 & 0
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    2 & -1 & 0 \\
+    0 & 2 & -1 \\
+    -1 & 0 & 2
+\end{pmatrix}.$$

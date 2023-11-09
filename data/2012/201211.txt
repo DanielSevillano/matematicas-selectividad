@@ -1,0 +1,6 @@
+Sea la función $f: (0, +\infty) \to \mathbb{R}$ definida por $f(x) = \frac{1}{x} + \ln(x).$
+
+<ol>
+    <li>Halla los extremos absolutos de $f$ (abscisas donde se obtienen y valores que se alcanzan) en el intervalo $\left[\frac{1}{e}, e\right].$</li>
+    <li>Determina la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = e.$</li>
+</ol>

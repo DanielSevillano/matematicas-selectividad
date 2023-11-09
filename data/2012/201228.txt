@@ -1,0 +1,5 @@
+Los puntos $A(1, 1, 5)$ y $B(1, 1, 2)$ son vértices consecutivos de un rectángulo $ABCD.$
+El vértice $C$, consecutivo a $B$, está en la recta
+$$x = \frac{y-6}{-2} = \frac{z+1}{2}.$$
+
+Determina los vértices $C$ y $D.$

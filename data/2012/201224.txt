@@ -1,0 +1,7 @@
+Dadas las rectas
+$$r \equiv \frac{x+3}{-6} = \frac{y-9}{4} = \frac{z-8}{4} \quad \text{y} \quad s \equiv \frac{x-3}{3} = \frac{y-9}{-2} = \frac{z-8}{-2}.$$
+
+<ol>
+    <li>Determina la posición relativa de las rectas $r$ y $s.$</li>
+    <li>Calcula la distancia entre $r$ y $s.$</li>
+</ol>

@@ -1,0 +1,7 @@
+Sea la función $f: [1, e] \to \mathbb{R}$ definida por $f(x) = x^2 - 8\ln(x).$
+
+<ol>
+    <li>Halla los intervalos de crecimiento y de decrecimiento de $f.$</li>
+    <li>Calcula los extremos absolutos y relativos de la función $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
+    <li>Estudia los intervalos de concavidad y de convexidad.</li>
+</ol>

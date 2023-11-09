@@ -1,0 +1,6 @@
+Sean $f, g: \mathbb{R} \to \mathbb{R}$ las funciones definidas por $f(x) = \mathrm{sen}(x)$ y $g(x) = \cos(x)$ respectivamente.
+
+<ol>
+    <li>Realiza un esbozo de las gráficas de $f$ y $g$ en el intervalo $\left[0, \frac{\pi}{2}\right].$</li>
+    <li>Calcula el área total de los recintos limitados por ambas gráficas y las rectas $x = 0$ y $x = \frac{\pi}{2}.$</li>
+</ol>

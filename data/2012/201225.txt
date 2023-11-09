@@ -1,0 +1,8 @@
+Sea la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = e^x(x^2-x+1).$
+
+<ol>
+    <li>Calcula
+    $$\lim_{x \to -\infty} f(x) \quad \text{y} \quad \lim_{x \to +\infty} f(x).$$</li>
+    <li>Halla los extremos relativos de $f$ (abscisas donde se obtienen y valores que se alcanzan), determinando si son máximos o mínimos.</li>
+    <li>Determina las abscisas de los puntos de inflexión de la gráfica de $f.$</li>
+</ol>

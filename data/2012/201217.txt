@@ -1,0 +1,11 @@
+Dado el sistema de ecuaciones
+\begin{cases}
+    kx + 2y = 3, \\
+    -x + 2kz = -1, \\
+    3x - y - 7z = k+1.
+\end{cases}
+
+<ol>
+    <li>Estudia el sistema para los distintos valores del parámetro $k.$</li>
+    <li>Resuélvelo para $k = 1.$</li>
+</ol>

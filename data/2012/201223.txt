@@ -1,0 +1,11 @@
+Considera el sistema de ecuaciones
+\begin{cases}
+    x + (k+1)y + 2z = -1, \\
+    kx + y + z = 2, \\
+    x - 2y - z = k+1.
+\end{cases}
+
+<ol>
+    <li>Clasifícalo según los distintos valores de $k.$</li>
+    <li>Resuélvelo para el caso $k = 2.$</li>
+</ol>

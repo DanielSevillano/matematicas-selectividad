@@ -1,0 +1,9 @@
+Sea $f$ la función definida por
+$$f(x) = \frac{2x^2}{(x+1)(x-2)}$$
+para $x \neq -1$ y $x \neq 2.$
+
+<ol>
+    <li>Estudia y calcula las asíntotas de la gráfica de $f.$</li>
+    <li>Determina los intervalos de crecimiento y de decrecimiento de $f.$</li>
+    <li>Calcula, si existe, algún punto de la gráfica de $f$ donde esta corta a la asíntota horizontal.</li>
+</ol>

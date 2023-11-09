@@ -1,0 +1,7 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = x^3 - 4x.$
+
+<ol>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1.$</li>
+    <li>Esboza el recinto limitado por la gráfica de $f$ y la recta $y = -x-2$, determinando los puntos de corte de ambas gráficas.</li>
+    <li>Calcula el área del recinto anterior.</li>
+</ol>

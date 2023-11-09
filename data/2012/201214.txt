@@ -1,0 +1,6 @@
+El punto $M(1, -1, 0)$ es el centro de un paralelogramo y $A(2, 1, -1)$ y $B(0, -2, 3)$ son dos vértices consecutivos del mismo.
+
+<ol>
+    <li>Halla la ecuación general del plano que contiene al paralelogramo.</li>
+    <li>Determina uno de los otros dos vértices y calcula el área de dicho paralelogramo.</li>
+</ol>
