@@ -1,0 +1,11 @@
+Un estudiante ha gastado 57 euros en una papelería por la compra de un libro, una calculadora y un estuche.
+Sabemos que el libro cuesta el doble que el total de la calculadora y el estuche juntos.
+
+<ol>
+    <li>¿Es posible determinar de forma única el precio del libro?
+    ¿Y el de la calculadora?
+    Razona las respuestas.</li>
+
+    <li>Si el precio del libro, la calculadora y el estuche hubieran sufrido un 50%, un 20% y un 25% de descuento respectivamente, el estudiante habría pagado un total de 34 euros.
+    Calcula el precio de cada artículo.</li>
+</ol>

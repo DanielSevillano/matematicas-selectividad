@@ -1,0 +1,2 @@
+Sea la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = (1-x^2)e^{-x}.$
+Determina la primitiva de $f$ cuya gráfica pasa por el punto $(-1, 0).$

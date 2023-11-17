@@ -1,0 +1,6 @@
+Sea la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = \ln(x^2 + 3x + 3) - x.$
+
+<ol>
+    <li>Halla los intervalos de crecimiento y de decrecimiento y los extremos relativos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
+    <li>Determina la ecuación de la recta normal a la gráfica de $f$ en el punto de abscisa $x = -2.$</li>
+</ol>

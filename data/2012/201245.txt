@@ -1,0 +1,1 @@
+De entre todos los triángulos rectángulos de hipotenusa 10 unidades, determina las dimensiones del de área máxima.

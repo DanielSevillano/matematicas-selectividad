@@ -1,0 +1,7 @@
+Se considera la función derivable $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \begin{cases}
+    1 + \dfrac{a}{x-2}, & \text{si } x < 1, \\
+    a + \dfrac{b}{\sqrt{x}}, & \text{si } x \geq 1.
+\end{cases}$$
+
+Calcula los valores de $a$ y $b.$

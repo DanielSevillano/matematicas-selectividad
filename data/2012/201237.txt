@@ -1,0 +1,15 @@
+Dada la matriz
+$$A = \begin{pmatrix}
+    3 & -2 \\
+    5 & 1
+\end{pmatrix},$$
+sean $B$ la matriz que verifica que
+$$AB = \begin{pmatrix}
+    -2 & 1 \\
+    7 & 3
+\end{pmatrix}.$$
+
+<ol>
+    <li>Comprueba que las matrices $A$ y $B$ poseen inversas.</li>
+    <li>Resuelve la ecuación matricial $A^{-1}X - B = BA.$</li>
+</ol>

@@ -1,0 +1,12 @@
+Considera el sistema de ecuaciones
+\begin{cases}
+    x + ky + 2z = k+1, \\
+    x + 2y + kz = 3, \\
+    (k+1)x + y + z = k+2.
+\end{cases}
+
+<ol>
+    <li>Determina los valores de $k$ para los que el sistema tiene más de una solución.</li>
+    <li>¿Existe algún valor de $k$ para el cual el sistema no tiene solución?</li>
+    <li>Resuelve el sistema para $k = 0.$</li>
+</ol>

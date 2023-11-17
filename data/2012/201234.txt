@@ -1,0 +1,7 @@
+Se consideran los vectores $\vec{u} = (k, 1, 1)$, $\vec{v} = (2, 1, -2)$ y $\vec{w} = (1, 1, k)$, donde $k$ es un número real.
+
+<ol>
+    <li>Determina los valores de $k$ para los que $\vec{u}$, $\vec{v}$ y $\vec{w}$ son linealmente dependientes.</li>
+    <li>Determina los valores de $k$ para los que $\vec{u} + \vec{v}$ y $\vec{v} - \vec{w}$ son ortogonales.</li>
+    <li>Para $k = -1$, determina aquellos vectores que son ortogonales a $\vec{v}$ y $\vec{w}$ y tienen módulo 1.</li>
+</ol>

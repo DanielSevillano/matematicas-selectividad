@@ -1,0 +1,6 @@
+Se considera el recinto del plano situado en el primer cuadrante limitado por las rectas $y = 4x$, $y = 8-4x$ y la curva $y = 2x - x^2.$
+
+<ol>
+    <li>Realiza un esbozo de dicho recinto.</li>
+    <li>Calcula su área.</li>
+</ol>

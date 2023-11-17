@@ -4514,6 +4514,136 @@
         ]
     },
     {
+        "ejercicio": 201231,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201232,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201233,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201234,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Vectores"
+        ]
+    },
+    {
+        "ejercicio": 201235,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 201236,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201237,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Matrices",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201238,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
+        "ejercicio": 201241,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Funciones"
+        ]
+    },
+    {
+        "ejercicio": 201242,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201243,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Problemas"
+        ]
+    },
+    {
+        "ejercicio": 201244,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
+        "ejercicio": 201245,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201246,
+        "resuelto": false,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201247,
+        "resuelto": false,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201248,
+        "resuelto": false,
+        "categorias": [
+            "Geometría",
+            "Problemas métricos"
+        ]
+    },
+    {
         "ejercicio": 201251,
         "resuelto": false,
         "categorias": [

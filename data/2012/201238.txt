@@ -1,0 +1,3 @@
+Encuentra los puntos de la recta
+$$r \equiv \frac{x-1}{4} = \frac{2-y}{2} = z-3$$
+cuya distancia al plano $\pi \equiv x - 2y + 2z = 1$ vale cuatro unidades.

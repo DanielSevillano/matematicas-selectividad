@@ -1,0 +1,2 @@
+Calcula los valores de $a$ y $b$ sabiendo que la función $f: (0, +\infty) \to \mathbb{R}$ definida por $f(x) = ax^2 + b\ln(x)$ tiene un extremo relativo en $x = 1$ y que
+$$\int_1^4 f(x)dx = 27 - 8\ln(4).$$

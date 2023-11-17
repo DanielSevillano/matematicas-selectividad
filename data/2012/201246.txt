@@ -1,0 +1,7 @@
+Sean las funciones $f: \mathbb{R} \to \mathbb{R}$ y $g: [0, +\infty) \to \mathbb{R}$ definidas por $f(x) = \frac{x^2}{4}$ y $g(x) = 2\sqrt{x}$ respectivamente.
+
+<ol>
+    <li>Halla los puntos de corte de las gráficas de $f$ y $g.$
+    Realiza un esbozo del recinto que limitan.</li>
+    <li>Calcula el área de dicho recinto.</li>
+</ol>
