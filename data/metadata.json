@@ -1815,10 +1815,11 @@
     },
     {
         "ejercicio": 201936,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Teorema fundamental del cálculo"
         ]
     },
     {

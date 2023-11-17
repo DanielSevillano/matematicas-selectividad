@@ -63,3 +63,4 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Reserva 2 (1, 7)
 - [ ] 2019
     - [ ] Reserva 1 (A1)
+    - [ ] Reserva 3 (B2)
