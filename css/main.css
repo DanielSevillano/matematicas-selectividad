@@ -122,7 +122,8 @@ form {
 }
 
 label {
-    display: none;
+    visibility: hidden;
+    position: absolute;
 }
 
 textarea {
