@@ -122,7 +122,8 @@ form {
 }
 
 label {
-    visibility: hidden;
+    height: 1px;
+    overflow: hidden;
     position: absolute;
 }
 
