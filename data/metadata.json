@@ -210,7 +210,7 @@
     },
     {
         "ejercicio": 202332,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones"
@@ -793,7 +793,7 @@
     },
     {
         "ejercicio": 202101,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones"
