@@ -7,7 +7,7 @@ Los principales objetivos son los siguientes.
 - 🔍 Navegación intuitiva y rápida.
 - 📱 Adaptabilidad a dispositivos móviles.
 - ⌚ Tiempos de carga reducidos.
-- 💰 Libre de anuncios y coste.
+- 💰 Gratis y libre de anuncios.
 
 La página hace uso de [MathJax](https://www.mathjax.org/) para mostrar los ejercicios directamente en el navegador.
 Los exámenes están ordenados por año y los ejercicios están clasificados por categorías.
@@ -21,8 +21,8 @@ El diseño está inspirado en [Fluent Design](https://fluent2.microsoft.design),
 ### Reportar errores
 Para reportar un error, crea una [propuesta](https://github.com/DanielSevillano/matematicas-selectividad/issues).
 
-- ✒️ Erratas en los ejercicios y las resoluciones.
-- ❌ Errores en las resoluciones.
+- ✒️ Erratas en los ejercicios, las resoluciones y el temario.
+- ❌ Errores en las resoluciones y el temario.
 - 🏷️ Categorías incorrectas.
 
 ### Proponer nuevas ideas
