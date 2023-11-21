@@ -30,17 +30,6 @@
 </p>
 
 <p>
-    La matriz de coeficientes del sistema es
-    $$A = \begin{pmatrix}
-        3 & 2 & -3 \\
-        -3 & 1 & 1 \\
-        -1 & 1 & 0
-    \end{pmatrix}.$$
-    Como $\det(A) = 1 \neq 0$, el rango de la matriz de coeficientes es máximo.
-    Por el teorema de Rouché–Frobenius, este es un sistema compatible determinado, así que tiene solución única.
-</p>
-
-<p>
     Resolvemos el sistema mediante el método de Gauss.
     $$\begin{pmatrix}
         3 & 2 & -3 & 0 \\
