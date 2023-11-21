@@ -267,7 +267,7 @@
     },
     {
         "ejercicio": 202341,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones"
@@ -373,7 +373,7 @@
     },
     {
         "ejercicio": 202356,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
@@ -670,7 +670,7 @@
     },
     {
         "ejercicio": 202242,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones"

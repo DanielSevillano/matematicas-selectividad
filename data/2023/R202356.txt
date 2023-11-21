@@ -1,0 +1,72 @@
+<p>Llamamos $x$ al importe sin impuestos de refrescos, $y$ al de cerveza y $z$ al de vino.</p>
+
+<p>
+    En primer lugar, si el importe total sin impuestos es de 500€, entonces
+    $$x + y + z = 500.$$
+</p>
+
+<p>
+    Además, si el gasto en vino es de 60€ menos que los gastos en refrescos y cerveza conjuntamente y sin impuestos,
+    $$z = x + y - 60.$$
+</p>
+
+<p>
+    Por último, si los impuestos son del 6%, 12% y 30% respectivamente y el importe total con impuestos es de 592,4€,
+    $$1,06x + 1,12y + 1,3z = 592,4.$$
+</p>
+
+<p>
+    Por tanto, podemos plantear el sistema de ecuaciones lineales
+    $$\begin{cases}
+        x + y + z = 500, \\
+        z = x + y - 60, \\
+        1.06x + 1.12y + 1.3z = 592,4
+    \end{cases} \Rightarrow
+    \begin{cases}
+        x + y + z = 500, \\
+        x + y - z = 60, \\
+        106x + 112y + 130z = 59240.
+    \end{cases}$$
+</p>
+
+<p>
+    Resolvemos el sistema mediante el método de Gauss.
+    $$\begin{pmatrix}
+        1 & 1 & 1 & 500 \\
+        1 & 1 & -1 & 60 \\
+        106 & 112 & 130 & 59240
+    \end{pmatrix} \xrightarrow[F_3 - 106F_2]{F_1 - F_2}
+    \begin{pmatrix}
+        0 & 0 & 2 & 440 \\
+        1 & 1 & -1 & 60 \\
+        0 & 6 & 236 & 52880
+    \end{pmatrix}$$
+
+    El sistema resultante es
+    $$\begin{cases}
+        2z = 440, \\
+        x + y - z = 60, \\
+        6y + 236z = 52880
+    \end{cases} \Rightarrow
+    \begin{cases}
+        z = 220, \\
+        x + y - z = 60, \\
+        3y + 118z = 26440.
+    \end{cases}$$
+</p>
+
+<p>
+    Por tanto,
+    \begin{align}
+        & z = 220, \\
+        & 3y + 118z = 26440 \xrightarrow{z = 220} 3y + 25960 = 26440 \Leftrightarrow 3y = 480 \Leftrightarrow y = 160, \\
+        & x + y - z = 60 \xrightarrow[z = 220]{y = 160} x + 160 - 220 = 60 \Leftrightarrow x = 120.
+    \end{align}
+
+    Así que el importe de cada una de las bebidas con impuestos es
+    <ul>
+        <li>Refrescos: $1.06 \cdot 120 = 127.20\text{ €}.$</li>
+        <li>Cerveza: $1.12 \cdot 160 = 179.20\text{ €}.$</li>
+        <li>Vino: $1.3 \cdot 220 = 286\text{ €}.$</li>
+    </ul>
+</p>
