@@ -1,0 +1,22 @@
+<p>
+    La función $f(x) = 2x + \sqrt{x}$ es continua si $x \geq 0.$
+    Por el teorema fundamental del cálculo, la función
+    $$F(x) = \int_0^x f(t)dt = \int_0^x (2t + \sqrt{t})dt$$
+    es derivable, con $F'(x) = f(x).$$
+</p>
+
+<p>
+    La ecuación de la recta tangente a la gráfica de $F$ en $x = 1$ viene dada por
+    $$y - F(1) = F'(1)(x-1).$$
+
+    Por un lado,
+    $$F'(1) = f(1) = 3.$$
+
+    Por otro lado,
+    $$F(1) = \int_0^1 f(t)dt = \int_0^1 (2t + \sqrt{t})dt = \Big[t^2 + \frac{2}{3}t^{\frac{3}{2}}\Big]_0^1 = 1 + \frac{2}{3} = \frac{5}{3}.$$
+</p>
+
+<p>
+    Por tanto, la ecuación de la recta tangente en $x = 1$ es
+    $$y - \frac{5}{3} = 3(x-1) \Leftrightarrow y = 3x - 3 + \frac{5}{3} \Leftrightarrow y = 3x - \frac{4}{3}.$$
+</p>

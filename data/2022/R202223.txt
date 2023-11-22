@@ -1,0 +1,53 @@
+<p>
+    La función $f(x) = 2x\cos(x)$ es continua.
+    Por el teorema fundamental del cálculo, la función
+    $$F(x) = \int_0^x f(t)dt = \int_0^x 2t\cos(t)dt$$
+    es derivable, con $F'(x) = f(x).$
+</p>
+
+<ol>
+    <li>Hallamos los puntos críticos de $F.$
+    $$F'(x) = 0 \Leftrightarrow f(x) = 0 \Leftrightarrow 2x\cos(x) = 0 \Leftrightarrow \begin{cases}
+        x = 0, \\
+        \cos(x) = 0 \Leftrightarrow x = \dfrac{\pi}{2} \quad \text{o} \quad x = \dfrac{3\pi}{2}.
+    \end{cases}$$
+
+    Así que los puntos críticos son $x = 0$, $x = \frac{\pi}{2}$ y $x = \frac{3\pi}{2}.$
+    Estudiamos el signo de $F' = f$ para determinar si $F$ es creciente o decreciente.
+    <ul>
+        <li>Si $x \in \left(0, \frac{\pi}{2}\right)$, $F'(x) > 0.$
+        Así que $F$ es creciente.</li>
+        <li>Si $x \in \left(\frac{\pi}{2}, \frac{3\pi}{2}\right)$, $F'(x) < 0.$
+        Así que $F$ es decreciente.</li>
+        <li>Si $x \in \left(\frac{3\pi}{2}, 2\pi\right)$, $F'(x) > 0.$
+        Así que $F$ es creciente.</li>
+    </ul>
+
+    Por tanto, $F$ es creciente en $\left(0, \frac{\pi}{2}\right) \cup \left(\frac{3\pi}{2}, 2\pi\right)$ y es decreciente en $\left(\frac{\pi}{2}, \frac{3\pi}{2}\right).$</li>
+
+    <li>La ecuación de la recta tangente a la gráfica de $F$ en $x = \pi$ viene dada por
+    $$y - F(\pi) = F'(\pi)(x-\pi).$$
+    
+    Por un lado,
+    $$F'(\pi) = f(\pi) = -2\pi.$$
+
+    Por otro lado,
+    $$F(\pi) = \int_0^\pi f(t)dt = \int_0^\pi 2t\cos(t)dt.$$
+
+    En primer lugar, hallamos una primitiva de $f.$
+    Resolvemos la integral por partes.
+    \begin{align}
+        u = t & \Rightarrow u' = 1, \\
+        v' = \cos(t) & \Rightarrow v = \mathrm{sen}(t).
+    \end{align}
+
+    Entonces:
+    $$\int 2t\cos(t)dt = 2\int t\cos(t)dt = 2t\mathrm{sen}(t) - 2\int \mathrm{sen}(t)dt = 2t\mathrm{sen}(t) + 2\cos(t).$$
+
+    Calculamos la integral definida.
+    $$F(\pi) = \int_0^\pi 2t\cos(t)dt = 2\Big[t\mathrm{sen}(t) + \cos(t)\Big]_0^\pi = -2-2 = -4.$$
+
+    Por tanto, la ecuación de la recta tangente en $x = \pi$ es
+    $$y + 4 = -2\pi(x-\pi) \Leftrightarrow y = -2\pi x + 2\pi^2 - 4.$$
+    </li>
+</ol>
