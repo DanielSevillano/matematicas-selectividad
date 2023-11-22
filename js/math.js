@@ -174,13 +174,14 @@ async function mostrarExamen(examen) {
     });
 }
 
-async function obtenerCategoria(categoria) {
+async function obtenerCategoria(categoria, soloResueltos) {
     const main = document.querySelector("main");
 
     const respuesta = await fetch("data\\metadata.json");
     const datos = await respuesta.json();
 
-    const ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
+    let ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
+    if (soloResueltos) ejercicios = ejercicios.filter(ejercicio => ejercicio.resuelto);
 
     for (let ejercicio of ejercicios) {
         if (estado.cancelado) {
@@ -203,12 +204,12 @@ async function obtenerCategoria(categoria) {
     return true;
 }
 
-async function mostrarCategoria(categoria) {
+async function mostrarCategoria(categoria, soloResueltos = false) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerCategoria(categoria).then(() => {
+    obtenerCategoria(categoria, soloResueltos).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });

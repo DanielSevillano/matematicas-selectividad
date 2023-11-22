@@ -9,6 +9,10 @@ const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
+const casilla = document.querySelector("#casilla");
+
+let categoriaSeleccionada;
+let soloResueltos = casilla.checked;
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
@@ -27,7 +31,8 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
-        mostrarCategoria(categoria);
+        mostrarCategoria(categoria, soloResueltos);
+        categoriaSeleccionada = categoria;
         history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
         botones.forEach(b => {
@@ -36,6 +41,11 @@ function pulsar(boton) {
         });
     }
     else setTimeout(() => pulsar(boton));
+}
+
+function mostrarSoloResueltos() {
+    if (!estado.cancelado) mostrarCategoria(categoriaSeleccionada, soloResueltos);
+    else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 
 botones.forEach(boton => {
@@ -55,6 +65,12 @@ botonAleatorio.addEventListener("click", () => {
     else if (["algebra", "matrices", "sistemas", "determinantes", "ecuaciones-matriciales", "problemas"].includes(categoria)) document.querySelector("#grupo-algebra").click();
     else document.querySelector("#grupo-geometria").click();
 });
+
+casilla.addEventListener("click", () => {
+    soloResueltos = casilla.checked;
+    if (main.classList.contains("cargando")) estado.cancelar();
+    if (categoriaSeleccionada) mostrarSoloResueltos();
+})
 
 if (!categoria) document.querySelector(".grupo").click();
 else {

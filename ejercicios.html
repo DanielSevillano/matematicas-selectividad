@@ -15,6 +15,16 @@
     <script type="module" src="js/ejercicios.js"></script>
     <script src="js/config.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        #contenedor-casilla {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            gap: 5px;
+            font-size: 0.875rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -71,6 +81,11 @@
             <button id="boton-vectores" class="contorno">Vectores</button>
             <button id="boton-lugares-geometricos" class="contorno">Lugares geométricos</button>
             <button id="boton-problemas-metricos" class="contorno">Problemas métricos</button>
+        </div>
+
+        <div id="contenedor-casilla">
+            <label for="casilla">Solo ejercicios resueltos</label>
+            <input type="checkbox" name="casilla" id="casilla">
         </div>
     </nav>
 
