@@ -9,12 +9,6 @@ article {
     padding-inline: 0.25em;
 }
 
-main>p {
-    margin-top: 40px;
-    text-align: center;
-    font-style: italic;
-}
-
 h2 {
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +31,12 @@ h2+article h3 {
 
 article>p {
     margin-top: 0.75em;
+}
+
+.pista {
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
 }
 
 #aleatorio {
