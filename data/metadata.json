@@ -194,7 +194,7 @@
     },
     {
         "ejercicio": 202328,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Vectores"
@@ -1374,7 +1374,7 @@
     },
     {
         "ejercicio": 202028,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Vectores"
