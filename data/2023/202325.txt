@@ -1,21 +1,11 @@
-Sean las matrices
+Considera la matriz
 $$A = \begin{pmatrix}
-    m+1 & 1 & m-1 \\
-    1 & 1 & 1 \\
-    m-1 & 1 & m+1
-\end{pmatrix}, \quad
-B = \begin{pmatrix}
-    0 & 4 & 2 \\
-    0 & 0 & 4 \\
-    2 & 2 & 1
-\end{pmatrix} \quad \text{y} \quad
-C = \begin{pmatrix}
-    0 & 0 & 1 \\
-    0 & 1 & 0 \\
-    1 & 0 & 0
+    0 & a & -b \\
+    0 & 0 & b \\
+    0 & 0 & 0
 \end{pmatrix}.$$
 
 <ol>
-    <li>Calcula $m$ para que la matriz $A$ tenga inversa.</li>
-    <li>Para $m = 0$, resuelve, si es posible, la ecuación matricial $\frac{1}{2}AX + C^4 = B.$</li>
+    <li>Calcula $A^{10}.$</li>
+    <li>Calcula, si es posible, la matriz inversa de $I + A + A^2$, donde $I$ denota la matriz identidad de orden 3.</li>
 </ol>

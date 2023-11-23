@@ -1,6 +1,6 @@
-Dados los puntos $O(0, 0, 0)$, $A(2, -1, 0)$, $B(3, 0, x)$ y $C(-x, 1, -1)$, los vectores $\vec{OA}$, $\vec{OB}$ y $\vec{OC}$ determinan un paralelepípedo.
+Considera el paralelogramo cuyos vértices consecutivos son los puntos $P(-1, 2, 3)$, $Q(-2, 1, 0)$, $R(0, 5, 1)$ y $S.$
 
 <ol>
-    <li>Calcula los posibles valores de $x$ sabiendo que el volumen del paralelepípedo es 5 unidades cúbicas.</li>
-    <li>Para $x = 1$, halla el área de la cara del paralelepípedo que contiene a los vértices $O$, $A$ y $B.$</li>
+    <li>Halla las coordenadas del punto $S.$</li>
+    <li>Calcula la ecuación de la recta que pasa por el origen de coordenadas y es perpendicular al plano que contiene a los puntos $P$, $Q$ y $R.$</li>
 </ol>

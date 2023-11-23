@@ -1,9 +1,8 @@
 Considera la función
-$$f(x) = \frac{1}{x|x|},$$
-para $x \neq 0.$
+$$f(x) = \frac{x^2 + a}{x - b},$$
+para $x \neq b.$
 
 <ol>
-    <li>Calcula los intervalos de concavidad y de convexidad de $f$, así como los puntos de inflexión de su gráfica, si existen.</li>
-    <li>Estudia y calcula las asíntotas de la función.
-    Esboza su gráfica.</li>
+    <li>Calcula $a$ y $b$ para que la gráfica de $f$ pase por el punto $(1, -2)$ y tenga a la recta $y = x+4$ como asíntota oblicua.</li>
+    <li>En el caso $a = 5$ y $b = 4$, calcula la ecuación de la recta normal a la gráfica de $f$ que pasa por el punto de abscisa $x = 0.$</li>
 </ol>

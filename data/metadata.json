@@ -145,7 +145,7 @@
     },
     {
         "ejercicio": 202322,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones"
@@ -156,12 +156,13 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Teorema fundamental del cálculo"
         ]
     },
     {
         "ejercicio": 202324,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -172,8 +173,7 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices",
-            "Ecuaciones matriciales"
+            "Matrices"
         ]
     },
     {
@@ -194,10 +194,10 @@
     },
     {
         "ejercicio": 202328,
-        "resuelto": true,
+        "resuelto": false,
         "categorias": [
             "Geometría",
-            "Vectores"
+            "Lugares geométricos"
         ]
     },
     {
@@ -210,7 +210,7 @@
     },
     {
         "ejercicio": 202332,
-        "resuelto": true,
+        "resuelto": false,
         "categorias": [
             "Análisis",
             "Funciones"
@@ -221,13 +221,12 @@
         "resuelto": false,
         "categorias": [
             "Análisis",
-            "Integrales",
-            "Teorema fundamental del cálculo"
+            "Integrales"
         ]
     },
     {
         "ejercicio": 202334,
-        "resuelto": true,
+        "resuelto": false,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -238,7 +237,8 @@
         "resuelto": false,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Ecuaciones matriciales"
         ]
     },
     {
@@ -259,10 +259,10 @@
     },
     {
         "ejercicio": 202338,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Geometría",
-            "Lugares geométricos"
+            "Vectores"
         ]
     },
     {

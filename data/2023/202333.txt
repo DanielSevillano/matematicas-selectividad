@@ -1,6 +1,1 @@
-Sabiendo que $F: \mathbb{R} \to \mathbb{R}$ definida por $F(x) = e^{x^2}$ es una primitiva de $f.$
-
-<ol>
-    <li>Comprueba que $f$ es creciente.</li>
-    <li>Calcula el área del recinto limitado por la gráfica de la función $f$, el eje de abscisas y la recta $x = 1.$</li>
-</ol>
+Determina la función $f: (0, +\infty) \to \mathbb{R}$, sabiendo que es dos veces derivable, su gráfica pasa por el punto $(1, 0)$, $f'(e) = e$ y $f''(x) = 2\ln(x) + 1$, para todo $x > 0.$

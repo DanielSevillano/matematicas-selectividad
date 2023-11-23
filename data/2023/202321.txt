@@ -1,1 +1,1 @@
-De entre todos los rectángulos de diagonal 10 cm (cada una), calcula las dimensiones del que tiene mayor área.
+Halla dos números mayores o iguales que 0, cuya suma sea 1, y el producto de uno de ellos por la raíz cuadrada del otro sea máximo.
