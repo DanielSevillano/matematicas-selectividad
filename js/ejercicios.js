@@ -9,7 +9,9 @@ const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
-const casilla = document.querySelector("#casilla");
+const cinta = document.querySelector("#cinta");
+const contador = cinta.querySelector("#contador");
+const casilla = cinta.querySelector("#casilla");
 
 let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
@@ -31,8 +33,9 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
-        mostrarCategoria(categoria, soloResueltos);
+        mostrarCategoria(categoria, soloResueltos, contador);
         categoriaSeleccionada = categoria;
+        cinta.classList.remove("oculto");
         history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
         botones.forEach(b => {
@@ -44,7 +47,7 @@ function pulsar(boton) {
 }
 
 function mostrarSoloResueltos() {
-    if (!estado.cancelado) mostrarCategoria(categoriaSeleccionada, soloResueltos);
+    if (!estado.cancelado) mostrarCategoria(categoriaSeleccionada, soloResueltos, contador);
     else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 

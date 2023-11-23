@@ -174,7 +174,7 @@ async function mostrarExamen(examen) {
     });
 }
 
-async function obtenerCategoria(categoria, soloResueltos) {
+async function obtenerCategoria(categoria, soloResueltos, contador) {
     const main = document.querySelector("main");
 
     const respuesta = await fetch("data\\metadata.json");
@@ -182,6 +182,7 @@ async function obtenerCategoria(categoria, soloResueltos) {
 
     let ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
     if (soloResueltos) ejercicios = ejercicios.filter(ejercicio => ejercicio.resuelto);
+    contador.textContent = ejercicios.length;
 
     for (let ejercicio of ejercicios) {
         if (estado.cancelado) {
@@ -204,12 +205,12 @@ async function obtenerCategoria(categoria, soloResueltos) {
     return true;
 }
 
-async function mostrarCategoria(categoria, soloResueltos = false) {
+async function mostrarCategoria(categoria, soloResueltos = false, contador) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerCategoria(categoria, soloResueltos).then(() => {
+    obtenerCategoria(categoria, soloResueltos, contador).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });

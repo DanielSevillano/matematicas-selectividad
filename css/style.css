@@ -44,6 +44,11 @@ article>p {
     margin-inline: auto;
 }
 
+.oculto {
+    position: absolute;
+    visibility: hidden;
+}
+
 /********************
 Imágenes
 ********************/

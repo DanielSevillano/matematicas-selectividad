@@ -17,12 +17,28 @@
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     <style>
+        #cinta {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background-color: var(--container-color);
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            font-size: 0.875rem;
+        }
+
+        #cinta p {
+            margin: 0;
+        }
+
         #contenedor-casilla {
             display: flex;
             flex-direction: row;
-            justify-content: flex-end;
+            align-items: flex-end;
             gap: 5px;
-            font-size: 0.875rem;
+            accent-color: var(--accent-color);
         }
     </style>
 </head>
@@ -83,9 +99,13 @@
             <button id="boton-problemas-metricos" class="contorno">Problemas métricos</button>
         </div>
 
-        <div id="contenedor-casilla">
-            <label for="casilla">Solo ejercicios resueltos</label>
-            <input type="checkbox" name="casilla" id="casilla">
+        <div id="cinta" class="oculto">
+            <p><span id="contador"></span> ejercicios</p>
+
+            <div id="contenedor-casilla">
+                <label for="casilla">Solo resueltos</label>
+                <input type="checkbox" name="casilla" id="casilla">
+            </div>
         </div>
     </nav>
 
