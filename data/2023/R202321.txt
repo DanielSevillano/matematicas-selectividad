@@ -1,0 +1,27 @@
+<p>
+    Llamamos $x$ e $y$ a los dos números, con $x, y \geq 0.$
+    Como $x + y = 1$, entonces $y = 1 - x.$
+    Así que la función a maximizar es
+    $$f(x) = x \cdot \sqrt{y} = x\sqrt{1-x}.$$
+</p>
+
+<p>
+    En primer lugar, calculamos la derivada de la función $f.$
+    $$f'(x) = \sqrt{1-x} - \frac{x}{2\sqrt{1-x}}.$$
+
+    Hallamos los puntos críticos de $f$ igualando la derivada a cero.
+    $$f'(x) = 0 \Leftrightarrow \sqrt{1-x} - \frac{x}{2\sqrt{1-x}} = 0 \Leftrightarrow 1-x = \frac{x}{2} \Leftrightarrow x = \frac{2}{3}.$$
+</p>
+
+<p>
+    Comprobamos que en el punto de abscisa $x = \frac{2}{3}$ se alcanza el máximo de la función.
+    <ul>
+        <li>Si $0 < x < \frac{2}{3}$, $f'(x) > 0.$
+        Así que $f$ es creciente.</li>
+        <li>Si $\frac{2}{3} < x < 1$, $f'(x) < 0.$
+        Así que $f$ es decreciente.</li>
+    </ul>
+    Luego $f$ tiene un máximo en $x = \frac{2}{3}$.
+</p>
+
+<p>Por tanto, los números son $x = \frac{2}{3}$ e $y = 1-x = \frac{1}{3}.$</p>

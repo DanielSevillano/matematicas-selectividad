@@ -137,7 +137,7 @@
     },
     {
         "ejercicio": 202321,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Optimización"
@@ -1929,7 +1929,7 @@
     },
     {
         "ejercicio": 201954,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Vectores"
