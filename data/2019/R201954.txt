@@ -1,8 +1,8 @@
 <ol>
     <li>Dos vectores son ortogonales si su producto escalar es cero.
-    Por un lado, como $\vec{u}$ y $\vec{w}$ son ortogonales,
+    Por un lado, si $\vec{u}$ y $\vec{w}$ son ortogonales,
     $$\vec{u} \cdot \vec{w} = 0 \Leftrightarrow 2 + 2\alpha + 3\beta.$$
-    Por otro lado, como $\vec{v}$ y $\vec{w}$ son ortogonales,
+    Por otro lado, si $\vec{v}$ y $\vec{w}$ son ortogonales,
     $$\vec{v} \cdot \vec{w} = 0 \Leftrightarrow 2 - 2\alpha - \beta = 0.$$
 
     Por tanto, podemos plantear el sistema de ecuaciones
@@ -19,14 +19,14 @@
     Así que $\alpha = 2$ y $\beta = -2.$</li>
 
     <li>Dos vectores tienen la misma dirección si sus componentes son proporcionales.
-    Como $\vec{v}$ y $\vec{w}$ tienen la misma dirección,
+    Si $\vec{v}$ y $\vec{w}$ tienen la misma dirección,
     $$\frac{1}{2} = \frac{-2}{\alpha} = \frac{-1}{\beta}.$$
 
     Por tanto, $\alpha = -4$ y $\beta = -2.$</li>
 
     <li>Si $\alpha = 8$, $\vec{w} = (2, 8, \beta).$
     Un vector es combinación lineal de otros dos si el determinante formado por las componentes de los tres vectores es nulo.
-    Como $\vec{w}$ es combinación lineal de $\vec{u}$ y $\vec{v}$,
+    Si $\vec{w}$ es combinación lineal de $\vec{u}$ y $\vec{v}$,
     $$\begin{vmatrix}
         1 & 2 & 3 \\
         1 & -2 & -1 \\

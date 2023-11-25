@@ -8,9 +8,9 @@
     
     Estudiemos el signo de $f'$ para determinar si en $x = 0$ hay un extremo.
     <ul>
-        <li>Si $x \in (-\infty, 0)$, $f'(x) > 0.$
+        <li>Si $x < 0$, $f'(x) > 0.$
         Así que $f$ es creciente.</li>
-        <li>Si $x \in (0, +\infty)$, $f'(x) < 0.$
+        <li>Si $x > 0$, $f'(x) < 0.$
         Así que $f$ es decreciente</li>
     </ul>
 

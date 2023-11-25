@@ -2,7 +2,7 @@
     La función $f(x) = -x^2 + 12$ es simétrica par, así que todo rectángulo inscrito en el recinto limitado por su gráfica y el eje de abscisas estará centrado con respecto al eje de ordenadas.
     Llamamos $x$ a la distancia del centro a cada uno de los extremos del rectángulo horizontalmente.
     Por otro lado, llamamos $y$ a la altura del rectángulo.
-    Como $x$ e $y$ son distancias, necesariamente $x, y \geq 0.$
+    Como $x$ e $y$ son distancias, entonces $x, y \geq 0.$
     Representamos la figura.
     <img src="img/R202252.png" alt="Figura" loading="lazy">
 </p>
@@ -11,14 +11,28 @@
     Como la base del rectángulo es $2x$, el área viene dada por $2xy.$
     Como además los vértices superiores del rectángulos están sobre la gráfica de la función $f$, entonces $y = f(x) = -x^2 + 12.$
     Por tanto, la función a maximizar es
-    $$S(x) = 2x \cdot (-x^2 + 12) = -2x^3 + 24x,$$
-    sustituyendo el valor de $y.$
+    $$S(x) = 2x \cdot y = 2x \cdot (-x^2 + 12) = -2x^3 + 24x.$$
 </p>
 
 <p>
-    Para hallar los puntos críticos de $f$, igualamos a cero la derivada $f'(x) = -6x^2 + 24.$
+    En primer lugar, calculamos la derivada de la función $f.$
+    $$f'(x) = -6x^2 + 24..$$
+
+    Hallamos los puntos críticos de $f$ igualando la derivada a cero.
     $$f'(x) = 0 \Leftrightarrow -6x^2 + 24 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$
-    Como $x \geq 0$ por ser una distancia, necesariamente $x = 2.$
+
+    Como $x \geq 0$ por ser una distancia, la solución $x = -2$ no es válida para este problema.
+</p>
+
+<p>
+    Comprobamos que en el punto de abscisa $x = 2$ se alcanza el máximo de la función.
+    <ul>
+        <li>Si $-2 < x < 2$, $f'(x) > 0.$
+        Así que $f$ es creciente.</li>
+        <li>Si $x > 2$, $f'(x) < 0.$
+        Así que $f$ es decreciente.</li>
+    </ul>
+    Luego $f$ tiene un máximo en $x = 2.$
     Por tanto, $y = -x^2 + 12 = 8.$
 </p>
 

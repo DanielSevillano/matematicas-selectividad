@@ -12,7 +12,9 @@
     $$V = 5 \Leftrightarrow |x^2 - 2x - 3| = 5 \Rightarrow \begin{cases}
         x^2 - 2x - 3 = 5 \Leftrightarrow x^2 - 2x - 8 = 0 \Leftrightarrow x = -2 \quad \text{o} \quad x = 4, \\
         x^2 - 2x - 3 = -5 \Leftrightarrow x^2 - 2x + 2 = 0 \quad \text{no tiene solución}.
-    \end{cases}$$</li>
+    \end{cases}$$
+    
+    Por tanto, los posibles valores son $x = -2$ y $x = 4.$</li>
 
     <li>Si $x = 1$, entonces $\vec{OB} = (3, 0, 1).$
     Cada cara del paralelepípedo es un paralelogramo.
