@@ -1,0 +1,56 @@
+<p>
+    La función $g(x) = xe^x$ es continua.
+    Por el teorema fundamental del cálculo, la función
+    $$G(x) = \int_0^x g(t)dt = \int_0^x te^tdt$$
+    es derivable, con $G'(x) = g(x).$
+
+    De esta forma, podemos escribir
+    $$f(x) = 1 + \int_0^x te^tdt = 1 + G(x).$$
+</p>
+
+<p>
+    Para estudiar la curvatura de la función $f$ tenemos que hallar su segunda derivada.
+    \begin{align}
+        f'(x) & = G'(x) = g(x) = xe^x, \\
+        f''(x) & = g'(x) = e^x + xe^x = e^x(x+1).
+    \end{align}
+
+    Hallamos los candidatos a puntos de inflexión igualando la segunda derivada a cero.
+    $$f''(x) = 0 \Leftrightarrow e^x(x+1) = 0 \Leftrightarrow \begin{cases}
+        e^x = 0 \quad \text{no tiene solución}, \\
+        x+1 = 0 \Leftrightarrow x = -1.
+    \end{cases}$$
+    Así que el único candidato a punto de inflexión tiene abscisa $x = -1.$
+
+    Estudiamos el signo de $f''$ para determinar si $f$ es cóncava o convexa.
+    <ul>
+        <li>Si $x < -1$, $f''(x) < 0.$
+        Así que $f$ es cóncava en $(-\infty, -1).$</li>
+        <li>Si $x > -1$, $f''(x) > 0.$
+        Así que $f$ es convexa en $(-1, +\infty).$</li>
+    </ul>
+
+    Por tanto, $f$ tiene un punto de inflexión en $x = -1.$
+    Su imagen viene dada por
+    $$f(-1) = 1 + \int_0^{-1} te^tdt = 1 + \int_0^{-1} g(t)dt.$$
+</p>
+
+<p>
+    En primer lugar, hallamos una primitiva de la función $g.$
+    Resolvemos la integral por partes.
+    \begin{align}
+        u = t & \Rightarrow u' = 1, \\
+        v' = e^x & \Rightarrow v = e^x.
+    \end{align}
+
+    Entonces:
+    $$\int te^tdt = te^t - \int e^tdt = te^t - e^t = e^t(t-1).$$
+
+    Calculamos la integral definida.
+    $$\int_0^{-1} te^tdt = \Big[e^t(t-1)\Big]_0^{-1} = -2e^{-1} + 1.$$
+
+    Por tanto,
+    $$f(-1) = 1 + \int_0^{-1} te^tdt = 1 -2e^{-1} + 1 = 2 - \frac{2}{e}.$$
+
+    Así que el punto de inflexión es $\left(-1, 2 - \frac{2}{e}\right).$
+</p>

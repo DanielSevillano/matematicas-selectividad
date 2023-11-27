@@ -1,0 +1,67 @@
+<p>Llamamos $x$ al número de series de animación de la plataforma, $y$ al de series de ciencia ficción y $z$ al de series de comedia.</p>
+
+<p>
+    En primer lugar, si el 30% de las series de animación junto con el 50% de las de ciencia ficción son el 20% del total de series, entonces
+    $$0.3x + 0.5y = 0.2(x+y+z).$$
+</p>
+
+<p>
+    Además, si el 25% de las series de animación junto con el 50% de las de ciencia ficción y el 60% de las de comedia son la mitad del total de series,
+    $$0.25x + 0.5y + 0.6z = \frac{x+y+z}{2}.$$
+</p>
+
+<p>
+    Por último, si hay 100 series menos de animación que de ciencia ficción,
+    $$x = y-100.$$
+</p>
+
+<p>
+    Por tanto, podemos plantear el sistema de ecuaciones lineales
+    $$\begin{cases}
+        0.3x + 0.5y = 0.2(x+y+z), \\
+        0.25x + 0.5y + 0.6z = \frac{x+y+z}{2}, \\
+        x = y-100
+    \end{cases} \Rightarrow \begin{cases}
+        0.1x + 0.3y - 0.2z = 0, \\
+        -0.25x + 0.1z = 0, \\
+        x - y = -100
+    \end{cases} \Rightarrow \begin{cases}
+        x + 3y - 2z = 0, \\
+        -5x + 2z = 0, \\
+        x - y = -100.
+    \end{cases}$$
+</p>
+
+<p>
+    Resolvemos el sistema mediante el método de Gauss.
+    $$\begin{pmatrix}
+        1 & 3 & -2 & 0 \\
+        -5 & 0 & 2 & 0 \\
+        1 & -1 & 0 & -100
+    \end{pmatrix} \xrightarrow{F_1 + F_2} \begin{pmatrix}
+        -4 & 3 & 0 & 0 \\
+        -5 & 0 & 2 & 0 \\
+        1 & -1 & 0 & -100
+    \end{pmatrix} \xrightarrow{F_1 + 3F_3} \begin{pmatrix}
+        -1 & 0 & 0 & -300 \\
+        -5 & 0 & 2 & 0 \\
+        1 & -1 & 0 & -100
+    \end{pmatrix}$$
+
+    El sistema resultante es
+    \begin{cases}
+        -x = -300, \\
+        -5x + 2z = 0, \\
+        x - y = -100.
+    \end{cases}
+</p>
+
+<p>
+    Por tanto,
+    \begin{align}
+        & -x = -300 \Leftrightarrow x = 300, \\
+        & -5x + 2z = 0 \xrightarrow{x = 300} -1500 + 2z = 0 \Leftrightarrow z = 750, \\
+        & x - y = -100 \xrightarrow{x = 300} 300 - y = -100 \Leftrightarrow y = 400.
+    \end{align}
+    Así que esta plataforma tiene 300 series de animación, 400 series de ciencia ficción y 750 series de comedia.
+</p>

@@ -1,0 +1,48 @@
+<ol>
+    <li>Calculamos todas las primitivas de $f.$
+    $$\int f(t)dt = \int \frac{1}{1+e^t}dt.$$
+
+    Para resolver esta integral, usamos el cambio de variable
+    \begin{align}
+        x = 1+e^t \Rightarrow t & = \ln(x-1), \\
+        dt & = \frac{1}{x-1}dt
+    \end{align}
+
+    De esta forma,
+    $$\int \frac{1}{1+e^t}dt = \int \frac{1}{x(x-1)}dx.$$
+
+    Para resolver esta nueva integral, expresamos la función como suma de fracciones simples.
+    Las raíces del denominador son 0 y 1, así que la función se puede escribir como
+    $$\frac{1}{x(x-1)} = \frac{A}{x} + \frac{B}{x-1} = \frac{Ax - A + Bx}{x(x-1)} = \frac{(A+B)x - A}{x(x-1)}.$$
+
+    Igualando ambas expresiones, obtenemos que
+    \begin{cases}
+        A + B = 0, \\
+        -A = 1.
+    \end{cases}
+
+    Resolvemos:
+    \begin{align}
+        & -A = 1 \Leftrightarrow A = -1, \\
+        & A + B = 0 \xrightarrow{A = -1} -1 + B = 0 \Leftrightarrow B = 1.
+    \end{align}
+
+    Por tanto,
+    $$\frac{1}{x(x-1)} = -\frac{1}{x} + \frac{1}{x-1}.$$
+
+    Resolvemos la integral.
+    $$\int \frac{1}{x(x-1)}dx = \int \frac{1}{x-1}dx - \int \frac{1}{x}dx = \ln|x-1| - \ln|x| + C = t - \ln(1+e^t) + C.$$</li>
+
+    <li>La función $f$ es continua.
+    Por el teorema fundamental del cálculo, la función
+    $$g(x) = \int_0^x f(t)dt = \int_0^x \frac{1}{1+e^t}dt$$
+    es derivable, con $g'(x) = f(x).$
+
+    Además,
+    $$g(0) = \int_0^0 \frac{1}{1+e^t}dt = 0,$$
+    así que
+    $$\lim_{x \to 0} \frac{g(x)}{x} = \frac{0}{0}.$$
+
+    Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
+    $$\lim_{x \to 0} \frac{g(x)}{x} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{g'(x)}{1} = \lim_{x \to 0} f(x) = \lim_{x \to 0} \frac{1}{1+e^x} = \frac{1}{2}.$$</li>
+</ol>
