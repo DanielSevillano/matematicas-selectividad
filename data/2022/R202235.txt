@@ -1,0 +1,64 @@
+<p>Llamamos $x$ al número de seguidores de Alberto, $y$ al de Begoña y $z$ al de Carlos.</p>
+
+<p>
+    En primer lugar, si entre los tres tienen 13000, entonces
+    $$x + y + z = 13000.$$
+</p>
+
+<p>
+    Además, si dos terceras partes de los seguidores de Carlos son tantos como el doble de los de Alberto,
+    $$\frac{2}{3}z = 2x.$$
+</p>
+
+<p>
+    Por último, si los seguidores de Alberto junto con la quinta parte de los de Begoña son tantos como la mitad de los de Carlos,
+    $$x + \frac{1}{5}y = \frac{1}{2}z.$$
+</p>
+
+<p>
+    Por tanto, podemos plantear el sistema de ecuaciones lineales
+    $$\begin{cases}
+        x + y + z = 13000, \\
+        \frac{2}{3}z = 2x, \\
+        x + \frac{1}{5}y = \frac{1}{2}z
+    \end{cases} \Rightarrow \begin{cases}
+        x + y + z = 13000, \\
+        3x - z = 0, \\
+        10x + 2y - 5z = 0.
+    \end{cases}$$
+</p>
+
+<p>
+    Resolvemos el sistema mediante el método de Gauss.
+    $$\begin{pmatrix}
+        1 & 1 & 1 & 13000 \\
+        3 & 0 & -1 & 0 \\
+        10 & 2 & -5 & 0
+    \end{pmatrix} \xrightarrow{F_3 - 2F_1} \begin{pmatrix}
+        1 & 1 & 1 & 13000 \\
+        3 & 0 & -1 & 0 \\
+        8 & 0 & -7 & -26000
+    \end{pmatrix} \xrightarrow{F_3 - 7F_2} \begin{pmatrix}
+        1 & 1 & 1 & 13000 \\
+        3 & 0 & -1 & 0 \\
+        -13 & 0 & 0 & -26000
+    \end{pmatrix}$$
+
+    El sistema resultante es
+    \begin{cases}
+        x + y + z = 13000, \\
+        3x - z = 0, \\
+        -13x = -26000.
+    \end{cases}
+</p>
+
+<p>
+    Por tanto,
+    \begin{align}
+        & -13x = -26000 \Leftrightarrow x = 2000, \\
+        & 3x - z = 0 \xrightarrow{x = 2000} 6000 - z = 0 \Leftrightarrow z = 6000, \\
+        & x + y + z = 13000 \xrightarrow[z = 6000]{x = 2000} 2000 + y + 6000 = 13000 \Leftrightarrow y = 5000.
+    \end{align}
+
+    Así que Alberto tiene 2000 seguidores, Begoña tiene 5000 y Carlos tiene 6000.
+</p>

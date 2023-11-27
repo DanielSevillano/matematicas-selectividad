@@ -504,7 +504,7 @@
     },
     {
         "ejercicio": 202216,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
@@ -628,7 +628,7 @@
     },
     {
         "ejercicio": 202235,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",

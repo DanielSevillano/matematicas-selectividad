@@ -1,0 +1,60 @@
+<p>Llamamos $x$ al número de minutos de la Fase I, $y$ al de la Fase II y $z$ al de la Fase III.</p>
+
+<p>
+    En primer lugar, si se dedica el 75% de las 8 horas de sueño a la fase NO-REM, es decir, 360 minutos, entonces
+    $$x + y + z = 360.$$
+</p>
+
+<p>
+    Además, si el tiempo dedicado a la Fase II es el doble que el de la Fase I y III juntas,
+    $$y = 2(x+y).$$
+</p>
+
+<p>
+    Por último, si el tiempo dedicado a la Fase III es el cuádruple que el de la Fase I,
+    $$z = 4x.$$
+</p>
+
+<p>
+    Por tanto, podemos plantear el sistema de ecuaciones lineales
+    $$\begin{cases}
+        x + y + z = 360, \\
+        y = 2(x+y), \\
+        z = 4x.
+    \end{cases} \Rightarrow \begin{cases}
+        x + y + z = 360, \\
+        2x - y + 2z = 0, \\
+        4x - z = 0.
+    \end{cases}$$
+</p>
+
+<p>
+    Resolvemos el sistema mediante el método de Gauss.
+    $$\begin{pmatrix}
+        1 & 1 & 1 & 360 \\
+        2 & -1 & 2 & 0 \\
+        4 & 0 & -1 & 0
+    \end{pmatrix} \xrightarrow[F_3 + F_1]{F_2 - 2F_1} \begin{pmatrix}
+        1 & 1 & 1 & 360 \\
+        0 & -3 & 0 & -720 \\
+        5 & 1 & 0 & 360
+    \end{pmatrix}$$
+
+    El sistema resultante es
+    \begin{cases}
+        x + y + z = 360, \\
+        -3y = -720, \\
+        5x + y = 360.
+    \end{cases}
+</p>
+
+<p>
+    Por tanto,
+    \begin{align}
+        & -3y = -720 \Leftrightarrow y = 240, \\
+        & 5x + y = 360 \xrightarrow{y = 240} 5x + 240 = 360 \xrightarrow x = 24, \\
+        & x + y + z = 360 \xrightarrow[y = 240]{x = 24} 24 + 240 + z = 360 \Leftrightarrow z = 96.
+    \end{align}
+
+    Así que se dedican 24 minutos a la Fase I, 240 minutos a la Fase II y 96 minutos a la Fase III.
+</p>
