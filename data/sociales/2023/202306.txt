@@ -4,5 +4,5 @@ Además, se ha observado que la palabra <i>"lottery"</i> ha aparecido en el 40% 
 <ol>
     <li>Halle la probabilidad de que en un correo elegido al azar en el que aparezca la palabra <i>"lottery"</i> sea spam.</li>
     <li>Halle la probabilidad de que un correo elegido al azar en el que no aparezca la palabra <i>"lottery"</i> no sea spam.</li>
-    <li>Si un correo se etiqueta como spam si aparece la palabra <i>"lottery"</li> y como no spam si esta palabra no aparece, calcule la probabilidad de que un correo se etiquete incorrectamente.</li>
+    <li>Si un correo se etiqueta como spam si aparece la palabra <i>"lottery"</i> y como no spam si esta palabra no aparece, calcule la probabilidad de que un correo se etiquete incorrectamente.</li>
 </ol>

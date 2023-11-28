@@ -6,7 +6,7 @@ $$v'(t) = t^2 - 5t + 6, \quad t \in [0, 6].$$
 <ol>
     <li>Determine los intervalos de crecimiento y decrecimiento de la función $v.$</li>
     <li>Si en el momento de la apertura del mercado se conoce que $v(0) = 10$, halle la función $v.$</li>
-    <li>Si un inversor compró 3000 de estas acciones en el instante $t = 2$ y posteriormente las vendió en el instante $t = 4$, indique a cuánto ascendió la ganancia o la pérdida que obtuvo el inversor con esta gestión.</li>
+    <li>Si un inversor compró 3.000 de estas acciones en el instante $t = 2$ y posteriormente las vendió en el instante $t = 4$, indique a cuánto ascendió la ganancia o la pérdida que obtuvo el inversor con esta gestión.</li>
     <li>
         ¿En qué momentos debería haber realizado este inversor las gestiones de compra y de venta para que la ganancia hubiese sido máxima?
         Justifique su respuesta.
