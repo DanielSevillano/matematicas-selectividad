@@ -1,0 +1,7 @@
+El área quemada de la región plana de la cubierta de plástico de un invernadero, coincide con el área de la región acotada delimitada por las gráficas de las funciones $f(x) = (x-1)^2$ y $g(x) = 5 - 2x$ donde $x$ está expresado en metros.
+
+<ol>
+    <li>Represente gráficamente la zona deteriorada.</li>
+    <li>Para reparar la región quemada, se ha de utilizar plástico cuyo coste es de 15 euros por metro cuadrado.
+    Si en el trabajo de reparación se desperdicia la tercera parte del plástico adquirido, ¿cuánto costará el plástico comprado?</li>
+</ol>

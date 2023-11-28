@@ -1,0 +1,10 @@
+Se desea estimar la proporción de donantes de sangre en una universidad.
+Para ello se toma una muestra aleatoria de 400 personas de esa universidad, resultando que 64 son donantes de sangre.
+
+<ol>
+    <li>Calcule un intervalo de confianza, con un nivel del 98%, para estimar la proporción poblacional de donantes de sangre.</li>
+    <li>
+        Si el nivel de confianza es del 95%, calcule el error máximo cometido.
+        Razone si este error será mayor o menor al disminuir el nivel de confianza.
+    </li>
+</ol>

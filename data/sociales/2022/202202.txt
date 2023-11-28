@@ -1,0 +1,19 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    a & 1 & 0 \\
+    0 & a & 1 \\
+    3 & 4 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    2 & -1 & 0
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 3 & -1
+\end{pmatrix},$$
+donde $a$ es un número real.
+
+<ol>
+    <li>Halle los valores del parámetro $a$ para que la matriz $A$ tenga inversa.</li>
+    <li>Para $a = 2$, calcule la matriz inversa de $A.$</li>
+    <li>Para $a = 2$, resuelva la ecuación matricial $XA + I_3 = B^tC.$</li>
+</ol>

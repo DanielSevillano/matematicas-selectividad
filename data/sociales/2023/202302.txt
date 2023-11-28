@@ -1,0 +1,20 @@
+Dadas las matrices
+$$A = \begin{pmatrix}
+    a & 1 & 0 \\
+    0 & a & 2 \\
+    0 & 1 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    2 & -1 \\
+    a & -1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    2 & -1 \\
+    1 & -1 \\
+    2 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule los valores del parámetro $a$ para los que tanto $A$ como $B$ admitan inversa.</li>
+    <li>Para $a = 1$, halle una matriz $X$ que satisfaga $AXB = C.$</li>
+</ol>

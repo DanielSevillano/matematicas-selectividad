@@ -1,0 +1,8 @@
+Una caja contiene 3 fichas verdes, 2 fichas azules y 4 fichas rojas.
+Un juego consiste en realizar dos extracciones, sin reemplazamiento, de tal manera que el jugador que saque dos fichas azules gana el primer premio, el jugador que saque dos fichas verdes gana el segundo premio y el jugador que, de las dos fichas, una sea azul y otra de un color diferente gana el tercer premio.
+
+<ol>
+    <li>Calcule la probabilidad de que un jugador consiga el primer o el segundo premio.</li>
+    <li>Calcule la probabilidad de que un jugador gane el tercer premio.</li>
+    <li>Sabiendo que un jugador ha obtenido premio, ¿cuál es la probabilidad de que haya ganado el tercer premio?</li>
+</ol>

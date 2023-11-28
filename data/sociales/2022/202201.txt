@@ -1,0 +1,6 @@
+Una pastelería decide preparar dos tipos de cajas de pastelitos para regalar a los clientes en su inauguración.
+En total dispone de 120 piononos y 150 pestiños.
+En la caja del primer tipo habrá 3 piononos y 2 pestiños y en la del segundo tipo 4 piononos y 6 pestiños.
+Deben preparar al menos 9 cajas del segundo tipo.
+Determine cuántas cajas de cada tipo deberá preparar para realizar el máximo número de regalos posible.
+En este caso, indique cuántos piononos y cuántos pestiños se utilizarán.

@@ -1,0 +1,6 @@
+Un artesano decide montar dos tipos de anillos utilizando dos tipos de piedras semipreciosas, una de mayor calidad que otra.
+Para montar uno de los anillos tarda 20 minutos y utiliza 1 de las piedras de mayor calidad y 2 de las de menor calidad.
+Para el otro tarda 50 minutos y utiliza 3 piedras de mayor calidad y 1 de menor calidad.
+Semanalmente, el artesano dispone de 200 piedras de mayor calidad y 150 de menor calidad. Además, quiere trabajar al menos 1.900 minutos a la semana.
+Sabiendo que el primer tipo de anillo se vende a 21€, el segundo a 50€ y que deben fabricarse al menos 20 anillos del primer tipo a la semana, determine cuántos anillos de cada tipo deben montarse para maximizar el valor de la venta.
+¿A cuánto asciende dicho valor?

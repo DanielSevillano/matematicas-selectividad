@@ -1,0 +1,7 @@
+Se quiere estudiar la proporción de perros que están vacunados en Andalucía.
+Para ello, se toma una muestra aleatoria de 400 perros de los que 320 resultan estar vacunados.
+
+<ol>
+    <li>Obtenga un intervalo con un nivel de confianza del 92% para estimar la proporción de perros vacunados en Andalucía y calcule el error máximo cometido.</li>
+    <li>En una nueva muestra, manteniendo el mismo nivel de confianza y la misma proporción muestral, ¿cuántos perros, como mínimo, hay que elegir para que el error sea menor que 0,02?</li>
+</ol>

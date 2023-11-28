@@ -1,0 +1,17 @@
+<ol>
+    <li>
+        Una población está dividida en cuatro estratos de 250, 300, 400 y 350 individuos.
+        Realizado un muestreo aleatorio estratificado con afijación proporcional se han seleccionado 20 individuos del primer estrato.
+        Determine el tamaño de la población, el tamaño de la muestra y el número de individuos seleccionados de los tres restantes estratos.
+    </li>
+
+    <li>
+        En un centro de enseñanza la calificación media de los estudiantes fue de 6.4 puntos con una desviación típica de 0.7 puntos.
+        Se seleccionó aleatoriamente una muestra de 49 estudiantes.
+        
+        <ol>
+            <li>Indique la distribución que sigue la media de las muestras de tamaño 49.</li>
+            <li>Calcule la probabilidad de que la media de las calificaciones de los estudiantes de una de esas muestras esté comprendida entre 6.3 y 6.8 puntos.</li>
+        </ol>
+    </li>
+</ol>

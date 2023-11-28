@@ -1,0 +1,8 @@
+En su tiempo libre, el 65% de los estudiantes de un centro educativo juega con videojuegos, el 45% lee libros y el 15% no hace ninguna de las dos cosas.
+Elegido al azar un estudiante de dicho centro, calcule la probabilidad de que:
+
+<ol>
+    <li>Juegue con videojuegos o lea libros.</li>
+    <li>Juegue con videojuegos y no lea libros.</li>
+    <li>Lea libros sabiendo que no juega con videojuegos.</li>
+</ol>

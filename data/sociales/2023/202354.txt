@@ -1,0 +1,21 @@
+Sea la función
+$$f(t) = \frac{12t - 24}{t + 3}, \quad t \geq 0.$$
+
+<ol>
+    <li>Represente gráficamente la función $f$, determinando los puntos de corte con los ejes coordenados y las ecuaciones de las asíntotas, y estudiando la monotonía y la curvatura de $f.$</li>
+    <li>
+        Si la función $f$ representa los beneficios de una empresa, en millones de euros, donde $t$ indica los años de vida de la empresa:
+        
+        <ol>
+            <li>
+                ¿A partir de qué año la empresa deja de tener pérdidas?
+                Justifique la respuesta.
+            </li>
+            
+            <li>
+                A medida que pasan los años, ¿están limitados los beneficios?
+                En caso afirmativo, ¿cuál es su límite y por qué?
+            </li>
+        </ol>
+    </li>
+</ol>

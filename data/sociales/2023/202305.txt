@@ -1,0 +1,8 @@
+Disponemos de una moneda trucada en la que la probabilidad de obtener cara, al lanzarla, es el doble de la de obtener cruz.
+
+<ol>
+    <li>Halle la probabilidad de que, al lanzar la moneda, se obtenga cara.</li>
+    <li>Halle la probabilidad de que, al lanzar dos veces la moneda, se obtenga una cara y una cruz sin importar el orden.</li>
+    <li>Halle la probabilidad de que, al lanzar dos veces la moneda, se obtenga al menos una cara.</li>
+    <li>Si al lanzar la moneda dos veces observamos que ha salido al menos una cara, halle la probabilidad de que se obtengan dos caras.</li>
+</ol>

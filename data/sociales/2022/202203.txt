@@ -1,0 +1,8 @@
+<ol>
+    <li>
+        Se considera la función $f(x) = x^3 + ax^2 + bx + c$, con $a$, $b$ y $c$ números reales.
+        Calcule los valores $a$, $b$ y $c$ sabiendo que la gráfica de $f$ posee un extremo relativo en el punto de abscisa $x = 3$ y que la pendiente de la recta tangente a la gráfica de $f$ en el punto $P(0, 18)$ es -3.
+    </li>
+
+    <li>Calcule el área del recinto acotado, limitado por la gráfica de la función $g(x) = x^3 - 4x^2 - 3x + 18$ y el eje de abscisas.</li>
+</ol>

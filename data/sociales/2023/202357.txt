@@ -1,0 +1,10 @@
+<ol>
+    <li>
+        Un gimnasio establece sus tarifas por grupos de edad: juvenil, adulto y senior.
+        Tiene matriculados 25 juveniles, 75 adultos y 50 seniors.
+        Se quiere seleccionar una muestra de 30 personas del gimnasio utilizando un muestreo estratificado con afijación proporcional.
+        ¿Cuál será la composición que debe tener dicha muestra?
+    </li>
+
+    <li>Dada la población {9, 11, 13, 18, 20}, calcule la varianza de la distribución de las medias muestrales de tamaño 2 obtenidas mediante muestreo aleatorio simple.</li>
+</ol>

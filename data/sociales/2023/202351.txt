@@ -1,0 +1,16 @@
+Se considera la matriz
+$$A = \begin{pmatrix}
+    1 & 0 & 0 \\
+    0 & 2 & 0 \\
+    0 & -1 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Pruebe que se verifica que $A^{-1} = \frac{1}{2}(A^2 - 4A + 5I_3).$</li>
+    <li>Dada la ecuación matricial
+    $$X^tA = \begin{pmatrix}
+        1 & 2 & 0 \\
+        3 & -1 & 1
+    \end{pmatrix},$$
+    determine la dimensión de $X$ y resuelva la ecuación.</li>
+</ol>

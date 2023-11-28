@@ -1,0 +1,11 @@
+En el otoño de 2021, el municipio de El Paso en la Isla de La Palma sufrio la erupcion del volcan Cumbre Vieja.
+Al finalizar la erupción, se escogió una muestra de 500 casas resultando que 325 de ellas estaban afectadas por la erupción.
+
+<ol>
+    <li>
+        Calcule un intervalo, con un nivel de confianza del 97%, para estimar la proporción de casas afectadas por la erupción del volcán.
+        Según el resultado obtenido, ¿se puede admitir que el porcentaje de casas afectadas por el volcán es del 64%?
+    </li>
+
+    <li>Para un nivel de confianza del 92% y manteniendo la proporción muestral, ¿cuál debe ser el tamaño mínimo de una nueva muestra para que el error máximo de estimación sea del 2%?</li>
+</ol>

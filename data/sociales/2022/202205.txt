@@ -1,0 +1,10 @@
+En un estudio realizado en una sucursal bancaria se ha determinado que el 70% de los créditos concedidos son hipotecarios y el 25% de los créditos superan los 200.000€.
+El 20% de los créditos son hipotecarios y de más de 200.000€.
+Se elige al azar un cliente al que le han concedido un crédito.
+Calcule la probabilidad de que:
+
+<ol>
+    <li>El crédito no sea hipotecario y no supere los 200.000€.</li>
+    <li>Si su crédito no es hipotecario, este no supere los 200.000€.</li>
+    <li>Si su crédito supera los 200.000€, que este no sea hipotecario.</li>
+</ol>

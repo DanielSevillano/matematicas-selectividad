@@ -1,0 +1,7 @@
+La resistencia media a la ruptura de una nueva gama de herramientas sigue una distribución Normal de desviación típica 15MPa (megapascales).
+Se seleccionan al azar 100 herramientas forjadas en la misma máquina durante el mismo proceso de producción, obteniéndose una resistencia media de 800MPa.
+
+<ol>
+    <li>Realizando la estimación con un nivel de confianza del 92%, ¿entre qué valores se estima la resistencia media poblacional de esta gama de herramientas?</li>
+    <li>Manteniendo el mismo nivel de confianza, ¿cuál debe ser el tamaño mínimo de una nueva muestra para que el error máximo en la estimación de la resistencia media a la ruptura sea menor que 2MPa?</li>
+</ol>

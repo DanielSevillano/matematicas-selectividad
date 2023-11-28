@@ -1,0 +1,12 @@
+Dados dos sucesos $A$ y $B$ de un experimento aleatorio, se sabe que $P(A) = 0.6$, $P(B) = 0.3$ y $P(A|B) = 0.6.$
+Se pide:
+
+<ol>
+    <li>$P(A \cup B).$</li>
+    <li>$P(A - B) + P(B - A).$</li>
+    <li>$P(B | A^c).$</li>
+    <li>
+        Razone si los sucesos $A$ y $B$ son independientes.
+        ¿Son incompatibles?
+    </li>
+</ol>

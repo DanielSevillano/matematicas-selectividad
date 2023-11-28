@@ -1,0 +1,7 @@
+Se considera la función $f(x) = x^3 - 3x^2 + 2x.$
+
+<ol>
+    <li>Halle los puntos de corte con los ejes, los intervalos de crecimiento y decrecimiento, los extremos relativos de $f$ y su curvatura.</li>
+    <li>Represente gráficamente la función $f.$</li>
+    <li>Calcule el área del recinto acotado, limitado por la gráfica de $f$ y el eje de abscisas.</li>
+</ol>
