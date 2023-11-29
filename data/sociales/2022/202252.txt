@@ -1,0 +1,12 @@
+Se considera el recinto limitado por las siguientes inecuaciones:
+$$y - 2x \leq 7, \quad -x + 3y \leq 2, \quad x + 2y \leq 19, \quad x + y \leq 14.$$
+
+<ol>
+    <li>Represente dicho recinto y determine sus vértices.</li>
+    <li>Calcule los valores máximo y mínimo de la función $F(x, y) = x + 4y$ en el recinto anterior, así como los puntos donde se alcanzan.</li>
+    <li>
+        ¿Podría tomar la función objetivo $F$ el valor 40 en algún punto de la región factible?
+        ¿Y el valor 20?
+        Justifique las respuestas.
+    </li>
+</ol>

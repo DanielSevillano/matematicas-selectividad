@@ -1,0 +1,12 @@
+El beneficio, en miles de euros, que se obtiene en una pequeña finca familiar por la venta de aceitunas, en miles de kilogramos, viene dado por la siguiente función:
+$$B(x) = -0.02x^2 + 1.3x - 15, \quad x \geq 0.$$
+
+<ol>
+    <li>Represente la función beneficio y calcule los puntos de corte con el eje $OX.$</li>
+    <li>¿Para qué valores de $x$ la finca no tiene pérdidas?</li>
+    <li>
+        ¿Para qué número de kilogramos el beneficio será máximo?
+        ¿Cuánto vale dicho beneficio?
+    </li>
+    <li>¿Cuántos kilogramos debe vender para obtener un beneficio de 5.000€?</li>
+</ol>

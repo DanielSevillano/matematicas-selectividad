@@ -1,0 +1,11 @@
+Sean $A$ y $B$ dos sucesos del mismo espacio muestral tales que:
+$$P(A \cup B) = \frac{3}{7}, \quad P(A^c) = \frac{5}{7}, \quad P(B^c) = \frac{2}{3}.$$
+
+<ol>
+    <li>
+        ¿Son $A$ y $B$ independientes?
+        ¿Son $A$ y $B$ incompatibles?
+    </li>
+    <li>Calcule $P(A^c \cap B^c).$</li>
+    <li>Calcule $P(B|A^c).$</li>
+</ol>

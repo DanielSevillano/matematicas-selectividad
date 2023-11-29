@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Se considera la función $f(x) = x^3 + bx^2 + cx - 1$ donde $b$ y $c$ son números reales.
+        Determine el valor de $b$ y $c$ para que la función $f$ presente un extremo en el punto de abscisa $x = \frac{1}{3}$ y además la gráfica de la función $f$ pase por el punto $(-2, -3).$
+    </li>
+
+    <li>
+        Dada la función $g(x) = -x^3 - x^2 + x + 1$, realice el esbozo de su gráfica, estudiando los puntos de corte con los ejes coordenados y su monotonía.
+        Determine el área del recinto acotado, limitado por la gráfica de  la función $g$ y el eje de abscisas.
+    </li>
+</ol>

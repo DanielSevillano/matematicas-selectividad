@@ -1,0 +1,24 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    1 & 1 & 2 \\
+    -2 & 0 & 1 \\
+    0 & -1 & -1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    -2 & 1 \\
+    3 & 1 \\
+    0 & 2
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 2 \\
+    -1 & -1 \\
+    -2 & 3
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determine la matriz $X$ que verifica $AX + B = A^2C.$</li>
+    <li>
+        Determine las dimensiones de dos matrices $P$ y $Q$ sabiendo que
+        $$AP^t + C = C(QB).$$
+    </li>
+</ol>

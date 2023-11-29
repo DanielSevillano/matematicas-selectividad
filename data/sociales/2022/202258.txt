@@ -1,0 +1,13 @@
+El número de días que los titulados en un cierto máster tardan en encontrar su primer trabajo sigue una distribución Normal de media $\mu$ desconocida y desviación típica 3 días.
+
+<ol>
+    <li>
+        Se elige una muestra aleatoria de 100 titulados obteniéndose una media muestral de 8.1 días.
+        Calcule un intervalo de confianza al 97% para estimar la media poblacional.
+    </li>
+    <li>Con un nivel de confianza del 92%, calcule el tamaño muestral mínimo necesario para que el error cometido, al estimar el número medio de días que estos titulados tardan en encontrar trabajo, sea inferior a un día.</li>
+    <li>
+        Suponiendo $\mu = 7.61$ días y tomando muestras aleatorias de 36 titulados, ¿qué distribución de probabilidad sigue la variable aleatoria media muestral?
+        ¿Cuál es la probabilidad de que la media muestral sea superior a 8 días?
+    </li>
+</ol>
