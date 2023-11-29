@@ -1,0 +1,42 @@
+<ol>
+    <li>
+        Un agricultor vende la producción de tres tipos de uva, Tempranillo, Garnacha y Macabeo, de dos de sus fincas.
+        La matriz
+        $$Q = \begin{pmatrix}
+            50 & 40 & 35 \\
+            0 & 60 & 55
+        \end{pmatrix}$$
+        recoge la producción, en miles de kilogramos, de estos tipos de uva en cada finca.
+        El precio de venta por kilogramos, en céntimos de euro, según el tipo de uva y la finca, viene dado por la matriz
+        $$P = \begin{pmatrix}
+            40 & 38 & 42 \\
+            34 & 37 & 40
+        \end{pmatrix}.$$
+        Calcule el producto $QP^t$ y explique el significado económico de los elementos de la diagonal principal del resultado.
+        Indique también la cantidad total de dinero que ha obtenido el agricultor por la venta de la cosecha de las dos fincas.
+    </li>
+
+    <li>
+        Dada la siguiente ecuación matricial $MX + N = V$:
+        
+        <ol>
+            <li>Suponiendo que $M$ sea invertible, despeje la matriz $X$ en la ecuación anterior.</li>
+            <li>
+                Para
+                $$M = \begin{pmatrix}
+                    1 & 0 \\
+                    1 & 1
+                \end{pmatrix}, \quad
+                N = \begin{pmatrix}
+                    5 & 4 \\
+                    3 & 2
+                \end{pmatrix} \quad \text{y} \quad
+                V = \begin{pmatrix}
+                    8 & 7 \\
+                    6 & 5
+                \end{pmatrix},$$
+                calcule la matriz $X.$
+            </li>
+        </ol>
+    </li>
+</ol>

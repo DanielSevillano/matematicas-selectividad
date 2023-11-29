@@ -1,0 +1,6 @@
+Una empresa de material informático dispone de dos cadenas de fabricación, A y B, en las que quiere aumentar su producción realizando horas extraordinarias.
+En una hora extraordinaria de trabajo, la cadena A prepara 15 portátiles y 6 tablets, y la cadena B prepara 10 portátiles y 10 tablets.
+Los costes de producción por hora extraordinaria de A y B son de 300€ y 600€ respectivamente por hora extraordinaria.
+La cadena B puede realizar, como máximo, el triple de horas extraordinarias que la cadena A.
+Si para la próxima semana se debe producir adicionalmente un máximo de 360 portátiles y al menos 216 tablets, formule y resuelva el problema que permita obtener la planificación de la empresa que minimice los costes de producción.
+¿A cuánto ascienden dichos costes?

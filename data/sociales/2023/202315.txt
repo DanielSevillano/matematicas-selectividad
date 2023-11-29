@@ -1,0 +1,10 @@
+Una empresa de transporte dispone de tres tipos de camiones, A, B y C.
+El 30% de los transportes son realizados por camiones de tipo A; el 20% por camiones de tipo B y el resto por camiones de tipo C.
+Se sabe que los transportes tienen una probabilidad de 0.02 de sufrir algún tipo de incidencia si son realizados en camiones de tipo A; de 0.01 si son realizados en camiones de tipo B y de 0.05 si son realizados en camiones de tipo C.
+Se elige un transporte de esta empresa al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que no haya sufrido ningún tipo de incidencia.</li>
+    <li>Calcule la probabilidad de que lo haya realizado un camión de tipo C si se sabe que sufrió algún tipo de incidencia.</li>
+    <li>Si además se conoce que el 40% de las incidencias sufridas por los camiones de tipo A fueron debidas a la lluvia, calcule la probabilidad de que el transporte haya sido realizado por un camión de tipo A, haya sufrido una incidencia y también esta sea debida a la lluvia.</li>
+</ol>

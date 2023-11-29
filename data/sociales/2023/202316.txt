@@ -1,0 +1,10 @@
+Una tienda vende caramelos con sabor a frutas (naranja o limón) y a menta.
+El 60% son azucarados y de estos el 25% son de limón.
+De los no azucarados, el 40% son de naranja, el 30% son de limón y el resto de menta.
+Además, el 40% de todos los caramelos son de naranja.
+Se escoge un caramelo al azar de esa tienda.
+
+<ol>
+    <li>Calcule la probabilidad de que sea de naranja sabiendo que es azucarado.</li>
+    <li>Razone si es más probable que sea de sabor a frutas o a menta.</li>
+</ol>

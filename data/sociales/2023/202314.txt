@@ -1,0 +1,14 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    x^3 + 2x^2 - 3, & \text{si } x \leq 1, \\
+    1 + \dfrac{1}{x-2}, & \text{si } x > 1.
+\end{cases}$$
+
+<ol>
+    <li>
+        Estudie la continuidad de $f.$
+        Si la función no es continua en algún punto, indique el tipo de discontinuidad que presenta.
+    </li>
+    <li>Estudie la derivabilidad de $f.$</li>
+    <li>Determine las asíntotas de $f.$</li>
+</ol>

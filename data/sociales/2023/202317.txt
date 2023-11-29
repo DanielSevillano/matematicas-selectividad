@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Utilizando los números naturales del 1 al 6, ¿cuántas muestras de tamaño 2 pueden formarse aplicando un muestreo aleatorio simple?
+        Si se elige una de estas muestras al azar, ¿cuál es la probabilidad de que la media de los números obtenidos sea como máximo 2?
+    </li>
+
+    <li>
+        Se ha diseñado una encuesta para estimar qué proporción de adolescentes de una zona están suscritos a una determinada red social.
+        ¿Qué tamaño debemos tomar para estimar dicha proporción por un intervalo de confianza al 95% con un error máximo de 0.15?
+    </li>
+</ol>
