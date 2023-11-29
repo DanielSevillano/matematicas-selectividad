@@ -165,6 +165,10 @@ article ol {
     list-style-type: lower-latin;
 }
 
+article ol ol {
+    list-style-type: lower-roman;
+}
+
 article ol li {
     margin-block: 0.2em;
     padding-left: 0.125em;
