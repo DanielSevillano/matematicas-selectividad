@@ -158,18 +158,10 @@ Pestañas
     flex-wrap: wrap;
     gap: 5px;
     padding: 12px 10px;
-    transition: opacity 200ms;
 }
 
 .contenido-grupo.visible {
     display: flex;
-
-}
-
-@starting-style {
-    .contenido-grupo.visible {
-        opacity: 0;
-    }
 }
 
 /********************
