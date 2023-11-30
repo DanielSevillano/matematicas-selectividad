@@ -20,13 +20,26 @@ function tituloExamen(examen) {
     return titulo;
 }
 
-async function obtenerEjercicio(examen, ejercicio) {
+async function obtenerEjercicio(examen, ejercicio, categorias = []) {
     const articulo = document.createElement("article");
     const titulo = document.createElement("h3");
     const parrafo = document.createElement("p");
 
     titulo.textContent = "Ejercicio " + ejercicio;
     articulo.append(titulo);
+
+    const contenedorCategorias = document.createElement("ul");
+    contenedorCategorias.classList.add("categorias");
+    categorias.forEach(categoria => {
+        const elementoCategoria = document.createElement("li");
+        const enlaceCategoria = document.createElement("a");
+        enlaceCategoria.textContent = categoria;
+        enlaceCategoria.href = "";
+        enlaceCategoria.classList.add("contorno");
+        elementoCategoria.append(enlaceCategoria);
+        contenedorCategorias.append(elementoCategoria);
+    })
+    articulo.append(contenedorCategorias);
 
     const curso = String(examen).slice(0, 4);
     const ruta = "data\\sociales\\" + curso + "\\" + examen + ejercicio + ".txt";
@@ -56,15 +69,24 @@ async function obtenerExamen(examen) {
 
     main.append(titulo);
 
+    const respuesta = await fetch("data\\sociales\\metadata.json");
+    const datos = await respuesta.json();
+
     for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
         if (estado.cancelado) {
             estado.reanudar();
             return false;
         }
 
+        const codigo = examen * 10 + ejercicio;
+        const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
+
+        let categorias = [];
+        if (datosEjercicio != undefined) categorias = datosEjercicio.categorias;
+
         boton.style.setProperty("--progreso", ejercicio / 8 * 100);
 
-        const seccion = await obtenerEjercicio(examen, ejercicio);
+        const seccion = await obtenerEjercicio(examen, ejercicio, categorias);
         main.append(seccion);
         formatear(seccion);
     }
