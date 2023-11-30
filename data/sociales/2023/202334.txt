@@ -1,0 +1,10 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    \dfrac{x^2}{3}, & \text{si } 0 \leq x \leq 2, \\
+    \dfrac{4}{x+1}, & \text{si } x > 2.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de la función $f.$</li>
+    <li>Determine los intervalos de crecimiento y decrecimiento, el máximo de la función y represente gráficamente la función $f.$</li>
+</ol>

@@ -57,7 +57,8 @@
     {
         "ejercicio": 202312,
         "categorias": [
-            "Álgebra"
+            "Análisis",
+            "Programación lineal"
         ]
     },
     {
@@ -97,6 +98,153 @@
         ]
     },
     {
+        "ejercicio": 202321,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202322,
+        "categorias": [
+            "Análisis",
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 202323,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202324,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202325,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202326,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202327,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
+        "ejercicio": 202328,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
+        "ejercicio": 202331,
+        "categorias": [
+            "Análisis",
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 202332,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202333,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202334,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202335,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202336,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202337,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
+        "ejercicio": 202338,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
+        "ejercicio": 202341,
+        "categorias": [
+            "Análisis",
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 202342,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202343,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202344,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202345,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202346,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202347,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
+        "ejercicio": 202348,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
         "ejercicio": 202351,
         "categorias": [
             "Álgebra"
@@ -105,7 +253,8 @@
     {
         "ejercicio": 202352,
         "categorias": [
-            "Álgebra"
+            "Análisis",
+            "Programación lineal"
         ]
     },
     {
@@ -147,7 +296,8 @@
     {
         "ejercicio": 202201,
         "categorias": [
-            "Álgebra"
+            "Análisis",
+            "Programación lineal"
         ]
     },
     {

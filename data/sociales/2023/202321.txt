@@ -1,0 +1,26 @@
+Una conservera fabrica latas de pisto con tomate, cebolla y pimiento siguiendo dos recetas distintas.
+La matriz
+\begin{pmatrix}
+    500 & 300 & 200 \\
+    600 & 100 & 300
+\end{pmatrix}
+indica los gramos necesarios de cada producto para conseguir una lata de cada receta.
+Se dispone de dos proveedores, siendo la matriz de precios en euros por kilo de cada producto
+$$\begin{pmatrix}
+    0.5 & 0.4 & 0.6 \\
+    0.4 & 0.5 & 0.7
+\end{pmatrix}.$$
+
+Los costes de producción de cada receta en euros por lata vienen dados por la matriz
+$$\begin{pmatrix}
+    0.11 & 0.09
+\end{pmatrix}.$$
+
+Los costes de transporte en euros por lata según cada proveedor vienen dados por la matriz
+$$\begin{pmatrix}
+    0.02 & 0.03
+\end{pmatrix}.$$
+
+La conservera quiere obtener un beneficio de 5 céntimos por lata.
+Una distribuidora compra 11.000 latas de la primera receta, siendo 5.000 del primer proveedor, y otras 11.000 de la segunda receta, siendo 6.000 del primer proveedor.
+¿Cuánto debe cobrar la conservera por el pedido de esta distribuidora?

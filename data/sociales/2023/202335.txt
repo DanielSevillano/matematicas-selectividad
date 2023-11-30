@@ -1,0 +1,9 @@
+Durante la pasada temporada, una tenista ganó el 90% de los partidos que jugó sobre tierra y la mitad cuando lo hizo sobre otro tipo de superficie.
+De los 40 partidos que jugó la temporada pasada, 25 lo hizo sobre tierra.
+Elegido al azar un partido de la temporada pasada de esta tenista, halle la probabilidad de que:
+
+<ol>
+    <li>Ganase el partido.</li>
+    <li>No ganase sabiendo que jugó sobre tierra.</li>
+    <li>Jugase sobre tierra sabiendo que ganó.</li>
+</ol>

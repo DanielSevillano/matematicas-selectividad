@@ -1,0 +1,10 @@
+Una fábrica produce procesadores que se clasifican en un primer control en tres tipos, A, B y C, según la frecuencia a la que pueden trabajar.
+El 60% de los procesadores fabricados se clasifican de tipo A, el 30% de tipo B y el resto de tipo C.
+En un segundo control, se desechan el 20% de los procesadores de tipo A, el 50% de los de tipo B y el 60% de los de tipo C, por problemas al trabajar a ciertas temperaturas.
+Si se elige un procesador de esta fábrica al azar, calcule la probabilidad de que:
+
+<ol>
+    <li>Sea descartado y sea de tipo A o de tipo B.</li>
+    <li>Sea descartado.</li>
+    <li>Sea de tipo C sabiendo que no ha sido descartado.</li>
+</ol>

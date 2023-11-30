@@ -1,0 +1,13 @@
+El 32% de las microempresas tiene página web y el 64.6% ni tiene página web ni realiza ventas por comercio electrónico.
+De las microempresas que tienen página web, el 30% realiza ventas por comercio electrónico.
+Se selecciona al azar una microempresa.
+
+<ol>
+    <li>Calcule la probabilidad de que tenga página web o realice ventas por comercio electrónico.</li>
+    <li>Calcule la probabilidad de que realice ventas por comercio electrónico.</li>
+    <li>Calcule la probabilidad de que no tenga página web y realice ventas por comercio electrónico.</li>
+    <li>
+        Razone si son independientes los sucesos "Tener página web" y "Realizar ventas por comercio electrónico".
+        ¿Son incompatibles?
+    </li>
+</ol>

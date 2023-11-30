@@ -1,0 +1,13 @@
+<ol>
+    <li>
+        Se considera la función
+        $$f(x) = \begin{cases}
+            ax^2 + bx + 6, & \text{si } x \leq 2.5, \\
+            -1.4x + 7, & \text{si } x > 2.5,
+        \end{cases}
+        con $a$ y $b$ números reales.
+        Calcule el valor de los parámetros $a$ y $b$ para que la función sea continua y tenga un máximo en $x = 1.$
+    </li>
+
+    <li>Represente gráficamente la función $g(x) = -2x^2 + 2x + 4$ y calcule el área de la región acotada, limitada por la gráfica de dicha función y el eje de abscisas.</li>
+</ol>

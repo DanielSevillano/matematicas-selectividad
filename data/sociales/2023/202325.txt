@@ -1,0 +1,9 @@
+En una encuesta realizada en un instituto sobre los hábitos de los estudiantes en su tiempo libre, el 80% de los encuestados dedica el tiempo libre a enviar mensajes con el móvil o a jugar a videojuegos, el 45% realiza ambas cosas y el 40% no juega a videojuegos.
+Si se elige un estudiante de ese instituto al azar, calcule la probabilidad de que dedique su tiempo libre a:
+
+<ol>
+    <li>Enviar mensajes con el móvil y no jugar a videojuegos.</li>
+    <li>Jugar a videojuegos sabiendo que no envía mensajes con el móvil.</li>
+    <li>Hacer solamente una de las dos cosas.</li>
+    <li>No hacer ninguna de las dos cosas.</li>
+</ol>

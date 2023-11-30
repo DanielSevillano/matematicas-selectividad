@@ -1,0 +1,10 @@
+El peso de la gamba roja de Garrucha, en gramos, sigue una distribución Normal de media poblacional desconocida y desviación típica 5 gramos.
+
+<ol>
+    <li>
+        Se elige una muestra aleatoria de 100 gambas obteniéndose una media de 53 gramos.
+        Calcule un intervalo de confianza al 97.5% para estimar el peso medio de la gamba roja.
+    </li>
+
+    <li>Sabiendo que la media poblacional es 53 gramos y escogiendo una muestra aleatoria de 64 gambas, calcule la probabilidad de que el peso medio de la muestra sea superior a 53.25 gramos.</li>
+</ol>

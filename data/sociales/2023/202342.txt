@@ -1,0 +1,28 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    5 & -7 & 6 \\
+    7 & 0 & 4 \\
+    0 & 3 & -1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 2 & -9 \\
+    -2 & 0 & 11 \\
+    0 & 4 & -7
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 \\
+    2 \\
+    -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halle las dimensiones de las siguientes matrices: $C^tAC$, $ACC^tB.$</li>
+    <li>Calcule, en caso de existir, las inversas de las matrices $A$ y $B.$</li>
+    <li>
+        Resuelva el siguiente sistema matricial:
+        \begin{cases}
+            2X + 3Y = A, \\
+            -3X + 4Y = B.
+        \end{cases}
+    </li>
+</ol>

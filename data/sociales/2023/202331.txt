@@ -1,0 +1,3 @@
+El aforo de un campo de fútbol es de 10.000 personas.
+Según el reglamento establecido por la federación de fútbol, como máximo deben ponerse a la venta 3.000 entradas para los aficionados del equipo visitante y por cada aficionado visitante debe haber dos aficionados locales como mínimo y cuatro aficionados locales como máximo.
+Si el precio de la entrada es de 50€ pero el aficionado local tiene un descuento del 20%, ¿cuántos aficionados locales y visitantes deben asistir para obtener el mayor importe con la venta de las entradas?

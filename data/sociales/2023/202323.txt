@@ -1,0 +1,7 @@
+<ol>
+    <li>
+        Calcule las derivadas de las siguientes funciones:
+        $$f(x) = (-7 + x^2)^3 e^{5-x}, \quad g(x) = \frac{\ln(x^4-2x^2)}{8-x^3}.$$
+    </li>
+    <li>Represente gráficamente la región acotada comprendida entre la recta $y = -2x + 6$ y la parábola $y = -x^2 + 2x + 3$ y calcule su área.</li>
+</ol>

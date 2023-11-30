@@ -1,0 +1,10 @@
+El tiempo de adaptación al uso de unas gafas progresivas depende de la persona, de la graduación de las lentes y del tipo de progresivo elegido.
+No obstante, se sabe que el tiempo de adaptación sigue una ley Normal de media 12.5 días y desviación típica 2.5 días.
+
+<ol>
+    <li>
+        Si se toma una muestra aleatoria de 16 individuos que han comenzado a utilizar este tipo de gafas, ¿qué distribución sigue la media muestral del tiempo de adaptación?
+        ¿Cuál es la probabilidad de que el tiempo medio de adaptación a las gafas progresivas para dicha muestra supere los 12 días?
+    </li>
+    <li>Si la muestra elegida es de tamaño 25, ¿cuál es la probabilidad de que el tiempo medio muestral de adaptación a las gafas progresivas diste de 12 días a lo sumo 1 día?</li>
+</ol>

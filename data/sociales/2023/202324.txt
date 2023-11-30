@@ -1,0 +1,18 @@
+La temperatura en el interior de un equipo de refrigeración durante un día que sufrió un corte de energía viene dada por la función $f$ expresada en grados centígrados y el tiempo $t$ en horas:
+$$f(t) = \begin{cases}
+    -9, & \text{si } 0 \leq t \leq 1, \\
+    -t^2 + 12t - 20, & \text{si } 1 < t < 11, \\
+    -9, & \text{si } 11 \leq t \leq 24.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad de $f.$</li>
+    <li>Represente gráficamente la función $f.$</li>
+    <li>Conteste razonadamente a qué hora se produjo el corte de energía y cuánto duró dicho corte.</li>
+    <li>
+        El equipo de refrigeracion se utiliza para conservar sueros y vacunas.
+        Los sueros se estropean si se alcanzan temperaturas de 20°C en algún momento.
+        Las vacunas se estropean si están por encima de 0°C durante más de seis horas.
+        Razone si alguno de esos productos se estropeó ese día.
+    </li>
+</ol>

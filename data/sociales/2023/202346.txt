@@ -1,0 +1,10 @@
+El 75% del alumnado de un instituto utiliza la plataforma del centro como medio para comunicarse con sus profesores y el 40% lo hace a través del correo electrónico.
+Además, hay un 15% que no usa ninguno de estos medios.
+Se elige un estudiante de este instituto al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que utilice ambos medios de comunicación.</li>
+    <li>Calcule la probabilidad de que utilice solamente uno de estos medios de comunicación.</li>
+    <li>Calcule la probabilidad de que utilice la plataforma del centro sabiendo que no usa el correo electrónico como medio de comunicación.</li>
+    <li>Razone si los sucesos "Utilizar la plataforma del centro" y "Utilizar el correo electrónico" son independientes.</li>
+</ol>

@@ -1,0 +1,17 @@
+<ol>
+    <li>
+        Se considera la matriz
+        $$A = \begin{pmatrix}
+            1 & -1 & 0 \\
+            0 & m & -2 \\
+            1 & m & 4
+        \end{pmatrix}.$$
+
+        <ol>
+            <li>Obtenga para qué valores de $m$ la matriz $A$ tiene inversa.</li>
+            <li>Calcule, en caso de existir, la inversa de $A$ para $m = 1.$</li>
+        </ol>
+    </li>
+
+    <li>Despeje y simplifique $X$ en la ecuación $XB - B^2 + B = 0$, sabiendo que la matriz $B$ es invertible.</li>
+</ol>

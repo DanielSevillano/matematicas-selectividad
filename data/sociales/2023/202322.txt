@@ -1,0 +1,5 @@
+Una compañía de transporte marítimo de mercancías dispone de dos barcos B<sub>1</sub> y B<sub>2</sub> para realizar una determinada ruta, durante un año, entre dos ciudades costeras europeas.
+El barco B<sub>1</sub> no puede realizar más de 14 viajes y debe realizar tantos viajes o más que el barco B<sub>2</sub>.
+Entre los dos barcos deben realizar al menos 10 viajes y como mucho 24.
+La compañía obtiene unos beneficios de 15.000€ por cada viaje del barco B<sub>1</sub> y 17.000€ por cada viaje del barco B<sub>2</sub>.
+Halle el número de viajes que debe realizar cada barco para que el beneficio obtenido por la empresa sea máximo y obtenga dicho beneficio.

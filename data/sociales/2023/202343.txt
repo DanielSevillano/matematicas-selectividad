@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    x^2 - 4x + 4, & \text{si } x < 3, \\
+    -x + 4, & \text{si } x \geq 3.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de la función $f$ en todos los puntos de su dominio.</li>
+    <li>Respresente gráficamente $f.$</li>
+    <li>Calcule el área de la región limitada por la gráfica de $f$, el eje de abscisas y las rectas $x = 2$ y $x = 4.$</li>
+</ol>

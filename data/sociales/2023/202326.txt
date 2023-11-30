@@ -1,0 +1,9 @@
+Un componente electrónico se produce en dos fábricas, A y B.
+Se exporta el 40% de los componentes producidos en A y la cuarta parte de los producidos en B, mientras que el resto es para consumo nacional.
+Además, el 37% de todos los componentes producidos es exportado.
+Si se elige un componente electrónico al azar, halle la probabilidad de que:
+
+<ol>
+    <li>Se haya producido en la fábrica A.</li>
+    <li>Se haya producido en la fábrica A sabiendo que no es exportado.</li>
+</ol>

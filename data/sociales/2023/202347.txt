@@ -1,0 +1,15 @@
+Una empresa fabrica piezas cuyo diámetro sigue una distribución Normal de media desconocida y varianza 9 mm<sup>2</sup>.
+
+<ol>
+    <li>
+        Se seleccionan al azar 144 piezas obteniéndose un diámetro medio de 81 mm.
+        Determine un intervalo de confianza al 98.5 % para estimar el diámetro medio de las piezas fabricadas por la empresa.
+    </li>
+
+    <li>Con el mismo nivel de confianza del apartado anterior, ¿de qué tamaño mínimo habría que tomar la muestra para obtener un intervalo de confianza con una amplitud máxima de 0.9?</li>
+
+    <li>
+        Suponiendo que la media poblacional es de 80.4 mm y tomando muestras aleatorias de 64 piezas, ¿qué distribución de probabilidad sigue la variable aleatoria diámetro medio muestral?
+        ¿Cuál es la probabilidad de que el diámetro medio muestral esté comprendido entre 79.5 mm y 80.7 mm?
+    </li>
+</ol>

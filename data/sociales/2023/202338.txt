@@ -1,0 +1,7 @@
+Se desea estimar la proporcion de clientes de una compañía de seguros que han requerido el servicio de asistencia en carretera.
+Para ello, se ha recogido una muestra aleatoria de 300 asegurados resultando que 90 han requerido este servicio.
+
+<ol>
+    <li>Obtenga un intervalo de confianza al 97% para estimar la proporción de asegurados que han solicitado este servicio.</li>
+    <li>Con la proporción muestral facilitada y con un nivel de confianza del 95%, ¿cuál es el número mínimo de asegurados que se deberán seleccionar aleatoriamente para que la proporción muestral y la poblacional no difieran en más de un 3%?</li>
+</ol>

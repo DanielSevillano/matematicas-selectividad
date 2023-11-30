@@ -1,0 +1,11 @@
+La función $B(t) = -t^2 + 21t - 20$ con $0 \leq t \leq 15$ representa el beneficio, en miles de euros, de una empresa en función de los años, $t.$
+
+<ol>
+    <li>
+        Si la función $I(t) = -t^2 + 48t$ representa los ingresos de esta empresa, en miles de euros, para el mismo intervalo de tiempo, ¿cuál es la función de gastos de dicha empresa?
+        ¿Cuáles son los gastos iniciales?
+    </li>
+    <li>Calcule el momento a partir del cual el beneficio fue positivo.</li>
+    <li>Calcule en qué momento el beneficio fue máximo y el valor del mismo.</li>
+    <li>Represente gráficamente la función beneficio.</li>
+</ol>

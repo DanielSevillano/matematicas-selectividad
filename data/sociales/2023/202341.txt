@@ -1,0 +1,6 @@
+Una empresa de pinturas quiere elaborar botes de pintura de dos colores nuevos: Júpiter y Minerva.
+Para ello, dispone de 1.000 kg de pintura de color verde, 800 kg de color morado y 300 kg de color naranja.
+Para elaborar un bote de color Júpiter se necesitan 10 kg de pintura verde, 5 kg de morada y 5 kg de naranja.
+Para elaborar un bote de color Minerva se necesitan 5 kg de pintura verde y 5 kg de morada.
+Sabiendo que se obtiene un beneficio de 30€ por cada bote de pintura Júpiter y 20€ por un bote de pintura Minerva, ¿cuántos botes de cada tipo deberá fabricar la empresa para obtener un beneficio máximo?
+¿Cuál será el valor de ese beneficio?
