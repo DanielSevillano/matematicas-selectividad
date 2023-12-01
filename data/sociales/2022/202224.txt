@@ -1,0 +1,12 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    ax^2 + bx + 2, & \text{si } x \leq 1, \\
+    \dfrac{4}{x+1}, & \text{si } x > 1,
+\end{cases}$$
+con $a$ y $b$ números reales.
+
+<ol>
+    <li>Calcule $a$ y $b$ para que la función $f$ sea continua y derivable.</li>
+    <li>Para $a = -1$ y $b = 1$, realice un esbozo de la gráfica de la función $f.$</li>
+    <li>Para $a = -1$ y $b = 1$, halle el área del recinto acotado, limitado por la gráfica de $f$, la recta $x = 1$ y el eje $OX.$</li>
+</ol>

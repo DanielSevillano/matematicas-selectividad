@@ -1,0 +1,7 @@
+Se considera el recinto definido por las siguientes inecuaciones:
+$$x + 2y \geq 7, \quad 2x - y \leq 4, \quad 4x - y \geq 1, \quad 3x + 2y \leq 20.$$
+
+<ol>
+    <li>Represente dicho recinto y calcule sus vértices.</li>
+    <li>Obtenga el valor máximo de la función $F(x, y) = x + 3y$ en el recinto anterior, así como el punto donde se alcanza.</li>
+</ol>

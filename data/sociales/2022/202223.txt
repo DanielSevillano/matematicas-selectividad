@@ -1,0 +1,11 @@
+Los ingresos $(I)$ y los costes $(C)$ de una discoteca, en miles de euros, en función del número de horas diarias que permanece abierta, vienen dados por las funciones:
+$$I(x) = x^3 - x \quad \text{y} \quad C(x) = x^3 - x^2 + 6,$$
+respectivamente.
+Sabiendo que la licencia del ayuntamiento no permite que este tipo de local permanezca abierto más de 8 horas diarias, halle:
+
+<ol>
+    <li>La función beneficio en función del número de horas diarias que la discoteca permanece abierta.</li>
+    <li>El número de horas que debe permanecer abierta para obtener beneficios.</li>
+    <li>En qué momento se tienen las mayores pérdidas y a cuánto ascienden.</li>
+    <li>El tiempo que debe permanecer abierta para obtener el máximo beneficio y a cuánto ascienden.</li>
+</ol>

@@ -392,6 +392,55 @@
         ]
     },
     {
+        "ejercicio": 202221,
+        "categorias": [
+            "Análisis",
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 202222,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202223,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202224,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202225,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202226,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202227,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
+        "ejercicio": 202228,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
         "ejercicio": 202251,
         "categorias": [
             "Álgebra"

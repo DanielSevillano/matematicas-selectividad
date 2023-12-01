@@ -1,0 +1,18 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    a & 2 & 0 \\
+    8 & a & 0 \\
+    0 & 0 & a
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 \\
+    -2 \\
+    10
+\end{pmatrix},$$
+donde $a$ es un número real.
+
+<ol>
+    <li>Determine los valores de $a$ para que la matriz $A$ sea no invertible.</li>
+    <li>Para $a = 5$, calcule la inversa de la matriz $A.$</li>
+    <li>Para $a = 5$, resuelva la ecuación matricial $AX = B.$</li>
+</ol>

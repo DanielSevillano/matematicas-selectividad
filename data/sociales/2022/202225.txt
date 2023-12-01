@@ -1,0 +1,17 @@
+Se ha llevado a cabo una encuesta en un centro educativo para saber qué actividades extraescolares se realizan por la tarde.
+El 80% de los encuestados practican deporte o estudian idiomas, el 35% realizan ambas actividades y el 60% no estudian idiomas.
+
+<ol>
+    <li>
+        Elegido un estudiante de ese centro al azar, calcule la probabilidad de que:
+
+        <ol>
+            <li>Practique deporte y no estudie idiomas.</li>
+            <li>Estudie idiomas y no practique deporte.</li>
+            <li>Haga solamente una de las dos actividades.</li>
+            <li>No haga ninguna de las dos actividades.</li>
+        </ol>
+    </li>
+
+    <li>¿Son independientes los sucesos "Practicar deporte" y "Estudiar idiomas"?</li>
+</ol>

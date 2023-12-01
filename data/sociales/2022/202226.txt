@@ -1,0 +1,9 @@
+Del total de personas vacunadas en un país para prevenir una enfermedad, el 48% recibió la vacuna A, el 35% la vacuna B y el resto la vacuna C.
+La efectividad de la vacuna A se sitúa en el 70%, la de B en el 95% y la de C en el 94%.
+Elegida al azar una persona vacunada,
+
+<ol>
+    <li>¿Cuál es la probabilidad de que haya sido vacunada con A y no le sea efectiva?</li>
+    <li>¿Qué probabilidad hay de que la vacuna le sea efectiva?</li>
+    <li>Sabiendo que la vacuna no le ha sido efectiva, ¿cuál es la probabilidad de que haya sido vacunada con C?</li>
+</ol>
