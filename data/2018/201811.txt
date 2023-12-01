@@ -1,5 +1,5 @@
 Se desea construir un rectángulo, como el de la figura, de área máxima.
-La base está situada sobre el eje OX, un vértice está en la recta $y = x$ y el otro, en la recta $y = 4-x.$
+La base está situada sobre el eje $OX$, un vértice está en la recta $y = x$ y el otro, en la recta $y = 4-x.$
 <img class="figura" src="img/201811.png" alt="Figura" loading="lazy">
 
 Se pide:

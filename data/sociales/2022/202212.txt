@@ -1,4 +1,4 @@
-Una sastrería dispone de 70m<sup>2</sup> de tela de lino y de 150m<sup>2</sup> de tela de algodón.
-En la confección de un traje se emplea 1m<sup>2</sup> de tela de lino y 3m<sup>2</sup> de tela de algodón, y en un vestido se necesitan 2m<sup>2</sup> de tela de cada tipo.
+Una sastrería dispone de 70 m<sup>2</sup> de tela de lino y de 150 m<sup>2</sup> de tela de algodón.
+En la confección de un traje se emplea 1 m<sup>2</sup> de tela de lino y 3 m<sup>2</sup> de tela de algodón, y en un vestido se necesitan 2 m<sup>2</sup> de tela de cada tipo.
 Se obtienen 60 euros de beneficio por cada traje y 70 euros por cada vestido.
 Determine el número de trajes y vestidos que se deben confeccionar para obtener el máximo beneficio, así como dicho beneficio máximo.

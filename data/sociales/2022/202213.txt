@@ -2,7 +2,7 @@ Se considera la función
 $$f(x) = \begin{cases}
     a(x+1)^2, & \text{si } -3 \leq x \leq 1, \\
     \dfrac{bx^2}{2} + 2, & \text{si } 1 < x \leq 2,
-\end{cases}
+\end{cases}$$
 con $a$ y $b$ números reales.
 
 <ol>
