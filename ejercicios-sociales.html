@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+    <title>Ejercicios de sociales — Matemáticas de Selectividad</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/core.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/ejercicios-sociales.js"></script>
+    <script src="js/config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h1>
+                <img src="img/favicon.png" alt="Icono" width="25" height="25">
+                Matemáticas de Selectividad
+            </h1>
+        </a>
+
+        <nav id="navegacion-global">
+            <ul>
+                <li><a href="/examenes.html">Exámenes</a></li>
+                <li><a href="/ejercicios.html">Ejercicios</a></li>
+            </ul>
+        </nav>
+
+        <a class="github" href="https://github.com/DanielSevillano/matematicas-selectividad" title="GitHub"
+            target="_blank">
+            <img src="img/icono-github.svg" alt="GitHub" width="25" height="25">
+        </a>
+    </header>
+
+    <nav id="navegacion-local">
+        <h2>📘 Ejercicios de sociales</h2>
+
+        <div class="contenedor-grupos">
+            <button id="grupo-analisis" class="grupo">Análisis</button>
+            <button id="grupo-algebra" class="grupo">Álgebra</button>
+            <button id="grupo-estadistica" class="grupo">Probabilidad y estadística</button>
+        </div>
+
+        <div class="contenido-grupo">
+            <button id="boton-analisis" class="contorno">Todos</button>
+            <button id="boton-programacion-lineal" class="contorno">Programación lineal</button>
+        </div>
+
+        <div class="contenido-grupo">
+            <button id="boton-algebra" class="contorno">Todos</button>
+        </div>
+
+        <div class="contenido-grupo">
+            <button id="boton-probabilidad" class="contorno">Probabilidad</button>
+            <button id="boton-estadistica" class="contorno">Estadística</button>
+        </div>
+    </nav>
+
+    <main>
+        <p class="pista">Selecciona una categoría para abrirla.</p>
+
+        <button id="aleatorio">Categoría aleatoria</button>
+    </main>
+</body>
+
+</html>

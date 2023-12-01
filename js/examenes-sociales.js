@@ -1,5 +1,16 @@
 import { estado, formatear } from "./math.js";
 
+function normalizar(texto) {
+    let procesado = texto.toLowerCase();
+    procesado = procesado.replaceAll("á", "a");
+    procesado = procesado.replaceAll("é", "e");
+    procesado = procesado.replaceAll("í", "i");
+    procesado = procesado.replaceAll("ó", "o");
+    procesado = procesado.replaceAll("ú", "u");
+    procesado = procesado.replaceAll(" ", "-");
+    return procesado;
+}
+
 function tituloExamen(examen) {
     const codigo = String(examen);
     const curso = codigo.slice(0, 4);
@@ -34,7 +45,7 @@ async function obtenerEjercicio(examen, ejercicio, categorias = []) {
         const elementoCategoria = document.createElement("li");
         const enlaceCategoria = document.createElement("a");
         enlaceCategoria.textContent = categoria;
-        enlaceCategoria.href = "";
+        enlaceCategoria.href = "/ejercicios-sociales.html?categoria=" + normalizar(categoria);
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
