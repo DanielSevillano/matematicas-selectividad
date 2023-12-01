@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    a(x+1)^2, & \text{si } -3 \leq x \leq 1, \\
+    \dfrac{bx^2}{2} + 2, & \text{si } 1 < x \leq 2,
+\end{cases}
+con $a$ y $b$ números reales.
+
+<ol>
+    <li>Determine los valores de $a$ y $b$ para que $f$ sea continua y derivable.</<li>
+    <li>Para $a = 1$ y $b = 2$, esboce la gráfica de la función $f$ y calcule el área del recinto limitado por la gráfica de $f$, el eje $OX$ y las rectas $x = -2$ y $x = 1.$</li>
+</ol>

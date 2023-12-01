@@ -1,0 +1,14 @@
+Considere la matriz
+$$\begin{pmatrix}
+    2 & -3 & -a-1 \\
+    -1 & a & a+1 \\
+    1 & -3 & -a
+\end{pmatrix},$$
+donde $a$ es un número real.
+Determine de manera justificada:
+
+<ol>
+    <li>Los valores de $a$ para los que la matriz $A$ tiene inversa.</li>
+    <li>Las matrices $A^2$, $A^3$ y $A^{2022}$ para $a = 4.$</li>
+    <li>La matriz $X$ que verifica que $XA = I_3$ para $a = 3.$</li>
+</ol>

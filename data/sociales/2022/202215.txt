@@ -1,0 +1,15 @@
+El 80% de los restaurantes de una localidad admite el pago con tarjeta de crédito, el 50% admite pagar mediante el móvil y el 10% no admite el pago con ninguno de estos métodos.
+Escogido al azar un restaurante de dicha localidad.
+
+<ol>
+    <li>
+        Calcule la probabilidad de que el restaurante admita:
+
+        <ol>
+            <li>Alguno de estos dos medios de pago.</li>
+            <li>Pagar con móvil sabiendo que admite pagar con tarjeta de crédito.</li>
+        </ol>
+    </li>
+
+    <li>¿Son independientes los sucesos "Pagar con tarjeta" y "Pagar con móvil"?</li>
+</ol>

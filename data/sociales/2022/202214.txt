@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \frac{x-3}{x+2}.$$
+
+<ol>
+    <li>Determine el dominio de la función y estudie su monotonía y curvatura.</li>
+    <li>
+        Calcule las ecuaciones de las asíntotas de $f$ si existen.
+        Calcule los puntos de corte de la gráfica de $f$ con los ejes de coordenadas.
+    </li>
+    <li>Represente la gráfica de la función $f.$</li>
+</ol>

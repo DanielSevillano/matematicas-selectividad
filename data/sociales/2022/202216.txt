@@ -1,0 +1,10 @@
+En una localidad se han vendido 1.335 boletos de lotería en tres establecimientos A, B y C.
+En el establecimiento A se han vendido 1.054 boletos, 99 en B y el resto en C.
+De los boletos premiados, 5 han sido vendidos en B y 13 en C.
+Sabemos que 95 de cada 100 boletos vendidos no han obtenido premio.
+Elegido un boleto al azar, se pide:
+
+<ol>
+    <li>¿Cuál es el establecimiento que tiene una mayor probabilidad de haber vendido un boleto no premiado?</li>
+    <li>¿Cuál es la probabilidad de que un boleto no premiado haya sido vendido en el establecimiento A?</li>
+</ol>
