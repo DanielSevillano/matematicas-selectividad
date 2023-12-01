@@ -15,7 +15,8 @@
     {
         "ejercicio": 202303,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -51,20 +52,23 @@
     {
         "ejercicio": 202311,
         "categorias": [
-            "Álgebra"
+            "Álgebra",
+            "Problemas de matrices"
         ]
     },
     {
         "ejercicio": 202312,
         "categorias": [
             "Análisis",
-            "Programación lineal"
+            "Programación lineal",
+            "Problemas de optimización"
         ]
     },
     {
         "ejercicio": 202313,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -100,20 +104,23 @@
     {
         "ejercicio": 202321,
         "categorias": [
-            "Álgebra"
+            "Álgebra",
+            "Problemas de matrices"
         ]
     },
     {
         "ejercicio": 202322,
         "categorias": [
             "Análisis",
-            "Programación lineal"
+            "Programación lineal",
+            "Problemas de optimización"
         ]
     },
     {
         "ejercicio": 202323,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -150,7 +157,8 @@
         "ejercicio": 202331,
         "categorias": [
             "Análisis",
-            "Programación lineal"
+            "Programación lineal",
+            "Problemas de optimización"
         ]
     },
     {
@@ -162,7 +170,8 @@
     {
         "ejercicio": 202333,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -199,7 +208,8 @@
         "ejercicio": 202341,
         "categorias": [
             "Análisis",
-            "Programación lineal"
+            "Programación lineal",
+            "Problemas de optimización"
         ]
     },
     {
@@ -211,7 +221,8 @@
     {
         "ejercicio": 202343,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -254,13 +265,15 @@
         "ejercicio": 202352,
         "categorias": [
             "Análisis",
-            "Programación lineal"
+            "Programación lineal",
+            "Problemas de optimización"
         ]
     },
     {
         "ejercicio": 202353,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -297,7 +310,8 @@
         "ejercicio": 202201,
         "categorias": [
             "Análisis",
-            "Programación lineal"
+            "Programación lineal",
+            "Problemas de optimización"
         ]
     },
     {
@@ -309,13 +323,15 @@
     {
         "ejercicio": 202203,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
         "ejercicio": 202204,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -352,13 +368,15 @@
         "ejercicio": 202212,
         "categorias": [
             "Análisis",
-            "Programación lineal"
+            "Programación lineal",
+            "Problemas de optimización"
         ]
     },
     {
         "ejercicio": 202213,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -413,7 +431,8 @@
     {
         "ejercicio": 202224,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -456,7 +475,8 @@
     {
         "ejercicio": 202253,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
