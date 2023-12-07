@@ -1,0 +1,7 @@
+Una papelería quiere vender 400 cuadernos de vacaciones y 300 estuches de lápices de colores.
+Para ello ha preparado dos lotes de esos productos a precios especiales.
+Los lotes de tipo A contienen 2 cuadernos y 2 estuches; los lotes de tipo B contienen 3 cuadernos y 1 estuche.
+No es posible vender más de 100 lotes de tipo B.
+Cada lote de tipo A se vende a 35€ y cada lote de tipo B a 45€.
+Calcule cuántos lotes de cada tipo debe vender la papelería para conseguir el máximo valor de ventas.
+¿A cuánto asciende dicho valor?

@@ -460,6 +460,57 @@
         ]
     },
     {
+        "ejercicio": 202231,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202232,
+        "categorias": [
+            "Análisis",
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202233,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202234,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202235,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202236,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202237,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
+        "ejercicio": 202238,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
         "ejercicio": 202251,
         "categorias": [
             "Álgebra"

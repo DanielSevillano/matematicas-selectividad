@@ -1,0 +1,24 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    1 & 0 & 1 \\
+    -1 & -1 & 1 \\
+    2 & -1 & 0
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & -1 & 1 \\
+    -1 & -1 & -1 \\
+    1 & -1 & 1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    3 \\
+    -7 \\
+    -2
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Razone si se pueden efectuar las siguientes operaciones y realice las que sean posibles:
+        $$CA, \quad A+B, \quad C^tB^t.$$
+    </li>
+    <li>Resuelva la ecuación matricial $AX = BX + C.$</li>
+</ol>

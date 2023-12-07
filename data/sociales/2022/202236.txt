@@ -1,0 +1,9 @@
+El porcentaje de conductores que consumen alcohol durante la madrugada del sábado es del 5%.
+La policía realiza controles de alcoholemia mediante un test del que se sabe que da positivo en un 96% si la persona ha bebido alcohol y en un 10% si la persona no ha bebido alcohol.
+Elegido al azar un conductor en la madrugada del sábado y realizado este test de alcoholemia, halle la probabilidad de que:
+
+<ol>
+    <li>Si el test da positivo, el conductor haya consumido alcohol.</li>
+    <li>El test dé negativo y el conductor no haya consumido alcohol.</li>
+    <li>Si el test ha dado negativo, el conductor no haya consumido alcohol.</li>
+</ol>

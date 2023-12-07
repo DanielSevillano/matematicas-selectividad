@@ -1,0 +1,10 @@
+Un taller desea estimar el grado de satisfacción de sus clientes.
+Para ello, a 120 clientes seleccionados al azar, les pregunta si volverían a solicitar sus servicios en caso de necesitarlo, de los que 96 respondieron que sí lo harian.
+
+<ol>
+    <li>Determine, con un nivel de confianza del 95%, un intervalo de confianza para estimar la proporción de clientes de este taller que volverían a solicitar sus servicios.</li>
+    <li>
+        Mediante una nueva muestra queremos estimar la proporción de clientes de ese taller que volverian a solicitar sus servicios con un error máximo del 5% y un nivel de confianza del 97%.
+        Suponiendo que se mantiene la proporción muestral, ¿qué tamaño mínimo debe tener dicha muestra?
+    </li>
+</ol>

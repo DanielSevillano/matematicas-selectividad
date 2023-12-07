@@ -1,0 +1,6 @@
+Se considera la función $f(x) = 3x^3 - 6x^2 + 5.$
+
+<ol>
+    <li>Obtenga las ecuaciones de las rectas tangentes a $f$ que sean paralelas a la recta de ecuación $y = -3x + 1.$</li>
+    <li>Calcule la función $F$ que verifique que $F'(x) = f(x)$ y $F(2) = 4.$</li>
+</ol>
