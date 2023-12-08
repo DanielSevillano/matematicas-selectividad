@@ -1,0 +1,12 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    ax^2 + bx + 1, & \text{si } x \leq 1, \\
+    \dfrac{2}{x}, & \text{si } x > 1,
+\end{cases}$$
+con $a$ y $b$ números reales.
+
+<ol>
+    <li>¿Para qué valores de $a$ y $b$ la función es continua y derivable en $x = 1$?</li>
+    <li>Para $a = -3$ y $b = 4$, calcule los extremos relativos de $f.$</li>
+    <li>Para $a = -2$ y $b = 3$, calcule el valor de la integral $\int_{-1}^3 f(x)dx.$</li>
+</ol>

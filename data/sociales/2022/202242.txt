@@ -1,0 +1,27 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    7 & -6 & -2 \\
+    3 & 1 & 4 \\
+    -5 & 0 & -4
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    2 & 2 & 3 \\
+    5 & 3 & 4 \\
+    -4 & 0 & 1
+\end{pmatrix}, \quad
+C = \begin{pmatrix}
+    1 & 2 & -1 \\
+    -2 & -3 & 0
+\end{pmatrix} \quad \text{y} \quad
+D = \begin{pmatrix}
+    a^2 & 0 & -1 \\
+    1 & -1 & a
+\end{pmatrix}.$$
+
+<ol>
+    <li>Resuelva la siguiente ecuación matricial: $A^t - XA = 3I_3.$</li>
+    <li>
+        ¿Existe algún valor del parámetro $a$ para el que se verifique $C^tD = B$?
+        En caso afirmativo, calcule dicho valor.
+    </li>
+</ol>

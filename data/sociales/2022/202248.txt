@@ -1,0 +1,8 @@
+El peso en gramos de las tortugas terrestres de una reserva natural sigue una ley Normal de varianza 121g<sup>2</sup>.
+Para estimar el peso medio de las tortugas de la reserva, se toma una muestra de 10 tortugas, obteniéndose los siguientes datos:
+$$980, \quad 1002, \quad 950, \quad 985, \quad 1100, \quad 1085, \quad 895, \quad 1000, \quad 912, \quad 1006.$$
+
+<ol>
+    <li>Halle un intervalo de confianza para el peso medio de las tortugas con un nivel de confianza del 97%.</li>
+    <li>¿Cuál debe ser el tamaño mínimo de la muestra para asegurar con un nivel de confianza del 94% que el error máximo cometido sea de 5g?</li>
+</ol>

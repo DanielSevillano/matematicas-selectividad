@@ -1,0 +1,8 @@
+Juan realiza el siguiente juego: lanza dos dados simultáneamente y si la suma es 2 o mayor que 7, gana y termina el juego.
+En caso contrario, tiene una segunda y última oportunidad lanzando de nuevo los dos dados y ganaría si la suma es mayor que 9.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que Juan gane lanzando una sola vez los dados?</li>
+    <li>¿Cuál es la probabilidad de que Juan gane en la segunda oportunidad?</li>
+    <li>¿Cuál es la probabilidad de que Juan gane?</li>
+</ol>

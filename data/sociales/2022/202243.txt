@@ -1,0 +1,12 @@
+Una empresa de fumigación sabe que los beneficios, en miles de euros, que obtiene en función de las hectáreas que le encargan fumigar mensualmente viene dada por la expresión
+$$B(x) = -x^2 + 16x - 48.$$
+Además, por problemas de personal, la empresa no puede fumigar más de 10 hectáreas al mes.
+
+<ol>
+    <li>¿Cuántas hectáreas tiene que fumigar al mes para que la empresa tenga beneficios?</li>
+    <li>
+        ¿Cuántas hectáreas tiene que fumigar para obtener el máximo beneficio mensual?
+        ¿A cuánto asciende dicho beneficio?
+    </li>
+    <li>Si un mes ha obtenido un beneficio de 7.000€, ¿cuántas hectáreas ha fumigado?</li>
+</ol>

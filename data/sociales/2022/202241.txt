@@ -1,0 +1,6 @@
+Una fábrica de juguetes educativos produce juegos de ajedrez y dominó.
+Para fabricar un ajedrez se necesitan 2kg de madera y 4 horas de trabajo, mientras que para fabricar un dominó se necesita 1kg de madera y 1 hora de trabajo.
+Para que la producción sea rentable hay que hacer al día al menos 3 juegos y emplear como máximo 7kg de madera y 9 horas de trabajo.
+Cada ajedrez se vende por 40€ y cada dominó por 15€.
+¿Cuántos juegos de ajedrez y dominó deben fabricarse diariamente para que la ganancia obtenida sea máxima?
+¿Cuál será esa ganancia?

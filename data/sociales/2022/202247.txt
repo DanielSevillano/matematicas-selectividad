@@ -1,0 +1,7 @@
+Se desea estimar la proporción de personas mayores de 45 años de una determinada ciudad que tienen presbicia (vista cansada).
+Para ello, se toma una muestra aleatoria de 540 personas mayores de 45 años, obteniéndose que 378 tienen presbicia.
+
+<ol>
+    <li>Obtenga un intervalo, con un nivel de confianza del 97%, para estimar la proporción poblacional de personas mayores de 45 años con presbicia en dicha ciudad.</li>
+    <li>Suponiendo que se mantiene la misma proporción muestral y el mismo nivel de confianza del apartado anterior, ¿cuántas personas se deberán seleccionar como mínimo para que la proporción muestral difiera de la proporción poblacional a lo sumo en un 3%?</li>
+</ol>

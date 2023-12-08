@@ -1,0 +1,19 @@
+Una encuesta realizada a los clientes de un banco muestra que el 60% de sus clientes tiene un ordenador, el 50% tiene una tablet y el 20% posee un ordenador y una tablet.
+Se elige al azar un cliente de ese banco.
+
+<ol>
+    <li>
+        Calcule la probabilidad de que:
+        
+        <ol>
+            <li>Tenga un ordenador o una tablet.</li>
+            <li>No tenga tablet si no tiene ordenador.</li>
+            <li>Tenga ordenador y no tenga tablet.</li>
+        </ol>
+    </li>
+
+    <li>
+        ¿Son los sucesos "Tener un ordenador" y "Tener una tablet" incompatibles?
+        ¿Son sucesos independientes?
+    </li>
+</ol>
