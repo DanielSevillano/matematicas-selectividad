@@ -33,8 +33,11 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 
 ## 📋 Progreso
 
-### Exámenes
+### Exámenes de ciencias
 - [x] 2023 a 2012
+
+### Exámenes de sociales
+- [x] 2023 y 2022
 
 ### Ejercicios resueltos
 - [ ] 2023
