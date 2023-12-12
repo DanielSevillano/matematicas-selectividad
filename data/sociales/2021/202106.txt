@@ -1,0 +1,8 @@
+De las compras realizadas en el último período de rebajas del pasado año, el 55% se dedicaron a productos electrónicos, el 72% se hicieron a través de Internet y, de las compras que se hicieron por Internet, el 64% fueron de productos electrónicos.
+Se elige una compra al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que haya sido de productos electrónicos y se haya realizado por Internet.</li>
+    <li>Calcule la probabilidad de que la compra se haya realizado por Internet o que se hayan comprado productos electrónicos.</li>
+    <li>Calcule la probabilidad de que sabiendo que no se compraron productos electrónicos, la compra no se hiciera a través de Internet.</li>
+</ol>

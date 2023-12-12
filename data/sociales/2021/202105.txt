@@ -1,0 +1,9 @@
+Se desea probar la eficacia de dos tipos de vacunas, A y B, contra un virus determinado.
+Para ello, se seleccionan 5.000 voluntarios sin anticuerpos para este virus, a los que se les administra una de las vacunas o un placebo, resultando que 3.000 reciben la vacuna A, 1.500 la B y el resto el placebo.
+Se comprueba que el 90% de los vacunados con la A y el 95% de los vacunados con la B, generan anticuerpos, no generando anticuerpos los que han recibido el placebo.
+Se selecciona uno de esos voluntarios al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que haya generado anticuerpos?</li>
+    <li>Si dicho voluntario no ha generado anticuerpos, ¿qué probabilidad hay de que se le haya administrado placebo?</li>
+</ol>

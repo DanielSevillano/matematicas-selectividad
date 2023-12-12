@@ -1,0 +1,7 @@
+Se desea estimar la proporción de individuos mayores de edad de una localidad que están en contra de la construcción de una central nuclear en su término municipal.
+Para ello, se pregunta a 100 individuos mayores de edad de esa localidad, elegidos de forma aleatoria, resultando que 45 de ellos rechazan la construcción de la central.
+
+<ol>
+    <li>Calcule un intervalo de confianza al 92% para estimar la proporción real de individuos de esa localidad que están en contra de la construcción de la central.</li>
+    <li>Suponiendo que se mantiene la misma proporción muestral y el mismo nivel de confianza del apartado anterior, determine el tamaño mínimo de la muestra que hay que tomar, para que al estimar la proporción de individuos de esa localidad que rechazan la construcción de la central, el error cometido sea inferior al 5%.</li>
+</ol>

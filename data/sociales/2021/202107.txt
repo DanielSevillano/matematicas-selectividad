@@ -1,0 +1,13 @@
+<ol>
+    <li>
+        En una Escuela Politécnica hay matriculados en el último curso 60 estudiantes de Ingeniería Eléctrica, 40 de Ingeniería Informática, 30 de Ingeniería Civil, 50 de Ingeniería Mecánica y 20 de Ingeniería Aeronáutica.
+        Se quiere hacer una encuesta al 20% de estos estudiantes, de manera proporcional al número de matriculados en cada titulación.
+
+        <ol>
+            <li>¿Qué tipo de muestreo se debe emplear?</li>
+            <li>¿Cuántos alumnos debe haber en la muestra y cuántos de cada titulación?</li>
+        </ol>
+    </li>
+
+    <li>Dada la población $\{a, 10, 12, 11, 18\}$, ¿cuánto debe valer $a$, sabiendo que la media de las medias muestrales de tamaño 3, obtenidas mediante muestreo aleatorio simple, es 13.2?</li>
+</ol>

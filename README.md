@@ -38,8 +38,10 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 
 ### Exámenes de sociales
 - [x] 2023 y 2022
+- [ ] 2021
+    - [x] Junio
 
-### Ejercicios resueltos
+### Ejercicios resueltos de ciencias
 - [ ] 2023
     - [x] Junio
     - [ ] Julio (3, 6)

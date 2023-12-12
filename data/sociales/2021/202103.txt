@@ -1,0 +1,8 @@
+Se considera la función $f(x) = x^3 - 4x^2 + 4x.$
+
+<ol>
+    <li>Estudie su monotonía y calcule sus extremos.</li>
+    <li>Represente gráficamente la función.</li>
+    <li>Calcule $\int f(x)dx.$</li>
+    <li>Calcule el área del recinto acotado limitado por la gráfica de $f$ y el eje de abscisas.</li>
+</ol>

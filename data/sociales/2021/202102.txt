@@ -1,0 +1,12 @@
+Se considera la matriz
+$$A = \begin{pmatrix}
+    1 & -1 & m \\
+    0 & 2 & -3 \\
+    m & 1 & 1
+\end{pmatrix},$$
+con $m$ un parámetro real.
+
+<ol>
+    <li>¿Para qué valores del parámetro $m$ existe la matriz inversa de $A$?</li>
+    <li>Para $m = 2$, resuelva la ecuación matricial $XA - A^2 = I_3.$</li>
+</ol>
