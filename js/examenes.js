@@ -28,7 +28,7 @@ function pulsar(boton) {
     if (!estado.cancelado) {
         const examen = boton.id.replace("boton-", "");
         mostrarExamen(examen);
-        history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
+        history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
 
         botones.forEach(b => {
             if (boton == b) b.classList.add("seleccionado");

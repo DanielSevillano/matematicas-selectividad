@@ -142,7 +142,7 @@ function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
         mostrarCategoria(categoria);
-        history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
+        history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
         botones.forEach(b => {
             if (boton == b) b.classList.add("seleccionado");

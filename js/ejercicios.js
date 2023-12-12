@@ -36,7 +36,7 @@ function pulsar(boton) {
         mostrarCategoria(categoria, soloResueltos, contador);
         categoriaSeleccionada = categoria;
         cinta.classList.remove("oculto");
-        history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
+        history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
         botones.forEach(b => {
             if (boton == b) b.classList.add("seleccionado");

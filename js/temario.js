@@ -26,7 +26,7 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     const seccion = boton.id.replace("boton-", "");
     mostrarTemario(seccion);
-    history.pushState(history.state, document.title, direccion.origin + direccion.pathname + "?seccion=" + seccion);
+    history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?seccion=" + seccion);
 
     botones.forEach(b => {
         if (boton == b) b.classList.add("seleccionado");
