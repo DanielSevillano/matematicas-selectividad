@@ -40,6 +40,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [x] 2023 y 2022
 - [ ] 2021
     - [x] Junio
+    - [x] Julio
 
 ### Ejercicios resueltos de ciencias
 - [ ] 2023

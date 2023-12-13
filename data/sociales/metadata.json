@@ -688,5 +688,57 @@
             "Estadística",
             "Estimación de la proporción"
         ]
+    },
+    {
+        "ejercicio": 202151,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202152,
+        "categorias": [
+            "Análisis",
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 202153,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202154,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202155,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202156,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202157,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 202158,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
     }
 ]

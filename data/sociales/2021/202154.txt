@@ -1,0 +1,15 @@
+El número de diagnosticados de COVID-19 por PCR en Andalucía, medido en miles de personas, se aproxima por la siguiente función:
+$$f(t) = \begin{cases}
+    -t^2 + 2t - 0.3, & \text{si } 0.2 \leq t \leq 1.8, \\
+    0.1t - 0.12, & \text{si } 1.8 < t \leq 5, \\
+    -0.5t^2 + 8.3t - 28.62, & \text{si } 5 < t \leq 10,
+\end{cases}$$
+donde $t$ es el tiempo, medido en meses, a partir del inicio de conteo en el mes de marzo de 2020.
+
+<ol>
+    <li>Estudie la continuidad y la derivabilidad de la función $f$ en su dominio.</li>
+    <li>
+        ¿En qué instante o instantes es máximo el número de diagnosticados?
+        ¿Cuál es ese número?
+    </li>
+</ol>

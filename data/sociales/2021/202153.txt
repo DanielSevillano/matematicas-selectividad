@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    2^{x+1}, & \text{si } x < 0, \\
+    x^2 - 2x, & \text{si } x \geq 0.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de la función $f$ en su dominio.</li>
+    <li>Estudie la monotonía de la función $f$ y calcule el mínimo.</li>
+    <li>Calcule $\int_{-2}^2 f(x)dx.$</li>
+</ol>

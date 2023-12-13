@@ -1,0 +1,11 @@
+Se consideran las siguientes inecuaciones:
+$$5x - 4y \leq -19, \quad 3x - 4y \leq -13, \quad x \geq -7, \quad -x-y \geq 2.$$
+
+<ol>
+    <li>Represente la región factible definida por las inecuaciones anteriores y determine sus vértices.</li>
+    <li>
+        ¿Cuáles son los puntos en los que se alcanzan el mínimo y el máximo de la función $G(x, y) = -\frac{1}{5}x + \frac{5}{2}y$ en la citada región factible?
+        ¿Cuál es su valor?
+    </li>
+    <li>Responda de forma razonada si la función $G(x, y) = -\frac{1}{5}x + \frac{5}{2}y$ puede alcanzar el valor $\frac{47}{3}$ en la región factible hallada.</li>
+</ol>

@@ -1,0 +1,16 @@
+Se considera la matriz
+$$A = \begin{pmatrix}
+    2 & 1 & 0 \\
+    1 & 0 & 2 \\
+    0 & 2 & a
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determine para qué valores del parámetro $a$, la matriz $A$ tiene inversa.</li>
+    <li>Para $a = 1$, calcule la inversa de $A.$</li>
+    <li>
+        Para $a = 1$, resuelva la ecuación matricial $AX = B^t$, siendo $B = \begin{pmatrix}
+            0 & 1 & -1
+        \end{pmatrix}.$
+    </li>
+</ol>

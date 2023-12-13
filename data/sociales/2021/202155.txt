@@ -1,0 +1,9 @@
+En una población, se sabe que el 15% de las personas padece una determinada enfermedad.
+Si la persona está enferma, un test da positivo en el 92% de los casos, mientras que si la persona está sana, el test da positivo en el 4% de los casos (falso positivo).
+Se elige una persona al azar de esa población.
+
+<ol>
+    <li>Calcule la probabilidad de que, habiendo dado positivo el test, la persona esté enferma.</li>
+    <li>Calcule la probabilidad de que la persona esté enferma y el test salga negativo.</li>
+    <li>Calcule la probabilidad de que saliendo el test negativo, la persona esté enferma.</li>
+</ol>
