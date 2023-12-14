@@ -1,0 +1,8 @@
+Una determinada ciudad tiene en la plantilla del ayuntamiento 1.000 agentes de la policía local, 600 bomberos y 400 funcionarios de protección civil.
+En esta plantilla, el 42% de policías, el 20% de bomberos y el 50% de funcionarios de protección civil son mujeres.
+Se elige una persona al azar de la plantilla.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sea mujer?</li>
+    <li>Si la persona elegida es hombre, ¿cuál es la probabilidad de que sea bombero?</li>
+</ol>

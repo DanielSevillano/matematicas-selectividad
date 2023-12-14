@@ -797,6 +797,112 @@
         ]
     },
     {
+        "ejercicio": 202131,
+        "categorias": [
+            "Análisis",
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202132,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202133,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202134,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202135,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202136,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202137,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 202138,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 202141,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202142,
+        "categorias": [
+            "Análisis",
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 202143,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202144,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202145,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202146,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202147,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 202148,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
         "ejercicio": 202151,
         "categorias": [
             "Álgebra"

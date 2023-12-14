@@ -1,0 +1,12 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    \dfrac{1}{x}, & \text{si } x \leq -1, \\
+    -3x^2 + 4, & \text{si } -1 < x < 1, \\
+    2x - 1, & \text{si } x \geq 1.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de la función $f$ en todo su dominio.</li>
+    <li>Represente gráficamente la función $f.$</li>
+    <li>Calcule el área de la región limitada por la gráfica de la función $f$, el eje de abscisas y las rectas $x = 0$ y $x = 3.$</li>
+</ol>

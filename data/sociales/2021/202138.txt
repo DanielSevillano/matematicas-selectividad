@@ -1,0 +1,7 @@
+Se quiere estimar la proporción de imprentas de una región que incluyen el uso de celulosa reciclada en los libros que imprimen.
+Para ello, se ha tomado una muestra aleatoria de 50 imprentas de esa región y en ella hay 12 que usan dicho material.
+
+<ol>
+    <li>Obtenga un intervalo de confianza al 95%, para estimar la proporción real de imprentas que usan celulosa reciclada.</li>
+    <li>Determine el tamaño mínimo de la muestra de imprentas de esa región que se deben seleccionar para que, manteniendo el mismo nivel de confianza y proporción muestral anteriores, la amplitud del intervalo sea como máximo de 0.2.</li>
+</ol>

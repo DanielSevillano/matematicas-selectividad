@@ -1,0 +1,7 @@
+Una urna A contiene 4 bolas rojas y 5 verdes y otra urna B contiene 6 bolas rojas y 3 verdes.
+Lanzamos dos dados y si la suma es mayor o igual a 9, extraemos una bola de la urna A y en caso contrario, la extraemos de la urna B.
+
+<ol>
+    <li>Calcule la probabilidad de que la bola extraída sea verde y de la urna B.</li>
+    <li>Halle la probabilidad de que la bola extraída sea roja.</li>
+</ol>

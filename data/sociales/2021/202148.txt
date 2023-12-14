@@ -1,0 +1,10 @@
+El peso de los paquetes de arroz de una marca comercial concreta sigue una ley Normal de media 1000 g y varianza 256 g<sup>2</sup>.
+
+<ol>
+    <li>Calcule la probabilidad de que el peso medio de las muestras de tamaño 64 sea menor que 996 g.</li>
+    <li>
+        Tras varias denuncias presentadas por falta de peso en los citados paquetes, una organización de consumidores ha procedido a tomar una muestra de 64 paquetes, resultando que la suma de los pesos ha sido de 63.744 g.
+        Halle un intervalo de confianza al 90% para estimar el peso medio real de los paquetes de arroz de esa marca.
+    </li>
+    <li>A la vista del intervalo obtenido y teniendo en cuenta que el peso que marca el paquete es de 1.000 g, ¿cree que la denuncia tiene base?</li>
+</ol>

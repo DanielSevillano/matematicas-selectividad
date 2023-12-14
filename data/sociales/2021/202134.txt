@@ -1,0 +1,7 @@
+<ol>
+    <li>
+        Calcule la derivada de las siguientes funciones:
+        $$f(x) = (5x^3 + 4x - 2)^4 \ln(2x^5 - 4x^3 + x), \quad g(x) = \frac{e^{3x^2-5x}}{(6x^2+2)^3}.$$
+    </li>
+    <li>Halle la función $h(x)$, sabiendo que su derivada es $h'(x) = 4x^3 + x^2 - 4x - 1$ y que $h(2) = \frac{11}{3}.$</li>
+</ol>

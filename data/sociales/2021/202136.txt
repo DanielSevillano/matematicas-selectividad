@@ -1,0 +1,9 @@
+En una determinada muestra de suelo se han aislado dos tipos de bacterias, A y B, de las cuales el 70% son de A y el 30% de B.
+La probabilidad de que una bacteria de tipo A reaccione a la prueba del nitrato es 0.15 y para la bacteria B es 0.8.
+De las bacterias aisladas se selecciona una al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que reaccione a la prueba del nitrato.</li>
+    <li>Si la bacteria ha reaccionado a la prueba del nitrato, calcule la probabilidad de que sea del tipo B.</li>
+    <li>Calcule la probabilidad de que la bacteria sea del tipo A y no reaccione a la prueba del nitrato.</li>
+</ol>

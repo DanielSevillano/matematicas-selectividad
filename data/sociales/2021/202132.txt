@@ -1,0 +1,20 @@
+Se considera la ecuación matricial $(10I_3 - A)X = B$, donde
+$$A = \begin{pmatrix}
+    2 & 1 & 0 \\
+    4 & 2 & 0 \\
+    2 & 2 & 5
+\end{pmatrix}$$
+y $B$ es una matriz con tres filas y una columna.
+
+<ol>
+    <li>Razone qué dimensión ha de tener la matriz $X.$</li>
+    <li>
+        ¿Tiene solución la ecuación matricial anterior para cualquier matriz $B$ de orden $3 \times 1$?
+        ¿Por qué?
+    </li>
+    <li>
+        Resuelva dicha ecuación matricial si $B = \begin{pmatrix}
+            5 & 20 & -3
+        \end{pmatrix}^t.$
+    </li>
+</ol>

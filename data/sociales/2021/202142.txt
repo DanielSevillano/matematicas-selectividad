@@ -1,0 +1,8 @@
+Se consideran las siguientes inecuaciones:
+$$5x - 3y \geq -9, \quad x + y \leq 11, \quad 6x + y \leq 36, \quad x + 2y \geq 6.$$
+
+<ol>
+    <li>Represente la región factible definida por las inecuaciones anteriores y determine sus vértices.</li>
+    <li>¿Pertenece el punto $(5, 7)$ a la región factible anterior?</li>
+    <li>Calcule los valores máximo y mínimo de la función $F(x, y) = 10x - 6y$ en la región anterior y determine los puntos en los que se alcanzan.</li>
+</ol>

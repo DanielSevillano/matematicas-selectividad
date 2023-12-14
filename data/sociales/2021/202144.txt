@@ -1,0 +1,13 @@
+Una fábrica estima que sus costes de producción, expresados en miles de euros, vienen dados por la función $f(x) = x^2 - 6x + 10$, donde $x$ es la cantidad semanal a producir expresada en miles de kilogramos.
+
+<ol>
+    <li>
+        ¿Cuál debe ser la producción semanal para que el coste sea mínimo?
+        ¿Cuál es dicho coste?
+    </li>
+
+    <li>
+        Calcule la recta tangente a la función de costes en el punto de abscisa $x = 4.$
+        Represente gráficamente la función de costes y la recta tangente hallada.
+    </li>
+</ol>

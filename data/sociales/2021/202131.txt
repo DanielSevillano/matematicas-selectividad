@@ -1,0 +1,14 @@
+<ol>
+    <li>
+        Una frutería vende dos tipos de surtidos de frutos rojos, A y B.
+        El surtido de tipo A contiene 75 g de arándanos, 100 g de frambuesas y se vende a 2.40 euros, mientras que el de tipo B contiene 75 g de arándanos, 50 g de frambuesas y se vende a 1.80 euros.
+        La frutería dispone de un total de 3.75 kg de arándanos y 4 kg de frambuesas y el número de surtidos que vende del tipo A, siempre es menor o igual al doble de los del tipo B.
+        Formule, sin resolver, el problema que permite obtener el número de surtidos de cada tipo que debe vender para que el beneficio sea máximo.
+    </li>
+
+    <li>
+        Represente el recinto limitado por las siguientes restricciones, calculando sus vértices:
+        $$x + 4y \geq 5, \quad x + 2y \geq 4, \quad 7x + 5y \leq 35, \quad x \geq 0.$$
+        ¿En qué punto de la región anterior la función $F(x, y) = 2x + y$ alcanza el mínimo y cuál es dicho valor?
+    </li>
+</ol>

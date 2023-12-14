@@ -1,0 +1,7 @@
+Se quiere estudiar la proporción de ciudadanos enfermos de COVID-19 en una determinada población.
+Para ello, se elige una muestra al azar de 1.000 ciudadanos, revelándose que el 15% de ellos están enfermos.
+
+<ol>
+    <li>Calcule un intervalo de confianza al 95%, para estimar la proporción real de enfermos de COVID-19 en dicha población.</li>
+    <li>Determine el tamaño muestral mínimo para que, con el mismo nivel de confianza y la misma proporción muestral anteriores, el error que se cometa al estimar la proporción de ciudadanos enfermos de COVID-19 en esa población sea inferior al 1%.</li>
+</ol>

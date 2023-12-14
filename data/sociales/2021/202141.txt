@@ -1,0 +1,11 @@
+Se considera la matriz
+$$A = \begin{pmatrix}
+    1 & 0 \\
+    -1 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule $A^{40}$ y $(A^t)^{30}.$</li>
+    <li>Calcule $(A^{-1} + A)^2.$</li>
+    <li>Resuelva la ecuación matricial $(A^t + I_2)X = A^t - I_2.$</li>
+</ol>
