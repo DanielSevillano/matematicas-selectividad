@@ -1,0 +1,9 @@
+Una empresa dedicada a la fabricación de coches lanza al mercado un nuevo modelo que fabrica en tres plantas diferentes, A, B y C.
+La planta A produce el 45% de los vehículos, la planta B el 21% y el resto los produce la planta C.
+Se ha detectado un defecto en la colocación del airbag, que afecta al 1% de los coches procedentes de la planta A, al 3% de los procedentes de la planta B y al 2% de los de la planta C.
+Se selecciona un coche al azar de este nuevo modelo.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que no sea defectuoso y proceda de la planta C?</li>
+    <li>Si el coche elegido no es defectuoso, ¿cuál es la probabilidad de que proceda de la planta A?</li>
+</ol>

@@ -1,0 +1,9 @@
+Un equipo andaluz de baloncesto jugó en una temporada un 40% de los partidos en casa y el resto fuera.
+De los partidos que jugó en casa, obtuvo un 60% de victorias y el resto fueron derrotas, mientras que de los que jugó fuera, obtuvo un 30% de victorias y el resto derrotas.
+Se elige un partido de este equipo al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que el partido acabase en victoria.</li>
+    <li>Calcule la probabilidad de que el partido haya sido jugado en casa, sabiendo que el resultado final fue una derrota.</li>
+    <li>Si además se sabe que el 10% de las victorias obtenidas en casa y el 20% de las obtenidas fuera se produjeron tras una prórroga, calcule la probabilidad de que el partido acabase en victoria y que además esa victoria haya sido tras una prórroga.</li>
+</ol>

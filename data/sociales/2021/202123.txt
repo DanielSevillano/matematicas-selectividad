@@ -1,0 +1,14 @@
+Se considera la función
+$$f(x) = \begin{pmatrix}
+    (x+1)^2, & \text{si } -2 \leq x < 0, \\
+    (x-1)^2, & \text{si } 0 \leq x \leq 2.
+\end{pmatrix}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de la función $f$ en todo su dominio.</li>
+    <li>Calcule los extremos de la función $f.$</li>
+    <li>
+        Represente el recinto que encierra la gráfica de $f$, las rectas $x = -1$, $x = 1$ y el eje $OX.$
+        Calcule el área de dicho recinto.
+    </li>
+</ol>

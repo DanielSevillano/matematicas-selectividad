@@ -1,0 +1,15 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    ax + b, & \text{si } x < 1, \\
+    x^2 - bx + a, & \text{si } x \geq 1.
+\end{cases}$$
+
+<ol>
+    <li>Halle el valor de $b$ para que $f$ sea continua en $\mathbb{R}.$</li>
+    <li>Para $b = \frac{1}{2}$, halle el valor de $a$ para que $f$ sea derivable en $\mathbb{R}.$</li>
+    <li>Para $a < 0$ y $b = \frac{1}{2}$, estudie el crecimiento y halle las abscisas de los extremos de la función $f.$</li>
+    <li>
+        Para $a = 0$ y $b = \frac{1}{2}$, represente la región del plano delimitada por la gráfica de $f$, el eje de abscisas y las rectas $x = 0$ y $x = 2.$
+        Calcule el área de dicha región.
+    </li>
+</ol>

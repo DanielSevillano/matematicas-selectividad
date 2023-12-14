@@ -1,0 +1,13 @@
+La probabilidad de que una persona sana se contagie de otra enferma por un virus es del 80% si coinciden en una reunión.
+
+<ol>
+    <li>
+        Si una persona enferma se reúne con dos personas sanas, teniendo en cuenta que contagiar a distintas personas son sucesos independientes entre sí, ¿cuál es la probabilidad de que se contagien las dos personas a la vez?
+        ¿Cuál es la probabilidad de que se contagie alguna de ellas?
+    </li>
+
+    <li>
+        Una prueba para detectar la enfermedad da el resultado correcto en el 90% de los casos cuando se le aplica a personas contagiadas y da falsos positivos en el 5% de los casos cuando se aplica a personas sanas.
+        Si una persona sana se reúne con una enferma y resulta positivo en una prueba posterior, ¿qué probabilidad hay de que se haya contagiado en la reunión?
+    </li>
+</ol>

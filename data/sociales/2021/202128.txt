@@ -1,0 +1,8 @@
+El tiempo, en horas, que los alumnos de un instituto dedican a estudiar para los exámenes finales, se distribuye siguiendo una ley Normal de media desconocida y varianza 81.
+Se toma una muestra aleatoria de 16 alumnos de dicho instituto, obteniéndose los siguientes tiempos:
+$$30, \quad 42, \quad 38, \quad 45, \quad 52, \quad 60, \quad 21, \quad 26, \quad 33, \quad 44, \quad 28, \quad 49, \quad 32, \quad 51, \quad 49, \quad 40.$$
+
+<ol>
+    <li>Obtenga un intervalo, con un 95% de confianza, para estimar el tiempo medio de estudio de los alumnos de ese instituto.</li>
+    <li>Calcule el mínimo tamaño de la muestra que se ha de tomar, para estimar el tiempo medio de estudio de esos alumnos con un error inferior a 2 horas y un nivel de confianza del 98%.</li>
+</ol>

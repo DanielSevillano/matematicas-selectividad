@@ -1,0 +1,18 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    a & 4 \\
+    6 & 8
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    2 & 2 \\
+    3 & 3
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule el valor del parámetro $a$ para que la matriz $A$ no tenga inversa.</li>
+    <li>Para $a = 3$, resuelva la ecuación matricial $XA - XB = C.$</li>
+    <li>Para $a = 3$, compruebe que $A^2 = 11A$ y exprese $A^8$ en función de la matriz $A.$</li>
+</ol>

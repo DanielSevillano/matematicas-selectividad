@@ -1,0 +1,3 @@
+La Agencia Espacial Europea contará con un presupuesto de 2.4 millones de euros para financiar misiones sobre Observación de la Tierra y para financiar programas de Transporte Espacial.
+Cada misión supone una inversión de 200.000 euros y cada programa, 100.000 euros.
+Teniendo en cuenta que en la decisión final deben superarse los 2 millones de euros de inversión y el número de misiones debe ser al menos 4, pero no más de la mitad del número de programas, ¿cuántas misiones y cuántos programas se deben llevar a cabo para obtener el máximo de la función $F(x, y) = 0.6x +0.4y$, con $x$ misiones e $y$ programas?

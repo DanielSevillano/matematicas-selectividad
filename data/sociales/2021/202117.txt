@@ -1,0 +1,6 @@
+Para un estudio acerca del uso del transporte público en una ciudad, se selecciona una muestra aleatoria de 500 individuos, obteniéndose que 175 de ellos lo usan.
+
+<ol>
+    <li>Halle un intervalo de confianza al 94% para estimar la proporción real de individuos que usan el transporte público en esa ciudad.</li>
+    <li>Manteniendo la proporción muestral, ¿cuántos individuos se deberían seleccionar como mínimo, para que, con un nivel de confianza del 97%, la proporción muestral difiera de la proporción real a lo sumo en un 2%?</li>
+</ol>

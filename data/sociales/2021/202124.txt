@@ -1,0 +1,13 @@
+<ol>
+    <li>
+        Sea $f$ una función de la que sabemos que la gráfica de su derivada, $f'$, es una parábola con vértice en el punto $(0, 8)$, que corta al eje de abscisas en los puntos $(-4, 0)$ y $(4, 0).$
+
+        <ol>
+            <li>Dibuje la gráfica de $f'.$</li>
+            <li>A partir de dicha gráfica, halle los intervalos de crecimiento y decrecimiento de $f$, así como las abscisas de los extremos relativos de $f.$</li>
+            <li>Sabiendo que la gráfica de $f$ pasa por el origen de coordenadas, calcule la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0.$</li>
+        </ol>
+    </li>
+
+    <li>Calcule la derivada de la función $g(x) = (-3 + x^2)e^{2x-1}.$</li>
+</ol>

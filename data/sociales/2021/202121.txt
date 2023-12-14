@@ -1,0 +1,4 @@
+Un laboratorio farmacéutico tiene una línea de producción con dos medicamentos A y B, con marca comercial y genérico respectivamente, de los cuales, entre los dos como máximo puede fabricar 10 unidades a la hora.
+Desde el punto de vista del rendimiento, se han de producir al menos 4 unidades por hora entre los dos y por motivos de política sanitaria, la producción de A ha de ser como mucho 2 unidades más que la de B.
+Cada unidad de tipo A que vende le produce un beneficio de 60 euros, mientras que cada unidad de tipo B le produce un beneficio de 25 euros.
+Si se vende todo lo que se produce, determine las unidades de cada medicamento que deberá fabricar por hora para maximizar su beneficio y obtenga el valor de dicho beneficio.

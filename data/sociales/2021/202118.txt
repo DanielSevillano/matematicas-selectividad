@@ -1,0 +1,9 @@
+La estatura de las mujeres de una población sigue una ley Normal de media desconocida y desviación típica 7 cm.
+
+<ol>
+    <li>
+        Se toma una muestra aleatoria de 300 mujeres de esta población, que da una estatura media de 168 cm.
+        Construya un intervalo de confianza al 97% para estimar la estatura media de las mujeres de esta población.
+    </li>
+    <li>Calcule el tamaño mínimo que debe tener una muestra de esta población para que, con un nivel de confianza del 94%, el error máximo cometido al estimar la estatura media de las mujeres de esa población sea inferior a 1.2 cm.</li>
+</ol>

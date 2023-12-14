@@ -1,0 +1,19 @@
+<ol>
+    <li>
+        En una población constituida por los números naturales del 1 al 9, ¿cuántas muestras de tamaño 2 se pueden formar por muestreo aleatorio simple?
+        Si se elige al azar una de esas muestras, ¿cuál es la probabilidad de que el valor medio de los dos números de esa muestra sea 5?
+    </li>
+
+    <li>
+        Para estimar la proporción de andaluces contagiados por una enfermedad infecciosa en un momento determinado, se ha tomado una muestra de 10.000 personas, resultando que 500 de ellas estaban infectadas.
+
+        <ol>
+            <li>Con ese dato, establezca un intervalo, al 97% de confianza, para la proporción real de infectados en la población andaluza.</li>
+            <li>A la vista del intervalo obtenido, razone si se podría aceptar que el 6% de la población andaluza estaba infectada.</li>
+            <li>
+                Se toma una nueva muestra de mayor tamaño y resulta que hay la misma proporción de positivos en la nueva muestra.
+                Con estos nuevos datos, razone si el nuevo intervalo al 97% de confianza contiene al intervalo anterior o está contenido en él.
+            </li>
+        </ol>
+    </li>
+</ol>
