@@ -1,0 +1,7 @@
+La renta anual de los hogares andaluces, en miles de euros, se distribuye según una ley Normal con desviación típica 5 y media desconocida $\mu.$
+
+<ol>
+    <li>Si se desea que en el 99% de las posibles muestras del mismo tamaño, elegidas de entre los hogares andaluces, la media muestral no difiera de la renta media anual poblacional de dichos hogares en más de una unidad, ¿cuál debe ser el tamaño mínimo de las muestras?</li>
+    <li>Si se consideran muestras de hogares andaluces de tamaño 100, ¿qué distribución de probabilidad sigue la variable aleatoria "Renta media anual muestral"?</li>
+    <li>Suponiendo que la renta media anual poblacional de los hogares andaluces es $\mu = 24$, ¿cuál es la probabilidad de que en una muestra de tamaño 100 la renta media anual muestral sea superior a 25?</li>
+</ol>

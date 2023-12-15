@@ -1,0 +1,12 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    -x+2, & \text{si } x \leq 2, \\
+    -x^2+6x-8, & \text{si } 2 < x < 4, \\
+    \dfrac{x-3}{x}, & \text{si } x \geq 4.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de $f$ en su dominio.</li>
+    <li>Determine los intervalos de crecimiento y decrecimiento de la función $f.$</li>
+    <li>Calcule $\int_2^3 f(x)dx.$</li>
+</ol>

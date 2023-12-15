@@ -1,0 +1,11 @@
+Las bicicletas de alquiler de una ciudad se clasifican por su calidad: buena, media y mala.
+El 30% de dichas bicicletas son gestionadas por una empresa $E_1$ y el resto por una empresa $E_2.$
+De las bicicletas de la empresa $E_1$, el 80% son de buena calidad, el 5% de calidad media y el resto de mala calidad.
+De las bicicletas de la empresa $E_2$ se sabe que el 60% son de buena calidad, pero se desconocen los porcentajes de bicicletas de calidad media y calidad mala.
+Se elige al azar una bicicleta de alquiler de esa ciudad.
+
+<ol>
+    <li>Calcule la probabilidad de que sea de buena calidad.</li>
+    <li>Calcule la probabilidad de que sea de la empresa $E_1$ y de mala calidad.</li>
+    <li>Si se sabe que el porcentaje de bicicletas de alquiler de calidad media en toda la ciudad es del 19%, ¿cuál es la probabilidad de que sea de calidad media, sabiendo que la bicicleta elegida es de la empresa $E_2$?</li>
+</ol>

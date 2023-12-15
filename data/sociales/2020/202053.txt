@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    2 + \dfrac{a}{x-1}, & \text{si } x < 0, \\
+    a + be^x, & \text{si } x \geq 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcule los valores de $a$ y $b$ para que la función sea continua y derivable en su dominio.</li>
+    <li>Para $a = 2$ y $b = -2$, estudie la monotonía de la función $f$ y calcule sus extremos relativos.</li>
+    <li>Para $a = 2$ y $b = -2$, determine las ecuaciones de las asíntotas de $f$, si existen.</li>
+</ol>

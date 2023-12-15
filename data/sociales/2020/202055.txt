@@ -1,0 +1,8 @@
+Una urna contiene 6 bolas rojas y 4 azules.
+Se extrae una bola al azar y se reemplaza por seis bolas del otro color.
+A continuación, se vuelve a extraer una segunda bola de la urna.
+
+<ol>
+    <li>Calcule la probabilidad de que la segunda bola extraída sea roja.</li>
+    <li>Si sabemos que la segunda bola extraída es azul, ¿cuál es la probabilidad de que también lo haya sido la primera?</li>
+</ol>

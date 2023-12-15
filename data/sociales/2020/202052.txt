@@ -1,0 +1,7 @@
+<ol>
+    <li>
+        Represente la región factible definida por las siguientes inecuaciones y determine sus vértices:
+        $$x + 2y \leq 13, \quad x - y \leq 4, \quad x - 2y \geq -7, \quad x + y \geq 5.$$
+    </li>
+    <li>Calcule los valores máximo y mínimo de la función objetivo $F(x, y) = x+y$ en la región anterior y determine los puntos en los que se alcanzan.</li>
+</ol>

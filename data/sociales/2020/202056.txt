@@ -1,0 +1,8 @@
+Una empresa fabrica dos tipos de bombillas: una LED y otra halógena.
+Se sabe que un 5% de las LED y un 2% de las halógenas salen defectuosas.
+Se elige al azar una bombilla de una caja que contiene 40 bombillas LED y 10 halógenas.
+
+<ol>
+    <li>Calcule la probabilidad de que la bombilla elegida no sea defectuosa.</li>
+    <li>Calcule la probabilidad de que la bombilla elegida sea LED, sabiendo que es defectuosa.</li>
+</ol>

@@ -1,0 +1,17 @@
+Sean $A$, $B$, $X$ e $Y$ matrices invertibles que verifican $AX = B$ y $BY = A.$
+
+<ol>
+    <li>Compruebe que $Y^{-1} = X.$</li>
+    <li>
+        Para
+        $$A = \begin{pmatrix}
+            1 & 2 \\
+            1 & 3
+        \end{pmatrix} \quad \text{y} \quad
+        B = \begin{pmatrix}
+            2 & 1 \\
+            0 & -1
+        \end{pmatrix},$$
+        halle $X$ e $Y.$
+    </li>
+</ol>

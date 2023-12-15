@@ -1,0 +1,15 @@
+<ol>
+    <li>
+        Una fábrica de electrodomésticos dispone de dos cadenas de montaje.
+        En una hora de trabajo, la cadena A produce 10 lavadoras y 5 frigoríficos, mientras que la cadena B produce 7 lavadoras y 6 frigoríficos.
+        El coste de cada hora de trabajo en las cadenas A y B es de 1.200 y 1.500 euros, respectivamente.
+        La cadena A puede funcionar, como máximo, el doble de horas que la cadena B.
+        Si deben producir como mínimo 400 lavadoras y 280 frigoríficos, formule, sin resolver, el problema que permite obtener las horas de funcionamiento de las cadenas A y B para minimizar el coste de producción de esos electrodomésticos.
+    </li>
+
+    <li>
+        Represente el recinto definido por las siguientes inecuaciones y calcule sus vértices:
+        $$x + 2y \geq 7, \quad 4x - y \geq 1, \quad 2x - y \leq 4, \quad 3x + 2y \leq 20, \quad x \geq 0, \quad y \geq 0.$$
+        Obtenga el valor mínimo de la función $F(x, y) = 2x + y$ en el recinto anterior, así como el punto en el que se alcanza.
+    </li>
+</ol>

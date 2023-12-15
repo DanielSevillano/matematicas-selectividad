@@ -1,0 +1,10 @@
+A 120 estudiantes se les ha recomendado la lectura de dos libros.
+Se sabe que 46 de ellos han leído el primer libro recomendado, 34 el segundo y 16 estudiantes han leído ambos libros.
+Se elige un estudiante al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que haya leído alguno de los dos libros.</li>
+    <li>Calcule la probabilidad de que no haya leído ninguno de los dos libros.</li>
+    <li>Calcule la probabilidad de que solamente haya leído el primer libro.</li>
+    <li>Calcule la probabilidad de que haya leído el primer libro, si se sabe que no ha leído el segundo.</li>
+</ol>

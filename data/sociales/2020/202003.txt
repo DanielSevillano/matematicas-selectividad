@@ -1,0 +1,7 @@
+Se considera la función $f(x) = ax^3 + bx + 4$, con $a$ y $b$ números reales.
+
+<ol>
+    <li>Determine los valores $a$ y $b$ para que $f$ tenga un extremo relativo en el punto $(2, 36).$</li>
+    <li>Para $a = 4$ y $b = -3$, estudie la monotonía de $f$ y determine sus extremos relativos.</li>
+    <li>Para $a = 4$ y $b = -3$, calcule la función $F(x)$ que verifica $F'(x) = f(x)$ y $F(2) = 10.$</li>
+</ol>

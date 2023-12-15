@@ -1,0 +1,9 @@
+<ol>
+    <li>
+        Una población de 25.000 personas se ha dividido en cuatro estratos con tamaños 15.000, 5.000, 3.000 y 2.000 personas respectivamente.
+        En esa población se ha realizado un muestreo estratificado con afijación proporcional, en el que se han elegido al azar 36 personas del tercer estrato.
+        Determine el tamaño de la muestra total obtenida con este muestreo y su composición.
+    </li>
+    
+    <li>Dada la población $P = \{2,4,6\}$, construya todas las muestras posibles de tamaño 2 que se puedan formar mediante muestreo aleatorio simple y halle la desviación típica de las medias muestrales obtenidas con todas esas muestras.</li>
+</ol>

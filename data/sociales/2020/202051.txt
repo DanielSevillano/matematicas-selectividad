@@ -1,0 +1,17 @@
+Tres institutos piden presupuesto de alojamiento en Roma en dos agencias de viajes, que les dan el precio por noche según tipo de habitación: individual, doble y triple.
+La primera agencia ofrece los siguientes precios: individual a 65 euros, doble a 85 euros y triple a 104 euros.
+La segunda agencia oferta la individual a 78 euros, la doble a 83 euros y la triple a 106 euros.
+El primer instituto necesita tres habitaciones individuales, quince dobles y dos triples, el segundo dos individuales, doce dobles y cinco triples y el tercer instituto una individual, dieciséis dobles y siete triples.
+
+<ol>
+    <li>Exprese, mediante una matriz $A$, los precios de las dos agencias según tipo de habitación y con otra matriz $D$ la demanda de los tres institutos.</li>
+    <li>
+        Mediante operaciones con las matrices anteriores, calcule el precio por noche que cada agencia facilita a los distintos institutos por el total de habitaciones solicitadas.
+        ¿Qué agencia le interesaría a cada instituto?
+    </li>
+    <li>
+        ¿Existe la inversa de la matriz D?
+        ¿Y de la matriz A?
+        Justifique las respuestas.
+    </li>
+</ol>
