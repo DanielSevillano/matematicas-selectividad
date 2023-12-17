@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    x^2 + x + 1, & \text{si } x \leq 0, \\
+    \dfrac{1}{1-x}, & \text{si } x > 0.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de $f$ en $x = 0.$</li>
+    <li>Estudie la monotonía y curvatura de $f$ en su dominio.</li>
+    <li>Calcule las ecuaciones de las asíntotas de $f.$</li>
+</ol>

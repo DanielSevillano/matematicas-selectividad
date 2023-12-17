@@ -1,0 +1,17 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    2 & 1 & -1 \\
+    a & -1 & -1 \\
+    3 & 0 & -2a
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & -1 \\
+    2 & 0 \\
+    1 & -2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determine para qué valores de $a$ tiene inversa la matriz $A.$</li>
+    <li>Para $a = 2$, calcule la matriz inversa de $A.$</li>
+    <li>Para $a = 0$, resuelva la ecuación matricial $XA^{-1} - BB^t = I_3.$</li>
+</ol>

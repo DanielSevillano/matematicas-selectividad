@@ -1,0 +1,7 @@
+<ol>
+    <li>
+        Se considera la función $f(x) = ax^2 + bx + 3.$
+        Calcule los valores $a$ y $b$, sabiendo que la gráfica de $f$ pasa por el punto $(2, 3)$ y que la pendiente de la recta tangente a la gráfica de $f$ en dicho punto es $m = -2.$
+    </li>
+    <li>Represente gráficamente la función $g(x) = -x^2 + 6x - 5$ y calcule el área comprendida entre la gráfica de la función $g$, el eje de abscisas y las rectas $x = 2$ y $x = 4.$</li>
+</ol>

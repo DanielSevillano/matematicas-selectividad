@@ -1,0 +1,16 @@
+Se sabe que la longitud, en centímetros, de una especie de estrella de mar en una determinada zona sigue una ley Normal con desviación típica 3.
+Para estimar la longitud media de esa especie de estrella de mar, se extrae una muestra de tamaño 36 y se obtiene el intervalo de confianza $(6.04, 8)$ al 95%.
+Se pide:
+
+<ol>
+    <li>Calcule la media muestral.</li>
+    <li>Calcule el error de estimación máximo cometido.</li>
+    <li>
+        Si aumentamos el tamaño muestral a 49, ¿qué efecto produce sobre el error máximo cometido?
+        Calcule este error.
+    </li>
+    <li>
+        Si aumentamos el nivel de confianza, ¿qué efecto produce sobre el error de estimación máximo?
+        Justifique la respuesta.
+    </li>
+</ol>

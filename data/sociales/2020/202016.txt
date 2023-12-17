@@ -1,0 +1,7 @@
+Una empresa almacena el mismo número de latas de refresco de cola, naranja y limón.
+De las 30.000 latas de refresco almacenadas, se sabe que 1.800 latas de cola, 2.400 de naranja y 3.000 de limón caducan en 2021.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que una lata elegida al azar caduque en 2021?</li>
+    <li>Si se ha elegido al azar una lata que no caduca en 2021, ¿cuál es la probabilidad de que sea de cola?</li>
+</ol>

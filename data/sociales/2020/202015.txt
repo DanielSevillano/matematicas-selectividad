@@ -1,0 +1,8 @@
+Se han mezclado 90 llaves electrónicas de apertura de un determinado garaje, con apariencia idéntica, de las cuales 60 funcionan correctamente y 30 no funcionan.
+Se eligen al azar 2 de las 90 llaves.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que las dos llaves elegidas abran la puerta del garaje?</li>
+    <li>¿Cuál es la probabilidad de poder abrir el garaje con alguna de ellas?</li>
+    <li>¿Cuál es la probabilidad de que una de las llaves elegidas funcione correctamente y la otra no?</li>
+</ol>

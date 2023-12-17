@@ -1,0 +1,6 @@
+Con el fin de recaudar dinero para el viaje de fin de curso, los alumnos de un instituto van a poner a la venta dos tipos de bolsas de merienda.
+El primer tipo contendrá dos bocadillos, un refresco y una pieza de fruta y el segundo tipo tendrá un bocadillo, un refresco y dos piezas de fruta.
+Por cada bolsa del primer tipo cobrarán 6 euros y por las del segundo tipo 5 euros.
+Sabiendo que disponen de 120 bocadillos, 70 refrescos y 110 piezas de fruta y que se tiene garantizada la venta de todas las bolsas, ¿cuántas convendría preparar de cada tipo para que la cantidad de dinero obtenida por su venta sea máxima y a cuánto asciende la misma?
+¿Es posible que vendan 40 bolsas de cada tipo?
+¿Hay alguna posibilidad de que el importe de las ventas sea de 410 euros?
