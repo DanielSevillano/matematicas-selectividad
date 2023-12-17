@@ -9,14 +9,14 @@
     \end{pmatrix}.$$
 
     Cada uno de los números que forman una matriz es un <b>elemento</b>.
-    En este caso, 1, 2 y -5 son algunos de los elementos de la matriz $A$.
+    En este caso, 1, 2 y -5 son algunos de los elementos de la matriz $A.$
 </p>
 
 <p>
     Se dice que una matriz es de dimensión $m \times n$ cuando tiene $m$ filas y $n$ columnas.
     La matriz $A$ es de dimensión $2 \times 3$, porque tiene 2 filas y 3 columnas.
-    Además, el elemento que está situado en la fila $i$ y columna $j$ se denota por $a_{ij}$.
-    Por ejemplo, $a_{13} = 5$ y $a_{22} = 0$.
+    Además, el elemento que está situado en la fila $i$ y columna $j$ se denota por $a_{ij}.$
+    Por ejemplo, $a_{13} = 5$ y $a_{22} = 0.$
 </p>
 
 <p>
@@ -38,7 +38,7 @@
         -5 & 1
     \end{pmatrix}.$$
 
-    En general, la traspuesta de una matriz $A_{m \times n}$ es una matriz $B_{n \times m}$ tal que $b_{ij} = a_{ji}$.
+    En general, la traspuesta de una matriz $A_{m \times n}$ es una matriz $B_{n \times m}$ tal que $b_{ij} = a_{ji}.$
 </p>
 
 <h3>Tipos de matrices</h3>
@@ -57,7 +57,7 @@
             10 & 0 & 4
         \end{pmatrix}.$$
 
-        Una matriz cuadrada de dimensión $n \times n$ se dice que es de orden $n$.
+        Una matriz cuadrada de dimensión $n \times n$ se dice que es de orden $n.$
         En este caso, la primera matriz es de orden 2 y la segunda de orden 3.
     </li>
 
@@ -97,7 +97,7 @@
         4 & 8 & 1 \\
         0 & -2 & 5
     \end{pmatrix}$$
-    está formada por los elementos $a_{11} = 1$, $a_{22} = 8$ y $a_{33} = 5$.<br>
+    está formada por los elementos $a_{11} = 1$, $a_{22} = 8$ y $a_{33} = 5.$<br>
 
     Podemos distringuir los siguientes tipos de matrices.
 </p>
@@ -159,8 +159,8 @@
             0 & 0 & 1
         \end{pmatrix}.$$
 
-        En general, si es de orden $n$ se suele denotar por $I_n$.
-        Si no hay confusión con el orden, se suele escribir simplemente como $I$.
+        En general, si es de orden $n$ se suele denotar por $I_n.$
+        Si no hay confusión con el orden, se suele escribir simplemente como $I.$
     </li>
 
     <li>
@@ -220,7 +220,7 @@
 
     <li>
         <b>Producto por un escalar.</b>
-        Dada una matriz $A$ y un número real $\lambda$, el producto es una matriz que se obtiene multiplicando cada elemento de $A$ por $\lambda$.
+        Dada una matriz $A$ y un número real $\lambda$, el producto es una matriz que se obtiene multiplicando cada elemento de $A$ por $\lambda.$
         Por ejemplo:
         $$3\begin{pmatrix}
             0 & 2 & -1 \\
@@ -242,7 +242,7 @@
     <li>
         <b>Producto de matrices.</b>
         Dadas dos matrices $A_{m \times n}$ y $B_{r \times s}$ con $n = r$, el producto es una matriz $P$ de dimensión $m \times s$ cuyos elementos se calculan mediante el producto escalar de la fila de $A$ y la columna de $B$ correspondientes.
-        Por ejemplo, el elemento $p_{12}$ se obtiene multiplicando escalarmente la fila 1 de $A$ y la columna 2 de $B$.
+        Por ejemplo, el elemento $p_{12}$ se obtiene multiplicando escalarmente la fila 1 de $A$ y la columna 2 de $B.$
         En general,
         $$p_{ij} = a_{i1}b_{1j} + a_{i2}b_{2j} + \dots + a_{in}b_{nj}.$$
         Por ejemplo:
@@ -550,8 +550,8 @@
 
 <h3>Inversa de una matriz</h3>
 <p>
-    Una matriz cuadrada $A$ es invertible si existe una matriz $B$ de igual dimensión de forma que $AB = I$.
-    En tal caso $B$ es la matriz inversa de $A$ y se denota $A^{-1}$.
+    Una matriz cuadrada $A$ es invertible si existe una matriz $B$ de igual dimensión de forma que $AB = I.$
+    En tal caso $B$ es la matriz inversa de $A$ y se denota $A^{-1}.$
     Por ejemplo:
     $$\begin{pmatrix}
         0 & 0 & 1 \\
@@ -573,7 +573,7 @@
 
 <p>
     Una matriz cuadrada es invertible si tiene rango máximo.
-    Si tiene orden $n$, esto es equivalente a que su rango sea $n$.
+    Si tiene orden $n$, esto es equivalente a que su rango sea $n.$
     Por ejemplo, la matriz
     $$A = \begin{pmatrix}
         1 & 0 & -1 \\
@@ -589,7 +589,7 @@
     Al principio se coloca una matriz identidad a la derecha de nuestra matriz y se le aplican las mismas transformaciones que a esta.
     La matriz que resulta es la matriz inversa.<br>
 
-    Por ejemplo, hallemos la inversa de la matriz $A$.
+    Por ejemplo, hallemos la inversa de la matriz $A.$
     Completamos esta matriz con la identidad a su derecha y aplicamos el método de Gauss-Jordan.
     \begin{align}
         & \begin{pmatrix}

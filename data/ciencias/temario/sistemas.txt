@@ -24,7 +24,7 @@
         a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = b_m,
     \end{cases}
     donde $a_{ij}$ son los <b>coeficientes</b>, $x_j$ las <b>incógnitas</b> y $b_i$ los <b>términos independientes</b>.<br>
-    Normalmente trabajaremos con sistemas de tres incógnitas, a las que llamaremos $x$, $y$ y $z$ en vez de $x_1$, $x_2$ y $x_3$.
+    Normalmente trabajaremos con sistemas de tres incógnitas, a las que llamaremos $x$, $y$ y $z$ en vez de $x_1$, $x_2$ y $x_3.$
 </p>
 
 <p>
@@ -48,7 +48,7 @@
         b_m
     \end{pmatrix},$$
     donde $A$ se llama <b>matriz de coeficientes</b>, $X$ <b>matriz de incógnitas</b> y $B$ <b>matriz de términos independientes</b>.
-    También es útil considerar la <b>matriz ampliada</b> $(A|B)$.<br>
+    También es útil considerar la <b>matriz ampliada</b> $(A|B).$<br>
     Por ejemplo, el sistema anterior se puede escribir matricialmente como
     $$\begin{pmatrix}
         2 & 0 & 0 \\
@@ -92,7 +92,7 @@
 
 <p>
     Al estudio de las soluciones de un sistema de ecuaciones lineales sin resolverlo primero se le llama <b>discusión del sistema</b>.
-    Como herramienta fundamental, el <b>teorema de Rouché-Frobenius</b> afirma que un sistema de ecuaciones lineales es compatible si $\mathrm{rang}(A) = \mathrm{rang}(A|B)$.
+    Como herramienta fundamental, el <b>teorema de Rouché-Frobenius</b> afirma que un sistema de ecuaciones lineales es compatible si $\mathrm{rang}(A) = \mathrm{rang}(A|B).$
     En caso contrario, el sistema es incompatible.<br>
 </p>
 
@@ -119,7 +119,7 @@
     \end{pmatrix}.$$
 
     Podemos ver que $\det(A) = -10 \neq 0$, así que el rango de $A$ es 3.
-    Como además el rango máximo de la matriz ampliada es 3 y $\mathrm{rang}(A|B) \geq \mathrm{rang}(A)$, entonces $\mathrm{rang}(A|B) = 3$.
+    Como además el rango máximo de la matriz ampliada es 3 y $\mathrm{rang}(A|B) \geq \mathrm{rang}(A)$, entonces $\mathrm{rang}(A|B) = 3.$
     Los rangos de las dos matrices coinciden, así que por el teorema de Rouché-Frobenius podemos afirmar que el sistema es compatible.
     Puesto que además el sistema tiene 3 incógnitas, el sistema es compatible determinado.
     Es decir, tiene solución única.
@@ -147,7 +147,7 @@
         -1 & 1 \\
         -1 & -1
     \end{vmatrix} = 2 \neq 0.$$
-    Así que $\mathrm{rang}(A) \geq 2$ para todo valor de $\lambda$.
+    Así que $\mathrm{rang}(A) \geq 2$ para todo valor de $\lambda.$
 
     Veamos para qué valores de $\lambda$ alcanza el rango máximo calculando su determinante.
     $$\det(A) = 3 - 3\lambda.$$
@@ -157,13 +157,13 @@
 
     <ul>
         <li>
-            Si $\lambda \neq 1$ entonces $\det(A) \neq 0$, así que $\mathrm{rang}(A) = 3$.
-            Como además el rango máximo de la matriz ampliada es 3 y $\mathrm{rang}(A|B) \geq \mathrm{rang}(A)$, entonces $\mathrm{rang}(A|B) = 3$.
+            Si $\lambda \neq 1$ entonces $\det(A) \neq 0$, así que $\mathrm{rang}(A) = 3.$
+            Como además el rango máximo de la matriz ampliada es 3 y $\mathrm{rang}(A|B) \geq \mathrm{rang}(A)$, entonces $\mathrm{rang}(A|B) = 3.$
             Los rangos de las dos matrices coinciden entre sí y con el número de incógnitas, así que por el teorema de Rouché-Frobenius el sistema es compatible determinado.
         </li>
 
         <li>
-            Si $\lambda = 1$ entonces $\det(A) = 0$, así que $\mathrm{rang}(A) = 2$.
+            Si $\lambda = 1$ entonces $\det(A) = 0$, así que $\mathrm{rang}(A) = 2.$
             Queda por estudiar para $\lambda = 1$ el rango de la matriz ampliada, que puede ser 2 o 3.
             $$(A|B) = \begin{pmatrix}
                 1 & -1 & 1 & 1 \\
@@ -176,7 +176,7 @@
                 1 & -1 & 0 \\
                 1 & 2 & 2
             \end{vmatrix} = -1 \neq 0,$$
-            así que $\mathrm{rang}(A|B) = 3$.
+            así que $\mathrm{rang}(A|B) = 3.$
             Como los rangos de las dos matrices no coinciden, por el teorema de Rouché-Frobenius el sistema es incompatible.
         </li>
     </ul>
@@ -201,7 +201,7 @@
     \end{cases}
 
     La característica más importante de estos sistemas es que siempre tienen una solución: la trivial.
-    Esto es, $x_1 = 0, x_2 = 0, \ldots x_n = 0$.
+    Esto es, $x_1 = 0, x_2 = 0, \ldots x_n = 0.$
     Por tanto, estos sistemas siempre son compatibles.<br>
 
     En el ejemplo anterior es fácil ver que $x = 0, y = 0, z = 0$ es solución del sistema.
@@ -239,13 +239,13 @@
 
 <h4>Resolución directa</h4>
 <p>
-    Si el sistema es compatible determinado, entonces la solución se puede calcular como $X = A^{-1}B$.
+    Si el sistema es compatible determinado, entonces la solución se puede calcular como $X = A^{-1}B.$
     Esto viene de despejar la expresión matricial
     $$AX = B \Leftrightarrow X = A^{-1}B.$$
 </p>
 
 <p>
-    En nuestro ejemplo, podemos hallar $X$ de manera directa como $X = A^{-1}B$.
+    En nuestro ejemplo, podemos hallar $X$ de manera directa como $X = A^{-1}B.$
     La matriz inversa de $A$ es
     $$A^{-1} = \frac{1}{9}\begin{pmatrix}
         2 & -6 & -5 \\
@@ -339,7 +339,7 @@
     \end{cases}
 
     Para resolver este sistema, tenemos que darle a una incógnita un parámetro como valor.
-    Por ejemplo, $z = \lambda$.
+    Por ejemplo, $z = \lambda.$
     Entonces:
     \begin{align}
         & z = \lambda, \\
@@ -352,7 +352,7 @@
 <p>
     Si el sistema es compatible determinado, entonces la solución se puede obtener como
     $$x = \frac{|\Delta_1|}{|A|}, \quad y = \frac{|\Delta_2|}{|A|} \quad \text{y} \quad z = \frac{|\Delta_3|}{|A|},$$
-    donde $\Delta_i$ es la matriz resultante de reemplazar la columna $i$ de $A$ por la matriz columna $B$.<br>
+    donde $\Delta_i$ es la matriz resultante de reemplazar la columna $i$ de $A$ por la matriz columna $B.$<br>
     
     En nuestro ejemplo, podemos hallar la solución con el método de Cramer:
     \begin{align}
@@ -390,7 +390,7 @@
         7x + 4y + z = 3.
     \end{cases}
     Es fácil ver que tenemos 3 incógnitas y $\mathrm{rang}(A) = \mathrm{rang}(A|B) = 2$, así que se trata de un sistema compatible indeterminado por el teorema de Rouché-Frobenius.
-    Como nos sobra una incógnita, transformamos una de ellas en parámetro, por ejemplo $z = \lambda$.
+    Como nos sobra una incógnita, transformamos una de ellas en parámetro, por ejemplo $z = \lambda.$
     Entonces, podemos escribir el sistema como
     \begin{cases}
         5x + 3y = 1 + 2\lambda, \\

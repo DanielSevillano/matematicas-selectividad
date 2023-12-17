@@ -2,7 +2,7 @@
 
 <p>
     El <b>determinante</b> es un número asociado a una matriz cuadrada que se calcula mediante sumas y productos de sus elementos.
-    Se denota $\det(A)$ o $|A|$.
+    Se denota $\det(A)$ o $|A|.$
 </p>
 
 <p>En las matrices de orden pequeño, el determinante se puede calcular mediante las siguientes reglas.</p>
@@ -66,8 +66,8 @@
 
     <li>
         El determinante de un producto es el producto de los determinantes.
-        Es decir, dadas $A$ y $B$ matrices cuadradas del mismo orden, $\det(AB) = \det(A)\det(B)$.<br>
-        Una consecuencia de esto es que $\det(A^n) = \det(A)^n$.
+        Es decir, dadas $A$ y $B$ matrices cuadradas del mismo orden, $\det(AB) = \det(A)\det(B).$<br>
+        Una consecuencia de esto es que $\det(A^n) = \det(A)^n.$
     </li>
 
     <li>
@@ -170,7 +170,7 @@
             -2 & 5 & 1 \\
             4 & 0 & 6
         \end{vmatrix},$$
-        porque la tercera fila está sumada por $2F_1 - F_2$.
+        porque la tercera fila está sumada por $2F_1 - F_2.$
     </li>
     
     <li>
@@ -211,7 +211,7 @@
 </p>
 
 <p>
-    Si se parte de una matriz cuadrada, al menor que se obtiene al eliminar la fila $i$ y la columna $j$ se le denomina <b>menor complementario</b> del elemento en la posición $(i, j)$ y se denota por $\alpha_{ij}$.
+    Si se parte de una matriz cuadrada, al menor que se obtiene al eliminar la fila $i$ y la columna $j$ se le denomina <b>menor complementario</b> del elemento en la posición $(i, j)$ y se denota por $\alpha_{ij}.$
     Por ejemplo, si tomamos la matriz
     $$A = \begin{pmatrix}
         0 & 3 & 4 \\
@@ -249,7 +249,7 @@
 </p>
 
 <p>
-    La <b>matriz adjunta</b> de $A$ es una matriz del mismo orden cuyos elementos son los adjuntos de los elementos de $A$ y se denota $\mathrm{Adj}(A)$.
+    La <b>matriz adjunta</b> de $A$ es una matriz del mismo orden cuyos elementos son los adjuntos de los elementos de $A$ y se denota $\mathrm{Adj}(A).$
     Es decir, si $A$ es de orden 3,
     $$\mathrm{Adj}(A) = \begin{pmatrix}
         A_{11} & A_{12} & A_{13} \\
@@ -269,11 +269,11 @@
 <p>Para hallar el rango usamos dos propiedades.</p>
 
 <ul>
-    <li>Si existe un menor de orden $p$ distinto de cero, entonces el rango de la matriz es mayor o igual que $p$.</li>
-    <li>Si todos los menores de orden $p$ y superior son cero, entonces el rango de la matriz es menor que $p$.</li>
+    <li>Si existe un menor de orden $p$ distinto de cero, entonces el rango de la matriz es mayor o igual que $p.$</li>
+    <li>Si todos los menores de orden $p$ y superior son cero, entonces el rango de la matriz es menor que $p.$</li>
 </ul>
 
-<p>Como consecuencia, si $A$ es una matriz cuadrada de orden $n$, entonces $\mathrm{rang}(A) = n \Leftrightarrow \det(A) \neq 0$.</p>
+<p>Como consecuencia, si $A$ es una matriz cuadrada de orden $n$, entonces $\mathrm{rang}(A) = n \Leftrightarrow \det(A) \neq 0.$</p>
 
 <p>
     Por ejemplo, estudiemos el rango de la matriz
@@ -287,7 +287,7 @@
         1 & 2 \\
         5 & 6
     \end{vmatrix} = -4 \neq 0,$$
-    entonces $\mathrm{rang}(A) \geq 2$.<br>
+    entonces $\mathrm{rang}(A) \geq 2.$<br>
     Como además todos los menores de orden 3 verifican que
     $$\begin{vmatrix}
         1 & 2 & 3 \\
@@ -309,8 +309,8 @@
         6 & 7 & 8 \\
         10 & 11 & 12
     \end{vmatrix} = 0,$$
-    entonces $\mathrm{rang}(A) < 3$.
-    Por tanto, $\mathrm{rang}(A) = 2$.
+    entonces $\mathrm{rang}(A) < 3.$
+    Por tanto, $\mathrm{rang}(A) = 2.$
 </p>
 
 <h4>Estudio del rango con parámetros</h4>
@@ -328,7 +328,7 @@
         1 & 0 \\
         2 & -1
     \end{vmatrix} = -1 \neq 0,$$
-    así que $\mathrm{rang}(A) \geq 2$ para cualquier valor de $\lambda$.<br>
+    así que $\mathrm{rang}(A) \geq 2$ para cualquier valor de $\lambda.$<br>
     Ahora calculamos todos los menores de orden 3.
     \begin{align}
         & m_1 = \begin{vmatrix}
@@ -366,12 +366,12 @@
     <ul>
         <li>
             Si $\lambda = 3$, todos los menores de orden 3 se anulan.
-            Así que $\mathrm{rang}(A) = 2$.
+            Así que $\mathrm{rang}(A) = 2.$
         </li>
 
         <li>
             Si $\lambda \neq 3$, al menos los menores $m_2$ y $m_4$ no se anulan.
-            Así que $\mathrm{rang}(A) = 3$.
+            Así que $\mathrm{rang}(A) = 3.$
         </li>
     </ul>
 </p>
@@ -380,7 +380,7 @@
 <h3>Cálculo de la matriz inversa</h3>
 
 <p>
-    Una matriz cuadrada $A$ es invertible si y solo si $\det(A) \neq 0$.
+    Una matriz cuadrada $A$ es invertible si y solo si $\det(A) \neq 0.$
     En ese caso, se puede calcular la matriz inversa como
     $$A^{-1} = \frac{1}{\det(A)}\mathrm{Adj}(A)^t.$$
 
@@ -423,15 +423,15 @@
 
     <ul>
         <li>
-            Si $\lambda = -1$, entonces $\det(A) = 0$.
+            Si $\lambda = -1$, entonces $\det(A) = 0.$
             Así que $A$ no es invertible.
         </li>
 
         <li>
-            Si $\lambda \neq -1$, entonces $\det(A) \neq 0$.
+            Si $\lambda \neq -1$, entonces $\det(A) \neq 0.$
             Así que $A$ es invertible.
         </li>
     </ul>
 
-    Por tanto, $A$ es invertible si y solo si $\lambda \neq -1$.
+    Por tanto, $A$ es invertible si y solo si $\lambda \neq -1.$
 </p>
