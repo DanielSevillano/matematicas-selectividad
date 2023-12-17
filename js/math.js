@@ -66,7 +66,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
 
         const enlace = document.createElement("a");
         enlace.textContent = tituloExamen(examen);
-        enlace.href = "/examenes.html?examen=" + examen;
+        enlace.href = "/examenes-ciencias.html?examen=" + examen;
 
         titulo.append(enlace);
     } else titulo.textContent = "Ejercicio " + letra + numeracion;
@@ -79,7 +79,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         const elementoCategoria = document.createElement("li");
         const enlaceCategoria = document.createElement("a");
         enlaceCategoria.textContent = categoria;
-        enlaceCategoria.href = "/ejercicios.html?categoria=" + normalizar(categoria);
+        enlaceCategoria.href = "/ejercicios-ciencias.html?categoria=" + normalizar(categoria);
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
@@ -87,7 +87,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
     articulo.append(contenedorCategorias);
 
     const curso = String(examen).slice(0, 4);
-    const ruta = "data\\" + curso + "\\" + examen + ejercicio + ".txt";
+    const ruta = "data\\ciencias\\" + curso + "\\" + examen + ejercicio + ".txt";
 
     const respuesta = await fetch(ruta);
     const datos = await respuesta.text();
@@ -101,7 +101,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
 
         tituloResolucion.textContent = "Resolución";
 
-        const ruta = "data\\" + curso + "\\R" + examen + ejercicio + ".txt";
+        const ruta = "data\\ciencias\\" + curso + "\\R" + examen + ejercicio + ".txt";
         const respuesta = await fetch(ruta);
         const datos = await respuesta.text();
 
@@ -131,7 +131,7 @@ async function obtenerExamen(examen) {
 
     main.append(titulo);
 
-    const respuesta = await fetch("data\\metadata.json");
+    const respuesta = await fetch("data\\ciencias\\metadata.json");
     const datos = await respuesta.json();
 
     for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
@@ -177,7 +177,7 @@ async function mostrarExamen(examen) {
 async function obtenerCategoria(categoria, soloResueltos, contador) {
     const main = document.querySelector("main");
 
-    const respuesta = await fetch("data\\metadata.json");
+    const respuesta = await fetch("data\\ciencias\\metadata.json");
     const datos = await respuesta.json();
 
     let ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
@@ -219,7 +219,7 @@ async function mostrarCategoria(categoria, soloResueltos = false, contador) {
 async function obtenerTemario(seccion) {
     const main = document.querySelector("main");
 
-    const respuesta = await fetch("data\\temario\\" + seccion + ".txt");
+    const respuesta = await fetch("data\\ciencias\\temario\\" + seccion + ".txt");
     const datos = await respuesta.text();
 
     const articulo = document.createElement("article");

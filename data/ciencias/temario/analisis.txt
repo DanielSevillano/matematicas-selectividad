@@ -1,0 +1,8 @@
+<p>El análisis es la rama de las matemáticas que estudia los conjuntos numéricos y las funciones.</p>
+
+<p>
+    Nuestro objetivo en este bloque será aprender a <b>estudiar, esbozar e integrar funciones</b>, lo que nos servirá para <b>resolver problemas mediante la optimización</b> y para el <b>cálculo de áreas</b>.
+    Por ejemplo, hallar el área bajo la función $f(x) = \mathrm{sen}(x).$
+</p>
+
+<img src="img/analisis-1.png" alt="Función"/>

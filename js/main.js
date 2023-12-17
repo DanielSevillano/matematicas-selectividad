@@ -9,7 +9,7 @@ async function ejercicioDiario() {
     const semilla = Math.ceil(diferencia / 86400000);
     const indice = (semilla * 115) % 366;
 
-    const respuesta = await fetch("data\\metadata.json");
+    const respuesta = await fetch("data\\ciencias\\metadata.json");
     const datos = await respuesta.json();
 
     const objeto = datos[indice];
