@@ -1,5 +1,5 @@
 El beneficio, en miles de euros, que se obtiene en una pequeña finca familiar por la venta de aceitunas, en miles de kilogramos, viene dado por la siguiente función:
-$$B(x) = -0.02x^2 + 1.3x - 15, \quad x \geq 0.$$
+$$B(x) = -0,02x^2 + 1,3x - 15, \quad x \geq 0.$$
 
 <ol>
     <li>Represente la función beneficio y calcule los puntos de corte con el eje $OX.$</li>

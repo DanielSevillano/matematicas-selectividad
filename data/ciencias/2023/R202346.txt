@@ -2,12 +2,12 @@
 
 <p>
     En primer lugar, si el 30% de las series de animación junto con el 50% de las de ciencia ficción son el 20% del total de series, entonces
-    $$0.3x + 0.5y = 0.2(x+y+z).$$
+    $$0,3x + 0,5y = 0,2(x+y+z).$$
 </p>
 
 <p>
     Además, si el 25% de las series de animación junto con el 50% de las de ciencia ficción y el 60% de las de comedia son la mitad del total de series,
-    $$0.25x + 0.5y + 0.6z = \frac{x+y+z}{2}.$$
+    $$0,25x + 0,5y + 0,6z = \frac{x+y+z}{2}.$$
 </p>
 
 <p>
@@ -18,12 +18,12 @@
 <p>
     Por tanto, podemos plantear el sistema de ecuaciones lineales
     $$\begin{cases}
-        0.3x + 0.5y = 0.2(x+y+z), \\
-        0.25x + 0.5y + 0.6z = \frac{x+y+z}{2}, \\
+        0,3x + 0,5y = 0,2(x+y+z), \\
+        0,25x + 0,5y + 0,6z = \frac{x+y+z}{2}, \\
         x = y-100
     \end{cases} \Rightarrow \begin{cases}
-        0.1x + 0.3y - 0.2z = 0, \\
-        -0.25x + 0.1z = 0, \\
+        0,1x + 0,3y - 0,2z = 0, \\
+        -0,25x + 0,1z = 0, \\
         x - y = -100
     \end{cases} \Rightarrow \begin{cases}
         x + 3y - 2z = 0, \\

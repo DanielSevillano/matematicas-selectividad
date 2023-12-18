@@ -9,7 +9,7 @@ El consumo de energía eléctrica mensual por vivienda medido en kilovatios hora
     <li>Calcule el tamaño mínimo de la muestra necesario para estimar el consumo medio de energía eléctrica mensual por vivienda, con un error máximo de 5 kWh y con un nivel de confianza del 98%.</li>
 
     <li>
-        Tras una campaña para incentivar el ahorro energético se toma una nueva muestra y el intervalo de confianza para el consumo medio que se obtiene es (224.08, 255.92).
+        Tras una campaña para incentivar el ahorro energético se toma una nueva muestra y el intervalo de confianza para el consumo medio que se obtiene es $(224,08; 255,92).$
         Calcule la media del consumo de energía eléctrica mensual por vivienda para dicha muestra.
     </li>
 </ol>

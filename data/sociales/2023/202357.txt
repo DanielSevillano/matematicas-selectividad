@@ -6,5 +6,5 @@
         ¿Cuál será la composición que debe tener dicha muestra?
     </li>
 
-    <li>Dada la población {9, 11, 13, 18, 20}, calcule la varianza de la distribución de las medias muestrales de tamaño 2 obtenidas mediante muestreo aleatorio simple.</li>
+    <li>Dada la población $\{9, 11, 13, 18, 20\}$, calcule la varianza de la distribución de las medias muestrales de tamaño 2 obtenidas mediante muestreo aleatorio simple.</li>
 </ol>

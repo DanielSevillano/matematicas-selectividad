@@ -1,5 +1,5 @@
 La distancia en kilómetros recorrida al día por los vehículos de una empresa de coches de alquiler sigue una distribución Normal de media desconocida y varianza 225.
-Se toma una muestra aleatoria simple de 36 coches y se obtiene el intervalo de confianza $(153.65, 162.35)$ para la media poblacional.
+Se toma una muestra aleatoria simple de 36 coches y se obtiene el intervalo de confianza $(153,65; 162,35)$ para la media poblacional.
 
 <ol>
     <li>Calcule la media muestral y el error máximo de estimación para ese intervalo de confianza.</li>

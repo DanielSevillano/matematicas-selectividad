@@ -1,8 +1,8 @@
 Se considera la función
-$$f(x) = \begin{pmatrix}
+$$f(x) = \begin{cases}
     (x+1)^2, & \text{si } -2 \leq x < 0, \\
     (x-1)^2, & \text{si } 0 \leq x \leq 2.
-\end{pmatrix}$$
+\end{cases}$$
 
 <ol>
     <li>Estudie la continuidad y derivabilidad de la función $f$ en todo su dominio.</li>

@@ -3,5 +3,5 @@ Para ello, se toma una muestra aleatoria de 100 jóvenes de los que 36 afirman e
 
 <ol>
     <li>Determine un intervalo de confianza, con un nivel del 92%, para la proporción de jóvenes que están suscritos a esta plataforma.</li>
-    <li>Suponiendo que se mantiene la misma proporción muestral y el mismo nivel de confianza del apartado anterior, determine el tamaño muestral mínimo que se debería tomar si se quisiera que el error máximo fuera 0.025.</li>
+    <li>Suponiendo que se mantiene la misma proporción muestral y el mismo nivel de confianza del apartado anterior, determine el tamaño muestral mínimo que se debería tomar si se quisiera que el error máximo fuera 0,025.</li>
 </ol>

@@ -1,8 +1,8 @@
 En una determinada región hay tres universidades A, B y C.
 De los estudiantes que terminaron sus estudios el año pasado, el 60% procedían de la universidad A, el 30% de la universidad B y el resto de C.
-Además, se conoce que la probabilidad de que un estudiante de la universidad A no encuentre trabajo en su región es 0.4 y para un estudiante de B es 0.5.
+Además, se conoce que la probabilidad de que un estudiante de la universidad A no encuentre trabajo en su región es 0,4 y para un estudiante de B es 0,5.
 
 <ol>
-    <li>Si la probabilidad de que un estudiante no encuentre trabajo en su región es 0.395, determine la probabilidad de que un estudiante de la universidad C encuentre trabajo en su región.</li>
+    <li>Si la probabilidad de que un estudiante no encuentre trabajo en su región es 0,395, determine la probabilidad de que un estudiante de la universidad C encuentre trabajo en su región.</li>
     <li>Calcule la probabilidad de que un estudiante que no haya encontrado trabajo en su región proceda de la universidad A o de la B.</li>
 </ol>

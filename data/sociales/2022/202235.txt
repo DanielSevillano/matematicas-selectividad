@@ -1,5 +1,5 @@
 De los sucesos $A$ y $B$ de un mismo experimento aleatorio se conocen las siguientes probabilidades:
-$$P(A) = 0.7, \quad P(B) = 0.6, \quad P(A \cup B) = 0.8.$$
+$$P(A) = 0,7, \quad P(B) = 0,6 \quad \text{y} \quad P(A \cup B) = 0,8.$$
 Calcule la probabilidad de que:
 
 <ol>

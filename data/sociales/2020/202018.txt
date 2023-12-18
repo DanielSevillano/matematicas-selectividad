@@ -1,5 +1,5 @@
 Se sabe que la longitud, en centímetros, de una especie de estrella de mar en una determinada zona sigue una ley Normal con desviación típica 3.
-Para estimar la longitud media de esa especie de estrella de mar, se extrae una muestra de tamaño 36 y se obtiene el intervalo de confianza $(6.04, 8)$ al 95%.
+Para estimar la longitud media de esa especie de estrella de mar, se extrae una muestra de tamaño 36 y se obtiene el intervalo de confianza $(6,04; 8)$ al 95%.
 Se pide:
 
 <ol>

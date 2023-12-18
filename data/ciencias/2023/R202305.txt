@@ -2,12 +2,12 @@
 
 <p>
     En primer lugar, si el 60% de los coches blancos más el 50% de los coches negros representan el 30% de los coches vendidos, entonces
-    $$0.6x + 0.5y = 0.3(x + y + z) \Rightarrow 6x + 5y = 3(x + y + z).$$
+    $$0,6x + 0,5y = 0,3(x + y + z) \Rightarrow 6x + 5y = 3(x + y + z).$$
 </p>
 
 <p>
     Además, si el 20% de los coches blancos junto con el 60% de los coches negros y el 60% de los coches rojos representan la mitad de los coches vendidos,
-    $$0.2x + 0.6y + 0.6z = 0.5(x + y + z) \Rightarrow 2x + 6y + 6z = 5(x + y + z).$$
+    $$0,2x + 0,6y + 0,6z = 0,5(x + y + z) \Rightarrow 2x + 6y + 6z = 5(x + y + z).$$
 </p>
 
 <p>

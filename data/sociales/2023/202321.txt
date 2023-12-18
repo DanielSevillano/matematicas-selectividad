@@ -7,18 +7,18 @@ La matriz
 indica los gramos necesarios de cada producto para conseguir una lata de cada receta.
 Se dispone de dos proveedores, siendo la matriz de precios en euros por kilo de cada producto
 $$\begin{pmatrix}
-    0.5 & 0.4 & 0.6 \\
-    0.4 & 0.5 & 0.7
+    0,5 & 0,4 & 0,6 \\
+    0,4 & 0,5 & 0,7
 \end{pmatrix}.$$
 
 Los costes de producción de cada receta en euros por lata vienen dados por la matriz
 $$\begin{pmatrix}
-    0.11 & 0.09
+    0,11 & 0,09
 \end{pmatrix}.$$
 
 Los costes de transporte en euros por lata según cada proveedor vienen dados por la matriz
 $$\begin{pmatrix}
-    0.02 & 0.03
+    0,02 & 0,03
 \end{pmatrix}.$$
 
 La conservera quiere obtener un beneficio de 5 céntimos por lata.

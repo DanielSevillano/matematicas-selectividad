@@ -1,9 +1,9 @@
 Se desea estimar la proporción de estudiantes de una universidad que proceden de otras provincias, para ello se selecciona una muestra de tamaño 2.100 de los que 630 lo cumplen.
 
 <ol>
-    <li>Calcule un intervalo de confianza con un nivel del 97.5% para estimar la proporción poblacional de estudiantes de esa universidad procedentes de otras provincias.</li>
+    <li>Calcule un intervalo de confianza con un nivel del 97,5% para estimar la proporción poblacional de estudiantes de esa universidad procedentes de otras provincias.</li>
     <li>
-        En una nueva muestra que mantiene la misma proporción muestral, y con el mismo nivel de confianza, queremos que el error máximo cometido sea de 0.01.
+        En una nueva muestra que mantiene la misma proporción muestral, y con el mismo nivel de confianza, queremos que el error máximo cometido sea de 0,01.
         Halle su tamaño mínimo.
     </li>
 </ol>

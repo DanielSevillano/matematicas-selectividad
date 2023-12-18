@@ -1,6 +1,6 @@
 Para estimar la proporción de residentes británicos en España que están a favor de la salida del Reino Unido de la Unión Europea (UE), se toma una muestra aleatoria de 250 de estos residentes, obteniéndose que 115 estaban a favor de dejar de pertenecer a la UE.
 
 <ol>
-    <li>Calcule un intervalo de confianza al 99.5%, para estimar la proporción real de esos residentes que está a favor de la salida del Reino Unido de la UE.</li>
+    <li>Calcule un intervalo de confianza al 99,5%, para estimar la proporción real de esos residentes que está a favor de la salida del Reino Unido de la UE.</li>
     <li>Manteniendo la misma proporción muestral y el mismo nivel de confianza del apartado anterior, determine el tamaño mínimo necesario de la muestra, para estimar la proporción de residentes británicos en España que están a favor de la salida del Reino Unido de la UE, con un error inferior al 5%.</li>
 </ol>

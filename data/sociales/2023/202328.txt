@@ -1,5 +1,5 @@
 El tiempo de adaptación al uso de unas gafas progresivas depende de la persona, de la graduación de las lentes y del tipo de progresivo elegido.
-No obstante, se sabe que el tiempo de adaptación sigue una ley Normal de media 12.5 días y desviación típica 2.5 días.
+No obstante, se sabe que el tiempo de adaptación sigue una ley Normal de media 12,5 días y desviación típica 2,5 días.
 
 <ol>
     <li>

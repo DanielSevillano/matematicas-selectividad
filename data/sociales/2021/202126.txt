@@ -1,7 +1,7 @@
-Sean $A$ y $B$ dos sucesos asociados a un mismo espacio muestral con $P(A^c) = 0.4$ y $P(A \cap B^c) = 0.12.$
+Sean $A$ y $B$ dos sucesos asociados a un mismo espacio muestral con $P(A^c) = 0,4$ y $P(A \cap B^c) = 0,12.$
 
 <ol>
     <li>Calcule $P(A)$ y $P(A \cap B).$</li>
     <li>Determina $P(B)$ para que $A$ y $B$ sean independientes.</li>
-    <li>Si $P(B^c) = 0.2$, calcule $P(A \cup B)$, $P(A^c \cup B^c)$ y $P(A | B^c).$</li>
+    <li>Si $P(B^c) = 0,2$, calcule $P(A \cup B)$, $P(A^c \cup B^c)$ y $P(A | B^c).$</li>
 </ol>

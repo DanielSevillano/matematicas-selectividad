@@ -1,8 +1,8 @@
-La vida útil, en años, de las lavadoras de un determinado modelo, se distribuye según una ley Normal de varianza 7.84.
+La vida útil, en años, de las lavadoras de un determinado modelo, se distribuye según una ley Normal de varianza 7,84.
 En una muestra de 12 lavadoras, la vida útil en años ha sido:
-$$9.5, \quad 9, \quad 10.2, \quad 8.6, \quad 11.4, \quad 10.8, \quad 12.6, \quad 11, \quad 11.8, \quad 14.5, \quad 10.4, \quad 9.8.$$
+$$9,5 \quad 9 \quad 10,2 \quad 8,6 \quad 11,4 \quad 10,8 \quad 12,6 \quad 11 \quad 11,8 \quad 14,5 \quad 10,4 \quad 9,8.$$
 
 <ol>
-    <li>Con estos datos, determine un intervalo de confianza al 93.5% para estimar la vida útil media de estas lavadoras.</li>
+    <li>Con estos datos, determine un intervalo de confianza al 93,5% para estimar la vida útil media de estas lavadoras.</li>
     <li>Calcule el error máximo que se puede cometer al estimar la vida útil media de este modelo de lavadoras, si se toma una muestra de 50 lavadoras y asumimos un nivel de confianza del 99%.</li>
 </ol>

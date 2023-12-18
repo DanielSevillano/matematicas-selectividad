@@ -3,5 +3,5 @@ De las personas encuestadas, 180 han contestado afirmativamente, mientras que el
 
 <ol>
     <li>Calcule un intervalo de confianza al 95% para la proporción de personas que creen seguir una dieta saludable.</li>
-    <li>¿Cuál sería el número de habitantes mínimo necesario en este estudio de opinión para que se reduzca a un tercio del error cometido en el intervalo (0.54, 0.66) con el mismo nivel de confianza?</li>
+    <li>¿Cuál sería el número de habitantes mínimo necesario en este estudio de opinión para que se reduzca a un tercio del error cometido en el intervalo $(0,54; 0,66)$ con el mismo nivel de confianza?</li>
 </ol>

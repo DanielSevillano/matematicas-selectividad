@@ -1,5 +1,5 @@
 La cotización en bolsa de una empresa en un determinado dia viene expresada, en euros, por la función $c(t)$, con $t \in [0, 24]$, medido en horas.
-La variación instantánea de esta función es la derivada de $c$, que viene dada por $c'(t) = 0.03t^2 - 0.9t + 6$, con $t \in (0, 24).$
+La variación instantánea de esta función es la derivada de $c$, que viene dada por $c'(t) = 0,03t^2 - 0,9t + 6$, con $t \in (0, 24).$
 
 <ol>
     <li>Estudie los intervalos en los que la función $c$ es creciente.</li>

@@ -1,5 +1,5 @@
 Sean $A$ y $B$ dos sucesos de un mismo experimento aleatorio de los que se sabe que:
-$$P(A-B) = 0.3, \quad P(A^c) = 0.35 \quad \text{y} \quad P(B) = 0.55.$$
+$$P(A-B) = 0,3, \quad P(A^c) = 0,35 \quad \text{y} \quad P(B) = 0,55.$$
 
 <ol>
     <li>Calcule la probabilidad de que suceda al menos uno de ellos.</li>

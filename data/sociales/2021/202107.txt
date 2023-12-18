@@ -9,5 +9,5 @@
         </ol>
     </li>
 
-    <li>Dada la población $\{a, 10, 12, 11, 18\}$, ¿cuánto debe valer $a$, sabiendo que la media de las medias muestrales de tamaño 3, obtenidas mediante muestreo aleatorio simple, es 13.2?</li>
+    <li>Dada la población $\{a, 10, 12, 11, 18\}$, ¿cuánto debe valer $a$, sabiendo que la media de las medias muestrales de tamaño 3, obtenidas mediante muestreo aleatorio simple, es 13,2?</li>
 </ol>

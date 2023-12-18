@@ -1,8 +1,8 @@
-La vida útil de un determinado modelo de teléfono móvil (en meses) se distribuye según una ley Normal de varianza 9.61 meses<sup>2</sup>.
+La vida útil de un determinado modelo de teléfono móvil (en meses) se distribuye según una ley Normal de varianza 9,61 meses<sup>2</sup>.
 En una muestra de 10 teléfonos, la vida útil de los mismos ha sido:
-$$30.6, \quad 30, \quad 31.3, \quad 29.7, \quad 32.3, \quad 32, \quad 32.8, \quad 31.5, \quad 31.2, \quad 30.5.$$
+$$30,6 \quad 30 \quad 31,3 \quad 29,7 \quad 32,3 \quad 32 \quad 32,8 \quad 31,5 \quad 31,2 \quad 30,5.$$
 
 <ol>
     <li>Determine un intervalo de confianza para estimar la vida útil de este modelo de teléfono móvil con un nivel de confianza del 97%.</li>
-    <li>Determine el tamaño mínimo muestral para que, con el mismo nivel de confianza, el error que se comete al estimar la duración media de la vida útil de este modelo de teléfono móvil sea inferior a 0.15 meses.</li>
+    <li>Determine el tamaño mínimo muestral para que, con el mismo nivel de confianza, el error que se comete al estimar la duración media de la vida útil de este modelo de teléfono móvil sea inferior a 0,15 meses.</li>
 </ol>

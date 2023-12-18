@@ -4,5 +4,5 @@ Se seleccionan al azar 100 clientes que habían comprado una de estas baterías 
 
 <ol>
     <li>Determine, con un nivel de confianza del 94%, un intervalo de confianza para estimar la vida media de estas baterías.</li>
-    <li>Manteniendo el mismo nivel de confianza, determine el tamaño muestral mínimo que debe tomarse para que el error cometido al estimar la vida media de estas baterías sea menor que 0.1 meses.</li>
+    <li>Manteniendo el mismo nivel de confianza, determine el tamaño muestral mínimo que debe tomarse para que el error cometido al estimar la vida media de estas baterías sea menor que 0,1 meses.</li>
 </ol>

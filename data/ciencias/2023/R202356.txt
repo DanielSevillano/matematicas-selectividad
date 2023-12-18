@@ -20,7 +20,7 @@
     $$\begin{cases}
         x + y + z = 500, \\
         z = x + y - 60, \\
-        1.06x + 1.12y + 1.3z = 592,4
+        1,06x + 1,12y + 1,3z = 592,4
     \end{cases} \Rightarrow
     \begin{cases}
         x + y + z = 500, \\
@@ -65,8 +65,8 @@
 
     Así que el importe de cada una de las bebidas con impuestos es
     <ul>
-        <li>Refrescos: $1.06 \cdot 120 = 127.20\text{ €}.$</li>
-        <li>Cerveza: $1.12 \cdot 160 = 179.20\text{ €}.$</li>
-        <li>Vino: $1.3 \cdot 220 = 286\text{ €}.$</li>
+        <li>Refrescos: $1,06 \cdot 120 = 127,20\text{ €}.$</li>
+        <li>Cerveza: $1,12 \cdot 160 = 179,20\text{ €}.$</li>
+        <li>Vino: $1,3 \cdot 220 = 286\text{ €}.$</li>
     </ul>
 </p>

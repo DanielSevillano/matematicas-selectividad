@@ -1,7 +1,7 @@
 Se ha tomado una muestra de 16 pacientes tratados por un especialista y se ha observado que el tiempo de espera en su consulta, en minutos, ha sido de:
-$$8, \quad, 9.2, \quad 10, \quad 8.5, \quad 12, \quad 9, \quad 11.3, \quad 7, \quad 8., \quad5 8.3, \quad 7.6, \quad 9, \quad 9.4, \quad 10.5, \quad 8.9, \quad 6.8.$$
+$$8 \quad 9,2 \quad 10 \quad 8,5 \quad 12 \quad 9 \quad 11,3 \quad 7 \quad 8,5 \quad 8,3 \quad 7,6 \quad 9 \quad 9,4 \quad 10,5 \quad 8,9 \quad 6,8.$$
 
 <ol>
-    <li>Halle un intervalo de confianza al 97.5% para estimar el tiempo medio de espera de los pacientes tratados por este especialista.</li>
-    <li>¿Cuál debería ser el tamaño mínimo de la muestra para asegurar, con un nivel de confianza del 90%, que el error cometido sea, a lo sumo, de 0.3 minutos?</li>
+    <li>Halle un intervalo de confianza al 97,5% para estimar el tiempo medio de espera de los pacientes tratados por este especialista.</li>
+    <li>¿Cuál debería ser el tamaño mínimo de la muestra para asegurar, con un nivel de confianza del 90%, que el error cometido sea, a lo sumo, de 0,3 minutos?</li>
 </ol>

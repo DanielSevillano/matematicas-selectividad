@@ -1,5 +1,5 @@
 Sean $A$ y $B$ dos sucesos del mismo espacio muestral tales que:
-$$P(A \cup B) = \frac{3}{7}, \quad P(A^c) = \frac{5}{7}, \quad P(B^c) = \frac{2}{3}.$$
+$$P(A \cup B) = \frac{3}{7}, \quad P(A^c) = \frac{5}{7} \quad \text{y} \quad P(B^c) = \frac{2}{3}.$$
 
 <ol>
     <li>

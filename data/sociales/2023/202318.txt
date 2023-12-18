@@ -1,7 +1,7 @@
-El gasto mensual por vivienda en electricidad de los inquilinos de la zona centro de una determinada ciudad sigue una ley Normal con desviacion tipica 18.25€.
+El gasto mensual por vivienda en electricidad de los inquilinos de la zona centro de una determinada ciudad sigue una ley Normal con desviacion tipica 18,25€.
 Se ha tomado una muestra aleatoria de 361 de estas viviendas obteniendo como resultado un gasto medio de 97€.
 
 <ol>
     <li>Obtenga el intervalo de confianza del 93% para el gasto medio mensual en electricidad por vivienda.</li>
-    <li>¿Cuál es el tamaño mínimo que debe tener una muestra para que el error cometido al estimar la media, con un nivel de confianza del 91%, sea un tercio del error cometido en el intervalo (95.5,98.5)?</li>
+    <li>¿Cuál es el tamaño mínimo que debe tener una muestra para que el error cometido al estimar la media, con un nivel de confianza del 91%, sea un tercio del error cometido en el intervalo $(95,5; 98,5)$?</li>
 </ol>
