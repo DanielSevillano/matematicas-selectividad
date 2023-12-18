@@ -1,0 +1,16 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    1 & 0 & -2 \\
+    a & 1 & 0
+\end{pmatrix}, \quad B = AA^t \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & -2 \\
+    1 & 0
+\end{pmatrix},$$
+siendo $a$ un parámetro real.
+
+<ol>
+    <li>¿Para qué valores del parámetro $a$ existe la inversa de la matriz $B$?</li>
+    <li>Para $a = 1$, calcule la inversa de la matriz $B.$</li>
+    <li>Para $a = 1$, resuelva la ecuación matricial $B^tX + 9C = O.$</li>
+</ol>

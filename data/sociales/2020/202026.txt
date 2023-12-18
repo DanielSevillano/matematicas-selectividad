@@ -1,0 +1,8 @@
+En un centro de enseñanza secundaria, el 11% de los profesores ocupan cargos directivos y el 13% pertenecen a alguna comisión.
+Además, el 6% ocupan un cargo directivo y pertenecen a alguna comisión.
+
+<ol>
+    <li>¿Cuál es el porcentaje de profesores que pertenecen a alguna comisión y no ocupan ningún cargo directivo?</li>
+    <li>Calcule el porcentaje de profesores que no ocupan cargos directivos ni pertenecen a ninguna comisión.</li>
+    <li>De los profesores que ocupan un cargo directivo, ¿qué porcentaje pertenece a alguna comisión?</li>
+</ol>

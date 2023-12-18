@@ -1,0 +1,16 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    ax + \frac{1}{2}, & \text{si } x \leq -1, \\
+    \dfrac{x+1}{x+3}, & \text{si } -1 < x \leq 1, \\
+    x^2 - bx, & \text{si } x > 1.
+\end{cases}$$
+
+<ol>
+    <li>
+        Halle $a$ y $b$ para que la función sea continua en todo su dominio.
+        Para esos valores de $a$ y $b$, ¿es $f$ derivable en $x = -1$?
+        ¿Y en $x = 1$?
+    </li>
+    <li>Para $a = -1$ y $b = 4$, estudie la monotonía de la función $f.$</li>
+    <li>Para $a = -1$ y $b = 4$, calcule $\int_1^2 f(x)dx.$</li>
+</ol>

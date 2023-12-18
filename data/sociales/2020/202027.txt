@@ -1,0 +1,8 @@
+La distancia en kilómetros recorrida al día por los vehículos de una empresa de coches de alquiler sigue una distribución Normal de media desconocida y varianza 225.
+Se toma una muestra aleatoria simple de 36 coches y se obtiene el intervalo de confianza $(153.65, 162.35)$ para la media poblacional.
+
+<ol>
+    <li>Calcule la media muestral y el error máximo de estimación para ese intervalo de confianza.</li>
+    <li>Si con el mismo nivel de confianza, aumentamos el tamaño muestral, ¿cómo se vería afectado el error?</li>
+    <li>Con un nivel de confianza del 95%, ¿cuál debería ser el tamaño mínimo de la muestra para que el error cometido sea inferior a 3 km?</li>
+</ol>

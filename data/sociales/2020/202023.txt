@@ -1,0 +1,13 @@
+<ol>
+    <li>
+        Calcule la función derivada de cada una de las siguientes funciones:
+        $$f(x) = \ln(3x^2 - 3) + \frac{1-2x}{x+2}, \quad g(x) = 2e^{x^3} + x^2(3x + 4)^3.$$
+    </li>
+    
+    <li>
+        Calcule las ecuaciones de las rectas tangentes a las gráficas de las funciones
+        $$h(x) = x^2 + 1 \quad \text{y} \quad p(x) = \frac{x-1}{x+1},$$
+        en el punto de abscisa $x = 1.$
+        ¿En qué punto se cortan ambas rectas?
+    </li>
+</ol>

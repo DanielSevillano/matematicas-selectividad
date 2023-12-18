@@ -1,0 +1,5 @@
+Un cocinero tiene que hacer el postre para una cena y le han encargado dos de sus mejores creaciones: <i>Delicia Roja</i> y <i>Delicia Negra</i>.
+Para elaborar 1 kg de <i>Delicia Roja</i> son necesarias 3 tarrinas de fresas y 1 tableta de chocolate y para elaborar 1 kg de <i>Delicia Negra</i> se necesita 1 tarrina de fresas y 2 tabletas de chocolate.
+Dispone de 15 tarrinas de fresas y 10 tabletas de chocolate.
+Además, la cantidad de <i>Delicia Negra</i> no debe ser inferior a 1.5 kg y tampoco debe ser superior al doble de <i>Delicia Roja</i>.
+Si cada kilogramo de <i>Delicia Roja</i> le reporta un beneficio de 3 euros y el de <i>Delicia Negra</i> 5 euros, averigüe qué cantidad de cada postre debe elaborar para conseguir un beneficio máximo y a cuánto asciende ese beneficio.

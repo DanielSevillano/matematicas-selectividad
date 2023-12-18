@@ -1,0 +1,11 @@
+Tres personas se encargan de los cobros de la caja de un supermercado.
+El mes pasado, la primera de ellas realizó el 30% de los cobros, la segunda el 45% y la tercera el resto.
+La dirección del supermercado ha comprobado que de los cobros realizados por la primera persona, el 1% son erróneos, que la segunda cometió errores en el 3% de los cobros y la tercera en el 2%.
+
+<ol>
+    <li>Calcule la probabilidad de que un cobro elegido al azar haya sido erróneo.</li>
+    <li>
+        Se elige al azar un cobro correcto.
+        ¿Cuál es la probabilidad de que haya sido realizado por la segunda persona?
+    </li>
+</ol>
