@@ -1115,6 +1115,59 @@
         ]
     },
     {
+        "ejercicio": 202031,
+        "categorias": [
+            "Análisis",
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202032,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202033,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202034,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202035,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202036,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202037,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 202038,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
         "ejercicio": 202051,
         "categorias": [
             "Álgebra",

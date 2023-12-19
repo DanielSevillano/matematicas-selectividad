@@ -1,0 +1,8 @@
+El censo de una población andaluza está compuesto en total por 15.000 personas, de las cuales 8.500 son mujeres.
+Se sabe que el 15% de las mujeres y el 20% de los hombres censados en dicha población han viajado alguna vez a un país extranjero.
+Se elige al azar una persona censada en dicha población.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que haya viajado al extranjero?</li>
+    <li>Si se sabe que esta persona no ha viajado al extranjero, ¿cuál es la probabilidad de que sea hombre?</li>
+</ol>

@@ -1,0 +1,6 @@
+Una confitería elabora dos tipos de tartas, unas de chocolate y otras de merengue y chocolate.
+Para ello dispone de 100 kg de bizcocho, 80 kg de crema de chocolate y 46 kg de merengue.
+Para elaborar una tarta de chocolate, se requieren 1 kg de bizcocho y 2 kg de crema de chocolate y para la tarta de chocolate y merengue se requieren 2 kg de bizcocho, 1 kg de crema de chocolate y 1 kg de merengue.
+Por cada tarta de chocolate se obtiene un beneficio de 10 euros y de 12 euros por cada una de merengue y chocolate.
+Suponiendo que se vende todo lo que se elabora, ¿cuántas tartas de cada tipo debe preparar para obtener un beneficio máximo?
+¿Cuál es dicho beneficio?

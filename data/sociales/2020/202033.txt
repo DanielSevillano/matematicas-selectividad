@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    x^2 + ax + 2, & \text{si } x \leq 0, \\
+    \dfrac{x+b}{x-1}, & \text{si } x > 0.
+\end{cases}$$
+
+<ol>
+    <li>Halle $a$ y $b$ para que $f$ sea continua y derivable en $x = 0.$</li>
+    <li>Para $a = 1$ y $b = -2$, halle la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0.$</li>
+    <li>Para $a = 1$ y $b = 1$, halle, si existen, las ecuaciones de las asíntotas de $f.$</li>
+</ol>

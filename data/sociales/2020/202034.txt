@@ -1,0 +1,8 @@
+El número de bacterias en un determinado cultivo viene dado por la función $B(t)$, donde $t$ representa el tiempo en horas, con $0 \leq t \leq 7.$
+La variación instantánea en la población de bacterias en el cultivo viene dada por la derivada de la función $B$, cuya expresión es $B'(t) = 50.000e^{2t}.$
+
+<ol>
+    <li>¿Existe algún instante $t$ en el que el número de bacterias en el cultivo comience a decrecer?</li>
+    <li>Obtenga la expresión de la función $B(t)$, sabiendo que en el instante $t = 0$ el número de bacterias en el cultivo era de 40.000.</li>
+    <li>¿Cuál es el número de bacterias en el cultivo a la hora y media?</li>
+</ol>

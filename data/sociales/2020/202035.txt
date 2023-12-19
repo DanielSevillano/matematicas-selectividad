@@ -1,0 +1,13 @@
+Sean $A$ y $B$ dos sucesos de un mismo experimento aleatorio.
+
+<ol>
+    <li>
+        Si $P(A) \neq 0$ y $P(B) \neq 0$, ¿pueden ser los sucesos $A$ y $B$ independientes e incompatibles a la vez?
+        Justifique la respuesta.
+    </li>
+    
+    <li>
+        Sabiendo que $P(A) = 0,3$, $P(B) = 0,5$ y $P(A|B) = 0,2$, calcule las siguientes probabilidades:
+        $$P(A \cap B), \quad P(A \cup B), \quad P(A^c \cup B^c) \quad \text{y} \quad P(A-B).$$
+    </li>
+</ol>

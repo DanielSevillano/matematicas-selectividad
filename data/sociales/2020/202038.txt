@@ -1,0 +1,10 @@
+Una tienda de ropa quiere estudiar la aceptación de un nuevo sistema de pago a través del teléfono móvil.
+Para ello realiza una encuesta entre 200 de sus clientes elegidos al azar, resultando que 150 de ellos sí estarían dispuestos a usar el nuevo sistema de pago.
+
+<ol>
+    <li>Determine un intervalo de confianza al 97% para estimar la proporción de clientes de esa tienda que estarían dispuestos a usar el nuevo sistema de pago.</li>
+    <li>
+        Mediante una nueva encuesta se quiere estimar la proporción de clientes de esa tienda que usarían el nuevo sistema de pago, con un error máximo del 3% y un nivel de confianza del 94%.
+        Suponiendo que se mantiene la proporción muestral del apartado anterior, ¿a cuántos clientes como mínimo habría que realizar la encuesta?
+    </li>
+</ol>

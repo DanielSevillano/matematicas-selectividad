@@ -1,0 +1,11 @@
+El tiempo de desfase, en minutos, entre la hora de paso programada de un antobús por cierta parada y la hora real a la que pasa, sigue una distribución Normal de media desconocida y varianza 4.
+Se observa el paso del autobús por la parada en 10 ocasiones elegidas al azar, registrándose los siguientes desfases:
+$$4,7 \quad 2,1 \quad 3,6 \quad 5,4 \quad 0,0 \quad 4,2 \quad 4,0 \quad -0,2 \quad 1,9 \quad 5,2.$$
+
+<ol>
+    <li>Obtenga un intervalo de confianza al 97% para el desfase medio en la hora de paso del autobús.</li>
+    <li>
+        ¿Qué tamaño muestral mínimo sería necesario para estimar el desfase medio con un error inferior a 30 segundos y un nivel de confianza del 95%?
+        ¿Cómo variaría dicho tamaño muestral si se aumentara el nivel de confianza?
+    </li>
+</ol>
