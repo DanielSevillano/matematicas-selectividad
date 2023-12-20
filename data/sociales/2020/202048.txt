@@ -1,0 +1,8 @@
+La cantidad de café por taza que suministra una máquina de café sigue una distribución Normal con media desconocida y desviación típica 0,8 cm<sup>3</sup>.
+En una muestra de 45 tazas suministradas por esa máquina, se ha medido un total de 5.400 cm<sup>3</sup> de café.
+
+<ol>
+    <li>Calcule el estimador puntual para la cantidad media de café por taza que suministra la máquina.</li>
+    <li>Calcule un intervalo de confianza al 97% para estimar la cantidad media de café por taza que suministra la máquina.</li>
+    <li>Calcule, con el mismo nivel de confianza, el tamaño muestral mínimo que se ha de tomar para que, al estimar la cantidad media de café por taza, el error cometido sea inferior a 0,2 cm<sup>3</sup>.</li>
+</ol>

@@ -1,0 +1,14 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    \dfrac{2}{x+1}, & \text{si } x < -2, \\
+    x^2 + a, & \text{si } x \geq -2.
+\end{cases}$$
+
+<ol>
+    <li>
+        Calcule el valor de $a$ para que $f$ sea continua en todo su dominio.
+        Para ese valor de $a$, ¿es derivable la función $f$?
+    </li>
+    <li>Para $a = -6$, halle la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 3.$</li>
+    <li>Para $a = -6$, esboce la gráfica de $f$ y calcule el área de la región limitada por la gráfica de la función $f$, el eje de abscisas y las rectas $x = 3$ y $x = 5.$</li>
+</ol>

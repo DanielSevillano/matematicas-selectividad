@@ -1,0 +1,8 @@
+El 47% de los jóvenes andaluces tienen una vida sedentaria.
+De ellos, el 72% presentan obesidad, mientras que solamente la presentan el 22% de los jóvenes no sedentarios. Se elige al azar un joven andaluz.
+
+<ol>
+    <li>Calcule la probabilidad de que sea sedentario y no presente obesidad.</li>
+    <li>Calcule la probabilidad de que presente obesidad.</li>
+    <li>Calcule la probabilidad de que sea sedentario, sabiendo que presenta obesidad.</li>
+</ol>

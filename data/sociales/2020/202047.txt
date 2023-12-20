@@ -1,0 +1,10 @@
+Tomada al azar una muestra de 600 alumnos de una universidad española, se encontró que $\frac{2}{3}$ de los mismos podían expresarse en inglés con fluidez.
+
+<ol>
+    <li>
+        Calcule un intervalo de confianza al 98% para estimar la proporción de alumnos de esa universidad que pueden expresarse en inglés con fluidez.
+        ¿Se podría admitir a ese nivel de confianza que la proporción de alumnos de esa universidad que pueden expresarse en inglés con fluidez es $\frac{13}{20}$?
+    </li>
+    <li>Teniendo en cuenta el intervalo anterior, ¿qué error máximo se cometería en dicha estimación?</li>
+    <li>se mantienen la misma proporción muestral y la misma confianza, ¿cuántos alumnos como mínimo habría de tener una muestra para que el error de estimación sea inferior al 2%?</li>
+</ol>

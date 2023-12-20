@@ -1,0 +1,8 @@
+Se sabe que el 65% de los estudiantes de bachillerato de Andalucía ha participado en programas Erasmus+ y que de ellos, el 80% ha mejorado su calificación en lengua extranjera.
+De los estudiantes que no han participado en programas Erasmus+, mejoran su calificación en lengua extranjera el 30%.
+Se elige al azar un estudiante de bachillerato de Andalucía.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que haya mejorado su calificación en lengua extranjera?</li>
+    <li>Si se sabe que ha mejorado su calificación en lengua extranjera, ¿cuál es la probabilidad de que haya participado en un programa Erasmus+?</li>
+</ol>

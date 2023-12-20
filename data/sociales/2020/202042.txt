@@ -1,0 +1,8 @@
+Se considera la región del plano definida por las siguientes inecuaciones:
+$$x + y \leq 4, \quad x - y \geq -2, \quad x + 3y \geq 2, \quad y \leq 2.$$
+
+<ol>
+    <li>Represéntela gráficamente y determine sus vértices.</li>
+    <li>Indique razonadamente si el punto $(4; -0,75)$ pertenece a dicha región.</li>
+    <li>¿En qué puntos de la región anterior la función $F(x, y) = x + y$ alcanza los valores máximo y mínimo y cuáles son estos valores?</li>
+</ol>
