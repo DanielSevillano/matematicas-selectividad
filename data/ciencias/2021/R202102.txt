@@ -1,0 +1,30 @@
+<ol>
+    <li>
+        En primer lugar, observamos que $f$ es continua en cada una de sus ramas para cualquier valor de $a.$
+        Pasamos a estudiar su continuidad en $x = 0$ en función del parámetro $a.$
+
+        \begin{align}
+            & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} (3x-6)e^x = -6 = f(0), \\
+            & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \frac{36(\mathrm{sen}(x)-ax)}{x^3} = \frac{0}{0}.
+        \end{align}
+
+        Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
+        $$\lim_{x \to 0^+} \frac{36(\mathrm{sen}(x)-ax)}{x^3} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{36(\cos(x)-a)}{3x^2} = \frac{36(1-a)}{0}.$$
+        Si $a \neq 1$ este límite será infinito y la función no será continua en $x = 0$, así que necesariamente $a = 1.$
+        Continuamos resolviendo el límite para $a = 1.$
+        $$\lim_{x \to 0^+} \frac{36(\cos(x)-1)}{3x^2} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{-36\mathrm{sen}(x)}{6x} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{-36\cos(x)}{6} = -\frac{36}{6} = -6.$$
+        Por tanto, $f$ es continua en $x = 0$ si y solo si $a = 1.$
+    </li>
+
+    <li>
+        La ecuación de la recta tangente a la gráfica de $f$ en $x = -1$ viene dada por
+        $$y - f(-1) = f'(-1)(x+1).$$
+
+        Como para $x \leq 0$ la derivada de la función es
+        $$f'(x) = 3e^x + (3x-6)e^x = (3x-3)e^x,$$
+        entonces $f'(-1) = -\frac{6}{e}.$
+
+        Por tanto, la ecuación de la recta tangente en $x = -1$ es
+        $$y + \frac{9}{e} = -\frac{6}{e}(x+1) \Leftrightarrow y = -\frac{6}{e}x - \frac{15}{e}.$$
+    </li>
+</ol>

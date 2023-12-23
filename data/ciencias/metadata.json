@@ -801,7 +801,7 @@
     },
     {
         "ejercicio": 202102,
-        "resuelto": false,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones"
