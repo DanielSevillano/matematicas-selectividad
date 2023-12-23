@@ -1,51 +1,69 @@
 <ol>
-    <li>En primer lugar, observamos que $f$ es continua en cada una de sus ramas.
-    Pasamos a estudiar su continuidad en las abscisas $x = -1$ y $x = 1.$
+    <li>
+        En primer lugar, observamos que $f$ es continua en cada una de sus ramas para cualquier valor de $a$ y $b.$
+        Pasamos a estudiar su continuidad en $x = -1$ y $x = 1.$
 
-    <ul>
-        <li>Si $x = -1$,
-        \begin{align}
-            & \lim_{x \to -1^-} f(x) = -1, \\
-            & \lim_{x \to -1^+} f(x) = f(-1) = -a + b.
-        \end{align}
+        <ul>
+            <li>
+                Si $x = -1$,
+                \begin{align}
+                    & \lim_{x \to -1^-} f(x) = \lim_{x \to -1^-} \frac{1}{x} = -1, \\
+                    & \lim_{x \to -1^+} f(x) = \lim_{x \to -1^+} (ax+b) = -a + b, \\
+                    & f(-1) = -a + b.
+                \end{align}
 
-        Por tanto, $f$ es continua en $x = -1$ si y solo si $-a + b = -1.$</li>
+                Como $f$ es continua en $x = -1$,
+                $$\lim_{x \to -1^-} f(x) = \lim_{x \to -1^+} f(x) = f(-1) \Leftrightarrow -a + b = -1.$$
+            </li>
 
-        <li>Si $x = 1$,
-        \begin{align}
-            & \lim_{x \to 1^-} f(x) = a + b, \\
-            & \lim_{x \to 1^+} f(x) = f(1) = \frac{1}{2}.
-        \end{align}
+            <li>
+                Si $x = 1$,
+                \begin{align}
+                    & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} (ax+b) = a + b, \\
+                    & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} \frac{x^2}{x+1} = \frac{1}{2}, \\
+                    f(1) = \frac{1}{2}.
+                \end{align}
 
-        Por tanto, $f$ es continua en $x = 1$ si y solo si $a + b = \frac{1}{2}.$</li>
-    </ul>
+                Como $f$ es continua en $x = 1$,
+                $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1) \Leftrightarrow a + b = \frac{1}{2}.$
+            </li>
+        </ul>
 
-    Como $f$ es continua, ha de ocurrir que
-    $$\begin{cases}
-        -a + b = -1, \\
-        a + b = \frac{1}{2}
-    \end{cases} \Leftrightarrow
-    \begin{cases}
-        a = \frac{3}{4}, \\
-        b = -\frac{1}{4}.
-    \end{cases}$$</li>
+        Por tanto,
+        \begin{cases}
+            -a + b = -1, \\
+            a + b = \frac{1}{2}.
+        \end{cases}
 
-    <li>La función $f$ es continua en $\mathbb{R}$, así que su gráfica no tiene ninguna asíntota vertical.
-    Falta estudiar la existencia de asíntotas horizontales y oblicuas.
+        Si sumamos las dos ecuaciones, obtenemos que
+        $$2b = -\frac{1}{2} \Leftrightarrow b = -\frac{1}{4}.$$
+        Luego
+        $$-a + b = -1 \xrightarrow{b = -1/4} -a - \frac{1}{4} = -1 \Leftrightarrow a = \frac{3}{4}.$$
 
-    <ul>
-        <li>Estudiamos las asíntotas por la izquierda.
-        $$\lim_{x \to -\infty} f(x) = \lim_{x \to -\infty} \frac{1}{x} = 0.$$
-        Por tanto, $y = 0$ es una asíntota horizontal de la gráfica de $f$ por la izquierda.</li>
+        Así que $a = \frac{3}{4}$ y $b = -\frac{1}{4}.$
+    </li>
 
-        <li>Estudiamos las asíntotas por la derecha.
-        $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{x^2}{x+1} = +\infty.$$
-        Veamos si tiene una asíntota oblicua.
-        $$\lim_{x \to +\infty} \frac{f(x)}{x} = \lim_{x \to +\infty} \frac{x}{x+1} = 1.$$
-        Así que $f$ tiene una asíntota oblicua con pendiente $m = 1.$
-        Calculamos su ordenada en el origen.
-        $$\lim_{x \to +\infty} (f(x) - x) = \lim_{x \to +\infty} \left(\frac{x^2}{x+1} - x\right) = \lim_{x \to +\infty} \frac{-x}{x+1} = -1.$$
-        Por tanto, $y = x-1$ es una asíntota oblicua de la gráfica de $f$ por la derecha.</li>
-    </ul>
+    <li>
+        La función $f$ es continua en $\mathbb{R}$, así que su gráfica no tiene ninguna asíntota vertical.
+        Falta estudiar la existencia de asíntotas horizontales y oblicuas.
+
+        <ul>
+            <li>
+                Estudiamos las asíntotas por la izquierda.
+                $$\lim_{x \to -\infty} f(x) = \lim_{x \to -\infty} \frac{1}{x} = 0.$$
+                Por tanto, $y = 0$ es una asíntota horizontal de la gráfica de $f$ por la izquierda.
+            </li>
+
+            <li>
+                Estudiamos las asíntotas por la derecha.
+                $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{x^2}{x+1} = +\infty.$$
+                Veamos si tiene una asíntota oblicua.
+                $$\lim_{x \to +\infty} \frac{f(x)}{x} = \lim_{x \to +\infty} \frac{x}{x+1} = 1.$$
+                Así que $f$ tiene una asíntota oblicua con pendiente $m = 1.$
+                Calculamos su ordenada en el origen.
+                $$\lim_{x \to +\infty} (f(x) - x) = \lim_{x \to +\infty} \left(\frac{x^2}{x+1} - x\right) = \lim_{x \to +\infty} \frac{-x}{x+1} = -1.$$
+                Por tanto, $y = x-1$ es una asíntota oblicua de la gráfica de $f$ por la derecha.
+            </li>
+        </ul>
     </li>
 </ol>

@@ -1,19 +1,20 @@
 <ol>
     <li>
         En primer lugar, observamos que $f$ es continua en cada una de sus ramas para cualquier valor de $a.$
-        Pasamos a estudiar su continuidad en $x = 0$ en función del parámetro $a.$
+        Pasamos a estudiar su continuidad en $x = 0.$
 
         \begin{align}
-            & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} (3x-6)e^x = -6 = f(0), \\
-            & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \frac{36(\mathrm{sen}(x)-ax)}{x^3} = \frac{0}{0}.
+            & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} (3x-6)e^x = -6, \\
+            & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \frac{36(\mathrm{sen}(x)-ax)}{x^3} = \frac{0}{0} \rightarrow \lim_{x \to 0^+} \frac{36(\mathrm{sen}(x)-ax)}{x^3} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{36(\cos(x)-a)}{3x^2} = \frac{36(1-a)}{0}, \\
+            & f(0) = -6.
         \end{align}
 
-        Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
-        $$\lim_{x \to 0^+} \frac{36(\mathrm{sen}(x)-ax)}{x^3} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{36(\cos(x)-a)}{3x^2} = \frac{36(1-a)}{0}.$$
-        Si $a \neq 1$ este límite será infinito y la función no será continua en $x = 0$, así que necesariamente $a = 1.$
+        Si $a \neq 1$ el segundo límite será infinito y la función no será continua en $x = 0$, así que necesariamente $a = 1.$
         Continuamos resolviendo el límite para $a = 1.$
         $$\lim_{x \to 0^+} \frac{36(\cos(x)-1)}{3x^2} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{-36\mathrm{sen}(x)}{6x} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{-36\cos(x)}{6} = -\frac{36}{6} = -6.$$
-        Por tanto, $f$ es continua en $x = 0$ si y solo si $a = 1.$
+
+        Observamos que para este valor de $a$ se verifica que
+        $$\lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) = f(0).$$ 
     </li>
 
     <li>
