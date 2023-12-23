@@ -1,0 +1,29 @@
+<ol>
+    <li>
+        En primer lugar, observamos que $f$ es continua si $x \neq 0$ para cualquier valor de $\lambda$ y $\mu.$
+        Pasamos a estudiar su continuidad en $x = 0$.
+
+        \begin{align}
+            & \lim_{x \to 0} f(x) = \lim_{x \to 0} \frac{e^{\lambda x} - e^x - x}{x^2} = \frac{0}{0} \rightarrow \lim_{x \to 0} \frac{e^{\lambda x} - e^x - x}{x^2} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{\lambda e^{\lambda x} - e^x - 1}{2x} = \frac{\lambda - 2}{0}, \\
+            & f(0) = \mu.
+        \end{align}
+
+        Si $\lambda \neq 2$ este límite será infinito y la función no será continua en $x = 0$, así que necesariamente $\lambda = 2.$
+        Continuamos resolviendo el límite para $\lambda = 2.$
+        $$\lim_{x \to 0} \frac{2e^{2x} - e^x - 1}{2x} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{4e^{2x} - e^x}{2} = \frac{3}{2}.$$
+
+        Como $f$ es continua en $x = 0$,
+        $$\lim_{x \to 0} f(x) = f(0) \Leftrightarrow \mu = \frac{3}{2}.$$
+    </li>
+
+    <li>
+        La ecuación de la recta tangente a la gráfica de $f$ en $x = 1$ viene dada por
+        $$y - f(1) = f'(1)(x-1).$$
+
+        Para $x \neq 0$,
+        $$f'(x) = \frac{(2e^{2x} - e^x - 1)x^2 - (e^{2x} - e^x - 1)2x}{x^4} \Rightarrow f'(1) = e+1.$$
+
+        Por tanto, la ecuación de la recta tangente en $x = 1$ es
+        $$y - (e^2 - e - 1) = (e+1)(x-1) \Leftrightarrow y = (e+1)x + e^2 - 2e - 2.$$
+    </li>
+</ol>

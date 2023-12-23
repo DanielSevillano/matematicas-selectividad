@@ -618,6 +618,7 @@
     },
     {
         "ejercicio": 202241,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones",
@@ -983,6 +984,7 @@
     },
     {
         "ejercicio": 202141,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Funciones"

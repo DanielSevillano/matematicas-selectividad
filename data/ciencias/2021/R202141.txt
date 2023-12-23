@@ -1,0 +1,30 @@
+<p>
+    En primer lugar, observamos que $f$ es continua en cada una de sus ramas para cualquier valor de $a$ y $b.$
+    Pasamos a estudiar su continuidad en $x = 0$ y $x = 1.$
+</p>
+
+<ul>
+    <li>
+        Si $x = 0$,
+        \begin{align}
+            & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} \frac{\ln(e^x + x^3)}{x} = \frac{0}{0} \rightarrow \lim_{x \to 0^-} \frac{\ln(e^x + x^3)}{x} \overset{\text{L'H}}{=} \lim_{x \to 0^-} \frac{e^x + 3x^2}{e^x + x^3} = 1, \\
+            & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} (4x^2+a) = a, \\
+            & f(0) = a.
+        \end{align}
+
+        Como $f$ es continua en $x = 0$,
+        $$\lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) = f(0) \Leftrightarrow a = 1.$$
+    </li>
+
+    <li>
+        Si $x = 1$,
+        \begin{align}
+            & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} (4x^2 + 1) = 5, \\
+            & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} (b + \mathrm{sen}(\pi x)) = b, \\
+            & f(1) = b.
+        \end{align}
+
+        Como $f$ es continua en $x = 1$,
+        $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1) \Leftrightarrow b = 5.$$
+    </li>
+</ul>
