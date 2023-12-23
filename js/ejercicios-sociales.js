@@ -165,7 +165,8 @@ botonAleatorio.addEventListener("click", () => {
     const boton = botones[Math.floor(Math.random() * botones.length)];
     const categoria = boton.id.replace("boton-", "");
     boton.click();
-    if (["analisis", "integrales", "programacion-lineal", "problemas-de-optimizacion"].includes(categoria)) document.querySelector("#grupo-analisis").click();
+    if (["analisis", "integrales"].includes(categoria)) document.querySelector("#grupo-analisis").click();
+    else if (["programacion-lineal", "problemas-de-optimizacion"].includes(categoria)) document.querySelector("#grupo-programacion-lineal").click();
     else if (["algebra", "problemas-de-matrices"].includes(categoria)) document.querySelector("#grupo-algebra").click();
     else document.querySelector("#grupo-estadistica").click();
 });
@@ -174,7 +175,8 @@ if (!categoria) document.querySelector(".grupo").click();
 else {
     try {
         document.querySelector("#boton-" + categoria).click();
-        if (["analisis", "integrales", "programacion-lineal", "problemas-de-optimizacion"].includes(categoria)) document.querySelector("#grupo-analisis").click();
+        if (["analisis", "integrales"].includes(categoria)) document.querySelector("#grupo-analisis").click();
+        else if (["programacion-lineal", "problemas-de-optimizacion"].includes(categoria)) document.querySelector("#grupo-programacion-lineal").click();
         else if (["algebra", "problemas-de-matrices"].includes(categoria)) document.querySelector("#grupo-algebra").click();
         else document.querySelector("#grupo-estadistica").click();
     }
