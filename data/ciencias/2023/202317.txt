@@ -1,4 +1,4 @@
-Considera los puntos $A(1, 2, 3)$ y $B(2, 0, -1).$
+Considera los puntos $A(1, -2, 3)$ y $B(2, 0, -1).$
 
 <ol>
     <li>Halla los puntos que dividen el segmento $AB$ en cuatro partes iguales.</li>
