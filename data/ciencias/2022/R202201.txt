@@ -21,11 +21,11 @@
                 \begin{align}
                     & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} (ax+b) = a + b, \\
                     & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} \frac{x^2}{x+1} = \frac{1}{2}, \\
-                    f(1) = \frac{1}{2}.
+                    & f(1) = \frac{1}{2}.
                 \end{align}
 
                 Como $f$ es continua en $x = 1$,
-                $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1) \Leftrightarrow a + b = \frac{1}{2}.$
+                $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1) \Leftrightarrow a + b = \frac{1}{2}.$$
             </li>
         </ul>
 
@@ -57,7 +57,8 @@
             <li>
                 Estudiamos las asíntotas por la derecha.
                 $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{x^2}{x+1} = +\infty.$$
-                Veamos si tiene una asíntota oblicua.
+                Así que no tiene una asíntota horizontal.
+                Veamos si en su lugar tiene una asíntota oblicua.
                 $$\lim_{x \to +\infty} \frac{f(x)}{x} = \lim_{x \to +\infty} \frac{x}{x+1} = 1.$$
                 Así que $f$ tiene una asíntota oblicua con pendiente $m = 1.$
                 Calculamos su ordenada en el origen.
