@@ -1,0 +1,53 @@
+<ol>
+    <li>
+        En primer lugar, observamos que $f$ es continua en cada una de sus ramas para cualquier valor de $a$ y $b.$
+        Pasamos a estudiar su continuidad en $x = 0$ y $x = 2.$
+
+        <ul>
+            <li>
+                Si $x = 0$,
+                \begin{align}
+                    & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} (x^2+2) = 2, \\
+                    & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \sqrt{ax + b} = \sqrt{b}, \\
+                    & f(0) = 2.
+                \end{align}
+
+                Como $f$ es continua en $x = 0$,
+                $$\lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) = f(0) \Leftrightarrow \sqrt{b} = 2 \Leftrightarrow b = 4.$$
+            </li>
+
+            <li>
+                Si $x = 2$,
+                \begin{align}
+                    & \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} \sqrt{ax + 4} = \sqrt{2a + 4}, \\
+                    & \lim_{x \to 2^+} f(x) = \lim_{x \to 2^+} \left(\frac{-x}{2\sqrt{2}} + \frac{3}{\sqrt{2}}\right) = \frac{2}{\sqrt{2}} = \sqrt{2}, \\
+                    & f(2) = \sqrt{2a + 4}.
+                \end{align}
+
+                Como $f$ es continua en $x = 2$,
+                $$\lim_{x \to 2^-} f(x) = \lim_{x \to 2^+} f(x) = f(2) \Leftrightarrow \sqrt{2a + 4} = \sqrt{2} \Leftrightarrow 2a + 4 = 2 \Leftrightarrow a = -1.$$
+            </li>
+        </ul>
+
+        Así que $a = -1$ y $b = 4.$
+    </li>
+
+    <li>
+        La función $f$ es derivable en cada una de sus ramas y su derivada es
+        $$f'(x) = \begin{cases}
+            2x, & \text{si } x < 0, \\
+            -\dfrac{1}{2\sqrt{-x+4}}, & \text{si } 0 < x < 2, \\
+            -\dfrac{1}{2\sqrt{2}}, & \text{si } x > 2.
+        \end{cases}$$
+
+        Veamos si $f$ es derivable en $x = 2$ comprobando si sus derivadas laterales coinciden.
+        \begin{align}
+            f'_-(2) = \lim_{x \to 2^-} f'(x) = \lim_{x \to 2^-} -\frac{1}{2\sqrt{-x+4}} = -\frac{1}{2\sqrt{2}}, \\
+            f'_+(2) = \lim_{x \to 2^+} f'(x) = \lim_{x \to 2^+} -\frac{1}{2\sqrt{2}} = -\frac{1}{2\sqrt{2}}.
+        \end{align}
+
+        Por tanto, $f$ es derivable en $x = 2$ con $f'(2) = -\frac{1}{2\sqrt{2}}.$
+        Así que la ecuación de la recta tangente a la gráfica de $f$ en $x = 2$ es
+        $$y - f(2) = f'(2)(x-2) \rightarrow y - \sqrt{2} = -\frac{1}{2\sqrt{2}}(x-2) \Leftrightarrow y = -\frac{x}{2\sqrt{2}} + 2\sqrt{2}.$$
+    </li>
+</ol>
