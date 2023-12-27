@@ -118,6 +118,7 @@
     },
     {
         "ejercicio": 202317,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Problemas métricos"
@@ -342,6 +343,7 @@
     },
     {
         "ejercicio": 202355,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices"

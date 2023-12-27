@@ -1,0 +1,63 @@
+<ol>
+    <li>
+        Calculamos en primer lugar el determinante de la matriz $A-mI.$
+        $$|A-mI| = \begin{vmatrix}
+            1-m & 1 & 1 \\
+            1 & 1-m & 1 \\
+            1 & 1 & 1-m
+        \end{vmatrix} = (1-m)^3 + 2 - 3(1-m) = -m^3 + 3m^2.$$
+
+        La matriz $A-mI$ no tiene inversa si y solo si su determinante es nulo.
+        $$|A-mI| = 0 \Leftrightarrow -m^3 + 3m^2 = 0 \Leftrightarrow m^2(m - 3) = 0 \Leftrightarrow \begin{cases}
+            m = 0, \\
+            m = 3.
+        \end{cases}$$
+
+        Por tanto, la matriz $A-mI$ no tiene inversa si $m = 0$ o $m = 3.$
+    </li>
+
+    <li>
+        En primer lugar, hallamos la inversa de la matriz $\frac{1}{x}(A-I).$
+        $$\left(\frac{1}{x}(A-I)\right)^{-1} = x(A-I)^{-1}.$$
+        
+        La matriz $A-I$ es de la forma $A-mI$ con $m = 1$, así que por el apartado anterior es invertible y $\det(A-I) = 2.$
+        Para hallar su inversa, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A-I) = \begin{pmatrix}
+            -1 & 1 & 1 \\
+            1 & -1 & 1 \\
+            1 & 1 & -1
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular la inversa como
+        $$(A-I)^{-1} = \frac{1}{|A-I|}\mathrm{Adj}(A)^t = \frac{1}{2}\begin{pmatrix}
+            -1 & 1 & 1 \\
+            1 & -1 & 1 \\
+            1 & 1 & -1
+        \end{pmatrix}.$$
+
+        Así que
+        $$\left(\frac{1}{x}(A-I)\right)^{-1} = \frac{x}{2}\begin{pmatrix}
+            -1 & 1 & 1 \\
+            1 & -1 & 1 \\
+            1 & 1 & -1
+        \end{pmatrix} = \begin{pmatrix}
+            -\frac{x}{2} & \frac{x}{2} & \frac{x}{2} \\
+            \frac{x}{2} & -\frac{x}{2} & \frac{x}{2} \\
+            \frac{x}{2} & \frac{x}{2} & -\frac{x}{2}
+        \end{pmatrix}.$$
+
+        Para que $A-xI$ sea la inversa de la matriz $\frac{1}{x}(A-I)$, ha de ocurrir que
+        $$\left(\frac{1}{x}(A-I)\right)^{-1} = A-xI \Leftrightarrow \begin{pmatrix}
+            -\frac{x}{2} & \frac{x}{2} & \frac{x}{2} \\
+            \frac{x}{2} & -\frac{x}{2} & \frac{x}{2} \\
+            \frac{x}{2} & \frac{x}{2} & -\frac{x}{2}
+        \end{pmatrix} = \begin{pmatrix}
+            1-x & 1 & 1 \\
+            1 & 1-x & 1 \\
+            1 & 1 & 1-x
+        \end{pmatrix} \Leftrightarrow \begin{cases}
+            -\dfrac{x}{2} = 1-x, \\
+            \dfrac{x}{2} = 1
+        \end{cases} \Leftrightarrow x = 2.$$
+    </li>
+</ol>

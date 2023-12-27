@@ -1,0 +1,17 @@
+<ol>
+    <li>
+        Llamamos $P$, $Q$ y $R$ a los puntos que dividen el segmento $AB$ en cuatro partes iguales, en orden.
+        Para hallar estos puntos, usamos el vector $\vec{AB} = (1, 2, -4).$
+        \begin{align}
+            & P \equiv \vec{OP} = \vec{OA} + \frac{1}{4}\vec{AB} = (1, -2, 3) + \frac{1}{4}(1, 2, -4) = \left(\frac{5}{4}, -\frac{3}{2}, 2\right), \\ 
+            & Q \equiv \vec{OQ} = \vec{OA} + \frac{2}{4}\vec{AB} = (1, -2, 3) + \frac{1}{2}(1, 2, -4) = \left(\frac{3}{2}, -1, 1\right), \\
+            & R \equiv \vec{OR} = \vec{OA} + \frac{3}{4}\vec{AB} = (1, -2, 3) + \frac{3}{4}(1, 2, -4) = \left(\frac{7}{4}, -\frac{1}{2}, 0\right).
+        \end{align}
+    </li>
+
+    <li>
+        El plano $\pi$ perpendicular al segmento $AB$ tiene como vector normal $\vec{n} = \vec{AB} = (1, 2, -4).$
+        Si además pasa por el punto medio $Q\left(\frac{3}{2}, -1, 1\right)$, entonces
+        $$\pi \equiv x - \frac{3}{2} + 2(y+1) - 4(z-1) = 0 \Leftrightarrow x + 2y - 4z + \frac{9}{2} = 0 \Leftrightarrow 2x + 4y - 8z + 9 = 0.$$
+    </li>
+</ol>
