@@ -1,33 +1,8 @@
 [
     {
-        "curso": 2022,
-        "ciencias": 6.71,
-        "sociales": 6.91
-    },
-    {
-        "curso": 2021,
-        "ciencias": 6.56,
-        "sociales": 6.81
-    },
-    {
-        "curso": 2020,
-        "ciencias": 5.65,
-        "sociales": 6.14
-    },
-    {
-        "curso": 2019,
-        "ciencias": 5.45,
-        "sociales": 6.01
-    },
-    {
-        "curso": 2018,
-        "ciencias": 6,
-        "sociales": 6.67
-    },
-    {
-        "curso": 2017,
-        "ciencias": 5.85,
-        "sociales": 6.2
+        "curso": 2015,
+        "ciencias": 5.89,
+        "sociales": 6.29
     },
     {
         "curso": 2016,
@@ -35,8 +10,33 @@
         "sociales": 5.87
     },
     {
-        "curso": 2015,
-        "ciencias": 5.89,
-        "sociales": 6.29
+        "curso": 2017,
+        "ciencias": 5.85,
+        "sociales": 6.2
+    },
+    {
+        "curso": 2018,
+        "ciencias": 6,
+        "sociales": 6.67
+    },
+    {
+        "curso": 2019,
+        "ciencias": 5.45,
+        "sociales": 6.01
+    },
+    {
+        "curso": 2020,
+        "ciencias": 5.65,
+        "sociales": 6.14
+    },
+    {
+        "curso": 2021,
+        "ciencias": 6.56,
+        "sociales": 6.81
+    },
+    {
+        "curso": 2022,
+        "ciencias": 6.71,
+        "sociales": 6.91
     }
 ]
