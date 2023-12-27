@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+    <meta name="description" content="Accede a las estadísticas de Selectividad en Andalucía y de esta página.">
+    <title>Matemáticas de Selectividad</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/core.css" />
+    <script type="module" src="js/estadisticas.js"></script>
+
+    <style>
+        .contenedor-grafica {
+            max-width: 90ch;
+            width: 90vw;
+            min-height: 200px;
+            max-height: 45ch;
+            height: 45vw;
+            margin-bottom: 40px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .contenedor-grafica {
+                filter: invert(1) hue-rotate(180deg);
+            }
+        }
+
+        section {
+            position: relative;
+            min-height: 72px;
+        }
+
+        section.cargando::after {
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(18ch, 30ch));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .tarjeta {
+            --parent-color: var(--container-color);
+            padding: 20px;
+            background-color: var(--container-color);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            box-shadow:
+                0 0 2px rgba(0, 0, 0, 0.12),
+                0 2px 4px rgba(0, 0, 0, 0.14);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h1>
+                <img src="img/favicon.png" alt="Icono" width="25" height="25">
+                Matemáticas de Selectividad
+            </h1>
+        </a>
+
+        <nav id="navegacion-global">
+            <ul>
+                <li><a href="/examenes-ciencias.html">Exámenes</a></li>
+                <li><a href="/ejercicios-ciencias.html">Ejercicios</a></li>
+            </ul>
+        </nav>
+
+        <a class="github" href="https://github.com/DanielSevillano/matematicas-selectividad" title="GitHub"
+            target="_blank">
+            <img src="img/icono-github.svg" alt="GitHub" width="25" height="25">
+        </a>
+    </header>
+
+    <main>
+        <h2>📈 Estadísticas de Selectividad</h2>
+
+        <h3>Porcentaje de aprobados</h3>
+        <div class="contenedor-grafica">
+            <canvas id="grafica-aprobados"></canvas>
+        </div>
+
+        <h3>Nota media</h3>
+        <div class="contenedor-grafica">
+            <canvas id="grafica-nota"></canvas>
+        </div>
+
+        <h2>📊 Estadísticas de la página</h2>
+
+        <h3>Ciencias</h3>
+        <section id="estadisticas-ciencias" class="galeria cargando">
+        </section>
+
+        <h3>Sociales</h3>
+        <section id="estadisticas-sociales" class="galeria cargando">
+        </section>
+    </main>
+</body>
+
+</html>

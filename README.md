@@ -9,7 +9,7 @@ Los principales objetivos son los siguientes.
 - ⌚ Tiempos de carga reducidos.
 - 💰 Gratis y libre de anuncios.
 
-La página hace uso de [MathJax](https://www.mathjax.org/) para mostrar los ejercicios directamente en el navegador.
+La página hace uso de [MathJax](https://www.mathjax.org/) para mostrar los ejercicios directamente en el navegador y de [Chart.js](https://www.chartjs.org/) para las gráficas.
 Los exámenes están ordenados por año y los ejercicios están clasificados por categorías.
 
 El diseño está inspirado en [Fluent Design](https://fluent2.microsoft.design), el lenguaje de diseño utilizado por Microsoft en Windows.

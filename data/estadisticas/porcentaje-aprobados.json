@@ -1,0 +1,42 @@
+[
+    {
+        "curso": 2022,
+        "ciencias": 78.94,
+        "sociales": 79.75
+    },
+    {
+        "curso": 2021,
+        "ciencias": 74.90,
+        "sociales": 80.69
+    },
+    {
+        "curso": 2020,
+        "ciencias": 63.35,
+        "sociales": 71.59
+    },
+    {
+        "curso": 2019,
+        "ciencias": 59.19,
+        "sociales": 72.96
+    },
+    {
+        "curso": 2018,
+        "ciencias": 70.05,
+        "sociales": 79.23
+    },
+    {
+        "curso": 2017,
+        "ciencias": 67.39,
+        "sociales": 74.02
+    },
+    {
+        "curso": 2016,
+        "ciencias": 65.60,
+        "sociales": 69.65
+    },
+    {
+        "curso": 2015,
+        "ciencias": 65.77,
+        "sociales": 75.58
+    }
+]
