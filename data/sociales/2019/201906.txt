@@ -1,0 +1,17 @@
+Sea la función
+$$f(x) = \begin{cases}
+    \dfrac{1}{x-1}, & \text{si } x < 0, \\
+    x^2 + a, & \text{si } x \geq 0.
+\end{cases}$$
+
+<ol>
+    <li>
+        Determine el valor del parámetro $a$ para que $f$ sea continua en todo su dominio.
+        Para ese valor de $a$, estudie la derivabilidad de $f.$
+    </li>
+
+    <li>
+        Para $a = -2$, estudie la monotonía y curvatura de la función $f.$
+        ¿Tiene algún punto de inflexión?
+    </li>
+</ol>

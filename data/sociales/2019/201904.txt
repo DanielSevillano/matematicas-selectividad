@@ -1,0 +1,7 @@
+Se desea estimar la proporción de individuos que piensan votar a un cierto partido político en una determinada ciudad.
+Para ello se toma una muestra aleatoria de 300 individuos de la ciudad, resultando que 135 de ellos piensan votar a ese partido.
+
+<ol>
+    <li>Calcule un intervalo de confianza al 97% para la proporción de individuos que piensan votar a ese partido en dicha ciudad.</li>
+    <li>Suponiendo que se mantiene la misma proporción muestral y el mismo nivel de confianza del apartado anterior, determine el tamaño mínimo de la muestra para estimar la proporción con un error inferior al 2%.</li>
+</ol>

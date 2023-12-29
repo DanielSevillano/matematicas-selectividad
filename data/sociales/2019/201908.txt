@@ -1,0 +1,9 @@
+Los directivos de una empresa desean estimar el tiempo medio que tardan los empleados en llegar al puesto de trabajo desde sus domicilios.
+Admitimos que dicho tiempo sigue una distribución Normal de desviación típica 8 minutos.
+Se elige al azar una muestra de 9 empleados de esa empresa, obteniéndose los siguientes resultados, expresados en minutos:
+$$10 \quad 17 \quad 8 \quad 27 \quad 6 \quad 9 \quad 32 \quad 5 \quad 21.$$
+
+<ol>
+    <li>Determine un intervalo de confianza al 92% para la media poblacional.</li>
+    <li>Con una confianza del 95,5%, ¿qué tamaño muestral mínimo sería necesario para estimar el tiempo medio con un error inferior a 1,5 minutos?</li>
+</ol>

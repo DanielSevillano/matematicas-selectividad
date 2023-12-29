@@ -1,0 +1,7 @@
+Se considera la función $f(x) = x^3 - 9x + 2.$
+
+<ol>
+    <li>Obtenga las ecuaciones de las rectas tangentes a la gráfica de la función que sean paralelas a la recta $y = 3x - 3.$</li>
+    <li>Estudie la monotonía y la curvatura de la función $f.$</li>
+    <li>Calcule $\int f(x)dx.$</li>
+</ol>

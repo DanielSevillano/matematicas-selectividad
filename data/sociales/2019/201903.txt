@@ -1,0 +1,8 @@
+El 65% de los turistas que visitan una provincia elige alojamientos en la capital y el resto en zonas rurales.
+Además, el 75% de los turistas que se hospedan en la capital y el 15% de los que se hospedan en zonas rurales, lo hacen en hoteles, mientras que el resto lo hace en apartamentos turísticos.
+Se elige al azar un turista de los que se han alojado en esa provincia.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que se haya hospedado en un hotel?</li>
+    <li>Si se sabe que se ha hospedado en un apartamento turístico, ¿cuál es la probabilidad de que el apartamento esté en zonas rurales?</li>
+</ol>

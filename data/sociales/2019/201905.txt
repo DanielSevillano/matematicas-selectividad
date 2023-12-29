@@ -1,0 +1,12 @@
+Se considera la matriz
+$$A = \begin{pmatrix}
+    1 & -2 & 0 \\
+    -2 & 2 & -1 \\
+    0 & 1 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Razone si la matriz $A$ es simétrica.</li>
+    <li>Calcule $A^{-1}.$</li>
+    <li>Resuelva la ecuación matricial $2XA - A^2 - 3I_3 = 0.$</li>
+</ol>

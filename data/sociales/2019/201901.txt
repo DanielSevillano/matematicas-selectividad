@@ -1,0 +1,6 @@
+Una empresa textil quiere fabricar dos tipos de camisetas, lisas y estampadas.
+Para fabricar una camiseta lisa necesita 70 g de algodón y 20 g de poliéster y para cada camiseta estampada 60 g de algodón y 10 g de poliéster.
+La empresa dispone para ello de 4.200 g de algodón y 800 g de poliéster.
+Para que sea rentable debe fabricar al menos 10 estampadas y además, el doble de las estampadas debe ser al menos igual al número de lisas.
+Sabiendo que cada camiseta lisa da un beneficio de 5 euros y cada estampada de 4 euros, ¿cuántas camisetas de cada tipo debería fabricar para obtener el máximo beneficio?
+¿Cuál es ese beneficio?

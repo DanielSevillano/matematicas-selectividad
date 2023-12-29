@@ -1,0 +1,8 @@
+El 69% de los habitantes de una determinada ciudad ven series, el 35% películas y el 18% no ven ni series ni películas.
+Se elige al azar un habitante de la ciudad.
+
+<ol>
+    <li>Calcule la probabilidad de que vea series o películas.</li>
+    <li>Sabiendo que ve series, calcule la probabilidad de que vea películas.</li>
+    <li>¿Cuál es la probabilidad de que vea series y no vea películas?</li>
+</ol>
