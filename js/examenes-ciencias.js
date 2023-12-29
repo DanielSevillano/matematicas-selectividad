@@ -27,7 +27,7 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const examen = boton.id.replace("boton-", "");
-        mostrarExamen(examen);
+        mostrarExamen("ciencias", examen);
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
 
         botones.forEach(b => {

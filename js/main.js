@@ -14,7 +14,7 @@ async function ejercicioDiario() {
 
     const objeto = datos[indice];
     const codigo = String(objeto.ejercicio);
-    const articulo = await obtenerEjercicio(codigo.slice(0, 5), codigo.slice(-1), false, objeto.categorias, true);
+    const articulo = await obtenerEjercicio("ciencias", codigo.slice(0, 5), codigo.slice(-1), false, objeto.categorias, true);
     articulo.classList.add("tarjeta");
 
     contenedor.append(articulo);

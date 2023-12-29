@@ -33,7 +33,7 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
-        mostrarCategoria(categoria, soloResueltos, contador);
+        mostrarCategoria("ciencias", categoria, soloResueltos, contador);
         categoriaSeleccionada = categoria;
         cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
@@ -47,7 +47,7 @@ function pulsar(boton) {
 }
 
 function mostrarSoloResueltos() {
-    if (!estado.cancelado) mostrarCategoria(categoriaSeleccionada, soloResueltos, contador);
+    if (!estado.cancelado) mostrarCategoria("ciencias", categoriaSeleccionada, soloResueltos, contador);
     else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 

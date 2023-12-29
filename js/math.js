@@ -46,7 +46,7 @@ function formatear(elemento) {
     else setTimeout(() => formatear(elemento));
 }
 
-async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false) {
+async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false) {
     const articulo = document.createElement("article");
     const titulo = document.createElement("h3");
     const parrafo = document.createElement("p");
@@ -61,12 +61,16 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
 
         }
     }
+
+    let html = "";
+    if (location.href.includes(".html")) html = ".html";
+
     if (tituloCompleto) {
         titulo.textContent = "Ejercicio " + letra + numeracion + ": ";
 
         const enlace = document.createElement("a");
         enlace.textContent = tituloExamen(examen);
-        enlace.href = "/examenes-ciencias.html?examen=" + examen;
+        enlace.href = "/examenes-" + modalidad + html + "?examen=" + examen;
 
         titulo.append(enlace);
     } else titulo.textContent = "Ejercicio " + letra + numeracion;
@@ -79,7 +83,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
         const elementoCategoria = document.createElement("li");
         const enlaceCategoria = document.createElement("a");
         enlaceCategoria.textContent = categoria;
-        enlaceCategoria.href = "/ejercicios-ciencias.html?categoria=" + normalizar(categoria);
+        enlaceCategoria.href = "/ejercicios-" + modalidad + html + "?categoria=" + normalizar(categoria);
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
@@ -87,7 +91,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
     articulo.append(contenedorCategorias);
 
     const curso = String(examen).slice(0, 4);
-    const ruta = "data\\ciencias\\" + curso + "\\" + examen + ejercicio + ".txt";
+    const ruta = "data\\" + modalidad + "\\" + curso + "\\" + examen + ejercicio + ".txt";
 
     const respuesta = await fetch(ruta);
     const datos = await respuesta.text();
@@ -101,7 +105,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
 
         tituloResolucion.textContent = "Resolución";
 
-        const ruta = "data\\ciencias\\" + curso + "\\R" + examen + ejercicio + ".txt";
+        const ruta = "data\\" + modalidad + "\\" + curso + "\\R" + examen + ejercicio + ".txt";
         const respuesta = await fetch(ruta);
         const datos = await respuesta.text();
 
@@ -116,7 +120,7 @@ async function obtenerEjercicio(examen, ejercicio, resuelto = false, categorias 
     return articulo;
 }
 
-async function obtenerExamen(examen) {
+async function obtenerExamen(modalidad, examen) {
     const main = document.querySelector("main");
 
     const titulo = document.createElement("h2");
@@ -131,7 +135,7 @@ async function obtenerExamen(examen) {
 
     main.append(titulo);
 
-    const respuesta = await fetch("data\\ciencias\\metadata.json");
+    const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
     const datos = await respuesta.json();
 
     for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
@@ -152,7 +156,7 @@ async function obtenerExamen(examen) {
 
         boton.style.setProperty("--progreso", ejercicio / 8 * 100);
 
-        const seccion = await obtenerEjercicio(examen, ejercicio, resuelto, categorias);
+        const seccion = await obtenerEjercicio(modalidad, examen, ejercicio, resuelto, categorias);
         main.append(seccion);
         formatear(seccion);
     }
@@ -163,26 +167,26 @@ async function obtenerExamen(examen) {
     return true;
 }
 
-async function mostrarExamen(examen) {
+async function mostrarExamen(modalidad, examen) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerExamen(examen).then(() => {
+    obtenerExamen(modalidad, examen).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });
 }
 
-async function obtenerCategoria(categoria, soloResueltos, contador) {
+async function obtenerCategoria(modalidad, categoria, soloResueltos, contador = undefined) {
     const main = document.querySelector("main");
 
-    const respuesta = await fetch("data\\ciencias\\metadata.json");
+    const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
     const datos = await respuesta.json();
 
     let ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
     if (soloResueltos) ejercicios = ejercicios.filter(ejercicio => ejercicio.resuelto);
-    contador.textContent = ejercicios.length;
+    if (contador) contador.textContent = ejercicios.length;
 
     for (let ejercicio of ejercicios) {
         if (estado.cancelado) {
@@ -197,7 +201,7 @@ async function obtenerCategoria(categoria, soloResueltos, contador) {
             categorias = ejercicio.categorias;
         }
 
-        const parrafo = await obtenerEjercicio(parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
+        const parrafo = await obtenerEjercicio(modalidad, parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
         main.append(parrafo);
         formatear(parrafo);
     };
@@ -205,12 +209,12 @@ async function obtenerCategoria(categoria, soloResueltos, contador) {
     return true;
 }
 
-async function mostrarCategoria(categoria, soloResueltos = false, contador) {
+async function mostrarCategoria(modalidad, categoria, soloResueltos = false, contador) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerCategoria(categoria, soloResueltos, contador).then(() => {
+    obtenerCategoria(modalidad, categoria, soloResueltos, contador).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });
