@@ -1,0 +1,8 @@
+La vida útil de los filtros de las máquinas de agua por ósmosis se distribuye según una ley Normal de media desconocida y desviación típica de 2.000 horas.
+En una prueba realizada en 9 máquinas elegidas al azar, se obtuvieron los siguientes resultados:
+$$9.500 \quad 10.000 \quad 8.500 \quad 10.500 \quad 16.500 \quad 10.000 \quad 12.000 \quad 14.000 \quad 17.000.$$
+
+<ol>
+    <li>Calcule un intervalo de confianza al 99% para la vida útil media de los filtros de las máquinas.</li>
+    <li>¿Cuál debe ser el tamaño mínimo que debería tener una muestra, para que el error cometido en la estimación de la vida útil media de los filtros sea inferior a 500 horas, con un nivel de confianza del 95%?</li>
+</ol>

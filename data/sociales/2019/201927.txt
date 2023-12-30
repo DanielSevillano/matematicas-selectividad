@@ -1,0 +1,9 @@
+El 70% de los taxistas de una ciudad tiene 40 años o más y de estos, el 60% es propietario de la licencia del vehículo.
+Sin embargo, en el caso de los menores de 40 años, son propietarios de la licencia el 23%.
+Se escoge al azar un taxista de esa ciudad.
+
+<ol>
+    <li>Calcule la probabilidad de que sea propietario de la licencia del vehículo.</li>
+    <li>Sabiendo que no es propietario de la licencia, calcule la probabilidad de que tenga 40 años o más.</li>
+    <li>Calcule la probabilidad de que sea propietario de la licencia o tenga menos de 40 años.</li>
+</ol>

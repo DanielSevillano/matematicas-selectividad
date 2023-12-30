@@ -1,0 +1,10 @@
+El 17% de la población adulta de una ciudad sigue una dieta de adelgazamiento y practica algún deporte regularmente.
+El 58% ni sigue una dieta de adelgazamiento ni hace deporte regularmente.
+Además, se sabe que de los que hacen deporte regularmente, el 50% hace dieta de adelgazamiento.
+Se elige al azar un adulto de esa población.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que siga una dieta de adelgazamiento o que practique deporte regularmente?</li>
+    <li>Si el individuo elegido sigue una dieta de adelgazamiento, ¿cuál es la probabilidad de que practique deporte con regularidad?</li>
+    <li>¿Son independientes los sucesos "Seguir una dieta de adelgazamiento" y "Practicar algún deporte regularmente"?</li>
+</ol>

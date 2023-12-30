@@ -1,0 +1,7 @@
+La cantidad de azúcar que añade un fabricante de refrescos a sus productos sigue una ley Normal cuya varianza es 225 mg<sup>2</sup>.
+Se ha seleccionado al azar una muestra de 25 refrescos de ese fabricante, en la que se ha obtenido una media de 175 mg de azúcar añadido por refresco.
+
+<ol>
+    <li>Determine un intervalo de confianza al 90% para la cantidad media de azúcar añadida a cada refresco.</li>
+    <li>¿Cuál debe ser el tamaño mínimo de la muestra para que el intervalo de confianza correspondiente al 80% tenga una amplitud como máximo de 5 mg?</li>
+</ol>

@@ -1,0 +1,7 @@
+Una granja elabora una dieta mezclando dos tipos de pienso A y B.
+El pienso A aporta 2 unidades de Calcio y 1 de Hierro por cada kilogramo, mientras que el B aporta 1 de Calcio y 2 de Hierro.
+El coste por kilogramo tanto del pienso A como del pienso B es 1 euro por kilogramo.
+La dieta deberá aportar al menos 2 unidades de Calcio y 2 de Hierro.
+Determine los kilogramos que se han de mezclar de cada tipo de pienso para que el coste de la dieta sea mínimo.
+¿Cuál sería dicho coste?
+¿Cuántas unidades de Hierro y de Calcio se administrarían a los animales con esta dieta?

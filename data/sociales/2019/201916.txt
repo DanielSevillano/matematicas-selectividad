@@ -1,0 +1,12 @@
+Se considera la función
+$$f(x) = ax^2 + \frac{b}{x},$$
+con $x \neq 0$, siendo $a$ y $b$ dos parámetros reales.
+
+<ol>
+    <li>Determine el valor de los parámetros $a$ y $b$ para que $f(x)$ tenga un extremo relativo en el punto $(1, 3).$</li>
+    <li>Para $a = 1$ y $b = 2$, razone si en el punto $(1, 3)$ la función presenta un máximo o un mínimo.</li>
+    <li>
+        Calcule
+        $$\int \left(x^2 + \frac{2}{x}\right)dx.$$
+    </li>
+</ol>

@@ -1,0 +1,10 @@
+En una localidad andaluza hay tres institutos de ESO.
+De los 500 estudiantes que cursan 1° de ESO en dicha localidad, 250 estan matriculados en el instituto A, 150 en el B y el resto están matriculados en el instituto C.
+Se sabe que han superado la materia de Matemáticas el 70% del alumnado de 1° de ESO matriculado en el instituto A, el 68% de B y el 73% de C.
+Se elige al azar un estudiante de 1° de ESO de la citada localidad.
+
+<ol>
+    <li>Calcule la probabilidad de que no haya superado Matemáticas.</li>
+    <li>Calcule la probabilidad de que esté matriculado en el instituto A, sabiendo que ha superado Matemáticas.</li>
+    <li>Calcule la probabilidad de que esté matriculado en el instituto C y no haya superado Matemáticas.</li>
+</ol>

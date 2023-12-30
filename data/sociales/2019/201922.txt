@@ -1,0 +1,12 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    x^2 + 2x, & \text{si } -2 \leq x < 1, \\
+    ax^2 + 4x, & \text{si } 1 \leq x \leq 4.
+\end{cases}$$
+
+<ol>
+    <li>Calcule el valor de $a$ para que la función sea continua en todo su dominio.</li>
+    <li>Para $a = -1$, compruebe si es derivable en $x = 1.$</li>
+    <li>Para $a = -1$, determine los extremos relativos de la función y el valor de la función en dichos extremos.</li>
+    <li>Para $a = -1$, represente gráficamente la función en su dominio.</li>
+</ol>

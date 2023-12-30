@@ -1,0 +1,22 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    -\frac{1}{2} & 5 \\
+    -\frac{1}{4} & \frac{1}{2}
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & -1 \\
+    2 & 1
+\end{pmatrix} \quad \text{y} \quad
+C =  \begin{pmatrix}
+    1 & 0 & -1 \\
+    0 & -1 & 1 \\
+    -1 & 1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Resuelva la ecuación matricial $A^4X = B^2 + I_2.$</li>
+    <li>
+        ¿Tiene inversa la matriz $C$?
+        Justifique la respuesta.
+    </li>
+</ol>

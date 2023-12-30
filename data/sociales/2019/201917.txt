@@ -1,0 +1,11 @@
+Sean $A$ y $B$ dos sucesos de un experimento aleatorio dado.
+Se sabe que $P(A) = 0,5$, $P(A \cup B) = 0,75$ y $P(A-B) = 0,3.$
+
+<ol>
+    <li>Calcule $P(A \cap B).$</li>
+    <li>Calcule $P(A|B^c).$</li>
+    <li>
+        ¿Son independientes los sucesos $A$ y $B$?
+        ¿Son los sucesos $A$ y $B$ incompatibles?
+    </li>
+</ol>

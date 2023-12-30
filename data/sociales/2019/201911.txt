@@ -1,0 +1,7 @@
+Consideremos el recinto definido por las siguientes desigualdades:
+$$7y \leq 15 + 3x, \quad y \geq x-3, \quad 3y \geq -x + 11.$$
+
+<ol>
+    <li>Represente gráficamente el recinto anterior y calcule sus vértices.</li>
+    <li>Calcule en qué puntos se alcanzan los valores máximo y mínimo de la función $H(x, y) = 4x - y - 16$ restringida al anterior recinto y obtenga dichos valores.</li>
+</ol>

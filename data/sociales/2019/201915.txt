@@ -1,0 +1,25 @@
+Se consideran las matrices:
+$$A = \begin{pmatrix}
+    3 & -1 \\
+    -6 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    2 & 0 \\
+    -2 & 2
+\end{pmatrix}, \quad
+C = \begin{pmatrix}
+    3 \\
+    1
+\end{pmatrix} \quad \text{y} \quad
+D = \begin{pmatrix}
+    -2 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Justifique cuáles de las siguientes operaciones se pueden realizar y efectúelas cuando sea posible:
+        $$A + BC, \quad AC + BD^t, \quad B^2 + CD, \quad A + DC.$$
+    </li>
+
+    <li>Resuelva la ecuación matricial $X(A + I_2) = 3B^t.$</li>
+</ol>

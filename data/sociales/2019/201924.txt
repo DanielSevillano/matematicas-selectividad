@@ -1,0 +1,10 @@
+A la salida de una heladería se realizó una encuesta para comprobar si los clientes habían probado un nuevo sabor en promocion.
+Se observo que de 125 personas encuestadas, 20 no lo habian probado y el resto sí.
+
+<ol>
+    <li>Determine, con un nivel de confianza del 97%, un intervalo para estimar la proporción de clientes de esa heladería que no habían probado el nuevo helado.</li>
+    <li>
+        Mediante una nueva muestra se desea estimar la proporción de clientes de esa heladería que no habían probado el nuevo helado, con un error inferior al 5% y un nivel de confianza del 94%.
+        Suponiendo que se mantiene la proporción muestral del apartado anterior, ¿qué tamaño mínimo debe tener dicha muestra?
+    </li>
+</ol>

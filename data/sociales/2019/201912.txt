@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Calcule la derivada de las siguientes funciones:
+        $$f(x) = \frac{1}{2}\ln\left(\frac{1-x}{1+x}\right), \quad g(x) = (x^2+1)^2 e^{2x-1}.$$
+    </li>
+
+    <li>
+        Obtenga la ecuación de la recta tangente a la gráfica de la función $h(x) = x^2 - 6x + 8$ en el punto de abscisa $x = 4.$
+        Represente gráficamente la función $h$ y la recta tangente hallada.
+    </li>
+</ol>
