@@ -123,8 +123,7 @@ Pestañas
 
 .grupo {
     position: relative;
-    min-width: auto;
-    min-height: auto;
+    min-width: fit-content;
     padding: 8px 10px;
     background-color: transparent;
     border: none;
