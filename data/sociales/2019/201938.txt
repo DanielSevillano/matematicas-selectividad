@@ -1,0 +1,7 @@
+El tiempo de duración, en horas, de un modelo de bombilla LED, sigue una ley Normal de media desconocida y desviación típica 150 horas.
+Con una muestra de bombillas de ese modelo y a un nivel de confianza del 98,5% se ha obtenido que el intervalo de confianza para la media es $(18.475,7; 18.524,3).$
+
+<ol>
+    <li>Calcule el valor que se obtuvo para la media de la muestra y el tamaño de la muestra utilizado.</li>
+    <li>¿Cuál será el error máximo de estimación de la media si se hubiese utilizado una muestra de tamaño 100 y un nivel de confianza del 96,6%?</li>
+</ol>

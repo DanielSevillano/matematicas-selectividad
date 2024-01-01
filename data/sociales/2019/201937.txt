@@ -1,0 +1,9 @@
+Una determinada enfermedad puede estar provocada por una sola de las causas, A, B o C.
+En el 35% de los casos esta provocada por A, en el 40% por B y en el 25% por C.
+Se sabe que el tratamiento de esta enfermedad requiere hospitalización en el 15% de los casos si está provocada por A, en el 45% si está provocada por B y en un 20% si está provocada por C.
+Se elige al azar una persona afectada por esa enfermedad.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que necesite hospitalización?</li>
+    <li>Si no necesita hospitalización, ¿cuál es la probabilidad de que la causa de la enfermedad sea C?</li>
+</ol>

@@ -1,0 +1,7 @@
+Unos productores de cereales realizan un estudio para conocer la posible demanda de su producto.
+Concluyen que la función de demanda de dichos cereales tiene la forma $D(x) = -200x^3 + 2100x^2 - 7200x + 10000$, para $0 \leq x \leq 4$, donde $x$ es el precio en euros por kilogramo de producto y $D(x)$ es la cantidad de kilogramos de cereales que los consumidores están dispuestos a comprar a dicho precio $x.$
+
+<ol>
+    <li>¿Cuál es la cantidad de cereales demandada si el precio es de 0,50 euros por kilogramo?</li>
+    <li>Calcule para qué precio se alcanza una demanda mínima del producto y determine dicha demanda.</li>
+</ol>

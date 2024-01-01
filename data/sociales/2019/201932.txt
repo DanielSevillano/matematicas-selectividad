@@ -1,0 +1,6 @@
+Sea la función $f(x) = x^3 + ax^2 + bx + 1.$
+
+<ol>
+    <li>Halle $a$ y $b$ de forma que $f$ tenga un extremo relativo en $x = 1$ y la recta tangente a la gráfica de la función $f$ en el punto de abscisa $x = 0$ tenga pendiente $m = -1.$</li>
+    <li>Para $a = -1$ y $b = -1$, estudie la monotonía y la curvatura de la función $f.$</li>
+</ol>

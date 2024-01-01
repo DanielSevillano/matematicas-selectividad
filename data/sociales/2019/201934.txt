@@ -1,0 +1,6 @@
+Para estimar la proporción de empleados de una empresa que usan lentillas, se toma una muestra al azar de 60 empleados de la misma y se observa que 16 usan lentillas.
+
+<ol>
+    <li>Halle, con un nivel de confianza del 90%, un intervalo para estimar la proporción.</li>
+    <li>Con el mismo nivel de confianza del apartado anterior y manteniendo la misma proporción muestral, determine el tamaño mínimo de la muestra para que el error cometido en la estimación de la proporción sea inferior a 0,1.</li>
+</ol>

@@ -1401,5 +1401,56 @@
             "Estadística",
             "Estimación de la media"
         ]
+    },
+    {
+        "ejercicio": 201931,
+        "categorias": [
+            "Programación lineal",
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 201932,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201933,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201934,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 201935,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 201936,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201937,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201938,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
     }
 ]

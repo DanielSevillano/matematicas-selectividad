@@ -1,0 +1,23 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    0 & 1 & -1 \\
+    2 & -1 & 0
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    2 & 0 \\
+    -2 & 1 \\
+    0 & 1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 2 \\
+    2 & -3
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        ¿Tiene inversa la matriz $AB - C$?
+        Justifique la respuesta y, en caso afirmativo, calcule $(AB - C)^{-1}.$
+    </li>
+    
+    <li>Resuelva la ecuación matricial $ABX - CX = C^t.$</li>
+</ol>

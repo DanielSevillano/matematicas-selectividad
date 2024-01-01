@@ -1,0 +1,10 @@
+Una cooperativa envasa zumos de naranja, zumos de piña y zumos de melocotón en botellas de 1 litro y de 2 litros.
+Se sabe que el 60% de las botellas son de zumo de naranja y el 30% de piña.
+Además, el 80% de las botellas de zumo de naranja y el 70% de las de zumo de piña son de 2 litros, mientras que el 60% de las de melocotón son botellas de 1 litro.
+Se elige al azar una botella envasada por la cooperativa.
+
+<ol>
+    <li>Calcule la probabilidad de que la botella sea de 2 litros.</li>
+    <li>Calcule la probabilidad de que el zumo sea de naranja, sabiendo que la botella es de 2 litros.</li>
+    <li>Calcule la probabilidad de que el zumo sea de melocotón, sabiendo que la botella es de 1 litro.</li>
+</ol>
