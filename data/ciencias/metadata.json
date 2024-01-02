@@ -421,6 +421,7 @@
     },
     {
         "ejercicio": 202207,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Lugares geométricos"

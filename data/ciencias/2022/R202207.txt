@@ -1,0 +1,59 @@
+<ol>
+    <li>
+        Dos vectores son ortogonales si su producto escalar es cero.
+        Por un lado, si $\vec{u}$ y $\vec{w}$ son ortogonales,
+        $$\vec{u} \cdot \vec{w} = 0 \Leftrightarrow -1 + 2a + 3b = 0.$$
+        Por otro lado, si $\vec{v}$ y $\vec{w}$ son ortogonales,
+        $$\vec{v} \cdot \vec{w} = 0 \Leftrightarrow 2 - b = 0 \Leftrightarrow b = 2.$$
+
+        Luego
+        $$-1 + 2a + 3b = 0 \xrightarrow{b = 2} -1 + 2a + 6 = 0 \Leftrightarrow a = -\frac{5}{2}.$$
+
+        Así que $a = -\frac{5}{2}$ y $b = 2.$
+    </li>
+
+    <li>
+        Consideramos el paralelogramo
+        <img src="img/R202207.png" alt="Figura" loading="lazy">
+
+        <ul>
+            <li>
+                Hallamos el punto $B$ como intersección de la recta $r_1$ que pasa por $O$ con dirección $\vec{v}$ y la recta $r_2$ que pasa por $A$ con dirección $\vec{u}$, de ecuaciones
+                $$r_1 \equiv \begin{cases}
+                    x = 2\lambda, \\
+                    y = 0, \\
+                    z = -\lambda
+                \end{cases} \quad \text{y} \quad
+                r_2 \equiv \begin{cases}
+                    x = -4 - \mu, \\
+                    y = 4 + 2\mu, \\
+                    z = 7 + 3\mu.
+                \end{cases}$$
+
+                Calculamos el punto de intersección.
+                $$0 = 4 + 2\mu \Leftrightarrow \mu = -2.$$
+                Por tanto, $B(-2, 0, 1).$
+            </li>
+
+            <li>
+                De igual forma, hallamos el punto $C$ como intersección de la recta $s_1$ que pasa por $A$ con dirección $\vec{v}$ y la recta $s_2$ que pasa por $O$ con dirección $\vec{u}$, de ecuaciones
+                $$s_1 \equiv \begin{cases}
+                    x = -4 + 2\lambda, \\
+                    y = 4, \\
+                    z = 7 - \lambda
+                \end{cases} \quad \text{y} \quad
+                s_2 \equiv \begin{cases}
+                    x = -\mu, \\
+                    y = 2\mu, \\
+                    z = 3\mu.
+                \end{cases}$$
+
+                Calculamos el punto de intersección.
+                $$4 = 2\mu \Leftrightarrow \mu = 2.$$
+                Por tanto, $C(-2, 4, 6).$
+            </li>
+        </ul>
+
+        Así que los vértices son $O(0, 0, 0)$, $A(-4, 4, 7)$, $B(-2, 0, 1)$ y $C(-2, 4, 6).$
+    </li>
+</ol>
