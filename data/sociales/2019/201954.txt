@@ -1,0 +1,7 @@
+Las puntuaciones obtenidas por los participantes en un concurso se distribuyen siguiendo una ley Normal de varianza 36 y media desconocida.
+Se toma una muestra aleatoria de 64 concursantes, cuya puntuación media es 35 puntos.
+
+<ol>
+    <li>Obtenga un intervalo, con un 92% de confianza, para la puntuación media de los participantes en dicho concurso.</li>
+    <li>Calcule el tamaño mínimo de la muestra que se ha de tomar para estimar la puntuación media del total de concursantes, con un error inferior a 2 puntos y un nivel de confianza del 98%.</li>
+</ol>

@@ -1456,7 +1456,8 @@
     {
         "ejercicio": 201941,
         "categorias": [
-            "Programación lineal"
+            "Programación lineal",
+            "Problemas de optimización"
         ]
     },
     {
@@ -1499,6 +1500,58 @@
     },
     {
         "ejercicio": 201948,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 201951,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 201952,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201953,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201954,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201955,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201956,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201957,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201958,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"

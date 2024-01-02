@@ -1,0 +1,14 @@
+Una empresa comercializa dos tipos de concentrado de café, A y B, que se obtienen a partir de tres tipos de grano: de Colombia, de Etiopía y de Costa Rica.
+Para elaborar 1 kg de concentrado A se necesitan 4,5 kg de grano de Colombia y 3 kg de grano de Etiopía.
+Por otra parte, se requieren 7,5 kg de grano de Colombia y 1,5 kg de grano de Costa Rica para elaborar 1 kg de concentrado B.
+Actualmente la empresa dispone de un máximo de 67,5 kg de grano de Colombia, 30 kg de grano de Etiopía y 9 kg de grano de Costa Rica.
+Además, se exige que el número de kilogramos de concentrado A producidos debe ser mayor o igual que la mitad de los kilogramos de concentrado B.
+
+<ol>
+    <li>Represente la región factible que describe el problema anterior y determine sus vértices.</li>
+    <li>Indique de manera razonada si con las condiciones dadas sería posible producir 7 kg del concentrado A y 5 kg del concentrado B.</li>
+    <li>
+        Sabiendo que el beneficio obtenido por la venta de cada kilogramo de concentrado del tipo A es 2 euros y de cada kilogramo del tipo B es 4 euros, ¿cuántos kilogramos del tipo A y cuántos del tipo B se habrán de producir para que el beneficio sea máximo?
+        ¿Cuál es ese beneficio?
+    </li>
+</ol>

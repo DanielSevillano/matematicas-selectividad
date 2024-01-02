@@ -1,0 +1,7 @@
+De una cierta función $f$, sabemos que su función derivada es $f'(x) = 3x^2 - 3.$
+
+<ol>
+    <li>Estudie los intervalos de crecimiento y decrecimiento de $f$, y calcule la abscisa de sus extremos relativos.</li>
+    <li>Determine la curvatura de $f$ y halle la abscisa de su punto de inflexión.</li>
+    <li>Calcule la función $f$, sabiendo que su gráfica pasa por el punto $(-1, 3).$</li>
+</ol>

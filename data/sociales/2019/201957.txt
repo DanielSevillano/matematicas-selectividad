@@ -1,0 +1,11 @@
+De dos sucesos $A$ y $B$ de un mismo espacio muestral se sabe que:
+$$P(A \cap B) = 0,2, \quad P(A \cup B) = 0,4 \quad \text{y} \quad P(A|B) = 0,8.$$
+
+<ol>
+    <li>Calcule $P(B)$ y $P(A).$</li>
+    <li>
+        ¿Son los sucesos $A$ y $B$ independientes?
+        Razone la respuesta.
+    </li>
+    <li>Calcule $P(A^c \cup B^c).$</li>
+</ol>

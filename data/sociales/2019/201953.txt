@@ -1,0 +1,10 @@
+Una marca de patinetes eléctricos fabrica tres modelos distintos A, B y C.
+El modelo A supone el 25% de su producción, el B el 40% y el resto de la producción corresponde al modelo C.
+Transcurridos tres meses desde su venta, se comprobó que el 15% de patinetes del modelo A, el 10% del B y el 12% del C había presentado alguna avería.
+Se elige al azar un patinete de esta marca.
+
+<ol>
+    <li>Calcule la probabilidad de que dicho patinete haya presentado alguna avería.</li>
+    <li>Si sabemos que el patinete elegido es del modelo A, ¿cuál es la probabilidad de que no haya presentado avería?</li>
+    <li>Calcule la probabilidad de que haya presentado avería o sea del modelo C.</li>
+</ol>

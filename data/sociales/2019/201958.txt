@@ -1,0 +1,7 @@
+Se quiere estimar la proporción de enfermos hospitalizados por causas relacionadas con el consumo de tabaco.
+Para ello se escoge aleatoriamente una muestra de 50 expedientes sanitarios de enfermos hospitalizados, resultando que el 22% de ellos revelan que la enfermedad fue causada por el tabaco.
+
+<ol>
+    <li>Para un nivel de confianza del 92%, calcule un intervalo de confianza para la proporción de enfermos hospitalizados por causas relacionadas con el consumo de tabaco.</li>
+    <li>Determine cuántos expedientes hay que elegir como mínimo para que, con el mismo nivel de confianza y la misma proporción muestral anteriores, el error que se cometa al estimar la proporción de los enfermos hospitalizados por causas debidas al tabaco sea inferior al 3%.</li>
+</ol>
