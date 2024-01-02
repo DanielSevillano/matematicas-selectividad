@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+    <meta name="description" content="Genera exámenes aleatorios a partir de los exámenes de años anteriores.">
+    <title>Generador de exámenes</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/core.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/generador-examenes.js"></script>
+    <script src="js/config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        form {
+            width: 100%;
+            max-width: 100ch;
+            padding-inline: 20px;
+            padding-bottom: 12px;
+            box-sizing: border-box;
+        }
+
+        form>label {
+            display: block;
+            margin-top: 1em;
+        }
+
+        .opciones {
+            display: grid;
+            grid-template-columns: max-content 1fr;
+            row-gap: 5px;
+            column-gap: 10px;
+            margin-top: 0.75em;
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h1>
+                <img src="img/favicon.png" alt="Icono" width="25" height="25">
+                Matemáticas de Selectividad
+            </h1>
+        </a>
+
+        <a class="github" href="https://github.com/DanielSevillano/matematicas-selectividad" title="GitHub"
+            target="_blank">
+            <img src="img/icono-github.svg" alt="GitHub" width="25" height="25">
+        </a>
+    </header>
+
+    <form>
+        <h2>🪄 Generador de exámenes</h2>
+
+        <label for="modalidad">Selecciona una modalidad:</label>
+        <div class="opciones">
+            <input id="ciencias" type="radio" name="modalidad" required>
+            <label for="ciencias">Ciencias</label>
+
+            <input id="sociales" type="radio" name="modalidad" required>
+            <label for="sociales">Sociales</label>
+        </div>
+
+        <button type="submit">Generar</button>
+    </form>
+
+    <main></main>
+</body>
+
+</html>
