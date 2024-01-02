@@ -1,0 +1,10 @@
+La producción en kilogramos por árbol de aguacates de una comarca sigue una distribución Normal de desviación típica 4 y media desconocida.
+
+<ol>
+    <li>Obtenga el tamaño muestral mínimo necesario para estimar la media poblacional con un error de estimación inferior a 2,1 kg y una confianza del 97%.</li>
+    <li>
+        Se toma una muestra aleatoria de 9 árboles, cuyas producciones en kilogramos han sido:
+        $$15 \quad 120 \quad 50 \quad 40 \quad 5 \quad 46 \quad 52 \quad 48 \quad 10.$$
+        Obtenga el intervalo de confianza al 97% para estimar la producción media de aguacates por árbol y calcule el error máximo de estimación.
+    </li>
+</ol>

@@ -1,0 +1,9 @@
+Para tratar cierta enfermedad, en un hospital se utilizan tres fármacos distintos, A, B y C, administrándose a cada enfermo un solo fármaco.
+El 30% de los pacientes es tratado con el fármaco A, el 50% es tratado con el B y el resto con el fármaco C.
+La probabilidad de que la enfermedad se cure con el farmaco A es de 0,6, de que se cure con el farmaco B es de 0,8 y de que se cure con el farmaco C es de 0,7.
+Se elige al azar un paciente de ese hospital con esa enfermedad.
+
+<ol>
+    <li>Calcule la probabilidad de que el paciente se cure.</li>
+    <li>Sabiendo que el paciente se ha curado, ¿cuál es la probabilidad de que haya sido tratado con el fármaco A?</li>
+</ol>

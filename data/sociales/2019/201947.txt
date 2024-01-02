@@ -1,0 +1,10 @@
+Sean $A$ y $B$ dos sucesos asociados a un experimento aleatorio tales que $P(B) = 0,4$, $P(A|B) = 0,25$ y $P(A-B) = 0,4.$
+
+<ol>
+    <li>Calcule $P(A \cap B).$</li>
+    <li>Calcule $P(A)$ y $P(A \cup B).$</li>
+    <li>
+        ¿Son $A$ y $B$ independientes?
+        ¿Son incompatibles?
+    </li>
+</ol>

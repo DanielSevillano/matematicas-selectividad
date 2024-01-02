@@ -1,0 +1,6 @@
+En una muestra de 320 personas jubiladas elegidas al azar en un distrito de una ciudad, resultó que 96 de ellas realizaban alguna actividad física.
+
+<ol>
+    <li>Construya un intervalo de confianza al 95% para la proporción de personas jubiladas que realizan alguna actividad física en ese distrito.</li>
+    <li>Suponiendo que se mantiene la misma proporción muestral, halle el tamaño mínimo de la muestra para que el error cometido sea inferior a 0,1 con un nivel de confianza del 98%.</li>
+</ol>

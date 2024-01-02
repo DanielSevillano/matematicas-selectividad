@@ -1,0 +1,8 @@
+Se considera la función
+$$f(x) = x - \frac{3x-1}{x+1}.$$
+
+<ol>
+    <li>Indique el dominio de $f$ y calcule $f'(x).$</li>
+    <li>Calcule la pendiente de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = \frac{2}{3}.$</li>
+    <li>Halle los puntos de la gráfica de $f$ en los que la recta tangente a dicha gráfica es horizontal.</li>
+</ol>

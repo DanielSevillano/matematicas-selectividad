@@ -1,0 +1,11 @@
+Se considera la función $f(x) = \frac{1}{3}x^3 - 2x^2 + 3x + 1.$
+
+<ol>
+    <li>Estudie su monotonía y halle sus extremos relativos.</li>
+    <li>
+        Determine los intervalos de concavidad y convexidad.
+        Calcule su punto de inflexión.
+    </li>
+    <li>Calcule la pendiente de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0.$</li>
+    <li>Calcule $\int f(x)dx.$</li>
+</ol>
