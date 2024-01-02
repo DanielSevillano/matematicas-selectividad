@@ -1,0 +1,31 @@
+<p>
+    Como $f''$ es la derivada de $f'$, entonces
+    $$f'(x) = \int f''(x)dx = \int (2\ln(x) + 1)dx = 2\int \ln(x)dx + \int 1dx = 2(x\ln(x) - x) + x + C = 2x\ln(x) - x + C.$$
+
+    Además,
+    $$f'(e) = e \Leftrightarrow 2e\ln(e) - e + C = e \Leftrightarrow C = 0.$$
+
+    Por tanto,
+    $$f'(x) = 2x\ln(x) - x.$$
+</p>
+
+<p>    
+    De igual forma, $f'$ es la derivada de $f$, así que
+    $$f(x) = \int f'(x)dx = \int (2x\ln(x) - x)dx = \int 2x\ln(x)dx - \int x dx = \int 2x\ln(x)dx - \frac{x^2}{2}.$$
+
+    Resolvemos la integral por partes.
+    \begin{align}
+        u = \ln(x) & \Rightarrow u' = \frac{1}{x}, \\
+        v' = 2x & \Rightarrow v = x^2.
+    \end{align}
+
+    Entonces:
+    $$f(x) = \int 2x\ln(x)dx - \frac{x^2}{2} = x^2\ln(x) - \int xdx - \frac{x^2}{2} = x^2\ln(x) - x^2 + K.$$
+
+    Si la gráfica de $f$ pasa por el punto $(1, 0)$, ha de verificar que $f(1) = 0.$
+    Por tanto,
+    $$f(1) = 0 \Leftrightarrow 1\ln(1) - 1 + K = 0 \Leftrightarrow K = 1.$$
+
+    Así que la función es
+    $$f(x) =  x^2\ln(x) - x^2 + 1.$$
+</p>

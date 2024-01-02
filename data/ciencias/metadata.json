@@ -208,6 +208,7 @@
     },
     {
         "ejercicio": 202333,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
