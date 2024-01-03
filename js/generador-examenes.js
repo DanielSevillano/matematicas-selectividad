@@ -1,10 +1,10 @@
-import { estado, formatear, obtenerEjercicio } from "./math.js";
+import { formatear, obtenerEjercicio } from "./math.js";
 
 async function obtenerExamen(modalidad, ejercicios) {
     const main = document.querySelector("main");
 
     const titulo = document.createElement("h2");
-    titulo.innerText = "📋 Examen generado";
+    titulo.innerText = "📋 Examen de " + modalidad;
 
     const boton = document.createElement("button");
     boton.textContent = "🖨️ Imprimir";
@@ -16,11 +16,6 @@ async function obtenerExamen(modalidad, ejercicios) {
     main.append(titulo);
 
     for (let ejercicio of ejercicios) {
-        if (estado.cancelado) {
-            estado.reanudar();
-            return false;
-        }
-
         let resuelto = false
         let categorias = []
         if (ejercicio != undefined) {
@@ -39,17 +34,23 @@ async function obtenerExamen(modalidad, ejercicios) {
 
 async function mostrarExamen(modalidad, ejercicios) {
     const main = document.querySelector("main");
-    main.textContent = "";
-    main.classList.add("cargando");
+    const boton = document.querySelector("#generar");
 
     obtenerExamen(modalidad, ejercicios).then(() => {
         main.classList.remove("cargando");
-        estado.reanudar();
+        boton.disabled = false;
     });
 }
 
 async function procesar(event) {
     event.preventDefault();
+
+    const main = document.querySelector("main");
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    const boton = document.querySelector("#generar");
+    boton.disabled = true;
 
     let modalidad = "ciencias"
     if (document.querySelector("#sociales").checked) modalidad = "sociales";
