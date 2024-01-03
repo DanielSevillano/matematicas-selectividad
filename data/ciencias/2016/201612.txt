@@ -1,4 +1,6 @@
-Considera la función $f$ dada por $f(x) = \sqrt{x} + \frac{\ln(x)}{x}$ para $x > 0.$
+Considera la función $f$ dada por
+$$f(x) = \sqrt{x} + \frac{\ln(x)}{x}$$
+para $x > 0.$
 
 <ol>
     <li>Halla todas las primitivas de $f.$</li>
