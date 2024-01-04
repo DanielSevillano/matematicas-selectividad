@@ -59,17 +59,23 @@ async function procesar(event) {
     const datos = await respuesta.json();
 
     if (modalidad === "ciencias") {
-        const ejerciciosFunciones = datos.filter(ejercicio => ejercicio.categorias.includes("Análisis") && !ejercicio.categorias.includes("Integrales"));
-        const ejerciciosIntegrales = datos.filter(ejercicio => ejercicio.categorias.includes("Integrales"));
+        const ejerciciosAnalisis = datos.filter(ejercicio => ejercicio.categorias.includes("Análisis"));
+        const ejerciciosFunciones1 = ejerciciosAnalisis.filter(ejercicio => ejercicio.categorias.includes("Análisis") && !ejercicio.categorias.includes("Integrales"));
+        const ejerciciosFunciones2 = ejerciciosFunciones1.filter(ejercicio => !ejercicio.categorias.includes("Optimización"));
+        const ejerciciosIntegrales = ejerciciosAnalisis.filter(ejercicio => ejercicio.categorias.includes("Integrales"));
+
         const ejerciciosAlgebra = datos.filter(ejercicio => ejercicio.categorias.includes("Álgebra"));
+        const ejerciciosMatrices = ejerciciosAlgebra.filter(ejercicio => ejercicio.categorias.includes("Matrices"));
+        const ejerciciosSistemas = ejerciciosAlgebra.filter(ejercicio => ejercicio.categorias.includes("Sistemas"));
+
         const ejerciciosGeometria = datos.filter(ejercicio => ejercicio.categorias.includes("Geometría"));
 
-        const ejercicio1 = ejerciciosFunciones[Math.floor(Math.random() * ejerciciosFunciones.length)];
-        const ejercicio2 = ejerciciosFunciones[Math.floor(Math.random() * ejerciciosFunciones.length)];
+        const ejercicio1 = ejerciciosFunciones1[Math.floor(Math.random() * ejerciciosFunciones1.length)];
+        const ejercicio2 = ejerciciosFunciones2[Math.floor(Math.random() * ejerciciosFunciones2.length)];
         const ejercicio3 = ejerciciosIntegrales[Math.floor(Math.random() * ejerciciosIntegrales.length)];
         const ejercicio4 = ejerciciosIntegrales[Math.floor(Math.random() * ejerciciosIntegrales.length)];
-        const ejercicio5 = ejerciciosAlgebra[Math.floor(Math.random() * ejerciciosAlgebra.length)];
-        const ejercicio6 = ejerciciosAlgebra[Math.floor(Math.random() * ejerciciosAlgebra.length)];
+        const ejercicio5 = ejerciciosMatrices[Math.floor(Math.random() * ejerciciosMatrices.length)];
+        const ejercicio6 = ejerciciosSistemas[Math.floor(Math.random() * ejerciciosSistemas.length)];
         const ejercicio7 = ejerciciosGeometria[Math.floor(Math.random() * ejerciciosGeometria.length)];
         const ejercicio8 = ejerciciosGeometria[Math.floor(Math.random() * ejerciciosGeometria.length)];
 
