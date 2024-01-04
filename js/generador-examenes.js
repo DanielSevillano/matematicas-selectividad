@@ -15,13 +15,17 @@ async function obtenerExamen(modalidad, ejercicios) {
 
     main.append(titulo);
 
-    for (let ejercicio of ejercicios) {
+    for (let numero = 1; numero <= 8; numero++) {
+        const ejercicio = ejercicios[numero - 1];
+
         let resuelto = false
         let categorias = []
         if (ejercicio != undefined) {
             if (ejercicio.resuelto) resuelto = true;
             categorias = ejercicio.categorias;
         }
+
+        boton.style.setProperty("--progreso", numero / 8 * 100);
 
         const seccion = await obtenerEjercicio(modalidad, parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
         main.append(seccion);
