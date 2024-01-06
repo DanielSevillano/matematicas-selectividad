@@ -1,4 +1,6 @@
-Considera la función definida por $f(x) = -x + \frac{4}{x^2}$ para $x \neq 0.$
+Considera la función definida por
+$$f(x) = -x + \frac{4}{x^2}$$
+para $x \neq 0.$
 
 <ol>
     <li>Estudia y determina las asíntotas de la gráfica de $f.$</li>
