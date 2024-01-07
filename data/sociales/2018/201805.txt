@@ -1,0 +1,14 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    -1 & 0 \\
+    1 & 2
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    2 & 1 \\
+    0 & -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>¿Se verifica la igualdad $(A + B)^2 = A^2 + B^2 + 2AB$?</li>
+    <li>Resuelva la ecuación matricial $XA = 2B^t + I_2.$</li>
+</ol>

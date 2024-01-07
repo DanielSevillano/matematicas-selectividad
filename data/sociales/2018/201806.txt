@@ -1,0 +1,10 @@
+Sea la función
+$$f(x) = \begin{cases}
+    x^3 + ax^2, & \text{si } x < 1, \\
+    bx + \dfrac{2}{x}, & \text{si } x \geq 1.
+\end{cases}$$
+
+<ol>
+    <li>Calcule los valores de $a$ y $b$ para que la función sea continua y derivable en $x = 1.$</li>
+    <li>Para $b = 3$, determine la ecuación de la recta tangente a la gráfica de esa función en el punto de abscisa $x = 2.$</li>
+</ol>

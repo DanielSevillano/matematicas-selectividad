@@ -1,0 +1,11 @@
+Un campus universitario dispone de 3.000 plazas numeradas de aparcamiento para vehículos, distribuidas en tres zonas A, B y C.
+La zona A está constituida por las plazas del 1 al 1.500, estando 1.350 de ellas protegidas del sol.
+La zona B la conforman las plazas numeradas desde 1.501 a 2.500, estando el 80% protegidas del sol.
+La zona C contiene las plazas numeradas desde 2.501 hasta 3.000, estando solamente 250 protegidas del sol.
+Aleatoriamente se elige una de las plazas de aparcamiento del campus.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que esté en la zona A o en la B?</li>
+    <li>¿Cuál es la probabilidad de que no esté protegida del sol?</li>
+    <li>Si se ha elegido una plaza protegida del sol, ¿cuál es la probabilidad de que esté ubicada en la zona B?</li>
+</ol>

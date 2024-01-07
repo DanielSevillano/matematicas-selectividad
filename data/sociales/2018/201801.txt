@@ -1,0 +1,15 @@
+<ol>
+    <li>
+        Plantee, sin resolver, las restricciones de este problema e indique la función a optimizar.
+        Un ganadero alimenta a sus ovejas con maíz y pienso.
+        Cada kilogramo de maíz aporta 600 g de hidratos de carbono y 200 g de proteínas, mientras que cada kilogramo de pienso aporta 300 g de hidratos de carbono y 600 g de proteínas.
+        Cada oveja necesita diariamente como mínimo 1.800 g de hidratos de carbono y 2.400 g de proteínas.
+        Si 1 kg de maíz cuesta 0,50 euros y 1 kg de pienso cuesta 0,25 euros, calcule cuántos kilogramos de cada producto tendría que comprar el ganadero para alimentar cada día a una oveja con un gasto mínimo.
+    </li>
+
+    <li>
+        Represente el recinto limitado por las siguientes restricciones, calculando sus vértices:
+        $$x \geq 0, \quad x \leq 2y + 2, \quad x + y \leq 5.$$
+        Calcule el máximo de $F(x, y) = 4x + 3y$ en ese recinto, así como el punto donde se alcanza.
+    </li>
+</ol>

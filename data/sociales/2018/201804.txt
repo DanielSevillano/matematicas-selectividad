@@ -1,0 +1,6 @@
+Se dispone de cuatro tornillos de 1, 2, 3 y 4 gramos de peso respectivamente.
+
+<ol>
+    <li>Mediante muestreo aleatorio simple, exprese todas las muestras posibles de tamaño 2.</li>
+    <li>Determine la media y la varianza de los pesos medios muestrales.</li>
+</ol>

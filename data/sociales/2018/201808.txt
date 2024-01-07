@@ -1,0 +1,6 @@
+En un estudio sobre la utilización de nuevas tecnologías entre los estudiantes de Bachillerato, se ha realizado una encuesta a 500 estudiantes elegidos mediante muestreo aleatorio simple, resultando que 380 de ellos son usuarios de una determinada red social.
+
+<ol>
+    <li>Calcule un intervalo de confianza al 97% para la proporción de estudiantes que son usuarios de esa red social.</li>
+    <li>Suponiendo que se mantiene la proporción muestral, determine el número mínimo de estudiantes a los que sería preciso entrevistar para que, con un nivel de confianza del 96%, el error cometido al estimar la proporción de usuarios de la citada red social no supere el 2%.</li>
+</ol>

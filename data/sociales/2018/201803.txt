@@ -1,0 +1,9 @@
+En una determinada población residen 5.000 personas en el centro y 10.000 en la periferia.
+Se sabe que el 95% de los residentes en el centro y que el 20% de los que viven en la periferia opina que el Ayuntamiento debería restringir el acceso de vehículos privados al centro urbano.
+Se elige al azar un residente de la población.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que esté a favor de restringir el acceso de vehículos privados al centro de la ciudad?</li>
+    <li>¿Cuál es la probabilidad de que resida en el centro y esté a favor de la restricción de acceso?</li>
+    <li>Si la persona elegida opina que se debería restringir el acceso, ¿cuál es la probabilidad de que resida en el centro de la ciudad?</li>
+</ol>

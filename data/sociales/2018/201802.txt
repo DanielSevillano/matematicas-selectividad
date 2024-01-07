@@ -1,0 +1,17 @@
+La función de costes de una empresa se puede determinar mediante la expresión
+$$f(x) = 40 - 6x + x^2,$$
+para $x \geq 0$, donde $x$ representa la cantidad producida de un determinado artículo.
+
+<ol>
+    <li>
+        ¿Disminuye el coste alguna vez?
+        Determine la cantidad producida de dicho artículo cuando el coste es mínimo y cuál es dicho coste.
+    </li>
+
+    <li>
+        ¿Cuál sería el coste si no se produjese nada de ese artículo?
+        Si el coste fuese 80, ¿cuántas serían las unidades producidas?
+    </li>
+
+    <li>Represente gráficamente la función.</li>
+</ol>
