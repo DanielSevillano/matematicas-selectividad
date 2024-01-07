@@ -110,6 +110,7 @@
     },
     {
         "ejercicio": 202316,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices",
