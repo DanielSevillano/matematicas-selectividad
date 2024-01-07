@@ -65,13 +65,15 @@ async function obtenerDatos() {
     tarjetaEjerciciosResueltosCiencias.classList.add("tarjeta");
     tarjetaEjerciciosResueltosCiencias.textContent = numeroEjerciciosResueltosCiencias + " ejercicios resueltos";
 
-    const porcentajeEjerciciosResueltos = numeroEjerciciosResueltosCiencias / numeroEjerciciosCiencias * 100;
-
     const tarjetaPorcentajeResueltosCiencias = document.createElement("div");
     tarjetaPorcentajeResueltosCiencias.classList.add("tarjeta");
-    tarjetaPorcentajeResueltosCiencias.textContent = porcentajeEjerciciosResueltos.toFixed(2) + "% resuelto";
+    tarjetaPorcentajeResueltosCiencias.textContent = (numeroEjerciciosResueltosCiencias / numeroEjerciciosCiencias * 100).toFixed(2).replace(".", ",") + "% resuelto";
 
-    seccionCiencias.append(tarjetaExamenesCiencias, tarjetaEjerciciosCiencias, tarjetaEjerciciosResueltosCiencias, tarjetaPorcentajeResueltosCiencias);
+    const tarjetaPorcentajeResueltosCiencias2019 = document.createElement("div");
+    tarjetaPorcentajeResueltosCiencias2019.classList.add("tarjeta");
+    tarjetaPorcentajeResueltosCiencias2019.textContent = (numeroEjerciciosResueltosCiencias / 240 * 100).toFixed(2).replace(".", ",") + "% desde 2019";
+
+    seccionCiencias.append(tarjetaExamenesCiencias, tarjetaEjerciciosCiencias, tarjetaEjerciciosResueltosCiencias, tarjetaPorcentajeResueltosCiencias, tarjetaPorcentajeResueltosCiencias2019);
     seccionCiencias.classList.remove("cargando");
 
     const respuestaSociales = await fetch("data\\sociales\\metadata.json");
@@ -87,7 +89,11 @@ async function obtenerDatos() {
     tarjetaExamenesSociales.classList.add("tarjeta");
     tarjetaExamenesSociales.textContent = (numeroEjerciciosSociales / 8) + " examenes";
 
-    seccionSociales.append(tarjetaExamenesSociales, tarjetaEjerciciosSociales);
+    const tarjetaProgresoAnualSociales = document.createElement("div");
+    tarjetaProgresoAnualSociales.classList.add("tarjeta");
+    tarjetaProgresoAnualSociales.textContent = (numeroEjerciciosSociales / 366 * 100).toFixed(2).replace(".", ",") + "% de 366"
+
+    seccionSociales.append(tarjetaExamenesSociales, tarjetaEjerciciosSociales, tarjetaProgresoAnualSociales);
     seccionSociales.classList.remove("cargando");
 }
 
