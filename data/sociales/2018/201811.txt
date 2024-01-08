@@ -1,0 +1,8 @@
+Se considera la región definida por las siguientes ineacuaciones:
+$$2x - y \geq 2, \quad -x + 2y \leq 2, \quad 3x + y \leq 15, \quad y \geq 0.$$
+
+<ol>
+    <li>Represéntela gráficamente y determine sus vértices.</li>
+    <li>Indique razonadamente si el punto $(3, 3)$ pertenece a dicha región.</li>
+    <li>¿En qué puntos de la región anterior la función $F(x, y) = 3x - 2y$ alcanza los valores máximo y mínimo y cuáles son estos?</li>
+</ol>

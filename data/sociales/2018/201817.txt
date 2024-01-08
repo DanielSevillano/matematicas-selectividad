@@ -1,0 +1,7 @@
+Una caja contiene 3 bolas negras, 2 blancas y 1 roja.
+Se realiza el siguiente experimento aleatorio: "Extraer de esa caja dos bolas al azar, una a continuación de otra sin reposición y anotar el color de las bolas en el orden en que han sido extraídas".
+
+<ol>
+    <li>Describa el espacio muestral asociado a este experimento aleatorio.</li>
+    <li>Indique la probabilidad de cada uno de los sucesos elementales del espacio muestral.</li>
+</ol>

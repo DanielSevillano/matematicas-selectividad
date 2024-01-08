@@ -1,0 +1,13 @@
+Dada la función
+$$f(x) = \begin{cases}
+    \dfrac{2x+1}{1-2x}, & \text{si } x < 0, \\
+    x^2 - x - a, & \text{si } x \geq 0.
+\end{cases}$$
+
+<ol>
+    <li>
+        Obtenga el valor de $a$ para que la función sea continua en $x = 0.$
+        Para ese valor de $a$, ¿sería derivable en $x = 0$?
+    </li>
+    <li>Para $a = 2$, estudie su monotonía y extremos relativos.</li>
+</ol>

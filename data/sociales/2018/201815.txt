@@ -1,0 +1,20 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    6 & 0 \\
+    2 & 4
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    -4 \\
+    6
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    -2 & -2
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Justifique cuáles de las siguientes operaciones se pueden realizar y efectúelas cuando sea posible:
+        $$B + 2CA, \quad A - (BC)^t.$$
+    </li>
+    <li>Resuelva la siguiente ecuación matricial: $\frac{1}{5}(B + AX) = C^t.$</li>
+</ol>

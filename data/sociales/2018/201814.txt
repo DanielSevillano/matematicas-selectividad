@@ -1,0 +1,8 @@
+A la salida de unos grandes almacenes se ha tomado una muestra aleatoria simple de 100 clientes, a los que se les ha preguntado por el gasto que han realizado, obteniéndose una media muestral de 110 euros.
+Se sabe que el gasto sigue una distribución Normal con desviación típica 20 euros.
+
+<ol>
+    <li>¿Qué distribución de probabilidad sigue la media muestral?</li>
+    <li>Obtenga un intervalo de confianza al 90%, para el gasto medio de todos los clientes que han comprado ese día.</li>
+    <li>Si deseamos que el error máximo cometido, con el mismo nivel de confianza, sea 2 euros, ¿cuál ha de ser el tamaño mínimo de la muestra?</li>
+</ol>

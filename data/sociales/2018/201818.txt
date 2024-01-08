@@ -1,0 +1,10 @@
+Se quiere estimar la proporción de estudiantes que asiste de forma regular al cine.
+Para ello, se toma una muestra aleatoria simple de tamaño 300 y se obtiene que de ellos, 210 acuden con regularidad al cine.
+
+<ol>
+    <li>
+        Calcule un intervalo de confianza al 92% para estimar la proporción de estudiantes que va al cine regularmente.
+        ¿Qué error máximo se cometería si se diera como estimación de dicha proporción 0,7?
+    </li>
+    <li>Con el mismo nivel de confianza, siendo la proporción muestral la misma, si queremos que el error sea menor que 0,02, ¿cuántos alumnos como mínimo hay que elegir en la muestra?</li>
+</ol>

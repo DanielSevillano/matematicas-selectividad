@@ -1,0 +1,8 @@
+El 80% del alumnado de una determinada universidad accede a los estudios que marca como primera opción.
+De ellos, el 75% termina el Grado, mientras que solo el 40% de los que acceden a estudios que no han marcado como primera opción termina el Grado.
+Se elige un alumno al azar de esa universidad.
+
+<ol>
+    <li>Calcule la probabilidad de que no haya terminado el Grado.</li>
+    <li>Calcule la probabilidad de que no accediera a los estudios marcados como primera opción, sabiendo que no ha terminado el Grado.</li>
+</ol>

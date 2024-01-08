@@ -1,0 +1,14 @@
+La velocidad que lleva un móvil, en función del tiempo $t$, viene dada por la siguiente función:
+$$v(t) = \begin{cases}
+    7t^2, & \text{si } 0 \leq t < 1, \\
+    2t + a, & \text{si } 1 \leq t \leq 5, \\
+    -t^2 + 12t + b, & \text{si } 5 < t \leq 10.
+\end{cases}$$
+
+<ol>
+    <li>Determine $a$ y $b$ para que la función sea continua en los instantes $t = 1$ y $t = 5.$</li>
+    <li>
+        Para $a = 5$ y $b = -20$, estudie la derivabilidad en los instantes $t = 1$ y $t = 5.$
+        ¿En qué momento el móvil alcanza la velocidad máxima?
+    </li>
+</ol>
