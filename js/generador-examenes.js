@@ -1,6 +1,6 @@
 import { formatear, obtenerEjercicio } from "./math.js";
 
-async function obtenerExamen(modalidad, ejercicios) {
+async function obtenerExamenGenerado(modalidad, ejercicios) {
     const main = document.querySelector("main");
 
     const titulo = document.createElement("h2");
@@ -36,11 +36,11 @@ async function obtenerExamen(modalidad, ejercicios) {
     boton.classList.remove("cargando");
 }
 
-async function mostrarExamen(modalidad, ejercicios) {
+async function mostrarExamenGenerado(modalidad, ejercicios) {
     const main = document.querySelector("main");
     const boton = document.querySelector("#generar");
 
-    obtenerExamen(modalidad, ejercicios).then(() => {
+    obtenerExamenGenerado(modalidad, ejercicios).then(() => {
         main.classList.remove("cargando");
         boton.disabled = false;
     });
@@ -83,7 +83,7 @@ async function procesar(event) {
         const ejercicio7 = ejerciciosGeometria[Math.floor(Math.random() * ejerciciosGeometria.length)];
         const ejercicio8 = ejerciciosGeometria[Math.floor(Math.random() * ejerciciosGeometria.length)];
 
-        mostrarExamen(modalidad, [ejercicio1, ejercicio2, ejercicio3, ejercicio4, ejercicio5, ejercicio6, ejercicio7, ejercicio8]);
+        mostrarExamenGenerado(modalidad, [ejercicio1, ejercicio2, ejercicio3, ejercicio4, ejercicio5, ejercicio6, ejercicio7, ejercicio8]);
     }
     else {
         const ejerciciosProgramacionLineal = datos.filter(ejercicio => ejercicio.categorias.includes("Programación lineal"));
@@ -101,7 +101,7 @@ async function procesar(event) {
         const ejercicio7 = ejerciciosEstadistica[Math.floor(Math.random() * ejerciciosEstadistica.length)];
         const ejercicio8 = ejerciciosEstadistica[Math.floor(Math.random() * ejerciciosEstadistica.length)];
 
-        mostrarExamen(modalidad, [ejercicio1, ejercicio2, ejercicio3, ejercicio4, ejercicio5, ejercicio6, ejercicio7, ejercicio8]);
+        mostrarExamenGenerado(modalidad, [ejercicio1, ejercicio2, ejercicio3, ejercicio4, ejercicio5, ejercicio6, ejercicio7, ejercicio8]);
     }
 }
 
