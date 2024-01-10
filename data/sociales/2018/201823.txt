@@ -1,0 +1,8 @@
+En un centro de enseñanza secundaria el 48% de los estudiantes son chicos.
+El 85% de los chicos del centro y el 82% de las chicas supera todas las asignaturas.
+Se elige al azar un estudiante del centro.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que supere todas las asignaturas?</li>
+    <li>Si ha superado todas las asignaturas, ¿cuál es la probabilidad de que sea una chica?</li>
+</ol>

@@ -1,0 +1,8 @@
+Se considera la función
+$$f(x) = \frac{ax}{bx+1},$$
+con $a$ y $b$ números reales.
+
+<ol>
+    <li>Calcule los valores de $a$ y $b$, sabiendo que $f(-1) = 1$ y que en el punto de abscisa $x = 0$ la recta tangente a la gráfica de $f$ es paralela a la recta $y = 2x + 1.$</li>
+    <li>Para $a = b = 1$, halle la ecuación de sus asíntotas.</li>
+</ol>

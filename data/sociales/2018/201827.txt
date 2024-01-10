@@ -1,0 +1,18 @@
+Sean $A$, $B$, $C$, $D$, $E$ y $F$ sucesos de un experimento aleatorio.
+
+<ol>
+    <li>
+        Se sabe que $P(A) = 0,5$, $P(A \cup B) = 0,7$ y $P(A \cap B) = 0,4.$
+        Halle la probabilidad de que ocurra $B.$
+    </li>
+
+    <li>
+        Se sabe que $P(C) = 0,4$, $P(D) = 0,3$ y $P(C \cup D) = 0,5.$
+        Halle la probabilidad de que ocurra $C$ sabiendo que no ocurre $D.$
+    </li>
+
+    <li>
+        Se sabe que los sucesos $E$ y $F$ son independientes, que $P(E) = 0,6$ y que $P(F) = 0,8.$
+        Calcule la probabilidad de que no ocurra ninguno de los dos sucesos.
+    </li>
+</ol>

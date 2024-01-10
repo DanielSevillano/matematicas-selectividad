@@ -1,0 +1,7 @@
+Se desea estimar el porcentaje de jóvenes que utilizan una determinada red social.
+Para ello se escoge una muestra aleatoria simple de 500 jóvenes y de ellos 410 afirman utilizarla.
+
+<ol>
+    <li>Calcule el intervalo de confianza para la proporción de jóvenes que usa esa red social con un nivel de confianza del 95%.</li>
+    <li>Manteniendo la proporción muestral, determine el tamaño mínimo de la muestra necesario para que, con un nivel de confianza del 97%, el error máximo que se cometa al estimar la proporción de esa población sea inferior a 0,04.</li>
+</ol>

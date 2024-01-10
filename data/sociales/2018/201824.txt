@@ -1,0 +1,7 @@
+El peso de las ciruelas de una determinada variedad sigue una distribución Normal con media desconocida y desviación típica 3 gramos.
+Se eligen al azar 25 ciruelas de esa variedad y se pesan, resultando un peso medio de 60 gramos.
+
+<ol>
+    <li>Calcule un intervalo al 95% de confianza para estimar el peso medio de las ciruelas de esa variedad.</li>
+    <li>Calcule el tamaño mínimo de la muestra que se ha de tomar, para que al estimar el peso medio de esa variedad de ciruelas con un nivel de confianza del 99%, el error cometido sea inferior a 1 gramo.</li>
+</ol>

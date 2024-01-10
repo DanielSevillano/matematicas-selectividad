@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Calcule la derivada de las funciones
+        $$f(x) = x\ln(x), \quad g(x) = \frac{e^{3x}}{x^4+1}.$$
+    </li>
+
+    <li>
+        Obtenga la ecuación de la recta tangente a la gráfica de la función $h(x) = x^2 + 6x + 5$, en el punto de abscisa $x = -2.$
+        Represente gráficamente la función $h$ y la recta tangente hallada.
+    </li>
+</ol>

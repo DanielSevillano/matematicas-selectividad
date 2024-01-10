@@ -1,0 +1,5 @@
+La capacidad máxima de trabajo de un taller que se dedica a la confección de pañuelos y corbatas es de 60 horas semanales.
+Cada pañuelo que confecciona le supone 2 horas de trabajo y le reporta un beneficio de 4 euros.
+En el caso de las corbatas son 3 horas y 6 euros respectivamente por unidad.
+Contrae el compromiso de que el número de corbatas confeccionadas más el doble del número de pañuelos debe ser, como mínimo, 28.
+Con estas condiciones, ¿cuántas unidades de cada tipo de prenda debe confeccionar para obtener un beneficio económico máximo?
