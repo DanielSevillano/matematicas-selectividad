@@ -21,9 +21,9 @@
     $$f'(x) = \frac{(4x^3-6x)(x+2)^3 - 3(x+2)^2(x^4-3x^2+2)}{(x+2)^6}.$$
 
     La pendiente $m_t$ de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0$ viene dada por
-    $$m_t = f'(0) = \frac{-24}{64} = -\frac{6}{16}.$$
+    $$m_t = f'(0) = \frac{-24}{64} = -\frac{3}{8}.$$
     Como la recta normal es perpendicular a la recta tangente, su pendiente $m_n$ ha de verificar
-    $$m_t \cdot m_n = -1 \Leftrightarrow m_n = -\frac{1}{m_t} \xrightarrow{m_t = -6/16} m_n = \frac{16}{6}.$$
+    $$m_t \cdot m_n = -1 \Leftrightarrow m_n = -\frac{1}{m_t} \xrightarrow{m_t = -3/8} m_n = \frac{8}{3}.$$
     Por tanto, la recta normal a la gráfica de $f$ en $x = 0$ se puede hallar usando la ecuación punto-pendiente como
-    $$y - f(0) = m_n(x-0) \Leftrightarrow y - \frac{1}{4} = \frac{16}{6}x \Leftrightarrow y = \frac{16}{6}x + \frac{1}{4}.$$</li>
+    $$y - f(0) = m_n(x-0) \Leftrightarrow y - \frac{1}{4} = \frac{8}{3}x \Leftrightarrow y = \frac{8}{3}x + \frac{1}{4}.$$</li>
 </ol>
