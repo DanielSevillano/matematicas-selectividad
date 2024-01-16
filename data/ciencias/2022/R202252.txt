@@ -16,7 +16,7 @@
 
 <p>
     En primer lugar, calculamos la derivada de la función $f.$
-    $$f'(x) = -6x^2 + 24..$$
+    $$f'(x) = -6x^2 + 24.$$
 
     Hallamos los puntos críticos de $f$ igualando la derivada a cero.
     $$f'(x) = 0 \Leftrightarrow -6x^2 + 24 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$

@@ -1,7 +1,7 @@
 <ol>
     <li>
         En primer lugar, observamos que $f$ es continua si $x \neq 0$ para cualquier valor de $\lambda$ y $\mu.$
-        Pasamos a estudiar su continuidad en $x = 0$.
+        Pasamos a estudiar su continuidad en $x = 0.$
 
         \begin{align}
             & \lim_{x \to 0} f(x) = \lim_{x \to 0} \frac{e^{\lambda x} - e^x - x}{x^2} = \frac{0}{0} \rightarrow \lim_{x \to 0} \frac{e^{\lambda x} - e^x - x}{x^2} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{\lambda e^{\lambda x} - e^x - 1}{2x} = \frac{\lambda - 2}{0}, \\
