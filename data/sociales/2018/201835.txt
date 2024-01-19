@@ -1,0 +1,28 @@
+<ol>
+    <li>
+        Resuelva el sistema de ecuaciones matriciales:
+        $$\begin{cases}
+            2A - 5B = \begin{pmatrix}
+                7 & 2 \\
+                7 & 8
+            \end{pmatrix}, \\
+            3A - B = \begin{pmatrix}
+                4 & 3 \\
+                4 & -1
+            \end{pmatrix}.
+        \end{cases}$$
+    </li>
+
+    <li>
+        Dadas las matrices
+        $$C = \begin{pmatrix}
+            3 & -2 \\
+            1 & 1
+        \end{pmatrix} \quad \text{y} \quad
+        D = \begin{pmatrix}
+            0 & 1 \\
+            -1 & 2
+        \end{pmatrix},$$
+        resuelva la ecuación matricial $XC - D^2 = I_2.$
+    </li>
+</ol>

@@ -1,0 +1,5 @@
+Una joyería elabora dos tipos de collares a partir de perlas blancas, grises y negras.
+Para un collar de tipo A hacen falta 20 perlas blancas, 20 grises y 30 negras, mientras que para un collar del tipo B, 10 perlas blancas, 20 grises y 60 negras.
+Se dispone de un máximo de 900 perlas blancas y 1.400 grises, mientras que es necesario que se utilicen al menos 1.800 perlas negras.
+Sabiendo que cada collar del tipo A le supone a la joyería un beneficio de 600 euros y cada collar del tipo B, 500 euros, calcule cuál debe ser la producción para obtener el máximo beneficio, así como a cuánto asciende el mismo.
+¿Es posible fabricar 40 collares del tipo A y 20 del tipo B?

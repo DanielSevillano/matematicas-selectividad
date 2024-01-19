@@ -1,0 +1,9 @@
+En un polideportivo municipal hay inscritos 520 usuarios de los que 220 son niños, 208 son adultos menores de 60 años y el resto adultos mayores de 60 años.
+De los inscritos, $\frac{1}{5}$ de los niños, el 75% de los adultos menores de 60 años y 23 adultos mayores de 60 años utilizan las duchas normalmente.
+Se elige un usuario al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que se duche en las instalaciones del polideportivo.</li>
+    <li>Calcule la probabilidad de que sea adulto menor de 60 años y utilice las duchas.</li>
+    <li>Sabiendo que utiliza las duchas, halle la probabilidad de que sea un niño.</li>
+</ol>

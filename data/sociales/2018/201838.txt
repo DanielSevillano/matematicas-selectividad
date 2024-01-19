@@ -1,0 +1,7 @@
+La Delegación de Tráfico de una ciudad desea estudiar la influencia del uso del teléfono móvil en los accidentes de tráfico.
+Elegida una muestra aleatoria simple de 250 accidentes registrados el año pasado, se observó que 90 de ellos se produjeron por distracciones debidas al uso del móvil.
+
+<ol>
+    <li>Determine un intervalo de confianza al 97% para estimar la proporción de accidentes de tráfico debidos al uso del móvil mientras se conduce.</li>
+    <li>Usando la estimación anterior, calcule el tamaño mínimo que debe tener una muestra para estimar la proporción de accidentes con un error máximo del 5% y un nivel de confianza del 99%.</li>
+</ol>

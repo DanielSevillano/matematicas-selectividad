@@ -1,0 +1,10 @@
+El gasto que tienen los jóvenes durante un fin de semana es una variable aleatoria que sigue una distribución Normal de media $\propto$ desconocida y desviación típica igual a 6 euros.
+
+<ol>
+    <li>
+        Se toma una muestra aleatoria simple y se obtiene que el intervalo de confianza al 95% para la media $\propto$ es $(24,47; 26,43).$
+        Calcule el valor de la media muestral y el tamaño de la muestra elegida.
+    </li>
+    
+    <li>Escogida otra muestra de tamaño 49 para estimar $\propto$, calcule el error máximo cometido para esa estimación con un nivel de confianza del 97%.</li>
+</ol>

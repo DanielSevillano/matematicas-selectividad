@@ -1708,5 +1708,56 @@
             "Estadística",
             "Estimación de la proporción"
         ]
+    },
+    {
+        "ejercicio": 201831,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201832,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201833,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201834,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201835,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 201836,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201837,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201838,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
     }
 ]

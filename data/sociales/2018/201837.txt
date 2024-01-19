@@ -1,0 +1,10 @@
+Una almazara recibe cajas de aceitunas de dos productoras, A y B, que cultivan dos variedades, picual y arbequina.
+El 40% proviene de la productora A, de las cuales el 60% es de la variedad picual.
+De las que provienen de la productora B, el 30% es de la variedad arbequina.
+Se elige una caja de aceitunas al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sea de la variedad picual?</li>
+    <li>Si se sabe que es de la variedad picual, ¿cuál es la probabilidad de que provenga de la productora A?</li>
+    <li>Calcule la probabilidad de que sea de la productora A o de la variedad picual.</li>
+</ol>

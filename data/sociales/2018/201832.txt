@@ -1,0 +1,11 @@
+Los costes de producción de una empresa, en miles de euros, dependen de la cantidad de producto fabricada $x$, medida en toneladas, según la función $f(x) = 30 - 9x + 6x^2 - x^3.$
+La capacidad máxima de producción es de 2 toneladas.
+
+<ol>
+    <li>Obtenga los intervalos de crecimiento y decrecimiento de la función de costes de la empresa.</li>
+    <li>
+        Determine la cantidad que la empresa debe producir para minimizar los costes.
+        ¿Cuál sería dicho coste mínimo?
+    </li>
+    <li>¿Con qué producción la empresa tiene unos costes de producción máximos?</li>
+</ol>

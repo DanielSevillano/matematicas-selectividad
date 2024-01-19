@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    ax + 1, & \text{si } x \leq -1, \\
+    \dfrac{x}{x+2}, & \text{si } -1 < x \leq 0, \\
+    x^2 - bx, & \text{si } x > 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcule $a$ y $b$ para que la función sea continua y derivable en $x = -1$ y $x = 0.$</li>
+    <li>Para $a = 2$ y $b = -\frac{1}{2}$ estudie su monotonía.</li>
+</ol>
