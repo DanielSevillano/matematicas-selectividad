@@ -46,6 +46,13 @@ async function mostrarExamenGenerado(modalidad, ejercicios) {
     });
 }
 
+function ejercicioAleatorio(ejercicios, excepcion = null) {
+    let aleatorio = ejercicios[Math.floor(Math.random() * ejercicios.length)];
+    while (aleatorio === excepcion) aleatorio = ejercicios[Math.floor(Math.random() * ejercicios.length)];
+
+    return aleatorio;
+}
+
 async function procesar(event) {
     event.preventDefault();
 
@@ -72,16 +79,17 @@ async function procesar(event) {
         const ejerciciosMatrices = ejerciciosAlgebra.filter(ejercicio => ejercicio.categorias.includes("Matrices"));
         const ejerciciosSistemas = ejerciciosAlgebra.filter(ejercicio => ejercicio.categorias.includes("Sistemas"));
 
-        const ejerciciosGeometria = datos.filter(ejercicio => ejercicio.categorias.includes("Geometría"));
+        const ejerciciosGeometria1 = datos.filter(ejercicio => ejercicio.categorias.includes("Geometría"));
+        const ejerciciosGeometria2 = ejerciciosGeometria1.filter(ejercicio => !ejercicio.categorias.includes("Vectores"));
 
-        const ejercicio1 = ejerciciosFunciones1[Math.floor(Math.random() * ejerciciosFunciones1.length)];
-        const ejercicio2 = ejerciciosFunciones2[Math.floor(Math.random() * ejerciciosFunciones2.length)];
-        const ejercicio3 = ejerciciosIntegrales[Math.floor(Math.random() * ejerciciosIntegrales.length)];
-        const ejercicio4 = ejerciciosIntegrales[Math.floor(Math.random() * ejerciciosIntegrales.length)];
-        const ejercicio5 = ejerciciosMatrices[Math.floor(Math.random() * ejerciciosMatrices.length)];
-        const ejercicio6 = ejerciciosSistemas[Math.floor(Math.random() * ejerciciosSistemas.length)];
-        const ejercicio7 = ejerciciosGeometria[Math.floor(Math.random() * ejerciciosGeometria.length)];
-        const ejercicio8 = ejerciciosGeometria[Math.floor(Math.random() * ejerciciosGeometria.length)];
+        const ejercicio1 = ejercicioAleatorio(ejerciciosFunciones1);
+        const ejercicio2 = ejercicioAleatorio(ejerciciosFunciones2, ejercicio1);
+        const ejercicio3 = ejercicioAleatorio(ejerciciosIntegrales);
+        const ejercicio4 = ejercicioAleatorio(ejerciciosIntegrales, ejercicio3);
+        const ejercicio5 = ejercicioAleatorio(ejerciciosMatrices);
+        const ejercicio6 = ejercicioAleatorio(ejerciciosSistemas);
+        const ejercicio7 = ejercicioAleatorio(ejerciciosGeometria1);
+        const ejercicio8 = ejercicioAleatorio(ejerciciosGeometria2, ejercicio7);
 
         mostrarExamenGenerado(modalidad, [ejercicio1, ejercicio2, ejercicio3, ejercicio4, ejercicio5, ejercicio6, ejercicio7, ejercicio8]);
     }
@@ -92,14 +100,14 @@ async function procesar(event) {
         const ejerciciosProbabilidad = datos.filter(ejercicio => ejercicio.categorias.includes("Probabilidad"));
         const ejerciciosEstadistica = datos.filter(ejercicio => ejercicio.categorias.includes("Estadística"));
 
-        const ejercicio1 = ejerciciosProgramacionLineal[Math.floor(Math.random() * ejerciciosProgramacionLineal.length)];
-        const ejercicio2 = ejerciciosAlgebra[Math.floor(Math.random() * ejerciciosAlgebra.length)];
-        const ejercicio3 = ejerciciosAnalisis[Math.floor(Math.random() * ejerciciosAnalisis.length)];
-        const ejercicio4 = ejerciciosAnalisis[Math.floor(Math.random() * ejerciciosAnalisis.length)];
-        const ejercicio5 = ejerciciosProbabilidad[Math.floor(Math.random() * ejerciciosProbabilidad.length)];
-        const ejercicio6 = ejerciciosProbabilidad[Math.floor(Math.random() * ejerciciosProbabilidad.length)];
-        const ejercicio7 = ejerciciosEstadistica[Math.floor(Math.random() * ejerciciosEstadistica.length)];
-        const ejercicio8 = ejerciciosEstadistica[Math.floor(Math.random() * ejerciciosEstadistica.length)];
+        const ejercicio1 = ejercicioAleatorio(ejerciciosProgramacionLineal);
+        const ejercicio2 = ejercicioAleatorio(ejerciciosAlgebra);
+        const ejercicio3 = ejercicioAleatorio(ejerciciosAnalisis);
+        const ejercicio4 = ejercicioAleatorio(ejerciciosAnalisis, ejercicio3);
+        const ejercicio5 = ejercicioAleatorio(ejerciciosProbabilidad);
+        const ejercicio6 = ejercicioAleatorio(ejerciciosProbabilidad, ejercicio5);
+        const ejercicio7 = ejercicioAleatorio(ejerciciosEstadistica);
+        const ejercicio8 = ejercicioAleatorio(ejerciciosEstadistica, ejercicio7);
 
         mostrarExamenGenerado(modalidad, [ejercicio1, ejercicio2, ejercicio3, ejercicio4, ejercicio5, ejercicio6, ejercicio7, ejercicio8]);
     }
