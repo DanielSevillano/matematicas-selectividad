@@ -68,6 +68,7 @@
         "ejercicio": 202313,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales"
         ]
     },
@@ -491,6 +492,7 @@
         "ejercicio": 202234,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales"
         ]
     },
@@ -752,7 +754,8 @@
     {
         "ejercicio": 202124,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -856,7 +859,8 @@
     {
         "ejercicio": 202144,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -1057,7 +1061,8 @@
     {
         "ejercicio": 202023,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -1109,7 +1114,8 @@
     {
         "ejercicio": 202033,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -1160,13 +1166,15 @@
     {
         "ejercicio": 202043,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
         "ejercicio": 202044,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales"
         ]
     },
@@ -1259,6 +1267,7 @@
         "ejercicio": 201902,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales"
         ]
     },
@@ -1309,7 +1318,8 @@
     {
         "ejercicio": 201912,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -1592,7 +1602,8 @@
     {
         "ejercicio": 201806,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -1668,7 +1679,8 @@
     {
         "ejercicio": 201822,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -1795,7 +1807,8 @@
     {
         "ejercicio": 201846,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
