@@ -1,0 +1,8 @@
+En una concentración de 250 deportistas hay 120 que juegan al fútbol, 60 que juegan al tenis y 70 que juegan al baloncesto.
+El 75% de los que juegan al fútbol, el 65% de los que juegan al tenis y el 60% de los que juegan al baloncesto son además aficionados al ciclismo.
+Se selecciona al azar uno de los deportistas.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sea aficionado al ciclismo?</li>
+    <li>Si es aficionado al ciclismo, ¿cuál es la probabilidad de que juegue al tenis?</li>
+</ol>

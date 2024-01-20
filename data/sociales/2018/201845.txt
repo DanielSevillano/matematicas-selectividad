@@ -1,0 +1,5 @@
+Una fábrica de palas de pádel produce dos modelos A y B con los que obtiene un beneficio por cada pala de 30 y 20 euros respectivamente.
+Para la elaboración de una pala del modelo A se necesitan 90 g de fibra de carbono y 100 g de goma EVA, mientras que para una pala del modelo B son necesarios 100 g de fibra de carbono y 50 g de goma EVA.
+La fábrica dispone diariamente de 7,5 kg de fibra de carbono y 6,5 kg de goma EVA y quiere producir como máximo 60 unidades diarias del modelo A.
+Calcule cuántas palas de cada modelo tiene que fabricar para que el beneficio sea máximo y determine su importe.
+¿Sería posible una producción diaria de 49 palas del modelo A y 32 palas del modelo B?

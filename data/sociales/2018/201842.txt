@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    \dfrac{x-5}{x-4}, & \text{si } x < 3, \\
+    -x^2 + 7x - 10, & \text{si } x \geq 3.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y la derivabilidad de la función $f.$</li>
+    <li>Calcule los puntos de corte de la gráfica de $f$ con los ejes de coordenadas.</li>
+    <li>Calcule las asíntotas de $f$, en caso de que existan.</li>
+</ol>

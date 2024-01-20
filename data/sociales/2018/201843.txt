@@ -1,0 +1,8 @@
+Se ha realizado un referéndum en el que se ha convocado a la ciudadanía a expresar con "SÍ" o con "NO" su opinión sobre cierta cuestión.
+En una determinada mesa electoral hay tres urnas que contienen las siguientes papeletas: la urna A tiene 200 papeletas con "SÍ" y 300 con "NO", la urna B, 500 "SÍ" y 400 "NO" y la urna C contiene 200 "SÍ" y 100 "NO".
+Se elige una urna al azar y de ella se extrae aleatoriamente una papeleta.
+
+<ol>
+    <li>Calcule la probabilidad de que sea un "SÍ".</li>
+    <li>Si la papeleta extraída es "NO", calcule la probabilidad de que haya sido extraída de la urna A.</li>
+</ol>

@@ -1,0 +1,7 @@
+Una cadena de supermercados desea estimar la proporción de clientes que adquiere un determinado producto.
+Para ello ha tomado una muestra aleatoria simple de 1.000 clientes y ha observado que 300 compraban ese producto.
+
+<ol>
+    <li>Halle, con un nivel de confianza del 95%, un intervalo de confianza para estimar la proporción de clientes del supermercado que compra ese producto.</li>
+    <li>Si en otra muestra la proporción de clientes que compra ese producto es de 0,25 y el error cometido en la estimación ha sido inferior a 0,03, con un nivel de confianza del 92,5%, calcule el tamaño mínimo de la muestra.</li>
+</ol>
