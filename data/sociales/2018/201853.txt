@@ -1,0 +1,7 @@
+En una localidad, el 25% de los habitantes asiste periódicamente a la consulta del dentista, el 10% se hace una analítica y el 8% hace ambas cosas.
+
+<ol>
+    <li>Razone si los sucesos "Asistir a la consulta del dentista" y "Hacerse una analítica" son independientes.</li>
+    <li>¿Qué porcentaje de habitantes ni se hace una analítica ni va al dentista?</li>
+    <li>Si elegimos un habitante al azar de esa localidad de entre los que no van al dentista, ¿cuál es la probabilidad de que se haga una analítica?</li>
+</ol>

@@ -1,0 +1,7 @@
+El consumo de cereales en una ciudad, en miles de toneladas, viene dado por la función $c(t) = t^3 - 15t^2 + 63t + 10$, para $0 \leq t \leq 12$, donde $t$ representa el tiempo.
+
+<ol>
+    <li>¿En qué instante se alcanza el máximo consumo de cereales y cuántas toneladas se consumen en ese momento?</li>
+    <li>¿En qué intervalo de tiempo decrece el consumo de cereales?</li>
+    <li>Represente gráficamente la función.</li>
+</ol>

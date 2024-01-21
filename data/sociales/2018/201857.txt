@@ -1,0 +1,9 @@
+Un hotel dispone de tres lavadoras industriales $L_1$, $L_2$ y $L_3$ para el servicio de lavandería.
+El 50% e los lavados los realiza $L_1$, el 30% los hace $L_2$ y el resto $L_3.$
+La lavadora $L_1$ produce un 5% de lavados defectuosos, $L_2$ produce un 15% y $L_3$ un 20%.
+Se elige al azar un lavado del hotel.
+
+<ol>
+    <li>Calcule la probabilidad de que no sea defectuoso.</li>
+    <li>Calcule la probabilidad de que el lavado haya sido realizado por $L_1$, sabiendo que ha sido defectuoso.</li>
+</ol>

@@ -1,0 +1,12 @@
+El beneficio, en miles de euros, que ha obtenido una almazara a lo largo de 50 años viene dado por la expresión
+$$B(t) = \begin{cases}
+    -0,04t^2 + 2,4t, & \text{si } 0 \leq t < 40, \\
+    \dfrac{40t - 320}{t}, & \text{si } 40 \leq t \leq 50,
+\end{cases}$$
+donde $t$ es el tiempo transcurrido.
+
+<ol>
+    <li>Estudie la continuidad y la derivabilidad de la función $B(t)$ en el intervalo $[0, 50].$</li>
+    <li>Estudie la monotonía de la función $B(t)$ y determine en qué momento fueron mayores los beneficios de la almazara, así como el beneficio máximo.</li>
+    <li>Represente la gráfica de la función y explique la evolución del beneficio.</li>
+</ol>

@@ -1,0 +1,13 @@
+En una zona escolar formada por tres centros de secundaria, se desea estimar la proporción del alumnado que lleva teléfono móvil al instituto.
+Se toma una muestra aleatoria simple de 121 estudiantes, de los cuales 74 lo llevan.
+
+<ol>
+    <li>
+        Determine un intervalo de confianza al 97% para la proporción de este alumnado que lleva el móvil al instituto.
+        ¿Entre qué dos porcentajes varía esa proporción a ese nivel de confianza?
+    </li>
+
+    <li>Si con la misma muestra se disminuye el nivel de confianza, ¿qué efecto tendrá esta disminución en el error de estimación?</li>
+    
+    <li>Si en la misma zona se elige mediante muestreo aleatorio estratificado con afijación proporcional otra muestra de 121 estudiantes, considerando que el segundo centro escolar tiene el doble de alumnos que el primero y el tercero tiene el triple que el primero, ¿cuántos alumnos de cada centro se deben tomar para constituir la muestra?</li>
+</ol>

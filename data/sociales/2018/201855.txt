@@ -1,0 +1,14 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & 0 \\
+    1 & -1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & 0 & -1 \\
+    2 & 1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule $A^{2018} + A^{2019}.$</li>
+    <li>Resuelva la ecuación matricial $XA + BB^t = 2A.$</li>
+</ol>

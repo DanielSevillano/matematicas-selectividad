@@ -1,0 +1,8 @@
+La edad de los empleados de una empresa sigue una ley Normal de varianza 64 y media desconocida.
+Se toma una muestra aleatoria simple de 16 empleados de dicha empresa, obteniéndose las siguientes edades
+$$30 \quad 42 \quad 38 \quad 45 \quad 52 \quad 60 \quad 21 \quad 26 \quad 33 \quad 44 \quad 28 \quad 49 \quad 37 \quad 41 \quad 38 \quad 40.$$
+
+<ol>
+    <li>Obtenga un intervalo de confianza para estimar la edad media de los empleados, con un nivel de confianza del 97%.</li>
+    <li>Calcule el tamaño mínimo de la muestra que se ha de tomar para estimar la edad media de los empleados, con un error inferior a 2 años y un nivel de confianza del 99%.</li>
+</ol>
