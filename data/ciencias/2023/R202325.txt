@@ -1,0 +1,63 @@
+<ol>
+    <li>
+        Calculamos las primeras potencias de $A.$
+        $$A^2 = \begin{pmatrix}
+            0 & 0 & ab \\
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{pmatrix} \quad \text{y} \quad
+        A^3 = \begin{pmatrix}
+            0 & 0 & 0 \\
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{pmatrix}.$$
+
+        Como $A^3$ es una matriz nula, entonces el resto de potencias serán también matrices nulas.
+        Por tanto,
+        $$A^{10} = \begin{pmatrix}
+            0 & 0 & 0 \\
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{pmatrix}.$$
+    </li>
+    
+    <li>
+        En primer lugar, hallamos la matriz.
+        $$I + A + A^2 =
+        \begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix} +
+        \begin{pmatrix}
+            0 & a & -b \\
+            0 & 0 & b \\
+            0 & 0 & 0
+        \end{pmatrix} +
+        \begin{pmatrix}
+            0 & 0 & ab \\
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & a & ab-b \\
+            0 & 1 & b \\
+            0 & 0 & 1
+        \end{pmatrix}.$$
+
+        Como $\det(I + A + A^2) = 1 \neq 0$, la matriz es invertible.
+        Para hallar su inversa, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(I + A + A^2) = \begin{pmatrix}
+            1 & 0 & 0 \\
+            -a & 1 & 0 \\
+            b & -b & 1
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular su inversa como
+        $$(I + A + A^2)^{-1} = \frac{1}{|I + A + A^2|}\mathrm{Adj}(I + A + A^2)^t = \begin{pmatrix}
+            1 & -a & b \\
+            0 & 1 & -b \\
+            0 & 0 & 1
+        \end{pmatrix}.$$
+    </li>
+</ol>

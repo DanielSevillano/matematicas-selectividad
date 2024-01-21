@@ -167,6 +167,7 @@
     },
     {
         "ejercicio": 202325,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices"
@@ -284,6 +285,7 @@
     },
     {
         "ejercicio": 202345,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices",
@@ -902,6 +904,7 @@
     },
     {
         "ejercicio": 202125,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Matrices"
@@ -909,6 +912,7 @@
     },
     {
         "ejercicio": 202126,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",

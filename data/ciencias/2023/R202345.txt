@@ -1,0 +1,56 @@
+<p>
+    Resolvemos la ecuación matricial.
+    $$3X - B^t = AX \Leftrightarrow 3X - AX = B^t \Leftrightarrow (3I - A)X = B^t \Leftrightarrow X = (3I-A)^{-1}B^t.$$
+</p>
+
+<p>
+    Operando,
+    $$3I - A = \begin{pmatrix}
+        3 & 0 & 0 \\
+        0 & 3 & 0 \\
+        0 & 0 & 3
+    \end{pmatrix} - \begin{pmatrix}
+        2 & -1 & -2 \\
+        -2 & 3 & 1 \\
+        6 & 1 & 3
+    \end{pmatrix} = \begin{pmatrix}
+        1 & 1 & 2 \\
+        2 & 0 & -1 \\
+        -6 & -1 & 0
+    \end{pmatrix}.$$
+
+    Como $\det(3I - A) = 1 \neq 0$, la matriz es invertible.
+</p>
+
+<p>
+    Para hallar su inversa, calculamos primero su matriz adjunta.
+    $$\mathrm{Adj}(3I - A) = \begin{pmatrix}
+        -1 & 6 & -2 \\
+        -2 & 12 & -5 \\
+        -1 & 5 & -2
+    \end{pmatrix}.$$
+
+    Ahora podemos calcular su inversa como
+    $$(3I - A)^{-1} = \frac{1}{|3I - A|}\mathrm{Adj}(3I - A)^t = \begin{pmatrix}
+        -1 & -2 & -1 \\
+        6 & 12 & 5 \\
+        -2 & -5 & -2
+    \end{pmatrix}.$$
+</p>
+
+<p>
+    Por último, calculamos la matriz $X$ operando.
+    $$X = (3I-A)^{-1}B^t = \begin{pmatrix}
+        -1 & -2 & -1 \\
+        6 & 12 & 5 \\
+        -2 & -5 & -2
+    \end{pmatrix} \begin{pmatrix}
+        -1 & -3 \\
+        0 & -1 \\
+        -1 & 5
+    \end{pmatrix} = \begin{pmatrix}
+        2 & 0 \\
+        -11 & -5 \\
+        4 & 1
+    \end{pmatrix}.$$
+</p>

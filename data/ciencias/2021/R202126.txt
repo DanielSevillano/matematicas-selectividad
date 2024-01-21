@@ -1,0 +1,57 @@
+<ol>
+    <li>
+        Llamamos $x$ al precio de un café, $y$ al de una tostada y $z$ al de un zumo de naranja.
+        
+        Por un lado, si tres cafés, una tostada y dos zumos cuestan 7,50€, entonces
+        $$3x + y + 2z = 7,50.$$
+
+        Por otro lado, si cuatro cafés, una tostada y un zumo cuestan 7,20€,
+        $$4x + y + z = 7,20.$$
+
+        Por tanto, podemos plantear el sistema de ecuaciones lineales
+        $$\begin{cases}
+            3x + y + 2z = 7,50, \\
+            4x + y + z = 7,20.
+        \end{cases}$$
+
+        Resolvemos el sistema mediante el método de Gauss.
+        $$\begin{pmatrix}
+            3 & 1 & 2 & 7,5 \\
+            4 & 1 & 1 & 7,2
+        \end{pmatrix} \xrightarrow{F_1 - F_2}
+        \begin{pmatrix}
+            -1 & 0 & 1 & 0,3 \\
+            4 & 1 & 1 & 7,2
+        \end{pmatrix}.$$
+
+        El sistema resultante es
+        \begin{cases}
+            -x + z = 0,3, \\
+            4x + y + z = 7,2.
+        \end{cases}
+
+        Si $x = \mu$, entonces
+        \begin{align}
+            & -x + z = 0,3 \xrightarrow{x = \mu} -\mu + z = 0,3 \Leftrightarrow z = \mu + 0,3, \\
+            & 4x + y + z = 7,2 \xrightarrow[z = \mu + 0,3]{x = \mu} 4\mu + y + \mu + 0,3 = 7,2 \xrightarrow y = 6,9 - 5\mu.
+        \end{align}
+
+        Así que el precio de dos cafés, una tostada y tres zumos se puede calcular como
+        $$2x + y + 3z = 2\mu + 6,9 - 5\mu + 3(\mu + 0,3) = 7,8.$$
+
+        Por tanto, el precio total es 7,80€.
+    </li>
+
+    <li>
+        Si el precio del zumo de naranja es de 2€, entonces
+        $$z = 2 \Leftrightarrow \mu + 0,3 = 2 \Leftrightarrow \mu = 1,7.$$
+
+        Así que
+        \begin{align}
+            & x = 1,7, \\
+            & y = 6,9 - 5 \cdot 1,7 = -1,6.
+        \end{align}
+
+        El precio de la tostada no puede ser negativo, así que no es posible que el precio del zumo de naranja sea de 2€.
+    </li>
+</ol>
