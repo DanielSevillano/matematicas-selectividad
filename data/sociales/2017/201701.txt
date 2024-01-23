@@ -1,0 +1,14 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & 2 \\
+    0 & -1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    3 & -1 \\
+    0 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule la matriz $A^{2017}.$</li>
+    <li>¿Se verifica la expresión $(B+A)(B-A) = B^2 - A^2$?</li>
+</ol>

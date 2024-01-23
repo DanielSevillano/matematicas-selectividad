@@ -1,0 +1,8 @@
+Se sabe que el 90% de los alumnos de un centro docente está interesado por las redes sociales, el 60% está interesado por sus notas y el 55% por ambas cuestiones.
+Se elige al azar un alumno de ese centro.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que dicho alumno esté interesado por alguna de las dos cuestiones?</li>
+    <li>Calcule la probabilidad de que esté interesado por sus notas, sabiendo que no está interesado por las redes sociales.</li>
+    <li>Calcule la probabilidad de que no esté interesado por ninguna de estas dos cuestiones.</li>
+</ol>

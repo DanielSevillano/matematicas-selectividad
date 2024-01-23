@@ -1873,5 +1873,57 @@
             "Estadística",
             "Estimación de la media"
         ]
+    },
+    {
+        "ejercicio": 201701,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 201702,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201703,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201704,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201705,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201706,
+        "categorias": [
+            "Análisis",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201707,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201708,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
     }
 ]

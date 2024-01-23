@@ -1,0 +1,6 @@
+Un distribuidor de software informático tiene en su cartera de clientes tanto a empresas como a particulares.
+Ha de conseguir al menos 25 empresas como clientes y el número de clientes particulares deberá ser como mínimo el doble que el de empresas.
+Por razones de eficiencia del servicio postventa, tiene estipulado un límite global de 120 clientes anuales.
+Cada empresa le produce 386€ de beneficio, mientras que cada particular le produce 229€.
+¿Qué combinación de empresas y particulares le proporcionará el máximo beneficio?
+¿A cuánto ascenderá ese beneficio?

@@ -1,0 +1,7 @@
+La puntuación obtenida por los participantes en una prueba es una variable aleatoria que sigue una distribución Normal con una desviación típica de 6 puntos.
+Se toma una muestra aleatoria de 64 participantes en esa prueba, resultando una puntuación media de 35 puntos.
+
+<ol>
+    <li>Calcule un intervalo de confianza, al 95 %, para la calificación media del total de participantes en la citada prueba.</li>
+    <li>Halle el tamaño mínimo de la muestra necesaria para estimar la puntuación media del total de participantes, con un error inferior a 0,5 puntos y un nivel de confianza del 99%.</li>
+</ol>

@@ -1,0 +1,8 @@
+En una ciudad hay dos fábricas de pasta, $F_1$ y $F_2$, que producen dos tipos de productos, A y B, que venden a un distribuidor en paquetes de 1 kg.
+En un mes, la fábrica $F_1$ produce 20.000 kg de pasta, de los que 12.000 son del tipo A, y la fábrica $F_2$ produce 25.000 kg de pasta de los que 15.000 kg son del tipo A.
+Se escoge al azar un paquete del distribuidor.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sea del tipo B?</li>
+    <li>Si el paquete elegido resulta ser del tipo A, ¿qué es más probable, que proceda de la fábrica $F_1$ o que proceda de la $F_2$?</li>
+</ol>

@@ -1,0 +1,7 @@
+<ol>
+    <li>
+        Calcule la derivada de las siguientes funciones:
+        $$f(x) = \frac{e^{5x}-x}{x^2-x}, \quad g(x) = (2x^2 - x)^3 \ln(x^3+2).$$
+    </li>
+    <li>Determine la ecuación de la recta tangente a la gráfica de la función $h(x) = \frac{1}{x}$ en el punto de abscisa $x = 1.$</li>
+</ol>

@@ -1,0 +1,12 @@
+Sea $f(t)$ el porcentaje de ocupación de un determinado complejo hotelero en función del tiempo $t$, medido en meses, transcurrido desde su inauguración:
+$$f(t) = \begin{cases}
+    -\frac{5}{2}t^2 + 20t, & \text{si } 0 \leq t \leq 6, \\
+    \dfrac{90t - 240}{t+4}, & \text{si } t > 6.
+\end{cases}$$
+
+<ol>
+    <li>¿Evoluciona la función $f$ de forma continua?</li>
+    <li>¿Cuál sería el porcentaje de ocupación al finalizar el segundo año?</li>
+    <li>¿En qué momentos el porcentaje de ocupación sería del 40%?</li>
+    <li>¿Llegaría en algún momento a estar completo en caso de que estuviese abierto indefinidamente?</li>
+</ol>

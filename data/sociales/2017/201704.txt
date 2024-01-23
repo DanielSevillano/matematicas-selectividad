@@ -1,0 +1,9 @@
+La altura de los estudiantes de 2° de Bachillerato de un centro sigue una ley Normal de media 165 cm y desviación típica 10 cm.
+
+<ol>
+    <li>¿Qué distribución sigue la altura media de las muestras de tamaño 25?</li>
+    <li>
+        Se elige al azar una muestra de 25 estudiantes y se les mide la altura.
+        ¿Cuál es la probabilidad de que la altura media de esa muestra supere 160 cm?
+    </li>
+</ol>
