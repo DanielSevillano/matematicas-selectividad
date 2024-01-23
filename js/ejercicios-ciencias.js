@@ -65,7 +65,7 @@ botonAleatorio.addEventListener("click", () => {
     const categoria = boton.id.replace("boton-", "");
     boton.click();
     if (["analisis", "funciones", "optimizacion", "integrales", "limites", "recta-tangente", "teorema-fundamental-del-calculo"].includes(categoria)) document.querySelector("#grupo-analisis").click();
-    else if (["algebra", "matrices", "sistemas", "determinantes", "ecuaciones-matriciales", "problemas"].includes(categoria)) document.querySelector("#grupo-algebra").click();
+    else if (["algebra", "matrices", "sistemas", "determinantes", "rango", "ecuaciones-matriciales", "problemas"].includes(categoria)) document.querySelector("#grupo-algebra").click();
     else document.querySelector("#grupo-geometria").click();
 });
 
@@ -80,7 +80,7 @@ else {
     try {
         document.querySelector("#boton-" + categoria).click();
         if (["analisis", "funciones", "optimizacion", "integrales", "limites", "recta-tangente", "teorema-fundamental-del-calculo"].includes(categoria)) document.querySelector("#grupo-analisis").click();
-        else if (["algebra", "matrices", "sistemas", "determinantes", "ecuaciones-matriciales", "problemas"].includes(categoria)) document.querySelector("#grupo-algebra").click();
+        else if (["algebra", "matrices", "sistemas", "determinantes", "rango", "ecuaciones-matriciales", "problemas"].includes(categoria)) document.querySelector("#grupo-algebra").click();
         else document.querySelector("#grupo-geometria").click();
     }
     catch {

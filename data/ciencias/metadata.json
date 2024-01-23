@@ -607,6 +607,7 @@
         "categorias": [
             "Álgebra",
             "Matrices",
+            "Rango",
             "Ecuaciones matriciales"
         ]
     },
@@ -1032,7 +1033,8 @@
         "ejercicio": 202146,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Rango"
         ]
     },
     {
@@ -1129,7 +1131,8 @@
         "ejercicio": 202003,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Rango"
         ]
     },
     {
@@ -2084,7 +2087,8 @@
         "ejercicio": 201847,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Rango"
         ]
     },
     {
@@ -2482,7 +2486,8 @@
         "categorias": [
             "Álgebra",
             "Matrices",
-            "Determinantes"
+            "Determinantes",
+            "Rango"
         ]
     },
     {
@@ -2826,6 +2831,7 @@
         "categorias": [
             "Álgebra",
             "Matrices",
+            "Rango",
             "Ecuaciones matriciales"
         ]
     },
@@ -2968,7 +2974,8 @@
         "ejercicio": 201523,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Rango"
         ]
     },
     {
@@ -3549,7 +3556,8 @@
         "ejercicio": 201303,
         "categorias": [
             "Álgebra",
-            "Matrices"
+            "Matrices",
+            "Rango"
         ]
     },
     {
@@ -3809,7 +3817,8 @@
         "categorias": [
             "Álgebra",
             "Matrices",
-            "Determinantes"
+            "Determinantes",
+            "Rango"
         ]
     },
     {
