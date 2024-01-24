@@ -8,7 +8,7 @@ X = \begin{pmatrix}
     x \\
     y \\
     z
-\end{pmatrix}, \quad
+\end{pmatrix} \quad \text{y} \quad
 B = \begin{pmatrix}
     2m^2-1 \\
     m \\
