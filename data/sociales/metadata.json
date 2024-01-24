@@ -1925,5 +1925,56 @@
             "Estadística",
             "Estimación de la media"
         ]
+    },
+    {
+        "ejercicio": 201711,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201712,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201713,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201714,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 201715,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 201716,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201717,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201718,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
     }
 ]

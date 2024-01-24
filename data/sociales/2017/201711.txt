@@ -1,0 +1,6 @@
+Una empresa envasa y comercializa leche entera y leche desnatada.
+El litro de leche entera envasado genera un beneficio diario a la empresa de 0,4€ y el de leche desnatada de 0,1€.
+La tecnología de la empresa impone que el número de litros de leche entera que se envasan diariamente no supere el doble del número de litros de leche desnatada.
+Además, la cantidad máxima de leche que se puede envasar diariamente es un total de 3.000 litros y solo se dispone de 1.200 litros diarios de leche entera para envasar.
+¿Cuánto debe envasar de cada producto para obtener el beneficio máximo?
+¿A cuánto ascendería este beneficio?

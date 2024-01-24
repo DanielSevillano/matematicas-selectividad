@@ -1,0 +1,8 @@
+En un departamento de una Universidad hay 8 profesores y 14 profesoras.
+Se quiere constituir una comisión formada por 2 miembros del departamento, elegidos al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sean profesoras?</li>
+    <li>Calcule la probabilidad de que la comisión esté constituida por un profesor y una profesora.</li>
+    <li>Halle la probabilidad de que en la comisión no haya ninguna profesora.</li>
+</ol>

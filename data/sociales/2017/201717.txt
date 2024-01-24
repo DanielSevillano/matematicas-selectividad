@@ -1,0 +1,8 @@
+Los alumnos que cursan una asignatura deben realizar dos exámenes: uno teórico y otro práctico.
+El 50% de los alumnos aprueba los dos exámenes, el 6% no aprueba ninguno y el 20% solo aprueba el teórico.
+Se elige un alumno al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que apruebe al menos uno de los dos exámenes?</li>
+    <li>Si ha aprobado el teórico, ¿cuál es la probabilidad de que no apruebe el examen práctico?</li>
+</ol>

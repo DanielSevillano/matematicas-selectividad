@@ -1,0 +1,23 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & -1 & 0 \\
+    0 & 1 & -1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 0 \\
+    0 & 1 \\
+    2 & -2
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 1 \\
+    3 & -2
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Razone cuáles de las siguientes operaciones son posibles:
+        $$AB^t, \quad B + 3C, \quad CB^t, \quad AB + C.$$
+    </li>
+
+    <li>Resuelva la ecuación matricial $ABX = C.$</li>
+</ol>

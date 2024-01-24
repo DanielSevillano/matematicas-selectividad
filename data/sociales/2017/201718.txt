@@ -1,0 +1,11 @@
+El peso de los paquetes de levadura de una marca sigue una ley Normal de desviación típica 0,3 g.
+Se desea construir un intervalo de confianza, al 98%, para estimar la media.
+Para ello, se toma una muestra aleatoria de 9 paquetes.
+
+<ol>
+    <li>¿Qué amplitud tendrá dicho intervalo?</li>
+    <li>
+        Obtenga el intervalo sabiendo que los pesos, en gramos, de los paquetes son:
+        $$10 \quad 9,9 \quad 10,04 \quad 9,5 \quad 10,1 \quad 9,8 \quad 10,2 \quad 10 \quad 10,3.$$
+    </li>
+</ol>

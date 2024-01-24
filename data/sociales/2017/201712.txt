@@ -1,0 +1,12 @@
+En una especie animal la contracción del iris, en décimas de milímetro, después de exponer el ojo a una luz brillante durante un determinado tiempo, viene dada por
+$$f(t) = \begin{cases}
+    t^2, & \text{si } 0 \leq t \leq 2, \\
+    \dfrac{4}{t-1}, & \text{si } t > 2,
+\end{cases}$$
+donde $t$ es el tiempo, en segundos, que transcurre desde que se concentra la luz en el ojo.
+
+<ol>
+    <li>Estudie la continuidad y la derivabilidad de la función $f.$</li>
+    <li>Represente gráficamente la función $f$, determinando los intervalos de crecimiento y decrecimiento y sus asíntotas, en caso de que existan.</li>
+    <li>Determine en qué instante se obtiene la máxima contracción y su valor.</li>
+</ol>

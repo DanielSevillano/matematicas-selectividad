@@ -1,0 +1,11 @@
+Sea la función
+$$f(x) = \begin{cases}
+    \dfrac{1}{x-4}, & \text{si } x \leq 0, \\
+    x + 3, & \text{si } 0 < x < 2, \\
+    x^2 + 1, & \text{si } x \geq 2.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad de la función en su dominio y clasifique sus discontinuidades, en caso de que exista alguna.</li>
+    <li>Estudie la derivabilidad de la función en su dominio.</li>
+</ol>

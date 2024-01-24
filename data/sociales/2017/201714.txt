@@ -1,0 +1,7 @@
+Se desea estimar la proporción de jóvenes que ven una serie de televisión.
+Para ello, se toma una muestra aleatoria de 100 jóvenes, de los que 36 ven la serie.
+
+<ol>
+    <li>Determine un intervalo de confianza, al 96%, para la proporción de jóvenes que ven la serie.</li>
+    <li>Con el mismo nivel de confianza, si queremos que el error máximo sea inferior a 0,03, ¿qué tamaño muestral mínimo debemos tomar?</li>
+</ol>
