@@ -1,0 +1,6 @@
+De los sucesos $A$ y $B$ se sabe que $P(A) = 0,6$, $P(A|B) = 0,8$ y $P(B|A^c) = 0,1.$
+
+<ol>
+    <li>Calcule las probabilidades $P(B)$, $P(A \cap B)$ y $P(A \cup B).$</li>
+    <li>¿Son los sucesos $A$ y $B$ independientes?</li>
+</ol>

@@ -1,0 +1,14 @@
+Sea el siguiente sistema de inecuaciones:
+\begin{cases}
+    x + 2y \leq 11, \\
+    x \geq 2y - 5, \\
+    3x + y \leq 18, \\
+    x \geq 0, \\
+    y \geq 0.
+\end{cases}
+
+<ol>
+    <li>Dibuje la región que definen y calcule sus vértices.</li>
+    <li>¿Pertenece el punto $(5,5; 2)$ a la región anterior?</li>
+    <li>Calcule los puntos de esa región en los que la función $F(x, y) = 2x + 3y$ alcanza los valores máximo y mínimo y determine dichos valores.</li>
+</ol>

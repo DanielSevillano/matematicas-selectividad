@@ -1,0 +1,7 @@
+E1 10% de las personas que acuden a un servicio de urgencias lo hace por problemas respiratorios, de estos el 80% son fumadores, mientras que de los que acuden por otros problemas solo el 5% son fumadores.
+Se elige, al azar, una persona de las que acuden al servicio de urgencias.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que haya acudido por problemas respiratorios y no sea fumador?</li>
+    <li>Si la persona elegida es fumadora, ¿cuál es la probabilidad de que haya acudido por problemas que no son respiratorios?</li>
+</ol>

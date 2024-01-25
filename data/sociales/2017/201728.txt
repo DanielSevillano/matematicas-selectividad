@@ -1,0 +1,9 @@
+El precio de un determinado producto se distribuye según una ley Normal de desviación típica 5€ y media desconocida.
+Se toman 10 comercios al azar y se observa en ellos el precio de este producto, resultando los siguientes valores en euros:
+$$96 \quad 108 \quad 97 \quad 112 \quad 99 \quad 106 \quad 105 \quad 100 \quad 98 \quad 99.$$
+
+<ol>
+    <li>¿Cuál es la distribución del precio medio del producto en las muestras de tamaño 10?</li>
+    <li>Determine un intervalo de confianza, al 97%, para la media poblacional.</li>
+    <li>Con el mismo nivel de confianza, ¿cuál debe ser el tamaño mínimo de la muestra de esa población para que el error cometido sea menor que 2?</li>
+</ol>

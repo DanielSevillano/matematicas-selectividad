@@ -1,0 +1,25 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    2 & 1 \\
+    0 & -1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & -1 \\
+    2 & 0
+\end{pmatrix}, \quad
+C = \begin{pmatrix}
+    -2 & 4 \\
+    1 & -1
+\end{pmatrix} \quad \text{y} \quad
+D = \begin{pmatrix}
+    1 & 0 & 1 \\
+    0 & 1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Razone si se pueden efectuar las siguientes operaciones:
+        $$AD + BC, \quad D^tB - A^2.$$
+    </li>
+    <li>Halle la matriz $X$ que verifica la ecuación matricial $AX = B - C.$</li>
+</ol>

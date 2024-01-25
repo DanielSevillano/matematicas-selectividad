@@ -1,0 +1,6 @@
+Sea la función $f(x) = x^3 - 12x + 1.$
+
+<ol>
+    <li>Estudie su monotonía y determine sus extremos relativos.</li>
+    <li>Obtenga la ecuación de la recta tangente a la gráfica de la función en el punto de abscisa $x = 1.$</li>
+</ol>

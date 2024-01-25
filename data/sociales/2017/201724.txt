@@ -1,0 +1,8 @@
+Se desea estimar la proporción de bares y restaurantes que en el camino de Santiago ofertan el menú del peregrino con un precio máximo de 12€.
+Para ello se eligen aleatoriamente 120 establecimientos que ofrecen este menú, de los que 80 tienen un precio máximo de 12€.
+
+<ol>
+    <li>Con un nivel de confianza del 92%, obtenga el intervalo de confianza para proporción de establecimientos que tienen un precio máximo de 12€.</li>
+    <li>Si aumentamos el nivel de confianza al 99%, ¿qué efecto se produce en el error de estimación?</li>
+    <li>¿Cuántos establecimientos, como mínimo, deberíamos seleccionar para que, con un nivel de confianza del 99%, el error de la estimación no sea superior a 0,04?</li>
+</ol>

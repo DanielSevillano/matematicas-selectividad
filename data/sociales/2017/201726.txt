@@ -1,0 +1,4 @@
+<ol>
+    <li>Calcule los valores de los parámetros $a$ y $b$ para que la gráfica de la función $f(x) = x^3 + ax^2 + b$ presente un extremo relativo en el punto $(2, 6).$</li>
+    <li>Para $a = 1$ y $b = 1$, halle la ecuación de la recta tangente a la gráfica de esa función en el punto de abscisa $x = 1.$</li>
+</ol>
