@@ -2028,5 +2028,106 @@
             "Estadística",
             "Estimación de la media"
         ]
+    },
+    {
+        "ejercicio": 201731,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 201732,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201733,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201734,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 201735,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201736,
+        "categorias": [
+            "Análisis",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201737,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201738,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201741,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201742,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201743,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201744,
+        "categorias": [
+            "Estadística"
+        ]
+    },
+    {
+        "ejercicio": 201745,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201746,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201747,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201748,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
     }
 ]

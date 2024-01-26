@@ -1,0 +1,14 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    2 & 4 \\
+    1 & -1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    -3 & 0 \\
+    0 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule $A^2 + B^3.$</li>
+    <li>Calcule $X$ en la ecuación matricial $(A+B)X = A - B.$</li>
+</ol>

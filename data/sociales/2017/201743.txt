@@ -1,0 +1,7 @@
+En un estudio sobre los niveles de audiencia de dos cadenas de radio, se obtuvo que el 50% de la población escucha la cadena A, el 40% escucha la cadena B y el 20% oye ambas.
+
+<ol>
+    <li>Halle el porcentaje de la población que escucha alguna de las dos cadenas.</li>
+    <li>Calcule el porcentaje de la población que escucha solo la cadena B.</li>
+    <li>Halle el porcentaje de la población que escucha solo una de las dos cadenas.</li>
+</ol>

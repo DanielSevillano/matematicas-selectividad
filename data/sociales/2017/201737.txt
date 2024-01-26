@@ -1,0 +1,8 @@
+Para superar una asignatura un estudiante hace un examen teórico y otro práctico.
+La probabilidad de que apruebe el examen teórico es 0,8, la de que apruebe el examen práctico es 0,6 y la de que apruebe ambos es 0,5.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que apruebe al menos uno de los dos exámenes?</li>
+    <li>¿Cuál es la probabilidad de que apruebe el examen práctico en caso de no haber aprobado el examen teórico?</li>
+    <li>¿Son independientes los sucesos "aprobar el examen teórico" y "aprobar el examen práctico"?</li>
+</ol>

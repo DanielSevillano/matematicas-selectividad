@@ -1,0 +1,8 @@
+Sean $A$, $B$ y $C$ tres sucesos de los que se sabe que $A$ y $B$ son independientes, $A$ y $C$ son incompatibles, $P(A) = 0,4$, $P(A \cap B) = 0,1$ y $P(C) = 0,2.$
+Calcule las probabilidades de los siguientes sucesos:
+
+<ol>
+    <li>Que suceda $A$ si no sucede $B.$</li>
+    <li>Que no suceda ni $A$ ni $C.$</li>
+    <li>Que si no sucede $B$ tampoco suceda $A.$</li>
+</ol>

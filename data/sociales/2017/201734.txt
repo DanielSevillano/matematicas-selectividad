@@ -1,0 +1,7 @@
+Se desea estimar el porcentaje de alumnos de un determinado instituto que lleva gafas.
+Para ello se eligen 300 alumnos, de los que 210 llevan gafas.
+
+<ol>
+    <li>Calcule el intervalo de confianza para la proporción de alumnos que lleva gafas, con un nivel de confianza del 97%.</li>
+    <li>Si por estudios en otros institutos se sabe que la proporción de alumnos que lleva gafas es del 70%, determine el tamaño mínimo de la muestra necesario para que, con una confianza del 97%, el error máximo que se cometa sea inferior a 0,06.</li>
+</ol>

@@ -1,0 +1,7 @@
+En un centro docente hay 160 alumnos matriculados en 1° de ESO, 120 en 2°, 120 en 3°, 80 en 4°, 240 en 1° de Bachillerato y 200 en 2°.
+Se quiere constituir una comisión en la que todos los cursos estén representados de forma proporcional.
+
+<ol>
+    <li>¿Cuántos alumnos debe haber en la comisión y cuántos de cada curso si dicha comisión está formada por el 5% del total del alumnado?</li>
+    <li>¿Cuál sería la composición de la comisión si queremos que haya 9 alumnos de 2° de ESO?</li>
+</ol>

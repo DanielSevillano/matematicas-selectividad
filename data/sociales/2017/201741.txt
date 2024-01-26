@@ -1,0 +1,4 @@
+Un fabricante de complementos alimenticios elabora dos tipos de bebidas energéticas a partir de tres componentes: taurina, cafeína y L-carnitina.
+Un envase del primer tipo de bebida precisa 30 g de taurina, 40 g de cafeína y 20 g de L-carnitina, mientras que uno del segundo necesita 40 g de taurina, 30 g de cafeína y 10 g de L-carnitina.
+Sabiendo que dispone de 52 kg de taurina, 46 kg de cafeína y 20 kg de L-carnitina, que cada envase del primer tipo se vende por 1,5€ y cada envase del segundo tipo por 1€, ¿cuántos envases de cada tipo de bebida tendría que elaborar para obtener la ganancia máxima?
+¿A cuánto ascendería esta ganancia?

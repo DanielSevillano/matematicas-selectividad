@@ -1,0 +1,8 @@
+<ol>
+    <li>
+        Represente el recinto dado por las siguientes inecuaciones:
+        $$y \leq x + 3, \quad x + 5y \geq 3, \quad 2x + 7y \leq 30, \quad y \geq 0.$$
+    </li>
+    <li>Razone si el punto $(5, 3)$ pertenece al recinto anterior.</li>
+    <li>Obtenga los valores mínimo y máximo de la función $F(x, y) = x - y$ en ese recinto, indicando en qué puntos se alcanzan.</li>
+</ol>

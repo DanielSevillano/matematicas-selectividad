@@ -1,0 +1,16 @@
+Una empresa quiere invertir en productos financieros un mínimo de un millón de euros y un máximo de seis millones de euros.
+La rentabilidad que obtiene viene dada en función de la cantidad invertida, $x$, por la siguiente expresión:
+$$R(x) = \begin{cases}
+    x - 2, & \text{si } 1 \leq x < 2, \\
+    -x^2 + 10x - 16, & \text{si } 2 \leq x \leq 6,
+\end{cases}$$
+donde tanto $x$, como $R(x)$, están expresadas en millones de euros.
+
+<ol>
+    <li>Estudie la continuidad de la función $R.$</li>
+    <li>Esboce la gráfica de la función.</li>
+    <li>
+        ¿Qué cantidad debe invertir para obtener la máxima rentabilidad y a cuánto asciende esta?
+        ¿Para qué valores de $x$ la rentabilidad es positiva?
+    </li>
+</ol>

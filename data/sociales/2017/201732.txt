@@ -1,0 +1,15 @@
+El beneficio en euros que obtiene una empresa al vender $x$ unidades de un artículo viene dado por la función $B(x) = -x^2 + 360x - 18.000$, $50 \leq x \leq 350.$
+
+<ol>
+    <li>
+        ¿Cuál es el beneficio obtenido si vende 100 unidades?
+        ¿Cuántas unidades debe vender para obtener un beneficio de 13.500€?
+    </li>
+
+    <li>
+        ¿Cuál es el número de unidades que debe vender para que el beneficio sea máximo?
+        ¿A cuánto asciende ese beneficio?
+    </li>
+
+    <li>Represente gráficamente la función y determine cuántas unidades hay que vender para no obtener pérdidas.</li>
+</ol>

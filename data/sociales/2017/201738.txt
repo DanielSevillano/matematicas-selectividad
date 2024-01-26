@@ -1,0 +1,8 @@
+Se sabe que el peso de los tarros de mermelada que fabrica una empresa sigue una distribución Normal con desviación típica 25 g.
+Con objeto de estimar el peso medio de los tarros fabricados por esa empresa se selecciona una muestra aleatoria de 100 tarros de esa fábrica obteniéndose un peso medio de 230 g.
+
+<ol>
+    <li>Calcule un intervalo de confianza, al 96%, para la media de la población.</li>
+    <li>¿Qué error máximo se ha cometido en el intervalo anterior?</li>
+    <li>Determine el tamaño muestral mínimo para que el error máximo cometido al construir un intervalo de confianza, con el mismo nivel de confianza, sea 2 g.</li>
+</ol>

@@ -1,0 +1,10 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    \dfrac{a}{x-1}, & \text{si } x < 0, \\
+    x^2 - bx - 1, & \text{si } x \geq 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcule el valor de $a$ y $b$, para que la función sea derivable en $x = 0.$</li>
+    <li>Para $a = 1$ y $b = 2$, halle la ecuación de la recta tangente a la gráfica de la función en el punto de abscisa $x = 2.$</li>
+</ol>

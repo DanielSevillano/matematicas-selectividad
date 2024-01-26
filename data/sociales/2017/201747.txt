@@ -1,0 +1,9 @@
+A una asamblea en la Universidad asisten 420 alumnos de los cuales 180 son de Empresariales, 72 de Relaciones Laborales y el resto de Derecho.
+Un tercio de los alumnos de Empresariales, dos tercios de los de Derecho y 16 alumnos de Relaciones Laborales votan NO a la huelga.
+El resto ha votado SÍ.
+
+<ol>
+    <li>Calcule la probabilidad de que elegido un alumno al azar, sea de Empresariales y haya votado SÍ a la huelga.</li>
+    <li>¿Cuál es la probabilidad de que elegido un alumno al azar haya votado SÍ a la huelga?</li>
+    <li>Si elegido un alumno al azar, resulta que ha votado NO a la huelga, ¿cuál es la probabilidad de que sea de Relaciones Laborales?</li>
+</ol>

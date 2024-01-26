@@ -1,0 +1,8 @@
+El tiempo diario, en horas, que dedican los alumnos de una Facultad a las redes sociales sigue una ley Normal de desviación típica 2 horas.
+Se toma una muestra aleatoria de 10 alumnos con los siguientes tiempos en horas
+$$6,5 \quad 7 \quad 6,25 \quad 7 \quad 5,5 \quad 7,25 \quad 6,75 \quad 6,25 \quad 6 \quad 6,5.$$
+
+<ol>
+    <li>Determine el intervalo de confianza, al 90%, para el tiempo medio diario dedicado por los alumnos de esa Facultad a las redes sociales.</li>
+    <li>Utilizando el mismo nivel de confianza anterior, calcule el tamaño muestral mínimo necesario para estimar el tiempo medio diario, para un error de estimación máximo de 0,1 horas.</li>
+</ol>

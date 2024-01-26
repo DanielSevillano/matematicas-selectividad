@@ -1,0 +1,8 @@
+Sea el recinto definido por las siguientes inecuaciones:
+$$y \leq 2x + 1, \quad y \leq 13 - 4x, \quad x \geq 4 - y.$$
+
+<ol>
+    <li>Razone si el punto de coordenadas $(1,1; 2,8)$ pertenece al recinto.</li>
+    <li>¿En qué puntos alcanza la función $F(x, y) = -3x + 1,5y$ sus valores extremos y cuáles son estos?</li>
+    <li>Razone si existe algún punto del recinto en el que la función $F$ se anule.</li>
+</ol>
