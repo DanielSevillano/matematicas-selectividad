@@ -1,4 +1,4 @@
-Cosidera las rectas
+Considera las rectas
 $$r \equiv \begin{cases}
     x = 0, \\
     z = 0
