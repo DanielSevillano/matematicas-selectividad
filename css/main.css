@@ -41,6 +41,15 @@ Tarjeta
     margin-top: 0.5em;
 }
 
+#ejercicios-diarios .tarjeta:not(:first-of-type) {
+    margin-top: 15px;
+}
+
+#ejercicios-diarios .tarjeta h3:first-of-type {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
 /********************
 Enlace con acento
 ********************/
