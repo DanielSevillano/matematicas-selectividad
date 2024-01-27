@@ -1,0 +1,19 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & 0 & 1 \\
+    0 & 1 & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    0 & 1 \\
+    1 & 0 \\
+    1 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Justifique cuáles de las siguientes operaciones pueden realizarse y, en tal caso, calcule el resultado:
+        $$A^2, \quad A - B, \quad AB, \quad AB^t.$$
+    </li>
+
+    <li>Halle la matriz $X$ tal que $A^t + BX = 3B.$</li>
+</ol>

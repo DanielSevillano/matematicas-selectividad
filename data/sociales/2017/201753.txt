@@ -1,0 +1,8 @@
+Supongamos que el 20% de los votantes de Trump apoya la construcción del muro en la frontera con México y que solo el 5% de los que no lo votaron la apoya.
+En un grupo formado por 5.000 votantes de Trump y 10.000 estadounidenses que no lo votaron se elige una persona al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que ésta apoye la construcción del muro?</li>
+    <li>Si la persona elegida apoya la construcción del muro, ¿cuál es la probabilidad de que no haya votado a Trump?</li>
+    <li>Calcule la probabilidad de que sea votante de Trump o apoye la construcción del muro.</li>
+</ol>

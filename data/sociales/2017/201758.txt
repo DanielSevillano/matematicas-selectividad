@@ -1,0 +1,6 @@
+En una muestra, elegida al azar, de 100 estudiantes de una Universidad, se ha observado que 25 desayunan en la cafetería del campus.
+
+<ol>
+    <li>Determine, con un nivel de confianza del 95%, un intervalo de confianza para estimar la proporción de estudiantes de esa Universidad que desayunan en la cafetería.</li>
+    <li>Si la proporción de estudiantes de esa Universidad que desayunan en la cafetería del campus en una muestra aleatoria es de 0,2, y el error cometido en la estimación ha sido inferior a 0,03, con un nivel de confianza del 92,5 % calcule el tamaño mínimo de la muestra.</li>
+</ol>

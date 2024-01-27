@@ -1,0 +1,7 @@
+Se consideran las siguientes funciones:
+$$f(x) = \frac{5x - 16}{x} \quad \text{y} \quad g(x) = x^2.$$
+
+<ol>
+    <li>Determine la abscisa del punto donde se verifique que $f'(x) = g'(x).$</li>
+    <li>Calcule la ecuación de la recta tangente a la gráfica de cada función en el punto de abscisa $x = 2$ y determine el punto de corte de ambas rectas tangentes, si existe.</li>
+</ol>

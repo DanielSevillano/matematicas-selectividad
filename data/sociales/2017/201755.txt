@@ -1,0 +1,8 @@
+Represente el recinto definido por las siguientes inecuaciones:
+$$x + y \leq 3, \quad 2x + y \geq 4, \quad y \geq -1.$$
+
+<ol>
+    <li>Razone si el punto $(2, 1)$ pertenece al recinto anterior.</li>
+    <li>Obtenga los vértices del recinto y los valores mínimo y máximo de la función $F(x, y) = 5x + 4y$ en ese recinto, indicando en qué puntos se alcanzan.</li>
+    <li>Razone si la función $F$ puede alcanzar el valor 9 en el recinto anterior.</li>
+</ol>

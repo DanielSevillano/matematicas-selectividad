@@ -1,0 +1,8 @@
+Una urna contiene 5 bolas rojas y 3 verdes.
+Se extrae una bola y se reemplaza por 2 bolas del otro color.
+A continuación se extrae una segunda bola.
+
+<ol>
+    <li>Calcule la probabilidad de que la segunda bola extraída sea verde.</li>
+    <li>Halle la probabilidad de que la primera haya sido roja, sabiendo que la segunda también ha sido roja.</li>
+</ol>

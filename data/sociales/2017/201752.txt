@@ -1,0 +1,6 @@
+Sea la función $f(x) = x^3 + ax^2 + bx.$
+
+<ol>
+    <li>Halle $a$ y $b$ sabiendo que la función tiene un mínimo en el punto de abscisa $x= -1$ y un punto de inflexion en el punto de abscisa $x = -2.$</li>
+    <li>Para $a = 6$ y $b = 9$, halle los puntos de corte con los ejes, estudie la monotonía y extremos y esboce la gráfica de la función.</li>
+</ol>

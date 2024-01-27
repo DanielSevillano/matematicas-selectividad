@@ -1,0 +1,8 @@
+El tiempo de vida de una determinada especie de tortuga es una variable aleatoria que sigue una ley Normal de desviación típica 10 años.
+Se toma una muestra aleatoria simple de 10 tortugas y se obtienen los siguientes valores:
+$$46 \quad 38 \quad 59 \quad 29 \quad 34 \quad 32 \quad 38 \quad 21 \quad 44 \quad 34.$$
+
+<ol>
+    <li>Determine un intervalo de confianza, al 95%, para la vida media de dicha especie de tortugas.</li>
+    <li>Calcule el tamaño mínimo que debe tener una muestra para que el error de estimación de la vida media no sea superior a 5 años, con un nivel de confianza del 98%.</li>
+</ol>
