@@ -1,0 +1,8 @@
+En una encuesta sobre la nacionalidad de los veraneantes en un municipio de la costa andaluza, se ha observado que el 40% de los encuestados son españoles y el 60% extranjeros, que el 30% de los españoles y el 80% de los extranjeros residen en un hotel y el resto en otro tipo de residencia.
+Se elige al azar un veraneante del municipio.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que no resida en un hotel?</li>
+    <li>Si no reside en un hotel, ¿cuál es la probabilidad de que sea español?</li>
+    <li>¿Son independientes los sucesos "ser extranjero" y "residir en un hotel"?</li>
+</ol>

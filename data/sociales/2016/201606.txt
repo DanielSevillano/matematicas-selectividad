@@ -1,0 +1,15 @@
+La cantidad, $C$, que una entidad bancaria dedica a créditos depende de su liquidez, $x$, según la función
+$$C(x) = \begin{cases}
+    \dfrac{150 + 5x}{100}, & \text{si } 10 \leq x \leq 50, \\
+    \dfrac{200 + 10x}{25 + 3x}, & \text{si } x > 50,
+\end{cases}$$
+donde $C$ y $x$ están expresadas en miles de euros.
+
+<ol>
+    <li>Justifique que $C$ es una función continua.</li>
+    <li>
+        ¿A partir de qué liquidez decrece la cantidad dedicada a créditos?
+        ¿Cuál es el valor máximo de $C$?
+    </li>
+    <li>Calcule la asíntota horizontal e interprétela en el contexto del problema.</li>
+</ol>

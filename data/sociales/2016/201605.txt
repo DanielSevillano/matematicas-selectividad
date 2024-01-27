@@ -1,0 +1,5 @@
+Un taller fabrica y vende dos tipos de alfombras, de seda y de lana.
+Para la elaboración de una unidad se necesita un trabajo manual de 2 horas para el primer tipo y de 3 horas para el segundo y de un trabajo de máquina de 2 horas para el primer tipo y de 1 hora para el segundo.
+Por cuestiones laborales y de planificación, se dispone de hasta 600 horas al mes para el trabajo manual y de hasta 480 horas al mes para el destinado a la máquina.
+Si el beneficio por unidad para cada tipo de alfombra es de 150€ y 100€, respectivamente, ¿cuántas alfombras de cada tipo debe elaborar para obtener el máximo beneficio?
+¿A cuánto asciende el mismo?

@@ -2180,5 +2180,58 @@
             "Estadística",
             "Estimación de la proporción"
         ]
+    },
+    {
+        "ejercicio": 201601,
+        "categorias": [
+            "Álgebra",
+            "Problemas de matrices"
+        ]
+    },
+    {
+        "ejercicio": 201602,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201603,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201604,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201605,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201606,
+        "categorias": [
+            "Análisis",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201607,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201608,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
     }
 ]

@@ -1,0 +1,9 @@
+Marta tiene dos trajes rojos, un traje azul y uno blanco.
+Además, tiene un par de zapatos de color rojo, otro de color azul y dos pares blancos.
+Si decide aleatoriamente qué ponerse, determine las probabilidades de los siguientes sucesos:
+
+<ol>
+    <li>Llevar un traje rojo y unos zapatos blancos.</li>
+    <li>No ir toda vestida de blanco.</li>
+    <li>Calzar zapatos azules o blancos.</li>
+</ol>

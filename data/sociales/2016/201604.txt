@@ -1,0 +1,9 @@
+Se desea estimar la media de una variable aleatoria Normal cuya desviación típica es 2,5.
+Para ello, se toma una muestra aleatoria, obteniéndose los siguientes datos:
+$$18 \quad 18,5 \quad 14 \quad 16,5 \quad 19 \quad 20 \quad 20,5 \quad 17 \quad 18,5 \quad 18.$$
+
+<ol>
+    <li>Determine un intervalo de confianza al 96% para la media poblacional.</li>
+    <li>¿Cuál es el error máximo cometido con esa estimación?</li>
+    <li>Con el mismo nivel de confianza, si queremos que el error máximo sea inferior a 1, ¿qué tamaño muestral mínimo debemos tomar?</li>
+</ol>

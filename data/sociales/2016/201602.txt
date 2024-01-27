@@ -1,0 +1,12 @@
+<ol>
+    <li>
+        Calcule los valores de $a$ y $b$ para que la función
+        $$f(x) = \begin{cases}
+            \dfrac{b}{2-x}, & \text{si } x \leq 1, \\
+            ax^2 - 3x + 1, & \text{si } x > 1
+        \end{cases}$$
+        sea derivable en el punto de abscisa $x = 1.$
+    </li>
+
+    <li>Para $a = 1$ y $b = 2$, estudie su monotonía y determine las ecuaciones de sus asíntotas, si existen.</li>
+</ol>

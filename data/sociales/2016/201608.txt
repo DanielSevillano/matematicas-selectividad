@@ -1,0 +1,6 @@
+El peso de los habitantes de una determinada ciudad sigue una ley Normal de media 65 kg y desviación típica 8 kg.
+
+<ol>
+    <li>¿Qué distribución sigue la media de los pesos de las muestras de habitantes de tamaño 64 extraídas de esa ciudad?</li>
+    <li>Si se extrae una muestra aleatoria de tamaño 100 de esa ciudad, ¿cuál es la probabilidad de que el peso medio de esa muestra esté comprendido entre 64 y 65 kg?</li>
+</ol>
