@@ -1,0 +1,8 @@
+Sean $A$ y $B$ dos sucesos aleatorios tales que
+$$P(A) = 0,3, \quad P(B) = 0,6 \quad \text{y} \quad P(A^c \cap B^c) = 0,28.$$
+
+<ol>
+    <li>Halle la probabilidad de que ocurran ambos sucesos a la vez.</li>
+    <li>Calcule la probabilidad de que ocurra $A$ sabiendo que no ha ocurrido $B.$</li>
+    <li>¿Son $A$ y $B$ independientes?</li>
+</ol>

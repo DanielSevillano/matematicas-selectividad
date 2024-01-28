@@ -1,0 +1,8 @@
+<ol>
+    <li>
+        Se desea tomar una muestra aleatoria estratificada de las personas mayores de edad de un municipio, cuyos estratos son los siguientes intervalos de edades, en años: de 18 a 30, de 31 a 45, de 46 a 60 y mayores de 60.
+        En el primer intervalo hay 7.500 personas, en el segundo hay 8.400, en el tercero 5.700 y en el cuarto 3.000.
+        Calcule el tamaño de la muestra total y su composición, sabiendo que el muestreo se hace con afijación proporcional y se han elegido al azar 375 personas del primer estrato.
+    </li>
+    <li>Dada la población $\{2, 4, 6\}$ construya todas las muestras posibles de tamaño 2, que se puedan formar mediante muestreo aleatorio simple, y halle la varianza de las medias muestrales de todas las muestras.</li>
+</ol>

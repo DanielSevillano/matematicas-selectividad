@@ -1,0 +1,6 @@
+De una función continua y derivable, $f$, se sabe que la gráfica de la función derivada, $f'$, es una parábola que pasa por los puntos $(-1, 0)$ y $(3, 0)$ y que tiene su vértice en el punto $(1, -2).$
+
+<ol>
+    <li>Determine los intervalos de crecimiento y decrecimiento de la función $f$, así como la existencia de extremos.</li>
+    <li>Si $f(1) = 2$, encuentre la ecuación de la recta tangente a la gráfica de la función $f$ en el punto de abscisa $x = 1.$</li>
+</ol>

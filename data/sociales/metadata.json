@@ -2233,5 +2233,55 @@
             "Estadística",
             "Estimación de la media"
         ]
+    },
+    {
+        "ejercicio": 201651,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 201652,
+        "categorias": [
+            "Análisis",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201653,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201654,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 201655,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201656,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201657,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201658,
+        "categorias": [
+            "Estadística"
+        ]
     }
 ]

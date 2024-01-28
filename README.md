@@ -40,7 +40,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [x] 2023 a 2017
 - [ ] 2016
     - [x] Junio
-    - [ ] Septiembre
+    - [x] Septiembre
 
 ### Ejercicios resueltos de ciencias
 - [ ] 2023

@@ -1,0 +1,13 @@
+Sea la función
+$$f(x) = \begin{cases}
+    x^2 - 4x + a, & \text{si } x < 2, \\
+    \dfrac{1}{x-1}, & \text{si } x \geq 2.
+\end{cases}$$
+
+<ol>
+    <li>
+        Calcule el valor de $a$ para que la función sea continua en $x = 2.$
+        Para ese valor de $a$ obtenido, ¿es derivable la función en $x = 2$?
+    </li>
+    <li>Para $a = 4$, estudie la monotonía y calcule las ecuaciones de las asíntotas, si existen.</li>
+</ol>

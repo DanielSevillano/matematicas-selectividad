@@ -1,0 +1,8 @@
+<ol>
+    <li>
+        Represente la región definida por las siguientes inecuaciones y determine sus vértices:
+        $$2x - y \leq -2, \quad 4x - 2y \geq -10, \quad 5x - y \leq 4, \quad x \geq 0.$$
+    </li>
+
+    <li>Calcule los valores extremos de la función $F(x, y) = 6x - 3y$ en la región anterior y determine los puntos en los que se alcanzan.</li>
+</ol>

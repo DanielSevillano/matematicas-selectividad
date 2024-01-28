@@ -1,0 +1,8 @@
+El aparcamiento de una sala de conciertos está completo el 85% de los días.
+El 90% de los días que el aparcamiento está completo, la sala de conciertos está llena, y el 22% de los días que el aparcamiento no está completo, la sala de conciertos no está llena.
+Se elige un día al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que la sala de conciertos esté llena?</li>
+    <li>Si se sabe que la sala de conciertos está llena, ¿cuál es la probabilidad de que el aparcamiento esté completo?</li>
+</ol>

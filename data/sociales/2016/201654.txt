@@ -1,0 +1,7 @@
+Una cadena de hipermercados decide estudiar la proporción de artículos de un determinado tipo que tienen defectos en su envoltorio.
+Para ello, selecciona aleatoriamente 2.000 artículos de este tipo entre sus hipermercados y encuentra que 19 de ellos tienen defectos en su envoltorio.
+
+<ol>
+    <li>Determine un intervalo, al 95% de confianza, para la proporción real de artículos con este tipo de defecto e interprete el resultado obtenido.</li>
+    <li>¿Cuántos artículos, como mínimo, deberá seleccionar para que, con un nivel de confianza del 99%, la proporción muestral difiera de la proporción real a lo sumo en un 1%?</li>
+</ol>

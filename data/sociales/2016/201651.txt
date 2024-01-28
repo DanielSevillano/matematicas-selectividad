@@ -1,0 +1,18 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & 2 \\
+    -1 & -3
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    2 & -1 & 3 \\
+    4 & 0 & 1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    -1 & 1 & 0 \\
+    2 & 3 & -2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Resuelva la ecuación matricial $A^2X + C = 2B.$</li>
+    <li>¿Qué dimensiones deben tener las matrices $P$ y $Q$ para que las matrices $(B+C)P$ y $BQC^t$ sean cuadradas?</li>
+</ol>
