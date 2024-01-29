@@ -1,0 +1,21 @@
+En un ensayo clínico de 10 meses de duración, el porcentaje de células de un determinado tejido afectadas por un tipo de enfermedad en el paciente de estudio, viene dado por la función
+$$P(t) = \begin{cases}
+    8t - t^2, & \text{si } 0 \leq t \leq 6, \\
+    2t, & \text{si } 6 < t \leq 10,
+\end{cases}$$
+donde $t$ es el tiempo en meses.
+
+<ol>
+    <li>Represente gráficamente la función $P(t).$</li>
+
+    <li>
+        ¿En qué mes empieza a decrecer el porcentaje de células afectadas de dicho tejido?
+        ¿Qué porcentaje hay justo en ese momento?
+        ¿En algún otro mes del ensayo se alcanza ese mismo porcentaje?
+    </li>
+
+    <li>
+        ¿En qué mes el porcentaje de células afectadas es máximo?
+        ¿Cuál es el porcentaje en ese momento?
+    </li>
+</ol>

@@ -1,0 +1,4 @@
+En una encuesta realizada a 600 trabajadoras de una empresa, 250 de ellas manifiestan estar insatisfechas con su salario.
+La dirección de la empresa afirma que la proporción de trabajadoras que están insatisfechas con su salario no es superior a 0,3.
+Plantee un contraste de hipótesis para dicha proporción, con hipótesis nula $H_0: p \leq 0,3.$
+Con un nivel de significación del 4%, determine la región de rechazo y razone si se puede aceptar la afirmación de la dirección de la empresa.

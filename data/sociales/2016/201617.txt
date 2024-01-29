@@ -1,0 +1,9 @@
+Disponemos de tres dados.
+Dos de ellos tienen sus caras numeradas del 1 al 6 y el tercero tiene cinco caras marcadas con el 3 y la otra con el 1.
+Se elige al azar uno de los tres dados y se realiza el lanzamiento.
+
+<ol>
+    <li>Determine la probabilidad de que se obtenga un 3.</li>
+    <li>Determine la probabilidad de que se obtenga un número par.</li>
+    <li>Si se ha obtenido un 3, ¿cuál es la probabilidad de que hayamos elegido el tercer dado?</li>
+</ol>

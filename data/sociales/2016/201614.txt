@@ -1,0 +1,10 @@
+El número de pulsaciones por minuto (p/m) de los pacientes de un centro de salud de una cierta población sigue una ley Normal de desviación típica 9.
+
+<ol>
+    <li>
+        Se elige una muestra aleatoria de 100 pacientes que da como número medio de p/m 68.
+        Con un nivel del 97%, determine un intervalo de confianza para el número medio de las p/m de los pacientes de ese centro.
+    </li>
+
+    <li>Con el mismo nivel de confianza, ¿cuántos pacientes, como mínimo, se necesitan en la muestra para estimar el número medio de p/m con un error no superior a 1?</li>
+</ol>

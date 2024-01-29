@@ -1,0 +1,19 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & 2 \\
+    0 & -1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 2 & 2 \\
+    -1 & -1 & 2
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 2 \\
+    -1 & 0 \\
+    2 & -2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule $A^2$ y $A^{2016}.$</li>
+    <li>Resuelva la ecuación matricial $AX - B = C^t.$</li>
+</ol>

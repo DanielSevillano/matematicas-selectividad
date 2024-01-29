@@ -1,0 +1,9 @@
+El 55% de los asistentes a un concierto son menores de 20 años.
+El 30% de los menores de 20 años y el 25% de los mayores de esa edad son chicas.
+Se elige uno de los asistentes al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sea chica?</li>
+    <li>¿Cuál es la probabilidad de que sea mayor de 20 años, sabiendo que es una chica?</li>
+    <li>¿Cuál es la probabilidad de que sea menor de 20 años, sabiendo que es un chico?</li>
+</ol>

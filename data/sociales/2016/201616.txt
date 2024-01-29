@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \frac{3x+1}{x-1}.$$
+
+<ol>
+    <li>
+        Estudie su continuidad y derivabilidad.
+        Calcule la función derivada.
+    </li>
+    <li>Calcule las ecuaciones de sus asíntotas, en caso de que existan.</li>
+    <li>Halle los puntos de la gráfica de $f$ donde la recta tangente sea tal que su pendiente valga -1.</li>
+</ol>
