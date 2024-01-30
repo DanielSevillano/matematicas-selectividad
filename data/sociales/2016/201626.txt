@@ -1,0 +1,11 @@
+Los beneficios de una empresa, en miles de euros, han evolucionado en los 25 años de su existencia según una función del tiempo, en años, dada por la siguiente expresión:
+$$B(t) = \begin{cases}
+    4t, & \text{si } 0 \leq t < 10, \\
+    -\frac{1}{5}t^2 + 8t - 20, & \text{si } 10 \leq t \leq 25.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de $B$ en el intervalo $[0, 25].$</li>
+    <li>Estudie la monotonía de esta función y determine en qué año fueron mayores los beneficios de esta empresa y cuál fue su beneficio máximo.</li>
+    <li>Represente gráficamente esta función.</li>
+</ol>

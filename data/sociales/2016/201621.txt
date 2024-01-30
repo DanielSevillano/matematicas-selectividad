@@ -1,0 +1,22 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & 2 \\
+    0 & -3
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & -1 \\
+    0 & 2 \\
+    1 & -1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 4 & 0 \\
+    2 & -3 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Resuelve la ecuación matricial $CBX - 2AX = A^t.$</li>
+    <li>
+        Analice cuáles de las siguientes operaciones, sin efectuarlas, se pueden realizar y justifique las respuestas:
+        $$BC + 2A, \quad AC + C, \quad B^tC, \quad CB - A.$$
+    </li>
+</ol>

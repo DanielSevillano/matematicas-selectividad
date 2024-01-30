@@ -1,0 +1,9 @@
+De los sucesos $A$ y $B$ de un experimento aleatorio se conocen las siguientes probabilidades:
+$$P(A) = 0,4, \quad P(B) = 0,5 \quad \text{y} \quad P((A \cup B)^c) = 0,1.$$
+
+<ol>
+    <li>Razone si $A$ y $B$ son sucesos compatibles.</li>
+    <li>Razone si $A$ y $B$ son sucesos independientes.</li>
+    <li>Calcule $P(A \cap B^c).$</li>
+    <li>Calcule $P(A | B^c).$</li>
+</ol>

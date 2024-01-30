@@ -1,0 +1,8 @@
+El 60% de los jóvenes de una ciudad usa Facebook, el 80% usa WhatsApp y el 4% usa Facebook pero no WhatsApp.
+
+<ol>
+    <li>Halle el porcentaje de jóvenes de esa ciudad que usa ambas aplicaciones.</li>
+    <li>Calcule el porcentaje de esos jóvenes que usa WhatsApp pero no Facebook.</li>
+    <li>Entre los jóvenes que usan WhatsApp, ¿qué porcentaje usa también Facebook?</li>
+    <li>Los sucesos "usar Facebook" y "usar WhatsApp", ¿son independientes?</li>
+</ol>

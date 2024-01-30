@@ -1,0 +1,12 @@
+<ol>
+    <li>
+        La talla de los individuos de una población sigue una distribución Normal con desviación típica 8 cm y media desconocida.
+        A partir de una muestra aleatoria se ha obtenido un intervalo de confianza al 95% para estimar la talla media poblacional, que ha resultado ser $(164,86; 171,14)$ en cm.
+        Calcule la talla media de la muestra y el tamaño muestral mínimo necesario para reducir a la mitad el error máximo de estimación anterior.
+    </li>
+
+    <li>
+        En un club privado con 243 usuarios se ha seleccionado una muestra para hacer un sondeo, según la actividad realizada y por muestreo aleatorio estratificado.
+        En esa muestra, 5 usuarios practican Yoga, 7 Pilates y 15 Mantenimiento, ¿cuántos usuarios están inscritos en cada actividad en ese club?
+    </li>
+</ol>

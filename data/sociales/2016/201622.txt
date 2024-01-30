@@ -1,0 +1,7 @@
+Una fábrica produce entre 1.000 y 6.000 bombillas al día.
+El coste diario de producción, en euros, de $x$ bombillas viene dado por la función
+$$C(x) = 9.000 + 0,08x + \frac{2.000.000}{x},$$
+con $1.000 \leq x \leq 6.000.$
+
+¿Cuántas bombillas deberían producirse diariamente para minimizar costes?
+¿Cuál sería dicho coste?

@@ -2286,6 +2286,57 @@
         ]
     },
     {
+        "ejercicio": 201621,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 201622,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201623,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201624,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201625,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201626,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201627,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201628,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
         "ejercicio": 201651,
         "categorias": [
             "Álgebra"
