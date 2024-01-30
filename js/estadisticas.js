@@ -89,11 +89,7 @@ async function obtenerDatos() {
     tarjetaExamenesSociales.classList.add("tarjeta");
     tarjetaExamenesSociales.textContent = (numeroEjerciciosSociales / 8) + " examenes";
 
-    const tarjetaProgresoAnualSociales = document.createElement("div");
-    tarjetaProgresoAnualSociales.classList.add("tarjeta");
-    tarjetaProgresoAnualSociales.textContent = (numeroEjerciciosSociales / 366 * 100).toFixed(2).replace(".", ",") + "% de 366"
-
-    seccionSociales.append(tarjetaExamenesSociales, tarjetaEjerciciosSociales, tarjetaProgresoAnualSociales);
+    seccionSociales.append(tarjetaExamenesSociales, tarjetaEjerciciosSociales);
     seccionSociales.classList.remove("cargando");
 }
 
