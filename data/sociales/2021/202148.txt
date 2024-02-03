@@ -1,4 +1,4 @@
-El peso de los paquetes de arroz de una marca comercial concreta sigue una ley Normal de media 1000 g y varianza 256 g<sup>2</sup>.
+El peso de los paquetes de arroz de una marca comercial concreta sigue una ley Normal de media 1.000 g y varianza 256 g<sup>2</sup>.
 
 <ol>
     <li>Calcule la probabilidad de que el peso medio de las muestras de tamaño 64 sea menor que 996 g.</li>
