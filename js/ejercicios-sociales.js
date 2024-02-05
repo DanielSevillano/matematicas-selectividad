@@ -9,6 +9,10 @@ const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
+const cinta = document.querySelector("#cinta");
+const contador = cinta.querySelector("#contador");
+
+let categoriaSeleccionada;
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
@@ -27,7 +31,9 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
-        mostrarCategoria("sociales", categoria);
+        mostrarCategoria("sociales", categoria, false, contador);
+        categoriaSeleccionada = categoria;
+        cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
         botones.forEach(b => {
