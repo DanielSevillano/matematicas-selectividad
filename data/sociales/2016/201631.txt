@@ -1,0 +1,8 @@
+Sea la región factible definida por las siguientes inecuaciones:
+$$x + y \leq 20, \quad x-y \geq 0, \quad 5x - 13y + 8 \leq 0.$$
+
+<ol>
+    <li>Represéntela gráficamente y calcule sus vértices.</li>
+    <li>Razone si el punto $(3; 2,5)$ está en la región factible.</li>
+    <li>Determine el valor máximo y el mínimo de la función $F(x, y) = x - y + 6$ en esa región y los puntos en los que se alcanzan.</li>
+</ol>

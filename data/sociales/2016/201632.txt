@@ -1,0 +1,14 @@
+<ol>
+    <li>
+        Calcule las derivadas de las siguientes funciones:
+        $$f(x) = (x^2 - 1)(3x^3 + 5x)^3, \quad g(x) = \frac{\ln(3x)}{e^{2x}}.$$
+    </li>
+    
+    <li>
+        Calcule la ecuación de la recta tangente a la gráfica de la función
+        $$h(x) = \frac{3x+6}{2x+1}$$
+        en el punto de abscisa $x = 1.$
+    </li>
+
+    <li>Determine, si existen, las ecuaciones de las asíntotas de la función $h(x).$</li>
+</ol>

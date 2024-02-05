@@ -1,0 +1,9 @@
+En un centro de estudios que tiene 250 estudiantes, hay 50 que tienen problemas visuales y 20 que tienen problemas auditivos.
+Los sucesos "tener problemas visuales" y "tener problemas auditivos" son independientes.
+Se elige un estudiante al azar, calcule las probabilidades de los sucesos siguientes:
+
+<ol>
+    <li>Tener problemas visuales y auditivos.</li>
+    <li>No tener problemas visuales ni auditivos.</li>
+    <li>Tener algún problema auditivo si no tiene problemas visuales.</li>
+</ol>

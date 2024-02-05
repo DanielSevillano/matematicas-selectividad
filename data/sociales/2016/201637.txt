@@ -1,0 +1,8 @@
+En un aeropuerto internacional operaron 300.000 vuelos en un determinado año, distribuidos de la siguiente forma: 150.000 en la terminal A, 100.000 en la B y 50.000 en la C.
+En ese año se sabe que sufrieron retrasos el 10% de los vuelos de la terminal A, el 8% de la B y el 5% de la C.
+Determine, para un vuelo elegido al azar, las probabilidades de los siguientes sucesos:
+
+<ol>
+    <li>Que no sufriera retraso.</li>
+    <li>Que operase en la terminal A, sabiendo que tuvo retraso.</li>
+</ol>

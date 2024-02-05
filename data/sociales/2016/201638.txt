@@ -1,0 +1,7 @@
+El peso de los paquetes de azúcar de una marca, medido en gramos, sigue una distribución Normal con desviación típica de 16 gramos.
+A partir de una muestra de 100 paquetes de azúcar de dicha marca, se obtuvo un peso medio de 247 gramos.
+
+<ol>
+    <li>Obtenga un intervalo de confianza para el peso medio de los paquetes de azúcar de esa marca, con un nivel de confianza del 97%.</li>
+    <li>Determine el tamaño muestral mínimo necesario para estimar el peso medio con un error máximo de 0,5 gramos, a un nivel de confianza del 95%.</li>
+</ol>

@@ -1,0 +1,17 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    2 & 4 \\
+    -2 & -6
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & 0 & 1 \\
+    1 & -2 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Resuelva la ecuación matricial $X(BB^t) = \frac{1}{2}A - 2A^t.$</li>
+    <li>
+        Razone cuáles de las siguientes operaciones pueden realizarse e indique, en su caso, la dimensión de la matriz resultante:
+        $$AB, \quad AB^t, \quad BA^{-1}, \quad B^tA + A^{-1}.$$
+    </li>
+</ol>

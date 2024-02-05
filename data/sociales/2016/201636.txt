@@ -1,0 +1,12 @@
+La función de costes de una fábrica, $f(x)$, en miles de euros, viene dada por la expresión:
+$$f(x) = 2x^2 - 36x + 200,$$
+donde $x$ es la cantidad fabricada del producto en miles de kilogramos.
+
+<ol>
+    <li>Determine la cantidad a fabricar para minimizar el coste y calcule este coste mínimo.</li>
+    <li>A partir del signo de $f'(7)$, ¿qué se puede decir del coste para una producción de siete mil kilogramos?</li>
+    <li>
+        Dibuje la gráfica de la función de costes.
+        ¿Para qué cantidad o cantidades fabricadas el coste es de 200.000€?
+    </li>
+</ol>
