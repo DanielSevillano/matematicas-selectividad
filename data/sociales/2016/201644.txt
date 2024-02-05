@@ -1,0 +1,8 @@
+Para estudiar el número de personas que van al cine mensualmente en una ciudad, se ha seleccionado una muestra aleatoria de 10 meses y se ha registrado el número de entradas al cine vendidas en cada mes.
+Los datos son los siguientes:
+$$682 \quad 553 \quad 555 \quad 666 \quad 657 \quad 649 \quad 522 \quad 568 \quad 700 \quad 552.$$
+
+<ol>
+    <li>Suponiendo que el número de entradas vendidas mensualmente sigue una distribución Normal con desviación típica 50 entradas, calcule un intervalo de confianza, con un nivel del 95%, para el número medio de personas que van al cine mensualmente en esa ciudad.</li>
+    <li>¿Cuál es el error máximo que se comete al estimar esta media con este intervalo?</li>
+</ol>

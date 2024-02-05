@@ -1,0 +1,20 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    3 & 0 \\
+    1 & 2
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    -2 & 3
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    -1 \\
+    -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Justifique cuáles de las siguientes operaciones se pueden realizar y en dichos casos calcule el resultado:
+        $$AB, \quad BA, \quad BC, \quad C^tB^t.$$
+    </li>
+    <li>Calcule la matriz $X$ en la ecuación $AX + B^t = 4C.$</li>
+</ol>

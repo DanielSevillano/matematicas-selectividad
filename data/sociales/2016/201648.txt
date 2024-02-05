@@ -1,0 +1,3 @@
+La proporción de nacimientos que ocurren con luna llena en los hospitales de una ciudad se consideraba no inferior a 0,45, pero un estudio afirma que en la actualidad esta proporción ha descendido.
+Para contrastar esta hipótesis se han elegido al azar, en estos hospitales, a 200 recién nacidos, de los cuales 70 nacieron con luna llena.
+Decida mediante un contraste de hipótesis, con $H_0 : p \geq 0,45$, si la afirmación del estudio es correcta con un nivel de significación del 1%, indicando la región de rechazo.

@@ -1,0 +1,12 @@
+<ol>
+    <li>Si $A$ es una matriz de dimensión $m \times n$, indique la dimensión de una matriz $X$ si se verifica que $(A^tA)X = I_n.$</li>
+    <li>
+        Calcule dicha matriz $X$ en el caso en que
+        $$A = \begin{pmatrix}
+            1 & 1 \\
+            1 & -1 \\
+            1 & 1
+        \end{pmatrix}.$$
+    </li>
+    <li>Calcule, si es posible, el producto $A(A^tA).$</li>
+</ol>

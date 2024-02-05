@@ -1,0 +1,8 @@
+De los alumnos que se presentaron a las pruebas de selectividad de una provincia, 1.150 se examinaron de Geografía; de estos, 598 eligieron la opción A.
+Se sabe que aprobaron esa asignatura el 78% de los que eligieron la opción A y el 74% de los que eligieron la opción B.
+Se ha escogido al azar uno de los alumnos que se examinaron de Geografía.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que este alumno haya aprobado esta asignatura?</li>
+    <li>Si se sabe que este alumno ha aprobado Geografía, ¿cuál es la probabilidad de que haya elegido la opción A?</li>
+</ol>

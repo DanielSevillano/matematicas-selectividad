@@ -1,0 +1,14 @@
+Sea la función
+$$f(x) = \begin{cases}
+    \frac{1}{a}x^2 + 1, & \text{si } x \leq 2, \\
+    -x + a, & \text{si } x > 2,
+\end{cases}$$
+con $a > 0.$
+
+<ol>
+    <li>
+        Calcule el valor del parámetro $a$ para que la función sea continua en su dominio.
+        En este caso, ¿sería derivable en su dominio?
+    </li>
+    <li>Para el valor $a = 4$, represente gráficamente la función y halle la ecuación de la recta tangente a la gráfica de la función en el punto de abscisa $x = -1.$</li>
+</ol>

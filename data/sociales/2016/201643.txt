@@ -1,0 +1,9 @@
+Disponemos de tres monedas: 1 dólar, 1 libra y 1 euro.
+La moneda de 1 dólar está trucada y la probabilidad de que salga cara es el doble de la probabilidad de que salga cruz.
+La moneda de 1 libra también está trucada y tiene dos caras y la de 1 euro es correcta.
+Se escoge una de las tres monedas al azar y se lanza.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que salga cara?</li>
+    <li>Sabiendo que salió cruz, ¿cuál es la probabilidad de que la moneda lanzada fuera la de 1 dólar?</li>
+</ol>
