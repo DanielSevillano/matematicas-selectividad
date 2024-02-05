@@ -12,7 +12,9 @@ async function ejercicioDiario(seccion) {
     const inicio = new Date(fecha.getFullYear(), 0, 1);
     const diferencia = fecha - inicio;
     const semilla = Math.ceil(diferencia / 86400000);
-    const indice = (semilla * 115) % 366;
+    let multiplicador = 115
+    if (modalidad == "sociales") multiplicador = 119
+    const indice = (semilla * multiplicador) % 366;
 
     const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
     const datos = await respuesta.json();
