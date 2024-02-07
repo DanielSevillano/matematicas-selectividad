@@ -1,0 +1,52 @@
+<ol>
+    <li>
+        En primer lugar, calculamos el determinante de la matriz $A.$
+        $$|A| = \begin{vmatrix}
+            1 & 2 & 1 \\
+            1 & 1 & 1 \\
+            1 & -1 & -1
+        \end{vmatrix} = 2.$$
+
+        Como $\det(A) \neq 0$, $A$ es invertible.
+        Para hallar la inversa de la matriz, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A) = \begin{pmatrix}
+            0 & 2 & -2 \\
+            1 & -2 & 3 \\
+            1 & 0 & -1
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular su inversa como
+        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{2} \begin{pmatrix}
+            0 & 1 & 1 \\
+            2 & -2 & 0 \\
+            -2 & 3 & -1
+        \end{pmatrix} = \begin{pmatrix}
+            0 & \frac{1}{2} & \frac{1}{2} \\
+            1 & -1 & 0 \\
+            -1 & \frac{3}{2} & -\frac{1}{2}
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Resolvemos la ecuación matricial.
+        \begin{align}
+            & AX + (A-X)^2 = X^2 + I \Leftrightarrow AX + (A-X)(A-X) = X^2 + I \Leftrightarrow AX + A^2 - AX - XA + X^2 = X^2 + I \Leftrightarrow \\
+            & \Leftrightarrow A^2 - XA = I \Leftrightarrow XA = A^2 - I \Leftrightarrow X = (A^2 - I)A^{-1} \Leftrightarrow X = A - A^{-1}.
+        \end{align}
+
+        Operando,
+        $$X = \begin{pmatrix}
+            1 & 2 & 1 \\
+            1 & 1 & 1 \\
+            1 & -1 & -1
+        \end{pmatrix} - \begin{pmatrix}
+            0 & \frac{1}{2} & \frac{1}{2} \\
+            1 & -1 & 0 \\
+            -1 & \frac{3}{2} & -\frac{1}{2}
+        \end{pmatrix} = \begin{pmatrix}
+            1 & \frac{3}{2} & \frac{1}{2} \\
+            0 & 2 & 1 \\
+            2 & -\frac{5}{2} & -\frac{1}{2}
+        \end{pmatrix}.$$
+    </li>
+</ol>
