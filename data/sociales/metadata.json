@@ -40,6 +40,7 @@
         "ejercicio": 202307,
         "categorias": [
             "Estadística",
+            "Muestreo",
             "Estimación de la media"
         ]
     },
@@ -97,6 +98,7 @@
         "ejercicio": 202317,
         "categorias": [
             "Estadística",
+            "Muestreo",
             "Estimación de la proporción"
         ]
     },
@@ -313,7 +315,7 @@
         "ejercicio": 202357,
         "categorias": [
             "Estadística",
-            "Estimación de la media"
+            "Muestreo"
         ]
     },
     {
@@ -423,7 +425,7 @@
         "ejercicio": 202217,
         "categorias": [
             "Estadística",
-            "Estimación de la media"
+            "Muestreo"
         ]
     },
     {
@@ -690,7 +692,7 @@
         "ejercicio": 202107,
         "categorias": [
             "Estadística",
-            "Estimación de la media"
+            "Muestreo"
         ]
     },
     {
@@ -800,6 +802,7 @@
         "ejercicio": 202127,
         "categorias": [
             "Estadística",
+            "Muestreo",
             "Estimación de la proporción"
         ]
     },
@@ -855,7 +858,7 @@
         "ejercicio": 202137,
         "categorias": [
             "Estadística",
-            "Estimación de la media"
+            "Muestreo"
         ]
     },
     {
@@ -1295,7 +1298,7 @@
         "ejercicio": 202057,
         "categorias": [
             "Estadística",
-            "Estimación de la media"
+            "Muestreo"
         ]
     },
     {
@@ -1645,7 +1648,7 @@
         "ejercicio": 201804,
         "categorias": [
             "Estadística",
-            "Estimación de la media"
+            "Muestreo"
         ]
     },
     {
@@ -1913,6 +1916,7 @@
         "ejercicio": 201854,
         "categorias": [
             "Estadística",
+            "Muestreo",
             "Estimación de la proporción"
         ]
     },
@@ -2392,6 +2396,7 @@
         "ejercicio": 201624,
         "categorias": [
             "Estadística",
+            "Muestreo",
             "Estimación de la media"
         ]
     },
@@ -2580,7 +2585,8 @@
     {
         "ejercicio": 201658,
         "categorias": [
-            "Estadística"
+            "Estadística",
+            "Muestreo"
         ]
     }
 ]
