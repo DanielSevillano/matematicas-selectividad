@@ -76,6 +76,8 @@
         "ejercicio": 202314,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Asíntotas"
         ]
     },
@@ -129,7 +131,8 @@
     {
         "ejercicio": 202324,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad"
         ]
     },
     {
@@ -175,13 +178,16 @@
         "ejercicio": 202333,
         "categorias": [
             "Análisis",
+            "Continuidad",
             "Integrales"
         ]
     },
     {
         "ejercicio": 202334,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -227,6 +233,8 @@
         "ejercicio": 202343,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -339,6 +347,8 @@
         "ejercicio": 202204,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -385,6 +395,8 @@
         "ejercicio": 202213,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -443,6 +455,8 @@
         "ejercicio": 202224,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -488,7 +502,9 @@
     {
         "ejercicio": 202233,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -548,6 +564,8 @@
         "ejercicio": 202244,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -645,6 +663,7 @@
         "ejercicio": 202103,
         "categorias": [
             "Análisis",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -698,6 +717,8 @@
         "ejercicio": 202113,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -751,6 +772,8 @@
         "ejercicio": 202123,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -804,6 +827,8 @@
         "ejercicio": 202133,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -856,6 +881,8 @@
         "ejercicio": 202143,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -908,13 +935,16 @@
         "ejercicio": 202153,
         "categorias": [
             "Análisis",
+            "Continuidad",
             "Integrales"
         ]
     },
     {
         "ejercicio": 202154,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -1020,6 +1050,8 @@
         "ejercicio": 202014,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Asíntotas"
         ]
     },
@@ -1073,6 +1105,8 @@
         "ejercicio": 202024,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -1119,6 +1153,8 @@
         "ejercicio": 202033,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Asíntotas",
             "Recta tangente"
         ]
@@ -1172,13 +1208,16 @@
         "ejercicio": 202043,
         "categorias": [
             "Análisis",
-            "Recta tangente"
+            "Recta tangente",
+            "Integrales"
         ]
     },
     {
         "ejercicio": 202044,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Recta tangente",
             "Integrales"
         ]
@@ -1226,6 +1265,8 @@
         "ejercicio": 202053,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Asíntotas"
         ]
     },
@@ -1233,6 +1274,8 @@
         "ejercicio": 202054,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -1299,7 +1342,9 @@
     {
         "ejercicio": 201906,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -1377,7 +1422,9 @@
     {
         "ejercicio": 201922,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -1402,7 +1449,9 @@
     {
         "ejercicio": 201926,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -1609,6 +1658,8 @@
         "ejercicio": 201806,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Recta tangente"
         ]
     },
@@ -1634,7 +1685,9 @@
     {
         "ejercicio": 201812,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -1659,7 +1712,9 @@
     {
         "ejercicio": 201816,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -1763,7 +1818,9 @@
     {
         "ejercicio": 201836,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -1789,6 +1846,8 @@
         "ejercicio": 201842,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Asíntotas"
         ]
     },
@@ -1866,7 +1925,9 @@
     {
         "ejercicio": 201856,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -1891,7 +1952,8 @@
     {
         "ejercicio": 201702,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad"
         ]
     },
     {
@@ -1945,6 +2007,8 @@
         "ejercicio": 201712,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Asíntotas"
         ]
     },
@@ -1970,7 +2034,9 @@
     {
         "ejercicio": 201716,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -2073,6 +2139,7 @@
         "ejercicio": 201736,
         "categorias": [
             "Análisis",
+            "Derivabilidad",
             "Recta tangente"
         ]
     },
@@ -2099,7 +2166,8 @@
     {
         "ejercicio": 201742,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad"
         ]
     },
     {
@@ -2123,7 +2191,8 @@
     {
         "ejercicio": 201746,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Derivabilidad"
         ]
     },
     {
@@ -2201,6 +2270,7 @@
         "ejercicio": 201602,
         "categorias": [
             "Análisis",
+            "Derivabilidad",
             "Asíntotas"
         ]
     },
@@ -2228,6 +2298,7 @@
         "ejercicio": 201606,
         "categorias": [
             "Análisis",
+            "Continuidad",
             "Asíntotas",
             "Recta tangente"
         ]
@@ -2281,6 +2352,8 @@
         "ejercicio": 201616,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Asíntotas"
         ]
     },
@@ -2332,7 +2405,9 @@
     {
         "ejercicio": 201626,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -2410,6 +2485,8 @@
         "ejercicio": 201642,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Recta tangente"
         ]
     },
@@ -2435,7 +2512,9 @@
     {
         "ejercicio": 201646,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -2487,6 +2566,8 @@
         "ejercicio": 201656,
         "categorias": [
             "Análisis",
+            "Continuidad",
+            "Derivabilidad",
             "Asíntotas"
         ]
     },
