@@ -1,0 +1,120 @@
+<ol>
+    <li>
+        La matriz de coeficientes del sistema es
+        $$A = \begin{pmatrix}
+            m & 2 & -1 \\
+            5 & -4 & 2 \\
+            1 & 3m & 0
+        \end{pmatrix}.$$
+
+        Observamos que
+        $$\begin{vmatrix}
+            5 & 2 \\
+            1 & 0
+        \end{vmatrix} = -2 \neq 0,$$
+        así que $\mathrm{rang}(A) \geq 2.$
+
+        Para determinar el rango de $A$ en función del valor de $m$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            m & 2 & -1 \\
+            5 & -4 & 2 \\
+            1 & 3m & 0
+        \end{vmatrix} = 4 - 15m - 4 - 6m^2 = -6m^2 - 15m.$$
+
+        Podemos ver que
+        $$|A| = 0 \Leftrightarrow -6m^2 - 15m = 0 \Leftrightarrow m(6m + 15) = 0 \Leftrightarrow \begin{cases}
+            m = 0, \\
+            6m + 15 = 0 \Leftrightarrow m = -\frac{15}{6} = -\frac{5}{2}.
+        \end{cases}$$
+
+        Así que, si $m \neq -\frac{5}{2}$ y $m \neq 0$, entonces $\mathrm{rang}(A) = 3.$
+        En caso contrario, $\mathrm{rang}(A) = 3.$
+        Por tanto,
+
+        <ul>
+            <li>
+                Si $m \neq -\frac{5}{2}$ y $m \neq 0$, el rango de la matriz de coeficientes es máximo.
+                Por el teorema de Rouché-Frobenius, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $m = -\frac{5}{2}$, la matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    -\frac{5}{2} & 2 & -1 & 1 \\
+                    5 & -4 & 2 & 0 \\
+                    1 & -\frac{15}{2} & 0 & -\frac{21}{10}
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    2 & -1 & 1 \\
+                    -4 & 2 & 0 \\
+                    -\frac{15}{2} & 0 & -\frac{21}{10}
+                \end{vmatrix} = 15 \neq 0,$$
+                así que $\mathrm{rang}(A|B) = 3.$
+                Como los rangos no coinciden, el sistema es incompatible por el teorema de Rouché-Frobenius.
+            </li>
+
+            <li>
+                Si $m = 0$, la matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    0 & 2 & -1 & 1 \\
+                    5 & -4 & 2 & 0 \\
+                    1 & 0 & 0 & \frac{2}{5}
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    2 & -1 & 1 \\
+                    -4 & 2 & 0 \\
+                    0 & 0 & \frac{2}{5}
+                \end{vmatrix} = 0,$$
+                así que $\mathrm{rang}(A|B) = 2.$
+                Como $\mathrm{rang}(A) = \mathrm{rang}(A|B) < 3$, el sistema es compatible indeterminado por el teorema de Rouché-Frobenius.
+            </li>
+        </ul>
+    </li>
+
+
+    <li>
+        Si $m = 0$, el sistema es compatible indeterminado, así que tiene infinitas soluciones.
+        Resolvemos el sistema mediante el método de Gauss.
+        $$\begin{pmatrix}
+            0 & 2 & -1 & 1 \\
+            5 & -4 & 2 & 0 \\
+            1 & 0 & 0 & \frac{2}{5}
+        \end{pmatrix} \xrightarrow{F_2 - 5F_3}
+        \begin{pmatrix}
+            0 & 2 & -1 & 1 \\
+            0 & -4 & 2 & -2 \\
+            1 & 0 & 0 & \frac{2}{5}
+        \end{pmatrix} \xrightarrow{F_2 + 2F_1}
+        \begin{pmatrix}
+            0 & 2 & -1 & 1 \\
+            0 & 0 & 0 & 0 \\
+            1 & 0 & 0 & \frac{2}{5}
+        \end{pmatrix} \to
+        \begin{pmatrix}
+            0 & 2 & -1 & 1 \\
+            1 & 0 & 0 & \frac{2}{5}
+        \end{pmatrix}.$$
+
+        El sistema resultante es
+        \begin{cases}
+            2y - z = 1, \\
+            x = \frac{2}{5}.
+        \end{cases}
+
+        Si tomamos $y = \lambda$, entonces
+        $$2y - z = 1 \xrightarrow{y = \lambda} 2\lambda - z = 1 \Leftrightarrow z = 2\lambda - 1.$$
+        
+        Por tanto, las soluciones del sistema son de la forma
+        $$\begin{cases}
+            x = \frac{2}{5}, \\
+            y = \lambda, \\
+            z = 2\lambda - 1,
+        \end{cases} \quad \lambda \in \mathbb{R}.$$
+
+        Observamos que no existe ninguna solución con $x = 0.$
+    </li>
+</ol>
