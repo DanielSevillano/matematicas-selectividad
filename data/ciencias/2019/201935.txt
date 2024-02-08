@@ -1,1 +1,3 @@
-Dada $f: (1, e) \to \mathbb{R}$ la función definida por $f(x) = \frac{1}{x} + \ln(x)$, determina la recta tangente a la gráfica de $f$ que tiene pendiente máxima.
+Dada $f: (1, e) \to \mathbb{R}$ la función definida por
+$$f(x) = \frac{1}{x} + \ln(x),$$
+determina la recta tangente a la gráfica de $f$ que tiene pendiente máxima.
