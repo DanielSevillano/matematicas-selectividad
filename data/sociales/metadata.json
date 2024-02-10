@@ -665,7 +665,6 @@
         "ejercicio": 202103,
         "categorias": [
             "Análisis",
-            "Derivabilidad",
             "Integrales"
         ]
     },
@@ -939,6 +938,7 @@
         "categorias": [
             "Análisis",
             "Continuidad",
+            "Derivabilidad",
             "Integrales"
         ]
     },
