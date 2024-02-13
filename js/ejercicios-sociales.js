@@ -59,7 +59,7 @@ botonAleatorio.addEventListener("click", () => {
     boton.click();
     if (["analisis", "continuidad", "derivabilidad", "monotonia", "asintotas", "recta-tangente", "integrales"].includes(categoria)) document.querySelector("#grupo-analisis").click();
     else if (["programacion-lineal", "problemas-de-optimizacion"].includes(categoria)) document.querySelector("#grupo-programacion-lineal").click();
-    else if (["algebra", "problemas-de-matrices"].includes(categoria)) document.querySelector("#grupo-algebra").click();
+    else if (["algebra", "ecuaciones-matriciales", "problemas-de-matrices"].includes(categoria)) document.querySelector("#grupo-algebra").click();
     else document.querySelector("#grupo-estadistica").click();
 });
 
@@ -69,7 +69,7 @@ else {
         document.querySelector("#boton-" + categoria).click();
         if (["analisis", "continuidad", "derivabilidad", "monotonia", "asintotas", "recta-tangente", "integrales"].includes(categoria)) document.querySelector("#grupo-analisis").click();
         else if (["programacion-lineal", "problemas-de-optimizacion"].includes(categoria)) document.querySelector("#grupo-programacion-lineal").click();
-        else if (["algebra", "problemas-de-matrices"].includes(categoria)) document.querySelector("#grupo-algebra").click();
+        else if (["algebra", "ecuaciones-matriciales", "problemas-de-matrices"].includes(categoria)) document.querySelector("#grupo-algebra").click();
         else document.querySelector("#grupo-estadistica").click();
     }
     catch {
