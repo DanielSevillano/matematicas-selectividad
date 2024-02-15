@@ -15,11 +15,11 @@
 </p>
 
 <p>
-    En primer lugar, calculamos la derivada de la función $f.$
-    $$f'(x) = -6x^2 + 24.$$
+    En primer lugar, calculamos la derivada de la función $S.$
+    $$S'(x) = -6x^2 + 24.$$
 
-    Hallamos los puntos críticos de $f$ igualando la derivada a cero.
-    $$f'(x) = 0 \Leftrightarrow -6x^2 + 24 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$
+    Hallamos los puntos críticos de $S$ igualando la derivada a cero.
+    $$S'(x) = 0 \Leftrightarrow -6x^2 + 24 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$
 
     Como $x \geq 0$ por ser una distancia, la solución $x = -2$ no es válida para este problema.
 </p>
@@ -28,11 +28,11 @@
     Comprobamos que en el punto de abscisa $x = 2$ se alcanza el máximo de la función.
     <ul>
         <li>Si $-2 < x < 2$, $f'(x) > 0.$
-        Así que $f$ es creciente.</li>
+        Así que $S$ es creciente.</li>
         <li>Si $x > 2$, $f'(x) < 0.$
-        Así que $f$ es decreciente.</li>
+        Así que $S$ es decreciente.</li>
     </ul>
-    Luego $f$ tiene un máximo en $x = 2.$
+    Luego $S$ tiene un máximo en $x = 2.$
     Por tanto, $y = -x^2 + 12 = 8.$
 </p>
 
