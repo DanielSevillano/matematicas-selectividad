@@ -964,6 +964,7 @@
     },
     {
         "ejercicio": 202134,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"

@@ -59,7 +59,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Julio (1, 3)
     - [ ] Reserva 1 (5)
     - [ ] Reserva 2 (1, 5, 6)
-    - [ ] Reserva 3 (6)
+    - [ ] Reserva 3 (4, 6)
     - [ ] Reserva 4 (1)
 - [ ] 2020
     - [ ] Reserva 1 (1)
