@@ -1,0 +1,46 @@
+<p>
+    La semicircunferencia es simétrica, así que todo rectángulo inscrito en ella estará centrado.
+    Llamamos $x$ a la distancia en centímetros del centro a cada uno de los extremos del rectángulo horizontalmente.
+    Por otro lado, llamamos $y$ a la altura en centímetros del rectángulo.
+    Como $x$ e $y$ son distancias no nulas, entonces $x, y > 0.$
+    Representamos la figura.
+
+    <img src="img/R202311.png" alt="Figura" loading="lazy">
+</p>
+
+<p>
+    Como la base del rectángulo es $2x$, entonces el área viene dada por $2xy.$
+    Como además la mitad del rectángulo forma un triángulo rectángulo con hipotenusa de 6 cm, entonces
+    $$x^2 + y^2 = 6^2 \Rightarrow y = \sqrt{36 - x^2}.$$
+    Por tanto, la función a maximizar es
+    $$S(x) = 2x \cdot y = 2x \cdot \sqrt{36 - x^2} = \sqrt{4x^2(36-x^2)} = \sqrt{144x^2 - 4x^4}.$$
+</p>
+
+<p>
+    En primer lugar, calculamos la derivada de la función $S.$
+    $$S'(x) = \frac{288x - 16x^3}{2\sqrt{144x^2 - 4x^4}} = \frac{144x - 8x^3}{\sqrt{144x^2 - 4x^4}}.$$
+
+    Hallamos los puntos críticos de $S$ igualando la derivada a cero.
+    $$S'(x) = 0 \Leftrightarrow \frac{144x - 8x^3}{\sqrt{144x^2 - 4x^4}} = 0 \Leftrightarrow 144x - 8x^3 = 0 \Leftrightarrow 8x(18 - x^2) = 0 \Leftrightarrow \begin{cases}
+        x = 0, \\
+        18 - x^2 = 0 \Leftrightarrow x = \pm \sqrt{18} = \pm 3\sqrt{2}.
+    \end{cases}$$
+
+    Como $x > 0$ por ser una distancia no nula, las soluciones $x = 0$ y $x = -3\sqrt{2}$ no son válidas para este problema.
+</p>
+
+<p>
+    Comprobamos que en el punto de abscisa $x = 3\sqrt{2}$ se alcanza el máximo de la función.
+    <ul>
+        <li>Si $0 < x < 3\sqrt{2}$, $S'(x) > 0.$
+        Así que $S$ es creciente.</li>
+        <li>Si $x > 3\sqrt{2}$, $S'(x) < 0.$
+        Así que $S$ es decreciente.</li>
+    </ul>
+    Luego $S$ tiene un máximo en $x = 3\sqrt{2}.$
+    Por tanto, $y = \sqrt{36 - x^2} = \sqrt{18} = 3\sqrt{2}.$
+</p>
+
+<p>
+    Así que el rectángulo tiene base $6\sqrt{2}$ cm y altura $3\sqrt{2}$ cm.
+</p>

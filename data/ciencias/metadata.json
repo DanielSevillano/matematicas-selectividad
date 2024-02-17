@@ -71,6 +71,7 @@
     },
     {
         "ejercicio": 202311,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Optimización"
