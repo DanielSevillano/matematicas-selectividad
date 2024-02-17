@@ -29,9 +29,9 @@
 <p>
     Comprobamos que en el punto de abscisa $x = 2$ se alcanza el máximo de la función.
     <ul>
-        <li>Si $-2 < x < 2$, $f'(x) > 0.$
+        <li>Si $-2 < x < 2$, $S'(x) > 0.$
         Así que $S$ es creciente.</li>
-        <li>Si $x > 2$, $f'(x) < 0.$
+        <li>Si $x > 2$, $S'(x) < 0.$
         Así que $S$ es decreciente.</li>
     </ul>
     Luego $S$ tiene un máximo en $x = 2.$
