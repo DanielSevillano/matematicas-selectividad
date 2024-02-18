@@ -1,16 +1,10 @@
-Considera el recinto del primer cuadrante limitado por el eje $OX$, la recta $y = x$, la gráfica
-$$y = \frac{1}{x^3}$$
-y la recta $x = 3.$
+Considera el recinto del primer cuadrante limitado por el eje $OX$, la recta $y = x$, la gráfica $y = \frac{1}{x^3}$ y la recta $x = 3.$
 
 <ol>
     <li>Haz un esbozo del recinto descrito.</li>
     <li>Calcula el área del recinto.</li>
     <li>
-        Si consideras la gráfica
-        $$y = \frac{1}{x}$$
-        en lugar de
-        $$y = \frac{1}{x^3},$$
-        el área del recinto correspondiente ¿será mayor o será menor que la del recinto inicial?
+        Si consideras la gráfica $y = \frac{1}{x}$ en lugar de $y = \frac{1}{x^3}$, el área del recinto correspondiente ¿será mayor o será menor que la del recinto inicial?
         ¿Por qué?
     </li>
 </ol>
