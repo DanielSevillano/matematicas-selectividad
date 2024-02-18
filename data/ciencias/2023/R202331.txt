@@ -1,0 +1,37 @@
+<p>
+    Llamamos $x$ e $y$ al largo y al ancho del rectángulo en centímetros, respectivamente.
+    Como $x$ e $y$ son distancias, entonces $x, y \geq 0.$
+</p>
+
+<p>
+    Como la diagonal es la hipotenusa de un triángulo rectángulo y mide 10 cm, entonces
+    $$x^2 + y^2 = 10^2 \Rightarrow y = \sqrt{100 - x^2}.$$
+    Así que la función a maximizar es
+    $$S(x) = x \cdot y = x\sqrt{100 - x^2}.$$
+</p>
+
+<p>
+    En primer lugar, calculamos la derivada de la función $S.$
+    $$S'(x) = \sqrt{100-x^2} - \frac{x^2}{\sqrt{100-x^2}}.$$
+
+    Hallamos los puntos críticos de $S$ igualando la derivada a cero.
+    $$S'(x) = 0 \Leftrightarrow \sqrt{100-x^2} - \frac{x^2}{\sqrt{100-x^2}} = 0 \Leftrightarrow 100 - x^2 = x^2 \Leftrightarrow 100 = 2x^2 \Leftrightarrow x^2 = 50 \Leftrightarrow x = \pm\sqrt{50}.$$
+
+    Como $x \geq 0$ por ser una distancia, la solución $x = -\sqrt{50}$ no es válida para este problema.
+</p>
+
+<p>
+    Comprobamos que en el punto de abscisa $x = \sqrt{50}$ se alcanza el máximo de la función.
+    <ul>
+        <li>Si $-\sqrt{50} < x < \sqrt{50}$, $S'(x) > 0.$
+        Así que $S$ es creciente.</li>
+        <li>Si $x > \sqrt{50}$, $S'(x) < 0.$
+        Así que $S$ es decreciente.</li>
+    </ul>
+    Luego $S$ tiene un máximo en $x = \sqrt{50}.$
+    Por tanto, $y = \sqrt{100 - x^2} = \sqrt{50}.$
+</p>
+
+<p>
+    Así que el rectángulo tiene base $\sqrt{50}$ cm y altura $\sqrt{50}$ cm, es decir, se trata de un cuadrado de lado $\sqrt{50}$ cm.
+</p>

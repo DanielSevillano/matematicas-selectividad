@@ -195,6 +195,7 @@
     },
     {
         "ejercicio": 202331,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Optimización"
@@ -1209,6 +1210,7 @@
     },
     {
         "ejercicio": 202015,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Optimización"

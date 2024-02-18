@@ -46,7 +46,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Julio (3, 5, 6)
     - [ ] Reserva 1 (1, 2, 3, 5, 6, 7)
     - [ ] Reserva 2 (1, 2, 4, 5)
-    - [ ] Reserva 3 (3, 8)
+    - [ ] Reserva 3 (1, 3, 8)
     - [ ] Reserva 4 (1, 3, 5, 6)
 - [ ] 2022
     - [x] Junio
@@ -63,7 +63,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Reserva 3 (4, 6)
     - [ ] Reserva 4 (1)
 - [ ] 2020
-    - [ ] Reserva 1 (1)
+    - [ ] Reserva 1 (1, 5)
     - [ ] Reserva 2 (1, 7, 8)
     - [ ] Reserva 4 (2)
 - [ ] 2019
