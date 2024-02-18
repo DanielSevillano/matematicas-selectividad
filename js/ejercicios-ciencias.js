@@ -16,6 +16,9 @@ const casilla = cinta.querySelector("#casilla");
 let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
 
+const categoriasAlgebra = ["algebra", "matrices", "sistemas", "determinantes", "rango", "ecuaciones-matriciales", "problemas"];
+const categoriasGeometria = ["geometria", "vectores", "lugares-geometricos", "problemas-metricos"];
+
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
         grupos.forEach(g => {
@@ -64,9 +67,9 @@ botonAleatorio.addEventListener("click", () => {
     const boton = botones[Math.floor(Math.random() * botones.length)];
     const categoria = boton.id.replace("boton-", "");
     boton.click();
-    if (["analisis", "continuidad", "derivabilidad", "limites", "asintotas", "recta-tangente", "optimizacion", "integrales", "teorema-fundamental-del-calculo"].includes(categoria)) document.querySelector("#grupo-analisis").click();
-    else if (["algebra", "matrices", "sistemas", "determinantes", "rango", "ecuaciones-matriciales", "problemas"].includes(categoria)) document.querySelector("#grupo-algebra").click();
-    else document.querySelector("#grupo-geometria").click();
+    if (categoriasAlgebra.includes(categoria)) document.querySelector("#grupo-algebra").click();
+    else if (categoriasGeometria.includes(categoria)) document.querySelector("#grupo-geometria").click();
+    else document.querySelector(".grupo").click();
 });
 
 casilla.addEventListener("click", () => {
@@ -79,9 +82,9 @@ if (!categoria) document.querySelector(".grupo").click();
 else {
     try {
         document.querySelector("#boton-" + categoria).click();
-        if (["analisis", "continuidad", "derivabilidad", "limites", "asintotas", "recta-tangente", "optimizacion", "integrales", "teorema-fundamental-del-calculo"].includes(categoria)) document.querySelector("#grupo-analisis").click();
-        else if (["algebra", "matrices", "sistemas", "determinantes", "rango", "ecuaciones-matriciales", "problemas"].includes(categoria)) document.querySelector("#grupo-algebra").click();
-        else document.querySelector("#grupo-geometria").click();
+        if (categoriasAlgebra.includes(categoria)) document.querySelector("#grupo-algebra").click();
+        else if (categoriasGeometria.includes(categoria)) document.querySelector("#grupo-geometria").click();
+        else document.querySelector(".grupo").click();
     }
     catch {
         document.querySelector(".grupo").click();
