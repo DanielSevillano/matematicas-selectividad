@@ -17,7 +17,7 @@ let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
 
 const categoriasAlgebra = ["algebra", "matrices", "sistemas", "determinantes", "rango", "ecuaciones-matriciales", "problemas"];
-const categoriasGeometria = ["geometria", "vectores", "lugares-geometricos", "problemas-metricos"];
+const categoriasGeometria = ["geometria", "vectores", "lugares-geometricos", "problemas-metricos", "angulos"];
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
