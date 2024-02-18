@@ -1,4 +1,5 @@
-Sea la función $f: (0, +\infty) \to \mathbb{R}$ definida por $f(x) = \frac{\ln(x)}{x}.$
+Sea la función $f: (0, +\infty) \to \mathbb{R}$ definida por
+$$f(x) = \frac{\ln(x)}{x}.$$
 
 <ol>
     <li>Estudia y determina las asíntotas de la gráfica de $f.$</li>
