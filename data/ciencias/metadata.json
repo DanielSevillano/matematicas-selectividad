@@ -151,6 +151,7 @@
         "ejercicio": 202323,
         "categorias": [
             "Análisis",
+            "Monotonía",
             "Integrales",
             "Teorema fundamental del cálculo"
         ]
@@ -512,7 +513,8 @@
     {
         "ejercicio": 202222,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Monotonía"
         ]
     },
     {
@@ -520,6 +522,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
+            "Monotonía",
             "Integrales",
             "Teorema fundamental del cálculo"
         ]
@@ -770,6 +773,7 @@
         "ejercicio": 202103,
         "categorias": [
             "Análisis",
+            "Monotonía",
             "Integrales"
         ]
     },
@@ -822,7 +826,8 @@
         "ejercicio": 202112,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -888,6 +893,7 @@
         "ejercicio": 202123,
         "categorias": [
             "Análisis",
+            "Monotonía",
             "Integrales"
         ]
     },
@@ -947,6 +953,7 @@
         "ejercicio": 202133,
         "categorias": [
             "Análisis",
+            "Monotonía",
             "Integrales"
         ]
     },
@@ -1000,7 +1007,8 @@
         "ejercicio": 202142,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -1110,7 +1118,8 @@
         "ejercicio": 202001,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -1253,7 +1262,8 @@
         "ejercicio": 202025,
         "categorias": [
             "Análisis",
-            "Derivabilidad"
+            "Derivabilidad",
+            "Monotonía"
         ]
     },
     {
@@ -1284,7 +1294,8 @@
         "ejercicio": 202031,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -1455,7 +1466,8 @@
         "ejercicio": 201901,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -1567,7 +1579,8 @@
     {
         "ejercicio": 201921,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Monotonía"
         ]
     },
     {
@@ -1935,7 +1948,8 @@
         "ejercicio": 201825,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -2161,7 +2175,8 @@
         "ejercicio": 201705,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -2248,7 +2263,8 @@
         "ejercicio": 201721,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -2388,7 +2404,8 @@
         "ejercicio": 201745,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -2442,6 +2459,7 @@
         "ejercicio": 201755,
         "categorias": [
             "Análisis",
+            "Monotonía",
             "Recta tangente"
         ]
     },
@@ -2501,7 +2519,8 @@
         "ejercicio": 201605,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -2586,7 +2605,8 @@
         "ejercicio": 201621,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -2725,6 +2745,7 @@
         "ejercicio": 201645,
         "categorias": [
             "Análisis",
+            "Monotonía",
             "Recta tangente"
         ]
     },
@@ -2780,7 +2801,8 @@
         "ejercicio": 201655,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -2981,7 +3003,8 @@
         "ejercicio": 201531,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -3066,7 +3089,8 @@
         "ejercicio": 201545,
         "categorias": [
             "Análisis",
-            "Derivabilidad"
+            "Derivabilidad",
+            "Monotonía"
         ]
     },
     {
@@ -3353,7 +3377,8 @@
         "ejercicio": 201435,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -3694,7 +3719,8 @@
     {
         "ejercicio": 201335,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Monotonía"
         ]
     },
     {
@@ -3811,7 +3837,8 @@
         "ejercicio": 201355,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -3839,7 +3866,8 @@
         "ejercicio": 201201,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -3926,7 +3954,8 @@
         "ejercicio": 201215,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
@@ -3953,7 +3982,8 @@
     {
         "ejercicio": 201221,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Monotonía"
         ]
     },
     {
@@ -4038,6 +4068,7 @@
         "ejercicio": 201235,
         "categorias": [
             "Análisis",
+            "Monotonía",
             "Recta tangente"
         ]
     },
@@ -4153,7 +4184,8 @@
         "ejercicio": 201255,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Monotonía"
         ]
     },
     {
