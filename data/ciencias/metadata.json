@@ -4,7 +4,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -13,7 +12,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -82,7 +80,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -147,7 +144,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -207,7 +203,6 @@
         "ejercicio": 202332,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -261,7 +256,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -323,15 +317,13 @@
         "ejercicio": 202351,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
     {
         "ejercicio": 202352,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -385,7 +377,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad",
             "Asíntotas"
         ]
@@ -451,7 +442,6 @@
         "ejercicio": 202211,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad",
             "Derivabilidad"
         ]
@@ -515,7 +505,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad",
             "Recta tangente"
         ]
@@ -523,8 +512,7 @@
     {
         "ejercicio": 202222,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -578,7 +566,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -586,7 +573,6 @@
         "ejercicio": 202232,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -643,7 +629,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad",
             "Recta tangente"
         ]
@@ -653,7 +638,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas",
             "Recta tangente"
         ]
@@ -705,7 +689,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -771,8 +754,7 @@
         "ejercicio": 202101,
         "resuelto": true,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -780,7 +762,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad",
             "Recta tangente"
         ]
@@ -834,15 +815,13 @@
     {
         "ejercicio": 202111,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
         "ejercicio": 202112,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -895,7 +874,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -903,7 +881,6 @@
         "ejercicio": 202122,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -956,7 +933,6 @@
         "ejercicio": 202131,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad",
             "Recta tangente"
         ]
@@ -964,8 +940,7 @@
     {
         "ejercicio": 202132,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1018,7 +993,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad"
         ]
     },
@@ -1026,7 +1000,6 @@
         "ejercicio": 202142,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -1078,15 +1051,13 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
     {
         "ejercicio": 202152,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1139,7 +1110,6 @@
         "ejercicio": 202001,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -1169,7 +1139,6 @@
         "ejercicio": 202005,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -1199,7 +1168,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -1257,7 +1225,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -1286,7 +1253,6 @@
         "ejercicio": 202025,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad"
         ]
     },
@@ -1318,7 +1284,6 @@
         "ejercicio": 202031,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -1346,8 +1311,7 @@
     {
         "ejercicio": 202035,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1376,8 +1340,7 @@
     {
         "ejercicio": 202041,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1407,8 +1370,7 @@
     {
         "ejercicio": 202045,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1436,8 +1398,7 @@
     {
         "ejercicio": 202051,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1465,7 +1426,6 @@
         "ejercicio": 202055,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad",
             "Recta tangente"
         ]
@@ -1495,7 +1455,6 @@
         "ejercicio": 201901,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -1523,8 +1482,7 @@
     {
         "ejercicio": 201905,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1553,7 +1511,6 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -1583,7 +1540,6 @@
         "ejercicio": 201915,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad"
         ]
     },
@@ -1611,8 +1567,7 @@
     {
         "ejercicio": 201921,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1640,8 +1595,7 @@
     {
         "ejercicio": 201925,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1668,8 +1622,7 @@
     {
         "ejercicio": 201931,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1698,7 +1651,6 @@
         "ejercicio": 201935,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -1728,8 +1680,7 @@
     {
         "ejercicio": 201941,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1756,8 +1707,7 @@
     {
         "ejercicio": 201945,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1815,7 +1765,6 @@
         "ejercicio": 201955,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad"
         ]
     },
@@ -1843,8 +1792,7 @@
     {
         "ejercicio": 201801,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1872,7 +1820,6 @@
         "ejercicio": 201805,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad"
         ]
     },
@@ -1930,7 +1877,6 @@
         "ejercicio": 201815,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad",
             "Asíntotas"
         ]
@@ -1967,8 +1913,7 @@
     {
         "ejercicio": 201822,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -1990,7 +1935,6 @@
         "ejercicio": 201825,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -2047,7 +1991,6 @@
         "ejercicio": 201835,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas",
             "Recta tangente"
         ]
@@ -2077,7 +2020,6 @@
         "ejercicio": 201841,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -2136,7 +2078,6 @@
         "ejercicio": 201851,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad"
         ]
     },
@@ -2164,8 +2105,7 @@
     {
         "ejercicio": 201855,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -2221,7 +2161,6 @@
         "ejercicio": 201705,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -2251,7 +2190,6 @@
         "ejercicio": 201711,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad",
             "Derivabilidad"
         ]
@@ -2282,7 +2220,6 @@
         "ejercicio": 201715,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -2311,7 +2248,6 @@
         "ejercicio": 201721,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -2396,8 +2332,7 @@
     {
         "ejercicio": 201735,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -2425,8 +2360,7 @@
     {
         "ejercicio": 201741,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -2454,7 +2388,6 @@
         "ejercicio": 201745,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -2489,8 +2422,7 @@
     {
         "ejercicio": 201752,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -2510,7 +2442,6 @@
         "ejercicio": 201755,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -2541,7 +2472,6 @@
         "ejercicio": 201601,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -2571,7 +2501,6 @@
         "ejercicio": 201605,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -2600,7 +2529,6 @@
         "ejercicio": 201611,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -2658,7 +2586,6 @@
         "ejercicio": 201621,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -2686,8 +2613,7 @@
     {
         "ejercicio": 201625,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -2714,8 +2640,7 @@
     {
         "ejercicio": 201631,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -2800,15 +2725,13 @@
         "ejercicio": 201645,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
     {
         "ejercicio": 201646,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -2829,7 +2752,6 @@
         "ejercicio": 201651,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -2858,7 +2780,6 @@
         "ejercicio": 201655,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -2917,7 +2838,6 @@
         "ejercicio": 201505,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -2975,7 +2895,6 @@
         "ejercicio": 201515,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad"
         ]
     },
@@ -3004,7 +2923,6 @@
         "ejercicio": 201521,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad"
         ]
     },
@@ -3034,7 +2952,6 @@
         "ejercicio": 201525,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas",
             "Recta tangente"
         ]
@@ -3064,7 +2981,6 @@
         "ejercicio": 201531,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -3122,8 +3038,7 @@
     {
         "ejercicio": 201541,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -3151,7 +3066,6 @@
         "ejercicio": 201545,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad"
         ]
     },
@@ -3181,8 +3095,7 @@
     {
         "ejercicio": 201551,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -3239,8 +3152,7 @@
     {
         "ejercicio": 201401,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -3297,7 +3209,6 @@
         "ejercicio": 201411,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -3327,7 +3238,6 @@
         "ejercicio": 201415,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad",
             "Recta tangente"
         ]
@@ -3358,7 +3268,6 @@
         "ejercicio": 201421,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -3387,7 +3296,6 @@
         "ejercicio": 201425,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -3417,7 +3325,6 @@
         "ejercicio": 201431,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -3446,7 +3353,6 @@
         "ejercicio": 201435,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -3505,7 +3411,6 @@
         "ejercicio": 201445,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad"
         ]
     },
@@ -3534,7 +3439,6 @@
         "ejercicio": 201451,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -3592,7 +3496,6 @@
         "ejercicio": 201301,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -3622,7 +3525,6 @@
         "ejercicio": 201305,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad",
             "Recta tangente"
         ]
@@ -3651,8 +3553,7 @@
     {
         "ejercicio": 201311,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -3680,8 +3581,7 @@
     {
         "ejercicio": 201315,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -3737,8 +3637,7 @@
     {
         "ejercicio": 201325,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -3767,7 +3666,6 @@
         "ejercicio": 201331,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas",
             "Recta tangente"
         ]
@@ -3796,8 +3694,7 @@
     {
         "ejercicio": 201335,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -3854,7 +3751,6 @@
         "ejercicio": 201345,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites",
             "Asíntotas"
         ]
@@ -3893,7 +3789,6 @@
         "ejercicio": 201352,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -3916,7 +3811,6 @@
         "ejercicio": 201355,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -3945,7 +3839,6 @@
         "ejercicio": 201201,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -3976,7 +3869,6 @@
         "ejercicio": 201205,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -4005,7 +3897,6 @@
         "ejercicio": 201211,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -4035,7 +3926,6 @@
         "ejercicio": 201215,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
@@ -4063,8 +3953,7 @@
     {
         "ejercicio": 201221,
         "categorias": [
-            "Análisis",
-            "Funciones"
+            "Análisis"
         ]
     },
     {
@@ -4092,7 +3981,6 @@
         "ejercicio": 201225,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Límites"
         ]
     },
@@ -4150,7 +4038,6 @@
         "ejercicio": 201235,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Recta tangente"
         ]
     },
@@ -4180,7 +4067,6 @@
         "ejercicio": 201241,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Derivabilidad"
         ]
     },
@@ -4238,7 +4124,6 @@
         "ejercicio": 201251,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Continuidad",
             "Recta tangente"
         ]
@@ -4268,7 +4153,6 @@
         "ejercicio": 201255,
         "categorias": [
             "Análisis",
-            "Funciones",
             "Asíntotas"
         ]
     },
