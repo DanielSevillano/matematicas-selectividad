@@ -383,7 +383,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Continuidad"
         ]
     },
     {
@@ -447,7 +448,9 @@
         "ejercicio": 202211,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -510,6 +513,7 @@
         "categorias": [
             "Análisis",
             "Funciones",
+            "Continuidad",
             "Recta tangente"
         ]
     },
@@ -637,6 +641,7 @@
         "categorias": [
             "Análisis",
             "Funciones",
+            "Continuidad",
             "Recta tangente"
         ]
     },
@@ -772,6 +777,7 @@
         "categorias": [
             "Análisis",
             "Funciones",
+            "Continuidad",
             "Recta tangente"
         ]
     },
@@ -946,6 +952,7 @@
         "categorias": [
             "Análisis",
             "Funciones",
+            "Derivabilidad",
             "Recta tangente"
         ]
     },
@@ -1006,7 +1013,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Continuidad"
         ]
     },
     {
@@ -1271,7 +1279,8 @@
         "ejercicio": 202025,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Derivabilidad"
         ]
     },
     {
@@ -1449,6 +1458,7 @@
         "categorias": [
             "Análisis",
             "Funciones",
+            "Derivabilidad",
             "Recta tangente"
         ]
     },
@@ -1564,7 +1574,8 @@
         "ejercicio": 201915,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Derivabilidad"
         ]
     },
     {
@@ -1795,7 +1806,8 @@
         "ejercicio": 201955,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Derivabilidad"
         ]
     },
     {
@@ -1851,7 +1863,8 @@
         "ejercicio": 201805,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Derivabilidad"
         ]
     },
     {
@@ -1908,7 +1921,8 @@
         "ejercicio": 201815,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Derivabilidad"
         ]
     },
     {
@@ -2110,7 +2124,8 @@
         "ejercicio": 201851,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Continuidad"
         ]
     },
     {
@@ -2223,7 +2238,9 @@
         "ejercicio": 201711,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Continuidad",
+            "Derivabilidad"
         ]
     },
     {
@@ -2940,7 +2957,8 @@
         "ejercicio": 201515,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Derivabilidad"
         ]
     },
     {
@@ -2968,7 +2986,8 @@
         "ejercicio": 201521,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Continuidad"
         ]
     },
     {
@@ -3112,7 +3131,8 @@
         "ejercicio": 201545,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Derivabilidad"
         ]
     },
     {
@@ -3288,6 +3308,7 @@
         "categorias": [
             "Análisis",
             "Funciones",
+            "Derivabilidad",
             "Recta tangente"
         ]
     },
@@ -3463,7 +3484,8 @@
         "ejercicio": 201445,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Derivabilidad"
         ]
     },
     {
@@ -3580,6 +3602,7 @@
         "categorias": [
             "Análisis",
             "Funciones",
+            "Derivabilidad",
             "Recta tangente"
         ]
     },
@@ -4131,7 +4154,8 @@
         "ejercicio": 201241,
         "categorias": [
             "Análisis",
-            "Funciones"
+            "Funciones",
+            "Derivabilidad"
         ]
     },
     {
@@ -4189,6 +4213,7 @@
         "categorias": [
             "Análisis",
             "Funciones",
+            "Continuidad",
             "Recta tangente"
         ]
     },
