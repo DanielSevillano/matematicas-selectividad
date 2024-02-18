@@ -801,6 +801,7 @@
     },
     {
         "ejercicio": 202106,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",

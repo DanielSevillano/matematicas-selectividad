@@ -1,0 +1,65 @@
+<p>
+    Llamamos $x$ al número de botellas producidas por hora, $y$ al número de garrafas y $z$ al número de bidones.
+</p>
+
+<p>
+    En primer lugar, si se dispone de 10 kilos de polietileno y se necesitan 50 gramos, 100 gramos y 1 kilo para cada botella, garrafa y bidón, respectivamente, entonces
+    $$50x + 100y + 1000z = 10000.$$
+
+    Además, si se produce el doble de botellas que de garrafas,
+    $$x = 2y.$$
+
+    Por último, si se producen un total de 52 productos por hora,
+    $$x + y + z = 52.$$
+</p>
+
+<p>
+    Por tanto, podemos plantear el sistema de ecuaciones lineales
+    $$\begin{cases}
+        50x + 100y + 1000z = 10000, \\
+        x = 2y, \\
+        x + y + z = 52
+    \end{cases} \Rightarrow
+    \begin{cases}
+        x + 2y + 20z = 200, \\
+        x - 2y = 0, \\
+        x + y + z = 52.
+    \end{cases}$$
+</p>
+
+<p>
+    Resolvemos el sistema mediante el método de Gauss.
+    $$\begin{pmatrix}
+        1 & 2 & 20 & 200 \\
+        1 & -2 & 0 & 0 \\
+        1 & 1 & 1 & 52
+    \end{pmatrix} \xrightarrow{F_1 - 20F_2}
+    \begin{pmatrix}
+        -19 & -18 & 0 & -840 \\
+        1 & -2 & 0 & 0 \\
+        1 & 1 & 1 & 52
+    \end{pmatrix} \xrightarrow{F_1 - 9F_2}
+    \begin{pmatrix}
+        -28 & 0 & 0 & -840 \\
+        1 & -2 & 0 & 0 \\
+        1 & 1 & 1 & 52
+    \end{pmatrix}.$$
+    
+    El sistema resultante es
+    \begin{cases}
+        -28x = -840, \\
+        x - 2y = 0, \\
+        x + y + z = 52.
+    \end{cases}
+</p>
+
+<p>
+    Por tanto,
+    \begin{align}
+        & -28x = -840 \Leftrightarrow x = 30, \\
+        & x - 2y = 0 \xrightarrow{x = 30} 30 - 2y = 0 \Leftrightarrow y = 15, \\
+        & x + y + z = 52 \xrightarrow[y = 15]{x = 30} 30 + 15 + z = 52 \Leftrightarrow z = 7.
+    \end{align}
+
+    Así que se producen 30 botellas, 15 garrafas y 7 bidones por hora.
+</p>
