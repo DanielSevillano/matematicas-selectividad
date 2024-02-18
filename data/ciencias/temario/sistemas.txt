@@ -11,7 +11,7 @@
     Un <b>sistema de ecuaciones lineales</b> es un conjunto de ecuaciones lineales que debe tener una solución común.
     Por ejemplo:
     \begin{cases}
-        2x + 3 = 0, \\
+        2x = -3, \\
         3x - y = 2, \\
         -x + 3y + 5z = -2.
     \end{cases}
@@ -61,7 +61,7 @@
         z
     \end{pmatrix} =
     \begin{pmatrix}
-        0 \\
+        -3 \\
         2 \\
         -2
     \end{pmatrix},$$
@@ -72,12 +72,12 @@
         -1 & 3 & 5
     \end{pmatrix}, \quad
     B = \begin{pmatrix}
-        0 \\
+        -3 \\
         2 \\
         -2
     \end{pmatrix} \quad \text{y} \quad
     (A|B) = \begin{pmatrix}
-        2 & 0 & 0 & 0 \\
+        2 & 0 & 0 & -3 \\
         3 & -1 & 0 & 2 \\
         -1 & 3 & 5 & -2
     \end{pmatrix}.$$
