@@ -1,0 +1,47 @@
+<ol>
+    <li>
+        En primer lugar, calculamos la derivada de $f.$
+        $$f'(x) = \ln^2(x) + 2\ln(x) = \ln(x) (\ln(x) + 2).$$
+
+        Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
+        $$f'(x) = 0 \Leftrightarrow \ln(x) (\ln(x) + 2) = 0 \Leftrightarrow \begin{cases}
+            \ln(x) = 0 \Leftrightarrow x = 1, \\
+            \ln(x) + 2 = 0 \Leftrightarrow \ln(x) = -2 \Leftrightarrow x = e^{-2}.
+        \end{cases}$$
+
+        Así que los puntos críticos son $x = e^{-2}$ y $x = 1.$
+        Estudiamos el signo de $f'$ para determinar si se tratan de extremos.
+
+        <ul>
+            <li>
+                Si $0 < x < e^{-2}$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $e^{-2} < x < 1$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $x > 1$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ tiene un máximo relativo en $x = e^{-2}$ y un mínimo relativo en $x = 1.$
+        Es decir, el punto $(e^{-2}, 4e^{-2})$ es un máximo relativo y el punto $(1, 0)$ es un mínimo relativo.
+    </li>
+
+    <li>
+        Veamos si alguno de los extremos relativos de $f$ es absoluto.
+        Por un lado, observamos que
+        $$\lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} x\ln^2(x) = 0,$$
+        así que $f$ no alcanza valores inferiores a 0.
+        Por tanto, $(1, 0)$ es un mínimo absoluto.
+
+        Por otro lado, como
+        $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} x\ln^2(x) = +\infty,$$
+        entonces $f$ no tiene ningún máximo absoluto.
+    </li>
+</ol>

@@ -325,6 +325,7 @@
     },
     {
         "ejercicio": 202352,
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
