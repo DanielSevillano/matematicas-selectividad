@@ -56,7 +56,6 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -65,7 +64,6 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -122,15 +120,13 @@
         "ejercicio": 202317,
         "resuelto": true,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
         "ejercicio": 202318,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -184,15 +180,13 @@
     {
         "ejercicio": 202327,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
         "ejercicio": 202328,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -244,7 +238,6 @@
         "ejercicio": 202337,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -309,15 +302,13 @@
     {
         "ejercicio": 202347,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
         "ejercicio": 202348,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -371,7 +362,6 @@
         "ejercicio": 202357,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Ángulos"
         ]
     },
@@ -379,7 +369,6 @@
         "ejercicio": 202358,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Volumen"
         ]
     },
@@ -437,16 +426,14 @@
         "ejercicio": 202207,
         "resuelto": true,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
         "ejercicio": 202208,
         "resuelto": true,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -500,15 +487,13 @@
     {
         "ejercicio": 202217,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
         "ejercicio": 202218,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Ángulos"
         ]
     },
@@ -564,15 +549,13 @@
     {
         "ejercicio": 202227,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
         "ejercicio": 202228,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Ángulos"
         ]
     },
@@ -629,7 +612,6 @@
         "ejercicio": 202237,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Ángulos",
             "Área"
         ]
@@ -638,7 +620,6 @@
         "ejercicio": 202238,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -692,15 +673,13 @@
         "ejercicio": 202247,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Volumen"
         ]
     },
     {
         "ejercicio": 202248,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -757,8 +736,7 @@
         "ejercicio": 202257,
         "resuelto": true,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -766,7 +744,6 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -824,15 +801,13 @@
         "ejercicio": 202107,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Ángulos"
         ]
     },
     {
         "ejercicio": 202108,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -883,7 +858,6 @@
         "ejercicio": 202117,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -891,7 +865,6 @@
         "ejercicio": 202118,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -946,15 +919,13 @@
         "ejercicio": 202127,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
     {
         "ejercicio": 202128,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1007,7 +978,6 @@
         "ejercicio": 202137,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -1015,7 +985,6 @@
         "ejercicio": 202138,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Ángulos"
         ]
     },
@@ -1067,15 +1036,13 @@
     {
         "ejercicio": 202147,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
         "ejercicio": 202148,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -1129,15 +1096,13 @@
         "ejercicio": 202157,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
     {
         "ejercicio": 202158,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1166,8 +1131,7 @@
     {
         "ejercicio": 202004,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1194,8 +1158,7 @@
     {
         "ejercicio": 202008,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1224,7 +1187,6 @@
         "ejercicio": 202014,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Volumen"
         ]
     },
@@ -1253,8 +1215,7 @@
     {
         "ejercicio": 202018,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1283,7 +1244,6 @@
         "ejercicio": 202024,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -1346,7 +1306,6 @@
         "ejercicio": 202034,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Volumen"
         ]
     },
@@ -1376,7 +1335,6 @@
         "ejercicio": 202038,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -1407,7 +1365,6 @@
         "ejercicio": 202044,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -1436,7 +1393,6 @@
         "ejercicio": 202048,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -1463,8 +1419,7 @@
     {
         "ejercicio": 202054,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1492,8 +1447,7 @@
     {
         "ejercicio": 202058,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -1521,8 +1475,7 @@
     {
         "ejercicio": 201904,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1549,7 +1502,6 @@
         "ejercicio": 201908,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Ángulos",
             "Área"
         ]
@@ -1580,8 +1532,7 @@
     {
         "ejercicio": 201914,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1608,8 +1559,7 @@
     {
         "ejercicio": 201918,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1637,8 +1587,7 @@
     {
         "ejercicio": 201924,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -1664,8 +1613,7 @@
     {
         "ejercicio": 201928,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1692,8 +1640,7 @@
     {
         "ejercicio": 201934,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -1723,7 +1670,6 @@
         "ejercicio": 201938,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Volumen"
         ]
     },
@@ -1750,8 +1696,7 @@
     {
         "ejercicio": 201944,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -1777,8 +1722,7 @@
     {
         "ejercicio": 201948,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -1834,8 +1778,7 @@
     {
         "ejercicio": 201958,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1862,7 +1805,6 @@
         "ejercicio": 201804,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -1892,7 +1834,6 @@
         "ejercicio": 201808,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -1921,7 +1862,6 @@
         "ejercicio": 201814,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico",
             "Volumen"
         ]
@@ -1952,8 +1892,7 @@
     {
         "ejercicio": 201818,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -1980,8 +1919,7 @@
     {
         "ejercicio": 201824,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -2009,8 +1947,7 @@
     {
         "ejercicio": 201828,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2037,8 +1974,7 @@
     {
         "ejercicio": 201834,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2066,8 +2002,7 @@
     {
         "ejercicio": 201838,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2095,8 +2030,7 @@
     {
         "ejercicio": 201844,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2125,7 +2059,6 @@
         "ejercicio": 201848,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -2153,8 +2086,7 @@
     {
         "ejercicio": 201854,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2180,8 +2112,7 @@
     {
         "ejercicio": 201858,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -2209,7 +2140,6 @@
         "ejercicio": 201704,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -2299,8 +2229,7 @@
     {
         "ejercicio": 201718,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -2328,8 +2257,7 @@
     {
         "ejercicio": 201724,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2357,7 +2285,6 @@
         "ejercicio": 201728,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -2386,8 +2313,7 @@
     {
         "ejercicio": 201734,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2415,7 +2341,6 @@
         "ejercicio": 201738,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Volumen"
         ]
     },
@@ -2442,8 +2367,7 @@
     {
         "ejercicio": 201744,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -2471,8 +2395,7 @@
     {
         "ejercicio": 201748,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -2498,9 +2421,7 @@
     },
     {
         "ejercicio": 201754,
-        "categorias": [
-            "Problemas métricos"
-        ]
+        "categorias": []
     },
     {
         "ejercicio": 201755,
@@ -2530,7 +2451,6 @@
         "ejercicio": 201758,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -2560,7 +2480,6 @@
         "ejercicio": 201604,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -2590,7 +2509,6 @@
         "ejercicio": 201608,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -2620,7 +2538,6 @@
         "ejercicio": 201614,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -2649,7 +2566,6 @@
         "ejercicio": 201618,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -2678,8 +2594,7 @@
     {
         "ejercicio": 201624,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2706,7 +2621,6 @@
         "ejercicio": 201628,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -2734,7 +2648,6 @@
         "ejercicio": 201634,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -2763,8 +2676,7 @@
     {
         "ejercicio": 201638,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -2791,8 +2703,7 @@
     {
         "ejercicio": 201644,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2819,8 +2730,7 @@
     {
         "ejercicio": 201648,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -2848,7 +2758,6 @@
         "ejercicio": 201654,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -2879,8 +2788,7 @@
     {
         "ejercicio": 201658,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -2908,7 +2816,6 @@
         "ejercicio": 201504,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -2937,7 +2844,6 @@
         "ejercicio": 201508,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -2967,7 +2873,6 @@
         "ejercicio": 201514,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -2996,7 +2901,6 @@
         "ejercicio": 201518,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -3026,7 +2930,6 @@
         "ejercicio": 201524,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Ángulos",
             "Volumen"
         ]
@@ -3056,8 +2959,7 @@
     {
         "ejercicio": 201528,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3085,8 +2987,7 @@
     {
         "ejercicio": 201534,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -3115,8 +3016,7 @@
     {
         "ejercicio": 201538,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3143,7 +3043,6 @@
         "ejercicio": 201544,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -3174,8 +3073,7 @@
     {
         "ejercicio": 201548,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3203,8 +3101,7 @@
     {
         "ejercicio": 201554,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3231,8 +3128,7 @@
     {
         "ejercicio": 201558,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -3258,8 +3154,7 @@
     {
         "ejercicio": 201404,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3287,8 +3182,7 @@
     {
         "ejercicio": 201408,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -3346,8 +3240,7 @@
     {
         "ejercicio": 201418,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -3404,8 +3297,7 @@
     {
         "ejercicio": 201428,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3433,7 +3325,6 @@
         "ejercicio": 201434,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -3464,7 +3355,6 @@
         "ejercicio": 201438,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -3493,8 +3383,7 @@
     {
         "ejercicio": 201444,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3521,8 +3410,7 @@
     {
         "ejercicio": 201448,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -3549,8 +3437,7 @@
     {
         "ejercicio": 201454,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3578,8 +3465,7 @@
     {
         "ejercicio": 201458,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3607,8 +3493,7 @@
     {
         "ejercicio": 201304,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3636,8 +3521,7 @@
     {
         "ejercicio": 201308,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3664,8 +3548,7 @@
     {
         "ejercicio": 201314,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3692,8 +3575,7 @@
     {
         "ejercicio": 201318,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -3720,8 +3602,7 @@
     {
         "ejercicio": 201324,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -3748,8 +3629,7 @@
     {
         "ejercicio": 201328,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3777,8 +3657,7 @@
     {
         "ejercicio": 201334,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3806,8 +3685,7 @@
     {
         "ejercicio": 201338,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3834,8 +3712,7 @@
     {
         "ejercicio": 201344,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -3866,7 +3743,6 @@
         "ejercicio": 201348,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -3896,7 +3772,6 @@
         "ejercicio": 201354,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área",
             "Volumen"
         ]
@@ -3927,7 +3802,6 @@
         "ejercicio": 201358,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -3959,7 +3833,6 @@
         "ejercicio": 201204,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -3987,8 +3860,7 @@
     {
         "ejercicio": 201208,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -4017,7 +3889,6 @@
         "ejercicio": 201214,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Área"
         ]
     },
@@ -4046,8 +3917,7 @@
     {
         "ejercicio": 201218,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -4074,8 +3944,7 @@
     {
         "ejercicio": 201224,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -4103,8 +3972,7 @@
     {
         "ejercicio": 201228,
         "categorias": [
-            "Geometría",
-            "Lugares geométricos"
+            "Geometría"
         ]
     },
     {
@@ -4161,8 +4029,7 @@
     {
         "ejercicio": 201238,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -4190,8 +4057,7 @@
     {
         "ejercicio": 201244,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -4219,7 +4085,6 @@
         "ejercicio": 201248,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     },
@@ -4248,8 +4113,7 @@
     {
         "ejercicio": 201254,
         "categorias": [
-            "Geometría",
-            "Problemas métricos"
+            "Geometría"
         ]
     },
     {
@@ -4278,7 +4142,6 @@
         "ejercicio": 201258,
         "categorias": [
             "Geometría",
-            "Problemas métricos",
             "Punto simétrico"
         ]
     }
