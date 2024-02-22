@@ -56,7 +56,8 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -64,7 +65,8 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -251,7 +253,9 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Vectores"
+            "Vectores",
+            "Área",
+            "Volumen"
         ]
     },
     {
@@ -375,7 +379,8 @@
         "ejercicio": 202358,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Volumen"
         ]
     },
     {
@@ -625,7 +630,8 @@
         "categorias": [
             "Geometría",
             "Problemas métricos",
-            "Ángulos"
+            "Ángulos",
+            "Área"
         ]
     },
     {
@@ -686,7 +692,8 @@
         "ejercicio": 202247,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Volumen"
         ]
     },
     {
@@ -884,7 +891,8 @@
         "ejercicio": 202118,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -999,7 +1007,8 @@
         "ejercicio": 202137,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -1066,7 +1075,8 @@
         "ejercicio": 202148,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -1214,7 +1224,8 @@
         "ejercicio": 202014,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Volumen"
         ]
     },
     {
@@ -1305,7 +1316,8 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Vectores"
+            "Vectores",
+            "Volumen"
         ]
     },
     {
@@ -1334,7 +1346,8 @@
         "ejercicio": 202034,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Volumen"
         ]
     },
     {
@@ -1394,7 +1407,8 @@
         "ejercicio": 202044,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -1536,7 +1550,8 @@
         "categorias": [
             "Geometría",
             "Problemas métricos",
-            "Ángulos"
+            "Ángulos",
+            "Área"
         ]
     },
     {
@@ -1708,7 +1723,8 @@
         "ejercicio": 201938,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Volumen"
         ]
     },
     {
@@ -1906,7 +1922,8 @@
         "categorias": [
             "Geometría",
             "Problemas métricos",
-            "Punto simétrico"
+            "Punto simétrico",
+            "Volumen"
         ]
     },
     {
@@ -2108,7 +2125,8 @@
         "ejercicio": 201848,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -2222,7 +2240,8 @@
         "ejercicio": 201708,
         "categorias": [
             "Geometría",
-            "Vectores"
+            "Vectores",
+            "Volumen"
         ]
     },
     {
@@ -2252,7 +2271,8 @@
         "ejercicio": 201714,
         "categorias": [
             "Geometría",
-            "Vectores"
+            "Vectores",
+            "Volumen"
         ]
     },
     {
@@ -2337,7 +2357,8 @@
         "ejercicio": 201728,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -2394,7 +2415,8 @@
         "ejercicio": 201738,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Volumen"
         ]
     },
     {
@@ -2568,7 +2590,8 @@
         "ejercicio": 201608,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -2597,7 +2620,8 @@
         "ejercicio": 201614,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -2682,7 +2706,8 @@
         "ejercicio": 201628,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -2709,7 +2734,8 @@
         "ejercicio": 201634,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -2882,7 +2908,8 @@
         "ejercicio": 201504,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -2969,7 +2996,8 @@
         "ejercicio": 201518,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -2999,7 +3027,8 @@
         "categorias": [
             "Geometría",
             "Problemas métricos",
-            "Ángulos"
+            "Ángulos",
+            "Volumen"
         ]
     },
     {
@@ -3114,7 +3143,8 @@
         "ejercicio": 201544,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -3345,7 +3375,8 @@
         "ejercicio": 201424,
         "categorias": [
             "Geometría",
-            "Vectores"
+            "Vectores",
+            "Volumen"
         ]
     },
     {
@@ -3402,7 +3433,8 @@
         "ejercicio": 201434,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -3834,7 +3866,8 @@
         "ejercicio": 201348,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -3863,7 +3896,9 @@
         "ejercicio": 201354,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área",
+            "Volumen"
         ]
     },
     {
@@ -3924,7 +3959,8 @@
         "ejercicio": 201204,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
@@ -3981,7 +4017,8 @@
         "ejercicio": 201214,
         "categorias": [
             "Geometría",
-            "Problemas métricos"
+            "Problemas métricos",
+            "Área"
         ]
     },
     {
