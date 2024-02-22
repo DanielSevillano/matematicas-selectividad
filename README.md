@@ -43,7 +43,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ### Ejercicios resueltos de ciencias
 - [ ] 2023
     - [x] Junio
-    - [ ] Julio (3, 5, 6)
+    - [ ] Julio (1, 2, 3, 5, 6)
     - [ ] Reserva 1 (1, 2, 3, 5, 6, 7)
     - [ ] Reserva 2 (1, 2, 4, 5)
     - [ ] Reserva 3 (1, 3, 8)

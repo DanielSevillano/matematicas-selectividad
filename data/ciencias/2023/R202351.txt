@@ -1,0 +1,58 @@
+<ol>
+    <li>
+        En primer lugar, calculamos la derivada de $f.$
+        $$f'(x) = \begin{cases}
+            5, & \text{si } -2 \leq x < 0, \\
+            e^x(\cos(x) - \mathrm{sen}(x)), & \text{si } 0 < x \leq 2\pi.
+        \end{cases}$$
+
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada de $f$ a cero.
+
+        <ul>
+            <li>Si $-2 \leq x < 0$, $f'(x) = 5 \neq 0.$</li>
+        
+            <li>
+                Si $0 < x \leq 2\pi$,
+                $$f'(x) = 0 \Leftrightarrow e^x(\cos(x) - \mathrm{sen}(x)) = 0 \Leftrightarrow \cos(x) - \mathrm{sen}(x) = 0 \Leftrightarrow \cos(x) = \mathrm{sen}(x) \Leftrightarrow \begin{cases}
+                    x = \frac{\pi}{4}, \\
+                    x = \frac{5\pi}{4}.
+                \end{cases}$$
+            </li>
+        </ul>
+
+        Así que los puntos críticos son $x = \frac{\pi}{4}$ y $x = \frac{5\pi}{4}.$
+        También consideraremos $x = 0$ por ser el punto de ruptura.
+        Estudiamos el signo de $f'$ para determinar si se tratan de extremos.
+
+        <ul>
+            <li>
+                Si $-2 < x < 0$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $0 < x < \frac{\pi}{4}$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $\frac{\pi}{4} < x < \frac{5\pi}{4}$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $\frac{5\pi}{4} < x < 2\pi$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, considerando también los extremos del intervalo, $f$ tiene máximos relativos en $x = \frac{\pi}{4}$ y $x = 2\pi$ y tiene mínimos relativos en $x = -2$ y $x = \frac{5\pi}{4}.$
+        Es decir, los puntos $\left(\frac{\pi}{4}, e^{\frac{\pi}{4}}\frac{\sqrt{2}}{2}\right)$ y $(2\pi, e^{2\pi})$ son máximos relativos y los puntos $(-2, -9)$ y $\left(\frac{5\pi}{4}, -e^{\frac{5\pi}{4}}\frac{\sqrt{2}}{2}\right)$ son mínimos relativos.
+        Comparando, podemos concluir que el punto $(2\pi, e^{2\pi})$ es un máximo absoluto y el punto $\left(\frac{5\pi}{4}, -e^{\frac{5\pi}{4}}\frac{\sqrt{2}}{2}\right)$ es un mínimo absoluto.
+    </li>
+
+    <li>
+        La ecuación de la recta tangente a la gráfica de $f$ en $x = \frac{\pi}{2}$ es
+        $$y - f\left(\frac{\pi}{2}\right) = f'\left(\frac{\pi}{2}\right)\left(x - \frac{\pi}{2}\right) \to y = -e^{\frac{\pi}{2}}\left(x - \frac{\pi}{2}\right) \Leftrightarrow y = -e^{\frac{\pi}{2}}x + e^{\frac{\pi}{2}}\frac{\pi}{2}.$$
+    </li>
+</ol>
