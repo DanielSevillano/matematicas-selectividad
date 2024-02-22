@@ -42,8 +42,8 @@
 
         Veamos si $f$ es derivable en $x = 2$ comprobando si sus derivadas laterales coinciden.
         \begin{align}
-            f'_-(2) = \lim_{x \to 2^-} f'(x) = \lim_{x \to 2^-} -\frac{1}{2\sqrt{-x+4}} = -\frac{1}{2\sqrt{2}}, \\
-            f'_+(2) = \lim_{x \to 2^+} f'(x) = \lim_{x \to 2^+} -\frac{1}{2\sqrt{2}} = -\frac{1}{2\sqrt{2}}.
+            & f'_-(2) = \lim_{x \to 2^-} f'(x) = \lim_{x \to 2^-} -\frac{1}{2\sqrt{-x+4}} = -\frac{1}{2\sqrt{2}}, \\
+            & f'_+(2) = \lim_{x \to 2^+} f'(x) = \lim_{x \to 2^+} -\frac{1}{2\sqrt{2}} = -\frac{1}{2\sqrt{2}}.
         \end{align}
 
         Por tanto, $f$ es derivable en $x = 2$ con $f'(2) = -\frac{1}{2\sqrt{2}}.$

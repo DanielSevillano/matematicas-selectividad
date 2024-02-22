@@ -16,10 +16,7 @@
     \end{align}
 
     Hallamos los candidatos a puntos de inflexión igualando la segunda derivada a cero.
-    $$f''(x) = 0 \Leftrightarrow e^x(x+1) = 0 \Leftrightarrow \begin{cases}
-        e^x = 0 \quad \text{no tiene solución}, \\
-        x+1 = 0 \Leftrightarrow x = -1.
-    \end{cases}$$
+    $$f''(x) = 0 \Leftrightarrow e^x(x+1) = 0 \Leftrightarrow x + 1 = 0 \Leftrightarrow x = -1.$$
     Así que el único candidato a punto de inflexión tiene abscisa $x = -1.$
 
     Estudiamos el signo de $f''$ para determinar si $f$ es cóncava o convexa.
