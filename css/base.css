@@ -316,6 +316,11 @@ details[open] summary::after {
 Progreso
 ********************/
 
+main::after,
+section::after {
+    display: none;
+}
+
 main.cargando::after,
 section.cargando::after {
     content: "";
