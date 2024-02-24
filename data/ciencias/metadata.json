@@ -1777,6 +1777,7 @@
     },
     {
         "ejercicio": 201958,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
