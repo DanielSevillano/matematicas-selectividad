@@ -794,6 +794,7 @@
     },
     {
         "ejercicio": 202108,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
