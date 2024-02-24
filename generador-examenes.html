@@ -37,7 +37,7 @@
         <h2>🪄 Generador de exámenes</h2>
 
         <div class="bloque">
-            <label for="modalidad">Selecciona una modalidad:</label>
+            <label for="modalidad" class="titulo">Selecciona una modalidad:</label>
             <div class="opciones">
                 <input id="ciencias" type="radio" name="modalidad" required>
                 <label for="ciencias">Ciencias</label>
@@ -48,9 +48,9 @@
         </div>
 
         <div class="bloque">
-            <label>Selecciona un intervalo de años:</label>
+            <label for="curso-inicial">Desde</label>
             <input type="number" id="curso-inicial" min="2012" max="2023" value="2023" required>
-            <span>-</span>
+            <label for="curso-inicial">hasta</label>
             <input type="number" id="curso-final" min="2012" max="2023" value="2012" required>
         </div>
 
