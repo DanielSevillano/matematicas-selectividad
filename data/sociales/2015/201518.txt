@@ -1,0 +1,8 @@
+El tiempo en horas dedicado cada día al uso de una aplicación de mensajería instantánea por los estudiantes de bachillerato de una ciudad, es una variable aleatoria que sigue una ley Normal con desviación típica 0,5 horas.
+Se toma una muestra aleatoria de 10 estudiantes y se obtienen los siguientes tiempos de uso en horas:
+$$3,5 \quad 4,25 \quad 2,25 \quad 3,75 \quad 4,2 \quad 2,75 \quad 1,25 \quad 1,2 \quad 1,75 \quad 2,1.$$
+
+<ol>
+    <li>Determine un intervalo de confianza al 90% para el tiempo medio diario dedicado al uso de esta aplicación por los estudiantes.</li>
+    <li>Calcule el tamaño muestral mínimo necesario para estimar el tiempo medio diario dedicado al uso de esta aplicación, para un error de estimación no superior a 0,1 horas y mismo nivel de confianza anterior.</li>
+</ol>

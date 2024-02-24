@@ -1,0 +1,10 @@
+<ol>
+    <li>
+        Un ilusionista tiene seis cartas: cuatro ases y dos reyes.
+        Saca una carta, la enseña al público y, sin verla, la vuelve a mezclar con las demás.
+        A continuación saca una segunda carta que resulta ser un as.
+        ¿Cuál es la probabilidad de que la primera carta haya sido también un as?
+    </li>
+
+    <li>Si el ilusionista no devolviera la primera carta a la baraja y la segunda carta extraída fuera un as, ¿cuál es la probabilidad de que la primera carta haya sido también un as?</li>
+</ol>

@@ -1,0 +1,4 @@
+La talla media de los alumnos de una Universidad sigue una distribución Normal de media 170 cm y desviación típica 6 cm.
+Estudios recientes hacen sospechar que dicha talla media ha aumentado.
+Para confirmar, o no, esa sospecha se ha tomado una muestra de 64 estudiantes de esa Universidad, cuya talla media ha resultado ser de 172 cm.
+Con un nivel de significación del 1%, plantee un contraste de hipótesis $(H_0 : \mu \leq 170)$, determine la región crítica de ese contraste y razone si se puede concluir que la talla media poblacional ha aumentado.

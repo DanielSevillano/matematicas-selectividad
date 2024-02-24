@@ -2729,5 +2729,58 @@
             "Estadística",
             "Estimación de la media"
         ]
+    },
+    {
+        "ejercicio": 201511,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201512,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201513,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201514,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201515,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201516,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201517,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201518,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
     }
 ]

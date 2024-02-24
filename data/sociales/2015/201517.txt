@@ -1,0 +1,6 @@
+El 30% de los habitantes de una ciudad lee el diario A, el 13% el diario B y el 6% ambos diarios.
+
+<ol>
+    <li>¿Qué porcentaje de habitantes de esta ciudad no lee ninguno de los diarios?</li>
+    <li>Si se elige al azar un habitante de esta ciudad de entre los no lectores del diario B, ¿cuál es la probabilidad de que lea el diario A?</li>
+</ol>

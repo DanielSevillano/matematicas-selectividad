@@ -1,0 +1,9 @@
+Una entidad financiera lanza al mercado un plan de inversión cuya rentabilidad, $R(x)$, en miles de euros, viene dada por la función
+$$R(x) = -0,001x^2 + 0,5x + 2,5, \quad 1 \leq x \leq 500,$$
+donde $x$ es la cantidad de dinero invertida en miles de euros.
+
+<ol>
+    <li>Determine qué cantidad de dinero se debe invertir para obtener la máxima rentabilidad.</li>
+    <li>¿Qué rentabilidad se obtendría con dicha inversión?</li>
+    <li>¿Cuál es la cantidad de dinero para la que se obtiene menor rentabilidad?</li>
+</ol>

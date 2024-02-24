@@ -1,0 +1,9 @@
+<ol>
+    <li>
+        Represente gráficamente la región factible definida por las siguientes restricciones:
+        $$4x + 2y \geq 5, \quad 2x + 5y \leq 10, \quad 2x + 2y \leq 6, \quad x \geq 0, \quad y \geq 0$$
+        y calcule sus vértices.
+    </li>
+
+    <li>Calcule los valores máximo y mínimo de la función objetivo $F(x, y) = x + 2y$ en la región anterior y los puntos donde se alcanzan.</li>
+</ol>
