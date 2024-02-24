@@ -16,7 +16,7 @@ const casilla = cinta.querySelector("#casilla");
 let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
 
-const categoriasAlgebra = ["algebra", "matrices", "sistemas", "determinantes", "rango", "ecuaciones-matriciales", "problemas"];
+const categoriasAlgebra = ["algebra", "determinantes", "rango", "ecuaciones-matriciales", "sistemas", "problemas"];
 const categoriasGeometria = ["geometria", "vectores", "punto-simetrico", "angulos", "area", "volumen"];
 
 grupos.forEach((grupo, indice) => {
