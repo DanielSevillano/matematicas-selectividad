@@ -1,0 +1,63 @@
+<p>
+    Llamamos $x$ al ángulo menor del triángulo, $y$ al ángulo intermedio y $z$ al ángulo mayor.
+</p>
+
+<p>
+    En primer lugar, como el menor es la mitad del mayor, entonces
+    $$x = \frac{z}{2}.$$
+
+    Además, como la suma de los ángulos menor y mayor son el doble del intermedio,
+    $$x + z = 2y.$$
+
+    Por último, la suma de los ángulos de un triángulo es de 180º, así que
+    $$x + y + z = 180.$$
+
+    Por tanto, podemos plantear el sistema de ecuaciones lineales
+    $$\begin{cases}
+        x = \frac{z}{2}, \\
+        x + z = 2y, \\
+        x + y + z = 180
+    \end{cases} \Rightarrow
+    \begin{cases}
+        2x - z = 0, \\
+        x - 2y + z = 0, \\
+        x + y + z = 180.
+    \end{cases}$$
+</p>
+
+<p>
+    Resolvemos el sistema mediante el método de Gauss.
+    $$\begin{pmatrix}
+        2 & 0 & -1 & 0 \\
+        1 & -2 & 1 & 0 \\
+        1 & 1 & 1 & 180
+    \end{pmatrix} \xrightarrow[F_3 + F_1]{F_2 + F_1}
+    \begin{pmatrix}
+        2 & 0 & -1 & 0 \\
+        3 & -2 & 0 & 0 \\
+        3 & 1 & 0 & 180
+    \end{pmatrix} \xrightarrow{F_2 + 2F_3}
+    \begin{pmatrix}
+        2 & 0 & -1 & 0 \\
+        9 & 0 & 0 & 360 \\
+        3 & 1 & 0 & 180
+    \end{pmatrix}.$$
+
+    El sistema resultante es
+    \begin{cases}
+        2x - z = 0, \\
+        9x = 360, \\
+        3x + y = 180.
+    \end{cases}
+</p>
+
+<p>
+    Por tanto,
+    \begin{align}
+        & 9x = 360 \Leftrightarrow x = 40, \\
+        & 2x - z = 0 \xrightarrow{x = 40} 80 - z = 0 \Leftrightarrow z = 80, \\
+        & 3x + y = 180 \xrightarrow{x = 40} 120 + y = 180 \Leftrightarrow y = 60.
+    \end{align}
+
+    Así que los ángulos del triángulo son 40º, 60º y 80º, respectivamente.
+</p>
