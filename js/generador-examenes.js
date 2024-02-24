@@ -1,5 +1,30 @@
 import { formatear, obtenerEjercicio } from "./math.js";
 
+const formulario = document.querySelector("form");
+
+const botonCiencias = document.querySelector("#ciencias");
+const botonSociales = document.querySelector("#sociales");
+
+const intervalo1 = document.querySelector("#curso-inicial");
+const intervalo2 = document.querySelector("#curso-final");
+const intervalos = [intervalo1, intervalo2];
+
+const minimoCiencias = 2012;
+const minimoSociales = 2016;
+
+function establecerMinimo(minimo) {
+    intervalos.forEach((intervalo) => {
+        intervalo.min = minimo;
+        if (parseInt(intervalo.value) < minimo) intervalo.value = minimo;
+    });
+}
+
+if (intervalo1.checked) establecerMinimo(minimoCiencias);
+if (intervalo2.checked) establecerMinimo(minimoSociales);
+
+botonCiencias.addEventListener("click", () => establecerMinimo(minimoCiencias));
+botonSociales.addEventListener("click", () => establecerMinimo(minimoSociales));
+
 async function obtenerExamenGenerado(modalidad, ejercicios) {
     const main = document.querySelector("main");
 
@@ -66,8 +91,19 @@ async function procesar(event) {
     let modalidad = "ciencias"
     if (document.querySelector("#sociales").checked) modalidad = "sociales";
 
+    const intervalo1 = document.querySelector("#curso-inicial");
+    const intervalo2 = document.querySelector("#curso-final");
+
+    const cursoInicial = Math.max(parseInt(intervalo1.value), parseInt(intervalo2.value));
+    const cursoFinal = Math.min(parseInt(intervalo1.value), parseInt(intervalo2.value));
+
     const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
-    const datos = await respuesta.json();
+    const data = await respuesta.json();
+
+    const datos = data.filter(ejercicio => {
+        const curso = parseInt(ejercicio.ejercicio / 100);
+        return curso >= cursoFinal && curso <= cursoInicial;
+    });
 
     if (modalidad === "ciencias") {
         const ejerciciosAnalisis = datos.filter(ejercicio => ejercicio.categorias.includes("Análisis"));
@@ -113,5 +149,4 @@ async function procesar(event) {
     }
 }
 
-const formulario = document.querySelector("form");
 formulario.addEventListener("submit", procesar);
