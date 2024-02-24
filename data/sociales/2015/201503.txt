@@ -1,0 +1,8 @@
+De los 700 alumnos matriculados en una asignatura, 210 son hombres y 490 mujeres.
+Se sabe que el 60% de los hombres y el 70% de las mujeres aprueban dicha asignatura.
+Se elige una persona al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que apruebe la asignatura?</li>
+    <li>Sabiendo que ha aprobado la asignatura, ¿cuál es la probabilidad de que sea una mujer?</li>
+</ol>

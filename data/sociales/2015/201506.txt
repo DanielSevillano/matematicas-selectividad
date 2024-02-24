@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    x^2 + 2, & \text{si } 0 \leq x \leq 2, \\
+    \dfrac{8x+a}{x-1}, & \text{si } x > 2.
+\end{cases}$$
+
+<ol>
+    <li>Determine el valor de $a$ para que la función sea continua.</li>
+    <li>¿Para $a = -10$, es creciente la función en $x = 3$?</li>
+    <li>Halle sus asíntotas para $a = -10.$</li>
+</ol>

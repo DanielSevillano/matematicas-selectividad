@@ -2672,5 +2672,61 @@
             "Estadística",
             "Muestreo"
         ]
+    },
+    {
+        "ejercicio": 201501,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201502,
+        "categorias": [
+            "Análisis",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 201503,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201504,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201505,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201506,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Monotonía",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 201507,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201508,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
     }
 ]

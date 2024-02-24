@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Calcule la derivada de cada una de las siguientes funciones:
+        $$f(x) = \frac{3\ln(x)}{x^3}, \quad g(x) = (1-x^2)(x^3-1)^2, \quad h(x) = 3x^2 - 7x + \frac{1}{e^{2x}}.$$
+    </li>
+
+    <li>
+        Halle las asíntotas de la función
+        $$p(x) = \frac{7x}{3x-12}.$$
+    </li>
+</ol>

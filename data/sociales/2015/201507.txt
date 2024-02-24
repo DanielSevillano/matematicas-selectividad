@@ -1,0 +1,15 @@
+La proporción de personas de una población que tiene una determinada enfermedad es de 1 por cada 500 personas.
+Se dispone de una prueba para detectar dicha enfermedad.
+La prueba detecta la enfermedad en el 90% de los casos en que la persona está enferma, pero también da como enfermas al 5% de las personas sanas.
+
+<ol>
+    <li>
+        Se elige al azar una persona y se le hace la prueba.
+        ¿Cuál es la probabilidad de que haya sido diagnosticada correctamente?
+    </li>
+
+    <li>
+        Si la prueba ha diagnosticado que la persona está enferma, ¿cuál es la probabilidad de que realmente lo esté?
+        ¿Y de que esté sana?
+    </li>
+</ol>

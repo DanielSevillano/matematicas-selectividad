@@ -1,0 +1,22 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    2 & 3 \\
+    -1 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    2 & -3 \\
+    5 & 1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    2 & 0 \\
+    0 & 2 \\
+    3 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule las matrices $X$ e $Y$ si $X + Y = 2A$ y $X + B = 2Y.$</li>
+    <li>
+        Analice cuáles de las siguientes operaciones con matrices se pueden realizar, indicando en los casos afirmativos las dimensiones de la matriz $D$:
+        $$A + D = C, \quad AD = C^t, \quad DA = C, \quad DA = C^t.$$
+    </li>
+</ol>

@@ -1,0 +1,7 @@
+Un fabricante de tuberías de PVC sabe que la distribución de los diámetros interiores de los tubos de conducción de agua que produce sigue una ley Normal con varianza $\sigma^2 = 0,25$ mm<sup>2</sup>.
+Para estimar el diámetro medio de esas tuberías, toma una muestra aleatoria de 64 tubos y comprueba que el diámetro medio de esa muestra es de 20 mm.
+
+<ol>
+    <li>Calcule un intervalo de confianza, con un nivel del 98%, para la media de los diámetros de los tubos que fabrica.</li>
+    <li>Halle el tamaño mínimo que debe tener una muestra de esa distribución para que la amplitud de un intervalo de confianza, con ese mismo nivel de confianza, sea inferior a 2 mm.</li>
+</ol>

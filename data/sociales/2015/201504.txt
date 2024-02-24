@@ -1,0 +1,12 @@
+La calificación en Matemáticas de los alumnos de un centro docente es una variable aleatoria que sigue una distribución Normal de desviación típica 1,2.
+Una muestra de 10 alumnos ha dado las siguientes calificaciones:
+$$3 \quad 8 \quad 6 \quad 3 \quad 9 \quad 1 \quad 7 \quad 7 \quad 5 \quad 6.$$
+
+<ol>
+    <li>
+        Se tiene la creencia de que la calificación media de los alumnos del centro en Matemáticas es a lo sumo 5 puntos.
+        Con un nivel de significación del 5%, plantee el contraste unilateral correspondiente $(H_0 : \mu \leq 5)$, determine la región crítica y razone si la creencia es fundada o no.
+    </li>
+    
+    <li>¿Obtendría la misma respuesta si el nivel de significación fuese del 15%?</li>
+</ol>
