@@ -71,12 +71,12 @@ async function procesar(event) {
 
     if (modalidad === "ciencias") {
         const ejerciciosAnalisis = datos.filter(ejercicio => ejercicio.categorias.includes("Análisis"));
-        const ejerciciosFunciones1 = ejerciciosAnalisis.filter(ejercicio => ejercicio.categorias.includes("Análisis") && !ejercicio.categorias.includes("Integrales"));
+        const ejerciciosFunciones1 = ejerciciosAnalisis.filter(ejercicio => !ejercicio.categorias.includes("Integrales"));
         const ejerciciosFunciones2 = ejerciciosFunciones1.filter(ejercicio => !ejercicio.categorias.includes("Optimización"));
         const ejerciciosIntegrales = ejerciciosAnalisis.filter(ejercicio => ejercicio.categorias.includes("Integrales"));
 
         const ejerciciosAlgebra = datos.filter(ejercicio => ejercicio.categorias.includes("Álgebra"));
-        const ejerciciosMatrices = ejerciciosAlgebra.filter(ejercicio => ejercicio.categorias.includes("Matrices"));
+        const ejerciciosMatrices = ejerciciosAlgebra.filter(ejercicio => !ejercicio.categorias.includes("Sistemas"));
         const ejerciciosSistemas = ejerciciosAlgebra.filter(ejercicio => ejercicio.categorias.includes("Sistemas"));
 
         const ejerciciosGeometria1 = datos.filter(ejercicio => ejercicio.categorias.includes("Geometría"));
