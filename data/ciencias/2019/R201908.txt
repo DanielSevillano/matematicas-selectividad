@@ -1,0 +1,22 @@
+<ol>
+    <li>
+        El área del triángulo formado por $A$, $B$ y $C$ es la mitad del área del paralelogramo determinado por dichos puntos, es decir, el paralelogramo formado por los vectores $\vec{AB} = (0, -1, 2)$ y $\vec{AC} = (-1, 1, 1).$
+        Esta viene dada por el módulo del producto vectorial de los vectores.
+        $$\vec{AB} \times \vec{AC} = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            0 & -1 & 2 \\
+            -1 & 1 & 1
+        \end{vmatrix} = (-3, -2, -1).$$
+
+        Así que el área del paralelogramo es
+        $$\Delta = |\vec{AB} \times \vec{AC}| = |(-3, -2, -1)| = \sqrt{3^2 + 2^2 + 1^2} = \sqrt{14} \; u^2.$$
+
+        Por tanto, el área del triángulo es $\frac{\sqrt{14}}{2} \; u^2.$
+    </li>
+
+    <li>
+        El ángulo en el vértice $A$ viene dado por el ángulo $\alpha$ que forman los vectores $\vec{AB}$ y $\vec{AC}.$
+        Por tanto,
+        $$\cos(\alpha) = \frac{\vec{AB} \cdot \vec{AC}}{|\vec{AB}||\vec{AC}|} = \frac{1}{\sqrt{5}\sqrt{3}} = \frac{1}{\sqrt{15}}.$$
+    </li>
+</ol>

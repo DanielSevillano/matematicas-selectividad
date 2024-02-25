@@ -1,0 +1,69 @@
+<p>
+    Como $AB = C$, entonces
+    $$\begin{pmatrix}
+        1 & 1 & 1 \\
+        1 & a & b \\
+        c & 1 & 4
+    \end{pmatrix} \begin{pmatrix}
+        1 \\
+        1 \\
+        1
+    \end{pmatrix} =
+    \begin{pmatrix}
+        3 \\
+        2 \\
+        1
+    \end{pmatrix} \Leftrightarrow
+    \begin{pmatrix}
+        3 \\
+        1 + a + b \\
+        c + 5
+    \end{pmatrix} =
+    \begin{pmatrix}
+        3 \\
+        2 \\
+        1
+    \end{pmatrix} \Leftrightarrow
+    \begin{cases}
+        1 + a + b = 2 \Leftrightarrow a + b = 1, \\
+        c + 5 = 1 \Leftrightarrow c = -4.
+    \end{cases}$$
+
+    Así que $c = -4.$
+</p>
+
+<p>
+    Por otro lado, como la matriz $A$ tiene rango 2 entonces su determinante ha de ser nulo.
+    Además, observamos que
+    $$\begin{vmatrix}
+        1 & 1 \\
+        1 & 4
+    \end{vmatrix} = 3 \neq 0 \Rightarrow \mathrm{rang}(A) \geq 2.$$
+
+    Calculamos el determinante de $A$.
+    $$|A| = \begin{vmatrix}
+        1 & 1 & 1 \\
+        1 & a & b \\
+        -4 & 1 & 4
+    \end{vmatrix} = 4a - 4b + 1 + 4a - b - 4 = 8a - 5b - 3.$$
+
+    Así que
+    $$\mathrm{rang}(A) = 2 \Leftrightarrow |A| = 0 \Leftrightarrow 8a - 5b - 3 = 0 \Leftrightarrow 8a - 5b = 3.$$
+</p>
+
+<p>
+    Con estas dos condiciones, podemos montar un sistema de ecuaciones.
+    \begin{cases}
+        a + b = 1, \\
+        8a - 5b = 3.
+    \end{cases}
+    
+    Resolvemos el sistema por sustitución.
+    Como $a + b = 1 \Leftrightarrow b = 1-a$,
+    $$8a - 5b = 3 \xrightarrow{b = 1-a} 8a - 5(1-a) = 3 \Leftrightarrow 13a = 8 \Leftrightarrow a = \frac{8}{13}.$$
+    
+    Así que
+    $$b = 1-a \xrightarrow{a = 8/13} b = \frac{5}{13}.$$
+
+    Por tanto, $a = \frac{8}{13}$, $b = \frac{5}{13}$ y $c = -4.$
+</p>

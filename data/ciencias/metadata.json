@@ -1048,6 +1048,7 @@
     },
     {
         "ejercicio": 202152,
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
@@ -1085,6 +1086,7 @@
     },
     {
         "ejercicio": 202157,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Punto simétrico"
@@ -1170,6 +1172,7 @@
     },
     {
         "ejercicio": 202013,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Rango"
@@ -1490,6 +1493,7 @@
     },
     {
         "ejercicio": 201908,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Ángulos",

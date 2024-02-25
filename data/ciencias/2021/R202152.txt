@@ -1,0 +1,21 @@
+<p>
+    Como $(1, 2)$ es un punto de la función, entonces $f(1) = 2.$
+    Así que
+    $$f(1) = 2 \Leftrightarrow \frac{b}{1+a} = 2 \Leftrightarrow b = 2 + 2a.$$
+
+    Por otro lado, como la función tiene un punto crítico en $x = 1$, entonces $f'(1) = 0.$
+    Calculamos en primer lugar la derivada de $f.$
+    $$f'(x) = \frac{2bx(1+ax^4) - 4abx^5}{(1 + ax^4)^2}.$$
+
+    Luego
+    $$f'(1) = 0 \Leftrightarrow \frac{2b(1+a) - 4ab}{(1 + a)^2} = 0 \Leftrightarrow 2b(1+a) - 4ab = 0 \Leftrightarrow 2b(1-a) = 0 \Leftrightarrow \begin{cases}
+        b = 0, \\
+        a = 1.
+    \end{cases}$$
+
+    Como $b > 0$, la solución $b = 0$ no es válida, así que $a = 1.$
+    Sustituyendo en la primera ecuación,
+    $$b = 2 + 2a \xrightarrow{a = 1} b = 4.$$
+
+    Por tanto, $a = 1$ y $b = 4.$
+</p>

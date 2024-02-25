@@ -1,0 +1,13 @@
+<ol>
+    <li>
+        El plano $\pi$ es perpendicular al vector $\vec{AB} = \left(0, -\frac{1}{2}, \frac{1}{2}\right) \parallel (0, 1, -1)$, así que el vector normal del plano es $\vec{n} = (0, 1, -1).$
+        Como además pasa por el punto $B\left(1, \frac{1}{2}, \frac{1}{2}\right)$,
+        $$\pi \equiv y - \frac{1}{2} - \left(z - \frac{1}{2}\right) = 0 \Leftrightarrow y - z = 0.$$
+    </li>
+
+    <li>
+        La distancia de $A$ a su simétrico $A'$ respecto a $\pi$ es el doble de la distancia de $A$ al punto $B.$
+        Por tanto,
+        $$\mathrm{dist}(A, A') = 2\mathrm{dist}(A, B) = 2|\vec{AB}| = 2\sqrt{\left(\frac{1}{2}\right)^2 + \left(\frac{1}{2}\right)^2} = \frac{2}{\sqrt{2}} = \sqrt{2} \; u.$$
+    </li>
+</ol>
