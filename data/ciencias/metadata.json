@@ -198,7 +198,8 @@
         "ejercicio": 202332,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Asíntotas",
+            "Curvatura"
         ]
     },
     {
@@ -503,7 +504,8 @@
         "ejercicio": 202222,
         "categorias": [
             "Análisis",
-            "Monotonía"
+            "Monotonía",
+            "Curvatura"
         ]
     },
     {
@@ -1058,6 +1060,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
+            "Curvatura",
             "Integrales",
             "Teorema fundamental del cálculo"
         ]
@@ -1391,7 +1394,8 @@
     {
         "ejercicio": 202051,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Curvatura"
         ]
     },
     {
@@ -3900,7 +3904,8 @@
         "ejercicio": 201221,
         "categorias": [
             "Análisis",
-            "Monotonía"
+            "Monotonía",
+            "Curvatura"
         ]
     },
     {
