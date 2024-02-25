@@ -1,0 +1,9 @@
+La mosca común solamente vive si la temperatura media de su entorno está comprendida entre 4ºC y 36ºC.
+La vida en días, en función de la temperatura media $T$, medida en grados centígrados, viene dada por la función:
+$$V(T) = -\frac{1}{16}(T^2 - 40T + 16), \quad T \in [4, 36].$$
+
+<ol>
+    <li>Determine la vida máxima que puede alcanzar la mosca común.</li>
+    <li>Calcule la vida mínima e indique la temperatura media a la que se alcanza.</li>
+    <li>Si sabemos que una mosca ha vivido 15 días, ¿a qué temperatura media ha estado el entorno donde ha habitado?
+</ol>

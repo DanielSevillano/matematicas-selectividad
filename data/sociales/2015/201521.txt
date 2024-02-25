@@ -1,0 +1,25 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & -1 & 2 \\
+    0 & 1 & -1 \\
+    1 & 0 & 2
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 2 & 1 \\
+    1 & -2 & 0
+\end{pmatrix}, \quad
+C = \begin{pmatrix}
+    2 & 1
+\end{pmatrix} \quad \text{y} \quad
+D = \begin{pmatrix}
+    1 & -1 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Estudie cuáles de los siguientes productos de matrices se pueden realizar, indicando las dimensiones de la matriz resultante:
+        $$AB^t, \quad C^tD, \quad B^tD, \quad DB^t.$$
+    </li>
+    <li>Despeje la matriz $X$ en la ecuación $XA^{-1} + 2B = 3C^tD$, sin calcular sus elementos.</li>
+    <li>Calcule la matriz $A(B^t - 2D^tC).$</li>
+</ol>

@@ -1,0 +1,6 @@
+Un supermercado tiene almacenados 600 kg de manzanas y 400 kg de naranjas.
+Para incentivar su venta elabora dos tipos de bolsas: A y B.
+Las bolsas de tipo A contienen 3 kg de manzanas y 1 kg de naranjas; las bolsas de tipo B incluyen 2 kg de cada uno de los productos.
+El precio de venta de la bolsa A es de 4€ y de 3€ el de la bolsa de tipo B.
+Suponiendo que vende todas las bolsas preparadas, ¿cuántas bolsas de cada tipo debe haber elaborado para maximizar los ingresos?
+¿A cuánto asciende el ingreso máximo?

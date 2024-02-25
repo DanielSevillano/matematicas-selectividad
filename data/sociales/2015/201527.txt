@@ -1,0 +1,8 @@
+Sean dos sucesos $A$ y $B$ tales que $P(A) = 0,25$, $P(B) = 0,6$ y $P(A \cap B^c) = 0,1.$
+
+<ol>
+    <li>Calcule la probabilidad de que ocurra $A$ y ocurra $B.$</li>
+    <li>Calcule la probabilidad de que no ocurra $A$ pero sí ocurra $B.$</li>
+    <li>Calcule la probabilidad de que ocurra $A$ sabiendo que ha ocurrido $B.$</li>
+    <li>¿Son independientes $A$ y $B$?</li>
+</ol>

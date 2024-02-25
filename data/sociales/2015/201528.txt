@@ -1,0 +1,6 @@
+Se ha lanzado un dado 400 veces, y en 72 de ellas ha salido un tres.
+
+<ol>
+    <li>Calcule un intervalo de confianza, al 99,2%, para la proporción de veces que se obtiene un tres.</li>
+    <li>Calcule el error máximo admisible cometido con ese intervalo.</li>
+</ol>

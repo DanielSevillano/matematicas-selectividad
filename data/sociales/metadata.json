@@ -2782,5 +2782,57 @@
             "Estadística",
             "Estimación de la media"
         ]
+    },
+    {
+        "ejercicio": 201521,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201522,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201523,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201524,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201525,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201526,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201527,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201528,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
     }
 ]

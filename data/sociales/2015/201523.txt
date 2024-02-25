@@ -1,0 +1,7 @@
+El 70% de los clientes de un supermercado realizan las compras en el local y el resto de los clientes las realizan por internet.
+De las compras realizadas en el local, sólo el 30% supera los 100€, mientras que de las realizadas por internet el 80% supera esa cantidad.
+
+<ol>
+    <li>Elegida una compra al azar, ¿cuál es la probabilidad de que supere los 100€?</li>
+    <li>Si se sabe que una compra supera los 100€, ¿cuál es la probabilidad de que se haya hecho en el local?</li>
+</ol>

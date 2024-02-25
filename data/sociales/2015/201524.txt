@@ -1,0 +1,4 @@
+Una característica poblacional X sigue una distribución Normal $N(\mu, 2,1).$
+Sobre ella se formula un contraste de hipótesis bilateral con $H_0: \mu =5,5$ a un nivel de significación del 8%.
+Se extrae una muestra aleatoria simple de tamaño 25 que proporciona una media muestral de 6,3.
+Plantee dicho contraste, determine su región crítica y razone si se puede aceptar la hipótesis nula.
