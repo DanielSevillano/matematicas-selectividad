@@ -1,0 +1,110 @@
+<ol>
+    <li>
+        En primer lugar, calculamos $M.$
+        $$M = \begin{pmatrix}
+            1 & 1 & 0 \\
+            1 & 0 & 1 \\
+            0 & 1 & 1
+        \end{pmatrix} + (\lambda-1) \begin{pmatrix}
+            0 & 0 & 1 \\
+            0 & 1 & 0 \\
+            1 & 0 & 0
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 1 & \lambda-1 \\
+            1 & \lambda-1 & 1 \\
+            \lambda-1 & 1 & 1
+        \end{pmatrix}.$$
+
+        Como la matriz $M$ es cuadrada, $\mathrm{rang}(M) < 3 \Leftrightarrow |M| = 0.$
+        Calculamos el determinante de $M.$
+        $$|M| = \begin{vmatrix}
+            1 & 1 & \lambda-1 \\
+            1 & \lambda-1 & 1 \\
+            \lambda-1 & 1 & 1
+        \end{vmatrix} = 3(\lambda-1) - (\lambda-1)^3 - 2 = 3\lambda - 5 - (\lambda^3 - 3\lambda^2 + 3\lambda - 1) = -\lambda^3 + 3\lambda^2 - 4.$$
+
+        Si factorizamos el polinomio, obtenemos que
+        $$|M| = -(\lambda-2)^2(\lambda+1).$$
+
+        Así que
+        $$|M| = 0 \Leftrightarrow -(\lambda-2)^2(\lambda+1) = 0 \Leftrightarrow \begin{cases}
+            \lambda - 2 = 0 \Leftrightarrow \lambda = 2, \\
+            \lambda + 1 = 0 \Leftrightarrow \lambda = -1.
+        \end{cases}$$
+
+        Por tanto, la matriz $M$ tiene rango menor que 3 para $\lambda = -1$ y $\lambda = 2.$
+    </li>
+
+    <li>
+        Si $\lambda = -1$,
+        $$M = \begin{pmatrix}
+            1 & 1 & -2 \\
+            1 & -2 & 1 \\
+            -2 & 1 & 1
+        \end{pmatrix}.$$
+
+        Por el apartado anterior sabemos que $\mathrm{rang}(M) < 3.$
+        Observamos que
+        $$\begin{vmatrix}
+            1 & 1 \\
+            1 & -2
+        \end{vmatrix} = -3 \neq 0 \Rightarrow \mathrm{rang}(M) = 2.$$
+
+        El sistema a resolver es
+        $$\begin{pmatrix}
+            1 & 1 & -2 \\
+            1 & -2 & 1 \\
+            -2 & 1 & 1
+        \end{pmatrix} \begin{pmatrix}
+            x \\
+            y \\
+            z
+        \end{pmatrix} = \begin{pmatrix}
+            0 \\
+            0 \\
+            0
+        \end{pmatrix} \to
+        \begin{cases}
+            x + y - 2z = 0, \\
+            x - 2y + z = 0, \\
+            -2x + y + z = 0.
+        \end{cases}$$
+
+        Podemos ver que se trata de un sistema compatible indeterminado por el teorema de Rouché-Frobenius.
+        Como el rango de $M$ es 2, el sistema se puede reducir a
+        \begin{cases}
+            x + y - 2z = 0, \\
+            x - 2y + z = 0.
+        \end{cases}
+
+        Resolvemos el sistema por el método de Gauss.
+        $$\begin{pmatrix}
+            1 & 1 & -2 & 0 \\
+            1 & -2 & 1 & 0
+        \end{pmatrix} \xrightarrow{F_2 - F_1}
+        \begin{pmatrix}
+            1 & 1 & -2 & 0 \\
+            0 & -3 & 3 & 0
+        \end{pmatrix}.$$
+
+        El sistema resultante es
+        \begin{cases}
+            x + y - 2z = 0, \\
+            -3y + 3z = 0.
+        \end{cases}
+
+        Si tomamos $z = \mu$,
+        \begin{align}
+            & -3y + 3z = 0 \xrightarrow{z = \mu} -3y + 3\mu = 0 \Leftrightarrow y = \mu, \\
+            & x + y - 2z = 0 \xrightarrow[z = \mu]{y = \mu} x + \mu - 2\mu = 0 \Leftrightarrow x = \mu.
+        \end{align}
+
+        Por tanto, la solución del sistema es
+        $$\begin{cases}
+            x = \mu, \\
+            y = \mu, \\
+            z = \mu,
+        \end{cases} \quad \mu \in \mathbb{R}.$$
+    </li>
+</ol>
