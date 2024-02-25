@@ -17,6 +17,7 @@
         "categorias": [
             "Análisis",
             "Monotonía",
+            "Curvatura",
             "Integrales"
         ]
     },
@@ -304,6 +305,7 @@
         "categorias": [
             "Análisis",
             "Monotonía",
+            "Curvatura",
             "Asíntotas"
         ]
     },
@@ -417,6 +419,7 @@
         "categorias": [
             "Análisis",
             "Monotonía",
+            "Curvatura",
             "Asíntotas"
         ]
     },
@@ -1087,6 +1090,7 @@
             "Continuidad",
             "Derivabilidad",
             "Monotonía",
+            "Curvatura",
             "Asíntotas"
         ]
     },
@@ -1359,6 +1363,7 @@
         "categorias": [
             "Análisis",
             "Monotonía",
+            "Curvatura",
             "Recta tangente",
             "Integrales"
         ]
@@ -1389,7 +1394,8 @@
             "Análisis",
             "Continuidad",
             "Derivabilidad",
-            "Monotonía"
+            "Monotonía",
+            "Curvatura"
         ]
     },
     {
@@ -1526,7 +1532,8 @@
         "ejercicio": 201932,
         "categorias": [
             "Análisis",
-            "Monotonía"
+            "Monotonía",
+            "Curvatura"
         ]
     },
     {
@@ -1606,6 +1613,7 @@
         "categorias": [
             "Análisis",
             "Monotonía",
+            "Curvatura",
             "Integrales"
         ]
     },
@@ -1661,6 +1669,7 @@
         "categorias": [
             "Análisis",
             "Monotonía",
+            "Curvatura",
             "Integrales"
         ]
     },
@@ -2267,7 +2276,8 @@
         "categorias": [
             "Análisis",
             "Derivabilidad",
-            "Monotonía"
+            "Monotonía",
+            "Curvatura"
         ]
     },
     {
@@ -2601,7 +2611,8 @@
             "Análisis",
             "Continuidad",
             "Derivabilidad",
-            "Monotonía"
+            "Monotonía",
+            "Curvatura"
         ]
     },
     {
