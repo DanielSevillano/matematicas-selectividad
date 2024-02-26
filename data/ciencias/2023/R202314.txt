@@ -1,0 +1,23 @@
+<ol>
+    <li>
+        En primer lugar, calculamos la derivada de $f.$
+        $$f'(x) = 2x.$$
+        
+        La pendiente de la recta tangente viene dada por el valor de la derivada.
+        Veamos en qué punto es igual a 4.
+        $$f'(x) = 4 \Leftrightarrow 2x = 4 \Leftrightarrow x = 2.$$
+
+        Luego el único candidato es el punto $(2, 5).$
+        Podemos comprobar que, efectivamente, la ecuación de la recta tangente a la gráfica de $f$ en $x = 2$ es
+        $$y - f(2) = f'(2)(x-2) \to y - 5 = 4(x-2) \Leftrightarrow y = 4x - 3.$$
+    </li>
+
+    <li>
+        Sabemos por el apartado anterior que la función y la recta se cortan en $x = 2.$
+        Representamos el recinto.
+        <img src="img/R202314.png" alt="Figura" loading="lazy">
+
+        Calculamos el área del recinto.
+        $$\Delta = \int_0^2 ((x^2+1) - (4x-3))dx = \int_0^2 (x^2 - 4x + 4)dx = \left[\frac{x^3}{3} - 2x^2 + 4x\right]_0^2 = \frac{8}{3} \; u^2.$$
+    </li>
+</ol>
