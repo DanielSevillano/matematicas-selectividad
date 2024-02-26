@@ -1,0 +1,43 @@
+<p>
+    En primer lugar, hallamos todas las primitivas de la función $f.$
+    $$F(x) = \int f(x)dx = \int \frac{1+e^x}{1-e^x}dx.$$
+</p>
+
+<p>
+    Para resolver esta integral, usamos el cambio de variable
+    \begin{align}
+        t = e^x \Rightarrow x & = \ln(t), \\
+        dx &= \frac{1}{t}dt.
+    \end{align}
+
+    De esta forma,
+    $$F(x) = \int \frac{1+e^x}{1-e^x}dx = \int \frac{1+t}{t(1-t)}dt.$$
+
+    Expresamos la función como suma de fracciones simples.
+    $$\frac{1+t}{t(1-t)} = \frac{A}{t} + \frac{B}{1-t} = \frac{A - At + Bt}{t(1-t)} = \frac{(-A+B)t + A}{t(1-t)}.$$
+
+    Igualando ambas expresiones, obtenemos que
+    $$\begin{cases}
+        -A + B = 1, \\
+        A = 1
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        A = 1, \\
+        B = 2.
+    \end{cases}$$
+
+    Por tanto,
+    $$\frac{1+t}{t(1-t)} = \frac{1}{t} + \frac{2}{1-t}.$$
+
+    Resolvemos la integral.
+    $$F(x) = \int \frac{1+t}{t(1-t)}dt = \int \frac{1}{t}dt + 2\int \frac{1}{1-t}dt = \ln|t| - 2\ln|1-t| + C = x - 2\ln|1-e^x| + C.$$
+</p>
+
+<p>
+    La primitiva que pasa por el punto $(1, 1)$ ha de verificar $F(1) = 1.$
+    Por tanto,
+    $$F(1) = 1 \Leftrightarrow 1 - 2\ln|1-e| + C = 1 \Leftrightarrow C = 2\ln(e-1).$$
+
+    Luego la primitiva es
+    $$F(x) = x - 2\ln|1-e^x| + 2\ln(e-1).$$
+</p>

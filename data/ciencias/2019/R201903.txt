@@ -1,0 +1,69 @@
+<p>
+    En primer lugar, calculamos el determinante de la matriz $X.$
+    $$|X| = \begin{vmatrix}
+        a & b \\
+        c & d
+    \end{vmatrix} = ad - bc.$$
+
+    Como su determinante es 1, entonces
+    $$ad - bc = 1.$$
+
+    Por otro lado, como $AX = XA$,
+    $$\begin{pmatrix}
+        0 & -1 \\
+        1 & 0
+    \end{pmatrix}
+    \begin{pmatrix}
+        a & b \\
+        c & d
+    \end{pmatrix} =
+    \begin{pmatrix}
+        a & b \\
+        c & d
+    \end{pmatrix}
+    \begin{pmatrix}
+        0 & -1 \\
+        1 & 0
+    \end{pmatrix} \Leftrightarrow \begin{pmatrix}
+        -c & -d \\
+        a & b
+    \end{pmatrix} =
+    \begin{pmatrix}
+        b & -a \\
+        d & -c
+    \end{pmatrix} \Leftrightarrow \begin{cases}
+        -c = b, \\
+        -d = -a, \\
+        d = a, \\
+        b = -c
+    \end{cases} \Leftrightarrow \begin{cases}
+        a = d, \\
+        c = -b.
+    \end{cases}$$
+</p>
+
+<p>
+    Podemos montar el sistema de ecuaciones
+    \begin{cases}
+        a + d = 1, \\
+        ad - bc = 1, \\
+        a = d, \\
+        c = -b.
+    \end{cases}
+
+    Sustituyendo,
+    \begin{align}
+        & a + d = 1 \xrightarrow{d = a} 2a = 1 \Leftrightarrow a = \frac{1}{2} \Rightarrow d = \frac{1}{2}, \\
+        & ad - bc = 1 \xrightarrow{c = -b}[a = d = 1/2] \frac{1}{4} + b^2 = 1 \Leftrightarrow b^2 = \frac{3}{4} \Leftrightarrow b = \pm \frac{\sqrt{3}}{2} \Rightarrow c = \mp \frac{\sqrt{3}}{2}.
+    \end{align}
+
+    Por tanto, las matrices que cumplen estas condiciones son
+    $$X_1 = \begin{pmatrix}
+        \frac{1}{2} & \frac{\sqrt{3}}{2} \\
+        -\frac{\sqrt{3}}{2} & \frac{1}{2}
+    \end{pmatrix} \quad \text{y} \quad
+    X_2 = \begin{pmatrix}
+        \frac{1}{2} & -\frac{\sqrt{3}}{2} \\
+        \frac{\sqrt{3}}{2} & \frac{1}{2}
+    \end{pmatrix}.$$
+</p>

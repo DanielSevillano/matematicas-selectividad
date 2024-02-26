@@ -1469,6 +1469,7 @@
     },
     {
         "ejercicio": 201901,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Asíntotas",
@@ -1477,6 +1478,7 @@
     },
     {
         "ejercicio": 201902,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -1484,6 +1486,7 @@
     },
     {
         "ejercicio": 201903,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Determinantes"

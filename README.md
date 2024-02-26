@@ -70,7 +70,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Reserva 2 (1, 7, 8)
     - [ ] Reserva 4 (2)
 - [ ] 2019
-    - [ ] Junio (B4)
+    - [ ] Junio (A1, A2, A3, B4)
     - [ ] Septiembre (A4, B3, B4)
     - [ ] Reserva 1 (A1)
     - [ ] Reserva 3 (B2)
