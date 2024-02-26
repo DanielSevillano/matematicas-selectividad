@@ -1,10 +1,12 @@
 <ol>
-    <li>El único candidato para ser una asíntota vertical de $f$ es $x = -2$, que es el punto que anula el denominador.
+    <li>El único candidato para ser una asíntota vertical de $f$ es $x = -2$, que es el valor que anula el denominador.
     Observamos que
     \begin{align}
         & \lim_{x \to -2^-} \frac{x^4 - 3x^2 + 2}{(x+2)^3} = \frac{2}{0^-} = -\infty, \\
         & \lim_{x \to -2^+} \frac{x^4 - 3x^2 + 2}{(x+2)^3} = \frac{2}{0^+} = +\infty.
     \end{align}
+
+    Por tanto, la recta $x = -2$ es una asíntota vertical.
 
     Veamos si $f$ tiene una asíntota horizontal.
     $$\lim_{x \to +\infty} \frac{x^4 - 3x^2 + 2}{(x+2)^3} = +\infty.$$
