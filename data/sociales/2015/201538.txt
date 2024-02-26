@@ -1,0 +1,11 @@
+De una población Normal de media desconocida $\mu$ y desviación típica 2 se extrae la siguiente muestra aleatoria simple de tamaño 10:
+$$3,8, \quad 6,3, \quad 4,3, \quad, 6, \quad 6,2, \quad 5,8, \quad 1,5, \quad 3,3, \quad 3,4, \quad 2,9.$$
+
+<ol>
+    <li>
+        Estime, mediante un intervalo de confianza, la media poblacional para un nivel de confianza del 92%.
+        Obtenga su error de estimación.
+    </li>
+
+    <li>¿Qué tamaño muestral mínimo sería necesario para reducir ese error a la mitad, con el mismo nivel de confianza?</li>
+</ol>

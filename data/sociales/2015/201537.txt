@@ -1,0 +1,9 @@
+Una empresa dedicada a la producción de jamones ibéricos dispone de dos secaderos, A y B, con distintas condiciones ambientales y de almacenamiento.
+En el secadero B se curan la tercera parte de los jamones.
+El 25% de los jamones curados en el secadero A son catalogados como Reserva, mientras que en el B este porcentaje asciende al 80%.
+Elegido un jamón al azar de uno de los secaderos, calcule la probabilidad de los siguientes sucesos:
+
+<ol>
+    <li>El jamón no es de Reserva.</li>
+    <li>Si el jamón es de Reserva, que proceda del secadero A.</li>
+</ol>

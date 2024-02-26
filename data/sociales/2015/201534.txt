@@ -1,0 +1,3 @@
+El servicio de atención al cliente de una empresa funciona eficazmente si el tiempo medio de atención es inferior o igual a 7 minutos.
+Se toma una muestra de 36 clientes atendidos y se observa que el tiempo medio es de 8 minutos.
+Suponiendo que el tiempo empleado en atender a un cliente sigue una distribución Normal con varianza 16, plantee un contraste de hipótesis $(H_0: \mu \leq 7)$, con un nivel de significación de 0,05, determine la región crítica de este contraste y razone si se puede aceptar que ese servicio funciona de forma eficaz.

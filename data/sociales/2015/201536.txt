@@ -1,0 +1,7 @@
+Se considera la función $f(x) = x^3 - 2x^2 + x.$
+
+<ol>
+    <li>Halle el máximo, el mínimo y el punto de inflexión de la función.</li>
+    <li>Calcule los puntos de corte con los ejes.</li>
+    <li>Obtenga las ecuaciones de las rectas tangentes a la gráfica de $f$ en los puntos de abscisas $x = 0$ y $x = 1.$</li>
+</ol>

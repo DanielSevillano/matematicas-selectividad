@@ -1,0 +1,8 @@
+Sea el siguiente conjunto de inecuaciones:
+$$x - 3y \geq 8, \quad 3x + 2y \geq 15, \quad x + 3y \leq 12, \quad x \geq 0, \quad y \geq 0.$$
+
+<ol>
+    <li>Dibuje el recinto del plano determinado por estas inecuaciones.</li>
+    <li>Determine los vértices de este recinto.</li>
+    <li>Maximice la función $F(x, y) = 5x + 9y$ en este recinto, indicando el punto o puntos donde se alcanza ese máximo.</li>
+</ol>

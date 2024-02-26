@@ -1,0 +1,8 @@
+<ol>
+    <li>Calcule la probabilidad de que al lanzar dos dados, la suma de sus puntuaciones sea un múltiplo de 4.</li>
+    <li>
+        De un experimento aleatorio se conocen las siguientes probabilidades:
+        $$P(A^c) = 0,8, \quad P(B^c) = 0,7 \quad \text{y} \quad P(A \cup B) = 0,5.$$
+        ¿Son A y B incompatibles?
+    </li>
+</ol>

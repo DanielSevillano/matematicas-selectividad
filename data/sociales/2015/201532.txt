@@ -1,0 +1,12 @@
+Sea la función
+$$f(x) = \begin{cases}
+    1, & \text{si } x \leq 0, \\
+    -x^2 + 1, & \text{si } 0 < x < 4, \\
+    x^2 - 8x + 17, & \text{si } x \geq 4.
+\end{cases}$$
+
+<ol>
+    <li>Represente gráficamente la función $f.$</li>
+    <li>Estudie su continuidad y derivabilidad.</li>
+    <li>Calcule $f'(1)$ y $f'(5).$</li>
+</ol>
