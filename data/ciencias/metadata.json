@@ -971,6 +971,7 @@
     },
     {
         "ejercicio": 202135,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas"
@@ -1032,6 +1033,7 @@
     },
     {
         "ejercicio": 202145,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Rango",
@@ -1502,6 +1504,7 @@
     },
     {
         "ejercicio": 201905,
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]

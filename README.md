@@ -63,14 +63,14 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Julio (1, 2, 3, 7)
     - [ ] Reserva 1 (5)
     - [ ] Reserva 2 (1, 5, 6)
-    - [ ] Reserva 3 (4, 6)
-    - [ ] Reserva 4 (1)
+    - [ ] Reserva 3 (4, 5, 6)
+    - [ ] Reserva 4 (1, 5)
 - [ ] 2020
     - [ ] Reserva 1 (1, 3, 5)
     - [ ] Reserva 2 (1, 7, 8)
     - [ ] Reserva 4 (2)
 - [ ] 2019
-    - [ ] Junio (A1, A2, A3, B4)
+    - [ ] Junio (A1, A2, A3, B1, B4)
     - [ ] Septiembre (A4, B3, B4)
     - [ ] Reserva 1 (A1)
     - [ ] Reserva 3 (B2)

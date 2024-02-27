@@ -1,0 +1,34 @@
+<ol>
+    <li>
+        En primer lugar, calculamos la derivada de $f.$
+        $$f'(x) = e^x + (x-a)e^x = (x-a+1)e^x.$$
+
+        Como $f$ tiene un punto crítico en $x = 0$, entonces $f'(0) = 0.$
+        $$f'(0) = 0 \Leftrightarrow -a + 1 = 0 \Leftrightarrow a = 1.$$
+    </li>
+
+    <li>
+        Si $a = 1$, entonces $f(x) = (x-1)e^x$ y $f'(x) = xe^x.$
+        Calculamos su segunda derivada.
+        $$f''(x) = e^x + xe^x = (x+1)e^x.$$
+
+        Para hallar los candidatos a puntos de inflexión igualamos la segunda derivada de $f$ a cero.
+        $$f''(x) = 0 \Leftrightarrow (x+1)e^x = 0 \Leftrightarrow x + 1 = 0 \Leftrightarrow x = -1.$$
+
+        Estudiemos el signo de $f''.$
+
+        <ul>
+            <li>
+                Si $x < -1$, $f''(x) < 0.$
+                Así que $f$ es cóncava.
+            </li>
+
+            <li>
+                Si $x > -1$, $f''(x) > 0.$
+                Así que $f$ es convexa.
+            </li>
+        </ul>
+
+        Como en $x = -1$ se produce un cambio de curvatura, $\left(-1, -\frac{2}{e}\right)$ es el punto de inflexión de $f.$
+    </li>
+</ol>

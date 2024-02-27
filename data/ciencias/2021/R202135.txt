@@ -1,0 +1,61 @@
+<ol>
+    <li>
+        Como se trata de un sistema homogéneo, sabemos que es compatible.
+        La matriz de coeficientes del sistema es
+        $$A = \begin{pmatrix}
+            1 & 1 & 2 \\
+            3 & -1 & -2 \\
+            -1 & 2 & m
+        \end{pmatrix}.$$
+
+        Para que el sistema sea compatible indeterminado necesitamos que el rango de $A$ sea menor que el número de incógnitas, por el teorema de Rouché-Frobenius.
+        Es decir, su determinante ha de ser nulo.
+        Además, observamos que
+        $$\begin{vmatrix}
+            1 & 1 \\
+            3 & -1
+        \end{vmatrix} = -4 \neq 0 \Rightarrow \mathrm{rang}(A) \geq 2.$$
+
+        Calculamos el determinante de $A.$
+        $$|A| = \begin{vmatrix}
+            1 & 1 & 2 \\
+            3 & -1 & -2 \\
+            -1 & 2 & m
+        \end{vmatrix} = -4m + 16.$$
+
+        Así que
+        $$\mathrm{rang}(A) = 2 \Leftrightarrow |A| = 0 \Leftrightarrow -4m + 16 = 0 \Leftrightarrow m = 4.$$
+
+        Por tanto, para $m = 4$ el sistema tiene infinitas soluciones.
+        Como para este valor del parámetro el rango de $A$ es 2, el sistema se puede reducir a
+        \begin{cases}
+            x + y + 2z = 0, \\
+            3x - y - 2z = 0.
+        \end{cases}
+
+        Resolvemos el sistema por reducción.
+        Si sumamos ambas ecuaciones, obtenemos que
+        $$4x = 0 \Leftrightarrow x = 0.$$
+
+        Si tomamos $z = \lambda$, entonces
+        $$x + y + 2z = 0 \xrightarrow[z = \lambda]{x = 0} y + 2\lambda = 0 \Leftrightarrow y = -2\lambda.$$
+
+        Por tanto, la solución del sistema es
+        $$\begin{cases}
+            x = 0, \\
+            y = -2\lambda, \\
+            z = \lambda,
+        \end{cases} \quad \lambda \in \mathbb{R}.$$
+    </li>
+
+    <li>
+        Si $m = 2$, el sistema es compatible determinado por el apartado anterior y como es homogéneo su única solución es
+        \begin{cases}
+            x = 0, \\
+            y = 0, \\
+            z = 0.
+        \end{cases}
+
+        Por tanto, no existe ninguna solución con $z = 1.$
+    </li>
+</ol>
