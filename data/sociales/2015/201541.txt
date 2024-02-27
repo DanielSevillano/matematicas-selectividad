@@ -1,0 +1,26 @@
+<ol>
+    <li>
+        Resuelva la ecuación matricial
+        $$\begin{pmatrix}
+            2 & 1 \\
+            1 & 2
+        \end{pmatrix} X +
+        \begin{pmatrix}
+            1 & -1 \\
+            0 & 2
+        \end{pmatrix} = I_2.$$
+    </li>
+
+    <li>
+        Dadas las matrices
+        $$M = \begin{pmatrix}
+            0 & 1 \\
+            1 & 0
+        \end{pmatrix} \quad \text{y} \quad
+        A = \begin{pmatrix}
+            a & b \\
+            2 & 1
+        \end{pmatrix},$$
+        calcule los valores de $a$ y $b$ para que se verifique la ecuación $MA = A.$
+    </li>
+</ol>

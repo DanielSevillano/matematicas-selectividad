@@ -1,0 +1,7 @@
+Un estudio estadístico determina que la noche del 31 de diciembre conduce el 5% de la población, el 20% consume alcohol esa noche y el 2% conduce y consume alcohol.
+
+<ol>
+    <li>¿Son independientes los sucesos "conducir" y "consumir alcohol"?</li>
+    <li>¿Qué porcentaje de la población no conduce ni consume alcohol esa noche?</li>
+    <li>De las personas que consumen alcohol, ¿qué porcentaje conduce esa noche?</li>
+</ol>

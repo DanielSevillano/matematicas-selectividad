@@ -1,0 +1,11 @@
+Se considera la función $f$, definida a trozos por la expresión
+$$f(x) = \begin{cases}
+    -x^2 + x + 6 & \text{si } x \leq 2, \\
+    x + 2 & \text{si } x > 2.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad de la función.</li>
+    <li>Analice la derivabilidad de la función.</li>
+    <li>Represéntela gráficamente, determinando los extremos, los intervalos de crecimiento y decrecimiento y los puntos de corte con los ejes.</li>
+</ol>

@@ -1,0 +1,8 @@
+Una enfermedad puede estar provocada por solo una de estas tres causas: A, B o C.
+La probabilidad de que la causa sea A es 0,3, la de que sea B es 0,2 y la de que sea C es 0,5.
+El tratamiento de esta enfermedad requiere hospitalización en el 20% de los casos si está provocada por A, en el 55% si la causa es B y en el 10% si la causa es C.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que un enfermo con la citada enfermedad no necesite hospitalización?</li>
+    <li>Si un enfermo está hospitalizado debido a esta enfermedad, ¿cuál es la probabilidad de que la causa haya sido A?</li>
+</ol>

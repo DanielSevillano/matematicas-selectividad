@@ -1,0 +1,14 @@
+Sea la función
+$$f(x) = \begin{cases}
+    \dfrac{2x-5}{x+4}, & \text{si } x < 2, \\
+    x^3 - 3x^2, & \text{si } x \geq 2.
+\end{cases}$$
+
+<ol>
+    <li>
+        Determine y represente gráficamente sus asíntotas.
+        Calcule el punto donde la gráfica de la función $f$ corta al eje de ordenadas.
+    </li>
+
+    <li>Halle la ecuación de la recta tangente a la gráfica de $f$ en $x = -3.$</li>
+</ol>

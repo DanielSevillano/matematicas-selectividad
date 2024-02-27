@@ -1,0 +1,11 @@
+El capital de las hipotecas constituidas sobre fincas urbanas en Andalucía es una variable aleatoria Normal con desviación típica 10.000€.
+
+<ol>
+    <li>
+        Se toma una muestra aleatoria de 9 hipotecas con los siguientes capitales (en euros):
+        $$95.000 \quad 99.000 \quad 105.000 \quad 106.000 \quad 108.000 \quad 111.000 \quad 112.000 \quad 115.000 \quad 120.000.$$
+        Construya un intervalo de confianza, al 95%, para el capital medio de dichas hipotecas.
+    </li>
+
+    <li>¿Qué número mínimo de hipotecas deberíamos considerar en una muestra para que, con el mismo nivel de confianza, el error máximo en la estimación del capital medio sea de 4.000€?</li>
+</ol>

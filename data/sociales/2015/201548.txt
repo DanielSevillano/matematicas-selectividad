@@ -1,0 +1,4 @@
+El peso medio de los pájaros de una determinada especie que habita en un parque natural se consideraba no inferior a 110 g, pero los biólogos del parque sostienen ahora la hipótesis de que dicho peso medio ha disminuido a consecuencia del cambio climático.
+Se ha tomado una muestra de 100 pájaros de esta especie y se ha obtenido un peso medio de 108 g.
+Se sabe que la variable que mide el peso de los pájaros de esta especie sigue una distribución Normal con desviación típica igual a 6 g.
+Plantee un contraste de hipótesis $(H_0: \mu \geq 110)$, con un nivel de significación del 5%, determine la región crítica de este contraste y, utilizando ésta, razone si con ese nivel se puede aceptar que los biólogos del parque están en lo cierto.
