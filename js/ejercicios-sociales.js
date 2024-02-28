@@ -11,8 +11,10 @@ const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
 const cinta = document.querySelector("#cinta");
 const contador = cinta.querySelector("#contador");
+const casilla = cinta.querySelector("#casilla");
 
 let categoriaSeleccionada;
+let soloResueltos = casilla.checked;
 
 const categoriasProgramacionLineal = ["programacion-lineal", "problemas-de-optimizacion"];
 const categoriasAlgebra = ["algebra", "ecuaciones-matriciales", "problemas-de-matrices"];
@@ -35,7 +37,7 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
-        mostrarCategoria("sociales", categoria, false, contador);
+        mostrarCategoria("sociales", categoria, soloResueltos, contador);
         categoriaSeleccionada = categoria;
         cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
@@ -46,6 +48,11 @@ function pulsar(boton) {
         });
     }
     else setTimeout(() => pulsar(boton));
+}
+
+function mostrarSoloResueltos() {
+    if (!estado.cancelado) mostrarCategoria("sociales", categoriaSeleccionada, soloResueltos, contador);
+    else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 
 botones.forEach(boton => {
@@ -65,6 +72,12 @@ botonAleatorio.addEventListener("click", () => {
     else if (categoriasAlgebra.includes(categoria)) document.querySelector("#grupo-algebra").click();
     else if (categoriasEstadistica.includes(categoria)) document.querySelector("#grupo-estadistica").click();
     else document.querySelector(".grupo").click();
+});
+
+casilla.addEventListener("click", () => {
+    soloResueltos = casilla.checked;
+    if (main.classList.contains("cargando")) estado.cancelar();
+    if (categoriaSeleccionada) mostrarSoloResueltos();
 });
 
 if (!categoria) document.querySelector(".grupo").click();
