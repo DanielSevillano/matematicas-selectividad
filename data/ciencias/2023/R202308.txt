@@ -32,5 +32,5 @@
         1 & 0 & -4
     \end{vmatrix} = (0, 10, 0).$$
     Por último, calculamos el área como
-    $$\Delta = \frac{1}{2}|\vec{AB} \times \vec{AC}| = \frac{1}{2}\sqrt{10^2} = 5 \; u^2.$$</li>
+    $$\frac{1}{2}|\vec{AB} \times \vec{AC}| = \frac{1}{2}\sqrt{10^2} = 5 \; u^2.$$</li>
 </ol>

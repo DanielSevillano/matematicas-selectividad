@@ -9,7 +9,7 @@
         \end{vmatrix} = (-3, -2, -1).$$
 
         Así que el área del paralelogramo es
-        $$\Delta = |\vec{AB} \times \vec{AC}| = |(-3, -2, -1)| = \sqrt{3^2 + 2^2 + 1^2} = \sqrt{14} \; u^2.$$
+        $$|\vec{AB} \times \vec{AC}| = |(-3, -2, -1)| = \sqrt{3^2 + 2^2 + 1^2} = \sqrt{14} \; u^2.$$
 
         Por tanto, el área del triángulo es $\frac{\sqrt{14}}{2} \; u^2.$
     </li>

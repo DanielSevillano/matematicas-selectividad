@@ -37,6 +37,6 @@
 </p>
 
 <p>
-    Así que el rectángulo tiene base $4 \; u$ y altura $8 \; u$, por lo que su área es $\Delta = 4 \cdot 8 = 32 \; u^2.$
+    Así que el rectángulo tiene base $4 \; u$ y altura $8 \; u$, por lo que su área es $4 \cdot 8 = 32 \; u^2.$
     Además, sus vértices son $(2, 0)$, $(-2, 0)$, $(2, 8)$ y $(-2, 8).$
 </p>

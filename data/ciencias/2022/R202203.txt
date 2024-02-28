@@ -26,5 +26,5 @@
 
     <li>
         Calculamos el área del recinto.
-        $$\Delta = \int_{-2}^2 f(x)dx = \int_{-2}^0 (2x+4)dx + \int_0^2 (x-2)^2dx = \left[x^2 + 4x\right]_{-2}^0 + \left[\frac{(x-2)^3}{3}\right]_0^2 = 4 + \frac{8}{3} = \frac{20}{3}u^2.$$
+        $$\int_{-2}^2 f(x)dx = \int_{-2}^0 (2x+4)dx + \int_0^2 (x-2)^2dx = \left[x^2 + 4x\right]_{-2}^0 + \left[\frac{(x-2)^3}{3}\right]_0^2 = 4 + \frac{8}{3} = \frac{20}{3}u^2.$$
 </ol>

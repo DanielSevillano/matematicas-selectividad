@@ -26,5 +26,5 @@
     \end{vmatrix} = (-1, -2, 3).$$
 
     Por tanto, el área de la cara es
-    $$\Delta = |\vec{OA} \times \vec{OB}| = |(-1, -2, 3)| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{14} \; u^2.$$</li>
+    $$|\vec{OA} \times \vec{OB}| = |(-1, -2, 3)| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{14} \; u^2.$$</li>
 </ol>
