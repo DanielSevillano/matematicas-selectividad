@@ -95,7 +95,17 @@ async function obtenerDatos() {
     tarjetaExamenesSociales.classList.add("tarjeta");
     tarjetaExamenesSociales.textContent = (numeroEjerciciosSociales / 8) + " examenes";
 
-    seccionSociales.append(tarjetaExamenesSociales, tarjetaEjerciciosSociales);
+    const numeroEjerciciosResueltosSociales = datosSociales.filter((ejercicio) => ejercicio.resuelto).length;
+
+    const tarjetaEjerciciosResueltosSociales = document.createElement("div");
+    tarjetaEjerciciosResueltosSociales.classList.add("tarjeta");
+    tarjetaEjerciciosResueltosSociales.textContent = numeroEjerciciosResueltosSociales + " ejercicios resueltos";
+
+    const tarjetaPorcentajeResueltosSociales = document.createElement("div");
+    tarjetaPorcentajeResueltosSociales.classList.add("tarjeta");
+    tarjetaPorcentajeResueltosSociales.textContent = (numeroEjerciciosResueltosSociales / numeroEjerciciosSociales * 100).toFixed(2).replace(".", ",") + "% resuelto";
+
+    seccionSociales.append(tarjetaExamenesSociales, tarjetaEjerciciosSociales, tarjetaEjerciciosResueltosSociales, tarjetaPorcentajeResueltosSociales);
     seccionSociales.classList.remove("cargando");
 }
 
