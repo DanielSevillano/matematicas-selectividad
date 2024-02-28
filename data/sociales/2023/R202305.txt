@@ -1,0 +1,49 @@
+<ol>
+    <li>
+        Llamamos $C$ a obtener cara y $X$ a obtener cruz.
+        Observamos que son sucesos complementarios.
+        Como además la probabilidad de obtener cara es el doble de la probabilidad de obtener cruz, entonces
+        \begin{cases}
+            P(C) + P(X) = 1, \\
+            P(C) = 2P(X)
+        \end{cases}
+
+        Podemos resolver este sistema por reducción.
+        Si restamos las dos ecuaciones, obtenemos que
+        $$P(X) = 1 - 2P(X) \Leftrightarrow 3P(X) = 1 \Leftrightarrow P(X) = \frac{1}{3}.$$
+
+        Sustituyendo,
+        $$P(C) = 2P(X) \xrightarrow{P(X) = 1/3} P(C) = \frac{2}{3}.$$
+
+        Por tanto, $P(C) = \frac{2}{3}$ y $P(X) = \frac{1}{3}.$
+    </li>
+
+    <li>
+        Al lanzar dos veces la moneda, el espacio muestral es
+        $$\{CC, CX, XC, XX\}.$$
+
+        Obtener una cara y una cruz, sin importar el orden, corresponde a los sucesos $CX$ y $XC.$
+        Hallamos estas probabilidades.
+        \begin{align}
+            & P(CX) = P(C) \cdot P(X) = \frac{2}{3} \cdot \frac{1}{3} = \frac{2}{9}, \\
+            & P(XC) = P(X) \cdot P(C) = \frac{1}{3} \cdot \frac{3}{3} = \frac{2}{9}.
+        \end{align}
+
+        Por tanto, la probabilidad de obtener una cara y una cruz es
+        $$P(CX) + P(XC) = \frac{2}{9} + \frac{2}{9} = \frac{4}{9}.$$
+    </li>
+
+    <li>
+        Obtener al menos una cara corresponde a los sucesos $CC$, $CX$ y $XC.$
+        Observamos que
+        $$P(CC) = P(C) \cdot P(C) = \frac{2}{3} \cdot \frac{2}{3} = \frac{4}{9}.$$
+
+        Por tanto, la probabilidad de obtener al menos una cara es
+        $$P(CC) + P(CX) + P(XC) = \frac{4}{9} + \frac{2}{9} + \frac{2}{9} = \frac{8}{9}.$$
+    </li>
+
+    <li>
+        La probabilidad de obtener dos caras dado que ha salido una cara es
+        $$\frac{P(C) \cdot P(C)}{P(CX) + P(XC)} = \frac{\frac{2}{3} + \frac{2}{3}}{\frac{8}{9}} = \frac{\frac{4}{3}}{\frac{8}{9}} = \frac{4}{8} = \frac{1}{2}.$$
+    </li>
+</ol>

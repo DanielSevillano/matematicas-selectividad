@@ -1,0 +1,30 @@
+<ol>
+    <li>
+        Como 64 personas de $n = 400$ son donantes de sangre, la proporción muestral es
+        $$p = \frac{64}{400} = 0,16.$$
+
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+
+        Como el nivel de confianza es del 98%, entonces
+        $$1 - \alpha = 0,98 \Leftrightarrow \alpha = 1 - 0,98 = 0,02.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,02}{2} = 0,99 \Rightarrow z_{\alpha/2} = 2,325.$$
+
+        Por tanto, el intervalo de confianza para estimar la proporción poblacional de donantes de sangre con un nivel de confianza del 98% es
+        $$I = \left(0,16 - 2,325 \cdot \sqrt{\frac{0,16 \cdot (1-0,16)}{400}}, \; 0,16 + 2,325 \cdot \sqrt{\frac{0,16 \cdot (1-0,16)}{400}}\right) \approx (0,1174; \; 0,2026).$$
+    </li>
+
+    <li>
+        Si el nivel de confianza es del 95%, entonces
+        $$1 - \alpha = 0,95 \Leftrightarrow \alpha = 1 - 0,95 = 0,05.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
+
+        Por tanto, el error máximo cometido es
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 1,96 \cdot \sqrt{\frac{0,16 \cdot (1-0,16)}{400}} \approx 0,0359.$$
+
+        El error máximo cometido disminuye al reducir el nivel de confianza, porque el intervalo tiene una menor amplitud.
+</ol>

@@ -1,0 +1,38 @@
+<ol>
+    <li>
+        El tamaño de la población es
+        $$250 + 300 + 400 + 350 = 1.300.$$
+
+        Llamamos $x$ al número de individuos en la muestra del segundo estrado, $y$ en la muestra del tercer estrato y $z$ en la muestra del cuarto estrato.
+        Como se usa afijación proporcional y se seleccionan 20 individuos del primer estrato,
+        $$\frac{250}{20} = \frac{300}{x} = \frac{400}{y} = \frac{350}{z}.$$
+        
+        Despejamos estos valores.
+        \begin{align}
+            & \frac{250}{20} = \frac{300}{x} \Leftrightarrow x = \frac{20 \cdot 300}{250} = 24, \\
+            & \frac{250}{20} = \frac{400}{y} \Leftrightarrow y = \frac{20 \cdot 400}{250} = 32, \\
+            & \frac{250}{20} = \frac{350}{z} \Leftrightarrow z = \frac{20 \cdot 350}{250} = 28.
+        \end{align}
+
+        Por tanto, se seleccionan 24 individuos del segundo estrato, 32 del tercer estrado y 28 del cuarto estrato.
+        Así que el tamaño de la muestra es
+        $$20 + 24 + 32 + 28 = 104.$$
+    </li>
+
+    <li>
+        <ol>
+            <li>
+                La distribución de las medias muestrales $\overline{X}$ sigue una normal $N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)$ con $\mu = 6,4$, $\sigma = 0,7$ y $n = 49.$
+                Es decir, $\overline{X} \sim N(6,4; 0,1).$
+            </li>
+
+            <li>
+                Calculamos la probabilidad.
+                \begin{align}
+                    & P(6,3 \leq \overline{X} \leq 6,8) = P\left(\frac{6,3 - 6,4}{0,1} \leq Z \leq \frac{6,8 - 6,4}{0,1}\right) = P(-1 \leq Z \leq 4) = P(Z \leq 4) - P(Z \leq -1) = \\
+                    & = P(Z \leq 4) - (1 - P(Z \leq 1)) \approx 0,8413.
+                \end{align}
+            </li>
+        </ol>
+    </li>
+</ol>

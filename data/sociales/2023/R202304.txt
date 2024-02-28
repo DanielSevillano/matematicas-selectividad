@@ -1,0 +1,67 @@
+<ol>
+    <li>
+        Para hallar los puntos críticos, igualamos la derivada de $v$ a cero.
+        $$v'(t) = 0 \Leftrightarrow t^2 - 5t + 6 = 0 \Leftrightarrow \begin{cases}
+            t = 2, \\
+            t = 3.
+        \end{cases}$$
+
+        Así que los puntos críticos se encuentran en $t = 2$ y $t = 3.$
+        Estudiemos el signo de $v'.$
+
+        <ul>
+            <li>
+                Si $0 < t < 2$, $v'(t) > 0.$
+                Así que $v$ es creciente.
+            </li>
+
+            <li>
+                Si $2 < t < 3$, $v'(t) < 0.$
+                Así que $v$ es decreciente.
+            </li>
+
+            <li>
+                Si $3 < t < 6$, $v'(t) > 0.$
+                Así que $v$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, $v$ es creciente en $(0, 2) \cup (3, 6)$ y es decreciente en $(2, 3).$
+    </li>
+
+    <li>
+        Como $v'$ es la derivada de $v$, entonces
+        $$v(t) = \int v'(t)dt = \int (t^2 - 5t + 6) dt = \frac{1}{3}t^3 - \frac{5}{2}t^2 + 6t + C.$$
+
+        Además,
+        $$v(0) = 10 \Leftrightarrow C = 10.$$
+
+        Por tanto,
+        $$v(t) = \frac{1}{3}t^3 - \frac{5}{2}t^2 + 6t + 10.$$
+    </li>
+
+    <li>
+        Calculamos los valores de cada acción de la empresa en los instantes $t = 2$ y $t = 4.$
+        \begin{align}
+            & v(2) = \frac{8}{3} - 10 + 12 + 10 = \frac{44}{3}, \\
+            & v(4) = \frac{64}{3} - 40 + 24 + 10 = \frac{46}{3}.
+        \end{align}
+
+        Así que el incremento de valor de cada acción es de
+        $$v(4) - v(2) = \frac{46}{3} - \frac{44}{3} = \frac{2}{3}.$$
+
+        Por tanto, la ganancia obtenida por la compra de 3.000 acciones es de $3.000 \cdot \frac{2}{3} = 2.000$€.
+    </li>
+
+    <li>
+        Por el primer apartado, sabemos que la función $v$ tiene máximos relativos en $t = 2$ y $t = 6$ y tiene mínimos relativos en $t = 0$ y $t = 3.$
+        Observamos que
+        \begin{align}
+            & v(0) = 10, & & v(2) = \frac{44}{3} \approx 14,67, \\
+            & v(3) = \frac{29}{2} = 14,5, & & v(6) = 28.
+        \end{align}
+
+        Así que el máximo absoluto se encuentra en $t = 6$ y el mínimo absoluto en $t = 0.$
+        Por tanto, el mejor momento para comprar acciones es en el instante $t = 0$ y el mejor momento para venderlas es $t = 6.$
+    </li>
+</ol>

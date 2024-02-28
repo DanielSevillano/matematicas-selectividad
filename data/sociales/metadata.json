@@ -1,12 +1,14 @@
 [
     {
         "ejercicio": 202301,
+        "resuelto": true,
         "categorias": [
             "Programación lineal"
         ]
     },
     {
         "ejercicio": 202302,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
@@ -14,6 +16,7 @@
     },
     {
         "ejercicio": 202303,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía",
@@ -23,6 +26,7 @@
     },
     {
         "ejercicio": 202304,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía"
@@ -30,18 +34,21 @@
     },
     {
         "ejercicio": 202305,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202306,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202307,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Muestreo",
@@ -50,6 +57,7 @@
     },
     {
         "ejercicio": 202308,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"

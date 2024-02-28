@@ -1,0 +1,89 @@
+<ol>
+    <li>
+        Calculamos en primer lugar los determinantes de las matrices $A$ y $B.$
+        $$|A| = \begin{vmatrix}
+            a & 1 & 0 \\
+            0 & a & 2 \\
+            0 & 1 & 1
+        \end{vmatrix} = a^2 - 2a, \quad
+        |B| = \begin{vmatrix}
+            2 & -1 \\
+            a & -1
+        \end{vmatrix} = -2 + a.$$
+
+        La inversa de una matriz existe si y solo si su determinante es no nulo.
+        \begin{align}
+            & |A| = 0 \Leftrightarrow a^2 - 2a = 0 \Leftrightarrow a(a - 2) = 0 \Leftrightarrow \begin{cases}
+                a = 0, \\
+                a-2 = 0 \Leftrightarrow a = 2,
+            \end{cases} \\
+            & |B| = 0 \Leftrightarrow -2 + a = 0 \Leftrightarrow a = 2.
+        \end{align}
+
+        Así que la matriz $A$ tiene inversa si $a \neq 0$ y $a \neq 2$, mientras que $B$ tiene inversa si $a \neq 2.$
+        Por tanto, $A$ y $B$ admiten inversa si $a \neq 0$ y $a \neq 2.$
+    </li>
+
+    <li>
+        Si $a = 1$, por el apartado anterior $A$ y $B$ son invertibles con $\det(A) = -1$ y $\det(B) = -1.$
+        Resolvemos la ecuación matricial.
+        $$AXB = C \Leftrightarrow X = A^{-1}CB^{-1}.$$
+
+        Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A) = \begin{pmatrix}
+            -1 & 0 & 0 \\
+            -1 & 1 & -1 \\
+            2 & -2 & 1
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular su inversa como
+        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \begin{pmatrix}
+            1 & 1 & -2 \\
+            0 & -1 & 2 \\
+            0 & 1 & -1
+        \end{pmatrix}.$$
+
+        Repetimos el mismo procedimiento para hallar la inversa de $B.$
+        Calculamos su matriz adjunta:
+        $$\mathrm{Adj}(B) = \begin{pmatrix}
+            -1 & -1 \\
+            1 & 2
+        \end{pmatrix}.$$
+
+        Calculamos su inversa como
+        $$B^{-1} = \frac{1}{|B|}\mathrm{Adj}(B)^t = \begin{pmatrix}
+            1 & -1 \\
+            1 & -2
+        \end{pmatrix}.$$
+
+        Por último, calculamos la matriz $X$ operando.
+        $$X = A^{-1}CB^{-1} = \begin{pmatrix}
+            1 & 1 & -2 \\
+            0 & -1 & 2 \\
+            0 & 1 & -1
+        \end{pmatrix}
+        \begin{pmatrix}
+            2 & -1 \\
+            1 & -1 \\
+            2 & 0
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & -1 \\
+            1 & -2
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -1 & -2 \\
+            3 & 1 \\
+            -1 & -1
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & -1 \\
+            1 & -2
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -3 & 5 \\
+            4 & -5 \\
+            -2 & 3
+        \end{pmatrix}.$$
+    </li>
+</ol>
