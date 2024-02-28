@@ -3,6 +3,6 @@ $$2x - 3y \leq 1, \quad 4x + y \leq 9, \quad x + y \leq 5, \quad 9x - y \geq 0, 
 
 <ol>
     <li>Dibuje la región $R$ y calcule sus vértices.</li>
-    <li>Indique razonadamente si los puntos $A(2, 2)$ y $B(1, 3, 5)$ pertenecen a la región $R.$</li>
+    <li>Indique razonadamente si los puntos $A(2, 2)$ y $B(1; 3,5)$ pertenecen a la región $R.$</li>
     <li>Obtenga los puntos de la región $R$ donde $F$ alcanza el máximo y el mínimo y calcula sus correspondientes valores.</li>
 </ol>
