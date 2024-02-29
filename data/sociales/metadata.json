@@ -21,7 +21,8 @@
             "Análisis",
             "Monotonía y extremos",
             "Curvatura y puntos de inflexión",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -139,7 +140,8 @@
         "ejercicio": 202323,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -195,7 +197,8 @@
             "Análisis",
             "Continuidad",
             "Monotonía y extremos",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -253,7 +256,8 @@
             "Análisis",
             "Continuidad",
             "Derivabilidad",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -308,7 +312,8 @@
         "ejercicio": 202353,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -366,7 +371,8 @@
         "ejercicio": 202203,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -375,7 +381,8 @@
             "Análisis",
             "Continuidad",
             "Derivabilidad",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -424,7 +431,8 @@
             "Análisis",
             "Continuidad",
             "Derivabilidad",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -488,7 +496,8 @@
             "Análisis",
             "Continuidad",
             "Derivabilidad",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -648,7 +657,8 @@
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -703,14 +713,16 @@
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
         "ejercicio": 202104,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -760,7 +772,8 @@
             "Continuidad",
             "Derivabilidad",
             "Monotonía y extremos",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -818,7 +831,8 @@
             "Continuidad",
             "Derivabilidad",
             "Monotonía y extremos",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -877,7 +891,8 @@
             "Continuidad",
             "Derivabilidad",
             "Monotonía y extremos",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -932,7 +947,8 @@
             "Análisis",
             "Continuidad",
             "Derivabilidad",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -1053,7 +1069,8 @@
         "ejercicio": 202004,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -1100,7 +1117,8 @@
         "ejercicio": 202013,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -1283,7 +1301,8 @@
             "Continuidad",
             "Derivabilidad",
             "Recta tangente",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
