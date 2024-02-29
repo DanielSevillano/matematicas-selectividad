@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Determine el valor de $a$ para que sea continua en $x = -1$ la función
+        $$f(x) = \begin{cases}
+            \dfrac{ax}{x-1}, & \text{si } x \leq -1, \\
+            x^3 - 3x^2 + 6x - 2, & \text{si } x > -1.
+        \end{cases}$$
+    </li>
+
+    <li>Calcule los coeficientes $b$ y $c$ de la función $g(x) = x^3 + bx^2 + cx - 2$ para que $(1, 2)$ sea un punto de inflexión de $g.$</li>
+</ol>

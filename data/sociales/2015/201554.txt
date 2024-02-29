@@ -1,0 +1,8 @@
+<ol>
+    <li>
+        En una muestra aleatoria de 100 botellas de agua mineral se encontró un contenido medio de 48 cl.
+        Sabiendo que la variable "contenido de agua en una botella" sigue una ley Normal con desviación típica 5 cl, determine un intervalo de confianza para la media poblacional, con un nivel de confianza del 95%.
+    </li>
+
+    <li>¿Qué tamaño muestral mínimo debería considerarse para estimar esta media con el mismo nivel de confianza y un error inferior a 0,5 cl?</li>
+</ol>

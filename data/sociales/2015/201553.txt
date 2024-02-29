@@ -1,0 +1,9 @@
+Lucía quiere ir de vacaciones a la costa.
+En su guía de viajes lee que en esa época del año llueve dos días a la semana y que hace viento el 25% de los días que llueve y el 40% de los días que no llueve.
+Ha elegido un día de esa época.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que haga viento?</li>
+    <li>Si hace viento, ¿cuál es la probabilidad de que esté lloviendo?</li>
+    <li>¿Cuál es la probabilidad de que no llueva y no haga viento?</li>
+</ol>

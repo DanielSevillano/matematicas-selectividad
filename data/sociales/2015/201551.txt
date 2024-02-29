@@ -1,0 +1,19 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & 2 \\
+    -1 & 2
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 2 & 2 \\
+    -1 & -1 & 2
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    8 & -4 \\
+    12 & 8 \\
+    -8 & 4
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule $A^2.$</li>
+    <li>Resuelva la ecuación matricial $AX + 4B = C^t.$</li>
+</ol>

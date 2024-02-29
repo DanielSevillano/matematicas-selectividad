@@ -3011,5 +3011,62 @@
             "Estadística",
             "Contraste de hipótesis"
         ]
+    },
+    {
+        "ejercicio": 201551,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201552,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 201553,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201554,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201555,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201556,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201557,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201558,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
     }
 ]

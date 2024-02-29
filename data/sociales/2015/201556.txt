@@ -1,0 +1,6 @@
+Sea la función $f(x) = x^3 - 9x^2 + 8.$
+
+<ol>
+    <li>Halle las coordenadas de sus extremos relativos y de su punto de inflexión, si existen.</li>
+    <li>Determine la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1.$</li>
+</ol>

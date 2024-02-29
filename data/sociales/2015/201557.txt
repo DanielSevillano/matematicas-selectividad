@@ -1,0 +1,9 @@
+En una urna A hay 8 bolas verdes y 6 rojas.
+En otra urna B hay 4 bolas verdes, 5 rojas y 1 negra.
+Se lanza un dado, si sale un número menor que 3 se saca una bola de la urna A, y si sale mayor o igual que 3 se saca una bola de la urna B.
+
+<ol>
+    <li>Calcule la probabilidad de que la bola sea verde si ha salido un 4.</li>
+    <li>Calcule la probabilidad de que la bola elegida sea roja.</li>
+    <li>Sabiendo que ha salido una bola verde, ¿cuál es la probabilidad de que sea de la urna A?</li>
+</ol>

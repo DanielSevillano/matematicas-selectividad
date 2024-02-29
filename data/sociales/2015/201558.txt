@@ -1,0 +1,7 @@
+La concentración de arsénico en los moluscos de una zona costera sigue una ley Normal con desviación típica 6 mg/kg.
+Para verificar la calidad de estos moluscos se toma una muestra aleatoria de tamaño 36 para contrastar si la media poblacional no supera el límite máximo de 80 mg/kg permitido por la normativa sanitaria $(H_0: \mu \leq 80).$
+
+<ol>
+    <li>Determine la región crítica de este contraste a un nivel de significación del 5%.</li>
+    <li>¿Debe rechazarse esta hipótesis nula, al nivel del 5%, si en esa muestra de 36 moluscos se encuentra una concentración media de arsénico de 82 mg/kg?</li>
+</ol>

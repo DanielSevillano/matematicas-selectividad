@@ -1,0 +1,15 @@
+Se dispone de 160 m de tejido de pana y 240 m de tejido de lana para hacer trajes y abrigos.
+Se usa 1 m de pana y 2 m de lana para cada traje, y 2 m de pana y 2 m de lana para cada abrigo.
+Cada traje se vende a 250€ y cada abrigo a 350€.
+
+<ol>
+    <li>
+        ¿Cuántos trajes y abrigos se deben confeccionar para obtener el máximo beneficio?
+        ¿A cuánto asciende dicho beneficio?
+    </li>
+    
+    <li>
+        ¿Pueden hacerse 60 trajes y 50 abrigos con esas cantidades de tejido?
+        En caso afirmativo, ¿obtendría el máximo beneficio al venderlo todo?
+    </li>
+</ol>
