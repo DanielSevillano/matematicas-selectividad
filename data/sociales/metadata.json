@@ -303,6 +303,7 @@
     },
     {
         "ejercicio": 202352,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
@@ -318,6 +319,7 @@
     },
     {
         "ejercicio": 202354,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",

@@ -1,0 +1,51 @@
+<p>
+    Llamamos $x$ al número de anillos a la semana del primer tipo y $y$ al del segundo tipo.
+</p>
+
+<p>
+    Se tardan 20 minutos en cada anillo del primer tipo, 50 minutos en cada uno del segundo y el artesano quiere trabajar al menos 1.900 minutos a la semana, así que
+    $$20x + 50y \geq 1.900.$$
+
+    Se utiliza una piedra de mayor calidad para cada anillo del primer tipo, tres para cada uno del segundo tipo y el artesano dispone de 200 piedras de este tipo a la semana, luego
+    $$x + 3y \leq 200.$$
+
+    Se utilizan dos piedras de menor calidad para cada anillo del primer tipo, una para cada uno del segundo tipo y el artesano dispone de 150 piedras de este tipo a la semana, así que
+    $$2x + y \leq 150.$$
+
+    Como deben fabricarse al menos 200 anillos del primer tipo a la semana,
+    $$x \geq 20.$$
+
+    Además, incorporamos la restricción
+    $$y \geq 0.$$
+
+    Por último, como cada anillo del primer tipo se vende a 21€ y cada uno del segundo a 50€, la función objetivo es
+    $$F(x, y) = 21x + 50y.$$
+
+    Por tanto, el problema es
+    \begin{align}
+        \text{Maximizar } & F(x, y) = 21x + 50y, \\
+        \text{sujeto a } & 20x + 50y \geq 1.900, \\
+        & x + 3y \leq 200, \\
+        & 2x + y \leq 150, \\
+        & x \geq 20, \\
+        & y \geq 0.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región definida mediante las inecuaciones.
+    <img src="img/sociales/R202352.png" alt="Figura" loading="lazy">
+
+    Los vértices son
+    $$A(20, 30), \quad B(20, 60), \quad C(50, 50) \quad \text{y} \quad D(70, 10).$$
+</p>
+
+<p>
+    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    \begin{align}
+        & F(A) = F(20, 30) = 1.920, & & F(B) = F(20, 60) = 3.420, \\
+        & F(C) = F(50, 50) = 3.550, & & F(D) = F(70, 10) = 1.970.
+    \end{align}
+
+    Por tanto, el valor máximo de la venta se alcanza fabricando 50 anillos de cada tipo a la semana, con un beneficio de 3.550€.
+</p>
