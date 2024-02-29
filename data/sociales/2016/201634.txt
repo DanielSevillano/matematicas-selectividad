@@ -1,5 +1,5 @@
 Se sabe que el diámetro de las estrellas de mar de una región sigue una ley Normal con varianza 2,25 cm<sup>2</sup>.
-Se sospecha que, igual que ocurre en otras regiones, su diámetro no supera los 11,7 cm $(H_0: \; \propto \; \leq 11,7).$
+Se sospecha que, igual que ocurre en otras regiones, su diámetro no supera los 11,7 cm $(H_0: \mu \leq 11,7).$
 Para confirmarlo se extrae una muestra aleatoria de estrellas de mar de esa región, obteniéndose los siguientes diámetros:
 $$12,5 \quad 11,8 \quad 13,1 \quad 14,3 \quad 11,7 \quad 12,6 \quad 12,7 \quad 12,1 \quad 13,5 \quad 11,5.$$
 

@@ -1,9 +1,9 @@
-La calificación que obtiene el alumnado en una determinada asignatura sigue una distribución Normal de media $\propto$ y desviación típica 3 puntos.
+La calificación que obtiene el alumnado en una determinada asignatura sigue una distribución Normal de media $\mu$ y desviación típica 3 puntos.
 
 <ol>
     <li>
         Se toma una muestra aleatoria simple de 100 alumnos, resultando una calificación media de 5,7 puntos.
-        Calcule un intervalo de confianza para estimar $\propto$ a un nivel de confianza del 95%.
+        Calcule un intervalo de confianza para estimar $\mu$ a un nivel de confianza del 95%.
     </li>
-    <li>Determine el tamaño mínimo que debe tener una muestra aleatoria para poder estimar $\propto$ con un error máximo de 0,5 puntos y un nivel de confianza del 99%.</li>
+    <li>Determine el tamaño mínimo que debe tener una muestra aleatoria para poder estimar $\mu$ con un error máximo de 0,5 puntos y un nivel de confianza del 99%.</li>
 </ol>
