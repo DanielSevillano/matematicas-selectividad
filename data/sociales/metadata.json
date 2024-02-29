@@ -371,6 +371,7 @@
         "ejercicio": 202203,
         "categorias": [
             "Análisis",
+            "Monotonía y extremos",
             "Integrales",
             "Área de recintos"
         ]
@@ -1545,6 +1546,7 @@
         "categorias": [
             "Análisis",
             "Continuidad",
+            "Monotonía y extremos",
             "Derivabilidad"
         ]
     },
@@ -2212,6 +2214,7 @@
         "ejercicio": 201726,
         "categorias": [
             "Análisis",
+            "Monotonía y extremos",
             "Recta tangente"
         ]
     },
