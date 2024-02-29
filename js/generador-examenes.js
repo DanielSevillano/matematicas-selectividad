@@ -10,7 +10,7 @@ const intervalo2 = document.querySelector("#curso-final");
 const intervalos = [intervalo1, intervalo2];
 
 const minimoCiencias = 2012;
-const minimoSociales = 2016;
+const minimoSociales = 2015;
 
 function establecerMinimo(minimo) {
     intervalos.forEach((intervalo) => {
