@@ -311,6 +311,7 @@
     },
     {
         "ejercicio": 202353,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
