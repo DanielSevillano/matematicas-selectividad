@@ -7,5 +7,5 @@
         \end{cases}$$
     </li>
 
-    <li>Dada la función $g(x) = x^3 + bx^2 + c$, calcule los valores de $b$ y $c$ sabiendo que $g$ tiene un extremo relativo en $x = -1$ y que su gráfica para por el punto $(-1, 3).$</li>
+    <li>Dada la función $g(x) = x^3 + bx^2 + c$, calcule los valores de $b$ y $c$ sabiendo que $g$ tiene un extremo relativo en $x = -1$ y que su gráfica pasa por el punto $(-1, 3).$</li>
 </ol>
