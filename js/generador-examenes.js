@@ -134,7 +134,7 @@ async function procesar(event) {
         const ejerciciosAlgebra = datos.filter(ejercicio => ejercicio.categorias.includes("Álgebra"));
         const ejerciciosAnalisis = datos.filter(ejercicio => ejercicio.categorias.includes("Análisis"));
         const ejerciciosProbabilidad = datos.filter(ejercicio => ejercicio.categorias.includes("Probabilidad"));
-        const ejerciciosEstadistica = datos.filter(ejercicio => ejercicio.categorias.includes("Estadística"));
+        const ejerciciosEstadistica = datos.filter(ejercicio => ejercicio.categorias.includes("Estadística") && !ejercicio.categorias.includes("Contraste de hipótesis"));
 
         const ejercicio1 = ejercicioAleatorio(ejerciciosProgramacionLineal);
         const ejercicio2 = ejercicioAleatorio(ejerciciosAlgebra);
