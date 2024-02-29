@@ -288,6 +288,7 @@
     },
     {
         "ejercicio": 202351,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
@@ -324,6 +325,7 @@
     },
     {
         "ejercicio": 202356,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
@@ -337,6 +339,7 @@
     },
     {
         "ejercicio": 202358,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"

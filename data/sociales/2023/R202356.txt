@@ -1,0 +1,28 @@
+<ol>
+    <li>
+        En primer lugar, calculamos la probabilidad de la intersección.
+        $$P(A \cap B) = P(A|B) \cdot P(B) = 0,6 \cdot 0,3 = 0,18.$$
+
+        Por tanto,
+        $$P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0,6 + 0,3 - 0,18 = 0,72.$$
+    </li>
+
+    <li>
+        Observamos que $P(A - B) + P(B - A) + P(A \cap B) = P(A \cup B).$
+        Por tanto,
+        $$P(A - B) + P(B - A) = P(A \cup B) - P(A \cap B) = 0,72 - 0,18 = 0,54.$$
+    </li>
+
+    <li>
+        Para hallar la probabilidad condicionada, en primer lugar calculamos
+        $$P(B \cap A^c) = P(B) - P(A \cap B) = 0,3 - 0,18 = 0,12.$$
+
+        Por tanto,
+        $$P(B|A^c) = \frac{P(B \cap A^c)}{P(A^c)} = \frac{0,12}{1 - 0,6} = 0,3.$$
+    </li>
+
+    <li>
+        Como $P(A) = P(A|B)$, los sucesos $A$ y $B$ son independientes.
+        Por otro lado, como $P(A \cap B) > 0$, los sucesos no son incompatibles.
+    </li>
+</ol>
