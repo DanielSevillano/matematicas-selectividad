@@ -33,7 +33,7 @@
 
         Así que $x = -1 - \sqrt{2}$ y $x = -1 + \sqrt{2}$ son los puntos críticos.
         También consideraremos $x = -1$ por ser un punto que no pertenece al dominio.
-        Estudiemos el signo de $f'$.
+        Estudiemos el signo de $f'.$
 
         <ul>
             <li>

@@ -8,7 +8,8 @@
     </li>
 
     <li>
-        Observamos que $P(A - B) + P(B - A) + P(A \cap B) = P(A \cup B).$
+        Observamos que
+        $$P(A - B) + P(B - A) + P(A \cap B) = P(A \cup B).$$
         Por tanto,
         $$P(A - B) + P(B - A) = P(A \cup B) - P(A \cap B) = 0,72 - 0,18 = 0,54.$$
     </li>

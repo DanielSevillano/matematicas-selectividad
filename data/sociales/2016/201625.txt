@@ -1,5 +1,5 @@
 Una empresa fabrica dos tipos de agua de colonia, A y B.
 La colonia A contiene un 5% de extracto de rosas y un 10% de alcohol, mientras que la B se fabrica con un 10% de extracto de rosas y un 15% de alcohol.
-El precio de venta de la colonia A es de 24 €/litro y el de la B es de 40 €/litro.
+El precio de venta de la colonia A es de 24€/litro y el de la B es de 40€/litro.
 Se dispone de 70 litros de extracto de rosas y de 120 litros de alcohol.
 ¿Cuántos litros de cada colonia convendría fabricar para que el importe de la venta de la producción sea máximo?

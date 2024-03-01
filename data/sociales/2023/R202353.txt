@@ -16,6 +16,6 @@
         Así que el área del plástico es
         $$\frac{32}{3} : \frac{2}{3} = 16 \; m^2.$$
 
-        Si el coste es de 15€ por metro cuadrado, entonces el plástico costará $16 \cdot 15 = 240$€.
+        Si el coste es de 15€ por metro cuadrado, entonces el plástico costará $16 \cdot 15 = 240\text{€}.$
     </li>
 </ol>

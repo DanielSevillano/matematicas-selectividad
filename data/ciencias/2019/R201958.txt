@@ -53,7 +53,7 @@
         \end{vmatrix} = (0, -3, 3) \parallel (0, 1, -1).$$
 
         Como la recta $r$ está contenida en $\pi$, también lo están todos sus puntos.
-        En particular, $P(2, 1, 0)$ pertenece a $\pi$.
+        En particular, $P(2, 1, 0)$ pertenece a $\pi.$
         Por tanto,
         $$\pi \equiv y-1 - z = 0 \Leftrightarrow y - z - 1 = 0.$$
     </li>

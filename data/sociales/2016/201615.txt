@@ -1,4 +1,4 @@
-Una empresa fabrica dos tipos de productos A y B, y vende todo lo que produce obteniendo un beneficio unitario de 500 € y 600 €, respectivamente.
+Una empresa fabrica dos tipos de productos A y B, y vende todo lo que produce obteniendo un beneficio unitario de 500€ y 600€, respectivamente.
 Cada producto pasa por dos procesos de fabricación, P1 y P2.
 Una unidad del producto A necesita 3 horas en el proceso P1, mientras que una del producto B necesita 5 horas en ese proceso.
 La mano de obra contratada permite disponer, como máximo, de 150 horas semanales en P1 y de 120 en P2.

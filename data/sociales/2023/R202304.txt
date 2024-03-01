@@ -50,7 +50,7 @@
         Así que el incremento de valor de cada acción es de
         $$v(4) - v(2) = \frac{46}{3} - \frac{44}{3} = \frac{2}{3}.$$
 
-        Por tanto, la ganancia obtenida por la compra de 3.000 acciones es de $3.000 \cdot \frac{2}{3} = 2.000$€.
+        Por tanto, la ganancia obtenida por la compra de 3.000 acciones es de $3.000 \cdot \frac{2}{3} = 2.000\text{€}.$
     </li>
 
     <li>
