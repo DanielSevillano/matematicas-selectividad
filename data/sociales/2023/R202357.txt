@@ -1,0 +1,30 @@
+<ol>
+    <li>
+        El tamaño de la población es
+        $$25 + 75 + 50 = 150.$$
+
+        Llamamos $x$ al número de juveniles en la muestra, $y$ al de adultos y $z$ al de seniors.
+        Como se usa afijación proporcional y se selecciona una muestra de 30 personas,
+        $$\frac{150}{30} = \frac{25}{x} = \frac{75}{y} = \frac{50}{z}.$$
+        
+        Despejamos estos valores.
+        \begin{align}
+            & \frac{150}{30} = \frac{25}{x} \Leftrightarrow x = \frac{30 \cdot 25}{150} = 5, \\
+            & \frac{150}{30} = \frac{75}{y} \Leftrightarrow y = \frac{30 \cdot 75}{150} = 15, \\
+            & \frac{150}{30} = \frac{50}{z} \Leftrightarrow z = \frac{30 \cdot 50}{150} = 10.
+        \end{align}
+
+        Por tanto, se seleccionan 5 juveniles, 15 adultos y 10 seniors.
+    </li>
+
+    <li>
+        En primer lugar, hallamos la media $\mu$ y la varianza $\sigma^2$ de la población.
+        \begin{align}
+            & \mu = \frac{9+11+13+18+20}{5} = 14,2, \\
+            & \sigma^2 = \frac{(9-14,2)^2+(11-14,2)^2+(13-14,2)^2+(18-14,2)^2+(20-14,2)^2}{5} = 17,36.
+        \end{align}
+        
+        Por tanto, la distribución de las medias muestrales de tamaño 2 tiene varianza
+        $$\frac{\sigma^2}{2} = \frac{17,36}{2} = 8,68.$$
+    </li>
+</ol>

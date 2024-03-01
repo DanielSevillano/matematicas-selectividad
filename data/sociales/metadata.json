@@ -330,6 +330,7 @@
     },
     {
         "ejercicio": 202355,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
@@ -343,6 +344,7 @@
     },
     {
         "ejercicio": 202357,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Muestreo"
