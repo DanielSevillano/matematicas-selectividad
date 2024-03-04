@@ -1,6 +1,6 @@
 Una empresa de transporte dispone de tres tipos de camiones, A, B y C.
-El 30% de los transportes son realizados por camiones de tipo A; el 20% por camiones de tipo B y el resto por camiones de tipo C.
-Se sabe que los transportes tienen una probabilidad de 0,02 de sufrir algún tipo de incidencia si son realizados en camiones de tipo A; de 0,01 si son realizados en camiones de tipo B y de 0,05 si son realizados en camiones de tipo C.
+El 30% de los transportes son realizados por camiones de tipo A, el 20% por camiones de tipo B y el resto por camiones de tipo C.
+Se sabe que los transportes tienen una probabilidad de 0,02 de sufrir algún tipo de incidencia si son realizados en camiones de tipo A, de 0,01 si son realizados en camiones de tipo B y de 0,05 si son realizados en camiones de tipo C.
 Se elige un transporte de esta empresa al azar.
 
 <ol>
