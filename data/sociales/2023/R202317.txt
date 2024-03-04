@@ -1,0 +1,27 @@
+<ol>
+    <li>
+        Con los números naturales del 1 al 6 se pueden formar $6 \cdot 6 = 36$ muestras de tamaño 2.
+
+        <br>
+
+        La media de los números es menor o igual a 2 en las muestras $(1, 1)$, $(1, 2)$, $(1, 3)$, $(2, 1)$, $(2, 2)$ y $(3, 1).$
+        Por tanto, la probabilidad es
+        $$p = \frac{6}{36} = \frac{1}{6}.$$
+    </li>
+
+    <li>
+        Si el nivel de confianza es del 95%, entonces
+        $$1 - \alpha = 0,95 \Leftrightarrow \alpha = 1 - 0,95 = 0,05.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
+
+        El error máximo de estimación viene dado por
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 1,96 \cdot \sqrt{\frac{0,5 \cdot (1-0,5)}{n}} = 1,96 \cdot \sqrt{\frac{0,25}{n}}.$$
+
+        Si se quiere que el error máximo sea de 0,15, entonces
+        $$1,96 \cdot \sqrt{\frac{0,25}{n}} = 0,15 \Leftrightarrow \sqrt{\frac{0,25}{n}} = \frac{0,15}{1,96} \Leftrightarrow \frac{0,25}{n} = \frac{0,15^2}{1,96^2} \Leftrightarrow n = \frac{0,25 \cdot 1,96^2}{0,15^2} \approx 42,6844.$$
+
+        Por tanto, el tamaño mínimo de la nueva muestra debe ser de 43 personas.
+    </li>
+</ol>

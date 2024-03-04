@@ -80,6 +80,7 @@
     },
     {
         "ejercicio": 202313,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Recta tangente",
@@ -88,6 +89,7 @@
     },
     {
         "ejercicio": 202314,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",
@@ -109,6 +111,7 @@
     },
     {
         "ejercicio": 202317,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Muestreo",

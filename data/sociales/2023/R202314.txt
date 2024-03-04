@@ -1,0 +1,89 @@
+<ol>
+    <li>
+        Estudiamos la continuidad de la función $f.$
+
+        <ul>
+            <li>Si $x < 1$, $f$ es continua.</li>
+
+            <li>
+                Si $x > 1$, $f$ es continua salvo en $x = 2.$
+                Observamos que
+                \begin{align}
+                    & \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} \left(1 + \frac{1}{x-2}\right) = -\infty, \\
+                    & \lim_{x \to 2^+} f(x) = \lim_{x \to 2^+} \left(1 + \frac{1}{x-2}\right) = +\infty.
+                \end{align}
+
+                Por tanto, en $x = 2$ presenta una discontinuidad de salto infinito.
+            </li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $x = 1.$
+                \begin{align}
+                    & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} (x^2 + 2x^2 - 3) = 0, \\
+                    & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} \left(1 + \frac{1}{x-2}\right) = 0, \\
+                    & f(1) = 0.
+                \end{align}
+
+                Observamos que
+                $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1).$$
+
+                Así que $f$ es continua en $x = 1.$
+            </li>
+        </ul>
+
+        Por tanto, $f$ es continua en $\mathbb{R} \setminus \{2\}.$
+    </li>
+
+    <li>
+        Estudiamos la derivabilidad de la función $f.$
+
+        <ul>
+            <li>
+                Si $x \neq 1$ y $x \neq 2$, $f$ es derivable y
+                $$f'(x) = \begin{cases}
+                    3x^2 + 4x, & \text{si } x < 1, \\
+                    -\dfrac{1}{(x-2)^2}, & \text{si } x > 1.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la derivabilidad para el punto de ruptura $x = 1.$
+                \begin{align}
+                    & f'_-(1) = 7, \\
+                    & f'_+(1) = -1.
+                \end{align}
+
+                Observamos que
+                $$f'_-(1) \neq f'_+(1).$$
+
+                Así que $f$ no es derivable en $x = 1.$
+            </li>
+        </ul>
+
+        Por tanto, $f$ es derivable en $\mathbb{R} \setminus \{1, 2\}.$
+    </li>
+
+    <li>
+        Estudiamos las asíntotas.
+        La primera rama no tiene asíntotas por ser un polinomio, así que nos fijamos en la segunda rama.
+
+        <ul>
+            <li>
+                El denominador se anula en $x = 2$ y habíamos visto que
+                \begin{align}
+                    & \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} \left(1 + \frac{1}{x-2}\right) = -\infty, \\
+                    & \lim_{x \to 2^+} f(x) = \lim_{x \to 2^+} \left(1 + \frac{1}{x-2}\right) = +\infty.
+                \end{align}
+
+                Por tanto, la recta $x = 2$ es una asíntota vertical.
+            </li>
+        
+            <li>
+                Veamos si tiene alguna asíntota horizontal por la derecha.
+                $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \left(1 + \frac{1}{x-2}\right) = 1.$$
+
+                Por tanto, la recta $y = 1$ es una asíntota horizontal por la derecha y $f$ no tiene ninguna asíntota oblicua.
+            </li>
+        </ul>
+    </li>
+</ol>
