@@ -1,0 +1,79 @@
+<ol>
+    <li>
+        Calculamos el producto.
+        $$QP^t = \begin{pmatrix}
+            50 & 40 & 35 \\
+            0 & 60 & 55
+        \end{pmatrix}
+        \begin{pmatrix}
+            40 & 34 \\
+            38 & 37 \\
+            42 & 40
+        \end{pmatrix} =
+        \begin{pmatrix}
+            4.990 & 4.580 \\
+            4.590 & 4.420
+        \end{pmatrix}.$$
+
+        Los elementos de la diagonal principal representan el dinero en miles de céntimos ganado por la venta en cada finca.
+        Es decir, en la primera finca consigue 49.900€ y en la segunda 44.200€.
+        La cantidad total de dinero que obtiene es
+        $$49.900 + 44.200 = 94.100\text{€}.$$
+    </li>
+
+    <li>
+        <ol>
+            <li>
+                Resolvemos la ecuación matricial suponiendo que $M$ es invertible.
+                $$MX + N = V \Leftrightarrow MX = V - N \Leftrightarrow X = M^{-1}(V - N).$$
+            </li>
+
+            <li>
+                Comprobemos en primer lugar que la matriz $M$ es invertible.
+                Calculamos su determinante.
+                $$|M| = \begin{vmatrix}
+                    1 & 0 \\
+                    1 & 1
+                \end{vmatrix} = 1.$$
+
+                Como $\det(M) \neq 0$, la matriz $M$ es invertible.
+                Para hallar su inversa, calculamos primero su matriz adjunta.
+                $$\mathrm{Adj}(M) = \begin{pmatrix}
+                    1 & -1 \\
+                    0 & 1
+                \end{pmatrix}.$$
+
+                Ahora podemos calcular su inversa como
+                $$M^{-1} = \frac{1}{|M|}\mathrm{Adj}(M)^{-1} = \begin{pmatrix}
+                    1 & 0 \\
+                    -1 & 1
+                \end{pmatrix}.$$
+
+                Por último, calculamos la matriz $X$ operando.
+                $$X = M^{-1}(V - N) = \begin{pmatrix}
+                    1 & 0 \\
+                    -1 & 1
+                \end{pmatrix} \cdot \left(
+                    \begin{pmatrix}
+                        8 & 7 \\
+                        6 & 5
+                    \end{pmatrix} -
+                    \begin{pmatrix}
+                        5 & 4 \\
+                        3 & 2
+                    \end{pmatrix}
+                \right) = \begin{pmatrix}
+                    1 & 0 \\
+                    -1 & 1
+                \end{pmatrix}
+                \begin{pmatrix}
+                    3 & 3 \\
+                    3 & 3
+                \end{pmatrix} = \begin{pmatrix}
+                    3 & 3 \\
+                    0 & 0
+                \end{pmatrix}.$$
+            </li>
+        </ol>
+    </li>
+</ol>

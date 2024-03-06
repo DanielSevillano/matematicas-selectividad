@@ -66,8 +66,10 @@
     },
     {
         "ejercicio": 202311,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
+            "Ecuaciones matriciales",
             "Problemas de matrices"
         ]
     },
@@ -99,6 +101,7 @@
     },
     {
         "ejercicio": 202315,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
@@ -120,6 +123,7 @@
     },
     {
         "ejercicio": 202318,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"

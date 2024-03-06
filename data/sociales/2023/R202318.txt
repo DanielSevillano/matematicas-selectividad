@@ -1,0 +1,34 @@
+<ol>
+    <li>
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \; \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+        Como el nivel de confianza es del 93%, entonces
+        $$1 - \alpha = 0,93 \Leftrightarrow \alpha = 1 - 0,93 = 0,07.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,07}{2} = 0,965 \Rightarrow z_{\alpha/2} = 1,815.$$
+
+        Por tanto, el intervalo de confianza para estimar el gasto medio mensual en electricidad por vivienda con un nivel de confianza del 97% es
+        $$I = \left(97 - 1,815 \cdot \frac{18,25}{\sqrt{361}}, \; 97 + 1,815 \cdot \frac{18,25}{\sqrt{361}}\right) \approx (95,2567; \; 98,7434).$$
+    </li>
+
+    <li>
+        En primer lugar, el error cometido en el intervalo $(95,5; \; 98,5)$ es
+        $$\frac{98,5 - 95,5}{2} = \frac{3}{2}.$$
+
+        Por otro lado, si el nivel de confianza es del 91%, entonces
+        $$1 - \alpha = 0,91 \Leftrightarrow \alpha = 1 - 0,91 = 0,09.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,09}{2} = 0,955 \Rightarrow z_{\alpha/2} = 1,695.$$
+
+        El error máximo cometido viene dado por
+        $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 1,695 \cdot \frac{18,25}{\sqrt{n}} = \frac{30,93375}{\sqrt{n}}.$$
+
+        Si se quiere que el error máximo sea un tercio del error cometido en el intervalo dado, entonces
+        $$\frac{30,93375}{\sqrt{n}} = \frac{1}{3} \cdot \frac{3}{2} \Leftrightarrow \frac{30,93375}{\sqrt{n}} = \frac{1}{2} \Leftrightarrow 61,8675 = \sqrt{n} \Leftrightarrow n = 61,8675^2 \approx 3.827,5876.$$
+
+        Por tanto, el tamaño mínimo de la muestra debe ser de 3.828 viviendas.
+    </li>
+</ol>

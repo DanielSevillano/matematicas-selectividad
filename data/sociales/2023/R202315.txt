@@ -1,0 +1,31 @@
+<ol>
+    <li>
+        Llamamos $T_A$ a que un camión de tipo A realice el transporte, $T_B$ a que lo realice uno de tipo B y $T_C$ a que lo realice uno de tipo C.
+        También llamamos $I$ a que el transporte sufra una incidencia y $L$ a que la incidencia sea debida a la lluvia.
+        Sabemos que
+        \begin{align}
+            & P(T_A) = 0,3, & & P(I|T_A) = 0,02, \\
+            & P(T_B) = 0,2, & & P(I|T_B) = 0,01, \\
+            & P(T_C) = 0,5, & & P(I|T_C) = 0,05.
+        \end{align}
+
+        La probabilidad de que el transporte sufra alguna incidencia es
+        $$P(I) = P(T_A) \cdot P(I|T_A) + P(T_B) \cdot P(I|T_B) + P(T_C) \cdot P(I|T_C) = 0,3 \cdot 0,02 + 0,2 \cdot 0,01 + 0,5 \cdot 0,05 = 0,033.$$
+        
+        Por tanto, la probabilidad de que el transporte no sufra ninguna incidencia es
+        $$P(I^c) = 1 - P(I) = 1 - 0,033 = 0,967.$$
+    </li>
+
+    <li>
+        La probabilidad de que el transporte sea realizado por un camión de tipo C dado que ha sufrido una incidencia es
+        $$P(T_C|I) = \frac{P(T_C \cap I)}{P(I)} = \frac{P(T_C) \cdot P(I|T_C)}{P(I)} = \frac{0,5 \cdot 0,05}{0,033} \approx 0,7576.$$
+    </li>
+
+    <li>
+        Sabemos que
+        $$P(L | T_A \cap I) = 0,4.$$
+
+        La probabilidad de que el transporte haya sido realizado por un camión de tipo A, haya sufrido una incidencia y también sea debida a la lluvia es
+        $$P(L \cap I \cap T_A) = P(T_A \cap I) \cdot P(L | T_A \cap I) = P(T_A) \cdot P(I|T_A) \cdot P(L | T_A \cap I) = 0,3 \cdot 0,02 \cdot 0,4 = 0,0024.$$
+    </li>
+</ol>
