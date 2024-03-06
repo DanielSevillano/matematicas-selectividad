@@ -2,15 +2,14 @@
     <li>
         Llamamos $S$ a recibir un correo de spam y $L$ a recibir un correo con la palabra "lottery".
         Sabemos que $P(S) = 0,2.$
-        Como la palabra "lottery" aparece en el 40% de los correos de spam y en el 0,6% del resto de correos,
-        \begin{align}
-            & P(L | S) = 0,4, \\
-            & P(L | S^c) = 0,006, \\
-            & P(L) = P(S) \cdot P(L | S) + P(S^c) \cdot P(L | S^c) = 0,2 \cdot 0,4 + (1 - 0,2) \cdot 0,006 = 0,0848.
-        \end{align}
+        Como la palabra "lottery" aparece en el 40% de los correos de spam y en el 0,6% del resto de correos, sabemos que
+        $$P(L | S) = 0,4 \quad \text{y} \quad P(L | S^c) = 0,006.$$
 
-        La probabilidad de que un correo con la palabra "lotery" sea de spam es
-        $$P(S|L) = \frac{P(S \cap L)}{P(L)} = \frac{0,2 \cdot 0,4}{0,0848} \approx 0,9434.$$
+        Así que la probabilidad de recibir un correo con la palabra "lottery" es
+        $$P(L) = P(S) \cdot P(L | S) + P(S^c) \cdot P(L | S^c) = 0,2 \cdot 0,4 + (1 - 0,2) \cdot 0,006 = 0,0848.$$
+
+        Por tanto, la probabilidad de que un correo con la palabra "lotery" sea de spam es
+        $$P(S|L) = \frac{P(S \cap L)}{P(L)} = \frac{P(S) \cdot P(L | S)}{P(L)} = \frac{0,2 \cdot 0,4}{0,0848} \approx 0,9434.$$
     </li>
 
     <li>
