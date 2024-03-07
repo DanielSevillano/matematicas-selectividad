@@ -1,0 +1,45 @@
+<p>
+    Llamamos $x$ al número de horas extraordinarias de la cadena A la próxima semana e $y$ al de la cadena B.
+</p>
+
+<p>
+    Se preparan 15 portátiles cada hora extraordinaria de la cadena A, 10 portátiles cada hora extraordinaria de la cadena B y se deben producir un máximo de 360 portátiles, así que
+    $$15x + 10y \leq 360.$$
+
+    Se preparan 6 tablets cada hora extraordinaria de la cadena A, 10 tablets cada hora extraordinaria de la cadena B y se deben producir un mínimo de 216 tablets, así que
+    $$6x + 10y \geq 216.$$
+
+    Como la cadena B no puede realizar más del triple de horas extraordinarias de la cadena A,
+    $$y \leq 3x.$$
+
+    Además, incorporamos las restricciones.
+    $$x \geq 0, \quad y \geq 0.$$
+
+    Por último, como los costes de producción por hora extraordinaria de A y B son de 300€ y 600€ respectivamente, la función objetivo es
+    $$F(x, y) = 300x + 600y.$$
+
+    Por tanto, el problema es
+    \begin{align}
+        \text{Minimizar } & F(x, y) = 300x + 600y, \\
+        \text{sujeto a } & 15x + 10y \leq 360, \\
+        & 6x + 10y \geq 216, \\
+        & y \leq 3x, \\
+        & x \geq 0, \\
+        & y \geq 0.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región definida mediante las inecuaciones.
+    <img src="img/sociales/R202312.png" alt="Figura" loading="lazy">
+
+    Los vértices son
+    $$A(6, 18), \quad B(8, 24), \quad C(16, 12).$$
+</p>
+
+<p>
+    Para hallar el valor mínimo de la función $F$, la evaluamos en los vértices.
+    $$F(A) = F(6, 18) = 12.600, \quad F(B) = F(8, 24) = 16.800, \quad F(C) = F(16, 12) = 12.000.$$
+
+    Por tanto, el valor mínimo de los costes se alcanza realizando 16 horas extraordinarias de la cadena A y 12 de la cadena B la próxima semana, con unos costes de 12.000€.
+</p>

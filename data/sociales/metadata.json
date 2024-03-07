@@ -75,6 +75,7 @@
     },
     {
         "ejercicio": 202312,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
