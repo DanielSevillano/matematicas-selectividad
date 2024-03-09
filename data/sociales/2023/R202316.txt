@@ -1,0 +1,29 @@
+<ol>
+    <li>
+        Llamamos $N$ a escoger un caramelo de naranja, $L$ a escoger un caramelo de limón, $M$ a escoger un caramelo de menta y $A$ a escoger un caramelo azucarado.
+        Sabemos que
+        \begin{align}
+            & P(A) = 0,6, & & P(L | A) = 0,25, \\
+            & P(N | A^c) = 0,4, & & P(L | A^c) = 0,3, \\
+            & P(M | A^c) = 0,3, & & P(N) = 0,4.
+        \end{align}
+
+        Sabemos que la probabilidad es escoger un caramelo de naranja viene dada por
+        $$P(N) = P(A) \cdot P(N|A) + P(A^c) \cdot P(N | A^c).$$
+
+        Por tanto, despejando en la expresión anterior, la probabilidad de escoger un caramelo de naranja dado que es azucarado es
+        $$P(N|A) = \frac{P(N) - P(A^c) \cdot P(N | A^c)}{P(A)} = \frac{0,4 - (1-0,4) \cdot 0,4}{0,4} = 0,4.$$
+    </li>
+
+    <li>
+        La probabilidad de escoger un caramelo de limón es
+        $$P(L) = P(A) \cdot P(L|A) + P(A^c) \cdot P(L | A^c) = 0,6 \cdot 0,25 + (1-0,6) \cdot 0,3 = 0,27.$$
+        
+        Así que la probabilidad de escoger un caramelo de sabor a frutas es
+        $$P(N \cup L) = P(N) + P(L) = 0,4 + 0,27 = 0,67.$$
+
+        Por otro lado, como los sucesos $N$, $L$ y $M$ son complementarios, la probabilidad de escoger un caramelo de menta es
+        $$P(M) = 1 - P(N) - P(L) = 1 - 0,4 - 0,27 = 0,33.$$
+
+        Por tanto, es más probable escoger un caramelo con sabor a frutas.
+</ol>
