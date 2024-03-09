@@ -62,6 +62,6 @@
         \end{align}
 
         Así que el máximo absoluto se encuentra en $t = 6$ y el mínimo absoluto en $t = 0.$
-        Por tanto, el mejor momento para comprar acciones es en el instante $t = 0$ y el mejor momento para venderlas es $t = 6.$
+        Por tanto, el mejor momento para comprar acciones es a la apertura del mercado (el instante $t = 0$) y el mejor momento para venderlas es a las seis horas.
     </li>
 </ol>
