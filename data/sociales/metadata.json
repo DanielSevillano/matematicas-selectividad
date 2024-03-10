@@ -147,6 +147,7 @@
     },
     {
         "ejercicio": 202323,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
@@ -155,6 +156,7 @@
     },
     {
         "ejercicio": 202324,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad"

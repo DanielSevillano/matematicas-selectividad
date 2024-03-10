@@ -1,0 +1,31 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                Calculamos la derivada de la función $f.$
+                \begin{align}
+                    f'(x) & = 3(-7+x^2)^2 \cdot 2x \cdot e^{5-x} + (-7+x^2)^3 \cdot e^{5-x} \cdot (-1) = 6x(x^2-7)^2 e^{5-x} - (x^2-7)^3 e^{5-x} = \\
+                    & = (x^2-7)^2 (-x^2 + 6x + 7) e^{5-x}.
+                \end{align}
+            </li>
+
+            <li>
+                Calculamos la derivada de la función $g.$
+                $$g'(x) = \frac{\frac{1}{x^4 - 2x^2} \cdot (4x^3 - 4x) \cdot (8 - x^3) - \ln(x^4 - 2x^2) \cdot (-3x^2)}{(8-x^3)^2} = \frac{\frac{(4x^3 - 4x)(8 - x^3)}{x^4 - 2x^2} + 3x^2 \ln(x^4 - 2x^2)}{(8-x^3)^2}.$$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Llamamos $f(x) = -2x + 6$ y $g(x) = -x^2 + 2x + 3.$
+        Observamos que el vértice de la parábola es $(1, 4).$
+        Representamos el recinto acotado limitado por ambas funciones.
+        <img src="img/sociales/R202323.png" alt="Figura" loading="lazy">
+
+        Calculamos el área del recinto.
+        \begin{align}
+            & \int_1^3 (g(x) - f(x))dx = \int_1^3 (-x^2 + 2x + 3 - (-2x + 6))dx = \int_1^3 (-x^2 + 4x - 3)dx = \left[-\frac{1}{3}x^3 + 2x^2 - 3x\right]_1^3 = \\
+            & = -9 + 18 - 9 - \left(-\frac{1}{3} + 2 - 3\right) = \frac{4}{3} \; u^2.
+        \end{align}
+    </li>
+</ol>

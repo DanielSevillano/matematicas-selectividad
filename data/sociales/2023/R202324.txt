@@ -1,0 +1,56 @@
+<ol>
+    <li>
+        Estudiamos la continuidad de la función $f.$
+        
+        <ul>
+            <li>Si $t \in [0, 24]$ con $t \neq 1$ y $t \neq 11$, $f$ es continua.</li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $t = 1.$
+                \begin{align}
+                    & \lim_{t \to 1^-} f(t) = \lim_{t \to 1^-} -9 = -9, \\
+                    & \lim_{t \to 1^+} f(t) = \lim_{t \to 1^+} -t^2 + 12t - 20 = -9, \\
+                    & f(1) = -9.
+                \end{align}
+
+                Observamos que
+                $$\lim_{t \to 1^-} f(t) = \lim_{t \to 1^+} f(t) = f(1).$$
+
+                Así que $f$ es continua en $t = 1.$
+            </li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $t = 11.$
+                \begin{align}
+                    & \lim_{t \to 11^-} f(t) = \lim_{t \to 11^-} -t^2 + 12t - 20 = -9, \\
+                    & \lim_{t \to 11^+} f(t) = \lim_{t \to 11^+} -9 = -9, \\
+                    & f(11) = -9.
+                \end{align}
+
+                Observamos que
+                $$\lim_{t \to 11^-} f(t) = \lim_{t \to 11^+} f(t) = f(11).$$
+
+                Así que $f$ es continua en $t = 11.$
+            </li>
+        </ul>
+
+        Por tanto, $f$ es continua en $[0, 24].$
+    </li>
+
+    <li>
+        Representamos gráficamente la función.
+        Observamos que la parábola tiene vértice $(6, 16).$
+        <img src="img/sociales/R202324.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        El corte de energía se produjo al cabo de 1 hora, que es el momento en el que la temperatura comenzó a aumentar.
+        Por otro lado, la energía se restableció a las 6 horas, en el máximo absoluto, el momento en el que la temperatura empezó a disminuir de nuevo.
+        Por tanto, el corte de energía duró 5 horas.
+    </li>
+
+    <li>
+        Los sueros no se estropearon, puesto que la temperatura máxima que se alcanzó fue de 16ºC.
+        Por otro lado, como la temperatura estuvo por encima de los 0ºC durante 8 horas (de $t = 2$ a $t = 10$), las vacunas sí se estropearon.
+    </li>
+</ol>
