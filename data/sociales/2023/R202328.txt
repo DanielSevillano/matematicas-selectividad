@@ -1,0 +1,21 @@
+<ol>
+    <li>
+        La distribución de la media muestral $\overline{X}$ sigue una normal $N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)$ con $\mu = 12,5$, $\sigma = 2,5$ y $n = 16.$
+        Es decir,
+        $$\overline{X} \sim N(12,5; \; 0,625).$$
+
+        La probabilidad de que el tiempo medio de adaptación para la muestra supere los 12 días es
+        $$P(\overline{X} > 12) = P\left(Z > \frac{12 - 12,5}{0,625}\right) = P(Z > -0,8) = P(Z \leq 0,8) = 0,7881.$$
+    </li>
+
+    <li>
+        Si la muestra es de tamaño 25, la distribución de la media muestral verifica
+        $$\overline{X} \sim N\left(12,5; \; \frac{2,5}{\sqrt{5}}\right) = N(12,5; \; 0,5).$$
+
+        La probabilidad de que el tiempo medio de adaptación para la muestra diste de 12 días a lo sumo 1 es
+        \begin{align}
+            & P(11 \leq \overline{X} \leq 13) = P\left(\frac{11-12,5}{0,5} \leq Z \leq \frac{13-12,5}{0,5}\right) = P(-3 \leq Z \leq 1) = P(Z \leq 1) - P(Z \leq -3) = \\
+            & = P(Z \leq 1) - (1 - P(Z \leq 3)) \approx 0,84.
+        \end{align}
+    </li>
+</ol>

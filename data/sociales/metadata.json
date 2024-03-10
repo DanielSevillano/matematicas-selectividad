@@ -164,12 +164,14 @@
     },
     {
         "ejercicio": 202325,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202326,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
@@ -184,6 +186,7 @@
     },
     {
         "ejercicio": 202328,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"

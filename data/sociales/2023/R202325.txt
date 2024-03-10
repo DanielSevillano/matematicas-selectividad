@@ -1,0 +1,31 @@
+<ol>
+    <li>
+        Llamamos $M$ a enviar mensajes con el móvil y $V$ a jugar a videojuegos.
+        Sabemos que
+        $$P(M \cup V) = 0,8, \quad P(M \cap V) = 0,45 \quad \text{y} \quad P(V^c) = 0,4 \Rightarrow P(V) = 0,6.$$
+
+        Sabemos también que la probabilidad de enviar mensajes o jugar a videojuegos viene dada por
+        $$P(M \cup V) = P(M) + P(V) - P(M \cap V).$$
+
+        Así que, despejando en la expresión anterior, la probabilidad de enviar mensajes es
+        $$P(M) = P(M \cup V) - P(V) + P(M \cap V) = 0,8 - 0,6 + 0,45 = 0,65.$$
+
+        Por tanto, la probabilidad de enviar mensajes y no jugar a videojuegos es
+        $$P(M - V) = P(M) - P(M \cap V) = 0,65 - 0,45 = 0,2.$$
+    </li>
+
+    <li>
+        La probabilidad de jugar a videojuegos dado que no envía mensajes es
+        $$P(V|M^c) = \frac{P(V \cap M^c)}{P(M^c)} = \frac{P(V) - P(M \cap V)}{1 - P(M)} = \frac{0,6 - 0,45}{1 - 0,65} \approx 0,4286.$$
+    </li>
+
+    <li>
+        La probabilidad de hacer solo una de las dos cosas es
+        $$P(M - V) + P(V - M) = P(M \cup V) - P(M \cap V) = 0,8 - 0,45 = 0,35.$$
+    </li>
+
+    <li>
+        La probabilidad de no hacer ninguna de las dos cosas es
+        $$P(M^c \cap V^c) = 1 - P(M \cup V) = 1 - 0,8 = 0,2.$$
+    </li>
+</ol>

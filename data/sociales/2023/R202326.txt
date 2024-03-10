@@ -1,0 +1,21 @@
+<ol>
+    <li>
+        Llamamos $F_A$ a producir un componente en la fábrica A, $F_B$ a producir un componente en la fábrica B y $E$ a exportar un componente.
+        Sabemos que
+        $$P(E|F_A) = 0,4, \quad P(E|F_B) = 0,25 \quad \text{y} \quad P(E) = 0,37.$$
+
+        Como $F_A$ y $F_B$ son complementarios, sabemos que la probabilidad de exportar un componente viene dada por
+        \begin{align}
+            & P(E) = P(F_A) \cdot P(E|F_A) + P(F_B) \cdot P(E|F_B) = P(F_A) \cdot P(E|F_A) + (1-P(F_A)) \cdot P(E|F_B) = \\
+            & = P(F_A) \cdot P(E|F_A) + P(E|F_B) - P(F_A) \cdot P(E|F_B) = P(F_A) (P(E|F_A) - P(E|F_B)) + P(E|F_B).
+        \end{align}
+
+        Por tanto, despejando en la expresión anterior, la probabilidad de producir un componente en la fábrica A es
+        $$P(F_A) = \frac{P(E) - P(E|F_B)}{P(E|F_A) - P(E|F_B)} = \frac{0,37 - 0,25}{0,4 - 0,25} = 0,8.$$
+    </li>
+
+    <li>
+        La probabilidad de producir un componente en la fábrica A dado que no es exportado es
+        $$P(F_A|E^c) = \frac{P(F_A \cap E^c)}{P(E^c)} = \frac{P(F_A) \cdot P(E^c|F_A)}{1 - P(E)} = \frac{P(F_A) \cdot (1 - P(E|F_A))}{1 - P(E)} = \frac{0,8 \cdot (1 - 0,4)}{1 - 0,37} \approx 0,7619.$$
+    </li> 
+</ol>

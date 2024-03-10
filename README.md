@@ -77,4 +77,4 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [x] Junio
     - [x] Julio
     - [x] Reserva 1
-    - [ ] Reserva 2 (3, 4, 7)
+    - [ ] Reserva 2 (3, 4, 5, 6, 7, 8)
