@@ -259,6 +259,21 @@ a.contorno:active {
 }
 
 /********************
+Imágenes
+********************/
+
+main img {
+    display: block;
+    max-width: min(100%, 40ch);
+    margin: 1.5em auto;
+}
+
+.figura {
+    max-width: min(100%, 30ch);
+    max-height: 25ch;
+}
+
+/********************
 Acordeón
 ********************/
 
