@@ -176,6 +176,7 @@
     },
     {
         "ejercicio": 202327,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"
