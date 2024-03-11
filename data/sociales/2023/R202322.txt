@@ -1,0 +1,49 @@
+<p>
+    Llamamos $x$ al número de viajes realizados por el barco $B_1$ en un año e $y$ al de los realizados por $B_2.$
+</p>
+
+<p>
+    El barco $B_1$ puede realizar como máximo 14 viajes y como mínimo el mismo número de viajes que el barco $B_2$, así que
+    $$x \leq 14 \quad \text{y} \quad x \geq y.$$
+
+    Entre los dos barcos deben realizar al menos 10 viajes y como mucho 24, así que
+    $$x + y \geq 10 \quad \text{y} \quad x + y \leq 24.$$
+
+    Además, incorporamos la restricción
+    $$y \geq 0.$$
+
+    Por último, como los beneficios obtenidos por cada viaje de los barcos $B_1$ y $B_2$ son de 15.000€ y 17.000€ respectivamente, la función objetivo es
+    $$F(x, y) = 15.000x + 17.000y.$$
+
+    Por tanto, el problema es
+    \begin{align}
+        \text{Maximizar } & F(x, y) = 15.000x + 17.000y, \\
+        \text{sujeto a } & x \leq 14, \\
+        & x \geq y, \\
+        & x + y \geq 10, \\
+        & x + y \leq 24, \\
+        & y \geq 0.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región obtenida mediante las inecuaciones.
+    <img src="img/sociales/R202322.png" alt="Figura" loading="lazy">
+
+    Los vértices son
+    \begin{align}
+        & A(10, 0), & & B(5, 5), & & C(12, 12), \\
+        & D(14, 10), & & E(14, 0).
+    \end{align}
+</p>
+
+<p>
+    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    \begin{align}
+        & F(A) = F(10, 0) = 150.000, & & F(B) = F(5, 5) = 160.000, \\
+        & F(C) = F(12, 12) = 384.000, & & F(D) = F(14, 10) = 380.000, \\
+        & F(E) = F(14, 0) = 210.000.
+    \end{align}
+
+    Por tanto, el valor máximo de los beneficios se alcanza realizando 12 viajes con cada barco en un año, con unas ganancias de 384.000€.
+</p>

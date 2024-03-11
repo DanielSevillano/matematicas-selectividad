@@ -133,6 +133,7 @@
     },
     {
         "ejercicio": 202321,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Problemas de matrices"
@@ -140,6 +141,7 @@
     },
     {
         "ejercicio": 202322,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"

@@ -1,0 +1,87 @@
+<p>
+    Los costes están divididos en costes de los productos, costes de producción y costes de transporte.
+</p>
+
+<p>
+    En primer lugar, pasamos la matriz de gramos necesarios por lata a kilogramos.
+    $$\begin{pmatrix}
+        500 & 300 & 200 \\
+        600 & 100 & 300
+    \end{pmatrix} \to
+    \begin{pmatrix}
+        0,5 & 0,3 & 0,2 \\
+        0,6 & 0,1 & 0,3
+    \end{pmatrix}.$$
+
+    El producto de matrices
+    $$\begin{pmatrix}
+        0,5 & 0,3 & 0,2 \\
+        0,6 & 0,1 & 0,3
+    \end{pmatrix}
+    \begin{pmatrix}
+        0,5 & 0,4 \\
+        0,4 & 0,5 \\
+        0,6 & 0,7
+    \end{pmatrix} =
+    \begin{pmatrix}
+        0,49 & 0,49 \\
+        0,52 & 0,5
+    \end{pmatrix}$$
+    recoge el precio en euros de cada lata por receta y proveedor, donde las filas indican las recetas y las columnas los proveedores.
+    
+    Por otro lado, la matriz que recoge las latas compradas por receta y proveedor es
+    $$\begin{pmatrix}
+        5.000 & 6.000 \\
+        6.000 & 5.000
+    \end{pmatrix}.$$
+
+    Así que los elementos de la diagonal principal del producto
+    $$\begin{pmatrix}
+        5.000 & 6.000 \\
+        6.000 & 5.000
+    \end{pmatrix}
+    \begin{pmatrix}
+        0,49 & 0,52 \\
+        0,49 & 0,5
+    \end{pmatrix} =
+    \begin{pmatrix}
+        5.390 & 5.600 \\
+        5.390 & 5.620
+    \end{pmatrix}$$
+    representan el coste de los productos para cada receta.
+    Por tanto, el coste de los productos es
+    $$5.390 + 5.620 = 11.010\text{€}.$$
+</p>
+
+<p>
+    Se compran 11.000 latas de cada receta, así que el coste de producción viene dado por el producto de matrices
+    $$\begin{pmatrix}
+        11.000 & 11.000
+    \end{pmatrix}
+    \begin{pmatrix}
+        0,11 \\
+        0,09
+    \end{pmatrix} = 2.200\text{€}.$$
+</p>
+
+<p>
+    De igual forma, el coste de transporte viene dado por
+    $$\begin{pmatrix}
+        11.000 & 11.000
+    \end{pmatrix}
+    \begin{pmatrix}
+        0,02 \\
+        0,03
+    \end{pmatrix} = 550\text{€}.$$
+</p>
+
+<p>
+    En conclusión, el coste total es
+    $$11.010 + 2.200 + 550 = 13.760\text{€}.$$
+
+    Como se quiere obtener un beneficio de 5 céntimos por lata y se compran 22.000 latas, el beneficio buscado será de
+    $$0,05 \cdot 22.000 = 1.100\text{€}.$$
+
+    Por tanto, la conservera debe cobrar
+    $$13.760 + 1.100 = 14.860\text{€}.$$
+</p>
