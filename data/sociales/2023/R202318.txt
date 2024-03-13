@@ -9,7 +9,7 @@
         Así que
         $$1 - \frac{\alpha}{2} = 1 - \frac{0,07}{2} = 0,965 \Rightarrow z_{\alpha/2} = 1,815.$$
 
-        Por tanto, el intervalo de confianza para estimar el gasto medio mensual en electricidad por vivienda con un nivel de confianza del 97% es
+        Por tanto, el intervalo de confianza para estimar el gasto medio mensual en electricidad por vivienda con un nivel de confianza del 93% es
         $$I = \left(97 - 1,815 \cdot \frac{18,25}{\sqrt{361}}, \; 97 + 1,815 \cdot \frac{18,25}{\sqrt{361}}\right) \approx (95,2567; \; 98,7434).$$
     </li>
 
