@@ -203,6 +203,7 @@
     },
     {
         "ejercicio": 202332,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
@@ -210,6 +211,7 @@
     },
     {
         "ejercicio": 202333,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",
@@ -241,6 +243,7 @@
     },
     {
         "ejercicio": 202337,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"
@@ -248,6 +251,7 @@
     },
     {
         "ejercicio": 202338,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"

@@ -1,0 +1,41 @@
+<ol>
+    <li>
+        <ol>
+            <li>
+                Calculamos en primer lugar el determinante de la matriz $A.$
+                $$|A| = \begin{vmatrix}
+                    1 & -1 & 0 \\
+                    0 & m & -2 \\
+                    1 & m & 4
+                \end{vmatrix} = 4m + 2 + 2m = 6m + 2.$$
+
+                La inversa de $A$ existe si y solo si su determinante es no nulo.
+                $$|A| = 0 \Leftrightarrow 6m + 2 = 0 \Leftrightarrow m = -\frac{1}{3}.$$
+
+                Por tanto, la matriz $A$ tiene inversa si $m \neq -\frac{1}{3}.$
+            </li>
+
+            <li>
+                Si $m = 1$, por el apartado anterior $A$ es invertible con $\det(A) = 8.$
+                Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
+                $$\mathrm{Adj}(A) = \begin{pmatrix}
+                    6 & -2 & -1 \\
+                    4 & 4 & -2 \\
+                    2 & 2 & 1
+                \end{pmatrix}.$$
+
+                Calculamos su inversa como
+                $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{8} \begin{pmatrix}
+                    6 & 4 & 2 \\
+                    -2 & 4 & 2 \\
+                    -1 & -2 & 1
+                \end{pmatrix}.$$
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        Despejamos $X$ en la ecuación matricial.
+        $$XB - B^2 + B = 0 \Leftrightarrow (X - B + I)B = 0 \Leftrightarrow X - B + I = 0 \Leftrightarrow X = B + I.$$
+    </li>
+</ol>
