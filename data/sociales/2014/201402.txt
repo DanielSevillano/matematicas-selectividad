@@ -1,0 +1,10 @@
+La función de beneficios $f$, en miles de euros, de una empresa depende de la cantidad invertida $x$, en miles de euros, en un determinado proyecto de innovación y viene dada por $f(x) = -2x^2 + 36x + 138$, $x \geq 0.$
+
+<ol>
+    <li>Determine la inversión que maximiza el beneficio de la empresa y calcule dicho beneficio óptimo.</li>
+    <li>Calcule $f'(7)$ e interprete el signo del resultado.</li>
+    <li>
+        Dibuje la función de beneficios $f(x).$
+        ¿Para qué valor o valores de la inversión, $x$, el beneficio es de 138 mil euros?
+    </li>
+</ol>

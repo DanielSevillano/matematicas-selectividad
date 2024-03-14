@@ -1,0 +1,10 @@
+Sea la función $f$ definida por
+$$f(x) = \begin{cases}
+    -bx^2 - bx + a, & \text{si } x \leq 2, \\
+    \dfrac{60}{x}, & \text{si } x > 2.
+\end{cases}$$
+
+<ol>
+    <li>Obtenga los valores de $a$ y $b$ para que la función sea continua y derivable.</li>
+    <li>Para $a = 48$ y $b = 3$, estudie la monotonía de $f(x)$ y calcule sus extremos.</li>
+</ol>

@@ -1,0 +1,15 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    1 & a \\
+    0 & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    \frac{1}{2} & 0 \\
+    \frac{3}{4} & 0
+\end{pmatrix},$$
+siendo $a$ un número real cualquiera.
+
+<ol>
+    <li>Obtenga la matriz $A^{2014}.$</li>
+    <li>Para $a = 2$, resuelva la ecuación matricial $A^3X - 4B = O.$</li>
+</ol>

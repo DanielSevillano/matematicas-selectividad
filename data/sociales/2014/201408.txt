@@ -1,0 +1,3 @@
+Un titular de prensa afirma que el 70% de los jóvenes de una ciudad utilizan las redes sociales para comunicarse.
+Para contrastar la veracidad de tal afirmación se toma una muestra aleatoria de 500 jóvenes de esa ciudad, y se obtiene que 340 de ellos utilizan la red para comunicarse.
+Analice mediante un contraste de hipótesis bilateral, $(H_0: p = 0,7)$, si se puede aceptar, con un nivel de significación del 1%, que dicha afirmación es cierta.

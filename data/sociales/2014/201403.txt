@@ -1,0 +1,10 @@
+Una urna, A, contiene siete bolas numeradas del 1 al 7.
+Otra urna, B, contiene cinco bolas numeradas del 1 al 5.
+Lanzamos una moneda equilibrada, de forma que si sale cara, extraeremos una bola de la urna A, y si sale cruz, la extraemos de la urna B.
+Calcule las probabilidades de los siguientes sucesos:
+
+<ol>
+    <li>"La bola haya sido extraída de la urna A y el número sea par".</li>
+    <li>"El número de la bola extraída sea par".</li>
+    <li>"La bola sea de la urna A, si ha salido un número par".</li>
+</ol>

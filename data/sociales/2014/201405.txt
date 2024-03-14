@@ -1,0 +1,9 @@
+<ol>
+    <li>
+        Dadas las inecuaciones
+        $$y \leq x + 5, \quad 2x + y \geq -4, \quad 4x \leq 10-y, \quad y \geq 0,$$
+        represente el recinto que limitan y calcule sus vértices.
+    </li>
+
+    <li>Obtenga el máximo y el mínimo de la función $f(x, y) = x + \frac{1}{2}y$ en el recinto anterior, así como los puntos en los que se alcanzan.</li>
+</ol>

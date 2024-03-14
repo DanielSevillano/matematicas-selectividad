@@ -1,0 +1,8 @@
+Se quiere hacer un estudio de mercado para conocer el precio medio de los libros de narrativa que se venden en la actualidad.
+Para ello se elige una muestra aleatoria de 121 libros, encontrando que tienen un precio medio de 23€.
+Se sabe que el precio de los libros de narrativa sigue una distribución Normal con media desconocida y desviación típica 5€.
+
+<ol>
+    <li>Obtenga un intervalo de confianza, al 98,8%, para el precio medio de esos libros.</li>
+    <li>¿Cuántos libros habría que elegir como muestra para que, con la misma confianza, el error máximo de la estimación no excediera de 1€?</li>
+</ol>

@@ -1,0 +1,8 @@
+Antonio va a la compra dos días de cada cinco.
+A lo largo del tiempo, ha observado que la fruta está de oferta la tercera parte de los días que va a la compra y la mitad de los días que no va.
+Elegido un día al azar:
+
+<ol>
+    <li>¿Cuál es la probabilidad de que la fruta esté de oferta ese día?</li>
+    <li>Calcule la probabilidad de que ese día Antonio vaya a la compra o la fruta esté de oferta.</li>
+</ol>
