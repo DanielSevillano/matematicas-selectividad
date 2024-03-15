@@ -38,5 +38,10 @@
         "curso": 2022,
         "ciencias": 6.71,
         "sociales": 6.91
+    },
+    {
+        "curso": 2023,
+        "ciencias": 5.06,
+        "sociales": 5.99
     }
 ]
