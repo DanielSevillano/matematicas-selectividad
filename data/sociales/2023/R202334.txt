@@ -1,0 +1,81 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                Si $x \geq 0$ y $x \neq 2$, $f$ es continua y derivable con
+                $$f'(x) = \begin{cases}
+                    \frac{2}{3}x, & \text{si } 0 \leq x < 2, \\
+                    -\dfrac{4}{(x+1)^2}, & \text{si } x > 2.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $x = 2.$
+                \begin{align}
+                    & \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} \frac{x^2}{3} = \frac{4}{3}, \\
+                    & \lim_{x \to 2^+} f(x) = \lim_{x \to 2^+} \frac{4}{x+1} = \frac{4}{3}, \\
+                    & f(2) = \frac{4}{3}.
+                \end{align}
+
+                Observamos que
+                $$\lim_{x \to 2^-} f(x) = \lim_{x \to 2^+} f(x) = f(2).$$
+
+                Así que $f$ es continua en $x = 2.$
+                
+                <br>
+
+                Pasamos a estudiar la derivabilidad.
+                \begin{align}
+                    & f'_-(2) = \frac{4}{3}, \\
+                    & f'_+(2) = -\frac{4}{9}.
+                \end{align}
+
+                Observamos que
+                $$f'_-(2) \neq f'_+(2).$$
+
+                Así que $f$ no es derivable en $x = 2.$
+            </li>
+        </ul>
+
+        Por tanto, $f$ es continua en $[0, +\infty)$ y derivable en $[0, 2) \cup (2, +\infty).$
+    </li>
+
+    <li>
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+
+        <ul>
+            <li>
+                Si $0 \leq x < 2$,
+                $$f(x) = 0 \Leftrightarrow \frac{2}{3}x = 0 \Leftrightarrow x = 0.$$
+            </li>
+
+            <li>
+                Si $x > 2$,
+                $$f'(x) = -\frac{4}{(x+1)^2} \neq 0.$$
+            </li>
+        </ul>
+        
+        Así que el único punto crítico es $x = 0.$
+        También consideramos $x = 2$ por ser el punto de ruptura.
+        Estudiemos el signo de $f'.$
+
+        <ul>
+            <li>
+                Si $0 \leq x < 2$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $x > 2$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es creciente en $(0, 2)$ y es decreciente en $(2, +\infty).$
+        Además, tiene un máximo relativo en $x = 2$, el punto $\left(2, \frac{4}{3}\right).$
+
+        <br>
+
+        Representamos gráficamente la función usando la información obtenida.
+        <img src="img/sociales/R202334.png" alt="Figura" loading="lazy">
+</ol>

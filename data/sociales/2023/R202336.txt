@@ -1,0 +1,31 @@
+<ol>
+    <li>
+        Llamamos $W$ a tener página web y $V$ a realizar ventas por comercio electrónico.
+        Sabemos que
+        $$P(W) = 0,32, \quad P(W^c \cap V^c) = 0,646 \quad \text{y} \quad P(V|W) = 0,3.$$
+
+        La probabilidad de tener página web o realizar ventas por comercio electrónico es
+        $$P(W \cup V) = 1 - P(W^c \cap V^c) = 1 - 0,646 = 0,354.$$
+    </li>
+
+    <li>
+        Sabemos que la probabilidad de tener página web o realizar ventas por comercio electrónico viene dada por
+        $$P(W \cup V) = P(W) + P(V) - P(W \cap V).$$
+
+        Además, sabemos que
+        $$P(W \cap V) = P(W) \cdot P(V|W) = 0,32 \cdot 0,3 = 0,096.$$
+        
+        Así que, despejando en la expresión anterior, la probabilidad de realizar ventas por comercio electrónico es
+        $$P(V) = P(W \cup V) - P(W) + P(W \cap V) = 0,354 - 0,32 + 0,096 = 0,13.$$
+    </li>
+
+    <li>
+        La probabilidad de no tener página web y realizar ventas por comercio electrónico es
+        $$P(W^c \cap V) = P(V) - P(W \cap V) = 0,13 - 0,096 = 0,034.$$
+    </li>
+
+    <li>
+        Como $P(V) \neq P(V|W)$, los sucesos $W$ y $V$ no son independientes.
+        Por otro lado, como $P(W \cap V) > 0$, los sucesos no son incompatibles.
+    </li>
+</ol>

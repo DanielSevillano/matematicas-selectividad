@@ -195,6 +195,7 @@
     },
     {
         "ejercicio": 202331,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
@@ -221,6 +222,7 @@
     },
     {
         "ejercicio": 202334,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",
@@ -230,12 +232,14 @@
     },
     {
         "ejercicio": 202335,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202336,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
