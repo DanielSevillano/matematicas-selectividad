@@ -1,0 +1,10 @@
+Sea la función $f(x) = -x^2 + px + q.$
+
+<ol>
+    <li>
+        Calcule los valores que deben tener $p$ y $q$ para que la gráfica de la función $f$ pase por el punto $(-4, -5)$ y presente un máximo en el punto de abscisa $x = - 1.$
+        Determine el valor de $f(x)$ en ese punto.
+    </li>
+
+    <li>Represente la gráfica de $f$ para $p = 2$ y $q = -1$ y halle la ecuación de la recta tangente a esta gráfica en el punto de abscisa $x = -2.$</li>
+</ol>

@@ -1,0 +1,7 @@
+Una empresa ha realizado un estudio sobre los beneficios, en miles de euros, que ha obtenido en los últimos 10 años.
+La función a la que se ajustan dichos beneficios viene dada por $B(t) = 2t^3 - 36t^2 + 162t - 6$, con $0 \leq t \leq 10.$
+
+<ol>
+    <li>¿Qué beneficios obtuvo al inicio del periodo $(t = 0)$ y al final del décimo año $(t = 10)$?</li>
+    <li>¿En qué momentos se obtiene el máximo y el mínimo beneficio y cuáles fueron sus cuantías?</li>
+</ol>

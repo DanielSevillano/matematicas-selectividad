@@ -1,0 +1,9 @@
+Se sabe que dos alumnos de la asignatura de Matemáticas asisten a clase, de forma independiente, el primero a un 85% de las clases y el segundo a un 35%.
+Tomado al azar un día de clase, calcule la probabilidad de cada uno de los siguientes sucesos:
+
+<ol>
+    <li>Que los dos hayan asistido a clase ese día.</li>
+    <li>Que alguno de ellos haya asistido a clase ese día.</li>
+    <li>Que ninguno haya asistido a clase ese día.</li>
+    <li>Que haya asistido a clase el segundo, sabiendo que el primero no ha asistido.</li>
+</ol>

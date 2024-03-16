@@ -1,0 +1,16 @@
+<ol>
+    <li>
+        Plantee, sin resolver, el siguiente problema:
+        "Un mayorista vende productos congelados que presenta en envases de dos tamaños, pequeños y grandes.
+        La capacidad de sus congeladores no le permite almacenar más de 1.000 envases en total.
+        En función de la demanda sabe que debe mantener un stock mínimo de 100 envases pequeños y 200 envases grandes.
+        La demanda de envases grandes es igual o superior a la de envases pequeños.
+        El coste por almacenaje es de 10 céntimos de euro por cada envase pequeño y de 20 céntimos de euro por cada envase grande.
+        ¿Qué número de envases de cada tipo proporciona el mínimo coste de almacenaje?"
+    </li>
+
+    <li>
+        Represente el recinto que determinan las inecuaciones
+        $$2x \geq 10+y, \quad x \leq 2(5-y), \quad x \geq 0, \quad y \geq 0.$$
+    </li>
+</ol>

@@ -1,0 +1,3 @@
+La concejalía de Educación de una determinada localidad afirma que el tiempo medio dedicado a la lectura por los jóvenes de entre 15 y 20 años de edad es, a lo sumo, de 8 horas semanales.
+Para contrastar esta hipótesis, $(H_0: \mu \leq 8)$, se escoge al azar una muestra de 100 jóvenes, de entre 15 y 20 años, y se obtiene una media de 8,3 horas de dedicación a la lectura.
+Supuesto que el tiempo dedicado a la lectura sigue una ley Normal con desviación típica igual a 1 hora, ¿qué se puede decir, a un nivel de significación del 5%, sobre la afirmación de la concejalía?

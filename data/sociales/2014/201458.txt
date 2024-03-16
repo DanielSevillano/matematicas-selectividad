@@ -1,0 +1,7 @@
+El peso de los huevos de una granja sigue una ley Normal de media desconocida y desviación típica 1,23 gramos.
+Para estimar la media poblacional se ha tomado una muestra de dos docenas de huevos que han dado un peso total de 1.615,2 gramos.
+
+<ol>
+    <li>Halle un intervalo de confianza, al 96%, para la media poblacional.</li>
+    <li>Con el mismo nivel de confianza anterior, si nos exigieran que el intervalo tuviera una amplitud máxima de 0,8, ¿de qué tamaño, como mínimo, habría que tomar la muestra?</li>
+</ol>

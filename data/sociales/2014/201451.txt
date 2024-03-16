@@ -1,0 +1,18 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & -7 \\
+    2 & -1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & 0 \\
+    -5 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Calcule las matrices $X$ e $Y$ para las que se verifica
+        $$X + Y = A \quad \text{y} \quad 3X + Y = B.$$
+    </li>
+
+    <li>Halle la matriz $Z$ que verifica $BZ + B^t = 2I_2.$</li>
+</ol>

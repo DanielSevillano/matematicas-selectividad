@@ -1,0 +1,9 @@
+En una tienda de complementos disponen de 100 bolsos, de los cuales 80 son de una conocida marca y 20 son imitaciones casi perfectas de dicha marca.
+Una inspección encarga a un experto el peritaje de los bolsos de la tienda.
+Se sabe que este experto acierta en el 95% de sus peritajes cuando el bolso es auténtico y que detecta el 98% de las imitaciones.
+Se elige, al azar, un bolso para su examen:
+
+<ol>
+    <li>Calcule la probabilidad de que el experto acierte en su dictamen sobre ese bolso.</li>
+    <li>Si el experto no ha acertado en su peritaje, calcule la probabilidad de que el bolso sea auténtico.</li>
+</ol>
