@@ -16,7 +16,7 @@
     Se dice que una matriz es de dimensión $m \times n$ cuando tiene $m$ filas y $n$ columnas.
     La matriz $A$ es de dimensión $2 \times 3$, porque tiene 2 filas y 3 columnas.
     Además, el elemento que está situado en la fila $i$ y columna $j$ se denota por $a_{ij}.$
-    Por ejemplo, $a_{13} = 5$ y $a_{22} = 0.$
+    Por ejemplo, $a_{13} = -5$ y $a_{22} = 0.$
 </p>
 
 <p>
@@ -99,7 +99,7 @@
     \end{pmatrix}$$
     está formada por los elementos $a_{11} = 1$, $a_{22} = 8$ y $a_{33} = 5.$<br>
 
-    Podemos distringuir los siguientes tipos de matrices.
+    Podemos distinguir los siguientes tipos de matrices.
 </p>
 <ul>
     <li>Una matriz es <b>triangular superior</b> si son nulos todos los elementos situados debajo de la diagonal principal.
@@ -355,7 +355,7 @@
 </p>
 
 <p>
-    En algunas ocasiones, podemos hallar una fórmula para $A^n$ en general encontrando un patrón.
+    En algunas ocasiones, podemos hallar una fórmula general para $A^n$ encontrando un patrón.
     Por ejemplo, si tomamos la matriz
     $$A = \begin{pmatrix}
         1 & 0 \\
@@ -550,7 +550,7 @@
 
 <h3>Inversa de una matriz</h3>
 <p>
-    Una matriz cuadrada $A$ es invertible si existe una matriz $B$ de igual dimensión de forma que $AB = I.$
+    Una matriz cuadrada $A$ es invertible si existe una matriz $B$ del mismo orden de forma que $AB = I.$
     En tal caso $B$ es la matriz inversa de $A$ y se denota $A^{-1}.$
     Por ejemplo:
     $$\begin{pmatrix}
@@ -592,39 +592,39 @@
     Por ejemplo, hallemos la inversa de la matriz $A.$
     Completamos esta matriz con la identidad a su derecha y aplicamos el método de Gauss-Jordan.
     \begin{align}
-        & \begin{pmatrix}
+        & \left(\begin{array}{ccc | ccc}
             1 & 0 & -1 & 1 & 0 & 0 \\
             0 & 1 & 0 & 0 & 1 & 0 \\
             5 & 2 & -3 & 0 & 0 & 1
-        \end{pmatrix} \xrightarrow{F_3 - 5F_1}
-        \begin{pmatrix}
+        \end{array}\right) \xrightarrow{F_3 - 5F_1}
+        \left(\begin{array}{ccc | ccc}
             1 & 0 & -1 & 1 & 0 & 0 \\
             0 & 1 & 0 & 0 & 1 & 0 \\
             0 & 2 & 2 & -5 & 0 & 1
-        \end{pmatrix} \xrightarrow{F_3 - 2F_2}
-        \begin{pmatrix}
+        \end{array}\right) \xrightarrow{F_3 - 2F_2}
+        \left(\begin{array}{ccc | ccc}
             1 & 0 & -1 & 1 & 0 & 0 \\
             0 & 1 & 0 & 0 & 1 & 0 \\
             0 & 0 & 2 & -5 & -2 & 1
-        \end{pmatrix} \\
+        \end{array}\right) \\
         & \xrightarrow{F_3/2}
-        \begin{pmatrix}
+        \left(\begin{array}{ccc | ccc}
             1 & 0 & -1 & 1 & 0 & 0 \\
             0 & 1 & 0 & 0 & 1 & 0 \\
-            0 & 0 & 1 & -5/2 & -1 & 1/2
-        \end{pmatrix} \xrightarrow{F_1 + F_3}
-        \begin{pmatrix}
-            1 & 0 & 0 & -3/2 & -1 & 1/2 \\
+            0 & 0 & 1 & -\frac{5}{2} & -1 & \frac{1}{2}
+        \end{array}\right) \xrightarrow{F_1 + F_3}
+        \left(\begin{array}{ccc | ccc}
+            1 & 0 & 0 & -\frac{3}{2} & -1 & \frac{1}{2} \\
             0 & 1 & 0 & 0 & 1 & 0 \\
-            0 & 0 & 1 & -5/2 & -1 & 1/2
-        \end{pmatrix}.
+            0 & 0 & 1 & -\frac{5}{2} & -1 & \frac{1}{2}
+        \end{array}\right).
     \end{align}
 
     Así que la matriz inversa de $A$ es
     $$A^{-1} = \begin{pmatrix}
-        -3/2 & -1 & 1/2 \\
+        -\frac{3}{2} & -1 & \frac{1}{2} \\
         0 & 1 & 0 \\
-        -5/2 & -1 & 1/2
+        -\frac{5}{2} & -1 & \frac{1}{2}
     \end{pmatrix}.$$
 </p>
 
