@@ -1,0 +1,8 @@
+Se sabe que el 80% de los visitantes de un determinado museo son andaluces y que el 55% son andaluces y adultos.
+Además, el 17% de los visitantes son no andaluces y adultos.
+Se elige, al azar, un visitante del museo:
+
+<ol>
+    <li>¿Cuál es la probabilidad de que no sea adulto?</li>
+    <li>Si es adulto, ¿cuál es la probabilidad de que sea andaluz?</li>
+</ol>

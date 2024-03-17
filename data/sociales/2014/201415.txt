@@ -1,0 +1,9 @@
+<ol>
+    <li>
+        Represente la región del plano determinada por las siguientes inecuaciones:
+        $$2x + 5y \leq 15, \quad x + y \leq 6, \quad 5x - 7y \leq 42, \quad x \geq 0.$$
+    </li>
+
+    <li>Halle los vértices de la región anterior.</li>
+    <li>En esa región, halle el valor mínimo de la función $F(x, y) = -2x - 2y + 3$ y dónde lo alcanza.</li>
+</ol>

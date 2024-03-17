@@ -1,0 +1,13 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    1 & a \\
+    0 & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    -1 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule el valor del parámetro $a$ para que se verifique $(BA)^t = AB^t.$</li>
+    <li>Para $a = 2$, resuelva la ecuación matricial $XA = B.$</li>
+</ol>

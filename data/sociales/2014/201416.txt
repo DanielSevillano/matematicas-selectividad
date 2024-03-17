@@ -1,0 +1,11 @@
+Sea la función
+$$f(x) = \begin{cases}
+    (x+1)^2, & \text{si } x \leq 1, \\
+    \dfrac{4}{x}, & \text{si } x > 1.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de la función en su dominio.</li>
+    <li>Determine sus asíntotas, en caso de que existan.</li>
+    <li>Calcule la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 2.$</li>
+</ol>

@@ -1,0 +1,7 @@
+Sea la función $f(x) = x^3 - 3x^2 + 3x.$
+
+<ol>
+    <li>Estudie la monotonía de $f$ y halle los extremos relativos que posea.</li>
+    <li>Estudie su curvatura y calcule su punto de inflexión.</li>
+    <li>Represente la gráfica de la función $f.$</li>
+</ol>

@@ -1,0 +1,7 @@
+El 65% de la población española adulta no fuma, el 15% fuma ocasionalmente y el resto fuma habitualmente.
+Elegidos al azar dos adultos españoles, calcule las probabilidades de los siguientes sucesos:
+
+<ol>
+    <li>Los dos sean no fumadores.</li>
+    <li>Uno de ellos sea no fumador y el otro sea fumador ocasional.</li>
+</ol>

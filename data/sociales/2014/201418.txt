@@ -1,0 +1,7 @@
+<ol>
+    <li>Determine todas las muestras de tamaño 2 que, mediante muestreo aleatorio simple, se pueden extraer del conjunto $\{6, 9, 12\}$ y calcule la varianza de las medias de estas muestras.</li>
+    <li>
+        Una empresa fabrica cuatro productos A, B, C y D, de los que elabora diariamente 40, 15, 25 y 120 unidades respectivamente.
+        Si un día se quiere elaborar una muestra de 40 unidades con los productos fabricados por muestreo aleatorio estratificado con afijación proporcional, ¿qué número de unidades de cada producto se debe elegir?
+    </li>
+</ol>

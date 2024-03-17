@@ -1,0 +1,6 @@
+Para estimar la proporción de balances contables incorrectos de un banco, se seleccionan aleatoriamente 200 balances, y se encuentra que 19 de ellos son incorrectos.
+
+<ol>
+    <li>Obtenga un intervalo de confianza, al 95%, para la proporción de balances incorrectos.</li>
+    <li>¿Cuántos balances se deberán seleccionar para que, con un nivel de confianza del 99%, el error de la estimación no sea superior a 0,02?</li>
+</ol>

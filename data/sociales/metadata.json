@@ -3170,6 +3170,63 @@
         ]
     },
     {
+        "ejercicio": 201411,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201412,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 201413,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201414,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 201415,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201416,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Asíntotas",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201417,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201418,
+        "categorias": [
+            "Estadística",
+            "Muestreo"
+        ]
+    },
+    {
         "ejercicio": 201451,
         "categorias": [
             "Álgebra",
