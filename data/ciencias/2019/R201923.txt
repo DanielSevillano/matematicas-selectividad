@@ -1,0 +1,50 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                Calculamos el determinante.
+                Como $A$ es de orden 3,
+                $$|3A| = 3^3 \cdot |A| = 27 \cdot 5 = 135.$$
+            </li>
+
+            <li>
+                Calculamos el determinante.
+                $$\begin{vmatrix}
+                    2a & d+3a & g \\
+                    2b & e+3b & h \\
+                    2c & f+3c & i
+                \end{vmatrix} =
+                \begin{vmatrix}
+                    2a & d & g \\
+                    2b & e & h \\
+                    2c & f & i
+                \end{vmatrix} +
+                \begin{vmatrix}
+                    2a & 3a & g \\
+                    2b & 3b & h \\
+                    2c & 3c & i
+                \end{vmatrix} =
+                \begin{vmatrix}
+                    2a & d & g \\
+                    2b & e & h \\
+                    2c & f & i
+                \end{vmatrix} =
+                2\begin{vmatrix}
+                    a & d & g \\
+                    b & e & h \\
+                    c & f & i
+                \end{vmatrix} =
+                2\begin{vmatrix}
+                    a & b & c \\
+                    d & e & f \\
+                    g & h & i
+                \end{vmatrix} = 2 \cdot 5 = 10.$$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Calculamos el determinante.
+        $$|BA^{-1}| = |B| \cdot |A|^{-1} = 4 \cdot \frac{1}{5} = \frac{4}{5}.$$
+    </li>
+</ol>

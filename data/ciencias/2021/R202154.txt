@@ -1,0 +1,50 @@
+<p>
+    En primer lugar, hallamos todas las primitivas de $f.$
+    $$F(x) = \int f(x)dx = \int \frac{x^2+1}{x^2-1}dx.$$
+</p>
+
+<p>
+    Para resolver esta integral, hacemos la división de polinomios del integrando.
+    $$\frac{x^2+1}{x^2-1} = 1 + \frac{2}{x^2-1}.$$
+
+    Así que
+    $$F(x) = \int \frac{x^2+1}{x^2-1}dx = \int 1dx + \int \frac{2}{x^2-1}dx = x + \int \frac{2}{x^2-1}dx.$$
+</p>
+
+<p>
+    Expresamos la función como suma de fracciones simples.
+    $$x^2 - 1 = 0 \Leftrightarrow x = \pm 1.$$
+
+    Las raíces del denominador son -1 y 1, así que la función se puede escribir como
+    $$\frac{2}{x^2-1} = \frac{A}{x-1} + \frac{B}{x+1} = \frac{A(x+1) + B(x-1)}{(x-1)(x+1)} = \frac{(A+B)x + A - B}{x^2-1}.$$
+
+    Igualando ambas expresiones, obtenemos que
+    \begin{cases}
+        A + B = 0, \\
+        A - B = 2.
+    \end{cases}
+
+    Resolvemos el sistema por reducción.
+    Si sumamos las dos ecuaciones, obtenemos que
+    $$2A = 2 \Leftrightarrow A = 1.$$
+
+    Por otro lado, si restamos las dos ecuaciones, obtenemos que
+    $$2B = -2 \Leftrightarrow B = -1.$$
+
+    Por tanto,
+    $$\frac{2}{x^2-1} = \frac{1}{x-1} - \frac{1}{x+1}.$$
+</p>
+
+<p>
+    Resolvemos la integral.
+    $$F(x) = x + \int \frac{2}{x^2-1}dx = x + \int \frac{1}{x-1}dx - \int \frac{1}{x+1}dx = x + \ln|x-1| - \ln|x+1| + C.$$
+</p>
+
+<p>
+    La primitiva que pasa por el punto $(2, 4)$ ha de verificar $F(2) = 4.$
+    Por tanto,
+    $$F(2) = 4 \Leftrightarrow 2 - \ln(3) + C = 4 \Leftrightarrow C = 2 + \ln(3).$$
+
+    Luego la primitiva es
+    $$F(x) = x + \ln|x-1| - \ln|x+1| + 2 + \ln(3).$$
+</p>

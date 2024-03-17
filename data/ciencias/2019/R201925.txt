@@ -1,0 +1,28 @@
+<p>
+    En primer lugar, calculamos la primera y la segunda derivada de $f.$
+    \begin{align}
+        & f'(x) = 6x^2 + 2ax + b, \\
+        & f''(x) = 12x + 2a.
+    \end{align}
+</p>
+
+<p>
+    Como $f$ tiene un punto de inflexión en $x = 1$,
+    $$f''(1) = 0 \Leftrightarrow 12 + 2a = 0 \Leftrightarrow a = -6.$$
+</p>
+
+<p>
+    La pendiente de la recta tangente en $x = 1$ es -6, así que
+    $$f'(1) = -6 \Leftrightarrow 6 + 2a + b = -6 \xrightarrow{a = -6} 6 - 12 + b = -6 \Leftrightarrow b = 0.$$
+
+    Como además la ecuación de la recta es $y = -6x + 6$, si $x = 1$ entonces
+    $$y = -6 \cdot 1 + 6 = 0.$$
+
+    Así que el punto de tangencia es $(1, 0).$
+    Por tanto,
+    $$f(1) = 0 \Leftrightarrow 2 + a + b + c = 0 \xrightarrow[b = 0]{a = -6} 2 - 6 + c = 0 \Leftrightarrow c = 4.$$
+</p>
+
+<p>
+    Luego $a = -6$, $b = 0$ y $c = 4.$
+</p>

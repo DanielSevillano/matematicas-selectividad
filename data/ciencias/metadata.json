@@ -653,6 +653,7 @@
     },
     {
         "ejercicio": 202243,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -1094,6 +1095,7 @@
     },
     {
         "ejercicio": 202154,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -1615,6 +1617,7 @@
     },
     {
         "ejercicio": 201923,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Determinantes"
@@ -1628,6 +1631,7 @@
     },
     {
         "ejercicio": 201925,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Curvatura y puntos de inflexión"

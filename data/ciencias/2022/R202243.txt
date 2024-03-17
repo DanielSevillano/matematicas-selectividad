@@ -1,0 +1,39 @@
+<p>
+    Para resolver esta integral, hacemos la división de polinomios del integrando.
+    $$\frac{2x^3 + 2x^2 - 2x + 7}{x^2 + x - 2} = 2x + \frac{2x+7}{x^2 + x - 2}.$$
+
+    Así que
+    $$\int \frac{2x^3 + 2x^2 - 2x + 7}{x^2 + x - 2}dx = \int 2xdx + \int \frac{2x+7}{x^2 + x - 2}dx = x^2 + \int \frac{2x+7}{x^2 + x - 2}dx.$$
+</p>
+
+<p>
+    Expresamos la función como suma de fracciones simples.
+    $$x^2 + x - 2 = 0 \Leftrightarrow \begin{cases}
+        x = -2, \\
+        x = 1.
+    \end{cases}$$
+
+    Las raíces del denominador son -2 y 1, así que la función se puede escribir como
+    $$\frac{2x+7}{x^2 + x - 2} = \frac{A}{x-1} + \frac{B}{x+2} = \frac{A(x+2) + B(x-1)}{(x-1)(x+2)} = \frac{(A+B)x + 2A - B}{x^2 + x - 2}.$$
+
+    Igualando ambas expresiones, obtenemos que
+    \begin{cases}
+        A + B = 2, \\
+        2A - B = 7.
+    \end{cases}
+
+    Resolvemos el sistema por reducción.
+    Si sumamos las dos ecuaciones, obtenemos que
+    $$3A = 9 \Leftrightarrow A = 3.$$
+
+    Sustituyendo en la primera ecuación, obtenemos que
+    $$A + B = 2 \xrightarrow{A = 3} 3 + B = 2 \Leftrightarrow B = -1.$$
+
+    Por tanto,
+    $$\frac{2x+7}{x^2 + x - 2} = \frac{3}{x-1} - \frac{1}{x+2}.$$
+</p>
+
+<p>
+    Resolvemos la integral.
+    $$x^2 + \int \frac{2x+7}{x^2 + x - 2}dx = x^2 + 3\int \frac{1}{x-1}dx - \int \frac{1}{x+2}dx = x^2 + 3\ln|x-1| - \ln|x+2| + C.$$
+</p>

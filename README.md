@@ -57,10 +57,10 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Reserva 1 (3, 5, 6)
     - [ ] Reserva 2 (1, 3, 4)
     - [ ] Reserva 3 (1, 4, 5, 6)
-    - [ ] Reserva 4 (1, 2)
+    - [ ] Reserva 4 (1, 2, 3)
 - [ ] 2021
     - [ ] Junio (1, 2, 4, 5, 6, 8)
-    - [ ] Julio (1, 2, 3, 7)
+    - [ ] Julio (1, 2, 3, 4, 7)
     - [ ] Reserva 1 (5)
     - [ ] Reserva 2 (1, 5, 6)
     - [ ] Reserva 3 (4, 5, 6)
@@ -73,6 +73,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Junio (A1, A2, A3, B1, B4)
     - [ ] Septiembre (A4, B3, B4)
     - [ ] Reserva 1 (A1)
+    - [ ] Reserva 2 (A3, B1)
     - [ ] Reserva 3 (B2)
 
 ### Ejercicios resueltos de sociales
