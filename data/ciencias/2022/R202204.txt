@@ -13,7 +13,7 @@
 
 <p>
     Expresamos la función como suma de fracciones simples.
-    Las raíz doble del denominador es 1, así que la función se puede escribir como 
+    La raíz doble del denominador es 1, así que la función se puede escribir como 
     $$\frac{3x-2}{x^2-2x+1} = \frac{A}{x-1} + \frac{B}{(x-1)^2} = \frac{A(x-1) + B}{(x-1)^2} = \frac{Ax - A + B}{x^2-2x+1}.$$
     Igualando ambas expresiones, obtenemos que
     $$\begin{cases}
