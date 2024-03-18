@@ -1,0 +1,40 @@
+<ol>
+    <li>
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \; \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+        Como el nivel de confianza es del 98,5%, entonces
+        $$1 - \alpha = 0,985 \Leftrightarrow \alpha = 1 - 0,985 = 0,015.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,015}{2} = 0,9925 \Rightarrow z_{\alpha/2} = 2,43.$$
+
+        Por tanto, el intervalo de confianza para estimar el diámetro medio de las piezas con un nivel de confianza del 98,5% es
+        $$I = \left(81 - 2,43 \cdot \frac{\sqrt{9}}{\sqrt{144}}, \; 81 + 2,43 \cdot \frac{\sqrt{9}}{\sqrt{144}}\right) \approx (80,3925; \; 81,6075).$$
+    </li>
+
+    <li>
+        El error máximo cometido viene dado por
+        $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 2,43 \cdot \frac{\sqrt{9}}{\sqrt{n}} = \frac{7,29}{\sqrt{n}}.$$
+
+        Si se quiere que el intervalo de confianza tenga una amplitud máxima de 0,9,
+        $$E = \frac{0,9}{2} = 0,45.$$
+
+        Así que
+        $$\frac{7,29}{\sqrt{n}} = 0,45 \Leftrightarrow \sqrt{n} = \frac{7,29}{0,45} \Leftrightarrow n = \frac{7,29^2}{0,45^2} = 262,44.$$
+
+        Por tanto, el tamaño mínimo de la muestra debe ser de 263 piezas.
+    </li>
+
+    <li>
+        La distribución del diámetro medio muestral $\overline{X}$ sigue una normal $N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)$ con $\mu = 80,4$, $\sigma = \sqrt{9} = 3$ y $n = 64.$
+        Es decir,
+        $$N \sim N\left(80,4; \; \frac{3}{\sqrt{64}}\right) = N(80,4; \; 0,375).$$
+
+        Calculamos la probabilidad.
+        \begin{align}
+            & P(79,5 \leq \overline{X} \leq 80,7) = P\left(\frac{79,5-80,4}{0,375} \leq Z \leq \frac{80,7-80,4}{0,375}\right) = P(-2,4 \leq Z \leq 0,8) = \\
+            & = P(Z \leq 0,8) - P(Z \leq -2,4) = P(Z \leq 0,8) - (1 - P(Z \leq 2,4)) \approx 0,7799.
+        \end{align}
+    </li>
+</ol>

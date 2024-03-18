@@ -84,3 +84,4 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [x] Reserva 1
     - [x] Reserva 2
     - [x] Reserva 3
+    - [ ] Reserva 4 (5, 6, 7, 8)

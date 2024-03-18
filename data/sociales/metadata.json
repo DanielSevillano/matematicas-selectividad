@@ -293,18 +293,21 @@
     },
     {
         "ejercicio": 202345,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202346,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202347,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"
@@ -312,6 +315,7 @@
     },
     {
         "ejercicio": 202348,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"
