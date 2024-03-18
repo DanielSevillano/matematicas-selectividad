@@ -1,0 +1,7 @@
+Queremos estudiar la proporción de personas de una población que usan una determinada marca de ropa; para ello se hace una encuesta a 950 personas y se obtiene que 215 de ellas usan esa marca.
+Utilizamos un contraste de hipótesis $(H_0: p \geq 0,25).$
+
+<ol>
+    <li>¿Podemos afirmar con estos datos y con un nivel de significación del 5% que al menos el 25% de toda la población usa esa marca de ropa?</li>
+    <li>¿Y con un nivel de significación del 1%?</li>
+</ol>

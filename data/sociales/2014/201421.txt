@@ -1,0 +1,14 @@
+Sean las matrices
+$$B = \begin{pmatrix}
+    -5 & 0 \\
+    4 & 6
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    -1 & -8 & -1 \\
+    -9 & 3 & 6
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determine la dimensión que debe tener una matriz $A$ para que se verifique la igualdad $AB = 2C^t.$</li>
+    <li>Halle la matriz $A$ anterior, sabiendo que de ella se conocen los elementos $a_{31} = 2$, $a_{12} = -3$ y $a_{22} = 1.$</li>
+</ol>

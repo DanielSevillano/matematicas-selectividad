@@ -3231,6 +3231,62 @@
         ]
     },
     {
+        "ejercicio": 201421,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201422,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201423,
+        "categorias": [
+            "Probabilidad",
+            "Problemas de sucesos"
+        ]
+    },
+    {
+        "ejercicio": 201424,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201425,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201426,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201427,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201428,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
         "ejercicio": 201451,
         "categorias": [
             "Álgebra",

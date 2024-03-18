@@ -1,0 +1,7 @@
+Sea la función $f$, definida por
+$$f(x) = \begin{cases}
+    x^2 - ax + 5, & \text{si } x < 0, \\
+    -x^2 + b, & \text{si } x \geq 0.
+\end{cases}$$
+
+Determine los valores que han de tomar $a$ y $b$ para que la función $f$ sea derivable en $x = 0.$

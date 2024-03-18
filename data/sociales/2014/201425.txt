@@ -1,0 +1,8 @@
+Un nutricionista receta a una de sus pacientes una dieta semanal especial basada en lácteos y pescado.
+Cada kg de lácteos cuesta 6€ y proporciona 3 unidades de proteínas y 1 de calorías; cada kg de pescado cuesta 12€, aportando 1 unidad de proteínas y 2 de calorías.
+La dieta le exige no tomar más de 4 kg, conjuntamente, de lácteos y pescado, y un aporte mínimo de 4 unidades de proteínas y 3 de calorías.
+
+<ol>
+    <li>Plantee el problema para obtener la combinación de ambos alimentos que tenga el coste mínimo.</li>
+    <li>Dibuje la región factible y determine la solución óptima del problema.</li>
+</ol>

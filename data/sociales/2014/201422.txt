@@ -1,0 +1,6 @@
+Sea la función $f(x) = -2x^3 + ae^{-x} + bx - 1.$
+
+<ol>
+    <li>Halle los valores de $a$ y $b$ sabiendo que la función tiene un mínimo en $x = 0$ y que la gráfica de la función pasa por el punto $(0, 0).$</li>
+    <li>Para $a = 0$ y $b = 1$, determine la ecuación de la recta tangente a la gráfica de la función en el punto de abscisa $x = -1.$</li>
+</ol>

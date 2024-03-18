@@ -1,0 +1,7 @@
+Sean $A$ y $B$ dos sucesos aleatorios independientes de los que se conoce que $P(A) = 0,5$ y $P(B) = 0,3.$
+
+<ol>
+    <li>Diga, razonadamente, si $A$ y $B$ son sucesos incompatibles.</li>
+    <li>¿Cuál es la probabilidad de que suceda $A$ y no suceda $B$?</li>
+    <li>Calcule $P(A|B^c).$</li>
+</ol>

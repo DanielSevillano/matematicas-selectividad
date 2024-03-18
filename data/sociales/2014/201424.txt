@@ -1,0 +1,10 @@
+Una panadería produce barras de pan cuya longitud, medida en centímetros, sigue una distribución Normal con una desviación típica de 5 centímetros.
+
+<ol>
+    <li>
+        A partir de una muestra de 100 barras de pan se ha calculado el intervalo de confianza para la media poblacional, resultando ser $(31,2; \; 33,4).$
+        Halle la media muestral y el error de estimación.
+    </li>
+
+    <li>Para un nivel de confianza del 96%, halle el tamaño muestral mínimo necesario para que el error de estimación máximo sea 1,5.</li>
+</ol>

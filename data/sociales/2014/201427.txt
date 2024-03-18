@@ -1,0 +1,11 @@
+Un estudio estadístico de la producción de una fábrica de batidoras determina que el 4,5% de las batidoras presenta defectos eléctricos, el 3,5% presenta defectos mecánicos y el 1% presenta ambos defectos.
+Se escoge al azar una batidora.
+
+<ol>
+    <li>Calcule la probabilidad de que no tenga ninguno de los dos defectos.</li>
+    <li>Calcule la probabilidad de que tenga un defecto mecánico sabiendo que tiene un defecto eléctrico.</li>
+    <li>
+        Justifique si los sucesos "tener un defecto eléctrico" y "tener un defecto mecánico" son independientes.
+        ¿Son incompatibles?
+    </li>
+</ol>
