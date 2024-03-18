@@ -269,6 +269,7 @@
     },
     {
         "ejercicio": 202342,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"

@@ -1,0 +1,129 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                $C^t$ es de dimensión $1 \times 3$ y $A$ es $3 \times 3$, así que $C^tA$ es de dimensión $1 \times 3.$
+                Como $C$ es $3 \times 1$, la matriz $C^tAC$ es de dimensión $1 \times 1.$
+            </li>
+
+            <li>
+                $A$ es de dimensión $3 \times 3$ y $C$ es $3 \times 1$, así que $AC$ es de dimensión $3 \times 1.$
+                Como $C^t$ es $1 \times 3$, $ACC^t$ es de dimensión $3 \times 3.$
+                Por último, como $B$ es $3 \times 3$, la matriz $ACC^tB$ es de dimensión $3 \times 3.$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                Hallamos en primer lugar el determinante de la matriz $A.$
+                $$|A| = \begin{vmatrix}
+                    5 & -7 & 6 \\
+                    7 & 0 & 4 \\
+                    0 & 3 & -1
+                \end{vmatrix} = 126 - 49 - 60 = 17.$$
+
+                Como $\det(A) \neq 0$, la matriz $A$ es invertible.
+                Para hallar su inversa, calculamos primero su matriz adjunta.
+                $$\mathrm{Adj}(A) = \begin{pmatrix}
+                    -12 & 7 & 21 \\
+                    11 & -5 & -15 \\
+                    -28 & 22 & 49
+                \end{pmatrix}.$$
+
+                Calculamos su inversa como
+                $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{17} \begin{pmatrix}
+                    -12 & 11 & -28 \\
+                    7 & -5 & 22 \\
+                    21 & -15 & 49
+                \end{pmatrix}.$$
+            </li>
+
+            <li>
+                Hallamos en primer lugar el determinante de la matriz $B.$
+                $$|B| = \begin{vmatrix}
+                    1 & 2 & -9 \\
+                    -2 & 0 & 11 \\
+                    0 & 4 & -7
+                \end{vmatrix} = 72 - 44 - 28 = 0.$$
+
+                Como $\det(B) = 0$, $B$ no es invertible.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Resolvemos el sistema por reducción para evitar arrastrar fracciones.
+        Multiplicamos la primera ecuación por 3 y la segunda por 2.
+        $$\begin{cases}
+            2X + 3Y = A, \\
+            -3X + 4Y = B
+        \end{cases} \Rightarrow
+        \begin{cases}
+            6X + 9Y = 3A, \\
+            -6X + 8Y = 2B.
+        \end{cases}$$
+
+        Si sumamos ambas ecuaciones, obtenemos que
+        \begin{align}
+            & 17Y = 3A + 2B \Leftrightarrow Y = \frac{1}{17} \left[
+                \begin{pmatrix}
+                    15 & -21 & 18 \\
+                    21 & 0 & 12 \\
+                    0 & 9 & -3
+                \end{pmatrix} +
+                \begin{pmatrix}
+                    2 & 4 & -18 \\
+                    -4 & 0 & 22 \\
+                    0 & 8 & -14
+                \end{pmatrix}
+            \right] = \frac{1}{17} \begin{pmatrix}
+                17 & -17 & 0 \\
+                17 & 0 & 34 \\
+                0 & 17 & -17
+            \end{pmatrix} = \\
+            & = \begin{pmatrix}
+                1 & -1 & 0 \\
+                1 & 0 & 2 \\
+                0 & 1 & -1
+            \end{pmatrix}.
+        \end{align}
+
+        Sustituyendo en la primera ecuación,
+        \begin{align}
+            & 2X + 3Y = A \Leftrightarrow X = \frac{1}{2} (A - 3Y) = \frac{1}{2} \left[
+                \begin{pmatrix}
+                    5 & -7 & 6 \\
+                    7 & 0 & 4 \\
+                    0 & 3 & -1
+                \end{pmatrix} - \begin{pmatrix}
+                    3 & -3 & 0 \\
+                    3 & 0 & 6 \\
+                    0 & 3 & -3
+                \end{pmatrix}
+            \right] = \frac{1}{2} \begin{pmatrix}
+                2 & -4 & 6 \\
+                4 & 0 & -2 \\
+                0 & 0 & 2
+            \end{pmatrix} = \\
+            & = \begin{pmatrix}
+                1 & -2 & 3 \\
+                2 & 0 & -1 \\
+                0 & 0 & 1
+            \end{pmatrix}.
+        \end{align}
+
+        Por tanto,
+        $$X = \begin{pmatrix}
+            1 & -2 & 3 \\
+            2 & 0 & -1 \\
+            0 & 0 & 1
+        \end{pmatrix} \quad \text{e} \quad
+        Y = \begin{pmatrix}
+            1 & -1 & 0 \\
+            1 & 0 & 2 \\
+            0 & 1 & -1
+        \end{pmatrix}.$$
+    </li>
+</ol>
