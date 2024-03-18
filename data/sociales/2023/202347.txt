@@ -3,7 +3,7 @@ Una empresa fabrica piezas cuyo diámetro sigue una distribución Normal de medi
 <ol>
     <li>
         Se seleccionan al azar 144 piezas obteniéndose un diámetro medio de 81 mm.
-        Determine un intervalo de confianza al 98,5 % para estimar el diámetro medio de las piezas fabricadas por la empresa.
+        Determine un intervalo de confianza al 98,5% para estimar el diámetro medio de las piezas fabricadas por la empresa.
     </li>
 
     <li>Con el mismo nivel de confianza del apartado anterior, ¿de qué tamaño mínimo habría que tomar la muestra para obtener un intervalo de confianza con una amplitud máxima de 0,9?</li>
