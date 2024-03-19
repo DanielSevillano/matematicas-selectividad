@@ -1,0 +1,51 @@
+<ol>
+    <li>
+        Los gastos vienen dados por la diferencia entre los ingresos y el beneficio.
+        La función que representa los gastos en miles de euros en función de los años es
+        $$G(t) = I(t) - B(t) = -t^2 + 48t - (-t^2 + 21t - 20) = 27t + 20.$$
+
+        Como $G(0) = 20$, los gastos iniciales son 20.000€.
+    </li>
+
+    <li>
+        Hallamos los puntos de corte de $B$ con el eje $X$, es decir, aquellos puntos con $y = 0.$
+        $$B(t) = 0 \Leftrightarrow -t^2 + 21t - 20 = 0 \Leftrightarrow \begin{cases}
+            t = 1, \\
+            t = 20.
+        \end{cases}$$
+
+        Así que el único punto de corte con el eje en el dominio $[0, 15]$ está en $t = 1.$
+        Observamos además que, si $1 < t \leq 15$, $B(t) > 0.$
+        Por tanto, el beneficio es positivo a partir del primer año.
+    </li>
+
+    <li>
+        Calculamos en primer lugar la derivada de la función $B.$
+        $$B'(t) = -2t + 21.$$
+
+        Para hallar los puntos críticos, igualamos la derivada de $B$ a cero.
+        $$B'(t) = 0 \Leftrightarrow -2t + 21 = 0 \Leftrightarrow t = \frac{21}{2} = 10,5.$$
+
+        Estudiamos el signo de $B'$ para comprobar que se trata de un máximo.
+        
+        <ul>
+            <li>
+                Si $0 \leq t < 10,5$, $B'(t) > 0.$
+                Así que $B$ es creciente.
+            </li>
+
+            <li>
+                Si $10,5 < t \leq 15$, $B'(t) < 0.$
+                Así que $B$ es decreciente.
+            </li>
+        </ul>
+
+        Por tanto, la función tiene un máximo absoluto en $t = 10,5$, el punto $(10,5; \; 90,25).$
+        Es decir, el beneficio máximo se alcanza a los diez años y medio, con un valor de 90.250€.
+    </li>
+
+    <li>
+        Representamos gráficamente la función usando la información del apartado anterior.
+        <img src="img/sociales/R202344.png" alt="Figura" loading="lazy">
+    </li>
+</ol>
