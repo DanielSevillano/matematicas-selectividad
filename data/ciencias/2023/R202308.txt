@@ -1,36 +1,40 @@
 <ol>
-    <li>Hallamos en primer lugar la ecuación de la recta $r.$
-    Su vector director es $\vec{BC} = (-2, 0, -2).$
-    Por tanto, las ecuaciones paramétricas de $r$ son
-    $$r \equiv \begin{cases}
-        x = 2 - 2\lambda, \\
-        y = 1,
-        z = 1 - 2\lambda.
-    \end{cases}$$
+    <li>
+        Hallamos en primer lugar la ecuación de la recta $r.$
+        Su vector director es $\vec{BC} = (-2, 0, -2).$
+        Por tanto, las ecuaciones paramétricas de $r$ son
+        $$r \equiv \begin{cases}
+            x = 2 - 2\lambda, \\
+            y = 1, \\
+            z = 1 - 2\lambda.
+        \end{cases}$$
 
-    Para hallar la distancia del punto $A$ a la recta $r$ podemos trazar un plano $\pi$ perpendicular a $r$ que pase por $A.$
-    Este plano cortará a $r$ en un punto $P$, de forma que $\mathrm{dist}(A, r) = \mathrm{dist}(A, P).$
+        Para hallar la distancia del punto $A$ a la recta $r$ podemos trazar un plano $\pi$ perpendicular a $r$ que pase por $A.$
+        Este plano cortará a $r$ en un punto $P$, de forma que $\mathrm{dist}(A, r) = \mathrm{dist}(A, P).$
 
-    Si $\pi$ es perpendicular a $r$, su vector normal es $\vec{n}_\pi = \vec{BC} = (-2, 0, -2).$
-    Así que la ecuación del plano $\pi$ es
-    $$\pi \equiv -2(x+1) -2(z-3) = 0 \Leftrightarrow -2x - 2z + 4 = 0 \Leftrightarrow x + z - 2 = 0.$$
+        Si $\pi$ es perpendicular a $r$, su vector normal es $\vec{n}_\pi = \vec{BC} = (-2, 0, -2).$
+        Así que la ecuación del plano $\pi$ es
+        $$\pi \equiv -2(x+1) -2(z-3) = 0 \Leftrightarrow -2x - 2z + 4 = 0 \Leftrightarrow x + z - 2 = 0.$$
 
-    Calculamos el punto $P = r \cap \pi.$
-    Para ello sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
-    $$2 - 2\lambda + 1 - 2\lambda - 2 = 0 \Leftrightarrow 4\lambda = 1 \Leftrightarrow \lambda = \frac{1}{4}.$$
-    Por tanto, el punto de corte es
-    $$P\left(2 - 2 \cdot \frac{1}{4}, 1, 1 - 2 \cdot \frac{1}{4}\right) = \left(\frac{3}{2}, 1, \frac{1}{2}\right).$$
+        Calculamos el punto $P = r \cap \pi.$
+        Para ello sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
+        $$2 - 2\lambda + 1 - 2\lambda - 2 = 0 \Leftrightarrow 4\lambda = 1 \Leftrightarrow \lambda = \frac{1}{4}.$$
+        Por tanto, el punto de corte es
+        $$P\left(2 - 2 \cdot \frac{1}{4}, 1, 1 - 2 \cdot \frac{1}{4}\right) = \left(\frac{3}{2}, 1, \frac{1}{2}\right).$$
 
-    Por último, calculamos la distancia de $A$ a $r$ como el módulo del vector $\vec{AP} = \left(\frac{5}{2}, 0, -\frac{5}{2}\right).$
-    $$\mathrm{dist}(A, r) = \mathrm{dist}(A, P) = |\vec{AP}| = \sqrt{\left(\frac{5}{2}\right)^2 + \left(\frac{5}{2}\right)^2} = \sqrt{2\left(\frac{5}{2}\right)^2} = \frac{5}{2}\sqrt{2} \; u^2.$$</li>
+        Por último, calculamos la distancia de $A$ a $r$ como el módulo del vector $\vec{AP} = \left(\frac{5}{2}, 0, -\frac{5}{2}\right).$
+        $$\mathrm{dist}(A, r) = \mathrm{dist}(A, P) = |\vec{AP}| = \sqrt{\left(\frac{5}{2}\right)^2 + \left(\frac{5}{2}\right)^2} = \sqrt{2\left(\frac{5}{2}\right)^2} = \frac{5}{2}\sqrt{2} \; u^2.$$
+    </li>
 
-    <li>Para hallar el área del triángulo $ABC$, calculamos en primer lugar los vectores $\vec{AB} = (3, 0, -2)$ y $\vec{AC} = (1, 0, -4).$
-    Su producto vectorial es
-    $$\vec{AB} \times \vec{AC} = \begin{vmatrix}
-        \vec{i} & \vec{j} & \vec{k} \\
-        3 & 0 & -2 \\
-        1 & 0 & -4
-    \end{vmatrix} = (0, 10, 0).$$
-    Por último, calculamos el área como
-    $$\frac{1}{2}|\vec{AB} \times \vec{AC}| = \frac{1}{2}\sqrt{10^2} = 5 \; u^2.$$</li>
+    <li>
+        Para hallar el área del triángulo $ABC$, calculamos en primer lugar los vectores $\vec{AB} = (3, 0, -2)$ y $\vec{AC} = (1, 0, -4).$
+        Su producto vectorial es
+        $$\vec{AB} \times \vec{AC} = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            3 & 0 & -2 \\
+            1 & 0 & -4
+        \end{vmatrix} = (0, 10, 0).$$
+        Por último, calculamos el área como
+        $$\frac{1}{2}|\vec{AB} \times \vec{AC}| = \frac{1}{2}\sqrt{10^2} = 5 \; u^2.$$
+    </li>
 </ol>
