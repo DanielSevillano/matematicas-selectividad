@@ -1,0 +1,46 @@
+<ol>
+    <li>
+        La recta $r$ intersección de los planos $\pi_1$ y $\pi_2$ viene dada por
+        $$r \equiv \begin{cases}
+            x - y + z = 0, \\
+            x + y = 2.
+        \end{cases}$$
+
+        Hallamos en primer lugar las ecuaciones paramétricas de $r.$
+        Su vector director viene dado por el producto vectorial de los vectores normales de cada plano, $\vec{n}_1 = (1, -1, 1)$ y $\vec{n}_2 = (1, 1, 0).$
+        $$\vec{d}_r = \vec{n}_1 \times \vec{n}_2 = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            1 & -1 & 1 \\
+            1 & 1 & 0
+        \end{vmatrix} = (-1, 1, 2).$$
+
+        Como el punto $(0, 2, 2)$ pertenece a la recta $r$, sus ecuaciones paramétricas son
+        $$r \equiv \begin{cases}
+            x = -\lambda, \\
+            y = 2 + \lambda, \\
+            z = 2 + 2\lambda.
+        \end{cases}$$
+
+        Para hallar la distancia de la recta $r$ al punto $P$ podemos trazar un plano $\tau$ perpendicular a $r$ que pase por $P.$
+        Este plano cortará a $r$ en un punto $Q$, de forma que $\mathrm{dist}(P, r) = \mathrm{dist}(P, Q).$
+        Si $\tau$ es perpendicular a $r$, su vector normal es $\vec{n} = \vec{d}_r = (-1, 1, 2).$
+        Así que la ecuación del plano $\tau$ es
+        $$\tau \equiv -(x - 2) + y - 6 + 2(z + 2) = 0 \Leftrightarrow -x + y + 2z = 0.$$
+
+        Calculamos el punto $Q = r \cap \tau.$
+        Para ello sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
+        $$-(-\lambda) + 2 + \lambda + 2(2 + 2\lambda) = 0 \Leftrightarrow 6\lambda = -6 \Leftrightarrow \lambda = -1.$$
+
+        Por tanto, el punto de corte es $Q(1, 1, 0).$
+        <br>
+        Por último, calculamos la distancia de $P$ a $r$ como el módulo del vector $\vec{PQ} = (-1, -5, 2).$
+        $$\mathrm{dist}(P, r) = \mathrm{dist}(P, Q) = |\vec{PQ}| = \sqrt{1 + 5^2 + 2^2} = \sqrt{30} \; u.$$
+    </li>
+
+    <li>
+        El coseno del ángulo $\alpha$ que forman los planos $\pi_1$ y $\pi_2$ viene dado por
+        $$\cos(\alpha) = \frac{\vec{n}_1 \cdot \vec{n}_2}{|\vec{n}_1||\vec{n}_2|} = 0.$$
+
+        Por tanto, el ángulo que forman es de 90º.
+    </li>
+</ol>

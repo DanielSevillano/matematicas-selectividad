@@ -369,6 +369,7 @@
     },
     {
         "ejercicio": 202357,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Ángulos"
