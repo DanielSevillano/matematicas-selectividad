@@ -150,6 +150,7 @@
     },
     {
         "ejercicio": 202323,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
@@ -343,6 +344,7 @@
     },
     {
         "ejercicio": 202354,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
