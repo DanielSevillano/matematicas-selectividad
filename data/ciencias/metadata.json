@@ -128,6 +128,7 @@
     },
     {
         "ejercicio": 202318,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
@@ -184,12 +185,14 @@
     },
     {
         "ejercicio": 202327,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
     },
     {
         "ejercicio": 202328,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
@@ -377,6 +380,7 @@
     },
     {
         "ejercicio": 202358,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Volumen"

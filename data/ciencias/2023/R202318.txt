@@ -1,0 +1,45 @@
+<p>
+    En primer lugar, hallamos las ecuaciones paramétricas de la recta $r.$
+    Como su vector director es $\vec{d} = (1, 2, 2)$ y pasa por el punto $(1, 0, -1)$,
+    $$r \equiv \begin{cases}
+        x = 1 + \lambda, \\
+        y = 2\lambda, \\
+        z = -1 + 2 \lambda.
+    \end{cases}$$
+</p>
+
+<p>
+    Como $\pi'$ es un plano paralelo a $\pi$, tiene el mismo vector normal.
+    Luego su ecuación será de la forma
+    $$\pi' \equiv x + y + z + d = 0.$$
+</p>
+
+<p>
+    Hallamos los puntos de corte de la recta $r$ con los planos $\pi$ y $\pi'.$
+
+    <ul>
+        <li>
+            Para hallar el punto de intersección $Q$ de $r$ y $\pi$, sustituimos las ecuaciones de $r$ en la ecuación del plano.
+            $$1 + \lambda + 2\lambda - 1 + 2\lambda = 0 \Leftrightarrow 5\lambda = 0 \Leftrightarrow \lambda = 0 \Rightarrow Q(1, 0, -1).$$
+        </li>
+
+        <li>
+            De igual forma, para hallar el punto de intersección $Q'$ de $r$ y $\pi'$, sustituimos las ecuaciones de $r$ en la ecuación del plano.
+            $$1 + \lambda + 2\lambda - 1 + 2\lambda + d = 0 \Leftrightarrow 5\lambda = -d \Leftrightarrow \lambda = -\frac{d}{5} \Rightarrow Q'\left(1 - \frac{d}{5}, -\frac{2d}{5}, -1 - \frac{2d}{5}\right).$$
+        </li>
+    </ul>
+
+    Observamos que
+    $$\vec{QQ'} = \left(-\frac{d}{5}, -\frac{2d}{5}, -\frac{2d}{5}\right).$$
+</p>
+
+<p>
+    La distancia entre $Q$ y $Q'$ viene dada por
+    $$\mathrm{dist}(Q, Q') = |\vec{QQ'}| = \sqrt{\left(\frac{d}{5}\right)^2 + \left(\frac{2d}{5}\right)^2 + \left(\frac{2d}{5}\right)^2} = \sqrt{\frac{9d^2}{25}} = \frac{3|d|}{5}.$$
+
+    Como queremos que la distancia sea de 2 unidades,
+    $$\mathrm{dist}(Q, Q') = 2 \Leftrightarrow \frac{3|d|}{5} = 2 \Leftrightarrow |d| = \frac{10}{3} \Leftrightarrow d = \pm \frac{10}{3}.$$
+
+    Por tanto, las posibles ecuaciones del plano $\pi'$ son
+    $$\pi_1' \equiv x + y + z + \frac{10}{3} = 0 \quad \text{y} \quad \pi_2' \equiv x + y + z - \frac{10}{3} = 0.$$
+</p>

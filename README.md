@@ -40,21 +40,17 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ### Exámenes de sociales
 - [x] 2023 a 2015
 - [ ] 2014
-    - [x] Junio
-    - [x] Septiembre
+    - [x] Junio y septiembre
     - [x] Reservas 1 y 2
 
 ### Ejercicios resueltos de ciencias
 - [ ] 2023
-    - [x] Junio
-    - [ ] Julio (1, 2, 3, 4, 5, 6, 7)
-    - [ ] Reserva 1 (1, 2, 3, 4, 5, 6, 7)
-    - [ ] Reserva 2 (1, 2, 3, 4, 5, 6)
+    - [x] Junio y julio
+    - [x] Reservas 1 y 2
     - [ ] Reserva 3 (1, 3, 8)
     - [ ] Reserva 4 (1, 3, 5, 6)
 - [ ] 2022
-    - [x] Junio
-    - [x] Julio
+    - [x] Junio y julio
     - [ ] Reserva 1 (3, 5, 6)
     - [ ] Reserva 2 (1, 3, 4)
     - [ ] Reserva 3 (1, 4, 5, 6)

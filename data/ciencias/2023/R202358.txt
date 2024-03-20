@@ -1,0 +1,52 @@
+<p>
+    El plano $\pi$ determinado por los puntos $A$, $B$ y $C$ tiene como vectores directores
+    $$\vec{AB} = (3, 0, 3) \parallel (1, 0, 1) \quad y \quad \vec{AC} = (2, 1, 4).$$
+    El vector normal al plano es perpendicular a ambos, así que
+    $$\vec{n} = (1, 0, 1) \times (2, 1, 4) = \begin{vmatrix}
+        \vec{i} & \vec{j} & \vec{k} \\
+        1 & 0 & 1 \\
+        2 & 1 & 4
+    \end{vmatrix} = (-1, -2, 1).$$
+
+    Como $A$ pertenece al plano, la ecuación de $\pi$ es
+    $$\pi \equiv -x - 2(y-2) + z+2 = 0 \Leftrightarrow -x - 2y + z + 6 = 0.$$
+</p>
+
+<p>
+    Hallamos los puntos de corte de $\pi$ con los ejes de coordenadas.
+
+    <ul>
+        <li>
+            El eje $X$ tiene de ecuaciones $y = 0$ y $z = 0.$
+            Sustituyendo en la ecuación del plano,
+            $$-x + 6 = 0 \Leftrightarrow x = 6.$$
+            Por tanto, el punto de corte es $D(6, 0, 0).$
+        </li>
+
+        <li>
+            El eje $Y$ tiene de ecuaciones $x = 0$ y $z = 0.$
+            Sustituyendo en la ecuación del plano,
+            $$-2y + 6 = 0 \Leftrightarrow y = 3.$$
+            Por tanto, el punto de corte es $E(0, 3, 0).$
+        </li>
+
+        <li>
+            El eje $Z$ tiene de ecuaciones $x = 0$ e $y = 0.$
+            Sustituyendo en la ecuación del plano,
+            $$z + 6 = 0 \Leftrightarrow z = -6.$$
+            Por tanto, el punto de corte es $F(0, 0, -6).$
+        </li>
+    </ul>
+</p>
+
+<p>
+    El volumen del tetraedro delimitado por el plano $\pi$ y los planos cartesianos es un sexto del volumen del paralelepípedo formado por los vectores $\vec{OD} = (6, 0, 0)$, $\vec{OE} = (0, 3, 0)$ y $\vec{OF} = (0, 0, -6).$
+    Este viene dado por el valor absoluto del producto mixto de los tres vectores.
+    $$[\vec{OD}, \vec{OE}, \vec{OF}] = \begin{vmatrix}
+        6 & 0 & 0 \\
+        0 & 3 & 0 \\
+        0 & 0 & -6
+    \end{vmatrix} = -108 \Rightarrow V = 108 \; u^3.$$
+
+    Por tanto, el volumen del tetraedro es $\frac{1}{6} \cdot 108 = 18 \; u^3.$
+</p>

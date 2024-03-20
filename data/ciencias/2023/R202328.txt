@@ -1,0 +1,61 @@
+<ol>
+    <li>
+        Representamos el paralelogramo.
+        <img src="img/R202328.png" alt="Figura" loading="lazy">
+
+        Hallamos el punto $S$ como intersección de la recta $r$ que pasa por $P$ con vector director $\vec{QR} = (2, 4, 1)$ y la recta $s$ que pasa por $R$ con vector director $\vec{PQ} = (-1, -1, -3) || (1, 1, 3)$, de ecuaciones
+        $$r \equiv \begin{cases}
+            x = -1 + 2\lambda, \\
+            y = 2 + 4\lambda, \\
+            z = 3 + \lambda
+        \end{cases} \quad \text{y} \quad
+        s \equiv \begin{cases}
+            x = \mu, \\
+            y = 5 + \mu, \\
+            z = 1 + 3\mu.
+        \end{cases}$$
+
+        Calculamos el punto de intersección.
+        \begin{cases}
+            -1 + 2\lambda = \mu, \\
+            2 + 4\lambda = 5 + \mu, \\
+            3 + \lambda = 1 + 3\mu.
+        \end{cases}
+
+        Para obtener los valores de $\lambda$ y $\mu$, podemos plantear el sistema formado por las dos primeras ecuaciones.
+        $$\begin{cases}
+            -1 + 2\lambda = \mu, \\
+            2 + 4\lambda = 5 + \mu
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            2\lambda - \mu = 1, \\
+            4\lambda - \mu = 3.
+        \end{cases}$$
+
+        Resolvemos este sistema por reducción.
+        Si restamos las dos ecuaciones, obtenemos
+        $$-2\lambda = -2 \Leftrightarrow \lambda = 1.$$
+
+        Por tanto, $S(1, 6, 4).$
+    </li>
+
+    <li>
+        El plano determinado por los puntos $P$, $Q$ y $R$ tiene como vectores directores
+        $$\vec{PQ} = (-1, -1, -3) || (1, 1, 3) \quad \text{y} \quad \vec{PR} = (1, 3, -2).$$
+
+        El vector normal al plano es perpendicular a ambos, así que
+        $$\vec{n} = (1, 1, 3) \times (1, 3, -2) = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            1 & 1 & 3 \\
+            1 & 3 & -2
+        \end{vmatrix} = (-11, 5, 2).$$
+        
+        Si una recta $t$ es perpendicular al plano, su vector director es $\vec{n}.$
+        Si además pasa por el origen $O(0, 0, 0)$, su ecuación es
+        $$t \equiv \begin{cases}
+            x = -11\eta, \\
+            y = 5\eta, \\
+            z = 2\eta.
+        \end{cases}$$
+    </li>
+</ol>
