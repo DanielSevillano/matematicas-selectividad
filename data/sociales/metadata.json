@@ -3291,6 +3291,61 @@
         ]
     },
     {
+        "ejercicio": 201431,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201432,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201433,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201434,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201435,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201436,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201437,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201438,
+        "categorias": [
+            "Estadística",
+            "Muestreo"
+        ]
+    },
+    {
         "ejercicio": 201451,
         "categorias": [
             "Álgebra",

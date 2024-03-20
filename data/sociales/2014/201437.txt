@@ -1,0 +1,9 @@
+Se elige un número, al azar, entre el siguiente conjunto:
+$$\{225, \; 201, \; 162, \; 210, \; 180, \; 172, \; 156, \; 193, \; 218, \; 167, \; 176, \; 222, \; 215, \; 120, \; 190, \; 171\}.$$
+
+<ol>
+    <li>Calcule la probabilidad de que el número elegido sea impar.</li>
+    <li>Si el número elegido es múltiplo de 5, ¿cuál es la probabilidad de que sea mayor que 200?</li>
+    <li>Determine si son independientes los sucesos $S$: "el número elegido es mayor que 200" y $T$: "el número elegido es par".</li>
+    <li>Halle la probabilidad del suceso $S \cup T.$</li>
+</ol>

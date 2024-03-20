@@ -1,0 +1,14 @@
+El porcentaje de personas que sintonizan un programa de radio que se emite entre las 6 y las 12 horas viene dado, según la hora $t$, mediante la función
+$$S(t) = 660 - 231t + 27t^2 - t^3, \quad 6 \leq t \leq 12.$$
+
+<ol>
+    <li>
+        ¿Qué porcentaje de personas sintonizan el programa al comenzar la emisión?
+        ¿Y al cierre?
+    </li>
+
+    <li>
+        ¿A qué hora tiene máxima y mínima audiencia?
+        ¿Qué porcentaje de personas sintonizan el programa a dichas horas?
+    </li>
+</ol>

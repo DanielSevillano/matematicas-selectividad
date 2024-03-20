@@ -1,0 +1,36 @@
+<ol>
+    <li>
+        Determine los valores de $x$ e $y$ que hacen cierta la igualdad
+        $$\begin{pmatrix}
+            2 & -1 \\
+            3 & -1
+        \end{pmatrix}
+        \begin{pmatrix}
+            x \\
+            -y
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & x \\
+            y & -1
+        \end{pmatrix}
+        \begin{pmatrix}
+            3 \\
+            0
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Resuelva la ecuación matricial:
+        $$X \begin{pmatrix}
+            1 & 3 \\
+            2 & 5
+        \end{pmatrix} - 2 \begin{pmatrix}
+            0 & -1 \\
+            -1 & 0
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 2 \\
+            3 & -1
+        \end{pmatrix}.$$
+    </li>
+</ol>

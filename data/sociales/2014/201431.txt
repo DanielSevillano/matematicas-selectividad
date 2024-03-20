@@ -1,0 +1,8 @@
+<ol>
+    <li>
+        Represente gráficamente la región definida por las siguientes inecuaciones y calcule sus vértices:
+        $$x + 2y \leq 3, \quad x - y \leq 1, \quad x \geq -1, \quad y \geq 0.$$
+    </li>
+
+    <li>Calcule los valores máximo y mínimo de la función objetivo $F(x, y) = 2x + 4y$ en la región anterior y los puntos donde se alcanzan.</li>
+</ol>

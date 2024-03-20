@@ -1,0 +1,8 @@
+En un servicio técnico especializado en cámaras fotográficas, el 70% de las cámaras que se reciben son del modelo A y el resto del modelo B.
+El 95% de las cámaras del modelo A son reparadas, mientras que del modelo B solo se reparan el 80%.
+Se elige una cámara al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que no se haya podido reparar.</li>
+    <li>Si se observa que no ha sido reparada, ¿cuál es la probabilidad de que sea del modelo B?</li>
+</ol>

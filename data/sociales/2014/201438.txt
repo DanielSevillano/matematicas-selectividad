@@ -1,0 +1,23 @@
+<ol>
+    <li>
+        En un centro docente la tercera parte de los alumnos estudia el idioma A, la mitad el idioma B y el resto el idioma C (cada alumno estudia sólo uno de estos idiomas).
+
+        <ol>
+            <li>
+                Se desea seleccionar una muestra de 60 alumnos, mediante muestreo aleatorio estratificado con afijación proporcional al número de los alumnos de cada idioma.
+                ¿Cómo debería estar conformada la muestra?
+            </li>
+            
+            <li>
+                En otra muestra seleccionada por el procedimiento anterior, el número de alumnos tomados del idioma A es 14.
+                Determine cuántos se han elegido de los otros dos idiomas.
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        Una población tiene 5 elementos.
+        Mediante muestreo aleatorio simple se seleccionan muestras de tamaño 3, siendo la desviación típica de sus medias 2 y la media de las medias muestrales 7.
+        ¿Cuánto valen la media y la varianza de la población?
+    </li>
+</ol>
