@@ -1,0 +1,1 @@
+Represente gráficamente la función $f(x) = x^3 - 6x^2 + 12x$, estudiando previamente su dominio, puntos de corte con los ejes, intervalos de monotonía, extremos, intervalos de concavidad y convexidad y puntos de inflexión.

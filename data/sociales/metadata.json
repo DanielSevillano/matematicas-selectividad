@@ -3346,6 +3346,61 @@
         ]
     },
     {
+        "ejercicio": 201441,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201442,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201443,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201444,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201445,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales",
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201446,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 201447,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201448,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
         "ejercicio": 201451,
         "categorias": [
             "Álgebra",

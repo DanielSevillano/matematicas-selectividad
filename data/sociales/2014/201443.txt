@@ -1,0 +1,7 @@
+En un Instituto de Educación Secundaria el 40% de los alumnos juegan al fútbol, el 30% juegan al baloncesto y el 20% practican ambos deportes.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que un alumno, elegido al azar, no practique ninguno de los dos deportes?</li>
+    <li>Si un alumno, elegido al azar, juega al fútbol, ¿cuál es la probabilidad de que no juegue al baloncesto?</li>
+    <li>¿Son independientes los sucesos "jugar al fútbol" y "jugar al baloncesto"?</li>
+</ol>

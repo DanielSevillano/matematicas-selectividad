@@ -38,10 +38,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [x] 2023 a 2012
 
 ### Exámenes de sociales
-- [x] 2023 a 2015
-- [ ] 2014
-    - [x] Junio y septiembre
-    - [x] Reservas 1 a 3
+- [x] 2023 a 2014
 
 ### Ejercicios resueltos de ciencias
 - [ ] 2023

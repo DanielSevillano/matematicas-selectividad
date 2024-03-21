@@ -1,0 +1,8 @@
+El 25% de los estudiantes de una Universidad lee las noticias en prensa escrita en papel, el 70% en prensa digital y el 10% en ambos formatos.
+Se elige, al azar, un estudiante de esa Universidad.
+
+<ol>
+    <li>Calcule la probabilidad de que lea las noticias en formato papel o digital.</li>
+    <li>Sabiendo que lee las noticias en prensa digital, calcule la probabilidad de que también las lea en prensa escrita en papel.</li>
+    <li>¿Cuál es la probabilidad de que lea las noticias exclusivamente en uno de los dos formatos?</li>
+</ol>

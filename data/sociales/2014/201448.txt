@@ -1,0 +1,10 @@
+Para estimar la proporción de habitantes que es favorable a la construcción de un centro comercial en un municipio, se ha obtenido el intervalo de confianza $(0,31; \; 0,39)$ al 94%.
+
+<ol>
+    <li>¿Cuál ha sido el valor de la proporción muestral?</li>
+    <li>Si la muestra aleatoria elegida de esa población para el estudio fue de 500 personas, ¿cuántas de ellas deseaban la construcción del centro comercial?</li>
+    <li>
+        Se desea repetir el estudio para obtener un intervalo de confianza con un error máximo de 0,03 y el mismo nivel de confianza.
+        ¿Cuántas personas, como mínimo, debe tener la nueva muestra aleatoria?
+    </li>
+</ol>

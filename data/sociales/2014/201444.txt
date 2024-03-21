@@ -1,0 +1,7 @@
+Los responsables de tráfico de una ciudad trabajan con la hipótesis de que, al menos, el 65% de sus habitantes son favorables a la creación de una red de carril-bici en esa ciudad.
+Encuestados 950 habitantes, elegidos al azar, 590 están a favor de tal medida.
+
+<ol>
+    <li>Mediante un contraste de hipótesis, $(H_0: p \geq 0,65)$, con un nivel de significación del 10%, ¿se puede decir que tienen razón los responsables de tráfico de esa ciudad?</li>
+    <li>¿Se concluiría lo mismo si el nivel de significación fuera del 1%?</li>
+</ol>

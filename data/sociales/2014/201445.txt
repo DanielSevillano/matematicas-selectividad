@@ -1,0 +1,19 @@
+<ol>
+    <li>
+        Resuelva la ecuación matricial $AX = 2(C - D^t)$, siendo
+        $$A = \begin{pmatrix}
+            0 & 1 \\
+            2 & 0
+        \end{pmatrix}, \quad
+        C = \begin{pmatrix}
+            0 & 2 \\
+            -1 & 2
+        \end{pmatrix} \quad \text{y} \quad
+        D = \begin{pmatrix}
+            1 & -1 \\
+            2 & -1
+        \end{pmatrix}.$$
+    </li>
+
+    <li>Si $A(0, 2)$, $B(2, 0)$, $C(4, 0)$, $D(6, 3)$ y $E(3,6)$ son los vértices de una región factible, determine, en esa región, el valor mínimo y el valor máximo de la función $F(x, y) = 4x - 3y + 8$ e indique los puntos donde se alcanzan.</li>
+</ol>

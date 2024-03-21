@@ -1,0 +1,21 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    2 & 1 \\
+    3 & -2
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    3 & -2 \\
+    1 & 4
+\end{pmatrix}.$$
+
+<ol>
+    <li>Efectúe la operación $AB^t.$</li>
+    <li>Determine la matriz $X$ tal que $A + 2X = B.$</li>
+    <li>
+        Calcule la matriz $Y$ sabiendo que
+        $$BY = \begin{pmatrix}
+            6 \\
+            9
+        \end{pmatrix}.$$
+    </li>
+</ol>
