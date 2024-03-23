@@ -1,0 +1,94 @@
+<ol>
+    <li>
+        Calculamos en primer lugar el determinante de la matriz $A.$
+        \begin{align}
+            & |A| = \begin{vmatrix}
+                m+1 & 1 & m-1 \\
+                1 & 1 & 1 \\
+                m-1 & 1 & m+1
+            \end{vmatrix} = (m+1)^2 + 2(m-1) - (m-1)^2 - 2(m+1) = \\
+            & = m^2 + 2m + 1 + 2m - 2 - m^2 + 2m - 1 - 2m - 2 = 4m - 4.
+        \end{align}
+
+        La inversa de la matriz $A$ existe si y solo si su determinante es no nulo.
+        $$|A| = 0 \Leftrightarrow 4m - 4 = 0 \Leftrightarrow m = 1.$$
+
+        Por tanto, la matriz $A$ tiene inversa si y solo si $m \neq 1.$
+    </li>
+
+    <li>
+        Si $m = 0$, por el apartado anterior la matriz $A$ es invertible y $\det(A) = -4.$
+        Resolvemos la ecuación matricial.
+        $$\frac{1}{2}AX + C^4 = B \Leftrightarrow \frac{1}{2}AX = B - C^4 \Leftrightarrow X = 2A^{-1}(B - C^4).$$
+
+        Para hallar la inversa de la matriz $A$, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A) = \begin{pmatrix}
+            0 & -2 & 2 \\
+            -2 & 0 & -2 \\
+            2 & -2 & 0
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular su inversa como
+        $$A^{-1} = \frac{1}{|A|} \mathrm{Adj}(A)^t = -\frac{1}{4} \begin{pmatrix}
+            0 & -2 & 2 \\
+            -2 & 0 & -2 \\
+            2 & -2 & 0
+        \end{pmatrix} = \frac{1}{2} \begin{pmatrix}
+            0 & 1 & -1 \\
+            1 & 0 & 1 \\
+            -1 & 1 & 0
+        \end{pmatrix}.$$
+
+        Por otro lado,
+        $$C^2 = \begin{pmatrix}
+            0 & 0 & 1 \\
+            0 & 1 & 0 \\
+            1 & 0 & 0
+        \end{pmatrix}
+        \begin{pmatrix}
+            0 & 0 & 1 \\
+            0 & 1 & 0 \\
+            1 & 0 & 0
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix} = I \Rightarrow C^4 = I.$$
+
+        Por último, calculamos la matriz $X$ operando.
+        \begin{align}
+        & X = 2A^{-1}(B - C^4) = \begin{pmatrix}
+                0 & 1 & -1 \\
+                1 & 0 & 1 \\
+                -1 & 1 & 0
+            \end{pmatrix} \left[
+                \begin{pmatrix}
+                    0 & 4 & 2 \\
+                    0 & 0 & 4 \\
+                    2 & 2 & 1
+                \end{pmatrix} -
+                \begin{pmatrix}
+                    1 & 0 & 0 \\
+                    0 & 1 & 0 \\
+                    0 & 0 & 1
+                \end{pmatrix}
+            \right] = \\
+            & = \begin{pmatrix}
+                0 & 1 & -1 \\
+                1 & 0 & 1 \\
+                -1 & 1 & 0
+            \end{pmatrix}
+            \begin{pmatrix}
+                -1 & 4 & 2 \\
+                0 & -1 & 4 \\
+                2 & 2 & 0
+            \end{pmatrix} =
+            \begin{pmatrix}
+                -2 & -3 & 4 \\
+                1 & 6 & 2 \\
+                1 & -5 & 2
+            \end{pmatrix}.
+        \end{align}
+    </li>
+</ol>

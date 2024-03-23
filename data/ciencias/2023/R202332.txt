@@ -1,0 +1,66 @@
+<ol>
+    <li>
+        En primer lugar, expresamos la función $f$ como función a trozos.
+        $$f(x) = \begin{cases}
+            -\dfrac{1}{x^2}, & \text{si } x < 0, \\
+            \dfrac{1}{x^2}, & \text{si } x > 0.
+        \end{cases}$$
+
+        Si $x \neq 0$, $f$ es derivable con
+        $$f'(x) = \begin{cases}
+            \dfrac{2}{x^3}, & \text{si } x < 0, \\
+            -\dfrac{2}{x^3}, & \text{si } x > 0
+        \end{cases} \quad \text{y} \quad
+        f''(x) = \begin{cases}
+            -\dfrac{6}{x^4}, & \text{si } x < 0, \\
+            \dfrac{6}{x^4}, & \text{si } x > 0.
+        \end{cases}$$
+
+        Observamos que $f$ no tiene puntos de inflexión, porque $f''(x) \neq 0$ para $x \neq 0.$
+        Estudiamos el signo de $f''$, considerando $x = 0$ por ser el punto de ruptura.
+
+        <ul>
+            <li>
+                Si $x < 0$, $f''(x) < 0.$
+                Así que $f$ es cóncava.
+            </li>
+
+            <li>
+                Si $x > 0$, $f''(x) > 0.$
+                Así que $f$ es convexa.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es convexa en $(0, +\infty)$ y es cóncava en $(-\infty, 0).$
+    </li>
+
+    <li>
+        Estudiamos las asíntotas.
+
+        <ul>
+            <li>
+                El denominador se anula en $x = 0.$
+                Observamos que
+                \begin{align}
+                    & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} -\frac{1}{x^2} = -\infty, \\
+                    & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \frac{1}{x^2} = +\infty.
+                \end{align}
+
+                Por tanto, la recta $x = 0$ es una asíntota vertical.
+            </li>
+
+            <li>
+                Veamos si tiene alguna asíntota horizontal.
+                \begin{align}
+                    & \lim_{x \to -\infty} f(x) = \lim_{x \to -\infty} -\frac{1}{x^2} = 0, \\
+                    & \lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{1}{x^2} = 0.
+                \end{align}
+
+                Por tanto, la recya $y = 0$ es una asíntota horizontal y $f$ no tiene ninguna asíntota oblicua.
+            </li>
+        </ul>
+
+        Representamos gráficamente la función usando la información obtenida.
+        <img class="figura" src="img/R202332.png" alt="Figura" loading="lazy">
+    </li>
+</ol>

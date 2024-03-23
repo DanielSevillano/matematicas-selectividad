@@ -207,6 +207,7 @@
     },
     {
         "ejercicio": 202332,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Asíntotas",
@@ -223,6 +224,7 @@
     },
     {
         "ejercicio": 202334,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
@@ -231,6 +233,7 @@
     },
     {
         "ejercicio": 202335,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
