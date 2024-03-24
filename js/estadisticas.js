@@ -45,6 +45,9 @@ async function crearGrafica(url, id) {
 async function obtenerDatos() {
     const seccionCiencias = document.querySelector("#estadisticas-ciencias");
     const seccionSociales = document.querySelector("#estadisticas-sociales");
+    const seccionGlobal = document.querySelector("#estadisticas-globales");
+
+    //Estadísticas de ciencias
 
     const respuestaCiencias = await fetch("data\\ciencias\\metadata.json");
     const datosCiencias = await respuestaCiencias.json();
@@ -82,6 +85,8 @@ async function obtenerDatos() {
     seccionCiencias.append(tarjetaExamenesCiencias, tarjetaEjerciciosCiencias, tarjetaEjerciciosResueltosCiencias, tarjetaPorcentajeResueltosCiencias, tarjetaPorcentajeResueltosCiencias2019, tarjetaPorcentajeResueltosCiencias2023);
     seccionCiencias.classList.remove("cargando");
 
+    // Estadísticas de sociales
+
     const respuestaSociales = await fetch("data\\sociales\\metadata.json");
     const datosSociales = await respuestaSociales.json();
 
@@ -107,6 +112,31 @@ async function obtenerDatos() {
 
     seccionSociales.append(tarjetaExamenesSociales, tarjetaEjerciciosSociales, tarjetaEjerciciosResueltosSociales, tarjetaPorcentajeResueltosSociales);
     seccionSociales.classList.remove("cargando");
+
+    // Estadísticas globales
+
+    const numeroEjercicios = numeroEjerciciosCiencias + numeroEjerciciosSociales;
+
+    const tarjetaEjercicios = document.createElement("div");
+    tarjetaEjercicios.classList.add("tarjeta");
+    tarjetaEjercicios.textContent = numeroEjercicios + " ejercicios";
+
+    const tarjetaExamenes = document.createElement("div");
+    tarjetaExamenes.classList.add("tarjeta");
+    tarjetaExamenes.textContent = (numeroEjercicios / 8) + " examenes";
+
+    const numeroEjerciciosResueltos = numeroEjerciciosResueltosCiencias + numeroEjerciciosResueltosSociales;
+
+    const tarjetaEjerciciosResueltos = document.createElement("div");
+    tarjetaEjerciciosResueltos.classList.add("tarjeta");
+    tarjetaEjerciciosResueltos.textContent = numeroEjerciciosResueltos + " ejercicios resueltos";
+
+    const tarjetaPorcentajeResueltos = document.createElement("div");
+    tarjetaPorcentajeResueltos.classList.add("tarjeta");
+    tarjetaPorcentajeResueltos.textContent = (numeroEjerciciosResueltos / numeroEjercicios * 100).toFixed(2).replace(".", ",") + "% resuelto";
+
+    seccionGlobal.append(tarjetaExamenes, tarjetaEjercicios, tarjetaEjerciciosResueltos, tarjetaPorcentajeResueltos);
+    seccionGlobal.classList.remove("cargando");
 }
 
 const datosGraficas = [
