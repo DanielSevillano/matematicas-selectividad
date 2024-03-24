@@ -1,0 +1,43 @@
+<p>
+    Las dimensiones de un cilindro vienen dadas por el radio de su base y la altura.
+    Llamamos $r$ y $h$ al radio y la altura en centímetros de la lata, respectivamente.
+    Como $r$ y $h$ son distancias, $r, h \geq 0.$
+</p>
+
+<p>
+    Como las latas tienen una capacidad de 20 litros, es decir, 20.000 cm<sup>3</sup>, entonces
+    $$\pi r^2 h = 20.000 \Leftrightarrow h = \frac{20.000}{\pi r^2}.$$
+
+    Así que la función a minimizar es
+    $$S(r) = 2\pi r^2 + 2\pi rh = 2\pi r^2 + 2\pi \frac{20.000r}{\pi r^2} = 2\pi r^2 + \frac{40.000}{r}.$$
+</p>
+
+<p>
+    En primer lugar, calculamos la derivada de la función $S.$
+    $$S'(r) = 4\pi r - \frac{40.000}{r^2}.$$
+
+    Hallamos los puntos críticos de $S$ igualando su derivada a cero.
+    $$S'(r) = 0 \Leftrightarrow 4\pi r - \frac{40.000}{r^2} = 0 \Leftrightarrow 4\pi r = \frac{40.000}{r^2} \Leftrightarrow r^3 = \frac{10.000}{\pi} \Leftrightarrow r = \sqrt[3]{\frac{10.000}{\pi}} \approx 14,71.$$
+
+    Comprobamos que en el punto de abscisa $r = \sqrt[3]{\frac{10.000}{\pi}}$ se alcanza el mínimo de la función.
+    
+    <ul>
+        <li>
+            Si $r < \sqrt[3]{\frac{10.000}{\pi}}$, $S'(r) < 0.$
+            Así que $S$ es decreciente.
+        </li>
+
+        <li>
+            Si $r > \sqrt[3]{\frac{10.000}{\pi}}$, $S'(r) > 0.$
+            Así que $S$ es creciente.
+        </li>
+    </ul>
+
+    Luego $S$ tiene un mínimo en $r = \sqrt[3]{\frac{10.000}{\pi}}.$
+    Por tanto,
+    $$h = \frac{20.000}{\pi r^2} = \frac{20.000}{\pi} \left(\frac{\pi}{10.000}\right)^{2/3} \approx 29,42.$$
+</p>
+
+<p>
+    Así que las latas deben tener un radio de 14,71 cm y una altura de 29,42 cm.
+</p>

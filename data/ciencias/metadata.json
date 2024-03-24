@@ -273,6 +273,7 @@
     },
     {
         "ejercicio": 202342,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Optimización"
@@ -288,6 +289,7 @@
     },
     {
         "ejercicio": 202344,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",

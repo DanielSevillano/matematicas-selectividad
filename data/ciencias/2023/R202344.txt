@@ -1,0 +1,9 @@
+<p>
+    Podemos representar el recinto limitado por la gráfica de $f$, la recta $x = e-1$ y el eje de abscisas.
+    <img class="figura" src="img/R202344.png" alt="Figura" loading="lazy">
+</p>
+
+<p>
+    Calculamos el área.
+    $$\int_0^{e-1} f(x)dx = \int_0^{e-1} \ln(x+1)dx = \Big[(x+1)\ln(x+1) - (x+1)\Big]_0^{e-1} = e - e - (-1) = 1 \; u^2.$$
+</p>
