@@ -241,6 +241,7 @@
     },
     {
         "ejercicio": 202336,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas"

@@ -1,0 +1,155 @@
+<ol>
+    <li>
+        En primer lugar, escribimos la expresión $BA = C$ en forma de sistema.
+        $$BA = C \Leftrightarrow
+        \begin{pmatrix}
+            \alpha & 1 & 1
+        \end{pmatrix}
+        \begin{pmatrix}
+            x & y & z \\
+            y & x & x \\
+            z & z & y
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 1 & 1
+        \end{pmatrix} \Leftrightarrow
+        \begin{cases}
+            \alpha x + y + z = 1, \\
+            \alpha y + x + z = 1, \\
+            \alpha z + x + y = 1
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            \alpha x + y + z = 1, \\
+            x + \alpha y + z = 1, \\
+            x + y + \alpha z = 1.
+        \end{cases}$$
+
+        Luego la matriz de coeficientes del sistema es
+        $$D = \begin{pmatrix}
+            \alpha & 1 & 1 \\
+            1 & \alpha & 1 \\
+            1 & 1 & \alpha
+        \end{pmatrix}.$$
+
+        Para determinar el rango de $A$ en función del valor de $\alpha$, estudiamos su determinante.
+        $$|D| = \begin{vmatrix}
+            \alpha & 1 & 1 \\
+            1 & \alpha & 1 \\
+            1 & 1 & \alpha
+        \end{vmatrix} = \alpha^3 + 2 - 3\alpha = \alpha^3 - 3\alpha + 2.$$
+
+        Observamos que
+        $$|D| = 0 \Leftrightarrow \alpha^3 - 3\alpha + 2 = 0 \Leftrightarrow \begin{cases}
+            \alpha = -2, \\
+            \alpha = 1.
+        \end{cases}$$
+
+        Es decir, $\mathrm{rang}(D) = 3$ si y solo si $\alpha \neq -2$ y $\alpha \neq 1.$
+        En otro caso, $\mathrm{rang}(D) \leq 2.$
+
+        <ul>
+            <li>
+                Si $\alpha = -2$,
+                $$D = \begin{pmatrix}
+                    -2 & 1 & 1 \\
+                    1 & -2 & 1 \\
+                    1 & 1 & -2
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    1 & -2 \\
+                    1 & 1
+                \end{vmatrix} = 3 \neq 0 \Rightarrow \mathrm{rang}(D) = 2.$$
+            </li>
+
+            <li>
+                Si $\alpha = 1$,
+                $$D = \begin{pmatrix}
+                    1 & 1 & 1 \\
+                    1 & 1 & 1 \\
+                    1 & 1 & 1
+                \end{pmatrix} \Rightarrow \mathrm{rang}(D) = 1.$$
+            </li>
+        </ul>
+        
+        Por tanto,
+
+        <ul>
+            <li>
+                Si $\alpha \neq -2$ y $\alpha \neq 1$, el rango de la matriz de coeficientes es máximo.
+                Por el teorema de Rouché-Frobenius, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $\alpha = -2$, la matriz de coeficientes ampliada es
+                $$(D|E) = \begin{pmatrix}
+                    -2 & 1 & 1 & 1 \\
+                    1 & -2 & 1 & 1 \\
+                    1 & 1 & -2 & 1
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    -2 & 1 & 1 \\
+                    1 & -2 & 1 \\
+                    1 & 1 & 1
+                \end{vmatrix} = 9 \neq 0 \Rightarrow \mathrm{rang}(D|E) = 3.$$
+
+                Como los rangos no coinciden, el sistema es incompatible.
+            </li>
+
+            <li>
+                Si $\alpha = 1$, la matriz de coeficientes ampliada es
+                $$(D|E) = \begin{pmatrix}
+                    1 & 1 & 1 & 1 \\
+                    1 & 1 & 1 & 1 \\
+                    1 & 1 & 1 & 1
+                \end{pmatrix} \Rightarrow \mathrm{rang}(D|E) = 1.$$
+
+                Como $\mathrm{rang}(D) = \mathrm{rang}(D|E) < 3$, el sistema es compatible indeterminado.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                Si $\alpha = 0$, el sistema es compatible determinado por el apartado anterior y tiene la forma
+                \begin{cases}
+                    y + z = 1, \\
+                    x + z = 1, \\
+                    x + y = 1.
+                \end{cases}
+
+                Resolvemos el sistema mediante reducción.
+                Si restamos las dos primeras ecuaciones, obtenemos que
+                $$y - x = 0 \Leftrightarrow x = y.$$
+
+                Sustituyendo en la última ecuación,
+                $$x + y = 1 \xrightarrow{x = y} 2x = 1 \Leftrightarrow x = \frac{1}{2} \Rightarrow y = \frac{1}{2}.$$
+
+                Por último, sustituyendo en la primera ecuación,
+                $$y + z = 1 \Leftrightarrow z = 1 - y \xrightarrow{y = 1/2} z = 1 - \frac{1}{2} = \frac{1}{2}.$$
+
+                Por tanto, la solución es
+                $$x = y = z = \frac{1}{2}.$$
+            </li>
+
+            <li>
+                Si $\alpha = 1$, el sistema es compatible indeterminado por el apartado anterior y tiene rango 1, así que se puede reducir a
+                $$x + y + z = 1.$$
+
+                Si tomamos $y = \lambda$ y $z = \mu$, entonces
+                $$x + y + z = 1 \Leftrightarrow x = 1 - y - z \xrightarrow[z = \mu]{y = \lambda} x = 1 - \lambda - \mu.$$
+
+                Por tanto, las soluciones del sistema son de la forma
+                $$\begin{cases}
+                    x = 1 - \lambda - \mu, \\
+                    y = \lambda, \\
+                    z = \mu,
+                \end{cases} \quad \lambda, \mu \in \mathbb{R}.$$
+            </li>
+        </ul>
+    </li>
+</ol>
