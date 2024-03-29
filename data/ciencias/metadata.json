@@ -249,6 +249,7 @@
     },
     {
         "ejercicio": 202337,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Punto simétrico"

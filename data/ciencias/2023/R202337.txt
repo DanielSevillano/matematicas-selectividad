@@ -1,0 +1,43 @@
+<p>
+    En primer lugar, el plano $\pi$ determinado por los puntos $B$, $C$ y $D$ tiene como vectores directores
+    $$\vec{BC} = \left(-1, -\frac{2}{3}, -1\right) \parallel (3, 2, 3) \quad \text{y} \quad \vec{BD} = (-4, -1, 1).$$
+
+    El vector normal al plano es perpendicular a ambos, así que
+    $$\vec{n} = (3, 2, 3) \times (-4, -1, 1) = \begin{vmatrix}
+        \vec{i} & \vec{j} & \vec{k} \\
+        3 & 2 & 3 \\
+        -4 & -1 & 1
+    \end{vmatrix} = (5, -15, 5) \parallel (1, -3, 1).$$
+
+    Como $B$ pertenece al plano, la ecuación de $\pi$ es
+    $$\pi \equiv x-1 - 3(y-1) + z-2 = 0 \Leftrightarrow x - 3y + z = 0.$$
+</p>
+
+<p>
+    Para hallar el punto simétrico $A'$ de $A$ con respecto a $\pi$, trazamos una recta $r$ perpendicular al plano que pase por el punto $A.$
+    Al ser perpendicular a $\pi$, su vector director es $\vec{d} = \vec{n} = (1, -3, 1).$
+    Así que la ecuación de la recta $r$ es
+    $$r \equiv \begin{cases}
+        x = 2 + \lambda, \\
+        y = -4 - 3\lambda, \\
+        z = -3 + \lambda.
+    \end{cases}$$
+
+    A continuación, hallamos el punto de intersección $M$ de la recta y el plano.
+    Para ello sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
+    $$2 + \lambda - 3(-4 - 3\lambda) - 3 + \lambda = 0 \Leftrightarrow 11\lambda + 11 = 0 \Leftrightarrow \lambda = -1.$$
+
+    Por tanto, el punto de corte es $M(1, -1, -4).$
+</p>
+
+<p>
+    Como $M$ es el punto medio de $A$ y $A'$, podemos hallar $A'$ como el simétrico de $A$ respecto de $M.$
+    Si llamamos $A'(a, b, c)$, tiene que verificarse
+    \begin{cases}
+        \dfrac{2+a}{2} = 1 \Leftrightarrow 2+a = 2 \Leftrightarrow a = 0, \\
+        \dfrac{-4+b}{2} = -1 \Leftrightarrow -4+b = -2 \Leftrightarrow b = 2, \\
+        \dfrac{-3+c}{2} = -4 \Leftrightarrow -3+c = -8 \Leftrightarrow c = -5.
+    \end{cases}
+
+    Por tanto, el punto simétrico de $A$ con respecto al plano $\pi$ es $A'(0, 2, -5).$
+</p>
