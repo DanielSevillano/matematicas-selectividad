@@ -1,41 +1,42 @@
 <ol>
-    <li>En primer lugar hallamos las ecuaciones paramétricas de la recta $r.$
-    Como su vector director es $\vec{d}_r = (1, 3, 1)$ y pasa por el punto $(0, 0, 1)$,
-    $$r \equiv \begin{cases}
-        x = \lambda, \\
-        y = 3\lambda, \\
-        z = 1 + \lambda.
-    \end{cases}$$
+    <li>
+        En primer lugar hallamos las ecuaciones paramétricas de la recta $r.$
+        Como su vector director es $\vec{d}_r = (1, 3, 1)$ y pasa por el punto $(0, 0, 1)$,
+        $$r \equiv \begin{cases}
+            x = \lambda, \\
+            y = 3\lambda, \\
+            z = 1 + \lambda.
+        \end{cases}$$
 
-    Para hallar el punto de intersección de $r$ y $\pi$, sustituimos las ecuaciones de $r$ en la ecuación del plano.
-    $$\lambda + 3\lambda - (1 + \lambda) = 2 \Leftrightarrow 3\lambda = 3 \Leftrightarrow \lambda = 1.$$
-    
-    Por tanto, el punto de intersección es $(1, 3, 2).$</li>
+        Para hallar el punto de intersección de $r$ y $\pi$, sustituimos las ecuaciones de $r$ en la ecuación del plano.
+        $$\lambda + 3\lambda - (1 + \lambda) = 2 \Leftrightarrow 3\lambda = 3 \Leftrightarrow \lambda = 1.$$
+        
+        Por tanto, el punto de intersección es $(1, 3, 2).$
+    </li>
 
-    <li>Para hallar el punto simétrico $Q'$ de $Q$ con respecto de $\pi$ podemos trazar una recta $s$ perpendicular al plano que pase por el punto $Q.$
-    Esta recta cortará a $\pi$ en un punto $M$, que será el punto medio de $Q$ y $Q'.$
+    <li>
+        Para hallar el punto simétrico $Q'$ de $Q$ con respecto a $\pi$ trazamos una recta $s$ perpendicular al plano que pase por el punto $Q.$
+        Al ser perpendicular a $\pi$, su vector director es $\vec{d}_s = \vec{n}_\pi = (1, 1, -1).$
+        Así que la ecuación de la recta $s$ es
+        $$s \equiv \begin{cases}
+            x = 2 + \mu, \\
+            y = 6 + \mu, \\
+            z = 3 - \mu.
+        \end{cases}$$
 
-    Si $s$ es perpendicular a $\pi$, su vector director es $\vec{d}_s = \vec{n}_\pi = (1, 1, -1).$
-    Así que la ecuación de la recta $s$ es
-    $$s \equiv \begin{cases}
-        x = 2 + \mu, \\
-        y = 6 + \mu, \\
-        z = 3 - \mu.
-    \end{cases}$$
+        A continuación, hallamos el punto de intersección $M$ de la recta $s$ y el plano.
+        Para ello sustituimos las ecuaciones paramétricas de $s$ en la ecuación del plano.
+        $$2 + \mu + 6 + \mu - (3 - \mu) = 2 \Leftrightarrow 3\mu + 5 = 2 \Leftrightarrow \mu = -1.$$
+        Por tanto, el punto de corte es $M(1, 5, 4).$
 
-    Calculamos el punto $M = s \cap \pi.$
-    Para ello sustituimos las ecuaciones paramétricas de $s$ en la ecuación del plano.
-    $$2 + \mu + 6 + \mu - (3 - \mu) = 2 \Leftrightarrow \mu = -1.$$
-    Por tanto, el punto de corte es $M(1, 5, 4).$
+        Como $M$ es el punto medio de $Q$ y $Q'$, podemos hallar $Q'$ como el simétrico de $Q$ respecto de $M.$
+        Si llamamos $Q' = (a, b, c)$, tiene que verificarse
+        \begin{cases}
+            \dfrac{2 + a}{2} = 1 \Leftrightarrow 2 + a = 2 \Leftrightarrow a = 0, \\
+            \dfrac{6 + b}{2} = 5 \Leftrightarrow 6 + b = 10 \Leftrightarrow b = 4, \\
+            \dfrac{3 + c}{2} = 4 \Leftrightarrow 3 + c = 8 \Leftrightarrow c = 5.
+        \end{cases}
 
-    Llamamos $Q' = (a, b, c).$
-    Como $M$ es el punto medio de $Q$ y $Q'$, entonces:
-    \begin{cases}
-        \dfrac{2 + a}{2} = 1, \\
-        \dfrac{6 + b}{2} = 5, \\
-        \dfrac{3 + c}{2} = 4.
-    \end{cases}
-
-    Resolviendo el sistema, $a = 0$, $b = 4$ y $c = 5.$
-    Luego el simétrico de $Q$ con respecto al plano $\pi$ es $Q'(0, 4, 5).$</li>
+        Por tanto, el punto simétrico de $Q$ con respecto al plano $\pi$ es $Q'(0, 4, 5).$
+    </li>
 </ol>
