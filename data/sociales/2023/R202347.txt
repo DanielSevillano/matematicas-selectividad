@@ -29,7 +29,7 @@
     <li>
         La distribución del diámetro medio muestral $\overline{X}$ sigue una normal $N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)$ con $\mu = 80,4$, $\sigma = \sqrt{9} = 3$ y $n = 64.$
         Es decir,
-        $$N \sim N\left(80,4; \; \frac{3}{\sqrt{64}}\right) = N(80,4; \; 0,375).$$
+        $$\overline{X} \sim N\left(80,4; \; \frac{3}{\sqrt{64}}\right) = N(80,4; \; 0,375).$$
 
         Calculamos la probabilidad.
         \begin{align}
