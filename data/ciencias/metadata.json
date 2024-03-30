@@ -317,6 +317,7 @@
     },
     {
         "ejercicio": 202347,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
