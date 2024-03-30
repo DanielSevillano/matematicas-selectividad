@@ -323,6 +323,7 @@
     },
     {
         "ejercicio": 202348,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
