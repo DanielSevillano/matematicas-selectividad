@@ -145,35 +145,6 @@
     </li>
 </ul>
 
-<p>Hay dos matrices cuadradas que destacan por su contenido.</p>
-<ul>
-    <li>La <b>matriz identidad</b> es una matriz cuyos elementos de la diagonal principal son todos 1.
-        Por ejemplo:
-        $$I_2 = \begin{pmatrix}
-            1 & 0 \\
-            0 & 1
-        \end{pmatrix} \quad \text{y} \quad
-        I_3 = \begin{pmatrix}
-            1 & 0 & 0 \\
-            0 & 1 & 0 \\
-            0 & 0 & 1
-        \end{pmatrix}.$$
-
-        En general, si es de orden $n$ se suele denotar por $I_n.$
-        Si no hay confusión con el orden, se suele escribir simplemente como $I.$
-    </li>
-
-    <li>
-        La <b>matriz nula</b> es una matriz cuyos elementos son todos nulos.
-        Por ejemplo:
-        $$\begin{pmatrix}
-            0 & 0 & 0 \\
-            0 & 0 & 0 \\
-            0 & 0 & 0
-        \end{pmatrix}.$$
-    </li>
-</ul>
-
 <p>
     Además, una matriz cuadrada es simétrica si es igual a su traspuesta.
     Por ejemplo:
@@ -215,6 +186,42 @@
             7 & 2 & 0 \\
             3 & 10 & 0 \\
             2 & 2 & 3
+        \end{pmatrix}.$$
+
+        El elemento neutro de la suma es la matriz nula, una matriz cuyos elementos son todos 0.
+        Por ejemplo:
+        $$\begin{pmatrix}
+            0 & 0 & 0 \\
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{pmatrix} \quad \text{y} \quad
+        \begin{pmatrix}
+            0 \\
+            0 \\
+            0
+        \end{pmatrix}.$$
+
+        Si $A$ es una matriz, se verifica que $A + 0 = 0 + A = A.$
+        Por ejemplo:
+        $$\begin{pmatrix}
+            2 & 3 & 4 \\
+            -1 & 0 & 1
+        \end{pmatrix} +
+        \begin{pmatrix}
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{pmatrix} =
+        \begin{pmatrix}
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{pmatrix} +
+        \begin{pmatrix}
+            2 & 3 & 4 \\
+            -1 & 0 & 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            2 & 3 & 4 \\
+            -1 & 0 & 1
         \end{pmatrix}.$$
     </li>
 
@@ -302,6 +309,48 @@
                 10 & 0
             \end{pmatrix}.
         \end{align}
+
+        El elemento neutro de la multiplicación es la matriz identidad, una matriz cuadrada cuyos elementos de la diagonal principal son todos 1 y el resto 0.
+        En general, si es de orden $n$ se suele denotar por $I_n.$
+        Si no hay confusión con el orden, se suele escribir simplemente como $I.$
+        Por ejemplo:
+        $$I_2 = \begin{pmatrix}
+            1 & 0 \\
+            0 & 1
+        \end{pmatrix} \quad \text{y} \quad
+        I_3 = \begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}.$$
+
+        Si $A$ es una matriz cuadrada, se verifica que $AI = IA = A.$
+        Por ejemplo:
+        $$\begin{pmatrix}
+            1 & 0 & -4 \\
+            2 & 6 & -1 \\
+            0 & 3 & 7
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & 0 & -4 \\
+            2 & 6 & -1 \\
+            0 & 3 & 7
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 0 & -4 \\
+            2 & 6 & -1 \\
+            0 & 3 & 7
+        \end{pmatrix}.$$
     </li>
 </ul>
 
@@ -652,10 +701,22 @@
         & XA = B \Leftrightarrow XAA^{-1} = BA^{-1} \Leftrightarrow X = BA^{-1}.
         \end{align}
     </li>
+
+    <li>
+        Se puede sacar una matriz de factor común prestando atención al lado por el que multiplica.
+        Por ejemplo:
+        \begin{align}
+            & AX + BX = C \Leftrightarrow (A + B)X = C, \\
+            & XA + 2X  = B \Leftrightarrow X(A + 2I) = B.
+        \end{align}
+    </li>
 </ul>
 
 <p>
     Todas estas herramientas se aplican de forma conjunta.
     Por ejemplo:
-    $$A^2 - XA = I \Leftrightarrow XA = A^2 - I \Leftrightarrow XAA^{-1} = (A^2 - I)A^{-1} \Leftrightarrow X = A - A^{-1}.$$
+    \begin{align}
+        & XA + 3X - A^2 = I \Leftrightarrow X(A + 3I) = I + A^2 \Leftrightarrow X(A + 3I)(A + 3I)^{-1} = (I + A^2)(A + 3I)^{-1} \Leftrightarrow \\
+        & \Leftrightarrow X = (I + A^2)(A + 3I)^{-1}.
+    \end{align}
 </p>
