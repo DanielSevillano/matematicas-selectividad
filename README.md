@@ -64,8 +64,10 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Junio (A1, A2, A3, B1, B4)
     - [ ] Septiembre (A4, B3, B4)
     - [ ] Reserva 1 (A1)
-    - [ ] Reserva 2 (A3, B1)
+    - [ ] Reserva 2 (A3, B1, B3)
     - [ ] Reserva 3 (B2)
 
 ### Ejercicios resueltos de sociales
 - [x] 2023
+- [ ] 2022
+    - [ ] Junio (2)

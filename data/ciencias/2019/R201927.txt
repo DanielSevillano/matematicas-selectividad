@@ -1,0 +1,72 @@
+<ol>
+    <li>
+        Podemos expresar el sistema de la forma
+        $$AX = 2X \Leftrightarrow AX - 2X = 0 \Leftrightarrow (A-2I)X = 0.$$
+
+        Observamos que se trata de un sistema homogéneo con matriz de coeficientes, así que es compatible.
+        La matriz de coeficientes del sistema es
+        $$A - 2I = \begin{pmatrix}
+            a-2 & 1 & 1 \\
+            1 & a-2 & 1 \\
+            1 & 1 & a-2
+        \end{pmatrix}.$$
+
+        Para que el sistema sea compatible indeterminado necesitamos que el rango de $A-2I$ de sea menor que el número de incógnitas.
+        Es decir, su determinante ha de ser nulo.
+        
+        <br>
+
+        Calculamos el determinante de $A-2I.$
+        \begin{align}
+            & |A-2I| = \begin{vmatrix}
+                a-2 & 1 & 1 \\
+                1 & a-2 & 1 \\
+                1 & 1 & a-2
+            \end{vmatrix} = (a-2)^3 + 2 - 3(a-2) =  \\
+            & = a^3 - 6a^2 + 12a - 8 + 2 - 3a + 6 = a^3 - 6a^2 + 9a.
+        \end{align}
+
+        Así que
+        $$|A-2I| = 0 \Leftrightarrow a^3 - 6a^2 + 9a = 0 \Leftrightarrow a(a^2 - 6a + 9) = 0 \Leftrightarrow \begin{cases}
+            a = 0, \\
+            a^2 - 6a + 9 = 0 \Leftrightarrow a = 3.
+        \end{cases}$$
+
+        Por tanto, para $a = 0$ y $a = 3$ el sistema tiene infinitas soluciones.
+    </li>
+
+    <li>
+        Si $a = 0$, el sistema es compatible indeterminado por el apartado anterior y su matriz de coeficientes es
+        $$A - 2I = \begin{pmatrix}
+            -2 & 1 & 1 \\
+            1 & -2 & 1 \\
+            1 & 1 & -2
+        \end{pmatrix}.$$
+
+        Observamos que
+        $$\begin{vmatrix}
+            -2 & 1 \\
+            1 & -2
+        \end{vmatrix} = 3 \neq 0 \Rightarrow \mathrm{rang}(A-2I) = 2.$$
+
+        Así que el sistema se puede reducir a
+        \begin{cases}
+            -2x + y + z = 0, \\
+            x - 2y + z = 0.
+        \end{cases}
+
+        Resolvemos el sistema por reducción.
+        Si restamos ambas ecuaciones, obtenemos que
+        $$-3x + 3y = 0 \Leftrightarrow x = y.$$
+
+        Sustituyendo en la primera ecuación,
+        $$-2x + y + z = 0 \Leftrightarrow z = 2x - y \xrightarrow{x=y} z = x.$$
+
+        Si tomamos $x = \lambda$, la solución del sistema es
+        $$\begin{cases}
+            x = \lambda, \\
+            y = \lambda, \\
+            z = \lambda,
+        \end{cases} \quad \lambda \in \mathbb{R}.$$
+    </li>
+</ol>

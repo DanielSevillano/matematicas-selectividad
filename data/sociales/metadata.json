@@ -404,6 +404,7 @@
     },
     {
         "ejercicio": 202202,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"

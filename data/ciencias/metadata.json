@@ -1664,6 +1664,7 @@
     },
     {
         "ejercicio": 201927,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas"
