@@ -1,6 +1,10 @@
 <ol>
     <li>
-        La función $f$ es una parábola con vértice $(1, 0)$ y $g$ es una recta.
+        En primer lugar, hallamos los puntos de corte de $f$ y $g.$
+        $$f(x) = g(x) \Leftrightarrow (x-1)^2 = 5 - 2x \Leftrightarrow x^2 - 2x + 1 = 5 - 2x \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$
+
+        Así que los puntos de corte son $(-2, 9)$ y $(2, 1).$
+        Observamos además que la función $f$ es una parábola con vértice $(1, 0)$ y $g$ es una recta.
         Representamos el recinto acotado limitado por ambas funciones.
         <img src="img/sociales/R202353.png" alt="Figura" loading="lazy">
     </li>

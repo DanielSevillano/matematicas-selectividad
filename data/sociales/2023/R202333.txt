@@ -42,7 +42,14 @@
     </li>
 
     <li>
-        La función $g$ es una parábola con vértice $\left(\frac{1}{2}, \frac{9}{2}\right).$
+        En primer lugar, hallamos los puntos de corte de la función $g$ con el eje $X.$
+        $$g(x) = 0 \Leftrightarrow -2x^2 + 2x + 4 = 0 \Leftrightarrow x^2 - x - 2 = 0 \Leftrightarrow \begin{cases}
+            x = -1, \\
+            x = 2.
+        \end{cases}$$
+        
+        Así que los puntos de corte son $(-1, 0)$ y $(2, 0).$
+        Además, observamos que $g$ es una parábola con vértice $\left(\frac{1}{2}, \frac{9}{2}\right).$
         Representamos la función y el recinto acotado.
         <img src="img/sociales/R202333.png" alt="Figura" loading="lazy">
 

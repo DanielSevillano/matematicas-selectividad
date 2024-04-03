@@ -81,13 +81,13 @@
     </li>
 
     <li>
-        Representamos el recinto acotado limitado por la gráfica de $f$ y el eje $X.$
+        Podemos representar el recinto acotado limitado por la gráfica de $f$ y el eje $X.$
         <img src="img/sociales/R202303-2.png" alt="Figura" loading="lazy">
 
         Calculamos el área.
         \begin{align}
-            & \int_0^1 (x^3 - 3x^2 + 2x)dx + \int_1^2 -(x^3 - 3x^2 + 2x)dx = \left[\frac{1}{4}x^4 - x^3 + x^2\right]_0^1 - \left[\frac{1}{4}x^4 - x^3 + x^2\right]_1^2 = \\
-            & = \frac{1}{4} - \left(-\frac{1}{4}\right) = \frac{1}{2} \; u^2.
+            & \int_0^1 f(x)dx + \int_1^2 -f(x)dx = \int_0^1 (x^3 - 3x^2 + 2x)dx + \int_1^2 -(x^3 - 3x^2 + 2x)dx = \\
+            & = \left[\frac{1}{4}x^4 - x^3 + x^2\right]_0^1 - \left[\frac{1}{4}x^4 - x^3 + x^2\right]_1^2 = \frac{1}{4} - \left(-\frac{1}{4}\right) = \frac{1}{2} \; u^2.
         \end{align}
     </li>
 </ol>
