@@ -1,0 +1,64 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                Si $x \neq 1$, $f$ es continua y derivable con
+                $$f'(x) = \begin{cases}
+                    6, & \text{si } x < 1, \\
+                    2ax + b, & \text{si } x > 1.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $x = 1.$
+                \begin{align}
+                    & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} (6x - 3) = 3, \\
+                    & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} (ax^2 + bx + 2) = a + b + 2, \\
+                    & f(1) = 3.
+                \end{align}
+
+                Para que $f$ sea continua, ha de verificarse
+                $$a + b + 2 = 3 \Leftrightarrow a + b = 1.$$
+
+                Pasamos a estudiar la derivabilidad.
+                \begin{align}
+                    & f'_-(1) = 6, \\
+                    & f'_+(1) = 2a + b.
+                \end{align}
+
+                Para que $f$ sea derivable, ha de verificarse
+                $$2a + b = 6.$$
+            </li>
+        </ul>
+
+        Con estas dos condiciones, planteamos el sistema de ecuaciones
+        \begin{cases}
+            a + b = 1, \\
+            2a + b = 6.
+        \end{cases}
+
+        Resolvemos el sistema por reducción.
+        Si restamos las ecuaciones, obtenemos que
+        $$-a = -5 \Leftrightarrow a = 5.$$
+
+        Sustituyendo en la primera ecuación,
+        $$a + b = 1 \Leftrightarrow b = 1 - a \xrightarrow{a = 5} b = -4.$$
+
+        Por tanto, $a = 5$ y $b = -4.$
+    </li>
+
+    <li>
+        En primer lugar, hallamos los puntos de corte de la función $g$ con el eje $X.$
+        $$g(x) = 0 \Leftrightarrow -2x^2 + 8x - 6 = 0 \Leftrightarrow x^2 - 4x + 3 = 0 \Leftrightarrow \begin{cases}
+            x = 1, \\
+            x = 3.
+        \end{cases}$$
+
+        Así que los puntos de corte son $(1, 0)$ y $(3, 0).$<br>
+        Podemos representar el recinto acotado limitado por la gráfica de $g$ y el eje $X.$
+        <img class="figura" src="img/sociales/R202204.png" alt="Figura" loading="lazy">
+        
+        Calculamos el área.
+        $$\int_1^3 g(x)dx = \int_1^3 (-2x^2 + 8x - 6)dx = \left[-\frac{2}{3}x^3 + 4x^2 - 6x\right]_1^3 = -18 + 36 - 18 - \left(-\frac{2}{3} + 4 - 6\right) = \frac{8}{3} \; u^2.$$
+    </li>
+</ol>

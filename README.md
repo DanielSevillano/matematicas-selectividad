@@ -70,4 +70,4 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ### Ejercicios resueltos de sociales
 - [x] 2023
 - [ ] 2022
-    - [ ] Junio (2)
+    - [ ] Junio (2, 4)

@@ -421,6 +421,7 @@
     },
     {
         "ejercicio": 202204,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",
