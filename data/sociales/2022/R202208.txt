@@ -1,0 +1,31 @@
+<ol>
+    <li>
+        Como 320 perros de $n = 400$ están vacunados, la proporción muestral es
+        $$p = \frac{320}{400} = 0,8.$$
+
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+
+        Como el nivel de confianza es del 92%, entonces
+        $$1 - \alpha = 0,92 \Leftrightarrow \alpha = 1 - 0,92 = 0,08.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
+
+        Por tanto, el intervalo de confianza para estimar la proporción poblacional de perros vacunados con un nivel de confianza del 98% es
+        $$I = \left(0,8 - 1,75 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{400}}, \; 0,8 + 1,75 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{400}}\right) = (0,765; \; 0,835).$$
+
+        El error máximo cometido es
+        $$E = \frac{0,835 - 0,765}{2} = 0,035.$$
+    </li>
+
+    <li>
+        El error máximo de estimación viene dado por
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 1,75 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{n}} = \frac{0,7}{\sqrt{n}}.$$
+
+        Si se quiere que el error máximo sea de 0,02, entonces
+        $$\frac{0,7}{\sqrt{n}} = 0,02 \Leftrightarrow \sqrt{n} = \frac{0,7}{0,02} \Leftrightarrow n = \frac{0,7^2}{0,02^2} = 1.225.$$
+
+        Por tanto, el tamaño mínimo de la muestra debe ser de 1.225 perros.
+    </li>
+</ol>
