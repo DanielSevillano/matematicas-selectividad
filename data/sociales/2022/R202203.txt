@@ -1,0 +1,44 @@
+<ol>
+    <li>
+        En primer lugar, hallamos la derivada de la función $f.$
+        $$f'(x) = 3x^2 + 2ax + b.$$
+
+        <ul>
+            <li>
+                Si la función tiene un extremo en $x = 3$, entonces $f'(3) = 0.$
+                $$f'(3) = 0 \Leftrightarrow 27 + 6a + b = 0.$$
+            </li>
+
+            <li>
+                Si la pendiente de la recta tangente en $x = 0$ es -3, entonces $f'(0) = -3.$
+                $$f'(0) = -3 \Leftrightarrow b = -3.$$
+
+                Por otro lado, si $(0, 18)$ es un punto de la función, entonces $f(0) = 18.$
+                $$f(0) = 18 \Leftrightarrow c = 18.$$
+            </li>
+        </ul>
+
+        Despejando y sustituyendo en la primera ecuación,
+        $$27 + 6a + b = 0 \Leftrightarrow a = -\frac{b + 27}{6} \xrightarrow{b = -3} a = -4.$$
+
+        Por tanto, $a = -4$, $b = -3$ y $c = 18.$
+    </li>
+    
+    <li>
+        En primer lugar, hallamos los puntos de corte de la función $g$ con el eje $X.$
+        $$g(x) = 0 \Leftrightarrow x^3 - 4x^2 - 3x + 18 = 0 \Leftrightarrow (x+2)(x-3)^2 = 0 \Leftrightarrow \begin{cases}
+            x = -2, \\
+            x = 3.
+        \end{cases}$$
+
+        Así que los puntos de corte son $(-2, 0)$ y $(3, 0).$<br>
+        Podemos representar el recinto acotado limitado por la gráfica de $g$ y el eje $X.$
+        <img class="figura" src="img/sociales/R202203.png" alt="Figura" loading="lazy">
+
+        Calculamos el área.
+        \begin{align}
+            & \int_{-2}^3 g(x)dx = \int_{-2}^3 (x^3 - 4x^2 - 3x + 18)dx = \left[\frac{1}{4}x^4 - \frac{4}{3}x^3 - \frac{3}{2}x^2 + 18x\right]_{-2}^3 = \\
+            & = \frac{81}{4} - 36 - \frac{27}{2} + 54 - \left(4 + \frac{32}{3} - 6 - 36\right) = \frac{625}{12} \; u^2.
+        \end{align}
+    </li>
+</ol>
