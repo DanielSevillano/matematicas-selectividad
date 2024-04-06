@@ -1,0 +1,29 @@
+<ol>
+    <li>
+        Llamamos $V$ a jugar con videojuegos y $L$ a leer libros.
+        Sabemos que
+        $$P(V) = 0,65, \quad P(L) = 0,45 \quad \text{y} \quad P(V^c \cap L^c) = 0,15.$$
+
+        Observamos que
+        $$P(V^c \cap L^c) = P((V \cup L)^c).$$
+
+        Por tanto, la probabilidad de que juegue con videojuegos o lea libros es
+        $$P(V \cup L) = 1 - P(V^c \cap L^c) = 1 - 0,15 = 0,85.$$
+    </li>
+
+    <li>
+        Sabemos que la probabilidad de jugar a videojuegos o leer libros viene dada por
+        $$P(V \cup L) = P(V) + P(L) - P(V \cap L).$$
+
+        Así que, despejando en la expresión anterior, la probabilidad de jugar a videojuegos y leer libros es
+        $$P(V \cap L) = P(V) + P(L) - P(V \cup L) = 0,65 + 0,45 - 0,85 = 0,25.$$
+
+        Por tanto, la probabilidad de que juegue con videojuegos y no lea libros es
+        $$P(V \cap L^c) = P(V) - P(V \cap L) = 0,65 - 0,25 = 0,4.$$
+    </li>
+
+    <li>
+        La probabilidad de que lea libros dado que no juega con videojuegos es
+        $$P(L|V^c) = 1 - P(L^c|V^c) = 1 - \frac{P(L^c \cap V^c)}{P(V^c)} = 1 - \frac{P(L^c \cap V^c)}{1 - P(V)} = 1 - \frac{0,15}{1 - 0,65} \approx 0,5714.$$
+    </li>
+</ol>

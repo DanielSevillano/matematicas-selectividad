@@ -434,12 +434,14 @@
     },
     {
         "ejercicio": 202205,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202206,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
