@@ -1,0 +1,45 @@
+<p>
+    Llamamos $x$ al número de cajas del primer tipo e $y$ al del segundo tipo.
+</p>
+
+<p>
+    Hay 3 piononos en cada caja del primer tipo, 4 piononos en cada caja del segundo tipo y se dispone de 120 piononos, así que
+    $$3x + 4y \leq 120.$$
+
+    Hay 2 pestiños en cada caja del primer tipo, 6 pestiños en cada caja del segundo tipo y se dispone de 150 pestiños, así que
+    $$2x + 6y \leq 150.$$
+
+    Como se deben preparar al menos 9 cajas del segundo tipo,
+    $$y \geq 9.$$
+
+    Además, incorporamos la restricción
+    $$x \geq 0.$$
+
+    Por último, como se quiere realizar el máximo número de cajas posibles, la función objetivo es
+    $$F(x, y) = x + y.$$
+
+    Por tanto, el problema es
+    \begin{align}
+        \text{Maximizar } & F(x, y) = x + y, \\
+        \text{sujeto a } & 3x + 4y \leq 120, \\
+        & 2x + 6y \leq 150, \\
+        & y \geq 9, \\
+        & x \geq 0.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región definida mediante las inecuaciones.
+    <img src="img/sociales/R202201.png" alt="Figura" loading="lazy">
+
+    Los vértices son
+    $$A(0, 9), \quad B(0, 25), \quad C(12, 21) \quad \text{y} \quad D(28, 9).$$
+</p>
+
+<p>
+    Para hallar el valor mínimo de la función $F$, la evaluamos en los vértices.
+    $$F(A) = F(0, 9) = 9, \quad F(B) = F(0, 25) = 25, \quad F(C) = F(12, 21) = 33, \quad F(D) = F(28, 9) = 37.$$
+
+    Por tanto, el número máximo de regalos se alcanza preparando 28 cajas del primer tipo y 9 del segundo tipo.
+    Se realizarán $28 \cdot 3 + 9 \cdot 4 = 120$ piononos y $28 \cdot 2 + 9 \cdot 6 = 110$ pestiños.
+</p>

@@ -398,6 +398,7 @@
     },
     {
         "ejercicio": 202201,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
