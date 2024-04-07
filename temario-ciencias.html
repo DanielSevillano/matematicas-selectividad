@@ -12,27 +12,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/contenido.css" />
+    <link rel="stylesheet" href="css/temario.css" />
     <script type="module" src="js/temario-ciencias.js"></script>
     <script src="js/config.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <style>
-        h2,
-        h3,
-        h4 {
-            margin-bottom: 0;
-        }
-
-        h2+p,
-        h3+p,
-        h4+p {
-            margin-top: 5px;
-        }
-
-        main li {
-            margin-bottom: 0.5em;
-        }
-    </style>
 </head>
 
 <body>
@@ -62,7 +45,7 @@
 
         <div class="contenedor-grupos">
             <button id="grupo-algebra" class="grupo">Álgebra</button>
-            <button id="grupo-analisis" class="grupo" disabled="true">Análisis</button>
+            <button id="grupo-analisis" class="grupo">Análisis</button>
             <button id="grupo-geometria" class="grupo" disabled="true">Geometría</button>
         </div>
 
@@ -73,13 +56,15 @@
             <button id="boton-sistemas" class="contorno">Sistemas</button>
         </div>
 
-        <!--
+
         <div class="contenido-grupo">
-            <button id="boton-funciones" class="contorno" disabled="true">Funciones</button>
-            <button id="boton-optimizacion" class="contorno" disabled="true">Optimización</button>
+            <button id="boton-analisis" class="contorno">Introducción</button>
+            <button id="boton-funciones" class="contorno" disabled="true">Funciones y límites</button>
+            <button id="boton-derivadas" class="contorno" disabled="true">Derivadas</button>
             <button id="boton-integrales" class="contorno" disabled="true">Integrales</button>
         </div>
 
+        <!--
         <div class="contenido-grupo">
             <button id="boton-vectores" class="contorno" disabled="true">Vectores</button>
             <button id="boton-lugares-geometricos" class="contorno" disabled="true">Lugares geométricos</button>

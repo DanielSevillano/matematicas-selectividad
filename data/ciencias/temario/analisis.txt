@@ -1,8 +1,16 @@
+<h2>Análisis</h2>
+
 <p>El análisis es la rama de las matemáticas que estudia los conjuntos numéricos y las funciones.</p>
 
 <p>
-    Nuestro objetivo en este bloque será aprender a <b>estudiar, esbozar e integrar funciones</b>, lo que nos servirá para <b>resolver problemas mediante la optimización</b> y para el <b>cálculo de áreas</b>.
-    Por ejemplo, hallar el área bajo la función $f(x) = \mathrm{sen}(x).$
+    Nuestro objetivo en este bloque será aprender a <b>estudiar, esbozar e integrar funciones</b>, lo que nos servirá para <b>resolver problemas mediante la optimización</b> y <b>calcular áreas</b>.
+    Por ejemplo, determinar las dimensiones de una lata para minimizar el coste o hallar el área bajo la función $f(x) = \mathrm{sen}(x)$ entre $x = 0$ y $x = \pi.$
 </p>
 
-<img src="img/analisis-1.png" alt="Función"/>
+<img src="img/analisis-introduccion.png" alt="Función"/>
+
+<p>
+    Para ello, tendremos que recordar las características principales de las funciones y reintroducir los <b>límites</b>, una herramienta que resultará fundamental para estudiar la continuidad y las asíntotas.
+    También recordaremos las <b>derivadas</b> y trabajaremos con sus aplicaciones para el estudio de funciones, la resolución de límites y los problemas de optimización.
+    Por último, introduciremos las <b>integrales</b> y veremos su relación con la derivada y su utilidad para calcular áreas de recintos limitados por funciones.
+</p>
