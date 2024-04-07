@@ -730,6 +730,7 @@
     },
     {
         "ejercicio": 202256,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Problemas de sucesos"
@@ -737,6 +738,7 @@
     },
     {
         "ejercicio": 202257,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"
