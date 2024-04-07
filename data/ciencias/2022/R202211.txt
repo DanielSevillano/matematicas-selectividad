@@ -1,0 +1,54 @@
+<ol>
+    <li>
+        En primer lugar, estudiamos la continuidad de la función.
+
+        <ul>
+            <li>Si $x \neq 0$, $f$ es continua.</li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $x = 0.$
+                \begin{align}
+                    & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} \frac{x^2+1}{x-1} = -1, \\
+                    & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \frac{ax+b}{(x+1)^2} = b, \\
+                    & f(0) = -1.
+                \end{align}
+
+                Para que $f$ sea continua, ha de verificarse que $b = -1.$
+            </li>
+        </ul>
+
+        Por otro lado, si $x > 0$, $f$ es derivable con
+        $$f'(x) = \frac{a(x+1)^2 - 2(ax+b)(x+1)}{(x+1)^4} \xrightarrow{b=-1} f'(x) = \frac{a(x+1)^2 - 2(ax-1)(x+1)}{(x+1)^4}.$$
+
+        Si la función tiene un extremo en $x = 2$, entonces $f'(2) = 0.$
+        $$f'(2) = 0 \Leftrightarrow \frac{9a - 6(2a-1)}{81} = 0 \Leftrightarrow 9a - 6(2a-1) = 0 \Leftrightarrow 9a - 12a + 6 = 0 \Leftrightarrow 3a = 6 \Leftrightarrow a = 2.$$
+
+        Por tanto, $a = 2$ y $b = -1.$
+    </li>
+
+    <li>
+        Si $a = 2$ y $b = -1$, por el apartado anterior $f$ es continua.
+        Estudiamos la derivabilidad de la función.
+
+        <ul>
+            <li>
+                Si $x \neq 0$, $f$ es derivable con
+                $$f'(x) = \begin{cases}
+                    \dfrac{2x(x-1) - (x^2+1)}{(x-1)^2}, & \text{si } x < 0, \\
+                    \dfrac{2(x+1)^2 - 2(2x-1)(x+1)}{(x+1)^4}, & \text{si } x > 0.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la derivabilidad para el punto de ruptura $x = 0.$
+                \begin{align}
+                    & f'_-(0) = -1, \\
+                    & f'_+(0) = 4.
+                \end{align}
+
+                Observamos que
+                $$f'_-(0) \neq f'_+(0).$$
+
+                Así que $f$ no es derivable en $x = 0.$
+            </li>
+        </ul>
