@@ -1,6 +1,5 @@
-Una fábrica de tornillos quiere hacer un estudio sobre la proporción de tornillos que cumplen las especificaciones 
-del fabricante. Para ello ha seleccionado una muestra aleatoria de 1500 tornillos, resultando que 1425 cumplen las 
-especificaciones del fabricante.
+Una fábrica de tornillos quiere hacer un estudio sobre la proporción de tornillos que cumplen las especificaciones del fabricante.
+Para ello ha seleccionado una muestra aleatoria de 1.500 tornillos, resultando que 1.425 cumplen las especificaciones del fabricante.
 
 <ol>
     <li>Determine un intervalo de confianza para la proporción de tornillos que cumplen con las especificaciones del fabricante con un nivel de confianza del 97%.</li>
