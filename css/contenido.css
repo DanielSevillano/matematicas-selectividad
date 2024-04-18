@@ -195,16 +195,6 @@ Sombras de desplazamiento
 }
 
 /********************
-Adaptabilidad
-********************/
-
-@media (prefers-color-scheme: dark) {
-    main img {
-        filter: invert(1) hue-rotate(180deg);
-    }
-}
-
-/********************
 Impresión
 ********************/
 

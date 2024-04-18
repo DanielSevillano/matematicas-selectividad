@@ -429,4 +429,8 @@ Adaptabilidad
     summary::after {
         filter: invert(1);
     }
+
+    main img {
+        filter: invert(1) hue-rotate(180deg);
+    }
 }
