@@ -746,6 +746,7 @@
     },
     {
         "ejercicio": 202258,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media",
