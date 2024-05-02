@@ -1,5 +1,5 @@
 Se considera el recinto limitado por las siguientes inecuaciones:
-$$y - 2x \leq 7, \quad -x + 3y \leq 2, \quad x + 2y \leq 19, \quad x + y \leq 14.$$
+$$y - 2x \leq 7, \quad -x + 3y \leq 21, \quad x + 2y \leq 19, \quad x + y \leq 14.$$
 
 <ol>
     <li>Represente dicho recinto y determine sus vértices.</li>
