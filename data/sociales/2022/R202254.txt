@@ -1,0 +1,31 @@
+<ol>
+    <li>
+        En primer lugar, hallamos los puntos de corte de la función $B$ con el eje $X.$
+        $$B(x) = 0 \Leftrightarrow -0,02x^2 + 1,3x - 15 = 0 \Leftrightarrow x^2 - 65x + 750 = 0 \Leftrightarrow \begin{cases}
+            x = 15, \\
+            x = 50.
+        \end{cases}$$
+
+        Luego los puntos de corte con el eje $X$ son $(15, 0)$ y $(50, 0).$
+        Además, observamos que $f$ es una parábola con vértice $\left(\frac{65}{2}, \frac{49}{8}\right) = (32,5; \; 6,125).$
+        Representamos la función con esta información.
+        <img class="figura" src="img/sociales/R202254.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>La finca no tiene pérdidas cuando $B(x) \geq 0$, es decir, si $15 \leq x \leq 50.$</li>
+
+    <li>
+        La función $B$ alcanza el máximo en el vértice $(32,5; \; 6,125).$
+        Por tanto, el beneficio será máximo para 32.500 kg y ascenderá a 6.125€.
+    </li>
+
+    <li>
+        Se obtiene un beneficio de 5.000€ si $B(x) = 5.$
+        $$B(x) = 5 \Leftrightarrow -0,02x^2 + 1,3x - 15 = 5 \Leftrightarrow -0,02x^2 + 1,3x - 20 = 0 \Leftrightarrow \begin{cases}
+            x = 25, \\
+            x = 40.
+        \end{cases}$$
+
+        Por tanto, se deben vender 25.000 kg o 40.000 kg para obtener dicho beneficio.
+    </li>
+</ol>
