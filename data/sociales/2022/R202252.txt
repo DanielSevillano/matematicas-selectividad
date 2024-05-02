@@ -1,0 +1,22 @@
+<ol>
+    <li>
+        Dibujamos la región.
+        <img class="figura" src="img/sociales/R202252.png" alt="Figura" loading="lazy">
+
+        Los vértices son
+        $$A(0,7), \quad B(3, 8) \quad \text{y} \quad C(9, 5).$$
+    </li>
+
+    <li>
+        El recinto no está acotado inferiormente, así que la función objetivo no tiene mínimo.
+        Para hallar el valor máximo de $F$, la evaluamos en los vértices.
+        $$F(A) = F(0, 7) = 28, \quad F(B) = F(3, 8) = 35 \quad \text{y} \quad F(C) = F(9, 5) = 29.$$
+
+        Por tanto, el máximo es 35 y se alcanza en el punto $B(3, 8).$
+    </li>
+
+    <li>
+        Como el valor máximo de la función objetivo en la región factible es 35, ningún punto de la región puede alcanzar el valor 40.
+        En cambio, el valor 20 sí puede tomarse puesto que la función no tiene mínimo en la región.
+    </li>
+</ol>

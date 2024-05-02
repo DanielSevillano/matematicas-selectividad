@@ -695,6 +695,7 @@
     },
     {
         "ejercicio": 202251,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
@@ -702,6 +703,7 @@
     },
     {
         "ejercicio": 202252,
+        "resuelto": true,
         "categorias": [
             "Programación lineal"
         ]
@@ -726,6 +728,7 @@
     },
     {
         "ejercicio": 202255,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

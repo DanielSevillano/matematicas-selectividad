@@ -1,0 +1,83 @@
+<ol>
+    <li>
+        Comprobamos en primer lugar que la matriz $A$ es invertible.
+        $$|A| = \begin{vmatrix}
+            1 & 1 & 2 \\
+            -2 & 0 & 1 \\
+            0 & -1 & -1
+        \end{vmatrix} = 4 - 2 + 1 = 3 \neq 0.$$
+
+        Por tanto, $A$ es invertible.
+        Resolvemos la ecuación matricial.
+        $$AX + B = A^2C \Leftrightarrow AX = A^2C - B \Leftrightarrow X = A^{-1}(A^2C - B) = AC - A^{-1}B.$$
+
+        Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A) = \begin{pmatrix}
+            1 & -2 & 2 \\
+            -1 & -1 & 1 \\
+            1 & -5 & 2
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular su inversa como
+        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{3} \begin{pmatrix}
+            1 & -1 & 1 \\
+            -2 & -1 & -5 \\
+            2 & 1 & 2
+        \end{pmatrix}.$$
+
+        Por último, calculamos la matriz $X$ operando.
+        \begin{align}
+            & X = AC - A^{-1}B = \begin{pmatrix}
+                1 & 1 & 2 \\
+                -2 & 0 & 1 \\
+                0 & -1 & -1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 2 \\
+                -1 & -1 \\
+                -2 & 3
+            \end{pmatrix} -
+            \frac{1}{3} \begin{pmatrix}
+                1 & -1 & 1 \\
+                -2 & -1 & -5 \\
+                2 & 1 & 2
+            \end{pmatrix}
+            \begin{pmatrix}
+                -2 & 1 \\
+                3 & 1 \\
+                0 & 2
+            \end{pmatrix} = \\
+            & = \begin{pmatrix}
+                -4 & 7 \\
+                -4 & -1 \\
+                3 & -2
+            \end{pmatrix}
+            - \frac{1}{3} \begin{pmatrix}
+                -5 & 2 \\
+                1 & -13 \\
+                -1 & 7
+            \end{pmatrix} =
+            \begin{pmatrix}
+                -\frac{7}{3} & \frac{19}{3} \\
+                -\frac{13}{3} & \frac{10}{3} \\
+                \frac{10}{3} & -\frac{13}{3}
+            \end{pmatrix}.
+        \end{align}
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                $C$ es de dimensión $3 \times 2$, así que $AP^t$ debe tener la misma dimensión para poder sumarse con ella.
+                Como $A$ es $3 \times 3$, $P^t$ debe tener 3 filas para poder multiplicarse y 2 columnas para dar como resultado una matriz de dimensión $3 \times 2.$
+                Por tanto, $P$ es de dimensión $2 \times 3.$
+            </li>
+
+            <li>
+                $B$ y $C$ son de dimensión $3 \times 2$, así que $Q$ debe tener 2 filas y 3 columnas para poder multiplicarse con ellas.
+                Por tanto, $Q$ es de dimensión $2 \times 3.$
+                Observamos que entonces el producto $C(QB)$ es de dimensión $3 \times 2$, por lo que coincide con el otro lado de la igualdad.
+            </li>
+        </ul>
+    </li>
+</ol>

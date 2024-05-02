@@ -1,0 +1,27 @@
+<ol>
+    <li>
+        Llamamos $A$ a proceder de la universidad A, $B$ de la universidad B, $C$ de la universidad C y $T$ a encontrar trabajo en la región.
+        Sabemos que
+        \begin{align}
+            & P(A) = 0,6, & & P(B) = 0,3, & & P(C) = 0,1, \\
+            & P(T^c|A) = 0,4, & & P(T^c|B) = 0,5, & & P(T^c) = 0,395.
+        \end{align}
+
+        Sabemos que la probabilidad de que un estudiante no encuentre trabajo en su región viene dada por
+        $$P(T^c) = P(A) \cdot P(T^c|A) + P(B) \cdot P(T^c|B) + P(C) \cdot P(T^c|C).$$
+
+        Despejando en la expresión anterior, la probabilidad de que un estudiante de la universidad C no encuentre trabajo en su región es
+        $$P(T^c|C) = \frac{P(T^c) - P(A) \cdot P(T^c|A) - P(B) \cdot P(T^c|B)}{P(C)} = \frac{0,395 - 0,6 \cdot 0,4 - 0,3 \cdot 0,5}{0,1} = 0,05.$$
+
+        Por tanto, la probabilidad de que un estudiante de la universidad C encuentre trabajo en su región es
+        $$P(T|C) = 1 - P(T^c|C) = 1 - 0,05 = 0,95.$$
+    </li>
+
+    <li>
+        La probabilidad de que un estudiante proceda de la universidad A o B dado que no ha encontrado trabajo en su región es
+        \begin{align}
+            & P(A \cup B | T^c) = \frac{P((A \cup B) \cap T^c)}{P(T^c)} = \frac{P((A \cap T^c) \cup (B \cap T^c))}{P(T^c)} = \frac{P(A \cap T^c) + P(B \cap T^c)}{P(T^c)} = \\
+            & = \frac{P(A) \cdot P(T^c|A) + P(B) \cdot P(T^c|B)}{P(T^c)} = \frac{0,6 \cdot 0,4 + 0,3 \cdot 0,5}{0,395} = 0,9873.
+        \end{align}
+    </li>
+</ol>
