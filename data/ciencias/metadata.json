@@ -637,6 +637,7 @@
     },
     {
         "ejercicio": 202237,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Ángulos",
