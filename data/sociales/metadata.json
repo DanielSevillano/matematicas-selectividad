@@ -465,6 +465,7 @@
     },
     {
         "ejercicio": 202211,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
@@ -479,6 +480,7 @@
     },
     {
         "ejercicio": 202213,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",

@@ -1,0 +1,82 @@
+<ol>
+    <li>
+        Calculamos en primer lugar el determinante de la matriz $A.$
+        $$|A| = \begin{vmatrix}
+            2 & -3 & -a-1 \\
+            -1 & a & a+1 \\
+            1 & -3 & -a
+        \end{vmatrix} = -2a^2 - 3(a+1) - 3(a+1) + a(a+1) + 3a + 6(a+1) = -a^2 + 4a.$$
+
+        La inversa de $A$ existe si y solo si su determinante es no nulo.
+        $$|A| = 0 \Leftrightarrow -a^2 + 4a = 0 \Leftrightarrow a(-a + 4) = 0 \Leftrightarrow \begin{cases}
+            a = 0, \\
+            -a + 4 = 0 \Leftrightarrow a = 4.
+        \end{cases}$$
+
+        Por tanto, la matriz $A$ tiene inversa si $a \neq 0$ y $a \neq 4.$
+    </li>
+
+    <li>
+        Si $a = 4$,
+        $$A = \begin{pmatrix}
+            2 & -3 & -5 \\
+            -1 & 4 & 5 \\
+            1 & -3 & -4
+        \end{pmatrix}.$$
+
+        Calculamos la matriz $A^2.$
+        $$A^2 = A \cdot A = \begin{pmatrix}
+            2 & -3 & -5 \\
+            -1 & 4 & 5 \\
+            1 & -3 & -4
+        \end{pmatrix}
+        \begin{pmatrix}
+            2 & -3 & -5 \\
+            -1 & 4 & 5 \\
+            1 & -3 & -4
+        \end{pmatrix} =
+        \begin{pmatrix}
+            2 & -3 & -5 \\
+            -1 & 4 & 5 \\
+            1 & -3 & -4
+        \end{pmatrix} = A.$$
+
+        Como $A^2 = A$,
+        $$A^3 = A^2 \cdot A = A \cdot A = A.$$
+
+        En general, $A^n = A.$
+        Por tanto,
+        $$A^{2022} = A = \begin{pmatrix}
+            2 & -3 & -5 \\
+            -1 & 4 & 5 \\
+            1 & -3 & -4
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Si $a = 3$, por el primer apartado $A$ es invertible y $\det(A) = 3.$
+        Resolvemos la ecuación matricial.
+        $$XA = I_3 \Leftrightarrow X = A^{-1}.$$
+
+        Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A) = \begin{pmatrix}
+            3 & 1 & 0 \\
+            3 & -2 & 3 \\
+            0 & -4 & 3
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular su inversa como
+        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{3} \begin{pmatrix}
+            3 & 3 & 0 \\
+            1 & -2 & -4 \\
+            0 & 3 & 3
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$X = A^{-1} = \frac{1}{3} \begin{pmatrix}
+            3 & 3 & 0 \\
+            1 & -2 & -4 \\
+            0 & 3 & 3
+        \end{pmatrix}.$$
+    </li>
+</ol>
