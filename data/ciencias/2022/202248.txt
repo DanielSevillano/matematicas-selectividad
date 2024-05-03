@@ -1,5 +1,5 @@
-Considera las rectas $r \equiv x = 1-y = z$ y
-$$s \equiv \begin{cases}
+Considera las rectas
+$$r \equiv x = 1-y = z \quad \text{y} \quad s \equiv \begin{cases}
     x + y - 3z = 4, \\
     3x - y + z = -2.
 \end{cases}$$
