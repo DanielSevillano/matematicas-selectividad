@@ -521,6 +521,7 @@
     },
     {
         "ejercicio": 202218,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Ángulos"

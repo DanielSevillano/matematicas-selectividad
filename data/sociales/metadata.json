@@ -501,6 +501,7 @@
     },
     {
         "ejercicio": 202215,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
@@ -522,6 +523,7 @@
     },
     {
         "ejercicio": 202218,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"

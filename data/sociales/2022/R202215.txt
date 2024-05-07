@@ -1,0 +1,29 @@
+<ol>
+    <li>
+        <ol>
+            <li>
+                Llamamos $T$ a admitir el pago con tarjeta de crédito y $M$ a admitir el pago mediante el móvil.
+                Sabemos que
+                $$P(T) = 0,8, \quad P(M) = 0,5 \quad \text{y} \quad P(T^c \cap M^c) = 0,1.$$
+
+                La probabilidad de que el restaurante admita uno de los dos medios de pago es
+                $$P(T \cup M) = 1 - P((T \cup M)^c) = 1 - P(T^c \cap M^c) = 1 - 0,1 = 0,9.$$
+            </li>
+
+            <li>
+                La probabilidad de admitir uno de los dos medios de pago viene dada por
+                $$P(T \cup M) = P(T) + P(M) - P(T \cap M).$$
+
+                Así que, despejando en la expresión anterior, la probabilidad de admitir los dos medios de pago es
+                $$P(T \cap M) = P(T) + P(M) - P(T \cup M) = 0,8 + 0,5 - 0,9 = 0,4.$$
+
+                Por tanto, la probabilidad de que admita pagar con móvil dado que admite pagar con tarjeta es
+                $$P(M|T) = \frac{P(M \cap T)}{P(T)} = \frac{0,4}{0,8} = 0,5.$$
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        Como $P(M) = P(M|T)$, los sucesos $T$ y $M$ son independientes.
+    </li>
+</ol>

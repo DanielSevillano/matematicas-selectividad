@@ -1,0 +1,32 @@
+<ol>
+    <li>
+        En primer lugar, hallamos las ecuaciones paramétricas de la recta $r.$
+        Si $x = \lambda$,
+        $$r \equiv \begin{cases}
+            x = \lambda, \\
+            y = 1, \\
+            z = 1 - 2\lambda.
+        \end{cases}$$
+
+        Las distancias entre un punto genérico $R(\lambda, 1, 1-2\lambda)$ de la recta $r$ y cada uno de los planos vienen dadas por
+        \begin{align}
+            & \mathrm{dist}(R, \pi_1) = \frac{|\lambda + 1 + 2|}{|\vec{n}_1|} = \frac{|\lambda + 3|}{\sqrt{2}}, \\
+            & \mathrm{dist}(R, \pi_2) = \frac{|\lambda - (1 - 2\lambda) - 2|}{|\vec{n}_2|} = \frac{|3\lambda - 2|}{\sqrt{2}}.
+        \end{align}
+
+        Como queremos hallar los puntos de $r$ que equidisten de $\pi_1$ y $\pi_2$,
+        $$\mathrm{dist}(R, \pi_1) = \mathrm{dist}(R, \pi_2) \Leftrightarrow \frac{|\lambda + 3|}{\sqrt{2}} = \frac{|3\lambda - 2|}{\sqrt{2}} \Leftrightarrow |\lambda + 3| = |3\lambda - 2| \Leftrightarrow \begin{cases}
+            \lambda + 3 = 3\lambda - 2 \Leftrightarrow \lambda = \frac{5}{2}, \\
+            \lambda + 3 = -3\lambda + 2 \Leftrightarrow \lambda = -\frac{1}{4}.
+        \end{cases}$$
+
+        Por tanto, los puntos son $\left(\frac{5}{2}, 1, -4\right)$ y $\left(-\frac{1}{4}, 1, \frac{3}{2}\right).$
+    </li>
+
+    <li>
+        El coseno del ángulo $\alpha$ que forman los planos $\pi_1$ y $\pi_2$ viene dado por
+        $$\cos(\alpha) = \frac{|\vec{n}_1 \cdot \vec{n}_2|}{|\vec{n}_1||\vec{n}_2|} = \frac{1}{2}.$$
+
+        Por tanto, el ángulo que forman es de 60º.
+    </li>
+</ol>
