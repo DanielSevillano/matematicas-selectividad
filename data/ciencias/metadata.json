@@ -472,6 +472,7 @@
     },
     {
         "ejercicio": 202212,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Optimización"
@@ -487,6 +488,7 @@
     },
     {
         "ejercicio": 202214,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
@@ -512,6 +514,7 @@
     },
     {
         "ejercicio": 202217,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]

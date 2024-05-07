@@ -1,0 +1,21 @@
+<ol>
+    <li>
+        Llamamos $\pi$ al plano que nos piden.
+        Como $\pi$ contiene a $r$ y es paralelo a $s$, $\vec{d}_r = (0, 1, 0)$ y $\vec{d}_s = (0, 0, 1)$ son dos vectores directores del plano.
+        Además, el punto $(0, 0, 0)$ pertenece al plano por ser un punto de $r.$
+        Por tanto, las ecuaciones paramétricas del plano $\pi$ son
+        $$\pi \equiv \begin{cases}
+            x = 0, \\
+            y = \lambda, \\
+            z = \mu.
+        \end{cases}$$
+    </li>
+
+    <li>
+        Llamamos $\tau$ al plano que nos piden.
+        Como $\tau$ es perpendicular a $s$, $\vec{d}_s = (0, 0, 1)$ es el vector normal del plano.
+        Además, como $r$ está contenida en $\tau$, el punto $(0, 0, 0)$ pertenece al plano por ser un punto de $r.$
+        Por tanto, la ecuación del plano es
+        $$\tau \equiv z = 0.$$
+    </li>
+</ol>

@@ -1,0 +1,40 @@
+<p>
+    El área del recinto rectangular es de $\frac{200}{\pi}$ metros cuadrados, así que
+    $$ab = \frac{200}{\pi} \Rightarrow b = \frac{200}{\pi a}.$$
+
+    La longitud de cerca en los tramos rectos es de $2a$ y en los tramos circulares de $2\pi \frac{b}{2} = \pi b.$
+    Como además los costes son de 10€ y 20€ por metro en los tramos rectos y circulares, respectivamente, la función a minimizar es
+    $$f(a) = 10 \cdot 2a + 20 \cdot \pi b = 20a + 20\pi \cdot \frac{200}{\pi a} = 20a + \frac{4.000}{a}.$$
+</p>
+
+<p>
+    En primer lugar, calculamos la derivada de la función $f.$
+    $$f'(a) = 20 - \frac{4.000}{a^2}.$$
+
+    Hallamos los puntos críticos de $f$ igualando la derivada a cero.
+    $$f'(a) = 0 \Leftrightarrow 20 - \frac{4.000}{a^2} = 0 \Leftrightarrow 20 = \frac{4.000}{a^2} \Leftrightarrow 20a^2 = 4.000 \Leftrightarrow a^2 = 200 \Leftrightarrow a = \sqrt{200}.$$
+</p>
+
+<p>
+    Comprobamos que en el punto de abscisa $a = \sqrt{200}$ se alcanza el mínimo de la función.
+    
+    <ul>
+        <li>
+            Si $a < \sqrt{200}$, $f'(a) < 0.$
+            Así que $f$ es decreciente.
+        </li>
+
+        <li>
+            Si $a > \sqrt{200}$, $f'(a) > 0.$
+            Así que $f$ es creciente.
+        </li>
+    </ul>
+
+    Luego $f$ tiene un mínimo en $a = \sqrt{200}.$
+    Por tanto,
+    $$b = \frac{200}{\pi a} = \frac{200}{\pi \sqrt{200}} = \frac{\sqrt{200}}{\pi}.$$
+</p>
+
+<p>
+    Así que $a = \sqrt{200}$ m y $b = \frac{\sqrt{200}}{\pi}$ m.
+</p>
