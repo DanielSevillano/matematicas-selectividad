@@ -1,0 +1,32 @@
+<ol>
+    <li>
+        Llamamos $x$ al número de individuos en la muestra del primer estrato, $y$ en la muestra del segundo estrato y $z$ en la muestra del cuarto estrato.
+        Como se usa afijación proporcional y se seleccionan 144 individuos del tercer estrato,
+        $$\frac{60.000}{x} = \frac{20.000}{y} = \frac{24.000}{144} = \frac{16.000}{z}.$$
+        
+        Despejamos estos valores.
+        \begin{align}
+            & \frac{24.000}{144} = \frac{60.000}{x} \Leftrightarrow x = \frac{144 \cdot 60.000}{24.000} = 360, \\
+            & \frac{24.000}{144} = \frac{20.000}{y} \Leftrightarrow y = \frac{144 \cdot 20.000}{24.000} = 120, \\
+            & \frac{24.000}{144} = \frac{16.000}{z} \Leftrightarrow z = \frac{144 \cdot 16.000}{24.000} = 96.
+        \end{align}
+
+        Por tanto, la muestra está compuesta por 360 individuos del primer estrato, 120 del segundo estrato, 144 del tercer estrato y 96 del cuarto estrato.
+        Así que el tamaño de la muestra es
+        $$360 + 120 + 144 + 96 = 720.$$
+    </li>
+
+    <li>
+        Las muestras posibles de tamaño 2 son
+        $$(1, 1) \quad (1, 4) \quad (1, 7) \quad (4, 1) \quad (4, 4) \quad (4, 7) \quad (7, 1) \quad (7, 4) \quad (7, 7).$$
+
+        Hallamos la media $\mu$ y la varianza $\sigma^2$ de la población.
+        \begin{align}
+            & \mu = \frac{1 + 4 + 7}{3} = 4, \\
+            & \sigma^2 = \frac{(1-4)^2 + (4-4)^2 + (7-4)^2}{3} = 6.
+        \end{align}
+
+        Por tanto, la distribución de medias muestrales de tamaño 2 tiene media $\mu = 4$ y desviación típica
+        $$\frac{\sigma}{\sqrt{2}} = \frac{\sqrt{6}}{\sqrt{2}} = \sqrt{3}.$$
+    </li>
+</ol>
