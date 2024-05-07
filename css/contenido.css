@@ -163,6 +163,28 @@ details ol {
 }
 
 /********************
+Tablas
+********************/
+
+.tabla {
+    --parent-color: var(--container-color-alt);
+    max-width: 100%;
+    margin-block: 1.5em;
+    text-align: center;
+    overflow-x: auto;
+}
+
+table {
+    margin-inline: auto;
+}
+
+th,
+td {
+    min-width: max-content;
+    padding-inline: 8px;
+}
+
+/********************
 Progreso
 ********************/
 
@@ -181,14 +203,15 @@ button.cargando::after {
 Sombras de desplazamiento
 ********************/
 
-.contenedor-grupos {
+.contenedor-grupos,
+.tabla {
     --shadow-color: hsla(0, 0%, 50%, 0.4);
     --shadow-margin: 40px;
     --shadow-width: 10px;
 
     background:
-        linear-gradient(to right, var(--background-color) 30%, transparent) left / var(--shadow-margin) 100% local,
-        linear-gradient(to left, var(--background-color) 70%, transparent) right / var(--shadow-margin) 100% local,
+        linear-gradient(to right, var(--parent-color, var(--background-color)) 30%, transparent) left / var(--shadow-margin) 100% local,
+        linear-gradient(to left, var(--parent-color, var(--background-color)) 70%, transparent) right / var(--shadow-margin) 100% local,
         radial-gradient(farthest-side at 0, var(--shadow-color), transparent) left / var(--shadow-width) 100% scroll,
         radial-gradient(farthest-side at 100%, var(--shadow-color), transparent) right / var(--shadow-width) 100% scroll;
     background-repeat: no-repeat;

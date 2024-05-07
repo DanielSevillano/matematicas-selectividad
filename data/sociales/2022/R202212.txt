@@ -1,0 +1,72 @@
+<p>
+    Llamamos $x$ al número de trajes e $y$ al número de vestidos.
+    Podemos organizar la información en una tabla.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <th>Lino (m<sup>2</sup>)</th>
+                <th>Algodón (m<sup>2</sup>)</th>
+                <th>Beneficios (€)</th>
+            </tr>
+
+            <tr>
+                <th>Traje</th>
+                <td>1</td>
+                <td>3</td>
+                <td>60</td>
+            </tr>
+
+            <tr>
+                <th>Vestido</th>
+                <td>2</td>
+                <td>2</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <th>Total</th>
+                <td>70</td>
+                <td>150</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    Se usa 1m<sup>2</sup> de lino para cada traje, 2m<sup>2</sup> para cada vestido y se dispone de 70m<sup>2</sup> en total, así que
+    $$x + 2y \leq 70.$$
+
+    Se usan 3m<sup>2</sup> de algodón para cada traje, 2m<sup>2</sup> para cada vestido y se dispone de 150m<sup>2</sup> en total, así que
+    $$3x + 2y \leq 150.$$
+
+    Además, incorporamos las restricciones
+    $$x \geq 0, \quad y \geq 0.$$
+
+    Por último, como se obtienen 60€ por cada traje y 70€ por cada vestido, la función objetivo es
+    $$F(x, y) = 60x + 70y.$$
+
+    Por tanto, el problema es
+    \begin{align}
+        \text{Maximizar } & F(x, y) = 60x + 70y, \\
+        \text{sujeto a } & x + 2y \leq 70, \\
+        & 3x + 2y \leq 150, \\
+        & x \geq 0, \\
+        & y \geq 0.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región definida mediante las inecuaciones.
+    <img src="img/sociales/R202212.png" alt="Figura" loading="lazy">
+
+    Los vértices son
+    $$A(0, 0), \quad B(0, 35), \quad C(40, 15) \quad \text{y} \quad D(50, 0).$$
+</p>
+
+<p>
+    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    $$F(A) = F(0, 0) = 0, \quad F(B) = F(0, 35) = 2.450, \quad F(C) = F(40, 15) = 3.450, \quad F(D) = F(50, 0) = 3.000.$$
+
+    Por tanto, el valor máximo de los beneficios se alcanza confeccionando 40 trajes y 15 vestidos, con unas ganancias de 3.450€.
+</p>
