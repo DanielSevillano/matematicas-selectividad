@@ -1,12 +1,41 @@
 <p>
     Llamamos $x$ al número de cajas del primer tipo e $y$ al del segundo tipo.
+    Podemos organizar la información en una tabla.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <th>Piononos</th>
+                <th>Pestiños</th>
+            </tr>
+
+            <tr>
+                <th>Caja de tipo 1</th>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <th>Caja de tipo 2</th>
+                <td>4</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <th>Total</th>
+                <td>120</td>
+                <td>150</td>
+            </tr>
+        </table>
+    </div>
 </p>
 
 <p>
-    Hay 3 piononos en cada caja del primer tipo, 4 piononos en cada caja del segundo tipo y se dispone de 120 piononos, así que
+    Hay 3 piononos en cada caja del primer tipo, 4 en cada caja del segundo tipo y se dispone de 120, así que
     $$3x + 4y \leq 120.$$
 
-    Hay 2 pestiños en cada caja del primer tipo, 6 pestiños en cada caja del segundo tipo y se dispone de 150 pestiños, así que
+    Hay 2 pestiños en cada caja del primer tipo, 6 en cada caja del segundo tipo y se dispone de 150, así que
     $$2x + 6y \leq 150.$$
 
     Como se deben preparar al menos 9 cajas del segundo tipo,

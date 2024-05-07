@@ -1,5 +1,42 @@
 <p>
     Llamamos $x$ al número de anillos a la semana del primer tipo y $y$ al del segundo tipo.
+    Podemos organizar la información en una tabla.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <th>Tiempo (min)</th>
+                <th>Piedras de mayor calidad</th>
+                <th>Piedras de menor calidad</th>
+                <th>Precio (€)</th>
+            </tr>
+
+            <tr>
+                <th>Anillo de tipo 1</th>
+                <td>20</td>
+                <td>1</td>
+                <td>2</td>
+                <td>21</td>
+            </tr>
+
+            <tr>
+                <th>Anillo de tipo 2</th>
+                <td>50</td>
+                <td>3</td>
+                <td>1</td>
+                <td>50</td>
+            </tr>
+
+            <tr>
+                <th>Total</th>
+                <td>1.900</td>
+                <td>200</td>
+                <td>150</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
 </p>
 
 <p>
@@ -12,7 +49,7 @@
     Se utilizan dos piedras de menor calidad para cada anillo del primer tipo, una para cada uno del segundo tipo y el artesano dispone de 150 piedras de este tipo a la semana, así que
     $$2x + y \leq 150.$$
 
-    Como deben fabricarse al menos 200 anillos del primer tipo a la semana,
+    Como deben fabricarse al menos 20 anillos del primer tipo a la semana,
     $$x \geq 20.$$
 
     Además, incorporamos la restricción

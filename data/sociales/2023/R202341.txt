@@ -1,5 +1,42 @@
 <p>
     Llamamos $x$ al número de botes de pintura de color Júpiter e $y$ al de Minerva.
+    Podemos organizar la información en una tabla.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <th>Verde (kg)</th>
+                <th>Morado (kg)</th>
+                <th>Naranja (kg)</th>
+                <th>Beneficio (€)</th>
+            </tr>
+
+            <tr>
+                <th>Júpiter</th>
+                <td>10</td>
+                <td>5</td>
+                <td>5</td>
+                <td>30</td>
+            </tr>
+
+            <tr>
+                <th>Minerva</th>
+                <td>5</td>
+                <td>5</td>
+                <td>0</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <th>Total</th>
+                <td>1.000</td>
+                <td>800</td>
+                <td>300</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
 </p>
 
 <p>

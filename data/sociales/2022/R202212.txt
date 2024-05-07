@@ -33,7 +33,9 @@
             </tr>
         </table>
     </div>
+</p>
 
+<p>
     Se usa 1m<sup>2</sup> de lino para cada traje, 2m<sup>2</sup> para cada vestido y se dispone de 70m<sup>2</sup> en total, así que
     $$x + 2y \leq 70.$$
 

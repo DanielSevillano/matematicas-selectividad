@@ -1,12 +1,45 @@
 <p>
     Llamamos $x$ al número de horas extraordinarias de la cadena A la próxima semana e $y$ al de la cadena B.
+    Podemos organizar la información en una tabla.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <th>Portátiles</th>
+                <th>Tablets</th>
+                <th>Costes (€)</th>
+            </tr>
+
+            <tr>
+                <th>Cadena A</th>
+                <td>15</td>
+                <td>6</td>
+                <td>300</td>
+            </tr>
+
+            <tr>
+                <th>Cadena B</th>
+                <td>10</td>
+                <td>10</td>
+                <td>600</td>
+            </tr>
+
+            <tr>
+                <th>Máximo</th>
+                <td>360</td>
+                <td>216</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
 </p>
 
 <p>
-    Se preparan 15 portátiles cada hora extraordinaria de la cadena A, 10 portátiles cada hora extraordinaria de la cadena B y se deben producir un máximo de 360 portátiles, así que
+    Se preparan 15 portátiles cada hora extraordinaria de la cadena A, 10 cada hora extraordinaria de la cadena B y se deben producir un máximo de 360, así que
     $$15x + 10y \leq 360.$$
 
-    Se preparan 6 tablets cada hora extraordinaria de la cadena A, 10 tablets cada hora extraordinaria de la cadena B y se deben producir un mínimo de 216 tablets, así que
+    Se preparan 6 tablets cada hora extraordinaria de la cadena A, 10 cada hora extraordinaria de la cadena B y se deben producir un mínimo de 216, así que
     $$6x + 10y \geq 216.$$
 
     Como la cadena B no puede realizar más del triple de horas extraordinarias de la cadena A,
