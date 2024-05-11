@@ -1,0 +1,81 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                La función $f$ es una función racional, así que los puntos que no pertenecen al dominio son aquellos que anulan al denominador.
+                $$x + 2 = 0 \Leftrightarrow x = -2.$$
+
+                Por tanto, $\mathrm{Dom}(f) = \mathbb{R} \setminus \{-2\}.$
+            </li>
+
+            <li>
+                Estudiamos la monotonía.
+                En primer lugar, calculamos la derivada de la función $f.$
+                $$f'(x) = \frac{x+2 - (x-3)}{(x+2)^2} = \frac{5}{(x+2)^2}.$$
+
+                Observamos que $f'(x) > 0$ para $x \neq -2$, así que $f$ es creciente en todo su dominio y no tiene extremos.
+            </li>
+
+            <li>
+                Estudiamos la curvatura.
+                Para ello, calculamos la segunda derivada de $f.$
+                $$f''(x) = -\frac{10}{(x+2)^3}.$$
+
+                Observamos que $f''(x) \neq 0$ para $x \neq -2$, así que no tiene puntos de inflexión.
+                Estudiamos el signo de $f''$ considerando $x = -2$ por no pertenecer al dominio.
+
+                <ul>
+                    <li>
+                        Si $x < -2$, $f''(x) > 0.$
+                        Así que $f$ es convexa.
+                    </li>
+
+                    <li>
+                        Si $x > -2$, $f''(x) < 0.$
+                        Así que $f$ es cóncava.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                El denominador se anula en $x = -2$ y observamos que
+                \begin{align}
+                    & \lim_{x \to -2^-} f(x) = \lim_{x \to -2^-} \frac{x-3}{x+2} = +\infty, \\
+                    & \lim_{x \to -2^+} f(x) = \lim_{x \to -2^+} \frac{x-3}{x+2} = -\infty.
+                \end{align}
+
+                Por tanto, la recta $x = -2$ es una asíntota vertical.
+            </li>
+
+            <li>
+                Veamos si tiene una asíntota horizontal.
+                $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{x-3}{x+2} = 1.$$
+
+                Por tanto, la recta $y = 1$ es una asíntota horizontal y $f$ no tiene ninguna asíntota oblicua.
+            </li>
+
+            <li>
+                Hallamos los puntos de corte con el eje $X$, es decir, aquellos puntos con $y = 0.$
+                $$f(x) = 0 \Leftrightarrow \frac{x-3}{x+2} = 0 \Leftrightarrow x - 3 = 0 \Leftrightarrow x = 3.$$
+
+                Luego el único punto de corte con el eje $X$ es $(3, 0).$
+            </li>
+
+            <li>
+                Hallamos ahora el punto de corte con el eje $Y.$
+                $$f(0) = \frac{-3}{2}.$$
+
+                Así que el punto de corte con el eje $Y$ es $\left(0, -\frac{3}{2}\right).$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Representamos gráficamente la función usando la información de los apartados anteriores.
+        <img class="figura" src="img/sociales/R202214.png" alt="Figura" loading="lazy">
+    </li>
+</ol>

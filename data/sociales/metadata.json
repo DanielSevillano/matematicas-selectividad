@@ -492,6 +492,7 @@
     },
     {
         "ejercicio": 202214,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
