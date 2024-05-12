@@ -6,7 +6,7 @@
 </p>
 
 <p>
-    Nuestro objetivo en este bloque será aprender <b>resolver sistemas de ecuaciones lineales</b> con el número de ecuaciones y el número de incógnitas que queramos.
+    Nuestro objetivo en este bloque será aprender a trabajar con <b>matrices</b>, lo que nos servirá para <b>resolver sistemas de ecuaciones lineales</b> con el número de ecuaciones y el número de incógnitas que queramos.
     Por ejemplo:
     \begin{cases}
         2x + y + z = 0, \\
@@ -15,8 +15,7 @@
 </p>
 
 <p>
-    Para ello, tendremos que introducir y estudiar las <b>matrices</b>, una estructura matemática muy potente
-    que nos resultará fundamental para el estudio de los sistemas de ecuaciones.
+    Para ello, tendremos que introducir y estudiar las <b>matrices</b>, una estructura matemática que nos resultará fundamental para el estudio de los sistemas de ecuaciones.
     También aprenderemos qué es el <b>determinante de una matriz</b> y por qué es tan importante.
     Por último, veremos cómo todo lo que hemos aprendido se puede aplicar al estudio de <b>sistemas de ecuaciones lineales</b>.
     Nos permitirá determinar si un sistema tiene solución o no, e incluso cuántas soluciones tiene, sin necesidad de resolverlo primero.
