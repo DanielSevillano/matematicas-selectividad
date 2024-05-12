@@ -538,6 +538,7 @@
     },
     {
         "ejercicio": 202222,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
@@ -578,6 +579,7 @@
     },
     {
         "ejercicio": 202227,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]

@@ -1,0 +1,37 @@
+<ol>
+    <li>
+        Llamamos $\tau$ al plano que nos piden.
+        <img class="figura" src="img/R202227-1.png" alt="Figura" loading="lazy">
+
+        Como $\tau$ es perpendicular a $\pi$ y contiene a $r$, $\vec{n}_\pi = (1, 1, 1)$ y $\vec{d}_r = (1, -1, 0)$ son dos vectores directores del plano $\tau.$
+        Además, el punto $P(0, 1, 0)$ pertenece al plano por ser un punto de $r.$
+        Por tanto, las ecuaciones paramétricas del plano $\tau$ son
+        $$\tau \equiv \begin{cases}
+            x = \lambda + \mu, \\
+            y = 1 + \lambda - \mu, \\
+            z = \lambda.
+        \end{cases}$$
+    </li>
+
+    <li>
+        Para hallar la distancia de la recta $r$ al plano $\pi$, podemos trazar una recta $s$ perpendicular a $\pi$ que pase por $P.$
+        Esta recta cortará a $\pi$ es un punto $Q$, de forma que $\mathrm{dist}(r, \pi) = \mathrm{dist}(P, Q).$
+        <img class="figura" src="img/R202227-2.png" alt="Figura" loading="lazy">
+
+        Si $s$ es perpendicular a $\pi$, su vector director es $\vec{d}_s = \vec{n}_\pi = (1, 1, 1).$
+        Así que las ecuaciones de la recta $s$ son
+        $$s \equiv \begin{cases}
+            x = \lambda, \\
+            y = 1 + \lambda, \\
+            z = \lambda.
+        \end{cases}$$
+
+        Calculamos el punto $Q = s \cap \pi.$
+        Para ello sustituimos las ecuaciones paramétricas de $s$ en la ecuación del plano.
+        $$\lambda + 1 + \lambda + \lambda = 0 \Leftrightarrow 3\lambda = -1 \Leftrightarrow \lambda = -\frac{1}{3}.$$
+
+        Por tanto, el punto de corte es $Q\left(-\frac{1}{3}, \frac{2}{3}, -\frac{1}{3}\right).$
+        Por último, calculamos la distancia de $r$ a $\pi$ como el módulo del vector $\vec{PQ} = \left(-\frac{1}{3}, -\frac{1}{3}, -\frac{1}{3}\right).$
+        $$\mathrm{dist}(r, \pi) = \mathrm{dist}(P, Q) = |\vec{PQ}| = \sqrt{\left(\frac{1}{3}\right)^2 + \left(\frac{1}{3}\right)^2 + \left(\frac{1}{3}\right)^2} = \sqrt{3 \cdot \left(\frac{1}{3}\right)^2} = \frac{1}{\sqrt{3}} \; u.$$
+    </li>
+</ol>

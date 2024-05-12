@@ -1,0 +1,55 @@
+<ol>
+    <li>
+        En primer lugar, calculamos la derivada de $f.$
+        $$f'(x) = \frac{2x}{x^2+1}.$$
+
+        Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
+        $$f'(x) = 0 \Leftrightarrow \frac{2x}{x^2+1} = 0 \Leftrightarrow 2x = 0 \Leftrightarrow x = 0.$$
+
+        Estudiamos el signo de $f'.$
+
+        <ul>
+            <li>
+                Si $x < 0$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $x > 0$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es creciente en $(0, +\infty)$ y es decreciente en $(-\infty, 0).$
+    </li>
+
+    <li>
+        En primer lugar, calculamos la segunda derivada de $f.$
+        $$f''(x) = \frac{2(x^2+1) - 2x \cdot 2x}{(x^2+1)^2} = \frac{-2x^2 + 2}{(x^2+1)^2}.$$
+
+        Para hallar los candidatos a puntos de inflexión, igualamos la segunda derivada a cero.
+        $$f''(x) = 0 \Leftrightarrow \frac{-2x^2 + 2}{(x^2+1)^2} = 0 \Leftrightarrow -2x^2 + 2 = 0 \Leftrightarrow x^2 = 1 \Leftrightarrow x = \pm 1.$$
+
+        Estudiemos el signo de $f''.$
+
+        <ul>
+            <li>
+                Si $x < -1$, $f''(x) < 0.$
+                Así que $f$ es cóncava.
+            </li>
+
+            <li>
+                Si $-1 < x < 1$, $f''(x) > 0.$
+                Así que $f$ es convexa.
+            </li>
+
+            <li>
+                Si $x > 1$, $f''(x) < 0.$
+                Así que $f$ es cóncava.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es convexa en $(-1, 1)$ y es cóncava en $(-\infty, -1) \cup (1, +\infty).$
+        Además, tiene puntos de inflexión en $x = -1$ y $x = 1$, es decir, los puntos $(-1, \ln(2))$ y $(1, \ln(2)).$
+    </li>
+</ol>
