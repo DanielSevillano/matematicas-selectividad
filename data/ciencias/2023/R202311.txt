@@ -5,7 +5,7 @@
     Como $x$ e $y$ son distancias no nulas, entonces $x, y > 0.$
     Representamos la figura.
 
-    <img src="img/R202311.png" alt="Figura" loading="lazy">
+    <img src="img/ciencias/R202311.png" alt="Figura" loading="lazy">
 </p>
 
 <p>

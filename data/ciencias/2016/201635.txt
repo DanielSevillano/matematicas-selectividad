@@ -1,5 +1,5 @@
 De un terreno se desea vender un solar rectangular de 12800 m<sup>2</sup> dividido en 3 parcelas iguales como las que aparecen en el dibujo.
 Se quieren vallar las lindes de las tres parcelas (los bordes y las separaciones de las parcelas).
-<img class="figura" src="img/201635.png" alt="Figura" loading="lazy">
+<img class="figura" src="img/ciencias/201635.png" alt="Figura" loading="lazy">
 
 Determina las dimensiones del solar y de cada una de las tres parcelas para que la longitud de la valla utilizada sea mínima.

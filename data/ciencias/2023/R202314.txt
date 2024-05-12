@@ -15,7 +15,7 @@
     <li>
         Sabemos por el apartado anterior que la función y la recta se cortan en $x = 2.$
         Representamos el recinto.
-        <img src="img/R202314.png" alt="Figura" loading="lazy">
+        <img src="img/ciencias/R202314.png" alt="Figura" loading="lazy">
 
         Calculamos el área del recinto.
         $$\int_0^2 ((x^2+1) - (4x-3))dx = \int_0^2 (x^2 - 4x + 4)dx = \left[\frac{x^3}{3} - 2x^2 + 4x\right]_0^2 = \frac{8}{3} \; u^2.$$

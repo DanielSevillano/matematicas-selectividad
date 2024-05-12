@@ -4,7 +4,7 @@
     Por otro lado, llamamos $y$ a la altura del rectángulo.
     Como $x$ e $y$ son distancias, entonces $x, y \geq 0.$
     Representamos la figura.
-    <img src="img/R202252.png" alt="Figura" loading="lazy">
+    <img src="img/ciencias/R202252.png" alt="Figura" loading="lazy">
 </p>
 
 <p>

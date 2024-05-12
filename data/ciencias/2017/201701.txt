@@ -1,5 +1,5 @@
 Se  quiere hacer una puerta rectangular coronada por un semicírculo como el de la figura.
 El hueco de la puerta tiene que tener 16 metros cuadrados.
-<img class="figura" src="img/201701.png" alt="Figura" loading="lazy">
+<img class="figura" src="img/ciencias/201701.png" alt="Figura" loading="lazy">
 
 Si es posible, determina la base $x$ para que el perímetro sea mínimo.

@@ -15,7 +15,7 @@
         $$f(x) = 0 \Leftrightarrow 2xe^{x^2} = 0 \Leftrightarrow x = 0.$$
 
         Podemos representar el recinto limitado por la gráfica de $f$, el eje $X$ y la recta $x = 1.$
-        <img src="img/R202323.png" alt="Figura" loading="lazy">
+        <img src="img/ciencias/R202323.png" alt="Figura" loading="lazy">
 
         Calculamos el área del recinto.
         $$\int_0^1 f(x)dx = \left[F(x)\right]_0^1 = \left[e^{x^2}\right]_0^1 = e - 1 \; u^2.$$

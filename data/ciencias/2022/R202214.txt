@@ -6,7 +6,7 @@
         Por tanto, los puntos de corte son $\left(-\frac{1}{\sqrt{3}}, \frac{2}{3}\right)$ y $\left(\frac{1}{\sqrt{3}}, \frac{2}{3}\right).$
         Representamos el recinto determinado por ambas funciones.
         
-        <img src="img/R202214.png" alt="Figura" loading="lazy">
+        <img src="img/ciencias/R202214.png" alt="Figura" loading="lazy">
     </li>
 
     <li>

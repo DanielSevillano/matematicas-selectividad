@@ -25,7 +25,7 @@
 </p>
 
 <p>Representamos la función $f$ y la recta $y = x$ para visualizar el área del recinto.</p>
-<img src="img/R202303.png" alt="Figura" loading="lazy">
+<img src="img/ciencias/R202303.png" alt="Figura" loading="lazy">
 
 <p>
     Por último, calculamos el área del recinto.

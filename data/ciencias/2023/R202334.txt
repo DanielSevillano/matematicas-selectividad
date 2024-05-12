@@ -12,7 +12,7 @@
         Por tanto, los puntos de corte son $(-2, 3)$ y $(3, 8).$
         
         Representamos el recinto determinado por ambas funciones.
-        <img class="figura" src="img/R202334.png" alt="Figura" loading="lazy">
+        <img class="figura" src="img/ciencias/R202334.png" alt="Figura" loading="lazy">
     </li>
 
     <li>

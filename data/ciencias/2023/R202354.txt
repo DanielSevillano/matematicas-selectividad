@@ -16,12 +16,12 @@
 
         Representamos gráficamente las dos funciones.
         Observamos que ambas funciones tienen simetría par y la parábola tiene vértice $(0, 5).$
-        <img src="img/R202354-1.png" alt="Figura" loading="lazy">
+        <img src="img/ciencias/R202354-1.png" alt="Figura" loading="lazy">
     </li>
 
     <li>
         Podemos representar los recintos limitados por las gráficas de $f$ y $g.$
-        <img src="img/R202354-2.png" alt="Figura" loading="lazy">
+        <img src="img/ciencias/R202354-2.png" alt="Figura" loading="lazy">
 
         Como los dos recintos tienen la misma superficie, podemos calcular el área como
         \begin{align}

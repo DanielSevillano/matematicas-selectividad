@@ -14,7 +14,7 @@
 
     <li>
         Consideramos el paralelogramo
-        <img src="img/R202207.png" alt="Figura" loading="lazy">
+        <img src="img/ciencias/R202207.png" alt="Figura" loading="lazy">
 
         <ul>
             <li>

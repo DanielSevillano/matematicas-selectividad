@@ -1,4 +1,4 @@
 Se quiere cercar un trozo de terreno como el de la figura, de modo que el área del recinto central rectangular sea de $\frac{200}{\pi}$ metros cuadrados.
 Sabiendo que el coste de la cerca que se puede poner en los tramos rectos es de 10 euros por metro lineal, y en los tramos circulares de 20 euros por metro lineal, calcula las dimensiones $a$ y $b$ del terreno para los que se minimiza el coste del cercado.
 
-<img class="figura" src="img/202212.png" alt="Figura" loading="lazy">
+<img class="figura" src="img/ciencias/202212.png" alt="Figura" loading="lazy">

@@ -7,7 +7,7 @@
     Por ejemplo, determinar las dimensiones de una lata para minimizar el coste o hallar el área bajo la función $f(x) = \mathrm{sen}(x)$ entre $x = 0$ y $x = \pi.$
 </p>
 
-<img src="img/analisis-introduccion.png" alt="Función"/>
+<img src="img/ciencias/analisis-introduccion.png" alt="Función"/>
 
 <p>
     Para ello, tendremos que recordar las características principales de las funciones y reintroducir los <b>límites</b>, una herramienta que resultará fundamental para estudiar la continuidad y las asíntotas.

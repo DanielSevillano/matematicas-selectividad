@@ -21,7 +21,7 @@
 
         La primera rama es una recta, mientras que la segunda es una parábola con vértice $(2, 0).$
 
-        <img src="img/R202203.png" alt="Figura" loading="lazy">
+        <img src="img/ciencias/R202203.png" alt="Figura" loading="lazy">
     </li>
 
     <li>

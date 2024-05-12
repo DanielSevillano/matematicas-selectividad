@@ -1,6 +1,6 @@
 <p>
     Podemos representar el recinto limitado por la gráfica de $f$, la recta $x = e-1$ y el eje de abscisas.
-    <img class="figura" src="img/R202344.png" alt="Figura" loading="lazy">
+    <img class="figura" src="img/ciencias/R202344.png" alt="Figura" loading="lazy">
 </p>
 
 <p>
