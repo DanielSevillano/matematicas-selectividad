@@ -66,6 +66,7 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
+            "Distancia",
             "Área"
         ]
     },
@@ -130,7 +131,8 @@
         "ejercicio": 202318,
         "resuelto": true,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -187,7 +189,8 @@
         "ejercicio": 202327,
         "resuelto": true,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -319,14 +322,16 @@
         "ejercicio": 202347,
         "resuelto": true,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
         "ejercicio": 202348,
         "resuelto": true,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -384,6 +389,7 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
+            "Distancia",
             "Ángulos"
         ]
     },
@@ -524,6 +530,7 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
+            "Distancia",
             "Ángulos"
         ]
     },
@@ -581,13 +588,15 @@
         "ejercicio": 202227,
         "resuelto": true,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
         "ejercicio": 202228,
         "categorias": [
             "Geometría",
+            "Distancia",
             "Ángulos"
         ]
     },
@@ -654,7 +663,8 @@
         "ejercicio": 202238,
         "categorias": [
             "Geometría",
-            "Punto simétrico"
+            "Punto simétrico",
+            "Distancia"
         ]
     },
     {
@@ -709,6 +719,7 @@
         "ejercicio": 202247,
         "categorias": [
             "Geometría",
+            "Distancia",
             "Volumen"
         ]
     },
@@ -899,13 +910,15 @@
         "ejercicio": 202117,
         "categorias": [
             "Geometría",
-            "Punto simétrico"
+            "Punto simétrico",
+            "Distancia"
         ]
     },
     {
         "ejercicio": 202118,
         "categorias": [
             "Geometría",
+            "Distancia",
             "Área"
         ]
     },
@@ -960,7 +973,8 @@
         "ejercicio": 202127,
         "categorias": [
             "Geometría",
-            "Punto simétrico"
+            "Punto simétrico",
+            "Distancia"
         ]
     },
     {
@@ -1089,6 +1103,7 @@
         "ejercicio": 202148,
         "categorias": [
             "Geometría",
+            "Distancia",
             "Área"
         ]
     },
@@ -1145,7 +1160,8 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Punto simétrico"
+            "Punto simétrico",
+            "Distancia"
         ]
     },
     {
@@ -1297,7 +1313,8 @@
         "ejercicio": 202024,
         "categorias": [
             "Geometría",
-            "Punto simétrico"
+            "Punto simétrico",
+            "Distancia"
         ]
     },
     {
@@ -1360,6 +1377,7 @@
         "ejercicio": 202034,
         "categorias": [
             "Geometría",
+            "Distancia",
             "Volumen"
         ]
     },
@@ -1419,6 +1437,7 @@
         "ejercicio": 202044,
         "categorias": [
             "Geometría",
+            "Distancia",
             "Área"
         ]
     },
@@ -1503,7 +1522,8 @@
     {
         "ejercicio": 202058,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -1535,7 +1555,8 @@
         "ejercicio": 201904,
         "categorias": [
             "Geometría",
-            "Posición relativa"
+            "Posición relativa",
+            "Distancia"
         ]
     },
     {
@@ -1595,7 +1616,8 @@
     {
         "ejercicio": 201914,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -1651,7 +1673,8 @@
     {
         "ejercicio": 201924,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -1709,7 +1732,8 @@
     {
         "ejercicio": 201934,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -1769,7 +1793,8 @@
     {
         "ejercicio": 201944,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -1796,7 +1821,8 @@
     {
         "ejercicio": 201948,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -1887,7 +1913,8 @@
         "ejercicio": 201804,
         "categorias": [
             "Geometría",
-            "Punto simétrico"
+            "Punto simétrico",
+            "Distancia"
         ]
     },
     {
@@ -1917,7 +1944,8 @@
         "ejercicio": 201808,
         "categorias": [
             "Geometría",
-            "Punto simétrico"
+            "Punto simétrico",
+            "Distancia"
         ]
     },
     {
@@ -2060,7 +2088,8 @@
     {
         "ejercicio": 201834,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -2088,7 +2117,8 @@
     {
         "ejercicio": 201838,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -2117,7 +2147,8 @@
         "ejercicio": 201844,
         "categorias": [
             "Geometría",
-            "Posición relativa"
+            "Posición relativa",
+            "Distancia"
         ]
     },
     {
@@ -2174,7 +2205,8 @@
         "ejercicio": 201854,
         "categorias": [
             "Geometría",
-            "Posición relativa"
+            "Posición relativa",
+            "Distancia"
         ]
     },
     {
@@ -2349,7 +2381,8 @@
     {
         "ejercicio": 201724,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -2404,7 +2437,8 @@
     {
         "ejercicio": 201734,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -2575,7 +2609,8 @@
         "ejercicio": 201604,
         "categorias": [
             "Geometría",
-            "Punto simétrico"
+            "Punto simétrico",
+            "Distancia"
         ]
     },
     {
@@ -2692,7 +2727,8 @@
         "ejercicio": 201624,
         "categorias": [
             "Geometría",
-            "Posición relativa"
+            "Posición relativa",
+            "Distancia"
         ]
     },
     {
@@ -2805,7 +2841,8 @@
     {
         "ejercicio": 201644,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -2889,7 +2926,8 @@
     {
         "ejercicio": 201658,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3061,7 +3099,8 @@
     {
         "ejercicio": 201528,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3118,7 +3157,8 @@
     {
         "ejercicio": 201538,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3177,7 +3217,8 @@
     {
         "ejercicio": 201548,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3205,7 +3246,8 @@
     {
         "ejercicio": 201554,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3262,7 +3304,8 @@
     {
         "ejercicio": 201404,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3405,7 +3448,8 @@
     {
         "ejercicio": 201428,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3490,7 +3534,8 @@
     {
         "ejercicio": 201444,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3546,7 +3591,8 @@
     {
         "ejercicio": 201454,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3573,7 +3619,8 @@
     {
         "ejercicio": 201458,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3601,7 +3648,8 @@
     {
         "ejercicio": 201304,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3628,7 +3676,8 @@
     {
         "ejercicio": 201308,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3657,7 +3706,8 @@
     {
         "ejercicio": 201314,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3769,7 +3819,8 @@
     {
         "ejercicio": 201334,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -3797,7 +3848,8 @@
         "ejercicio": 201338,
         "categorias": [
             "Geometría",
-            "Posición relativa"
+            "Posición relativa",
+            "Distancia"
         ]
     },
     {
@@ -3825,7 +3877,8 @@
     {
         "ejercicio": 201344,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -4032,7 +4085,8 @@
     {
         "ejercicio": 201218,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -4062,7 +4116,8 @@
         "ejercicio": 201224,
         "categorias": [
             "Geometría",
-            "Posición relativa"
+            "Posición relativa",
+            "Distancia"
         ]
     },
     {
@@ -4150,7 +4205,8 @@
     {
         "ejercicio": 201238,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -4178,7 +4234,8 @@
     {
         "ejercicio": 201244,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
@@ -4235,7 +4292,8 @@
     {
         "ejercicio": 201254,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
