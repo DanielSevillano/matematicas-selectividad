@@ -1,0 +1,35 @@
+<ol>
+    <li>
+        En primer lugar, pasamos la recta $r$ a ecuaciones paramétricas.
+        $$r \equiv \begin{cases}
+            x = 1 + \lambda, \\
+            y = 2\lambda, \\
+            z = -1 + 5\lambda.
+        \end{cases}$$
+
+        <ul>
+            <li>
+                La distancia entre el plano $\pi_1$ y un punto genérico $R(1+\lambda, 2\lambda, -1+5\lambda)$ de la recta $r$ viene dada por
+                $$\mathrm{dist}(R, \pi_1) = \frac{|2(1+\lambda) + 2\lambda - 1 + 5\lambda - 3|}{|\vec{n}_1|} = \frac{|9\lambda - 2|}{\sqrt{2^2 + 1^2 + 1^2}} = \frac{|9\lambda - 2|}{\sqrt{6}}.$$
+            </li>
+
+            <li>
+                La distancia entre el plano $\pi_2$ y un punto genérico $R$ de la recta $r$ viene dada por
+                $$\mathrm{dist}(R, \pi_2) = \frac{|1+\lambda + 2 \cdot 2\lambda - (-1 + 5\lambda) + 5|}{|\vec{n}_2|} = \frac{7}{\sqrt{1^2 + 2^2 + 1^2}} = \frac{7}{\sqrt{6}}.$$
+            </li>
+        </ul>
+
+        Como queremos hallar los puntos de $r$ equidistantes de los planos $\pi_1$ y $\pi_2$,
+        $$\mathrm{dist}(R, \pi_1) = \mathrm{dist}(R, \pi_2) \Leftrightarrow \frac{|9\lambda - 2|}{\sqrt{6}} = \frac{7}{\sqrt{6}} \Leftrightarrow |9\lambda - 2| = 7 \Leftrightarrow \begin{cases}
+            9\lambda - 2 = 7 \Leftrightarrow \lambda = 1, \\
+            9\lambda - 2 = -7 \Leftrightarrow \lambda = -\frac{5}{9}.
+        \end{cases}$$
+
+        Por tanto, los puntos son $R_1(2, 2, 4)$ y $R_2\left(\frac{4}{9}, -\frac{10}{9}, -\frac{34}{9}\right).$
+    </li>
+
+    <li>
+        El seno del ángulo $\alpha$ que forman el plano $\pi_1$ y la recta $r$ viene dado por
+        $$\mathrm{sen}(\alpha) = \frac{|\vec{d}_r \cdot \vec{n}_1|}{|\vec{d}_r||\vec{n}_1|} = \frac{9}{\sqrt{30} \sqrt{6}} = \frac{9}{\sqrt{180}} = \frac{3}{\sqrt{20}}.$$
+    </li>
+</ol>

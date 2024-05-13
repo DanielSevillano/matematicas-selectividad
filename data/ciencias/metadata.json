@@ -594,6 +594,7 @@
     },
     {
         "ejercicio": 202228,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Distancia",
