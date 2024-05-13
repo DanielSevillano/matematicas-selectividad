@@ -1,0 +1,32 @@
+<ol>
+    <li>
+        Los beneficios viene dados por la diferencia entre los ingresos y los costes.
+        La función que representa los beneficios en miles de euros en función del número de horas diarias es
+        $$B(x) = I(x) - C(x) = x^3 - x - (x^3 - x^2 + 6) = x^2 - x - 6, \quad 0 \leq x \leq 8.$$
+
+        Podemos representar la función
+        <img class="figura" src="img/sociales/R202223.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        Hallamos los puntos de corte de $B$ con el eje $X$, es decir, aquellos puntos con $y = 0.$
+        $$B(x) = 0 \Leftrightarrow x^2 - x - 6 = 0 \Leftrightarrow \begin{cases}
+            x = -2, \\
+            x = 3.
+        \end{cases}$$
+
+        Así que el único punto de corte con el eje en el dominio $[0, 8]$ está en $x = 3.$
+        Observamos además que $B(x) > 0$ para $x > 3.$
+        Por tanto, la discoteca obtiene beneficios a partir de la tercera hora.
+    </li>
+
+    <li>
+        La función $B$ es una parábola cóncava con vértice $(0,5; \; -6,25)$, por lo que este es su mínimo absoluto.
+        Por tanto, la discoteca tiene las mayores pérdidas a la media hora y estas ascienden a 6.250€.
+    </li>
+
+    <li>
+        El máximo absoluto de la función es el punto $(8, 50).$
+        Por tanto, se obtiene el máximo beneficio a las ocho horas y este asciende a 50.000€.
+    </li>
+</ol>

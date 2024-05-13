@@ -545,6 +545,7 @@
     },
     {
         "ejercicio": 202223,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos"
@@ -552,6 +553,7 @@
     },
     {
         "ejercicio": 202224,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",
