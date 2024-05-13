@@ -564,6 +564,7 @@
     },
     {
         "ejercicio": 202225,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
