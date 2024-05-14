@@ -20,7 +20,7 @@
 </p>
 
 <p>
-    En general, una matriz de tamaño $m \times n$ es de la forma
+    En general, una matriz de dimensión $m \times n$ es de la forma
     $$A_{m \times n} = \begin{pmatrix}
         a_{11} & a_{12} & \dots & a_{1n} \\
         a_{21} & a_{22} & \dots & a_{2n} \\
@@ -311,7 +311,7 @@
         \end{align}
 
         El elemento neutro de la multiplicación es la matriz identidad, una matriz cuadrada cuyos elementos de la diagonal principal son todos 1 y el resto 0.
-        En general, si es de orden $n$ se suele denotar por $I_n.$
+        En general, si es de orden $n$ se denota por $I_n.$
         Si no hay confusión con el orden, se suele escribir simplemente como $I.$
         Por ejemplo:
         $$I_2 = \begin{pmatrix}
