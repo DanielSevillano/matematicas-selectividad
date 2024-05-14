@@ -247,7 +247,8 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -440,7 +441,8 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -574,7 +576,8 @@
         "ejercicio": 202225,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -707,14 +710,16 @@
         "ejercicio": 202245,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
         "ejercicio": 202246,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -836,7 +841,8 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -905,7 +911,8 @@
         "ejercicio": 202116,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1222,7 +1229,8 @@
         "ejercicio": 202007,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1280,7 +1288,8 @@
         "ejercicio": 202017,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1308,7 +1317,8 @@
         "ejercicio": 202023,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1432,7 +1442,8 @@
         "ejercicio": 202043,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1489,7 +1500,8 @@
         "ejercicio": 202053,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1581,7 +1593,8 @@
         "ejercicio": 201907,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1758,7 +1771,8 @@
         "ejercicio": 201937,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1817,7 +1831,8 @@
         "ejercicio": 201947,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1845,7 +1860,8 @@
         "ejercicio": 201953,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1908,7 +1924,8 @@
         "ejercicio": 201803,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -1969,8 +1986,8 @@
         "ejercicio": 201813,
         "categorias": [
             "Álgebra",
-            "Rango",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2056,7 +2073,8 @@
         "ejercicio": 201827,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2084,7 +2102,8 @@
         "ejercicio": 201833,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2113,7 +2132,8 @@
         "ejercicio": 201837,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2230,7 +2250,8 @@
         "ejercicio": 201857,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2491,7 +2512,8 @@
         "ejercicio": 201743,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2548,12 +2570,16 @@
         "ejercicio": 201753,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
         "ejercicio": 201754,
-        "categorias": []
+        "categorias": [
+            "Geometría",
+            "Área"
+        ]
     },
     {
         "ejercicio": 201755,
@@ -2635,7 +2661,8 @@
         "ejercicio": 201607,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2752,7 +2779,8 @@
         "ejercicio": 201627,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2781,7 +2809,8 @@
         "ejercicio": 201633,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2892,7 +2921,8 @@
         "ejercicio": 201653,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -2950,7 +2980,8 @@
         "ejercicio": 201503,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -3036,7 +3067,8 @@
         "ejercicio": 201517,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -3095,7 +3127,8 @@
         "ejercicio": 201527,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -3413,7 +3446,8 @@
         "ejercicio": 201423,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -3473,7 +3507,8 @@
         "ejercicio": 201433,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -3559,7 +3594,8 @@
         "ejercicio": 201447,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -3815,7 +3851,8 @@
         "categorias": [
             "Álgebra",
             "Rango",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -3873,7 +3910,8 @@
         "ejercicio": 201343,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -3963,7 +4001,8 @@
         "ejercicio": 201357,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -4081,7 +4120,8 @@
         "ejercicio": 201217,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -4111,7 +4151,8 @@
         "ejercicio": 201223,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -4259,7 +4300,8 @@
         "ejercicio": 201247,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
@@ -4318,7 +4360,8 @@
         "ejercicio": 201257,
         "categorias": [
             "Álgebra",
-            "Sistemas"
+            "Sistemas",
+            "Discusión de sistemas"
         ]
     },
     {
