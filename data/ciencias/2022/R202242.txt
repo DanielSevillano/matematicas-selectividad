@@ -1,31 +1,42 @@
 <ol>
-    <li>El único candidato para ser una asíntota vertical de $f$ es $x = -2$, que es el valor que anula el denominador.
-    Observamos que
-    \begin{align}
-        & \lim_{x \to -2^-} \frac{x^4 - 3x^2 + 2}{(x+2)^3} = \frac{2}{0^-} = -\infty, \\
-        & \lim_{x \to -2^+} \frac{x^4 - 3x^2 + 2}{(x+2)^3} = \frac{2}{0^+} = +\infty.
-    \end{align}
+    <li>
+        <ul>
+            <li>
+                El denominador se anula en $x = -2$ y observamos que
+                \begin{align}
+                    & \lim_{x \to -2^-} \frac{x^4 - 3x^2 + 2}{(x+2)^3} = \frac{2}{0^-} = -\infty, \\
+                    & \lim_{x \to -2^+} \frac{x^4 - 3x^2 + 2}{(x+2)^3} = \frac{2}{0^+} = +\infty.
+                \end{align}
 
-    Por tanto, la recta $x = -2$ es una asíntota vertical.
+                Por tanto, la recta $x = -2$ es una asíntota vertical.
+            </li>
 
-    Veamos si $f$ tiene una asíntota horizontal.
-    $$\lim_{x \to +\infty} \frac{x^4 - 3x^2 + 2}{(x+2)^3} = +\infty.$$
-    Así que $f$ no tiene una asíntota horizontal.
+            <li>
+                Veamos si tiene una asíntota horizontal.
+                $$\lim_{x \to +\infty} \frac{x^4 - 3x^2 + 2}{(x+2)^3} = +\infty.$$
+                Así que $f$ no tiene una asíntota horizontal.
+            </li>
 
-    Veamos si en su lugar tiene una asíntota oblicua.
-    $$\lim_{x \to +\infty} \frac{f(x)}{x} = \lim_{x \to +\infty} \frac{x^4 - 3x^2 + 2}{x(x+2)^3} = \lim_{x \to +\infty} \frac{x^4 - 3x^2 + 2}{x^4 + 2x^2 + 4x + 8} = 1.$$
-    Así que $f$ tiene una asíntota oblicua con pendiente $m = 1.$
-    Calculamos su ordenada en el origen.
-    $$\lim_{x \to +\infty} (f(x) - x) = \lim_{x \to +\infty} \left(\frac{x^4 - 3x^2 + 2}{(x+2)^3} - x\right) = \lim_{x \to +\infty} \frac{-5x^3 - 4x^2 - 8x + 2}{x^3 + 2x^2 + 4x + 8} = -5.$$
-    Por tanto, la recta $y = x -5$ es una asíntota oblicua.</li>
+            <li>
+                Veamos si en su lugar tiene una asíntota oblicua.
+                $$\lim_{x \to +\infty} \frac{f(x)}{x} = \lim_{x \to +\infty} \frac{x^4 - 3x^2 + 2}{x(x+2)^3} = \lim_{x \to +\infty} \frac{x^4 - 3x^2 + 2}{x^4 + 6x^3 + 12x^2 + 8x} = 1.$$
+                Así que $f$ tiene una asíntota oblicua con pendiente $m = 1.$
+                Calculamos su ordenada en el origen.
+                $$\lim_{x \to +\infty} (f(x) - x) = \lim_{x \to +\infty} \left(\frac{x^4 - 3x^2 + 2}{(x+2)^3} - x\right) = \lim_{x \to +\infty} \frac{-6x^3 - 15x^2 - 8x + 2}{x^3 + 6x^2 + 12x + 8} = -6.$$
+                Por tanto, la recta $y = x - 6$ es una asíntota oblicua.
+            </li>
+        </ul>
+    </li>
 
-    <li>En primer lugar, calculamos la derivada de la función $f.$
-    $$f'(x) = \frac{(4x^3-6x)(x+2)^3 - 3(x+2)^2(x^4-3x^2+2)}{(x+2)^6}.$$
+    <li>
+    En primer lugar, calculamos la derivada de la función $f.$
+        $$f'(x) = \frac{(4x^3-6x)(x+2)^3 - 3(x+2)^2(x^4-3x^2+2)}{(x+2)^6}.$$
 
-    La pendiente $m_t$ de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0$ viene dada por
-    $$m_t = f'(0) = \frac{-24}{64} = -\frac{3}{8}.$$
-    Como la recta normal es perpendicular a la recta tangente, su pendiente $m_n$ ha de verificar
-    $$m_t \cdot m_n = -1 \Leftrightarrow m_n = -\frac{1}{m_t} \xrightarrow{m_t = -3/8} m_n = \frac{8}{3}.$$
-    Por tanto, la recta normal a la gráfica de $f$ en $x = 0$ se puede hallar usando la ecuación punto-pendiente como
-    $$y - f(0) = m_n(x-0) \Leftrightarrow y - \frac{1}{4} = \frac{8}{3}x \Leftrightarrow y = \frac{8}{3}x + \frac{1}{4}.$$</li>
+        La pendiente $m_t$ de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0$ viene dada por
+        $$m_t = f'(0) = \frac{-24}{64} = -\frac{3}{8}.$$
+        Como la recta normal es perpendicular a la recta tangente, su pendiente $m_n$ ha de verificar
+        $$m_t \cdot m_n = -1 \Leftrightarrow m_n = -\frac{1}{m_t} \xrightarrow{m_t = -3/8} m_n = \frac{8}{3}.$$
+        Por tanto, la recta normal a la gráfica de $f$ en $x = 0$ se puede hallar usando la ecuación punto-pendiente como
+        $$y - f(0) = m_n(x-0) \Leftrightarrow y - \frac{1}{4} = \frac{8}{3}x \Leftrightarrow y = \frac{8}{3}x + \frac{1}{4}.$$
+    </li>
 </ol>
