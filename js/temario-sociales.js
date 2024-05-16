@@ -25,7 +25,7 @@ grupos.forEach((grupo, indice) => {
 
 function pulsar(boton) {
     const seccion = boton.id.replace("boton-", "");
-    mostrarTemario("ciencias", seccion);
+    mostrarTemario("sociales", seccion);
     history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?seccion=" + seccion);
 
     botones.forEach(b => {
@@ -46,9 +46,7 @@ if (!seccion) document.querySelector(".grupo").click();
 else {
     try {
         document.querySelector("#boton-" + seccion).click();
-        if (["analisis", "funciones", "derivadas", "integrales"].includes(seccion)) document.querySelector("#grupo-analisis").click();
-        else if (["algebra", "matrices", "sistemas", "determinantes"].includes(seccion)) document.querySelector("#grupo-algebra").click();
-        else document.querySelector("#grupo-geometria").click();
+        if (["algebra", "matrices", "determinantes"].includes(seccion)) document.querySelector("#grupo-algebra").click();
     }
     catch {
         document.querySelector(".grupo").click();

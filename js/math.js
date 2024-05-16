@@ -220,10 +220,10 @@ async function mostrarCategoria(modalidad, categoria, soloResueltos = false, con
     });
 }
 
-async function obtenerTemario(seccion) {
+async function obtenerTemario(modalidad, seccion) {
     const main = document.querySelector("main");
 
-    const respuesta = await fetch("data\\ciencias\\temario\\" + seccion + ".txt");
+    const respuesta = await fetch("data\\" + modalidad + "\\temario\\" + seccion + ".txt");
     const datos = await respuesta.text();
 
     const articulo = document.createElement("article");
@@ -234,12 +234,12 @@ async function obtenerTemario(seccion) {
     return true;
 }
 
-async function mostrarTemario(seccion) {
+async function mostrarTemario(modalidad, seccion) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerTemario(seccion).then(() => {
+    obtenerTemario(modalidad, seccion).then(() => {
         main.classList.remove("cargando");
     });
 }
