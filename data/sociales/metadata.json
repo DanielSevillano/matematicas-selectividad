@@ -276,6 +276,7 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Sistemas de ecuaciones matriciales"
         ]
     },
@@ -334,6 +335,7 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -708,6 +710,7 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -957,6 +960,7 @@
         "ejercicio": 202132,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -1304,7 +1308,8 @@
     {
         "ejercicio": 202032,
         "categorias": [
-            "Álgebra"
+            "Álgebra",
+            "Dimensiones"
         ]
     },
     {
@@ -1959,6 +1964,7 @@
         "ejercicio": 201825,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -2043,6 +2049,7 @@
         "ejercicio": 201841,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -2686,6 +2693,7 @@
         "ejercicio": 201635,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -2713,6 +2721,7 @@
         "ejercicio": 201641,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -2772,6 +2781,7 @@
         "ejercicio": 201651,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -2858,6 +2868,7 @@
         "ejercicio": 201505,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -2941,6 +2952,7 @@
         "ejercicio": 201521,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
@@ -3279,6 +3291,7 @@
         "ejercicio": 201421,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
