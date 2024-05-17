@@ -1,0 +1,133 @@
+<ol>
+    <li>
+        La matriz de coeficientes del sistema es
+        $$A = \begin{pmatrix}
+            2 & 3 & m \\
+            1 & m & -1 \\
+            3 & 1 & -3
+        \end{pmatrix}.$$
+
+        Para determinar el rango de $A$ según el valor de $m$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            2 & 3 & m \\
+            1 & m & -1 \\
+            3 & 1 & -3
+        \end{vmatrix} = -6m - 9 + m - 3m^2 + 9 + 2 = -3m^2 - 5m + 2.$$
+
+        Obervamos que
+        $$|A| = 0 \Leftrightarrow -3m^2 - 5m + 2 = 0 \Leftrightarrow \begin{cases}
+            m = -2, \\
+            m = \frac{1}{3}.
+        \end{cases}$$
+
+        Es decir, $\mathrm{rang}(A) = 3$ si y solo si $m \neq -2$ y $m \neq \frac{1}{3}.$
+        En otro caso, $\mathrm{rang}(A) \leq 2.$
+        
+        <ul>
+            <li>
+                Si $m \neq -2$ y $m \neq \frac{1}{3}$, el rango de la matriz de coeficientes es máximo.
+                Por tanto, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $m = -2$, la matrices de coeficientes es
+                $$A = \begin{pmatrix}
+                    2 & 3 & -2 \\
+                    1 & -2 & -1 \\
+                    3 & 1 & -3
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    2 & 3 \\
+                    1 & -2
+                \end{vmatrix} = -7 \neq 0 \Rightarrow \mathrm{rang}(A) = 2.$$
+
+                La matriz de coeficientes ampliada es
+                $$(A|B) = \left(\begin{array}{ccc | c}
+                    2 & 3 & -2 & 3 \\
+                    1 & -2 & -1 & -1 \\
+                    3 & 1 & -3 & 2
+                \end{array}\right).$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    2 & 3 & 3 \\
+                    1 & -2 & -1 \\
+                    3 & 1 & 2
+                \end{vmatrix} = 0 \Rightarrow \mathrm{rang}(A|B) = 2.$$
+
+                Como $\mathrm{rang}(A) = \mathrm{rang}(A|B) < 3$, el sistema es compatible indeterminado.
+            </li>
+
+            <li>
+                Si $m = \frac{1}{3}$, la matrices de coeficientes es
+                $$A = \begin{pmatrix}
+                    2 & 3 & \frac{1}{3} \\
+                    1 & \frac{1}{3} & -1 \\
+                    3 & 1 & -3
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    2 & 3 \\
+                    1 & \frac{1}{3}
+                \end{vmatrix} = -\frac{7}{3} \neq 0 \Rightarrow \mathrm{rang}(A) = 2.$$
+
+                La matriz de coeficientes ampliada es
+                $$(A|B) = \left(\begin{array}{ccc | c}
+                    2 & 3 & \frac{1}{3} & 3 \\
+                    1 & \frac{1}{3} & -1 & -1 \\
+                    3 & 1 & -3 & -\frac{1}{3}
+                \end{array}\right).$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    2 & 3 & 3 \\
+                    1 & \frac{1}{3} & -1 \\
+                    3 & 1 & -\frac{1}{3}
+                \end{vmatrix} = -\frac{56}{9} \neq 0 \Rightarrow \mathrm{rang}(A|B) = 3.$$
+
+                Como $\mathrm{rang}(A) \neq \mathrm{rang}(A|B)$, el sistema es incompatible.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Si $m = -2$, el sistema es compatible indeterminado por el apartado anterior.
+        Resolvemos el sistema mediante el método de Gauss.
+        $$\left(\begin{array}{ccc | c}
+            2 & 3 & -2 & 3 \\
+            1 & -2 & -1 & -1 \\
+            3 & 1 & -3 & 2
+        \end{array}\right) \xrightarrow[F_3 - 3F_2]{F_1 - 2F_2}
+        \left(\begin{array}{ccc | c}
+            0 & 7 & 0 & 5 \\
+            1 & -2 & -1 & -1 \\
+            0 & 7 & 0 & 5
+        \end{array}\right) \to
+        \left(\begin{array}{ccc | c}
+            0 & 7 & 0 & 5 \\
+            1 & -2 & -1 & -1
+        \end{array}\right).$$
+        
+        El sistema resultante es
+        \begin{cases}
+            7y = 5, \\
+            x - 2y - z = -1.
+        \end{cases}
+
+        Si tomamos $x = \lambda$, entonces
+        \begin{align}
+            & 7y = 5 \Leftrightarrow y = \frac{5}{7}, \\
+            & x - 2y - z = -1 \Leftrightarrow z = x - 2y + 1 \xrightarrow[y = 5/7]{x = \lambda} z = \lambda - \frac{10}{7} + 1 = \lambda - \frac{3}{7}.
+        \end{align}
+
+        En efecto, las soluciones del sistema son de la forma
+        $$\begin{cases}
+            x = \lambda, \\
+            y = \frac{5}{7}, \\
+            z = \lambda - \frac{3}{7},
+        \end{cases} \quad \lambda \in \mathbb{R}.$$
+    </li>
+</ol>
