@@ -616,6 +616,7 @@
     },
     {
         "ejercicio": 202232,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Recta tangente",
@@ -667,6 +668,7 @@
     },
     {
         "ejercicio": 202238,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Punto simétrico",

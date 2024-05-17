@@ -1,0 +1,42 @@
+<ol>
+    <li>
+        En primer lugar, calculamos la derivada de la función $f.$
+        $$f'(x) = e^x(\cos(x) + \mathrm{sen}(x)) + e^x(-\mathrm{sen}(x) + \cos(x)) = 2e^x\cos(x).$$
+
+        Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
+        $$f'(x) = 0 \Leftrightarrow 2e^x\cos(x) = 0 \Leftrightarrow \cos(x) = 0 \Leftrightarrow \begin{cases}
+            x = \frac{\pi}{2}, \\
+            x = \frac{3\pi}{2}.
+        \end{cases}$$
+
+        Estudiamos el signo de $f'.$
+        <ul>
+            <li>
+                Si $0 \leq x < \frac{\pi}{2}$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $\frac{\pi}{2} < x < \frac{3\pi}{2}$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $\frac{3\pi}{2} < x \leq 2\pi$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Así que los puntos $\left(\frac{\pi}{2}, e^\frac{\pi}{2}\right)$ y $(2\pi, e^{2\pi})$ son máximos relativos y los puntos $(0, 1)$ y $\left(\frac{3\pi}{2}, -e^\frac{\pi}{2}\right)$ son mínimos relativos.
+        Por tanto, $(2\pi, e^{2\pi})$ es el máximo absoluto y $\left(\frac{3\pi}{2}, -e^\frac{\pi}{2}\right)$ es el mínimo absoluto.
+    </li>
+
+    <li>
+        La ecuación de la recta tangente a la gráfica de $f$ en $x = \frac{3\pi}{2}$ es
+        $$y - f\left(\frac{3\pi}{2}\right) = f'\left(\frac{3\pi}{2}\right)\left(x - \frac{3\pi}{2}\right) \Leftrightarrow y = -e^\frac{3\pi}{2}.$$
+
+        Observamos que la recta tangente es horizontal, así que la recta normal tiene que ser vertical.
+        Por tanto, su ecuación es
+        $$x = \frac{3\pi}{2}.$$
+    </li>
+</ol>

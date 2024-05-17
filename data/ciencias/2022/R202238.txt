@@ -1,0 +1,47 @@
+<ol>
+    <li>
+        En primer lugar, hallamos la ecuación general del plano $\pi.$
+        Su vector normal viene dado por el producto vectorial
+        $$\vec{n} = (9, 2, 4) \times (3, 0, 1) = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            9 & 2 & 4 \\
+            3 & 0 & 1
+        \end{vmatrix} = (2, 3, -6).$$
+
+        Como el punto $(0, -1, 3)$ pertenece al plano $\pi$, su ecuación general es
+        $$\pi \equiv 2x + 3(y+1) - 6(y-3) = 0 \Leftrightarrow 2x + 3y - 6z + 21 = 0.$$
+
+        Para hallar el punto simétrico $P'$ de $P$ con respecto a $\pi$, trazamos una recta $r$ perpendicular al plano que pase por el punto $P.$
+        <img src="img/ciencias/R202238.png" alt="Figura" loading="lazy">
+
+        Al ser perpendicular a $\pi$, el vector director de la recta es $\vec{n} = (2, 3, -6).$
+        Así que la ecuación de la recta $r$ es
+        $$r \equiv \begin{cases}
+            x = 2 + 2\lambda, \\
+            y = 3\lambda, \\
+            z = -4 - 6\lambda.
+        \end{cases}$$
+
+        A continuación, hallamos el punto de intersección $Q$ de la recta y el plano.
+        Para ello sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
+        $$2(2+\lambda) + 3 \cdot 3\lambda - 6(-4-6\lambda) + 21 = 0 \Leftrightarrow 49\lambda + 49 = 0 \Leftrightarrow \lambda = -1.$$
+
+        Por tanto, el punto de corte es $Q(0, -3, 2).$
+
+        Como $Q$ es el punto medio de $P$ y $P'$, podemos hallar $P'$ como el simétrico de $P$ con respecto a $Q.$
+        Si llamamos $P'(a, b, c)$, tiene que verificarse
+        \begin{cases}
+            \frac{2+a}{2} = 0 \Leftrightarrow a = -2, \\
+            \frac{0+b}{2} = -3 \Leftrightarrow b = -6, \\
+            \frac{-4+c}{2} = 2 \Leftrightarrow c = 8.
+        \end{cases}
+
+        Por tanto, el punto simétrico de $P$ con respecto al plano $\pi$ es $P'(-2, -6, 8).$
+    </li>
+
+    <li>
+        Por el apartado anterior, $\mathrm{dist}(P, \pi) = \mathrm{dist}(P, Q).$
+        Calculamos la distancia de $P$ a $\pi$ como el módulo del vector $\vec{PQ} = (-2, -3, 6).$
+        $$\mathrm{dist}(P, \pi) = \mathrm{dist}(P, Q) = |\vec{PQ}| = \sqrt{2^2 + 3^2 + 6^2} = \sqrt{49} = 7 \; u^2.$$
+    </li>
+</ol>
