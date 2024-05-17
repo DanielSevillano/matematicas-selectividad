@@ -1,0 +1,28 @@
+<p>
+    En primer lugar, hallamos la recta normal a la gráfica de $f$ en $x = 0.$
+    Calculamos la derivada de la función.
+    $$f'(x) = 3x^2 - 1.$$
+
+    La pendiente de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0$ es $m_t = f'(0) = -1.$
+    Como la recta normal es perpendicular a la recta tangente, su pendiente $m_n$ ha de verificar
+    $$m_t \cdot m_n = -1 \Leftrightarrow m_n = -\frac{1}{m_t} \xrightarrow{m_t = -1} m_n = 1.$$
+
+    Así que la recta normal a la gráfica de $f$ en $x = 0$ se puede hallar usando la ecuación punto-pendiente como
+    $$y - f(0) = m_n(x-0) \Leftrightarrow y = x.$$
+</p>
+
+<p>
+    Calculamos los puntos de corte de la función con la recta.
+    $$f(x) = x \Leftrightarrow x^3 - x = x \Leftrightarrow x^3 - 2x = 0 \Leftrightarrow x(x^2 - 2) = 0 \Leftrightarrow \begin{cases}
+        x = 0, \\
+        x^2 - 2 = 0 \Leftrightarrow x^2 = 2 \Leftrightarrow x = \pm \sqrt{2}.
+    \end{cases}$$
+
+    Podemos representar el recinto limitado por la gráfica de $f$ y la recta $y = x.$
+    <img src="img/ciencias/R202233.png" alt="Figura" loading="lazy">
+</p>
+
+<p>
+    Como los dos recintos tienen la misma superficie, podemos calcular el área como
+    $$2\int_0^\sqrt{2} (x - (x^3-x))dx = 2\int_0^\sqrt{2} (2x - x^3)dx = 2\left[x^2 - \frac{1}{4}x^4\right]_0^\sqrt{2} = 2(2 - 1) = 2 \; u^2.$$
+</p>
