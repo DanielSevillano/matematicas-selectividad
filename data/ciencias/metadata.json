@@ -945,8 +945,10 @@
     },
     {
         "ejercicio": 202122,
+        "resuelto": true,
         "categorias": [
             "Análisis",
+            "Asíntotas",
             "Recta tangente"
         ]
     },

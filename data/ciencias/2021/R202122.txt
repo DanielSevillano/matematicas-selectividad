@@ -1,0 +1,38 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                Si la gráfica de $f$ pasa por el punto $(2, 3)$, entonces $f(2) = 3.$
+                $$f(2) = 3 \Leftrightarrow \frac{4a+b}{-2+a} = 3 \Leftrightarrow 4a + b = -6 + 3a \Leftrightarrow a + b = -6.$$
+            </li>
+
+            <li>
+                Si la función tiene una asíntota oblicua con pendiente -4, entonces
+                $$\lim_{x \to +\infty} \frac{f(x)}{x} = -4.$$
+
+                Calculamos el límite.
+                $$\lim_{x \to +\infty} \frac{f(x)}{x} = \lim_{x \to +\infty} \frac{ax^2+b}{x(a-x)} = \lim_{x \to +\infty} \frac{ax^2+b}{-x^2+ax} = -a.$$
+
+                Así que
+                $$\lim_{x \to +\infty} \frac{f(x)}{x} = -4 \Leftrightarrow -a = -4 \Leftrightarrow a = 4.$$
+            </li>
+        </ul>
+
+        Despejando y sustituyendo en la primera ecuación.
+        $$a + b = -6 \Leftrightarrow b = -a - 6 \xrightarrow{a=4} b = -10.$$
+
+        Por tanto, $a = 4$ y $b = -10.$
+    </li>
+
+    <li>
+        En primer lugar, calculamos la derivada de la función $f$ para $a = 2$ y $b = 3.$
+        $$f'(x) = \frac{4x(2-x) + 2x^2+3}{(2-x)^2} = \frac{-2x^2 + 8x + 3}{(2-x)^2}.$$
+
+        La ecuación de la recta tangente a la gráfica de $f$ en $x = 1$ es
+        $$y - f(1) = f'(1)(x-1) \Leftrightarrow y - 5 = 9(x-1) \Leftrightarrow y = 9x -4.$$
+
+        Como la recta normal es perpendicular a la recta tangente, tiene como pendiente $-\frac{1}{9}.$
+        Por tanto, su ecuación es
+        $$y - 5 = -\frac{1}{9}(x-1) \Leftrightarrow y = -\frac{1}{9}x + \frac{46}{9}.$$
+    </li>
+</ol>
