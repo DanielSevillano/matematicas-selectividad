@@ -51,7 +51,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Julio (1, 2, 3, 4, 7)
     - [ ] Reserva 1 (5)
     - [ ] Reserva 2 (1, 2, 5, 6)
-    - [ ] Reserva 3 (4, 5, 6)
+    - [ ] Reserva 3 (2, 4, 5, 6)
     - [ ] Reserva 4 (1, 5)
 - [ ] 2020
     - [ ] Septiembre (2)

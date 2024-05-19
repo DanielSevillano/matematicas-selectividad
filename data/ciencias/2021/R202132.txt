@@ -1,0 +1,41 @@
+<p>
+    En primer lugar, calculamos la derivada de la función $f.$
+    $$f'(x) = b\cos(x) + 2c\cos(2x).$$
+</p>
+
+<ul>
+    <li>
+        Si la función tiene un punto crítico en $x = \pi$, entonces $f'(\pi) = 0.$
+        $$f'(\pi) = 0 \Leftrightarrow -b + 2c = 0.$$
+    </li>
+
+    <li>
+        Si la recta normal en $x = 0$ tiene pendiente $-\frac{1}{2}$, entonces $-\frac{1}{f'(0)} = -\frac{1}{2}.$
+        $$-\frac{1}{f'(0)} = -\frac{1}{2} \Leftrightarrow f'(0) = 2 \Leftrightarrow b + 2c = 2.$$
+    </li>
+
+    <li>
+        Si $y = -\frac{1}{2}x + 3$ es la recta normal en $x = 0$, el punto $(0, 3)$ pertenece la función.
+        Así que $f(0) = 3.$
+        $$f(0) = 3 \Leftrightarrow a = 3.$$
+    </li>
+</ul>
+
+<p>
+    Planteamos el sistema de ecuaciones
+    \begin{cases}
+        -b + 2c = 0, \\
+        b + 2c = 2.
+    \end{cases}
+
+    Resolvemos el sistema por reducción.
+    Si sumamos las dos ecuaciones, obtenemos que
+    $$4c = 2 \Leftrightarrow c = \frac{1}{2}.$$
+
+    Por otro lado, si restamos las dos ecuaciones,
+    $$-2b = -2 \Leftrightarrow b = 1.$$
+</p>
+
+<p>
+    Por tanto, $a = 3$, $b = 1$ y $c = \frac{1}{2}.$
+</p>

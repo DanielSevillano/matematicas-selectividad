@@ -1009,8 +1009,10 @@
     },
     {
         "ejercicio": 202132,
+        "resuelto": true,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
