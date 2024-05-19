@@ -21,7 +21,7 @@
                 Veamos si $f$ tiene alguna asíntota horizontal.
                 $$\lim_{t \to +\infty} \frac{12t-24}{t+3} = 12.$$
                 
-                Por tanto, la recta $y = 12$ es una asíntota vertical y $f$ no tiene ninguna asíntota oblicua.
+                Por tanto, la recta $y = 12$ es una asíntota horizontal y $f$ no tiene ninguna asíntota oblicua.
             </li>
 
             <li>
