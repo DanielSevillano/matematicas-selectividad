@@ -17,7 +17,7 @@ let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
 
 const categoriasProgramacionLineal = ["programacion-lineal", "problemas-de-optimizacion"];
-const categoriasAlgebra = ["algebra", "dimensiones", "ecuaciones-matriciales", "sistemas-de-ecuaciones-matriciales", "problemas-de-matrices"];
+const categoriasAlgebra = ["algebra", "dimensiones", "potencias", "ecuaciones-matriciales", "sistemas-de-ecuaciones-matriciales", "problemas-de-matrices"];
 const categoriasEstadistica = ["probabilidad", "problemas-de-sucesos", "estadistica", "muestreo", "estimacion-de-la-media", "estimacion-de-la-proporcion", "distribucion-de-medias-muestrales", "contraste-de-hipotesis"];
 
 grupos.forEach((grupo, indice) => {

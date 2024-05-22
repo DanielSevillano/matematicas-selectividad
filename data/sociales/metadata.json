@@ -470,6 +470,7 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
@@ -840,6 +841,7 @@
         "ejercicio": 202112,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
@@ -899,6 +901,7 @@
         "ejercicio": 202122,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
@@ -1014,6 +1017,7 @@
         "ejercicio": 202141,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
@@ -2020,6 +2024,7 @@
         "ejercicio": 201835,
         "categorias": [
             "Álgebra",
+            "Ecuaciones matriciales",
             "Sistemas de ecuaciones matriciales"
         ]
     },
@@ -2133,6 +2138,7 @@
         "ejercicio": 201855,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
@@ -2161,7 +2167,8 @@
     {
         "ejercicio": 201701,
         "categorias": [
-            "Álgebra"
+            "Álgebra",
+            "Potencias"
         ]
     },
     {
@@ -2552,6 +2559,7 @@
         "ejercicio": 201611,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
@@ -3007,6 +3015,7 @@
         "ejercicio": 201531,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
@@ -3178,6 +3187,7 @@
         "ejercicio": 201401,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
