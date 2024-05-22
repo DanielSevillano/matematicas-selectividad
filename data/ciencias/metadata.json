@@ -704,6 +704,7 @@
     },
     {
         "ejercicio": 202244,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
