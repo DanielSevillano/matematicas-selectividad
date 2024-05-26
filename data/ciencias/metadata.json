@@ -22,6 +22,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -99,6 +100,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -560,6 +562,7 @@
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
+            "Recta tangente",
             "Integrales",
             "Teorema fundamental del cálculo"
         ]
@@ -628,6 +631,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -837,6 +841,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Teorema fundamental del cálculo"
         ]
@@ -893,6 +898,7 @@
         "ejercicio": 202113,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -1466,7 +1472,8 @@
     {
         "ejercicio": 202045,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -1706,7 +1713,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Curvatura y puntos de inflexión"
+            "Curvatura y puntos de inflexión",
+            "Recta tangente"
         ]
     },
     {
@@ -1825,7 +1833,8 @@
     {
         "ejercicio": 201945,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -1956,6 +1965,7 @@
         "ejercicio": 201806,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -1987,6 +1997,7 @@
         "ejercicio": 201812,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -2046,7 +2057,8 @@
     {
         "ejercicio": 201822,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -2251,6 +2263,7 @@
         "ejercicio": 201856,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -2632,6 +2645,7 @@
         "ejercicio": 201602,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales"
         ]
     },
@@ -2662,6 +2676,7 @@
         "ejercicio": 201606,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -3159,6 +3174,7 @@
         "ejercicio": 201532,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales"
         ]
     },
@@ -3247,6 +3263,7 @@
         "ejercicio": 201546,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales"
         ]
     },
@@ -3327,7 +3344,8 @@
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
-            "Curvatura y puntos de inflexión"
+            "Curvatura y puntos de inflexión",
+            "Recta tangente"
         ]
     },
     {
@@ -3479,6 +3497,7 @@
         "ejercicio": 201426,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -3508,6 +3527,7 @@
         "ejercicio": 201432,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -3596,6 +3616,7 @@
         "ejercicio": 201446,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales"
         ]
     },
@@ -3816,7 +3837,8 @@
         "ejercicio": 201325,
         "categorias": [
             "Análisis",
-            "Curvatura y puntos de inflexión"
+            "Curvatura y puntos de inflexión",
+            "Recta tangente"
         ]
     },
     {
@@ -4002,6 +4024,7 @@
         "ejercicio": 201356,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -4152,6 +4175,7 @@
         "ejercicio": 201222,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
@@ -4361,6 +4385,7 @@
         "ejercicio": 201256,
         "categorias": [
             "Análisis",
+            "Recta tangente",
             "Integrales",
             "Área de recintos"
         ]
