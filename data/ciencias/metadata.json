@@ -175,7 +175,8 @@
         "ejercicio": 202325,
         "resuelto": true,
         "categorias": [
-            "Álgebra"
+            "Álgebra",
+            "Potencias"
         ]
     },
     {
@@ -1366,6 +1367,7 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Determinantes"
         ]
     },
@@ -2065,6 +2067,7 @@
         "ejercicio": 201823,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
@@ -2241,7 +2244,8 @@
     {
         "ejercicio": 201853,
         "categorias": [
-            "Álgebra"
+            "Álgebra",
+            "Potencias"
         ]
     },
     {
@@ -2653,6 +2657,7 @@
         "ejercicio": 201603,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Ecuaciones matriciales"
         ]
     },
@@ -3121,6 +3126,7 @@
         "ejercicio": 201523,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Rango"
         ]
     },
@@ -3738,7 +3744,8 @@
     {
         "ejercicio": 201307,
         "categorias": [
-            "Álgebra"
+            "Álgebra",
+            "Potencias"
         ]
     },
     {
