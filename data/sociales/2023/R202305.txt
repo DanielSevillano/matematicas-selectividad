@@ -1,8 +1,7 @@
 <ol>
     <li>
         Llamamos $C$ a obtener cara y $X$ a obtener cruz.
-        Observamos que son sucesos complementarios.
-        Como además la probabilidad de obtener cara es el doble de la probabilidad de obtener cruz, entonces
+        Como son sucesos complementarios y la probabilidad de obtener cara es el doble de la probabilidad de obtener cruz, entonces
         \begin{cases}
             P(C) + P(X) = 1, \\
             P(C) = 2P(X)
@@ -16,6 +15,71 @@
         $$P(C) = 2P(X) \xrightarrow{P(X) = 1/3} P(C) = \frac{2}{3}.$$
 
         Por tanto, $P(C) = \frac{2}{3}$ y $P(X) = \frac{1}{3}.$
+    </li>
+
+    <li>
+        Podemos hacer un diagrama de árbol.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$C$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 2/3 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$C$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 2/3 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1/3 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$X$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$C$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1/3 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 2/3 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$X$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1/3 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$X$</td>
+                </tr>
+            </table>
+        </div>
     </li>
 
     <li>
@@ -44,6 +108,6 @@
 
     <li>
         La probabilidad de obtener dos caras dado que ha salido una cara es
-        $$\frac{P(C) \cdot P(C)}{P(CX) + P(XC)} = \frac{\frac{2}{3} + \frac{2}{3}}{\frac{8}{9}} = \frac{\frac{4}{3}}{\frac{8}{9}} = \frac{4}{8} = \frac{1}{2}.$$
+        $$\frac{P(CC)}{P(CC) + P(CX) + P(XC)} = \frac{\frac{4}{3}}{\frac{8}{9}} = \frac{\frac{4}{3}}{\frac{8}{9}} = \frac{4}{8} = \frac{1}{2}.$$
     </li>
 </ol>
