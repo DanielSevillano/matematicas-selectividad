@@ -1,0 +1,120 @@
+<ol>
+    <li>
+        Llamamos $A$ a ser vendido en el establecimiento A, $B$ en el establecimiento B, $C$ en el establecimiento C y $G$ a obtener un premio.
+        Sabemos que
+        \begin{align}
+            & P(A) = \frac{1054}{1335}, & & P(B) = \frac{99}{1335}, & & P(C) = \frac{182}{1335}, \\
+            & P(G|B) = \frac{5}{99}, & & P(G|C) = \frac{13}{182}, & & P(G^c) = 0,95 \Rightarrow P(G) = 0,05.
+        \end{align}
+
+        Podemos hacer un diagrama de árbol.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$A$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 1054/1335 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 5/99 \quad}$</td>
+                </tr>
+                <tr>
+                    <td>$\xrightarrow{\quad 99/1335 \quad}$</td>
+                    <td>$B$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 94/99 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 182/1335 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 13/182 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$C$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 169/182 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G^c$</td>
+                </tr>
+            </table>
+        </div>
+
+        Por el teorema de la probabilidad total,
+        $$P(G) = P(A) \cdot P(G|A) + P(B) \cdot P(G|B) + P(C) \cdot P(G|C).$$
+        
+        Despejando en la expresión anterior,
+        $$P(G|A) = \frac{P(G) - P(B) \cdot P(G|B) - P(C) \cdot P(G|C)}{P(A)} = \frac{0,05 - \frac{99}{1335} \cdot \frac{5}{99} - \frac{182}{1335} \cdot \frac{13}{182}}{\frac{1054}{1335}} \approx 0,0463.$$
+
+        Así que la probabilidad de vender un boleto no premiado en $A$ es
+        $$P(G^c|A) = 1 - P(G|A) = 1 - 0,0463 = 0,9537.$$
+
+        Observamos que
+        $$P(G^c|A) = 0,9537, \quad P(G^c|B) = \frac{94}{99} \approx 0,9495 \quad \text{y} \quad P(G^c|C) = \frac{169}{182} \approx 0,9286.$$
+
+        Por tanto, el establecimiento A es el que tiene una mayor probabilidad de haber vendido un boleto no premiado.
+    </li>
+
+    <li>
+        La probabilidad de que un boleto no premiado haya sido vendido en el establecimiento A es
+        $$P(A|G^c) = \frac{P(A \cap G^c)}{P(G^c)} = \frac{P(A) \cdot P(G^c|A)}{P(G^c)} = \frac{\frac{1054}{1335} \cdot 0,9537}{0,95} \approx 0,7926.$$
+    </li>
+</ol>

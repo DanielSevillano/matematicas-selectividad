@@ -172,6 +172,7 @@ Tablas
     margin-block: 1.5em;
     text-align: center;
     overflow-x: auto;
+    overflow-y: hidden;
 }
 
 table {

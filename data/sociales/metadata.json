@@ -512,6 +512,7 @@
     },
     {
         "ejercicio": 202216,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
