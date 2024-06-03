@@ -32,8 +32,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Integrales",
             "Límites",
+            "Integrales",
             "Teorema fundamental del cálculo"
         ]
     },
@@ -150,6 +150,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
+            "Asíntotas",
             "Recta tangente"
         ]
     },
@@ -545,6 +546,7 @@
         "categorias": [
             "Análisis",
             "Continuidad",
+            "Derivabilidad",
             "Recta tangente"
         ]
     },
@@ -816,7 +818,8 @@
         "ejercicio": 202101,
         "resuelto": true,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Asíntotas"
         ]
     },
     {
@@ -1413,7 +1416,8 @@
     {
         "ejercicio": 202035,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Recta tangente"
         ]
     },
     {
@@ -1450,8 +1454,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Integrales",
             "Límites",
+            "Integrales",
             "Teorema fundamental del cálculo"
         ]
     },
@@ -1836,6 +1840,7 @@
         "ejercicio": 201945,
         "categorias": [
             "Análisis",
+            "Asíntotas",
             "Recta tangente"
         ]
     },
@@ -2060,7 +2065,8 @@
         "ejercicio": 201822,
         "categorias": [
             "Análisis",
-            "Recta tangente"
+            "Recta tangente",
+            "Integrales"
         ]
     },
     {
@@ -2208,6 +2214,7 @@
         "ejercicio": 201846,
         "categorias": [
             "Análisis",
+            "Continuidad",
             "Integrales"
         ]
     },
@@ -2524,7 +2531,8 @@
         "ejercicio": 201741,
         "categorias": [
             "Análisis",
-            "Monotonía y extremos"
+            "Monotonía y extremos",
+            "Recta tangente"
         ]
     },
     {
@@ -2916,7 +2924,8 @@
     {
         "ejercicio": 201646,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Integrales"
         ]
     },
     {
@@ -3292,6 +3301,7 @@
         "ejercicio": 201551,
         "categorias": [
             "Análisis",
+            "Asíntotas",
             "Monotonía y extremos"
         ]
     },
@@ -3758,7 +3768,8 @@
     {
         "ejercicio": 201311,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Asíntotas"
         ]
     },
     {
@@ -3904,6 +3915,7 @@
         "ejercicio": 201335,
         "categorias": [
             "Análisis",
+            "Asíntotas",
             "Monotonía y extremos"
         ]
     },
@@ -4000,7 +4012,8 @@
         "ejercicio": 201352,
         "categorias": [
             "Análisis",
-            "Recta tangente"
+            "Recta tangente",
+            "Integrales"
         ]
     },
     {
