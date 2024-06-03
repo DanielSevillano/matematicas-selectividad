@@ -1,0 +1,59 @@
+<ol>
+    <li>
+        Calculamos en primer lugar el determinante de la matriz $A.$
+        $$|A| = \begin{vmatrix}
+            a & 2 & 0 \\
+            8 & a & 0 \\
+            0 & 0 & a
+        \end{vmatrix} = a^3 - 16a.$$
+
+        La inversa de $A$ existe si y solo si su determinante es no nulo.
+        $$|A| = 0 \Leftrightarrow a^3 - 16a = 0 \Leftrightarrow a(a^2 - 16) = 0 \Leftrightarrow \begin{cases}
+            a = 0, \\
+            a^2 - 16 = 0 \Leftrightarrow a^2 = 16 \Leftrightarrow a = \pm 4.
+        \end{cases}$$
+
+        Por tanto, la matriz $A$ es no invertible si $a = -4$, $a = 0$ o $a = 4.$
+    </li>
+
+    <li>
+        Si $a = 5$, por el apartado anterior $A$ es invertible con $\det(A) = 45.$
+        Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A) = \begin{pmatrix}
+            25 & -40 & 0 \\
+            -10 & 25 & 0 \\
+            0 & 0 & 9
+        \end{pmatrix}.$$
+
+        Calculamos su inversa como
+        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{45} \begin{pmatrix}
+            25 & -10 & 0 \\
+            -40 & 25 & 0 \\
+            0 & 0 & 9
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Despejamos $X$ en la ecuación matricial y resolvemos.
+        $$AX = B \Leftrightarrow X = A^{-1}B = \frac{1}{45} \begin{pmatrix}
+            25 & -10 & 0 \\
+            -40 & 25 & 0 \\
+            0 & 0 & 9
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 \\
+            -2 \\
+            10
+        \end{pmatrix} =
+        \frac{1}{45} \begin{pmatrix}
+            45 \\
+            -90 \\
+            90
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 \\
+            -2 \\
+            2
+        \end{pmatrix}.$$
+    </li>
+</ol>
