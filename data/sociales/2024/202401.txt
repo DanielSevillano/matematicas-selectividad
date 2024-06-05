@@ -1,0 +1,22 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    1 & 1 & -2 \\
+    a-3 & a-1 & 1 \\
+    0 & 2 & a
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    -1 & 3 & 2
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    -2 & 1 & 4
+\end{pmatrix},$$
+siendo $a$ un número real.
+
+<ol>
+    <li>Obtenga los valores de $a$ para los que la matriz $A$ tenga inversa.</li>
+    <li>Para $a = 1$, resuelva la ecuación $XA - B = CA.$</li>
+    <li>
+        Determine razonadamente la dimensión de la matriz $D$ que permita realizar la operación
+        $$BA + DC^tB.$$
+    </li>
+</ol>

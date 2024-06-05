@@ -1,0 +1,13 @@
+<ol>
+    <li>
+        Se realizan dos muestreos aleatorios estratificados con afijación proporcional para una población dividida en cuatro estratos $E_1$, $E_2$, $E_3$ y $E_4.$
+        En la primera muestra se han seleccionado 25 individuos de $E_1$ y 30 de $E_2.$
+        En la segunda muestra se han seleccionado 80 individuos de $E_3$ y 100 de $E_4.$
+        Sabiendo que el estrato $E_1$ tiene 500 individuos y que el $E_3$ tiene 400, determine el tamaño de cada estrato de la población y el tamaño de las muestras en cada estrato.
+    </li>
+
+    <li>
+        Dada la población $\{-3, -1, 2, 5, 7\}$, se consideran todas las muestras posibles de tamaño 2 obtenidas mediante muestreo aleatorio simple.
+        Calcule la media y la varianza de la distribución de las medias muestrales.
+    </li>
+</ol>

@@ -1,5 +1,62 @@
 [
     {
+        "ejercicio": 202401,
+        "categorias": [
+            "Álgebra",
+            "Dimensiones",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202402,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202403,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202404,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202405,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202406,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202407,
+        "categorias": [
+            "Estadística",
+            "Muestreo",
+            "Distribución de medias muestrales"
+        ]
+    },
+    {
+        "ejercicio": 202408,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
         "ejercicio": 202301,
         "resuelto": true,
         "categorias": [

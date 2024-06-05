@@ -1,0 +1,11 @@
+Un grupo de turistas programa una visita a la Geoda de Pulpí.
+El 42% de los turistas del grupo proceden de Andalucía, el 32% de otras comunidades autónomas y el resto del extranjero.
+Son mayores de edad el 65% de los visitantes que proceden de Andalucía y el 75% de los que proceden de otras comunidades autónomas.
+Son menores de edad el 20% de los visitantes extranjeros.
+Elegido un turista de este grupo al azar, halle la probabilidad de que:
+
+<ol>
+    <li>Sea mayor de edad.</li>
+    <li>Proceda de Andalucía y sea menor de edad.</li>
+    <li>Sea extranjero sabiendo que es menor de edad.</li>
+</ol>

@@ -1,0 +1,8 @@
+Se desea conocer la proporción de habitantes de una determinada ciudad que realizan turismo sostenible durante sus vacaciones.
+Para ello se selecciona al azar una muestra de 2.500 habitantes, resultando que 1.825 realizan turismo sostenible.
+
+<ol>
+    <li>Calcule un intervalo, con un nivel de confianza del 95%, para estimar la proporción de habitantes de la ciudad que realizan turismo sostenible.</li>
+    <li>Para un nivel de confianza del 97% y manteniendo la proporción muestral, ¿cuál sería el tamaño mínimo de una nueva muestra para que el error de estimación sea inferior al 1%?</li>
+    <li>Razone qué efecto producirá sobre la amplitud del intervalo una disminución del tamaño de la muestra.</li>
+</ol>

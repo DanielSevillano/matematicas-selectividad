@@ -1,0 +1,15 @@
+La velocidad media del viento en la zona de Sierra Nevada, prevista para cierto día, viene dada por la función $v(t)$ expresada en km/h, donde $t$ es el tiempo expresado en horas:
+$$v(t) = \begin{cases}
+    t^2 - 8t + 60, & \text{si } 0 \leq t \leq 10, \\
+    -t^2 + 32t - 140, & \text{si } 10 < t \leq 24.
+\end{cases}$$
+
+<ol>
+    <li>Compruebe que la función $v$ es continua y derivable.</li>
+    <li>Represente gráficamente la función, estudiando previamente la monotonía y calculando los extremos absolutos.</li>
+    <li>
+        La Agencia Estatal de Meteorología emite avisos de alerta por vientos siguiendo el código de colores: naranja para vientos entre 100 y 140 km/h, y rojo para vientos de más de 140 km/h.
+        Según la previsión, indique si se debe emitir alguna alerta naranja en Sierra Nevada ese día y durante qué horas estaría activa.
+        ¿Se emitiría alerta roja?
+    </li>
+</ol>

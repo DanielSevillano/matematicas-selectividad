@@ -1,0 +1,12 @@
+Una agencia ha realizado un estudio acerca de la siniestralidad de los vehículos de una región.
+Se ha dividido a los conductores en dos grupos: jóvenes los menores de 30 años y sénior el resto de conductores.
+Asimismo, también se ha dividido a los vehículos en dos grupos: nuevos los que tienen menos de 5 años de antigüedad y viejos el resto de vehículos.
+De los 54 siniestros registrados, en 19 de ellos el vehículo implicado era nuevo y en 29 los conductores eran jóvenes.
+Finalmente, 21 de los siniestros se dieron con vehículos viejos y conductores jóvenes.
+Se escoge uno de estos siniestros al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que el conductor sea sénior y el vehículo viejo.</li>
+    <li>Calcule la probabilidad de que el conductor sea joven sabiendo que el vehículo es viejo.</li>
+    <li>Determine razonadamente si la siguiente afirmación es cierta: "Los siniestros de este estudio menos probables son aquellos en los que el conductor es sénior y el vehículo es nuevo".</li>
+</ol>

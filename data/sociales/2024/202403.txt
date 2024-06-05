@@ -1,0 +1,8 @@
+<ol>
+    <li>
+        Calcule la derivada de las funciones siguientes:
+        $$f(x) = (x^2 + 2)^3 e^{-2x}, \quad g(x) = \frac{\ln(1-x^3)}{(1-2x^2)^2}.$$
+    </li>
+
+    <li>Halle los valores de $a$ y $b$ para que sea horizontal la recta tangente a la gráfica de la función $h(x) = x^3 + ax^2 + 3x + b$ en el punto $P(1, 2).$</li>
+</ol>

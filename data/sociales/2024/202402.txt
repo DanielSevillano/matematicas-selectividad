@@ -1,0 +1,5 @@
+Un agricultor posee una finca con un olivar intensivo de secano y desea transformar una parte de la misma en regadío, pero manteniendo un mínimo de 20 hectáreas de cultivo de secano.
+Para ello, anualmente dispone de 30.000 m<sup>3</sup> de agua, de 5.500 kg de abono y de 3.000 kg de productos fitosanitarios.
+Cada hectárea de olivar de regadío necesita 1.500 m<sup>3</sup> de agua, 110 kg de abono y 80 kg de productos fitosanitarios; mientras que cada hectárea de olivar de secano precisa de 100 kg de abono y 50 kg de productos fitosanitarios.
+Se sabe que la producción anual por hectárea es de 5.000 kg en secano y de 10.000 kg en regadío.
+Determine el número de hectáreas de olivar de secano y de regadío que el agricultor debe cultivar para maximizar su producción, así como la producción maxima esperada.
