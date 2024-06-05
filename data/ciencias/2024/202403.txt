@@ -1,0 +1,4 @@
+Considera la función $f$ definida por
+$$f(x) = \frac{x^3+2}{x^2-1},$$
+para $x \neq -1$ y $x \neq 1.$
+Calcula una primitiva de $f$ cuya gráfica pase por el punto $(0, 1).$

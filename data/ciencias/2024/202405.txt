@@ -1,0 +1,11 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    1 & \frac{1}{8} & \frac{1}{8} \\
+    0 & 1 & 0 \\
+    0 & 0 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula $A^{2024}.$</li>
+    <li>Halla la matriz $X$, si es posible, que verifica $A^2XA + I = O$, donde $I$ y $O$ son la matriz identidad y la matriz nula de orden 3, respectivamente.</li>
+</ol>

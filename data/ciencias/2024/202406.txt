@@ -1,0 +1,16 @@
+Considera el sistema
+\begin{cases}
+    y + z = 1, \\
+    (k-1)x + y + z = k, \\
+    x + (k-1)y + z = 0.
+\end{cases}
+
+<ol>
+    <li>Discute el sistema según los valores de $k.$</li>
+    <li>
+        Para $k = 1$ resuelve el sistema, si es posible.
+        ¿Hay alguna solución en la que $y = 0$?
+        En caso afirmativo, calcúlala.
+        En caso negativo, justifica la respuesta.
+    </li>
+</ol>

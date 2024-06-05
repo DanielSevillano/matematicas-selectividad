@@ -1,5 +1,63 @@
 [
     {
+        "ejercicio": 202401,
+        "categorias": [
+            "Análisis",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 202402,
+        "categorias": [
+            "Análisis",
+            "Continuidad"
+        ]
+    },
+    {
+        "ejercicio": 202403,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202404,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202405,
+        "categorias": [
+            "Álgebra",
+            "Potencias",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202406,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Discusión de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202407,
+        "categorias": [
+            "Geometría",
+            "Punto simétrico"
+        ]
+    },
+    {
+        "ejercicio": 202408,
+        "categorias": [
+            "Geometría",
+            "Posición relativa"
+        ]
+    },
+    {
         "ejercicio": 202301,
         "resuelto": true,
         "categorias": [

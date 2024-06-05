@@ -1,0 +1,1 @@
+Halla la función $f: \mathbb{R} \to \mathbb{R}$ tal que $f''(x) = x\cos(x)$ y cuya gráfica pasa por los puntos $\left(0, \frac{\pi}{2}\right)$ y $(\pi, 2\pi).$

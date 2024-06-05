@@ -1,0 +1,6 @@
+Sea la función $f: (0, +\infty) \to \mathbb{R}$ definida por $f(x) = \ln(x)$ y los puntos de su gráfica $A(1, 0)$ y $B(e, 1).$
+
+<ol>
+    <li>Determina, si existen, los puntos de la gráfica de $f$ en los que la recta tangente a la gráfica es paralela a la recta que pasa por los puntos $A$ y $B.$</li>
+    <li>Determina la ecuación de la recta normal a la gráfica de $f$ en el punto $A.$</li>
+</ol>

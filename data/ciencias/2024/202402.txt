@@ -1,0 +1,7 @@
+Considera la función continua $f$ definida por
+$$f(x) = \begin{cases}
+    \dfrac{x\cos(x) - a\mathrm{sen}(x)}{x^3}, & \text{si } x < 0, \\
+    b\cos(x) - 1, & \text{si } x \geq 0.
+\end{cases}$$
+
+Calcula $a$ y $b.$

@@ -1,0 +1,14 @@
+Considera las rectas
+$$r \equiv \begin{cases}
+    y = 0, \\
+    2x - z = 0
+\end{cases} \quad \text{y} \quad
+s \equiv \begin{cases}
+    x + y + 7 = 0, \\
+    z = 0.
+\end{cases}$$
+
+<ol>
+    <li>Estudia la posición relativa de $r$ y $s.$</li>
+    <li>Calcula la ecuación del plano paralelo a $r$ y $s$ que equidista de ambas rectas.</li>
+</ol>
