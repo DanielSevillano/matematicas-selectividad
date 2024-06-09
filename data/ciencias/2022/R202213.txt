@@ -1,29 +1,29 @@
 <p>
     En primer lugar, hallamos todas las primitivas de $f.$
-    $$F(x) = \int f(x)dx = \int e^x\mathrm{sen(2x)}dx.$$
+    $$F(x) = \int f(x)dx = \int e^x\mathrm{sen}(2x)dx.$$
 </p>
 
 <p>
     Resolvemos la integral por partes.
     \begin{align}
-        u = \mathrm{sen(2x)} & \Rightarrow u' = 2\cos(2x), \\
+        u = \mathrm{sen}(2x) & \Rightarrow u' = 2\cos(2x), \\
         v' = e^x & \Rightarrow v = e^x.
     \end{align}
     Entonces:
 
-    $$F(x) = \int e^x\mathrm{sen(2x)}dx = e^x\mathrm{sen(2x)} - 2\int e^x\cos(2x)dx.$$
+    $$F(x) = \int e^x\mathrm{sen}(2x)dx = e^x\mathrm{sen}(2x) - 2\int e^x\cos(2x)dx.$$
 
     Integramos de nuevo por partes.
     \begin{align}
-        u = \cos(2x) & \Rightarrow u' = -2\mathrm{sen(2x)}, \\
+        u = \cos(2x) & \Rightarrow u' = -2\mathrm{sen}(2x), \\
         v' = e^x & \Rightarrow v = e^x.
     \end{align}
 
     Luego
-    $$F(x) = e^x\mathrm{sen(2x)} - 2\int e^x\cos(2x)dx = e^x\mathrm{sen(2x)} - 2e^x\cos(2x) - 4\int e^x\mathrm{sen(2x)}dx.$$
+    $$F(x) = e^x\mathrm{sen}(2x) - 2\int e^x\cos(2x)dx = e^x\mathrm{sen}(2x) - 2e^x\cos(2x) - 4\int e^x\mathrm{sen}(2x)dx.$$
     
     Así que
-    $$F(x) = \frac{1}{5}e^x (\mathrm{sen(2x)} - 2\cos(2x)) + C.$$
+    $$F(x) = \frac{1}{5}e^x (\mathrm{sen}(2x) - 2\cos(2x)) + C.$$
 </p>
 
 <p>
@@ -32,5 +32,5 @@
     $$F(0) = 0 \Leftrightarrow -\frac{2}{5} + C = 0 \Leftrightarrow C = \frac{2}{5}.$$
 
     Luego la primitiva es
-    $$F(x) = \frac{1}{5}e^x (\mathrm{sen(2x)} - 2\cos(2x)) + \frac{2}{5}.$$
+    $$F(x) = \frac{1}{5}e^x (\mathrm{sen}(2x) - 2\cos(2x)) + \frac{2}{5}.$$
 </p>
