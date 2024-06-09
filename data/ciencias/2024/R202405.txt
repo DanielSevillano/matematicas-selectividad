@@ -1,0 +1,66 @@
+<ol>
+    <li>
+        Calculamos las primeras potencias de $A.$
+        $$A^2 = \begin{pmatrix}
+            1 & \frac{2}{8} & \frac{2}{8} \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}, \quad
+        A^3 = \begin{pmatrix}
+            1 & \frac{3}{8} & \frac{3}{8} \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix} \quad \text{y} \quad
+        A^4 = \begin{pmatrix}
+            1 & \frac{4}{8} & \frac{4}{8} \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$A^{2024} = \begin{pmatrix}
+            1 & \frac{2024}{8} & \frac{2024}{8} \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 253 & 253 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        En primer lugar, calculamos el determinante de la matriz $A.$
+        $$|A| = \begin{vmatrix}
+            1 & \frac{1}{8} & \frac{1}{8} \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{vmatrix} = 1.$$
+
+        Como $\det(A) \neq 0$, la matriz $A^3$ es invertible con $\det(A^3) = 1.$
+        Despejamos la ecuación matricial.
+        $$A^2XA + I = O \Leftrightarrow A^2XA = -I \Leftrightarrow X = -A^{-2}A^{-1} = -A^{-3}.$$
+
+        Para hallar la inversa de $A^3$, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A^3) = \begin{pmatrix}
+            1 & 0 & 0 \\
+            -\frac{3}{8} & 1 & 0 \\
+            -\frac{3}{8} & 0 & 1
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular su inversa como
+        $$A^{-3} = \frac{1}{|A^3|}\mathrm{Adj}(A^3)^t = \begin{pmatrix}
+            1 & -\frac{3}{8} & -\frac{3}{8} \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$X = -A^3 = \begin{pmatrix}
+            -1 & \frac{3}{8} & \frac{3}{8} \\
+            0 & -1 & 0 \\
+            0 & 0 & -1
+        \end{pmatrix}.$$
+    </li>
+</ol>

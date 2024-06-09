@@ -1,0 +1,27 @@
+<p>
+    Estudiamos la continuidad para el punto de ruptura $x = 0.$
+    \begin{align}
+        & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} \frac{x\cos(x) - a\mathrm{sen}(x)}{x^3} = \frac{0}{0}, \\
+        & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} (b\cos(x) - 1) = b-1, \\
+        & f(0) = b-1.
+    \end{align}
+</p>
+
+<p>
+    Para resolver la indeterminación del primer límite, aplicamos la regla de l'Hôpital.
+    $$\lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} \frac{x\cos(x) - a\mathrm{sen}(x)}{x^3} \overset{\text{L'H}}{=} \lim_{x \to 0^-} \frac{\cos(x) - x\mathrm{sen}(x) - a\cos(x)}{3x^2} = \frac{1-a}{0}.$$
+
+    Si $a \neq 1$ este límite será infinito, así que necesariamente $a = 1.$
+</p>
+
+<p>
+    Continuamos resolviendo el límite para $a = 1.$
+    $$\lim_{x \to 0^-} \frac{- x\mathrm{sen}(x)}{3x^2} \overset{\text{L'H}}{=} \lim_{x \to 0^-} \frac{-\mathrm{sen}(x) - x\cos(x)}{6x} \overset{\text{L'H}}{=} \frac{-2\cos(x) + x\mathrm{sen}(x)}{6} = -\frac{1}{3}.$$
+</p>
+
+<p>
+    Como $f$ es continua en $x = 0$,
+    $$\lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) = f(0) \Leftrightarrow b-1 = -\frac{1}{3} \Leftrightarrow b = \frac{2}{3}.$$
+
+    Por tanto, $a = 1$ y $b = \frac{2}{3}.$
+</p>

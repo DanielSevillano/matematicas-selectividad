@@ -1,0 +1,47 @@
+<p>
+    Como $f''$ es la derivada de $f'$, entonces
+    $$f'(x) = \int f''(x)dx = \int x\cos(x)dx.$$
+
+    Resolvemos la integral por partes.
+    \begin{align}
+        u = x & \Rightarrow u' = 1, \\
+        v' = \cos(x) & \Rightarrow v = \mathrm{sen}(x).
+    \end{align}
+
+    Entonces:
+    $$f'(x) = \int x\cos(x)dx = x\mathrm{sen}(x) - \int \mathrm{sen}(x)dx = x\mathrm{sen}(x) + \cos(x) + C.$$
+</p>
+
+<p>
+    De igual forma, $f'$ es la derivada de $f$, así que
+    $$f(x) = \int f'(x)dx = \int (x\mathrm{sen}(x) + \cos(x) + C)dx = \int x\mathrm{sen}(x)dx + \mathrm{sen}(x) + Cx.$$
+
+    Resolvemos la integral por partes.
+    \begin{align}
+        u = x & \Rightarrow u' = 1, \\
+        v' = \mathrm{sen}(x) & \Rightarrow v = -\cos(x).
+    \end{align}
+
+    Entonces:
+    \begin{align}
+        & f(x) = \int x\mathrm{sen}(x)dx + \mathrm{sen}(x) + Cx = -x\cos(x) + \int \cos(x)dx  + \mathrm{sen}(x) + Cx + K = \\
+        & = -x\cos(x) + 2\mathrm{sen}(x) + Cx + K.
+    \end{align}
+</p>
+
+<p>
+    Si la gráfica de $f$ pasa por el punto $\left(0, \frac{\pi}{2}\right)$, ha de verificarse que $f(0) = \frac{\pi}{2}.$
+    Así que
+    $$f(0) = \frac{\pi}{2} \Leftrightarrow K = \frac{\pi}{2}.$$
+</p>
+
+<p>
+    De igual forma, si la gráfica pasa por el punto $(\pi, 2\pi)$, ha de verificarse que $f(\pi) = 2\pi.$
+    Por tanto,
+    $$f(\pi) = 2\pi \Leftrightarrow \pi + C\pi + \frac{\pi}{2} = 2\pi \Leftrightarrow 1 + C + \frac{1}{2} = 2 \Leftrightarrow C = \frac{1}{2}.$$
+</p>
+
+<p>
+    Así que la función es
+    $$f(x) = -x\cos(x) + 2\mathrm{sen}(x) + \frac{1}{2}x + \frac{\pi}{2}.$$
+</p>

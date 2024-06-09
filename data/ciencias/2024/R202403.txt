@@ -1,0 +1,42 @@
+<p>
+    En primer lugar, hallamos todas las primitivas de la función $F.$
+    $$F(x) = \int f(x)dx = \int \frac{x^3+2}{x^2-1}dx.$$
+
+    Para resolver esta integral, hacemos la división de polinomios del integrando.
+    $$\frac{x^3+2}{x^2-1} = x + \frac{x+2}{x^2-1}.$$
+
+    Así que:
+    $$F(x) = \int \frac{x^3+2}{x^2-1}dx = \int xdx + \int \frac{x+2}{x^2-1}dx = \frac{1}{2}x^2 + \int \frac{x+2}{x^2-1}dx.$$
+
+    Expresamos la función como suma de fracciones simples.
+    Las raíces del denominador son -1 y 1, así que la función se puede escribir como
+    $$\frac{x+2}{x^2-1} = \frac{A}{x-1} + \frac{B}{x+1} = \frac{A(x+1) + B(x-1)}{x^2-1} = \frac{(A+B)x + A - B}{x^2-1}.$$
+
+    Igualando ambas expresiones, obtenemos que
+    \begin{cases}
+        A+B = 1, \\
+        A-B = 2.
+    \end{cases}
+
+    Resolvemos el sistema por reducción.
+    Si sumamos las dos ecuaciones, obtenemos que
+    $$2A = 3 \Leftrightarrow A = \frac{3}{2}.$$
+
+    Despejando y sustituyendo en la primera ecuación, obtenemos que
+    $$A + B = 1 \Leftrightarrow B = 1 - A \xrightarrow{A = 3/2} B = -\frac{1}{2}.$$
+
+    Por tanto,
+    $$\frac{x+2}{x^2-1} = \frac{3}{2(x-1)} - \frac{1}{2(x+1)}.$$
+
+    Resolvemos la integral.
+    $$F(x) = \frac{1}{2}x^2 + \int \frac{x+2}{x^2-1}dx = \frac{1}{2}x^2 + \frac{3}{2} \int \frac{1}{x-1}dx - \frac{1}{2} \int \frac{1}{x+1}dx = \frac{1}{2}x^2 + \frac{3}{2}\ln|x-1| - \frac{1}{2}\ln|x+1| + C.$$
+</p>
+
+<p>
+    La primitiva que pasa por el punto $(0, 1)$ ha de verificar que $F(0) = 1.$
+    Por tanto,
+    $$F(0) = 1 \Leftrightarrow C = 1.$$
+
+    Luego la primitiva es
+    $$F(x) = \frac{1}{2}x^2 + \frac{3}{2}\ln|x-1| - \frac{1}{2}\ln|x+1| + 1.$$
+</p>

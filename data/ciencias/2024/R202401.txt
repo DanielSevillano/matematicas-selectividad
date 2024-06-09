@@ -1,0 +1,26 @@
+<ol>
+    <li>
+        Calculamos en primer lugar la pendiente de la recta que pasa por los puntos $A(1, 0)$ y $B(e, 1).$
+        $$m = \frac{1-0}{e-1} = \frac{1}{e-1}.$$
+
+        Por otro lado, la pendiente de la recta tangente a la gráfica de $f$ viene dada por el valor de su derivada.
+        Calculamos la derivada de la función $f.$
+        $$f'(x) = \frac{1}{x}.$$
+
+        Hallamos los puntos en los que las pendientes coinciden.
+        $$f'(x) = \frac{1}{e-1} \Leftrightarrow \frac{1}{x} = \frac{1}{e-1} \Leftrightarrow x = e-1.$$
+
+        Por tanto, la recta tangente es paralela a la recta dada en el punto $(e-1, \ln(e-1)).$
+    </li>
+
+    <li>
+        La pendiente $m_t$ de la recta tangente a la gráfica de $f$ en $x = 1$ viene dada por
+        $$m_t = f'(1) = 1.$$
+
+        Como la recta normal es perpendicular a la recta tangente, su pendiente $m_n$ es
+        $$m_n = -\frac{1}{m_t} = -1.$$
+
+        Por tanto, la ecuación de la recta normal a la gráfica de $f$ en el punto $A(1, 0)$ es
+        $$y - 0 = m_n(x - 1) \Leftrightarrow y = -x + 1.$$
+    </li>
+</ol>
