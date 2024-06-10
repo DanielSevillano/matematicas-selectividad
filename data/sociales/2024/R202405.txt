@@ -1,0 +1,51 @@
+<ol>
+    <li>
+        Llamamos $J$ a ser joven, $S$ a ser sénior, $N$ a tener un coche nuevo y $V$ a tener un coche viejo.
+        Podemos organizar los datos en una tabla de contingencia.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <th>Jóvenes</th>
+                    <th>Sénior</th>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <th>Nuevos</th>
+                    <td>8</td>
+                    <td>11</td>
+                    <td>19</td>
+                </tr>
+
+                <tr>
+                    <th>Viejos</th>
+                    <td>21</td>
+                    <td>14</td>
+                    <td>35</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>29</td>
+                    <td>25</td>
+                    <td>54</td>
+                </tr>
+            </table>
+        </div>
+
+        La probabilidad de que el conductor sea sénior y el vehículo sea viejo es
+        $$P(S \cap V) = \frac{14}{35}.$$
+    </li>
+
+    <li>
+        La probabilidad de que el conductor sea joven sabiendo que el vehículo es viejo es
+        $$P(J|V) = \frac{21}{35}.$$
+    </li>
+
+    <li>
+        De las cuatro combinaciones, los siniestros en los que el conductor es sénior y el vehículo es nuevo representan el menor número de casos.
+        Por tanto, su probabilidad es la menor de las cuatro.
+    </li>
+</ol>

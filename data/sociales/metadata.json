@@ -1,6 +1,7 @@
 [
     {
         "ejercicio": 202401,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Dimensiones",
@@ -16,6 +17,7 @@
     },
     {
         "ejercicio": 202403,
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
@@ -31,6 +33,7 @@
     },
     {
         "ejercicio": 202405,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
@@ -43,6 +46,7 @@
     },
     {
         "ejercicio": 202407,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Muestreo",

@@ -1,0 +1,76 @@
+<ol>
+    <li>
+        Podemos organizar los datos en una tabla.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <th>Muestra 1</th>
+                    <th>Muestra 2</th>
+                    <th>Población</th>
+                </tr>
+
+                <tr>
+                    <th>$E_1$</th>
+                    <td>25</td>
+                    <td>$c$</td>
+                    <td>500</td>
+                </tr>
+
+                <tr>
+                    <th>$E_2$</th>
+                    <td>30</td>
+                    <td>$d$</td>
+                    <td>$x$</td>
+                </tr>
+
+                <tr>
+                    <th>$E_3$</th>
+                    <td>$a$</td>
+                    <td>80</td>
+                    <td>400</td>
+                </tr>
+
+                <tr>
+                    <th>$E_4$</th>
+                    <td>$b$</td>
+                    <td>100</td>
+                    <td>$y$</td>
+                </tr>
+            </table>
+        </div>
+
+        Como se usa afijación proporcional,
+        \begin{align}
+            & \frac{500}{25} = \frac{x}{30} \Leftrightarrow x = 600, \\
+            & \frac{400}{80} = \frac{y}{100} \Leftrightarrow y = 500.
+        \end{align}
+
+        Como el estrato $E_1$ tiene el mismo número de individuos que el estrato $E_4$, $b = 25$ y $c = 100.$
+        Además,
+        \begin{align}
+            & \frac{500}{25} = \frac{400}{a} \Leftrightarrow a = 20, \\
+            & \frac{400}{80} = \frac{600}{d} \Leftrightarrow d = 120.
+        \end{align}
+
+        Por tanto:
+
+        <ul>
+            <li>La población está compuesta por 500 individuos de $E_1$, 600 de $E_2$, 400 de $E_3$ y 500 de $E_4.$</li>
+            <li>La primera muestra está compuesta por 25 de $E_1$, 30 de $E_2$, 20 de $E_3$ y 25 de $E_4.$</li>
+            <li>La segunda muestra está compuesta por 100 de $E_1$, 120 de $E_2$, 80 de $E_3$ y 100 de $E_4.$</li>
+        </ul>
+    </li>
+
+    <li>
+        Hallamos la media $\mu$ y la varianza $\sigma^2$ de la población.
+        \begin{align}
+            & \mu = \frac{-3 - 1 + 2 + 5 + 7}{5} = 5, \\
+            & \sigma^2 = \frac{(-3-5)^2 + (-1-5)^2 + (2-5)^2 + (5-5)^2 + (7-5)^2}{5} = 22,6.
+        \end{align}
+
+        Por tanto, la distribución de medias muestrales de tamaño 2 tiene media $\mu = 5$ y desviación típica
+        $$\frac{\sigma}{\sqrt{2}} = \frac{\sqrt{22,6}}{\sqrt{2}} \approx 3,3615.$$
+    </li>
+</ol>
