@@ -72,11 +72,7 @@ async function obtenerDatos() {
     tarjetaPorcentajeResueltosCiencias.classList.add("tarjeta");
     tarjetaPorcentajeResueltosCiencias.textContent = (numeroEjerciciosResueltosCiencias / numeroEjerciciosCiencias * 100).toFixed(2).replace(".", ",") + "% resuelto";
 
-    const tarjetaPorcentajeResueltosCiencias2019 = document.createElement("div");
-    tarjetaPorcentajeResueltosCiencias2019.classList.add("tarjeta");
-    tarjetaPorcentajeResueltosCiencias2019.textContent = (numeroEjerciciosResueltosCiencias / 240 * 100).toFixed(2).replace(".", ",") + "% desde 2019";
-
-    seccionCiencias.append(tarjetaExamenesCiencias, tarjetaEjerciciosCiencias, tarjetaEjerciciosResueltosCiencias, tarjetaPorcentajeResueltosCiencias, tarjetaPorcentajeResueltosCiencias2019);
+    seccionCiencias.append(tarjetaExamenesCiencias, tarjetaEjerciciosCiencias, tarjetaEjerciciosResueltosCiencias, tarjetaPorcentajeResueltosCiencias);
     seccionCiencias.classList.remove("cargando");
 
     // Estadísticas de sociales
