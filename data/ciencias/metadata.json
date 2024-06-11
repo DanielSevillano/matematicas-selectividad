@@ -50,6 +50,7 @@
     },
     {
         "ejercicio": 202407,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Punto simétrico"

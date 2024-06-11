@@ -1,0 +1,63 @@
+<ol>
+    <li>
+        En primer lugar, hallamos las ecuaciones paramétricas de la recta $r.$
+        Si tomamos $y = \lambda$, entonces
+        \begin{align}
+            & y - z = 1 \Leftrightarrow z = -1 + y \xrightarrow{y = \lambda} z = -1 + \lambda, \\
+            & x - 2y + z = 2 \Leftrightarrow x = 2 + 2y - z \xrightarrow[z=-1+\lambda]{y=\lambda} x = 2 + 2\lambda + 1 - \lambda = 3 + \lambda.
+        \end{align}
+
+        Luego las ecuaciones paramétricas de $r$ son
+        $$r \equiv \begin{cases}
+            x = 3 + \lambda, \\
+            y = \lambda, \\
+            z = -1 + \lambda.
+        \end{cases}$$
+
+        Para hallar el punto simétrico $P'$ de $P$ con respecto a $r$, trazamos un plano $\tau$ perpendicular a la recta que pase por el punto $P.$
+        Al ser perpendicular a $r$, su vector normal es $\vec{n}_\tau = \vec{d}_r = (1, 1, 1).$
+        Así que la ecuación del plano $\tau$ es
+        $$\tau \equiv x-2+ y-2 + z-1 = 0 \Leftrightarrow x + y + z - 5 = 0.$$
+
+        A continuación, hallamos el punto de intersección $R$ de la recta $r$ y el plano.
+        Para ello sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
+        $$3+\lambda + \lambda - 1 + \lambda - 5 = 0 \Leftrightarrow 3\lambda - 3 = 0 \Leftrightarrow \lambda = 1.$$
+
+        Por tanto, el punto de intersección es $R(4, 1, 0).$
+        Como $R$ es el punto medio de $P$ y $P'$, podemos hallar $P'$ como el simétrico de $P$ respecto de $R.$
+        Si llamamos $P'(a, b, c)$, tiene que verificarse:
+        \begin{cases}
+            & \frac{2+a}{2} = 4 \Leftrightarrow a = 6, \\
+            & \frac{2+b}{2} = 1 \Leftrightarrow b = 0, \\
+            & \frac{1+c}{2} = 0 \Leftrightarrow c = -1.
+        \end{cases}
+
+        Por tanto, el punto simétrico de $P$ con respecto a la recta $r$ es $P'(6, 0, -1).$
+    </li>
+
+    <li>
+        Para hallar el punto simétrico $Q'$ de $Q$ con respecto a $\pi$, trazamos una recta $s$ perpendicular al plano que pase por el punto $Q.$
+        Al ser perpendicular a $\pi$, su vector director es $\vec{d}_s = \vec{n}_\pi = (1, -2, 1).$
+        Así que las ecuaciones de la recta $s$ son
+        $$s \equiv \begin{cases}
+            x = 1 + \mu, \\
+            y = -1 - 2\mu, \\
+            z = -3 + \mu.
+        \end{cases}$$
+
+        A continuación, hallamos el punto de intersección $S$ de la recta $s$ y el plano.
+        Para ello sustituimos las ecuaciones paramétricas de $s$ en la ecuación del plano.
+        $$1+\mu - 2(-1-2\mu) - 3 + \mu + 6 = 0 \Leftrightarrow 6\mu + 6 = 0 \Leftrightarrow \mu = -1.$$
+
+        Por tanto, el punto de intersección es $S(0, 1, -4).$
+        Como $S$ es el punto medio de $Q$ y $Q'$, podemos hallar $Q'$ como el simétrico de $Q$ respecto de $S.$
+        Si llamamos $Q'(a, b, c)$, tiene que verificarse:
+        \begin{cases}
+            & \frac{1+a}{2} = 0 \Leftrightarrow a = -1, \\
+            & \frac{-1+b}{2} = 1 \Leftrightarrow b = 3, \\
+            & \frac{-3+c}{2} = -4 \Leftrightarrow c = -5.
+        \end{cases}
+
+        Por tanto, el punto simétrico de $Q$ con respecto al plano $\pi$ es $Q'(-1, 3, -5).$
+    </li>
+</ol>
