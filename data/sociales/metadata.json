@@ -24,6 +24,7 @@
     },
     {
         "ejercicio": 202404,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",

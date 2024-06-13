@@ -1,0 +1,95 @@
+<ol>
+    <li>
+        Estudiamos la continuidad y la derivabilidad de la función $v.$
+
+        <ul>
+            <li>
+                Si $t \in [0, 24]$ con $t \neq 10$, $v$ es continua y derivable con
+                $$v'(t) = \begin{cases}
+                    2t - 8, & \text{si } 0 \leq t < 10, \\
+                    -2t + 32, & \text{si } 10 < t \leq 24.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $t = 10.$
+                \begin{align}
+                    & \lim_{t \to 10^-} v(t) = \lim_{t \to 10^-} (t^2 - 8t + 60) = 80, \\
+                    & \lim_{t \to 10^+} v(t) = \lim_{t \to 10^+} (-t^2 + 32t - 140) = 80, \\
+                    & v(10) = 80.
+                \end{align}
+
+                Observamos que
+                $$\lim_{t \to 10^-} v(t) = \lim_{t \to 10^+} v(t) = v(10).$$
+                
+                Así que $v$ es continua en $t = 10.$
+                Pasamos a estudiar su derivabilidad.
+                \begin{align}
+                    & v'_-(10) = 12, \\
+                    & v'_+(10) = 12.
+                \end{align}
+
+                Observamos que
+                $$v'_-(10) = v'_+(10).$$
+
+                Así que $v$ es derivable en $t = 10.$
+            </li>
+        </ul>
+
+        Por tanto, $v$ es continua y derivable en $[0, 24].$
+    </li>
+
+    <li>
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+
+        <ul>
+            <li>
+                Si $0 \leq t \leq 10$,
+                $$v'(t) = 0 \Leftrightarrow 2t - 8 = 0 \Leftrightarrow t = 4.$$
+            </li>
+
+            <li>
+                Si $10 < t \leq 24$,
+                $$v'(t) = 0 \Leftrightarrow -2t + 32 = 0 \Leftrightarrow t = 16.$$
+            </li>
+        </ul>
+
+        Así que los puntos críticos son $t = 4$ y $t = 16.$
+        Estudiamos el signo de $v'.$
+
+        <ul>
+            <li>
+                Si $0 \leq t < 4$, $v'(t) < 0.$
+                Así que $v$ es decreciente.
+            </li>
+
+            <li>
+                Si $4 < t < 16$, $v'(t) > 0.$
+                Así que $v$ es creciente.
+            </li>
+
+            <li>
+                Si $16 < t \leq 24$, $v'(t) < 0.$
+                Así que $v$ es decreciente.
+            </li>
+        </ul>
+
+        Por tanto, $v$ es creciente en $(4, 16)$ y es decreciente en $(0, 4) \cup (16, 24).$
+        Los puntos $(0, 60)$ y $(16, 116)$ son máximos relativos y los puntos $(4, 44)$ y $(24, 52)$ son mínimos relativos.
+        Por tanto, $(16, 116)$ es el máximo absoluto y $(4, 44)$ es el mínimo absoluto.
+        <br>
+        Representamos gráficamente la función usando la información obtenida.
+        <img class="figura" src="img/sociales/R202404.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        Podemos observar en la gráfica que solo se superan velocidades de 100 km/h en la segunda rama de la función.
+        $$v(t) = 100 \Leftrightarrow -t^2 + 32t - 140 = 100 \Leftrightarrow -t^2 + 32t - 240 = 0 \Leftrightarrow \begin{cases}
+            t = 12, \\
+            t = 20.
+        \end{cases}$$
+
+        Por tanto, la alerta naranja estaría activa entre las horas 12 y 20.
+        Por otro lado, como por el apartado anterior el máximo absoluto es 116, no se emitiría alerta roja.
+    </li>
+</ol>
