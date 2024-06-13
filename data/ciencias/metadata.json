@@ -42,6 +42,7 @@
     },
     {
         "ejercicio": 202406,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",

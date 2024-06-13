@@ -1,0 +1,98 @@
+<ol>
+    <li>
+        La matriz de coeficientes del sistema es
+        $$A = \begin{pmatrix}
+            0 & 1 & 1 \\
+            k-1 & 1 & 1 \\
+            1 & k-1 & 1
+        \end{pmatrix}.$$
+
+        Observamos que
+        $$\begin{vmatrix}
+            0 & 1 \\
+            1 & 1
+        \end{vmatrix} = -1 \neq 0 \Rightarrow \mathrm{rang}(A) \geq 2.$$
+
+        Para determinar el rango de $A$ según el valor de $k$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            0 & 1 & 1 \\
+            k-1 & 1 & 1 \\
+            1 & k-1 & 1
+        \end{vmatrix} = 1 + (k-1)^2 - 1 - (k-1) = k^2 - 3k + 2.$$
+
+        Observamos que
+        $$|A| = 0 \Leftrightarrow k^2 - 3k + 2 = 0 \Leftrightarrow \begin{cases}
+            k = 1, \\
+            k = 2.
+        \end{cases}$$
+
+        Es decir, $\mathrm{rang}(A) = 3$ si y solo si $k \neq 1$ y $k \neq 2.$
+        En otro caso, $\mathrm{rang}(A) = 2.$
+
+        <ul>
+            <li>
+                Si $k \neq 1$ y $k \neq 2$, el rango de la matriz de coeficientes es máximo.
+                Por tanto, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $k = 1$, la matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    0 & 1 & 1 & 1 \\
+                    0 & 1 & 1 & 1 \\
+                    1 & 0 & 1 & 0
+                \end{pmatrix}.$$
+
+                Observamos que las dos primeras filas son iguales, así que $\mathrm{rang}(A|B) = 2.$
+                Como $\mathrm{rang}(A) = \mathrm{rang}(A|B) < 3$, el sistema es compatible indeterminado.
+            </li>
+
+            <li>
+                Si $k = 2$, la matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    0 & 1 & 1 & 1 \\
+                    1 & 1 & 1 & 2 \\
+                    1 & 1 & 1 & 0
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    0 & 1 & 1 \\
+                    1 & 1 & 2 \\
+                    1 & 1 & 0
+                \end{vmatrix} = 2 \neq 0 \Rightarrow \mathrm{rang}(A|B) = 3.$$
+
+                Como $\mathrm{rang}(A) \neq \mathrm{rang}(A|B)$, el sistema es incompatible.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Si $k = 1$, el sistema es compatible indeterminado por el apartado anterior.
+        Podemos reducir el sistema a
+        \begin{cases}
+            y + z = 1, \\
+            x + z = 0.
+        \end{cases}
+
+        Si tomamos $z = \lambda$, entonces
+        \begin{align}
+            & y + z = 1 \Leftrightarrow y = 1 - z \xrightarrow{z = \lambda} y = 1-\lambda, \\
+            & x + z = 0 \Leftrightarrow x = -z \xrightarrow{z = \lambda} x = -\lambda.
+        \end{align}
+
+        Por tanto, las soluciones del sistema son de la forma
+        \begin{cases}
+            x = -\lambda, \\
+            y = 1-\lambda, \\
+            z = \lambda.
+        \end{cases}
+
+        Para $\lambda = 1$, una solución es
+        \begin{cases}
+            x = -1, \\
+            y = 0, \\
+            z = 1.
+        \end{cases}
+    </li>
+</ol>
