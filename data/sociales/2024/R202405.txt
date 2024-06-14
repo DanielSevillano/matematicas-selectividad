@@ -36,16 +36,17 @@
         </div>
 
         La probabilidad de que el conductor sea sénior y el vehículo sea viejo es
-        $$P(S \cap V) = \frac{14}{35}.$$
+        $$P(S \cap V) = \frac{14}{54} = \frac{7}{27}.$$
     </li>
 
     <li>
         La probabilidad de que el conductor sea joven sabiendo que el vehículo es viejo es
-        $$P(J|V) = \frac{21}{35}.$$
+        $$P(J|V) = \frac{21}{35} = \frac{3}{5}.$$
     </li>
 
     <li>
-        De las cuatro combinaciones, los siniestros en los que el conductor es sénior y el vehículo es nuevo representan el menor número de casos.
+        De las cuatro combinaciones, los siniestros en los que el conductor es joven y el vehículo es nuevo representan el menor número de casos.
         Por tanto, su probabilidad es la menor de las cuatro.
+        Así que los siniestros en los que el conductor es sénior y el vehículo es nuevo no son los menos probables.
     </li>
 </ol>

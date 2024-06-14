@@ -66,11 +66,11 @@
     <li>
         Hallamos la media $\mu$ y la varianza $\sigma^2$ de la población.
         \begin{align}
-            & \mu = \frac{-3 - 1 + 2 + 5 + 7}{5} = 5, \\
-            & \sigma^2 = \frac{(-3-5)^2 + (-1-5)^2 + (2-5)^2 + (5-5)^2 + (7-5)^2}{5} = 22,6.
+            & \mu = \frac{-3 - 1 + 2 + 5 + 7}{5} = 2, \\
+            & \sigma^2 = \frac{(-3-2)^2 + (-1-2)^2 + (2-2)^2 + (5-2)^2 + (7-2)^2}{5} = 13,6.
         \end{align}
 
-        Por tanto, la distribución de medias muestrales de tamaño 2 tiene media $\mu = 5$ y desviación típica
-        $$\frac{\sigma}{\sqrt{2}} = \frac{\sqrt{22,6}}{\sqrt{2}} \approx 3,3615.$$
+        Por tanto, la distribución de medias muestrales de tamaño 2 tiene media $\mu = 5$ y varianza
+        $$\frac{\sigma^2}{2} = \frac{13,6}{2} = 6,8.$$
     </li>
 </ol>
