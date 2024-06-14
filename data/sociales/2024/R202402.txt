@@ -1,0 +1,88 @@
+<p>
+    Llamamos $x$ al número de hectáreas de secano e $y$ al de regadío.
+    Podemos organizar la información en una tabla.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <th>Agua (m<sup>3</sup>)</th>
+                <th>Abono (kg)</th>
+                <th>Productos (kg)</th>
+                <th>Costes (€)</th>
+            </tr>
+
+            <tr>
+                <th>Secano</th>
+                <td>0</td>
+                <td>100</td>
+                <td>50</td>
+                <td>5.000</td>
+            </tr>
+
+            <tr>
+                <th>Regadío</th>
+                <td>1.500</td>
+                <td>110</td>
+                <td>80</td>
+                <td>10.000</td>
+            </tr>
+
+            <tr>
+                <th>Máximo</th>
+                <td>30.000</td>
+                <td>5.500</td>
+                <td>3.000</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</p>
+
+<p>
+    Como se quiere mantener un mínimo de 20 hectáreas de secano
+    $$x \geq 20.$$
+
+    Cada hectárea de regadío necesita 1.500 m<sup>3</sup> de agua y se dispone de 30.000 m<sup>3</sup>, así que
+    $$1.500y \leq 30.000 \Leftrightarrow y \leq 20.$$
+
+    Se necesitan 100 kg de abono para cada hectárea de secano, 110 kg para cada hectárea de regadío y se dispone de 5.500 kg, así que
+    $$100x + 110y \leq 5.500 \Leftrightarrow 10x + 11y \leq 550.$$
+
+    Se necesitan 50 kg de productos fitosanitarios para cada hectárea de secano, 80 kg para cada hectárea de regadío y se dispone de 3.000 kg, así que
+    $$50x + 80y \leq 3.000 \Leftrightarrow 5x + 8y \leq 300.$$
+
+    Además, incorporamos la restricción
+    $$y \geq 0.$$
+
+    Por último, como la producción por hectárea de secano y de regadío es de 5.000 kg y 10.000 kg respectivamente, la función objetivo es
+    $$F(x, y) = 5.000x + 10.000y.$$
+
+    Por tanto, el problema es
+    \begin{align}
+        \text{Maximizar } & F(x, y) = 5.000x + 10.000y, \\
+        \text{sujeto a } & x \geq 20, \\
+        & y \leq 20, \\
+        & 10x + 11y \leq 550, \\
+        & 5x + 8y \leq 300, \\
+        & y \geq 0.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región definida mediante las inecuaciones.
+    <img src="img/sociales/R202402.png" alt="Figura" loading="lazy">
+
+    Los vértices son
+    $$A(20, 0), \quad B(20, 20), \quad C(28, 20), \quad D(44, 10) \quad \text{y} \quad E(55, 0).$$
+</p>
+
+<p>
+    Para hallar el máximo de la función $F$, la evaluamos en los vértices.
+    \begin{align}
+        & F(A) = F(20, 0) = 100.000, & & F(B) = F(20, 20) = 300.000, & & F(C) = F(28, 20) = 340.000, \\
+        & F(D) = F(44, 10) = 320.000, & & F(E) = F(55, 0) = 275.000.
+    \end{align}
+
+    Por tanto, el valor máximo de la producción se alcanza cultivando 28 hectáreas de secano y 20 de regadío, con una producción de 340.000 kg.
+</p>

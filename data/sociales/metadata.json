@@ -10,6 +10,7 @@
     },
     {
         "ejercicio": 202402,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
