@@ -58,6 +58,7 @@
     },
     {
         "ejercicio": 202408,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"
