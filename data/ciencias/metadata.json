@@ -59,6 +59,7 @@
     },
     {
         "ejercicio": 202408,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Posición relativa",

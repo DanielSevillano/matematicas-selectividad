@@ -1,0 +1,57 @@
+<ol>
+    <li>
+        En primer lugar, hallamos las ecuaciones paramétricas de las rectas $r$ y $s.$
+
+        <ul>
+            <li>
+                Para la recta $r$, si tomamos $x = \lambda$,
+                $$r \equiv \begin{cases}
+                    x = \lambda, \\
+                    y = 0, \\
+                    z = 2\lambda.
+                \end{cases}$$
+
+                Así que el vector director de $r$ es $\vec{d}_r = (1, 0, 2).$
+            </li>
+
+            <li>
+                Para la recta $s$, si tomamos $x = \mu$,
+                $$s \equiv \begin{cases}
+                    x = \mu, \\
+                    y = -7 - \mu, \\
+                    z = 0.
+                \end{cases}$$
+
+                Así que el vector director de $s$ es $\vec{d}_s = (1, -1, 0).$
+            </li>
+        </ul>
+
+        Observamos que los vectores directores no pueden ser proporcionales, porque
+        $$\frac{1}{1} \neq \frac{0}{-1} \neq \frac{2}{0}.$$
+
+        Así que las dos rectas no son paralelas ni coincidentes.
+        Tomamos un punto $R(0, 0, 0)$ de $r$ y un punto $S(0, -7, 0)$ de $s.$
+        Podemos comprobar si las dos rectas están contenidas en un mismo plano viendo si $\vec{d}_r$, $\vec{d}_s$ y $\vec{RS} = (0, -7, 0)$ son linealmente dependientes.
+        $$\begin{vmatrix}
+            1 & 0 & 2 \\
+            1 & -1 & 0 \\
+            0 & -7 & 0
+        \end{vmatrix} = -14 \neq 0.$$
+
+        Como los tres vectores son linealmente independientes, $r$ y $s$ no están contenidas en un mismo plano.
+        Por tanto, las rectas $r$ y $s$ se cruzan.
+    </li>
+
+    <li>
+        Llamamos $\pi$ al plano que queremos hallar.
+        Como está a la misma distancia de ambas rectas, tiene que ser paralelo a las dos.
+        Así que $\vec{d}_r$ y $\vec{d}_s$ son dos vectores directores del plano $\pi.$
+        Además, el punto $M\left(0, -\frac{7}{2}, 0\right)$ pertenece al plano por ser el punto medio entre $R$ y $S.$
+        Por tanto, las ecuaciones paramétricas del plano $\pi$ son
+        $$\pi \equiv \begin{cases}
+            x = \lambda + \mu, \\
+            y = -\frac{7}{2} - \mu, \\
+            z = 2\lambda.
+        \end{cases}$$
+    </li>
+</ol>
