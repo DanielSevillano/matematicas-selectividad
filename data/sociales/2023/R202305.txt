@@ -80,9 +80,7 @@
                 </tr>
             </table>
         </div>
-    </li>
 
-    <li>
         Al lanzar dos veces la moneda, el espacio muestral es
         $$\{CC, CX, XC, XX\}.$$
 
@@ -108,6 +106,6 @@
 
     <li>
         La probabilidad de obtener dos caras dado que ha salido una cara es
-        $$\frac{P(CC)}{P(CC) + P(CX) + P(XC)} = \frac{\frac{4}{3}}{\frac{8}{9}} = \frac{\frac{4}{3}}{\frac{8}{9}} = \frac{4}{8} = \frac{1}{2}.$$
+        $$\frac{P(CC)}{P(CC) + P(CX) + P(XC)} = \frac{\frac{4}{9}}{\frac{8}{9}} = \frac{4}{8} = \frac{1}{2}.$$
     </li>
 </ol>
