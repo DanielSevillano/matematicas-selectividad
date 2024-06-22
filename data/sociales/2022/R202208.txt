@@ -12,7 +12,7 @@
         Así que
         $$1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
 
-        Por tanto, el intervalo de confianza para estimar la proporción poblacional de perros vacunados con un nivel de confianza del 98% es
+        Por tanto, el intervalo de confianza para estimar la proporción poblacional de perros vacunados con un nivel de confianza del 92% es
         $$I = \left(0,8 - 1,75 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{400}}, \; 0,8 + 1,75 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{400}}\right) = (0,765; \; 0,835).$$
 
         El error máximo cometido es
