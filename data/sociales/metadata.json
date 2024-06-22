@@ -649,6 +649,7 @@
     },
     {
         "ejercicio": 202227,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"
@@ -656,6 +657,7 @@
     },
     {
         "ejercicio": 202228,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"

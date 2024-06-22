@@ -1,0 +1,29 @@
+<ol>
+    <li>
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \; \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+        Calculamos la media muestral.
+        $$\overline{x} = \frac{30,6 + 30 + 31,3 + 29,7 + 32,3 + 32 + 32,8 + 31,5 + 31,2 + 30,5}{10} = 31,19.$$
+
+
+        Como el nivel de confianza es del 97%, entonces
+        $$1 - \alpha = 0,97 \Leftrightarrow \alpha = 1 - 0,97 = 0,03.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
+
+        Por tanto, el intervalo de confianza para estimar la vida media en meses del teléfono con un nivel de confianza del 97% es
+        $$I = \left(31,19 - 2,17 \cdot \frac{\sqrt{9,61}}{\sqrt{10}}, \; 31,19 + 2,17 \cdot \frac{\sqrt{9,61}}{\sqrt{10}}\right) \approx (29,0627; \; 33,3173).$$
+    </li>
+
+    <li>
+        El error máximo cometido viene dado por
+        $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 2,17 \cdot \frac{\sqrt{9,61}}{\sqrt{n}} = \frac{6,727}{\sqrt{n}}.$$
+
+        Si se quiere que el error máximo sea inferior a 0,15, entonces
+        $$\frac{6,727}{\sqrt{n}} = 0,15 \Leftrightarrow \sqrt{n} = \frac{6,727}{0,15} \Leftrightarrow n = \frac{6,727^2}{0,15^2} \approx 2.011,2235.$$
+
+        Por tanto, el tamaño mínimo de la muestra debe ser de 2.012 teléfonos.
+    </li>
+</ol>
