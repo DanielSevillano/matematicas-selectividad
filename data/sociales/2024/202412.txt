@@ -1,0 +1,5 @@
+A una tienda de decoración le han encargado decorar las mesas de un salón de celebraciones con centros florales y candelabros.
+En el salón se montan siempre entre 12 y 40 mesas.
+En cada mesa solo se puede colocar un centro floral o un candelabro y, además, el número de candelabros no puede ser superior a una tercera parte de los centros florales.
+Si el precio de cada centro floral es de 32€ y el de cada candelabro de 35€, ¿cuántos artículos de cada tipo debe seleccionar la tienda para maximizar sus ingresos?
+¿A cuánto ascenderán dichos ingresos?

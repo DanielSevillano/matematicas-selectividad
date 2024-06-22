@@ -1,0 +1,10 @@
+Se ha administrado un determinado medicamento a una muestra de 220 enfermos de una población que padece una cierta enfermedad y se ha observado una respuesta positiva en 165 de ellos.
+
+<ol>
+    <li>
+        Estime, mediante un intervalo de confianza del 97,5%, la proporción de enfermos que responderían positivamente si este medicamento se administrase a la población de la que se ha extraído la muestra.
+        Según el intervalo obtenido, razone si puede admitirse que el porcentaje de enfermos que responderían positivamente al medicamento administrado es del 70%.
+    </li>
+
+    <li>Con el mismo nivel de confianza y la misma proporción muestral, ¿cuál debe ser el tamaño mínimo de una nueva muestra para que el error de estimación sea menor que el 2,5%?</li>
+</ol>

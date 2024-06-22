@@ -1,0 +1,9 @@
+En una encuesta realizada en una librería se ha determinado que el 45% de sus clientes compran novelas históricas, mientras que el 40% no compra novelas de fantasía.
+Además, de los clientes que compran novelas de fantasía, solo el 30% compran también novelas históricas.
+Elegido un cliente al azar, calcule la probabilidad de que:
+
+<ol>
+    <li>Compre novelas históricas y de fantasía.</li>
+    <li>No compre novelas históricas y tampoco de fantasía.</li>
+    <li>Compre una novela de fantasía, sabiendo que no ha comprado ninguna novela histórica.</li>
+</ol>

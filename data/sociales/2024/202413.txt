@@ -1,0 +1,7 @@
+La superficie de ampliación de un parque de atracciones, en decámetros cuadrados, coincide con el área de la region delimitada por las graficas de las funciones
+$$f(x) = -x^2 + 6x \quad \text{y} \quad g(x) = \frac{x^2}{5}.$$
+
+<ol>
+    <li>Represente gráficamente la superficie de ampliación del parque de atracciones.</li>
+    <li>Si el coste para acondicionar el nuevo suelo es de 75€/m<sup>2</sup>, calcule el área de ampliación del parque y el coste total del acondicionamiento.</li>
+</ol>

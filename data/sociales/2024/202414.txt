@@ -1,0 +1,11 @@
+Se consideran las funciones
+$$f(x) = \begin{cases}
+    2 - x^2, & \text{si } -1 \leq x \leq 1, \\
+    (x-2)^2, & \text{si } 1 < x \leq 3
+\end{cases} \quad \text{y} \quad
+g(x) = 1, \quad \text{si } -1 \leq x \leq 3.$$
+
+<ol>
+    <li>Estudie la continuidad y la derivabilidad de $f$ y $g$ en sus dominios.</li>
+    <li>Represente el recinto limitado por las gráficas de ambas funciones y calcule su área.</li>
+</ol>

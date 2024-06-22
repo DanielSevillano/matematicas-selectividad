@@ -1,0 +1,9 @@
+Un atleta obtiene los siguientes tiempos, en minutos, de 10 repeticiones cronometradas de una prueba:
+$$2,71 \quad 3,84 \quad 3,26 \quad 2,28 \quad 2,86 \quad 3,08 \quad 3,07 \quad 2,46 \quad 2,54 \quad 2,58.$$
+
+Por experiencias anteriores se sabe que el tiempo en cada repetición sigue una ley Normal de media desconocida y desviación típica 0,36 minutos.
+
+<ol>
+    <li>Calcule un intervalo de confianza para el tiempo medio de estas repeticiones con un 93,5% de confianza.</li>
+    <li>¿Cuántas repeticiones como mínimo se tendrán que cronometrar si se quiere obtener un error en la estimación del tiempo medio inferior a 0,05 minutos manteniendo el mismo nivel de confianza?</li>
+</ol>

@@ -1,0 +1,8 @@
+Una fábrica dispone de 3 máquinas A, B y C para la fabricación de una cierta pieza.
+El 25% de las piezas son fabricadas por la máquina A, el 35% por B y el resto por C.
+Tras un estudio se determina que el 2,05% del total de las piezas fabricadas son defectuosas y que el 1% de las piezas fabricadas por B son defectuosas.
+
+<ol>
+    <li>Se selecciona una pieza al azar y resulta no ser defectuosa, ¿qué probabilidad hay de que fuera fabricada por la máquina B?</li>
+    <li>Si A y C tienen la misma probabilidad de fabricar una pieza defectuosa, ¿cuál es la probabilidad de que una pieza sea fabricada por A sabiendo que es defectuosa?</li>
+</ol>

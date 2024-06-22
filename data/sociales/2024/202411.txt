@@ -1,0 +1,16 @@
+Se consideran las matrices
+$$P = \begin{pmatrix}
+    1 & 0 & 1 \\
+    0 & 1 & 0 \\
+    1 & -1 & -1
+\end{pmatrix} \quad \text{y} \quad
+J = \begin{pmatrix}
+    2 & 1 & 0 \\
+    0 & 2 & 0 \\
+    0 & 0 & -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halle la matriz $A$ que satisface la ecuación $P^{-1}AP = J.$</li>
+    <li>Compruebe que $A^3 = PJ^3P{-1}.$</li>
+</ol>
