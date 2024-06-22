@@ -601,6 +601,7 @@
     },
     {
         "ejercicio": 202221,
+        "resuelto": true,
         "categorias": [
             "Programación lineal"
         ]
@@ -641,6 +642,7 @@
     },
     {
         "ejercicio": 202226,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
