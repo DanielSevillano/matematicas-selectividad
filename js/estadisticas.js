@@ -1,6 +1,6 @@
-import { CategoryScale, Chart, Colors, Legend, LinearScale, LineController, LineElement, PointElement, Tooltip } from "https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.js/+esm";
+import { BarController, BarElement, CategoryScale, Chart, Colors, Legend, LinearScale, LineController, LineElement, PointElement, Tooltip } from "https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.js/+esm";
 
-Chart.register(LineController, LineElement, PointElement, CategoryScale, LinearScale, Tooltip, Legend, Colors);
+Chart.register(BarController, BarElement, LineController, LineElement, PointElement, CategoryScale, LinearScale, Tooltip, Legend, Colors);
 
 async function crearGrafica(url, id) {
     const ejeX = [];
@@ -40,6 +40,31 @@ async function crearGrafica(url, id) {
     });
 
     return grafica;
+}
+
+function crearDiagrama(ejerciciosCiencias, ejerciciosSociales, resueltosCiencias, resueltosSociales) {
+    const datos = {
+        labels: ["Ciencias", "Sociales"],
+        datasets: [
+            {
+                label: "Ejercicios totales",
+                data: [ejerciciosCiencias, ejerciciosSociales]
+            },
+            {
+                label: "Ejercicios resueltos",
+                data: [resueltosCiencias, resueltosSociales]
+            }
+        ]
+    };
+
+    const ctx = document.getElementById("diagrama");
+    new Chart(ctx, {
+        type: "bar",
+        data: datos,
+        options: {
+            indexAxis: "y"
+        }
+    });
 }
 
 async function obtenerDatos() {
@@ -127,6 +152,9 @@ async function obtenerDatos() {
 
     seccionGlobal.append(tarjetaExamenes, tarjetaEjercicios, tarjetaEjerciciosResueltos, tarjetaPorcentajeResueltos);
     seccionGlobal.classList.remove("cargando");
+
+    // Diagrama
+    crearDiagrama(numeroEjerciciosCiencias, numeroEjerciciosSociales, numeroEjerciciosResueltosCiencias, numeroEjerciciosResueltosSociales);
 }
 
 const datosGraficas = [
