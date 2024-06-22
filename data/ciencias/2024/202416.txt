@@ -1,0 +1,1 @@
+Determina un número natural de tres cifras sabiendo que la suma de sus dígitos es 9, que la diferencia de dicho número con el que se obtiene al intercambiar la cifra de las centenas por la de las unidades es 198, y que si consideramos la suma entre ambos números, es decir, entre el número a determinar y el que se obtiene al intercambiar sus cifras, el resultado es 828.

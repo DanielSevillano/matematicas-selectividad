@@ -1,0 +1,13 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = \mathrm{arctg}(x + \pi).$
+
+<ol>
+    <li>
+        Calcula los intervalos de concavidad y convexidad de $f.$
+        Estudia y halla, si existen, los puntos de inflexión de $f$ (abscisas donde se obtienen y valores que se alcanzan).
+    </li>
+
+    <li>
+        Calcula
+        $$\lim_{x \to -\pi} \frac{\mathrm{arctg}(x+\pi)}{\mathrm{sen}(x)}.$$
+    </li>
+</ol>

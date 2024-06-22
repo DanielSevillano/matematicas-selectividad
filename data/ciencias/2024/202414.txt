@@ -1,0 +1,2 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = (x^2-3x+5)e^x.$
+Halla una primitiva de $f$ cuya gráfica pase por el punto $(0, 5).$

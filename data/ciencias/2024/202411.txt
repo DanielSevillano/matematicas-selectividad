@@ -1,0 +1,4 @@
+Sea $f$ la función definida por
+$$f(x) = \frac{ax^3 + bx^2 + x - 1}{x^2-1},$$
+para $x \neq \pm 1.$
+Sabiendo que su gráfica tiene una asíntota oblicua que pasa por el punto $(0, 1)$ y es paralela a la recta $y = 2x$, calcula la asíntota oblicua y los valores de $a$ y $b.$

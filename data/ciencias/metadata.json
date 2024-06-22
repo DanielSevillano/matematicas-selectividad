@@ -67,6 +67,63 @@
         ]
     },
     {
+        "ejercicio": 202411,
+        "categorias": [
+            "Análisis",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 202412,
+        "categorias": [
+            "Análisis",
+            "Límites",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 202413,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202414,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202415,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202416,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Problemas"
+        ]
+    },
+    {
+        "ejercicio": 202417,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "ejercicio": 202418,
+        "categorias": [
+            "Geometría",
+            "Área"
+        ]
+    },
+    {
         "ejercicio": 202301,
         "resuelto": true,
         "categorias": [

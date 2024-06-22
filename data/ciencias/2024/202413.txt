@@ -1,0 +1,2 @@
+Halla la función $f: (2, +\infty) \to \mathbb{R}$ que pasa por el punto $(3, -4\ln(5))$ y verifica
+$$f'(x) = \frac{3x^2 + 4x + 12}{x^2-4}.$$

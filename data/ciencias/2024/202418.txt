@@ -1,0 +1,6 @@
+Considera los puntos $A(1, 1, 2)$, $B(1, 0, 1)$ y $C(1, -1, 2).$
+
+<ol>
+    <li>Determina el área del triángulo de vértices $A$, $B$ y $C.$</li>
+    <li>Calcula $D$ para que los puntos $A$, $B$, $C$ y $D$ sean los vértices consecutivos de un paralelogramo.</li>
+</ol>

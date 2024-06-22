@@ -1,0 +1,10 @@
+Considera los puntos $P(1, 0, 1)$ y $Q(3, -2, 1).$
+
+<ol>
+    <li>Calcula el plano perpendicular al segmento $PQ$ que pasa por su punto medio.</li>
+    <li>
+        Calcula el plano paralelo a la recta
+        $$r \equiv 1-x = \frac{y-2}{3} = z+1$$
+        que pasa por $P$ y $Q.$
+    </li>
+</ol>
