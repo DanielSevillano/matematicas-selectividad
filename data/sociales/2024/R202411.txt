@@ -1,0 +1,181 @@
+<ol>
+    <li>
+        En primer lugar, calculamos el determinante de $P.$
+        $$|P| = \begin{vmatrix}
+            1 & 0 & 1 \\
+            0 & 1 & 0 \\
+            1 & -1 & -1
+        \end{vmatrix} = -2.$$
+
+        Así que $P$ es invertible con $\det(P) = -2.$
+        Despejamos la ecuación matricial.
+        $$P^{-1}AP = J \Leftrightarrow A = PJP^{-1}.$$
+
+        Para hallar la inversa de $P$, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(P) = \begin{pmatrix}
+            -1 & 0 & -1 \\
+            -1 & -2 & 1 \\
+            -1 & 0 & 1
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular su inversa como
+        $$P^{-1} = \frac{1}{|P|}\mathrm{Adj}(P)^t = -\frac{1}{2} \begin{pmatrix}
+            -1 & -1 & -1 \\
+            0 & -2 & 0 \\
+            -1 & 1 & 1
+        \end{pmatrix} =
+        \frac{1}{2} \begin{pmatrix}
+            1 & 1 & 1 \\
+            0 & 2 & 0 \\
+            1 & -1 & -1
+        \end{pmatrix}.$$
+
+        Por tanto,
+        \begin{align}
+            & A = PJP^{-1} = \frac{1}{2} \begin{pmatrix}
+                1 & 0 & 1 \\
+                0 & 1 & 0 \\
+                1 & -1 & -1
+            \end{pmatrix}
+            \begin{pmatrix}
+                2 & 1 & 0 \\
+                0 & 2 & 0 \\
+                0 & 0 & -1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 1 & 1 \\
+                0 & 2 & 0 \\
+                1 & -1 & -1
+            \end{pmatrix} = \\
+            & \frac{1}{2} \begin{pmatrix}
+                2 & 1 & -1 \\
+                0 & 2 & 0 \\
+                2 & -1 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 1 & 1 \\
+                0 & 2 & 0 \\
+                1 & -1 & -1
+            \end{pmatrix} =
+            \frac{1}{2} \begin{pmatrix}
+                1 & 5 & 3 \\
+                0 & 4 & 0 \\
+                3 & -1 & 1
+            \end{pmatrix}.
+        \end{align}
+    </li>
+
+    <li>
+        Calculamos la matriz $A^3.$
+        \begin{align}
+            & A^2 = A \cdot A = \frac{1}{4} \begin{pmatrix}
+                1 & 5 & 3 \\
+                0 & 4 & 0 \\
+                3 & -1 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 5 & 3 \\
+                0 & 4 & 0 \\
+                3 & -1 & 1
+            \end{pmatrix} =
+            \frac{1}{4} \begin{pmatrix}
+                10 & 22 & 6 \\
+                0 & 16 & 0 \\
+                6 & 10 & 10
+            \end{pmatrix} = \frac{1}{2} \begin{pmatrix}
+                5 & 11 & 3 \\
+                0 & 8 & 0 \\
+                3 & 5 & 5
+            \end{pmatrix}, \\
+            & A^3 = A^2 \cdot A = \frac{1}{4} \begin{pmatrix}
+                5 & 11 & 3 \\
+                0 & 8 & 0 \\
+                3 & 5 & 5
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 5 & 3 \\
+                0 & 4 & 0 \\
+                3 & -1 & 1
+            \end{pmatrix} =
+            \frac{1}{4} \begin{pmatrix}
+                14 & 66 & 18 \\
+                0 & 32 & 0 \\
+                18 & 30 & 14
+            \end{pmatrix} =
+            \frac{1}{2} \begin{pmatrix}
+                7 & 33 & 9 \\
+                0 & 16 & 0 \\
+                9 & 15 & 7
+            \end{pmatrix}.
+        \end{align}
+
+        Por otro lado, calculamos la matriz $J^3.$
+        \begin{align}
+            & J^2 = J \cdot J = \begin{pmatrix}
+                2 & 1 & 0 \\
+                0 & 2 & 0 \\
+                0 & 0 & -1
+            \end{pmatrix}
+            \begin{pmatrix}
+                2 & 1 & 0 \\
+                0 & 2 & 0 \\
+                0 & 0 & -1
+            \end{pmatrix} =
+            \begin{pmatrix}
+                4 & 4 & 0 \\
+                0 & 4 & 0 \\
+                0 & 0 & 1
+            \end{pmatrix}, \\
+            & J^3 = J^2 \cdot J = \begin{pmatrix}
+                4 & 4 & 0 \\
+                0 & 4 & 0 \\
+                0 & 0 & 1
+            \end{pmatrix} \begin{pmatrix}
+                2 & 1 & 0 \\
+                0 & 2 & 0 \\
+                0 & 0 & -1
+            \end{pmatrix} =
+            \begin{pmatrix}
+                8 & 12 & 0 \\
+                0 & 8 & 0 \\
+                0 & 0 & -1
+            \end{pmatrix}.
+        \end{align}
+
+        Por tanto
+        \begin{align}
+            & PJ^3P^{-1} = \frac{1}{2} \begin{pmatrix}
+                1 & 0 & 1 \\
+                0 & 1 & 0 \\
+                1 & -1 & -1
+            \end{pmatrix}
+            \begin{pmatrix}
+                8 & 12 & 0 \\
+                0 & 8 & 0 \\
+                0 & 0 & -1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 1 & 1 \\
+                0 & 2 & 0 \\
+                1 & -1 & -1
+            \end{pmatrix} = \\
+            & = \frac{1}{2} \begin{pmatrix}
+                8 & 12 & -1 \\
+                0 & 8 & 0 \\
+                8 & 4 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 1 & 1 \\
+                0 & 2 & 0 \\
+                1 & -1 & -1
+            \end{pmatrix} =
+            \frac{1}{2} \begin{pmatrix}
+                7 & 33 & 9 \\
+                0 & 16 & 0 \\
+                9 & 15 & 7
+            \end{pmatrix}.
+        \end{align}
+
+        Así que $A^3 = PJ^3P^{-1}.$
+    </li>
+</ol>

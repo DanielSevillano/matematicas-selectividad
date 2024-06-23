@@ -1,0 +1,27 @@
+<ol>
+    <li>
+        En primer lugar, hallamos los puntos de corte de $f$ y $g.$
+        \begin{align}
+            & f(x) = g(x) \Leftrightarrow -x^2 + 6x = \frac{x^2}{5} \Leftrightarrow -5x^2 + 30x = x^2 \Leftrightarrow \\
+            & \Leftrightarrow 6x^2 - 30x = 0 \Leftrightarrow 6x(x - 5) = 0 \Leftrightarrow \begin{cases}
+                x = 0, \\
+                x - 5 = 0 \Leftrightarrow x = 5.
+            \end{cases}
+        \end{align}
+
+        Así que los puntos de corte son $(0, 0)$ y $(5, 5).$
+        Observamos además que las funciones $f$ y $g$ son parábolas con vértices $(3, 9)$ y $(0, 0)$, respectivamente.
+        Representamos la región delimitada por ambas funciones.
+        <img class="figura" src="img/sociales/R202413.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        Calculamos el área de la región.
+        \begin{align}
+            & \int_0^5 (f(x) - g(x))dx = \int_0^5 \left(-x^2 + 6x - \frac{x^2}{5}\right)dx = \int_0^5 \left(-\frac{6}{5}x^2 + 6x\right)dx = \\
+            & = \left[-\frac{6}{15}x^3 + 3x^2\right]_0^5 = -50 + 75 = 25 \; u^2.
+        \end{align}
+
+        Si el coste es de 75€/m<sup>2</sup>, entonces el coste será de $25 \cdot 75 = 1.875\text{€}.$
+    </li>
+</ol>

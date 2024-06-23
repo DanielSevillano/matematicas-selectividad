@@ -66,6 +66,7 @@
     },
     {
         "ejercicio": 202411,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
@@ -80,6 +81,7 @@
     },
     {
         "ejercicio": 202413,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
