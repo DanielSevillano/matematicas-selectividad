@@ -12,5 +12,5 @@ J = \begin{pmatrix}
 
 <ol>
     <li>Halle la matriz $A$ que satisface la ecuación $P^{-1}AP = J.$</li>
-    <li>Compruebe que $A^3 = PJ^3P{-1}.$</li>
+    <li>Compruebe que $A^3 = PJ^3P^{-1}.$</li>
 </ol>
