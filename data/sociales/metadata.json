@@ -74,6 +74,7 @@
     },
     {
         "ejercicio": 202412,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
@@ -90,6 +91,7 @@
     },
     {
         "ejercicio": 202414,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",

@@ -1,0 +1,70 @@
+<ol>
+    <li>
+        En primer lugar, observamos que $\mathrm{Dom}(f) = \mathrm{Dom}(g) = [-1, 3].$
+        La función $g$ es continua y derivable en todo su dominio por ser constante.
+        Estudiamos la continuidad y la derivabilidad de la función $f.$
+
+        <ul>
+            <li>
+                Si $x \neq 1$ y $x \in [-1, 3]$, $f$ es continua y derivable con
+                $$f'(x) = \begin{cases}
+                    -2x, & \text{si } -1 \leq x < 1, \\
+                    2(x-2), & \text{si } 1 < x \leq 3.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $x = 1.$
+                \begin{align}
+                    & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} (2-x^2) = 1, \\
+                    & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} (x-2)^2 = 1, \\
+                    & f(1) = 1.
+                \end{align}
+
+                Observamos que
+                $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1).$$
+
+                Así que $f$ es continua en $x = 1.$
+                Pasamos a estudiar la derivabilidad.
+                $$f'_-(1) = -2, \quad f'_+(1) = -2.$$
+
+                Observamos que
+                $$f'_-(1) = f'_+(1).$$
+
+                Así que $f$ es derivable en $x = 1.$
+            </li>
+        </ul>
+
+        Por tanto, $f$ también es continua y derivable en todo su dominio.
+    </li>
+
+    <li>
+        En primer lugar, hallamos los puntos de corte de $f$ y $g.$
+
+        <ul>
+            <li>
+                Si $-1 \leq x \leq 1$,
+                $$f(x) = g(x) \Leftrightarrow 2 - x^2 = 1 \Leftrightarrow x^2 = 1 \Leftrightarrow x = \pm 1.$$
+            </li>
+
+            <li>
+                Si $1 < x \leq 3$,
+                $$f(x) = g(x) \Leftrightarrow (x-2)^2 = 1 \Leftrightarrow \begin{cases}
+                    x-2 = 1 \Leftrightarrow x = 3, \\
+                    x-2 = -1 \Leftrightarrow x = 1.
+                \end{cases}$$
+            </li>
+        </ul>
+
+        Así que los puntos de corte son $(-1, 1)$, $(1, 1)$ y $(3, 1).$
+        Observamos además que las dos ramas de $f$ son parábolas con vértices $(0, 2)$ y $(2, 0)$, respectivamente.
+        Representamos los recintos limitados por ambas funciones.
+        <img src="img/sociales/R202414.png" alt="Figura" loading="lazy">
+        
+        Como los dos recintos tienen la misma superficie, podemos calcular el área como
+        \begin{align}
+            & 2 \int_{-1}^1 (f(x) - g(x))dx = 2 \int_{-1}^1 (2-x^2 - 1)dx = 2 \int_{-1}^1 (-x^2 + 1)dx = 2 \left[-\frac{1}{3}x^3 + x\right]_{-1}^1 = \\
+            & = 2 \left(-\frac{1}{3} + 1 - \left(\frac{1}{3} - 1\right)\right) = \frac{8}{3} \; u^2.
+        \end{align}
+    </li>
+</ol>

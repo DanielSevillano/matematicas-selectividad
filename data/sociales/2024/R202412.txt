@@ -1,0 +1,44 @@
+<p>
+    Llamamos $x$ al número de centros florales e $y$ al de candelabros.
+</p>
+
+<p>
+    Cada mesa se decora con un centro floral o un candelabro y se montan entre 12 y 40 mesas, así que
+    $$x + y \geq 12 \quad \text{y} \quad x + y \leq 40.$$
+
+    El número de candelabros no puede ser superior a una tercera parte de los centros florales, así que
+    $$y \leq \frac{x}{3} \Leftrightarrow 3y \leq x.$$
+
+    Además, incorporamos la restricción
+    $$y \geq 0.$$
+
+    Por último, como los precios de cada centro floral y cada candelabro son de 32€ y 35€ respectivamente, la función objetivo es
+    $$F(x, y) = 32x + 35y.$$
+
+    Por tanto, el problema es
+    \begin{align}
+        \text{Maximizar } & F(x, y) = 32x + 35y, \\
+        \text{sujeto a } & x + y \geq 12, \\
+        & x + y \leq 40, \\
+        & 3y \leq x, \\
+        & y \geq 0.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región obtenida mediante las inecuaciones.
+    <img src="img/sociales/R202412.png" alt="Figura" loading="lazy">
+
+    Los vértices son
+    $$A(12, 0), \quad B(9, 3), \quad C(30, 10) \quad \text{y} \quad D(40, 0).$$
+</p>
+
+<p>
+    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    \begin{align}
+        & F(A) = F(12, 0) = 384, & & F(B) = F(9, 3) = 393, \\
+        & F(C) = F(30, 10) = 1.310, & & F(D) = F(40, 0) = 1.280.
+    \end{align}
+
+    Por tanto, el valor máximo de los ingresos se alcanza seleccionando 30 centros florales y 10 candelabros, con unas ganancias de 1.310€.
+</p>
