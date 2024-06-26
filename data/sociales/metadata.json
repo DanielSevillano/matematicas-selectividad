@@ -102,12 +102,14 @@
     },
     {
         "ejercicio": 202415,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202416,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

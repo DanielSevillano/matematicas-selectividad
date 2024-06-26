@@ -1,0 +1,112 @@
+<ol>
+    <li>
+        Llamamos $A$ a fabricar una pieza con la máquina A, $B$ con la máquina B, $C$ con la máquina C y $D$ a fabricar una pieza defectuosa.
+        Podemos hacer un diagrama de árbol.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$D$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$A$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,25 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$D^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$D$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,01 \quad}$</td>
+                </tr>
+                <tr>
+                    <td>$\xrightarrow{\quad 0,35 \quad}$</td>
+                    <td>$B$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,99 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$D^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$D$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$C$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$D^c$</td>
+                </tr>
+            </table>
+        </div>
+
+        La probabilidad de que una pieza sea fabricada por la máquina B sabiendo que no es defectuosa es
+        $$P(B|D^c) = \frac{P(B \cap D^c)}{P(D^c)} = \frac{P(B) \cdot P(D^c|B)}{1-P(D)} = \frac{0,35 \cdot 0,99}{1-0,0205} \approx 0,3538.$$
+    </li>
+
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que una pieza sea defectuosa viene dada por
+        \begin{align}
+            & P(D) = P(D \cap A) + P(D \cap B) + P(D \cap C) = P(A) \cdot P(D|A) + P(B) \cdot P(D|B) + P(C) \cdot P(D|C) = \\
+            & = 0,25p + 0,35 \cdot 0,01 + 0,4p = 0,65p + 0,0035.
+        \end{align}
+
+        Como $P(D) = 0,0205$,
+        $$0,0205 = 0,65p + 0,0035 \Leftrightarrow 0,65p = 0,0205 - 0,0035 \Leftrightarrow p = \frac{0,0205 - 0,0035}{0,65} \approx 0,0262.$$
+
+        Por tanto, la probabilidad de que una pieza sea fabricada por la máquina A sabiendo que es defectuosa es
+        $$P(A|D) = \frac{A \cap D}{P(D)} = \frac{P(A) \cdot P(D|A)}{P(D)} = \frac{0,25 \cdot 0,0262}{0,0205} \approx 0,3195.$$
+    </li>
+</ol>
