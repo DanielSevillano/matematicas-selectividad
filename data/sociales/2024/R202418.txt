@@ -1,0 +1,28 @@
+<ol>
+    <li>
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \; \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+        Calculamos la media muestral.
+        $$\overline{x} = \frac{2,71 + 3,84 + 3,26 + 2,28 + 2,86 + 3,08 + 3,07 + 2,46 + 2,54 + 2,58}{10} = 2,868.$$
+
+        Como el nivel de confianza es del 93,5%, entonces
+        $$1 - \alpha = 0,935 \Leftrightarrow \alpha = 1 - 0,935 = 0,065.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,065}{2} = 0,9675 \Rightarrow z_{\alpha/2} = 1,845.$$
+
+        Por tanto, el intervalo de confianza para estimar el tiempo medio en minutos de las repeticiones con un nivel de confianza del 93,5% es
+        $$I = \left(2,868 - 1,845 \cdot \frac{0,36}{\sqrt{10}}, \; 2,868 + 1,845 \cdot \frac{0,36}{\sqrt{10}}\right) \approx (2,6580; \; 3,0780).$$
+    </li>
+
+    <li>
+        El error máximo cometido viene dado por
+        $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 1,845 \cdot \frac{0,36}{\sqrt{n}} = \frac{0,6642}{\sqrt{n}}.$$
+
+        Si se quiere que el error máximo sea inferior a 0,05, entonces
+        $$\frac{0,6642}{\sqrt{n}} = 0,05 \Leftrightarrow \sqrt{n} = \frac{0,6642}{0,05} \Leftrightarrow n = \frac{0,6642^2}{0,05^2} \approx 176,4647.$$
+
+        Por tanto, el tamaño mínimo de la muestra debe ser de 177 repeticiones.
+    </li>
+</ol>

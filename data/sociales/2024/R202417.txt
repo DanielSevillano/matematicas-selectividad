@@ -1,0 +1,30 @@
+<ol>
+    <li>
+        Como 165 enfermos de $n = 220$ ha tenido una respuesta positiva al medicamento, la proporción muestral es
+        $$p = \frac{165}{220} = 0,75.$$
+
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+
+        Como el nivel de confianza es del 97,5%, entonces
+        $$1 - \alpha = 0,975 \Leftrightarrow \alpha = 1 - 0,975 = 0,025.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,025}{2} = 0,9875 \Rightarrow z_{\alpha/2} = 2,24.$$
+
+        Por tanto, el intervalo de confianza para estimar la proporción de enfermos que responden positivamente al medicamento con un nivel de confianza del 97,5% es
+        $$I = \left(0,75 - 2,24 \cdot \sqrt{\frac{0,75 \cdot (1-0,75)}{220}}, \; 0,75 + 2,24 \cdot \sqrt{\frac{0,75 \cdot (1-0,75)}{220}}\right) \approx (0,6846; \; 0,8154).$$
+
+        Como 0,7 pertenece al intervalo de confianza, puede admitirse como proporción poblacional.
+    </li>
+
+    <li>
+        El error máximo de estimación viene dado por
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 2,24 \cdot \sqrt{\frac{0,75 \cdot (1-0,75)}{n}} = \frac{2,24 \cdot \sqrt{0,1875}}{\sqrt{n}}.$$
+
+        Si se quiere que el error sea menor que 0,025, entonces
+        $$\frac{2,24 \cdot \sqrt{0,1875}}{\sqrt{n}} = 0,025 \Leftrightarrow \sqrt{n} = \frac{2,24 \cdot \sqrt{0,1875}}{0,025} \Leftrightarrow n = \frac{2,24^2 \cdot 0,1875}{0,025^2} = 1.505,28.$$
+
+        Por tanto, el tamaño mínimo de la muestra debe ser de 1.506 enfermos.
+    </li>
+</ol>
