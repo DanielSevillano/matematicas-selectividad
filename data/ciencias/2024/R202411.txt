@@ -1,0 +1,18 @@
+<p>
+    La asíntota oblicua tiene pendiente $m = 2$ y pasa por el punto $(0, 1)$, así que su ecuación es
+    $$y - 1 = 2x \Leftrightarrow y = 2x + 1.$$
+</p>
+
+<p>
+    Hallamos la asíntota oblicua analíticamente.
+    La pendiente de la asíntota viene dada por el límite
+    $$\lim_{x \to +\infty} \frac{f(x)}{x} = \lim_{x \to +\infty} \frac{ax^3 + bx^2 + x - 1}{x^3 - x} = a \Rightarrow a = 2.$$
+
+    Por otro lado, la ordenada en el origen de la asíntota se calcula como
+    \begin{align}
+        & \lim_{x \to +\infty} (f(x) - 2x) = \lim_{x \to +\infty} \left(\frac{2x^3 + bx^2 + x - 1}{x^2 - 1} - 2x\right) = \lim_{x \to +\infty} \frac{2x^3 + bx^2 + x - 1 - 2x^3 + 2x}{x^2 - 1} = \\
+        & = \lim_{x \to +\infty} \frac{bx^2 + 3x - 1}{x^2-1} = b \Rightarrow b = 1.
+    \end{align}
+
+    Por tanto, $a = 2$ y $b = 1.$
+</p>

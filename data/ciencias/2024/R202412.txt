@@ -1,0 +1,33 @@
+<ol>
+    <li>
+        En primer lugar, calculamos la primera y la segunda derivada de $f.$
+        $$f'(x) = \frac{1}{1 + (x+\pi)^2} \quad \text{y} \quad f''(x) = -\frac{2(x+\pi)}{(1+(x+\pi)^2)^2}.$$
+
+        Para hallar los candidatos a puntos de inflexión, igualamos la segunda derivada a cero.
+        $$f''(x) = 0 \Leftrightarrow -\frac{2(x+\pi)}{(1+(x+\pi)^2)^2} = 0 \Leftrightarrow x + \pi = 0 \Leftrightarrow x = -\pi.$$
+
+        Estudiamos el signo de $f''.$
+        <ul>
+            <li>
+                Si $x < -\pi$, $f''(x) > 0.$
+                Así que $f$ es convexa.
+            </li>
+
+            <li>
+                Si $x > -\pi$, $f''(x) < 0.$
+                Así que $f$ es cóncava.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es convexa en $(-\infty, -\pi)$ y es cóncava en $(-\pi, +\infty).$
+        Además, $(-\pi, 0)$ es el único punto de inflexión.
+    </li>
+
+    <li>
+        Calculamos el límite.
+        $$\lim_{x \to -\pi} \frac{\mathrm{arctg}(x+\pi)}{\mathrm{sen}(x)} = \frac{0}{0}.$$
+
+        Para resolver la indeterminación, aplicamos la regla de L'Hôpital.
+        $$\lim_{x \to -\pi} \frac{\mathrm{arctg}(x+\pi)}{\mathrm{sen}(x)} \overset{\text{L'H}}{=} \lim_{x \to -\pi} \frac{\frac{1}{1 + (x+\pi)^2}}{\cos(x)} = \frac{1}{-1} = -1.$$
+    </li>
+</ol>
