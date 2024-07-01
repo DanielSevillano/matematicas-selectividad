@@ -1,0 +1,58 @@
+<p>
+    Llamamos $x$ al dígito de las centenas, $y$ al de las decenas y $z$ al de las unidades.
+    De esta forma, el número se escribe $xyz$ y se calcula como $100x + 10y + z.$
+</p>
+
+<p>
+    En primer lugar, como la suma de sus cifras es 9, entonces
+    $$x + y + z = 9.$$
+
+    Por otro lado, el número que se obtiene al intercambiar las cifra de las centenas por la de las unidades se escribe $zyx$ y se calcula como $100z + 10y + x.$
+    Como la diferencia entre los dos números es 198, entonces
+    $$100x + 10y + z - (100z + 10y + x) = 198 \Leftrightarrow 99x - 99z = 198 \Leftrightarrow x - z = 2.$$
+
+    Además, como la suma ebtre ambos números es 828, entonces
+    $$100x + 10y + z + 100z + 10y + x = 828 \Leftrightarrow 101x + 20y + 101z = 828.$$
+
+    Por tanto, podemos plantear el sistema de ecuaciones
+    \begin{cases}
+        x + y + z = 9, \\
+        x - z = 2, \\
+        101x + 20y + 101z = 828.
+    \end{cases}
+</p>
+
+<p>
+    Resolvemos el sistema mediante el método de Gauss.
+    $$\begin{pmatrix}
+        1 & 1 & 1 & 9 \\
+        1 & 0 & -1 & 2 \\
+        101 & 20 & 101 & 828
+    \end{pmatrix} \xrightarrow{F_3 - 101F_1}
+    \begin{pmatrix}
+        1 & 1 & 1 & 9 \\
+        1 & 0 & -1 & 2 \\
+        0 & -81 & 0 & -81
+    \end{pmatrix} \xrightarrow{F_1 - F_2}
+    \begin{pmatrix}
+        0 & 1 & 2 & 7 \\
+        1 & 0 & -1 & 2 \\
+        0 & -81 & 0 & -81
+    \end{pmatrix}.$$
+
+    El sistema resultante es
+    \begin{cases}
+        y + 2z = 7, \\
+        x - z = 2, \\
+        -81y = -81.
+    \end{cases}
+
+    Por tanto,
+    \begin{align}
+        & -81y = -81 \Leftrightarrow y = 1, \\
+        & y + 2z = 7 \Leftrightarrow z = \frac{7-y}{2} \xrightarrow{y=1} z = 3, \\
+        & x - z = 2 \Leftrightarrow x = 2 + z \xrightarrow{z=3} x = 5.
+    \end{align}
+
+    Así que el número es 513.
+</p>

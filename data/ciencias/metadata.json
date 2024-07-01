@@ -106,6 +106,7 @@
     },
     {
         "ejercicio": 202416,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
