@@ -1,0 +1,7 @@
+Dada la matriz
+$$A = \begin{pmatrix}
+    1 & 2 & 0 \\
+    0 & -1 & 2 \\
+    -2 & 0 & 1
+\end{pmatrix},$$
+resuelva la ecuación $A^2X + A^4 = A.$

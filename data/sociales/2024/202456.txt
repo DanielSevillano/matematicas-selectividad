@@ -1,0 +1,10 @@
+Se ha realizado un estudio a personas que están teletrabajando actualmente.
+De estos, el 72% trabajan por cuenta ajena con contrato indefinido, el 11% lo hacen por cuenta ajena con contrato temporal y el resto trabajan por cuenta propia.
+El 87% de los que tienen contrato indefinido y el 86% de los que trabajan por cuenta propia piensan que el teletrabajo mejora la conciliación familiar.
+Además, este estudio ha revelado que el 12,51% de los trabajadores opinan que el teletrabajo no mejora la conciliación familiar.
+Seleccionado un teletrabajador al azar, determine la probabilidad de que:
+
+<ol>
+    <li>Opine que el teletrabajo sí mejora la conciliación familiar sabiendo que tiene un contrato temporal.</li>
+    <li>No esté trabajando por cuenta propia sabiendo que opina que el teletrabajo mejora la conciliación familiar.</li>
+</ol>

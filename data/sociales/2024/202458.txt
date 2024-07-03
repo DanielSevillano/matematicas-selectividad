@@ -1,0 +1,7 @@
+Se desea estimar la proporción de personas que viajan en tren con su mascota.
+Para ello, se selecciona una muestra aleatoria de 300 viajeros, obteniéndose que 12 de ellos viajan con su mascota.
+
+<ol>
+    <li>Obtenga un intervalo, con un nivel de confianza del 97%, para estimar la proporción de personas que viajan en tren con su mascota.</li>
+    <li>Manteniendo la misma proporción muestral y con un nivel de confianza del 95%, ¿cuántas personas que viajan en tren deberán seleccionarse aleatoriamente como mínimo para que la proporción muestral difiera de la proporción poblacional a lo sumo en un 2%?</li>
+</ol>

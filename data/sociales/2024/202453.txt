@@ -1,0 +1,12 @@
+Dada la función
+$$f(x) = \frac{2x-6}{2-x}.$$
+
+<ol>
+    <li>
+        Estudie la continuidad y derivabilidad de dicha función.
+        Calcule sus asíntotas.
+    </li>
+
+    <li>Estudie los intervalos de crecimiento y decrecimiento, así como la existencia de extremos relativos.</li>
+    <li>Halle los puntos de corte con los ejes de coordenadas y represente gráficamente la función.</li>
+</ol>

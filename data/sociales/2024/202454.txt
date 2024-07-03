@@ -1,0 +1,14 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    -x^2 + 4x + 3, \text{si } x < 4, \\
+    2x - 5, \text{si } x \geq 4.
+\end{cases}$$
+
+<ol>
+    <li>Estudie su continuidad y derivabilidad.</li>
+    <li>Estudie su monotonía y calcule sus extremos relativos.</li>
+    <li>
+        Represente la región del plano limitada por la gráfica de $f$, las rectas $x = 3$, $x = 5$ y el eje de abscisas.
+        Calcule su área.
+    </li>
+</ol>

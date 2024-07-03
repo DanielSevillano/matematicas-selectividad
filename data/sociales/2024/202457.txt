@@ -1,0 +1,10 @@
+La altura de un cierto tipo de plantas de maíz sigue una distribución Normal de media 145 cm y desviación típica 22 cm.
+
+<ol>
+    <li>¿Qué porcentaje de plantas tiene una altura comprendida entre 135 cm y 155 cm?</li>
+    <li>¿Qué altura, como mínimo, debe tener una planta para estar entre el 50% de las más altas?</li>
+    <li>
+        Se selecciona una muestra aleatoria de 16 plantas.
+        Halle la probabilidad de que la altura media de las plantas de esta muestra esté comprendida entre 140 cm y 151 cm.
+    </li>
+</ol>

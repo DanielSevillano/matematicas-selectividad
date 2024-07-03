@@ -1,0 +1,13 @@
+El 7% de los habitantes de una ciudad no tienen ni coche ni moto.
+De entre los que tienen coche el 36% tienen moto y de entre los que no tienen coche el 28% no tienen moto.
+Se elige al azar un habitante de esa ciudad.
+
+<ol>
+    <li>Calcule la probabilidad de que solo tenga uno de los dos vehículos.</li>
+    <li>Calcule la probabilidad de que al menos tenga uno de los dos vehículos.</li>
+    <li>Si tiene coche, ¿cuál es la probabilidad de que no tenga moto?</li>
+    <li>
+        ¿Son independientes los sucesos "tener coche" y "no tener moto"?
+        ¿Son incompatibles?
+    </li>
+</ol>

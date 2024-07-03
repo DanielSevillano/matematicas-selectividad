@@ -131,6 +131,67 @@
         ]
     },
     {
+        "ejercicio": 202451,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202452,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202453,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Monotonía y extremos",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 202454,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Monotonía y extremos",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202455,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202456,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202457,
+        "categorias": [
+            "Estadística",
+            "Distribución de medias muestrales"
+        ]
+    },
+    {
+        "ejercicio": 202458,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
         "ejercicio": 202301,
         "resuelto": true,
         "categorias": [

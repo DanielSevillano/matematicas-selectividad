@@ -1,0 +1,5 @@
+Una empresa tiene un presupuesto de 78.000€ para promocionar un producto y quiere contratar la emisión de anuncios por radio y televisión.
+El coste de emisión de un anuncio de radio es de 2.400€ y de un anuncio de televisión de 3.600€.
+La empresa quiere que la diferencia entre el número de anuncios emitidos de cada tipo no sea mayor que 10 y que se emitan un mínimo de 10 anuncios en total.
+Si la emisión de un anuncio de radio llega a 34.000 personas y de un anuncio de televisión a 72.000 personas, ¿cuántas emisiones de cada tipo debe contratar para que la audiencia sea la mayor posible?
+¿A cuánto ascendería dicha audiencia?
