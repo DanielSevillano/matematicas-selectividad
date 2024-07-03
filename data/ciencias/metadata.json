@@ -99,6 +99,7 @@
     },
     {
         "ejercicio": 202415,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
