@@ -2,6 +2,19 @@ import { BarController, BarElement, CategoryScale, Chart, Colors, Legend, Linear
 
 Chart.register(BarController, BarElement, LineController, LineElement, PointElement, CategoryScale, LinearScale, Tooltip, Legend, Colors);
 
+const graficas = [];
+
+function actualizarGrafica() {
+    graficas.forEach((grafica) => {
+        grafica.options.scales.x.grid.color = getComputedStyle(document.body).getPropertyValue("--border-color");
+        grafica.options.scales.y.grid.color = getComputedStyle(document.body).getPropertyValue("--border-color");
+        grafica.options.scales.x.ticks.color = getComputedStyle(document.body).getPropertyValue("--on-button");
+        grafica.options.scales.y.ticks.color = getComputedStyle(document.body).getPropertyValue("--on-button");
+        grafica.options.plugins.legend.labels.color = getComputedStyle(document.body).getPropertyValue("--on-button");
+        grafica.update();
+    });
+}
+
 async function crearGrafica(url, id) {
     const ejeX = [];
     const ejeY1 = [];
@@ -36,6 +49,31 @@ async function crearGrafica(url, id) {
         },
         options: {
             maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: getComputedStyle(document.body).getPropertyValue("--on-button")
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: {
+                        color: getComputedStyle(document.body).getPropertyValue("--border-color")
+                    },
+                    ticks: {
+                        color: getComputedStyle(document.body).getPropertyValue("--on-button")
+                    }
+                },
+                y: {
+                    grid: {
+                        color: getComputedStyle(document.body).getPropertyValue("--border-color")
+                    },
+                    ticks: {
+                        color: getComputedStyle(document.body).getPropertyValue("--on-button")
+                    }
+                }
+            }
         }
     });
 
@@ -48,23 +86,53 @@ function crearDiagrama(ejerciciosCiencias, ejerciciosSociales, resueltosCiencias
         datasets: [
             {
                 label: "Ejercicios totales",
-                data: [ejerciciosCiencias, ejerciciosSociales]
+                data: [ejerciciosCiencias, ejerciciosSociales],
+                backgroundColor: "rgba(54, 162, 235)"
             },
             {
                 label: "Ejercicios resueltos",
-                data: [resueltosCiencias, resueltosSociales]
+                data: [resueltosCiencias, resueltosSociales],
+                backgroundColor: "rgb(255, 99, 132)"
             }
         ]
     };
 
     const ctx = document.getElementById("diagrama");
-    new Chart(ctx, {
+    const diagrama = new Chart(ctx, {
         type: "bar",
         data: datos,
         options: {
-            indexAxis: "y"
+            indexAxis: "y",
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: getComputedStyle(document.body).getPropertyValue("--on-button")
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: {
+                        color: getComputedStyle(document.body).getPropertyValue("--border-color")
+                    },
+                    ticks: {
+                        color: getComputedStyle(document.body).getPropertyValue("--on-button")
+                    }
+                },
+                y: {
+                    grid: {
+                        color: getComputedStyle(document.body).getPropertyValue("--border-color")
+                    },
+                    ticks: {
+                        color: getComputedStyle(document.body).getPropertyValue("--on-button")
+                    }
+                }
+            }
         }
     });
+
+    return diagrama;
 }
 
 async function obtenerDatos() {
@@ -154,7 +222,8 @@ async function obtenerDatos() {
     seccionGlobal.classList.remove("cargando");
 
     // Diagrama
-    crearDiagrama(numeroEjerciciosCiencias, numeroEjerciciosSociales, numeroEjerciciosResueltosCiencias, numeroEjerciciosResueltosSociales);
+    const diagrama = crearDiagrama(numeroEjerciciosCiencias, numeroEjerciciosSociales, numeroEjerciciosResueltosCiencias, numeroEjerciciosResueltosSociales);
+    graficas.push(diagrama);
 }
 
 const datosGraficas = [
@@ -162,7 +231,6 @@ const datosGraficas = [
     { archivo: "data/estadisticas/nota-media.json", elemento: "grafica-nota" }
 ];
 
-const graficas = [];
 datosGraficas.forEach((dato) => {
     crearGrafica(dato.archivo, dato.elemento).then((grafica) => {
         graficas.push(grafica);
@@ -170,3 +238,5 @@ datosGraficas.forEach((dato) => {
 });
 
 obtenerDatos();
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change", actualizarGrafica);

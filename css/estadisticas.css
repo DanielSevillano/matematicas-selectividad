@@ -7,12 +7,6 @@
     margin-bottom: 40px;
 }
 
-@media (prefers-color-scheme: dark) {
-    .contenedor-grafica {
-        filter: invert(1) hue-rotate(180deg);
-    }
-}
-
 section {
     position: relative;
     min-height: 72px;
