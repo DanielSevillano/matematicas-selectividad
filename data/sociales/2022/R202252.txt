@@ -1,7 +1,7 @@
 <ol>
     <li>
         Dibujamos la región.
-        <img class="figura" src="img/sociales/R202252.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202252.png" alt="Figura" loading="lazy">
 
         Los vértices son
         $$A(0,7), \quad B(3, 8) \quad \text{y} \quad C(9, 5).$$

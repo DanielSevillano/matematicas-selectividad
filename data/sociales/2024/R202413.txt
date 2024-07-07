@@ -12,7 +12,7 @@
         Así que los puntos de corte son $(0, 0)$ y $(5, 5).$
         Observamos además que las funciones $f$ y $g$ son parábolas con vértices $(3, 9)$ y $(0, 0)$, respectivamente.
         Representamos la región delimitada por ambas funciones.
-        <img class="figura" src="img/sociales/R202413.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202413.png" alt="Figura" loading="lazy">
     </li>
 
     <li>

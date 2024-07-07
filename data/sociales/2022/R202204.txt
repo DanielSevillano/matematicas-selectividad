@@ -56,7 +56,7 @@
 
         Así que los puntos de corte son $(1, 0)$ y $(3, 0).$<br>
         Podemos representar el recinto acotado limitado por la gráfica de $g$ y el eje $X.$
-        <img class="figura" src="img/sociales/R202204.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202204.png" alt="Figura" loading="lazy">
         
         Calculamos el área.
         $$\int_1^3 g(x)dx = \int_1^3 (-2x^2 + 8x - 6)dx = \left[-\frac{2}{3}x^3 + 4x^2 - 6x\right]_1^3 = -18 + 36 - 18 - \left(-\frac{2}{3} + 4 - 6\right) = \frac{8}{3} \; u^2.$$

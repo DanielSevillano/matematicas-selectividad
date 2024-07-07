@@ -33,7 +33,7 @@
 
         Así que los puntos de corte son $(-2, 0)$ y $(3, 0).$<br>
         Podemos representar el recinto acotado limitado por la gráfica de $g$ y el eje $X.$
-        <img class="figura" src="img/sociales/R202203.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202203.png" alt="Figura" loading="lazy">
 
         Calculamos el área.
         \begin{align}

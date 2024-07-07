@@ -61,6 +61,6 @@
         </ul>
 
         Representamos gráficamente la función usando la información obtenida.
-        <img class="figura" src="img/ciencias/R202332.png" alt="Figura" loading="lazy">
+        <img src="img/ciencias/R202332.png" alt="Figura" loading="lazy">
     </li>
 </ol>

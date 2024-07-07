@@ -14,7 +14,7 @@
 
     <li>
         Representamos el paralelogramo.
-        <img class="figura" src="img/ciencias/R202418.png" alt="Figura" loading="lazy">
+        <img src="img/ciencias/R202418.png" alt="Figura" loading="lazy">
 
         Podemos hallar el punto $D$ trasladando el punto $A$ mediante el vector $\vec{BC} = (0, -1, 1).$
         $$\vec{OD} = \vec{OA} + \vec{BC} = (1, 1, 2) + (0, -1, 1) = (1, 0, 3).$$

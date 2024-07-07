@@ -5,7 +5,7 @@
         $$B(x) = I(x) - C(x) = x^3 - x - (x^3 - x^2 + 6) = x^2 - x - 6, \quad 0 \leq x \leq 8.$$
 
         Podemos representar la función
-        <img class="figura" src="img/sociales/R202223.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202223.png" alt="Figura" loading="lazy">
     </li>
 
     <li>

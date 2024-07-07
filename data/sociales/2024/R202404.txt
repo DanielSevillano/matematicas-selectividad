@@ -79,7 +79,7 @@
         Por tanto, $(16, 116)$ es el máximo absoluto y $(4, 44)$ es el mínimo absoluto.
         <br>
         Representamos gráficamente la función usando la información obtenida.
-        <img class="figura" src="img/sociales/R202404.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202404.png" alt="Figura" loading="lazy">
     </li>
 
     <li>

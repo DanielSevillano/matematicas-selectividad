@@ -51,10 +51,10 @@
         Si $a = 1$ y $b = 2$, por el apartado anterior $f$ no es continua en $x = 1.$
         Representamos gráficamente la función.
         Observamos que la primera rama es una parábola con vértice $(-1, 0).$
-        <img class="figura" src="img/sociales/R202213-1.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202213-1.png" alt="Figura" loading="lazy">
 
         Podemos representar gráficamente el recinto acotado limitado por la gráfica de $f$, el eje $X$ y las rectas $x = -2$ y $x = 1.$
-        <img class="figura" src="img/sociales/R202213-2.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202213-2.png" alt="Figura" loading="lazy">
 
         Calculamos el área.
         \begin{align}

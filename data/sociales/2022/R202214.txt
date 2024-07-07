@@ -76,6 +76,6 @@
 
     <li>
         Representamos gráficamente la función usando la información de los apartados anteriores.
-        <img class="figura" src="img/sociales/R202214.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202214.png" alt="Figura" loading="lazy">
     </li>
 </ol>

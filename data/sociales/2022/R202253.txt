@@ -85,10 +85,10 @@
         </ul>
 
         Representamos gráficamente la función usando esta información.
-        <img class="figura" src="img/sociales/R202253-1.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202253-1.png" alt="Figura" loading="lazy">
 
         Podemos representar gráficamente el recinto acotado limitado por la gráfica de $g$ y el eje $X.$
-        <img class="figura" src="img/sociales/R202253-2.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202253-2.png" alt="Figura" loading="lazy">
 
         Calculamos el área.
         \begin{align}

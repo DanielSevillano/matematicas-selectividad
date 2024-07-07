@@ -16,7 +16,7 @@
     
 <p>
     Podemos representar los recintos delimitados por las gráficas de ambas funciones.
-    <img class="figura" src="img/ciencias/R202244.png" alt="Figura" loading="lazy">
+    <img src="img/ciencias/R202244.png" alt="Figura" loading="lazy">
 </p>
 
 <p>

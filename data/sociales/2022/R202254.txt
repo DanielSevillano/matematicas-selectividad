@@ -9,7 +9,7 @@
         Luego los puntos de corte con el eje $X$ son $(15, 0)$ y $(50, 0).$
         Además, observamos que $f$ es una parábola con vértice $\left(\frac{65}{2}, \frac{49}{8}\right) = (32,5; \; 6,125).$
         Representamos la función con esta información.
-        <img class="figura" src="img/sociales/R202254.png" alt="Figura" loading="lazy">
+        <img src="img/sociales/R202254.png" alt="Figura" loading="lazy">
     </li>
 
     <li>La finca no tiene pérdidas cuando $B(x) \geq 0$, es decir, si $15 \leq x \leq 50.$</li>
