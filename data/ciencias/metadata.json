@@ -116,12 +116,14 @@
     },
     {
         "ejercicio": 202417,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
     },
     {
         "ejercicio": 202418,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Área"
