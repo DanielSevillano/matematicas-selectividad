@@ -1,0 +1,46 @@
+<p>
+    Como $f'$ es la derivada de $f$, entonces
+    $$f(x) = \int f'(x)dx = \int \frac{3x^2 + 4x + 12}{x^2-4}dx.$$
+
+    Para resolver esta integral, hacemos la división de polinomios del integrando.
+    $$\frac{3x^2 + 4x + 12}{x^2-4} = 3 + \frac{4x + 24}{x^2-4}.$$
+
+    Así que:
+    $$f(x) = \int \frac{3x^2 + 4x + 12}{x^2-4}dx = \int 3dx + \int \frac{4x + 24}{x^2-4}dx = 3x + \int \frac{4x + 24}{x^2-4}dx.$$
+
+    Expresamos la función como suma de fracciones simples.
+    Las raíces del denominador son -2 y 2, así que la función se puede escribir como
+    $$\frac{4x + 24}{x^2-4} = \frac{A}{x-2} + \frac{B}{x+2} = \frac{A(x+2) + B(x-2)}{x^2-4} = \frac{(A+B)x + 2A - 2B}{x^2-4}.$$
+
+    Igualando ambas expresiones, obtenemos que
+    $$\begin{cases}
+        A + B = 4, \\
+        2A - 2B = 24
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        A + B = 4, \\
+        A - B = 12.
+    \end{cases}$$
+
+    Resolvemos el sistema por reducción.
+    Si sumamos las dos ecuaciones, obtenemos que 
+    $$2A = 16 \Leftrightarrow A = 8.$$
+
+    Despejando y sustituyendo en la primera ecuación, obtenemos que
+    $$A + B = 4 \Leftrightarrow B = 4 - A \xrightarrow{A = 8} B = -4.$$
+
+    Por tanto,
+    $$\frac{4x + 24}{x^2-4} = \frac{8}{x-2} - \frac{4}{x+2}.$$
+
+    Resolvemos la integral.
+    $$f(x) = 3x + \int \frac{4x + 24}{x^2-4}dx = 3x + 8\int \frac{1}{x-2}dx - 4\int \frac{1}{x+2}dx = 3x + 8\ln|x-2| - 4\ln|x+2| + C.$$
+</p>
+
+<p>
+    Si la función $f$ pasa por el punto $(3, -4\ln(5))$, ha de verificar que $f(3) = -4\ln(5).$
+    Por tanto,
+    $$f(3) = -4\ln(5) \Leftrightarrow 9 - 4\ln(5) + C = -4\ln(5) \Leftrightarrow C = -9.$$
+
+    Luego la función es
+    $$f(x) = 3x + 8\ln|x-2| - 4\ln|x+2| - 9.$$
+</p>
