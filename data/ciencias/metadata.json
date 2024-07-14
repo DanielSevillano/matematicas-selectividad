@@ -852,6 +852,7 @@
     },
     {
         "ejercicio": 202245,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",

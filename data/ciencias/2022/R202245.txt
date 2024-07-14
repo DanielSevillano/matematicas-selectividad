@@ -1,0 +1,75 @@
+<ol>
+    <li>
+        Como se trata de un sistema homogéneo, sabemos que es compatible para cualquier valor de $\alpha.$
+        La matriz de coeficientes del sistema es
+        $$A = \begin{pmatrix}
+            \alpha & 1 & 1 \\
+            \alpha & -1 & 1 \\
+            \alpha & 0 & \alpha
+        \end{pmatrix}.$$
+
+        Observamos que
+        $$\begin{vmatrix}
+            1 & 1 \\
+            -1 & 1
+        \end{vmatrix} = 2 \neq 0 \Rightarrow \mathrm{rang}(A) \geq 2.$$
+
+        Para determinar el rango de $A$ según el valor de $\alpha$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            \alpha & 1 & 1 \\
+            \alpha & -1 & 1 \\
+            \alpha & 0 & \alpha
+        \end{vmatrix} = -\alpha^2 + \alpha + \alpha - \alpha^2 = -2\alpha^2 + 2\alpha.$$
+
+        Observamos que
+        $$|A| = 0 \Leftrightarrow -2\alpha^2 + 2\alpha \Leftrightarrow -2\alpha(\alpha - 1) = 0 \Leftrightarrow \begin{cases}
+            \alpha = 0, \\
+            \alpha = 1.
+        \end{cases}$$
+
+        Es decir, $\mathrm{rang}(A) = 3$ si y solo si $\alpha \neq 0$ y $\alpha \neq 1.$
+        En otro caso, $\mathrm{rang}(A) = 2.$
+
+        <ul>
+            <li>
+                Si $\alpha \neq 0$ y $\alpha \neq 1$, el rango de la matriz de coeficientes es máximo.
+                Por tanto, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $\alpha = 0$ o $\alpha = 1$, $\mathrm{rang}(A) = 2 < 3.$
+                Por tanto, el sistema es compatible indeterminado.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Si $\alpha = 1$, el sistema es compatible indeterminado por el apartado anterior.
+        Podemos reducir el sistema a
+        \begin{cases}
+            x + y + z = 0, \\
+            x - y + z = 0.
+        \end{cases}
+
+        Resolvemos el sistema por reducción.
+        Si restamos las dos ecuaciones, obtenemos que
+        $$2y = 0 \Leftrightarrow y = 0.$$
+
+        Si tomamos $z = \lambda$, entonces
+        $$x + y + z = 0 \Leftrightarrow x = -z - y \xrightarrow[z=\lambda]{y=0} x = -\lambda.$$
+
+        Por tanto, las soluciones del sistema son de la forma
+        \begin{cases}
+            x = -\lambda,
+            y = 0, \\
+            z = \lambda.
+        \end{cases}
+
+        Para $\lambda = 1$, una solución no trivial es
+        \begin{cases}
+            x = -1, \\
+            y = 0, \\
+            z = 1.
+        \end{cases}
+    </li>
+</ol>
