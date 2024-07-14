@@ -60,7 +60,7 @@
 
         Por tanto, las soluciones del sistema son de la forma
         \begin{cases}
-            x = -\lambda,
+            x = -\lambda, \\
             y = 0, \\
             z = \lambda.
         \end{cases}
