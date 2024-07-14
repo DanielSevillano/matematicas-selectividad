@@ -1,0 +1,100 @@
+<ol>
+    <li>
+        La matriz de coeficientes del sistema es
+        $$A = \begin{pmatrix}
+            1 & -m & -2 \\
+            1 & 1 & 1 \\
+            1 & 2 & m
+        \end{pmatrix}.$$
+
+        Observamos que
+        $$\begin{vmatrix}
+            1 & 1 \\
+            1 & 2
+        \end{vmatrix} = 1 \neq 0 \Rightarrow \mathrm{rang}(A) \geq 2.$$
+
+        Para determinar el rango de $A$ según el valor de $m$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            1 & -m & -2 \\
+            1 & 1 & 1 \\
+            1 & 2 & m
+        \end{vmatrix} = m - m - 4 + 2 - 2 + m^2 = m^2 - 4.$$
+
+        Podemos ver que
+        $$|A| = 0 \Leftrightarrow m^2 - 4 = 0 \Leftrightarrow m = \pm 2.$$
+
+        Es decir, $\mathrm{rang}(A) = 3$ si y solo si $m \neq -2$ y $m \neq 2.$
+        En otro caso, $\mathrm{rang}(A) = 2.$
+
+        <ul>
+            <li>
+                Si $m \neq -2$ y $m \neq 2$, el rango de la matriz de coeficientes es máximo.
+                Por tanto, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $m = -2$, la matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    1 & 2 & -2 & -2 \\
+                    1 & 1 & 1 & -4 \\
+                    1 & 2 & -2 & -6
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    1 & 2 & -2 \\
+                    1 & 1 & -4 \\
+                    1 & 2 & -6
+                \end{vmatrix} = 4 \neq 0 \Rightarrow \mathrm{rang}(A|B) = 3.$$
+
+                Como $\mathrm{rang}(A) \neq \mathrm{rang}(A|B)$, el sistema es incompatible.
+            </li>
+
+            <li>
+                Si $m = 2$, la matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    1 & -2 & -2 & 2 \\
+                    1 & 1 & 1 & 4 \\
+                    1 & 2 & 2 & 6
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    1 & -2 & 2 \\
+                    1 & 1 & 4 \\
+                    1 & 2 & 6
+                \end{vmatrix} = 4 \neq 0 \Rightarrow \mathrm{rang}(A|B) = 3.$$
+
+                Como $\mathrm{rang}(A) \neq \mathrm{rang}(A|B)$, el sistema es incompatible.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Si $m = 1$, el sistema es compatible determinado por el apartado anterior.
+        Resolvemos el sistema mediante el método de Gauss.
+        $$\begin{pmatrix}
+            1 & -1 & -2 & 1 \\
+            1 & 1 & 1 & 2 \\
+            1 & 2 & 1 & 3
+        \end{pmatrix} \xrightarrow[F_3-F_2]{F_1-F_2}
+        \begin{pmatrix}
+            0 & -2 & -3 & -1 \\
+            1 & 1 & 1 & 2 \\
+            0 & 1 & 0 & 1
+        \end{pmatrix}.$$
+
+        El sistema resultante es
+        \begin{cases}
+            -2y - 3z = -1, \\
+            x + y + z = 2, \\
+            y = 1.
+        \end{cases}
+
+        Por tanto,
+        \begin{align}
+            & -2y - 3z = -1 \Leftrightarrow z = \frac{1-2y}{3} \xrightarrow{y=-1} z = -\frac{1}{3}, \\
+            & x + y + z = 2 \Leftrightarrow x = 2 - y - z \xrightarrow[z=-1/3]{y=1} x = \frac{4}{3}.
+        \end{align}
+    </li>
+</ol>
