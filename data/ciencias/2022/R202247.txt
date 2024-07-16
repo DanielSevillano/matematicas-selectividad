@@ -1,0 +1,40 @@
+<ol>
+    <li>
+        Llamamos $\tau$ al plano que nos piden.
+        Como $\tau$ es un plano paralelo a $\pi$, tiene el mismo vector normal.
+        Luego su ecuación será de la forma
+        $$\tau \equiv 2x + y - 2z + d = 0.$$
+
+        El punto $P(0, 2, 0)$ pertenece al plano $\pi$, así que la distancia entre $\pi$ y $\tau$ viene dada por
+        $$\mathrm{dist}(\pi, \tau) = \mathrm{dist}(P, \tau) = \frac{|2+d|}{|\vec{n}|} = \frac{|2+d|}{3}.$$
+
+        Como queremos que la distancia sea de dos unidades,
+        $$\mathrm{dist}(\pi, \tau) = 2 \Leftrightarrow \frac{|2+d|}{3} = 2 \Leftrightarrow |2+d| = 6 \Leftrightarrow \begin{cases}
+            2 + d = 6 \Leftrightarrow d = 4, \\
+            2 + d = -6 \Leftrightarrow d = -8.
+        \end{cases}$$
+
+        Por tanto, las ecuaciones de los planos son
+        $$\tau_1 \equiv 2x + y - 2z + 4 = 0 \quad \text{y} \quad \tau_2 \equiv 2x + y - 2z -8 = 0.$$
+    </li>
+
+    <li>
+        Calculamos los puntos de corte del plano $\pi$ con los ejes coordenados.
+
+        <ul>
+            <li>Si $y = z = 0$, obtenemos el punto $A(1, 0, 0).$</li>
+            <li>Si $x = z = 0$, obtenemos el punto $B(0, 2, 0).$</li>
+            <li>Si $x = y = 0$, obtenemos el punto $C(0, 0, -1).$</li>
+        </ol>
+
+        El volumen del tetraedro delimitado por el origen de coordenadas y los puntos de corte es una sexta parte del paralelepípedo delimitado por los vectores $\vec{OA} = (1, 0, 0)$, $\vec{OB} = (0, 2, 0)$ y $\vec{OC} = (0, 0, -1).$
+        Este viene dado por el valor absoluto del producto mixto de los tres vectores.
+        $$[\vec{OA}, \vec{OB}, \vec{OC}] = \begin{vmatrix}
+            1 & 0 & 0 \\
+            0 & 2 & 0 \\
+            0 & 0 & -1
+        \end{vmatrix} = -2 \Rightarrow V = 2 \; u^3.$$
+
+        Por tanto, el volumen del tetraedro es $\frac{1}{6} \cdot 2 = \frac{1}{3} \; u^3.$
+    </li>
+</ol>

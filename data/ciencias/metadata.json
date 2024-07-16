@@ -870,6 +870,7 @@
     },
     {
         "ejercicio": 202247,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Distancia",
@@ -878,6 +879,7 @@
     },
     {
         "ejercicio": 202248,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Posición relativa"

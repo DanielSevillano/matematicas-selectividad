@@ -1,0 +1,38 @@
+<ol>
+    <li>
+        En primer lugar, hallamos el vector director de la recta $s.$
+        $$\vec{d}_s = (1, 1, -3) \times (3, -1, 1) = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            1 & 1 & -3 \\
+            3 & -1 & 1
+        \end{vmatrix} = (-2, -10, -4).$$
+
+        El vector director de la recta $r$ es $\vec{d}_r = (1, -1, 1).$
+        Observamos que los vectores directores no pueden ser proporcionales, porque
+        $$\frac{-2}{1} \neq \frac{-10}{-1} \neq \frac{-4}{1}.$$
+
+        Así que las dos rectas no son paralelas ni coincidentes.
+        Tomamos un punto $R(0, 1, 0)$ de $r$ y un punto $S(0, 1, -1)$ de $s.$
+        Podemos comprobar si las dos rectas están contenidas en un mismo plano estudiando si $\vec{d}_r$, $\vec{d}_s$ y $\vec{RS} = (0, 0, -1)$ son linealmente dependientes.
+        $$\begin{vmatrix}
+            1 & -1 & 1 \\
+            -2 & -10 & -4 \\
+            0 & 0 & -1
+        \end{vmatrix} = 12 \neq 0.$$
+
+        Como los tres vectores son linealmente independientes, $r$ y $s$ no están contenidas en un mismo plano.
+        Por tanto, las rectas $r$ y $s$ se cruzan.
+    </li>
+
+    <li>
+        Llamamos $\pi$ al plano que nos piden.
+        Como $\pi$ contiene a $s$ y es paralelo a $r$, $\vec{d}_r$ y $\vec{d}_s$ son dos vectores directores del plano.
+        Además, el punto $S$ pertenece al plano por ser un punto de $s.$
+        Por tanto, las ecuaciones paramétricas del plano $\pi$ son
+        \begin{cases}
+            x = \lambda - 2\mu, \\
+            y = 1 -\lambda - 10\mu, \\
+            z = -1 + \lambda - 4\mu.
+        \end{cases}
+    </li>
+</ol>
