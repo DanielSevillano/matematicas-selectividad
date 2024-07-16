@@ -127,11 +127,18 @@
             & y + 3z = 0 \xrightarrow{z = \lambda} y + 3\lambda = 0 \Leftrightarrow z = -3\lambda.
         \end{align}
 
-        Por tanto, la solución del sistema es
+        Por tanto, las soluciones del sistema son de la forma
         $$\begin{cases}
             x = -2\lambda, \\
             y = -3\lambda, \\
             z = \lambda,
         \end{cases} \quad \lambda \in \mathbb{R}.$$
+
+        Para $\lambda = -1$, una solución es
+        \begin{cases}
+            x = 2, \\
+            y = 3, \\
+            z = -1.
+        \end{cases}
     </li>
 </ol>
