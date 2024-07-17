@@ -969,6 +969,7 @@
     },
     {
         "ejercicio": 202103,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
@@ -1006,6 +1007,7 @@
     },
     {
         "ejercicio": 202107,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Ángulos"
