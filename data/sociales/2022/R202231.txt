@@ -1,0 +1,98 @@
+<ol>
+    <li>
+        <ul>
+            <li>$C$ es de dimensión $3 \times 1$ y $A$ es $3 \times 3$, así que el producto $CA$ no se puede efectuar.</li>
+
+            <li>
+                $A$ y $B$ son matrices cuadradas de orden 3, así que se pueden sumar.
+                $$A + B = \begin{pmatrix}
+                    1 & 0 & 1 \\
+                    -1 & -1 & 1 \\
+                    2 & -1 & 0
+                \end{pmatrix} +
+                \begin{pmatrix}
+                    1 & -1 & 1 \\
+                    -1 & -1 & -1 \\
+                    1 & -1 & 1
+                \end{pmatrix} =
+                \begin{pmatrix}
+                    2 & -1 & 2 \\
+                    -2 & -2 & 0 \\
+                    3 & -2 & 1
+                \end{pmatrix}.$$
+            </li>
+
+            <li>
+                $C^t$ es de dimensión $1 \times 3$ y $B^t$ es $3 \times 3$, así que se pueden multiplicar.
+                $$C^t \cdot B^t = \begin{pmatrix}
+                    3 & -7 & -2
+                \end{pmatrix}
+                \begin{pmatrix}
+                    1 & -1 & 1 \\
+                    -1 & -1 & -1 \\
+                    1 & -1 & 1
+                \end{pmatrix} =
+                \begin{pmatrix}
+                    8 & 6 & 8
+                \end{pmatrix}.$$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Despejamos la ecuación matricial.
+        $$AX = BX + C \Leftrightarrow AX - BX = C \Leftrightarrow (A-B)X = C \Leftrightarrow X = (A-B)^{-1}C.$$
+
+        En primer lugar, calculamos la matriz $A-B$ y hallamos su determinante.
+        $$A - B = \begin{pmatrix}
+            1 & 0 & 1 \\
+            -1 & -1 & 1 \\
+            2 & -1 & 0
+        \end{pmatrix} -
+        \begin{pmatrix}
+            1 & -1 & 1 \\
+            -1 & -1 & -1 \\
+            1 & -1 & 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            0 & 1 & 0 \\
+            0 & 0 & 2 \\
+            1 & 0 & -1
+        \end{pmatrix} \Rightarrow |A-B| = \begin{vmatrix}
+            0 & 1 & 0 \\
+            0 & 0 & 2 \\
+            1 & 0 & -1
+        \end{vmatrix} = 2.$$
+
+        Como $\det(A-B) \neq 0$, la matriz $A-B$ es invertible.
+        Para hallar su inversa, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A-B) = \begin{pmatrix}
+            0 & 2 & 0 \\
+            1 & 0 & 1 \\
+            2 & 0 & 0
+        \end{pmatrix}.$$
+
+        Calculamos su inversa como
+        $$(A-B)^{-1} = \frac{1}{|A-B|}\mathrm{Adj}(A-B)^t = \frac{1}{2} \begin{pmatrix}
+            0 & 1 & 2 \\
+            2 & 0 & 0 \\
+            0 & 1 & 0
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$X = (A-B)^{-1}C = \frac{1}{2} \begin{pmatrix}
+            0 & 1 & 2 \\
+            2 & 0 & 0 \\
+            0 & 1 & 0
+        \end{pmatrix}
+        \begin{pmatrix}
+            3 \\
+            -7 \\
+            -2
+        \end{pmatrix} = \frac{1}{2} \begin{pmatrix}
+            -11 \\
+            6 \\
+            -7
+        \end{pmatrix}.$$
+    </li>
+</ol>

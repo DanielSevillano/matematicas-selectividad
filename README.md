@@ -78,3 +78,4 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [ ] 2022
     - [x] Junio y julio
     - [x] Reservas 1 y 2
+    - [ ] Reserva 3 (1, 2)

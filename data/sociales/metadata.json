@@ -792,13 +792,16 @@
     },
     {
         "ejercicio": 202231,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
+            "Dimensiones",
             "Ecuaciones matriciales"
         ]
     },
     {
         "ejercicio": 202232,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
