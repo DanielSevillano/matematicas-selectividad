@@ -809,10 +809,13 @@
     },
     {
         "ejercicio": 202233,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",
-            "Derivabilidad"
+            "Derivabilidad",
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {

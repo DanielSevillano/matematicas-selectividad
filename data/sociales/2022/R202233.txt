@@ -1,0 +1,73 @@
+<ol>
+    <li>
+        Estudiamos la continuidad y la derivabilidad de $f.$
+
+        <ul>
+            <li>
+                Si $x \neq -1$ y $x \neq 2$, $f$ es continua y derivable con
+                $$f'(x) = \begin{cases}
+                    8x + 16, & \text{si } x < -1, \\
+                    -\frac{5}{3}, & \text{si } -1 < x < 2, \\
+                    0, & \text{si } x > 2.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $x = -1.$
+                \begin{align}
+                    & \lim_{x \to -1^-} f(x) = \lim_{x \to -1^-} (4x^2 + 16x + 17) = 5, \\
+                    & \lim_{x \to -1^+} f(x) = \lim_{x \to -1^+} \frac{1}{3}(10-5x) = 5, \\
+                    & f(-1) = 5.
+                \end{align}
+
+                Observamos que
+                $$\lim_{x \to -1^-} f(x) = \lim_{x \to -1^+} f(x) = f(-1).$$
+
+                Así que $f$ es continua en $x = -1.$
+                Pasamos a estudiar la derivabilidad.
+                \begin{align}
+                    & f'_-(-1) = 8, \\
+                    & f'_+(-1) = -\frac{5}{3}.
+                \end{align}
+
+                Observamos que
+                $$f'_-(-1) \neq f'_+(-1).$$
+
+                Así que $f$ no es derivable en $x = -1.$
+            </li>
+
+            <li>
+                Estudiamos la continuidad para el punto de ruptura $x = 2.$
+                \begin{align}
+                    & \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} \frac{1}{3}(10-5x) = 0, \\
+                    & \lim_{x \to 2^+} f(x) = \lim_{x \to 2^+} \frac{3}{2} = \frac{3}{2}, \\
+                    & f(2) = 0.
+                \end{align}
+
+                Observamos que
+                $$\lim_{x \to 2^-} f(x) \neq \lim_{x \to 2^+} f(x) \neq f(2).$$
+
+                Así que $f$ es no continua ni derivable en $x = 2.$
+            </li>
+        </ul>
+
+        Por tanto, $f$ es continua en $\mathbb{R} \setminus \{2\}$ y derivable en $\mathbb{R} \setminus \{-1, 2\}.$
+    </li>
+
+    <li>
+        Representamos gráficamente la función.
+        Observamos que la primera rama es una parábola con vértice $(-2, 1).$
+        <img src="img/sociales/R202233-1.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        Podemos representar el recinto limitado por la gráfica de $f$ y el eje $X$ entre $x = -2$ y $x = 2.$
+        <img src="img/sociales/R202233-2.png" alt="Figura" loading="lazy">
+
+        Calculamos el área del recinto.
+        \begin{align}
+            & \int_{-2}^{-1} (4x^2+16x+17)dx + \int_{-1}^2 \frac{1}{3}(10-5x)dx = \left[\frac{4}{3}x^3 + 8x^2 + 17x\right]_{-2}^{-1} + \frac{1}{3}\left[10x - \frac{5}{2}x^2\right]_{-1}^2 = \\
+            & = -\frac{4}{3} + 8 - 17 - \left(-\frac{32}{3} + 32 - 34\right) + \frac{1}{3} \left(20 - 10 - \left(-10 - \frac{5}{2}\right)\right) = \frac{59}{6} \; u^2.
+        \end{align}
+    </li>
+</ol>
