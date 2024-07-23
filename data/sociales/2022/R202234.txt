@@ -1,0 +1,37 @@
+<ol>
+    <li>
+        En primer lugar, hallamos la derivada de la función $f.$
+        $$f'(x) = 9x^2 - 12x.$$
+
+        La recta $y = -3x + 1$ y todas sus paralelas tienen pendiente -3.
+        Por otro lado, la pendiente de la recta tangente a la gráfica de $f$ en un punto $a$ viene dada por el valor de $f'(a).$
+        Hallamos los puntos en los que la pendiente de la recta tangente es -3.
+        $$f'(x) = -3 \Leftrightarrow 9x^2 - 12x = -3 \Leftrightarrow 3x^2 - 4x + 1 = 0 \Leftrightarrow \begin{cases}
+            x = \frac{1}{3}, \\
+            x = 1.
+        \end{cases}$$
+
+        <ul>
+            <li>
+                La ecuación de la recta tangente a la gráfica de $f$ en $x = \frac{1}{3}$ es
+                $$y - f\left(\frac{1}{3}\right) = f'\left(\frac{1}{3}\right)\left(x - \frac{1}{3}\right) \Leftrightarrow y - \frac{40}{9} = -3\left(x - \frac{1}{3}\right) \Leftrightarrow y = -3x + \frac{49}{9}.$$
+            </li>
+
+            <li>
+                La ecuación de la recta tangente a la gráfica de $f$ en $x = 1$ es
+                $$y - f(1) = f'(1)(x-1) \Leftrightarrow y - 2 = -3(x - 1) \Leftrightarrow y = -3x + 5.$$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Como $f$ es la derivada de $F$, entonces
+        $$F(x) = \int f(x)dx = \int (3x^3 - 6x^2 + 5)dx = \frac{3}{4}x^4 - 2x^3 + 5x + C.$$
+
+        Además,
+        $$F(2) = 4 \Leftrightarrow 12 - 16 + 10 + C = 4 \Leftrightarrow C = -2.$$
+
+        Por tanto, la función es
+        $$F(x) = \frac{3}{4}x^4 - 2x^3 + 5x - 2.$$
+    </li>
+</ol>
