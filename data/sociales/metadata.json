@@ -829,6 +829,7 @@
     },
     {
         "ejercicio": 202235,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Problemas de sucesos"
@@ -836,6 +837,7 @@
     },
     {
         "ejercicio": 202236,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

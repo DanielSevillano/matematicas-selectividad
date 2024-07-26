@@ -1,0 +1,21 @@
+<ol>
+    <li>
+        La probabilidad de que ocurra $A$ y $B$ es
+        $$P(A \cap B) = P(A) + P(B) - P(A \cup B) = 0,7 + 0,6 - 0,8 = 0,5.$$
+    </li>
+
+    <li>
+        La probabilidad de que no ocurra ni $A$ ni $B$ es
+        $$P(A^c \cap B^c) = P((A \cup B)^c) = 1 - P(A \cup B) = 1 - 0,8 = 0,2.$$
+    </li>
+
+    <li>
+        La probabilidad de que ocurra $A$ pero no $B$ es
+        $$P(A \cap B^c) = P(A) - P(A \cap B) = 0,7 - 0,5 = 0,2.$$
+    </li>
+
+    <li>
+        La probabilidad de que ocurra $A$ sabiendo que no ha ocurrido $B$ es
+        $$P(A|B^c) = \frac{P(A \cap B^c)}{P(B^c)} = \frac{0,2}{1 - 0,6} = 0,5.$$
+    </li>
+</ol>
