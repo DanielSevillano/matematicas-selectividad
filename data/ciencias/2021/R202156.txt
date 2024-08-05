@@ -1,0 +1,97 @@
+<p>
+    Llamamos $x$ al número de viajes semanales por la ruta A, $y$ al de la ruta B y $z$ al de la ruta C.
+</p>
+
+<p>
+    Si hace un total de 70 viajes semanales, entonces
+    $$x + y + z = 70.$$
+
+    Además, si el número de viajes por la ruta B es igual a la suma de los viajes por las rutas A y C, entonces
+    $$y = x + z.$$
+</p>
+
+<ol>
+    <li>
+        Si el doble de la suma de los viajes por las rutas A y C es 70, entonces
+        $$2(x + z) = 70.$$
+
+        Por tanto, podemos plantear el sistema de ecuaciones lineales
+        $$\begin{cases}
+            x + y + z = 70, \\
+            y = x + z, \\
+            2(x + z) = 70
+        \end{cases} \Rightarrow
+        \begin{cases}
+            x + y + z = 70, \\
+            x - y + z = 0, \\
+            2x + 2z = 70
+        \end{cases} \Rightarrow
+        \begin{cases}
+            x + y + z = 70, \\
+            x - y + z = 0, \\
+            x + z = 35.
+        \end{cases}$$
+
+        La matriz de coeficientes del sistema es
+        $$A = \begin{pmatrix}
+            1 & 1 & 1 \\
+            1 & -1 & 1 \\
+            1 & 0 & 1
+        \end{pmatrix}.$$
+
+        Calculamos su determinante.
+        $$|A| = \begin{vmatrix}
+            1 & 1 & 1 \\
+            1 & -1 & 1 \\
+            1 & 0 & 1
+        \end{vmatrix} = 0.$$
+
+        Como $\det(A) = 0$, entonces $\mathrm{rang}(A) < 3.$
+        Por tanto, no se trata de un sistema compatible determinado, así que no se puede determinar el número de viajes por ruta.
+    </li>
+
+    <li>
+        Si el doble de viajes por la ruta C es igual al número de viajes por la ruta B menos 5, entonces
+        $$2z = y - 5.$$
+
+        Por tanto, podemos plantear el sistema de ecuaciones lineales
+        $$\begin{cases}
+            x + y + z = 70, \\
+            x - y + z = 0, \\
+            2z = y - 5
+        \end{cases} \Rightarrow
+        \begin{cases}
+            x + y + z = 70, \\
+            x - y + z = 0, \\
+            y - 2z = 5.
+        \end{cases}$$
+
+        Resolvemos el sistema mediante el método de Gauss.
+        $$\begin{pmatrix}
+            1 & 1 & 1 & 70 \\
+            1 & -1 & 1 & 0 \\
+            0 & 1 & -2 & 5
+        \end{pmatrix} \xrightarrow{F_2 - F_1}
+        \begin{pmatrix}
+            1 & 1 & 1 & 70 \\
+            0 & -2 & 0 & -70  \\
+            0 & 1 & -2 & 5
+        \end{pmatrix}.$$
+
+        El sistema resultante es
+        \begin{cases}
+            x + y + z = 70, \\
+            -2y = -70, \\
+            y - 2z = 5.
+        \end{cases}
+
+        Por tanto,
+        \begin{align}
+            & -2y = -70 \Leftrightarrow y = 35, \\
+            & y - 2z = 5 \Leftrightarrow z = \frac{y-5}{2} \xrightarrow{y = 35} z = 15, \\
+            & x + y + z = 70 \Leftrightarrow x = 70 - y - z \xrightarrow[z=15]{y=35} x = 20.
+        \end{align}
+
+        Así que se hacen 20 viajes semanales por la ruta A, 35 por la ruta B y 15 por la ruta C.
+    </li>
+</ol>

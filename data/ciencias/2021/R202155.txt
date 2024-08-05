@@ -1,0 +1,92 @@
+<ol>
+    <li>
+        Comprobemos en primer lugar que la matriz $A$ es invertible.
+        Calculamos su determinante.
+        $$|A| = \begin{vmatrix}
+            0 & 3 & 4 \\
+            1 & -4 & -5 \\
+            -1 & 3 & 4
+        \end{vmatrix} = -1.$$
+
+        Como $\det(A) \neq 0$, la matriz $A$ es invertible.
+        Para hallar su inversa, calculamos primero su matriz adjunta.
+        $$\mathrm{Adj}(A) = \begin{pmatrix}
+            -1 & 1 & -1 \\
+            0 & 4 & -3 \\
+            1 & 4 & -3
+        \end{pmatrix}.$$
+
+        Ahora podemos calcular su inversa como
+        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t =
+        -\begin{pmatrix}
+            -1 & 0 & 1 \\
+            1 & 4 & 4 \\
+            -1 & -3 & -3
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 0 & -1 \\
+            -1 & -4 & -4 \\
+            1 & 3 & 3
+        \end{pmatrix}.$$
+
+        Por otro lado, calculamos
+        $$A^2 = A \cdot A =
+        \begin{pmatrix}
+            0 & 3 & 4 \\
+            1 & -4 & -5 \\
+            -1 & 3 & 4
+        \end{pmatrix}
+        \begin{pmatrix}
+            0 & 3 & 4 \\
+            1 & -4 & -5 \\
+            -1 & 3 & 4
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -1 & 0 & 1 \\
+            1 & 4 & 4 \\
+            -1 & -3 & -3
+        \end{pmatrix}.$$
+
+        Por tanto, $A^2 = -A^{-1}.$
+    </li>
+
+    <li>
+        En primer lugar, observamos que por el apartado anterior
+        $$A^4 = A^2 \cdot A^2 = -A^{-1} \cdot A^2 = -A.$$
+
+        Despejamos y resolvemos la ecuación matricial.
+        \begin{align}
+            & A^4X + B = AC \Leftrightarrow -AX + B = AC \Leftrightarrow -AX = AC - B \Leftrightarrow X = -A^{-1}(AC - B) = -C + A^{-1}B = \\
+            & = -\begin{pmatrix}
+                2 & 0 \\
+                -3 & 2 \\
+                1 & -1
+            \end{pmatrix} +
+            \begin{pmatrix}
+                1 & 0 & -1 \\
+                -1 & -4 & -4 \\
+                1 & 3 & 3
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & -1 \\
+                3 & 0 \\
+                -4 & 5
+            \end{pmatrix} =
+            \begin{pmatrix}
+                -2 & 0 \\
+                3 & -2 \\
+                -1 & 1
+            \end{pmatrix} +
+            \begin{pmatrix}
+                5 & -6 \\
+                3 & -19 \\
+                -2 & 14
+            \end{pmatrix} =
+            \begin{pmatrix}
+                3 & -6 \\
+                6 & -21 \\
+                -3 & 15
+            \end{pmatrix}.
+        \end{align}
+    </li>
+</ol>

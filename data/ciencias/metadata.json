@@ -1308,6 +1308,7 @@
     },
     {
         "ejercicio": 202155,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
@@ -1315,6 +1316,7 @@
     },
     {
         "ejercicio": 202156,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
