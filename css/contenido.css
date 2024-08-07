@@ -175,14 +175,23 @@ Tablas
     overflow-y: hidden;
 }
 
+.temario {
+    --parent-color: var(--background-color);
+}
+
 table {
     margin-inline: auto;
+    border-collapse: collapse;
 }
 
 th,
 td {
     min-width: max-content;
     padding-inline: 8px;
+}
+
+tr.subrayado>th {
+    border-bottom: 1px solid var(--on-button);
 }
 
 /********************
