@@ -1,0 +1,334 @@
+<h2>Funciones</h2>
+
+<p>
+    Una <b>función</b> es una correspondencia entre dos conjuntos numéricos que asigna a cada elemento del primer conjunto un único elemento del segundo.
+    Por ejemplo, la función $f(x) = x^2$ asigna a cada número real su cuadrado.
+    \begin{align}
+        1  & \mapsto 1, & 0 & \mapsto 0, \\
+        2  & \mapsto 4, & -1 & \mapsto 1, \\
+        3  & \mapsto 9, & -2 & \mapsto 4.
+    \end{align}
+</p>
+
+<p>
+    Los números que se asignan mediante la función se llaman <b>imágenes</b>.
+    Por ejemplo, en este caso se dice que la imagen de -2 es 4 y se escribe $f(-2) = 4.$
+    Observamos que cada número solo puede tener una única imagen asignada, a pesar de que varios números puedan tener la misma imagen.
+    Por ejemplo, $f(-1) = 1$ y $f(1) = 1.$
+</p>
+
+<p>
+    Las funciones se pueden representar mediante <b>gráficas</b> en el plano.
+    Para representar los puntos de la función usamos los ejes de coordenadas, que están compuestos por el eje $X$ o eje de abscisas y el eje $Y$ o eje de ordenadas.
+    Por ejemplo, para representar la función $f(x) = x^2$, podemos utilizar los puntos $(-2, 4)$, $(-1, 1)$, $(0, 0)$, $(1, 1)$ y $(2, 4).$
+    <img src="img/ciencias/analisis-funciones-1.png" alt="Función"/>
+</p>
+
+<h3>Propiedades</h3>
+
+<p>
+    Las funciones tienen una serie de propiedades importantes.
+</p>
+
+<ul>
+    <li>
+        El <b>dominio</b> de una función es el conjunto de valores de la variable independiente para los que la función está definida.
+
+        Hay tres casos principales en los que puede haber problemas de definición de la función.
+
+        <ul>
+            <li>
+                <b>Denominadores que se anulan.</b>
+                Por ejemplo, la función $f(x) = \frac{1}{x^2 - 4}$ está definida cuando $x^2 - 4 \neq 0.$
+                Así que $\mathrm{Dom}(f) = \mathbb{R} \setminus \{-2, 2\}.$
+            </li>
+
+            <li>
+                <b>Raíces con radicando negativo.</b>
+                Por ejemplo, la función $g(x) = \sqrt{x+3}$ está definida cuando $x + 3 \geq 0.$
+                Así que $\mathrm{Dom}(g) = [-3, +\infty).$
+            </li>
+
+            <li>
+                <b>Logaritmos con argumento negativo o cero.</b>
+                Por ejemplo, la función $h(x) = \log(2x-8)$ está definida cuando $2x - 8 > 0.$
+                Así que $\mathrm{Dom}(h) = (4, +\infty).$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        La <b>imagen</b> o el <b>recorrido</b> de una función es el conjunto de valores que toma la variable dependiente.
+        Por ejemplo, la función $f(x) = x^2$ toma valores mayores e iguales que cero, así que $\mathrm{Im}(f) = [0, +\infty).$
+    </li>
+
+    <li>
+        Los <b>puntos de corte</b> con los ejes de coordenadas son los puntos en los que la gráfica de la función interseca a alguno de los ejes.
+        Vamos a calcular los puntos de corte de la función $f(x) = x^2 - 1.$
+
+        <ul>
+            <li>
+                Los <b>puntos de corte con el eje de abscisas</b> son aquellos en los que la coordenada $y$ es cero.
+                Como los valores de esta coordenada vienen dados por $f(x)$, esto es equivalente a resolver la ecuación $f(x) = 0.$
+                En nuestro ejemplo,
+                $$f(x) = 0 \Leftrightarrow x^2 - 1 = 0 \Leftrightarrow x^2 = 1 \Leftrightarrow x = \pm 1.$$
+                
+                Así que los puntos de corte con el eje $X$ son $(-1, 0)$ y $(1, 0).$
+            </li>
+
+            <li>
+                El <b>punto de corte con el eje de coordenadas</b> es aquel en el que la coordenada $x$ es cero.
+                Esto es equivalente a hallar la imagen de 0.
+                En nuestro ejemplo, $f(0) = -1.$
+                Así que el punto de corte con el eje $Y$ es $(0, -1).$
+            </li>
+        </ul>
+
+        Conocer los puntos de corte con los ejes nos ayuda a representar la función.
+        En nuestro, ejemplo,
+        <img src="img/ciencias/analisis-funciones-2.png" alt="Función"/>
+    </li>
+
+    <li>
+        Una función es <b>simétrica</b> si su gráfica presenta algún tipo de simetría.
+        Existen dos tipos principales de simetría.
+
+        <ul>
+            <li>
+                Una función presenta <b>simetría par</b> si su gráfica es simétrica con respecto al eje de ordenadas.
+                Esto ocurre cuando
+                $$f(x) = f(-x).$$
+
+                <img src="img/ciencias/analisis-funciones-3.png" alt="Función"/>
+
+
+                Por ejemplo, la función $f(x) = \frac{x^2+1}{x^4-3}$ es simétrica par porque
+                $$f(-x) = \frac{(-x)^2 + 1}{(-x)^4 - 3} = \frac{x^2+1}{x^4-3} = f(x).$$
+            </li>
+
+            <li>
+                Una función presenta <b>simetría impar</b> si su gráfica es simétrica con respecto al centro de coordenadas.
+                Esto ocurre cuando
+                $$-f(x) = f(-x).$$
+
+                <img src="img/ciencias/analisis-funciones-4.png" alt="Función"/>
+
+                Por ejemplo, la función $g(x) = \frac{1}{x^3 - x}$ es simétrica impar porque
+                $$g(-x) = \frac{1}{(-x)^3 - (-x)} = \frac{1}{-x^3 + x} = -\frac{1}{x^3 - x} = -g(x).$$
+            </li>
+        </ul>
+
+        En general, para comprobar si una función $f$ presenta algunas de estas simetrías calculamos $f(-x)$ y comprobamos si se corresponde con la función original o con su opuesta.
+        Cabe destacar que una función puede no tener ninguna de estas dos simetrías.
+        Por ejemplo, la función $h(x) = \frac{x^2 + 1}{x^3 - 1}$ no es simétrica par ni impar porque
+        $$h(-x) = \frac{(-x)^2 + 1}{(-x)^3 - 1} = \frac{x^2 + 1}{-x^3 - 1},$$
+        que es distinto de $h(x)$ y de $-h(x).$
+    </li>
+
+    <li>
+        Una función es <b>periódica</b> si se repite en intervalos regulares.
+        A la longitud de estos intervalos se le denomina período.
+        Por ejemplo, la función $f(x) = \mathrm{sen}(x)$ es periódica con período $2\pi.$
+
+        <img src="img/ciencias/analisis-funciones-5.png" alt="Función"/>
+    </li>
+</ul>
+
+<h3>Funciones elementales</h3>
+
+<p>
+    Existen una serie de funciones elementales que tenemos que conocer.
+</p>
+
+<ul>
+    <li>
+        Las <b>funciones lineales y afines</b> son polinomios de primer grado de la forma
+        $$f(x) = mx + n.$$
+
+        Sus gráficas son rectas, donde $m$ respresenta la pendiente y $n$ la ordenada en el origen.
+        Para representarlas gráficamente, basta con hallar dos puntos de la función.<br>
+
+        Por ejemplo, representemos la función $f(x) = -2x + 3.$
+        Podemos obtener dos puntos mediante una tabla de valores.
+
+        <div class="tabla temario">
+            <table>
+                <tr class="subrayado">
+                    <th>$x$</th>
+                    <th>$y$</th>
+                </tr>
+
+                <tr>
+                    <td>0</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+
+        Representamos los puntos obtenidos y trazamos la recta que pasa por ambos.
+        <img src="img/ciencias/analisis-funciones-6.png" alt="Función"/>
+    </li>
+
+    <li>
+        Las <b>funciones cuadráticas</b> son polinomios de segundo grado de la forma
+        $$f(x) = ax^2 + bx + c.$$
+
+        Sus gráficas son parábolas, así que presentan una simetría con respecto a la recta vertical que pasa por el vértice.
+        La coordenada $x$ del vértice es $V_x = -\frac{b}{2a}$ y es fundamental hallarlo para representar correctamente estas funciones.<br>
+
+        Por ejemplo, representemos la función $f(x) = -x^2 + 2x + 2.$
+        En primer lugar, hallamos su vértice.
+        Su abscisa es $V_x = -\frac{2}{-2} = 1$ y $f(1) = 3$, así que el vértice es el punto $(1, 3).$
+
+        Para completar la parábola, obtenemos algunos puntos adicionales mediante una tabla de valores.
+
+        <div class="tabla temario">
+            <table>
+                <tr class="subrayado">
+                    <th>$x$</th>
+                    <th>$y$</th>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>-1</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>-6</td>
+                </tr>
+            </table>
+        </div>
+
+        Por simetría, podemos obtener los puntos con abscisa -2, -1 y 0.
+        Representamos la parábola con la ayuda de todos los puntos hallados.
+
+        <img src="img/ciencias/analisis-funciones-7.png" alt="Función"/>
+    </li>
+
+    <li>
+        Las <b>funciones raíz</b> son de la forma
+        $$f(x) = \sqrt{kx}, \quad \text{con } k > 0.$$
+
+        Sus gráficas son parábolas con el eje paralelo al eje de abscisas.
+        Por ejemplo, la gráfica de la función $f(x) = \sqrt{x}$ es
+        <img src="img/ciencias/analisis-funciones-8.png" alt="Función"/>
+    </li>
+
+    <li>
+        Las <b>funciones de proporcionalidad inversa</b> son de la forma
+        $$f(x) = \frac{k}{x}, \quad \text{con } k \neq 0.$$
+
+        Sus gráficas son hipérbolas.
+        Por ejemplo, la gráfica de la función $f(x) = \frac{1}{x}$ es
+        <img src="img/ciencias/analisis-funciones-9.png" alt="Función"/>
+    </li>
+
+    <li>
+        Las <b>funciones exponenciales</b> son de la forma
+        $$f(x) = a^x, \quad \text{con } a > 0 \text{ y } a \neq 1.$$
+
+        La función es creciente si $a > 1$ y decreciente si $0 < a < 1.$
+        Por ejemplo, las gráficas de las funciones $f(x) = 2^x$ y $g(x) = \left(\frac{1}{2}\right)^x$ son
+        <img src="img/ciencias/analisis-funciones-10.png" alt="Función"/>
+    </li>
+
+    <li>
+        Las <b>funciones logarítmicas</b> son de la forma
+        $$f(x) = \log_a(x), \quad \text{con } a > 0 \text{ y } a \neq 1.$$
+
+        La función es creciente si $a > 1$ y decreciente si $0 < a < 1.$
+        Por ejemplo, las gráficas de las funciones $f(x) = \log_2(x)$ y $g(x) = \log_\frac{1}{2}(x)$ son
+        <img src="img/ciencias/analisis-funciones-11.png" alt="Función"/>
+    </li>
+
+    <li>
+        Las principales <b>funciones trigonométricas</b> son las funciones seno y coseno.
+        La variable $x$ se suele tomar en radianes y sus gráficas tienen forma de ondas periódicas.
+        De hecho, la función coseno es como la función seno desplazada $\frac{\pi}{2}$ unidades hacia la izquierda.
+        Las gráficas de las funciones $f(x) = \mathrm{sen}(x)$ y $g(x) = \cos(x)$ son
+        <img src="img/ciencias/analisis-funciones-12.png" alt="Función"/>
+    </li>
+</ul>
+
+<h3>Funciones a trozos</h3>
+
+<p>
+    Una <b>función a trozos</b> es una función cuya expresión cambia según el valor que toma la variable $x.$
+    Esas expresiones se llaman ramas y están definidas en puntos o intervalos concretos.
+    Por ejemplo, consideramos la función a trozos
+    $$f(x) = \begin{cases}
+        x^2 + 2x + 1, & \text{si } x < 0, \\
+        1, & \text{si } 0 \leq x < 2, \\
+        -x + 4, & \text{si } x \geq 2.
+    \end{cases}$$
+
+    Esta función consta de tres ramas.
+    Por ejemplo, la primera rama es una parábola que está definida en el intervalo $(-\infty, 0).$
+    Los puntos en los que una función a trozos cambia de rama se llaman puntos de ruptura.
+    En este caso, los puntos de ruptura son 0 y 2.
+</p>
+
+<p>
+    Para representar gráficamente las funciones a trozos, se representan cada una de las ramas en sus respectivos intervalos de definición.
+    La gráfica de la función $f$ es
+    <img src="img/ciencias/analisis-funciones-13.png" alt="Función"/>
+</p>
+
+<h4>Funciones con valor absoluto</h4>
+
+<p>
+    El <b>valor absoluto</b> de un número real $a$ es su distancia al cero y se denota por $|a|.$
+    Por ejemplo,
+    $$|2| = 2, \quad |-5| = 5 \quad \text{y} \quad |0| = 0.$$
+
+    En la práctica, equivale a cambiar el signo en el caso en que el número sea negativo.
+    De esta forma, el valor absoluto se puede expresar como una función a trozos de la forma
+    $$|x| = \begin{cases}
+        x, & \text{si } x \geq 0, \\
+        -x, & \text{si } x < 0.
+    \end{cases}$$
+</p>
+
+<p>
+    En general, toda función con valor absoluto se puede expresar como una función a trozos.
+    Por ejemplo, consideremos la función $f(x) = |x + 3|.$
+    Observamos que
+    $$x + 3 \geq 0 \Leftrightarrow x \geq -3.$$
+
+    Así que
+    $$f(x) = |x+3| = \begin{cases}
+        x+3, & \text{si } x \geq -3, \\
+        -x-3, & \text{si } x < -3.
+    \end{cases}$$
+</p>
+
+<h3>Composición de funciones</h3>
+
+<p>
+    La <b>composición de funciones</b> es una operación que consiste en aplicar dos funciones de forma sucesiva y da como resultado una nueva.
+    Dadas dos funciones $f$ y $g$, la función $f$ compuesta con $g$ es $g \circ f(x) = g(f(x)).$
+</p>
+
+<p>
+    Por ejemplo, si $f(x) = x^2 + 1$ y $g(x) = \sqrt{x-3}$, entonces
+    \begin{align}
+        & g \circ f(x) = g(f(x)) = g(x^2+1) = \sqrt{x^2 + 1 - 3} = \sqrt{x^2 - 2}, \\
+        & f \circ g(x) = f(g(x)) = f(\sqrt{x-3}) = (\sqrt{x-3})^2 + 1 = x-3+1 = x-2.
+    \end{align}
+</p>
+
+<p>
+    Observamos que la composición de funciones no es conmutativa.
+</p>
