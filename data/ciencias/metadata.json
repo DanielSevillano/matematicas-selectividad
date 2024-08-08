@@ -1334,6 +1334,7 @@
     },
     {
         "ejercicio": 202158,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Posición relativa"
