@@ -132,6 +132,7 @@
     },
     {
         "ejercicio": 202451,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
