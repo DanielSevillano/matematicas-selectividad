@@ -1,0 +1,54 @@
+<ol>
+    <li>
+        En primer lugar, observamos que $\mathrm{Dom}(f) = \mathbb{R} \setminus \{2\}.$
+        La función $f$ es racional, así que es continua y derivable en todo su dominio.
+        Estudiamos las asíntotas.
+
+        <ul>
+            <li>
+                El denominador se anula en $x = 2$ y observamos que
+                \begin{align}
+                    & \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} \frac{2x-6}{2-x} = -\infty, \\
+                    & \lim_{x \to 2^+} f(x) = \lim_{x \to 2^+} \frac{2x-6}{2-x} = +\infty.
+                \end{align}
+
+                Por tanto, la recta $x = 2$ es una asíntota vertical.
+            </li>
+
+            <li>
+                Veamos si tiene una asíntota horizontal.
+                $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{2x-6}{2-x} = -2.$$
+
+                Por tanto, la recta $y = -2$ es una asíntota horizontal.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        En primer lugar, calculamos la derivada de la función $f.$
+        $$f'(x) = \frac{2(2-x) + 2x-6}{(2-x)^2} = -\frac{2}{(2-x)^2}.$$
+
+        Observamos que $f'(x) < 0$ para $x \neq 2$, así que $f$ es decreciente en todo su dominio y no tiene extremos.
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                Hallamos los puntos de corte con el eje $X$, es decir, aquellos puntos con $y = 0.$
+                $$f(x) = 0 \Leftrightarrow \frac{2x-6}{2-x} = 0 \Leftrightarrow 2x - 6 = 0 \Leftrightarrow x = 3.$$
+
+                Luego el único punto de corte con el eje $X$ es $(3, 0).$
+            </li>
+
+            <li>
+                Hallamos ahora el punto de corte con el eje $Y.$
+                $$f(0) = \frac{-6}{2} = -3.$$
+
+                Así que el punto de corte con el eje $Y$ es $(0, -3).$
+            </li>
+        </ul>
+
+        Representamos gráficamente la función usando los puntos de corte y la información de los apartados anteriores.
+        <img src="img/sociales/R202453.png" alt="Figura" loading="lazy">
+    </li>
+</ol>
