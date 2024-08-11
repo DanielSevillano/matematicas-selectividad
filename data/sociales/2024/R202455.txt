@@ -1,0 +1,46 @@
+<p>
+    Llamamos $C$ a tener coche y $M$ a tener moto.
+    Sabemos que
+    $$P(M^c \cap C^c) = 0,07, \quad P(M|C) = 0,36 \quad \text{y} \quad P(M^c|C^c) = 0,28.$$
+    
+    En primer lugar, podemos hallar algunas probabilidades a partir de los datos.
+    Calculamos la probabilidad de la unión.
+    $$P(M \cup C) = 1 - P((M \cup C)^c) = 1 - P(M^c \cap C^c) = 1 - 0,07 = 0,93.$$
+
+    Hallamos también la probabilidad de tener coche.
+    \begin{align}
+        & P(M^c|C^c) = \frac{P(M^c \cap C^c)}{P(C^c)} = \frac{P(M^c \cap C^c)}{1 - P(C)} \Rightarrow \\
+        & \Rightarrow P(C) = 1 - \frac{P(M^c \cap C^c)}{P(M^c|C^c)} = 1 - \frac{0,07}{0,28} = 0,75.
+    \end{align}
+
+    Por último, calculamos la probabilidad de la intersección.
+    $$P(M \cap C) = P(C) \cdot P(M|C) = 0,75 \cdot 0,36 = 0,27.$$
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que solo tenga uno de los dos vehículos es
+        $$P(M \cup C) - P(M \cap C) = 0,93 - 0,27 = 0,66.$$
+    </li>
+
+    <li>
+        La probabilidad de que al menos tenga uno de los dos vehículos es
+        $$P(M \cup C) = 0,93.$$
+    </li>
+
+    <li>
+        La probabilidad de que no tenga moto sabiendo que tiene coche es
+        $$P(M^c|C) = 1 - P(M|C) = 1 - 0,36 = 0,64.$$
+    </li>
+
+    <li>
+        En primer lugar, calculamos la probabilidad de que tenga moto usando la probabilidad de la unión.
+        \begin{align}
+            & P(M \cup C) = P(M) + P(C) - P(M \cap C) \Rightarrow \\
+            & \Rightarrow P(M) = P(M \cup C) + P(M \cap C) - P(C) = 0,93 + 0,27 - 0,75 = 0,45.
+        \end{align}
+
+        Como $P(M) \neq P(M|C)$, los sucesos $M$ y $C$ no son independientes.
+        Por otro lado, como $P(M \cap C) > 0$, los sucesos no son incompatibles.
+    </li>
+</ol>

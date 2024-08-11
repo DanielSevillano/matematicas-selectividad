@@ -170,12 +170,14 @@
     },
     {
         "ejercicio": 202455,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202456,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
