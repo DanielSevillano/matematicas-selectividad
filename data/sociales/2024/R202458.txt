@@ -1,0 +1,34 @@
+<ol>
+    <li>
+        Como 12 personas de $n = 300$ viajan con su mascota, la proporción muestral es
+        $$p = \frac{12}{300} = 0,04.$$
+
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+
+        Como el nivel de confianza es del 97%, entonces
+        $$1 - \alpha = 0,97 \Leftrightarrow \alpha = 1 - 0,97 = 0,03.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
+
+        Por tanto, el intervalo de confianza para estimar la proporción de personas que viajan con su mascota con un nivel de confianza del 97% es
+        $$I = \left(0,04 - 2,17 \cdot \sqrt{\frac{0,04 \cdot (1-0,04)}{300}}, \; 0,04 + 2,17 \cdot \sqrt{\frac{0,04 \cdot (1-0,04)}{300}}\right) \approx (0,0154; \; 0,0646).$$
+    </li>
+
+    <li>
+        Si el nivel de confianza es del 95%, entonces
+        $$1 - \alpha = 0,95 \Leftrightarrow \alpha = 1 - 0,95 = 0,05.$$
+
+        Así que
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
+
+        El error máximo de estimación viene dado por
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 1,96 \cdot \sqrt{\frac{0,04 \cdot (1-0,04)}{n}} = 1,96 \cdot \sqrt{\frac{0,0384}{n}}.$$
+
+        Si se quiere el error no sea mayor que 0,02, entonces
+        $$1,96 \cdot \sqrt{\frac{0,0384}{n}} = 0,02 \Leftrightarrow \sqrt{\frac{0,0384}{n}} = \frac{0,02}{1,96} \Leftrightarrow \frac{0,0384}{n} = \frac{0,02^2}{1,96^2} \Leftrightarrow n = \frac{0,0384 \cdot 1,96^2}{0,02^2} = 368,7936.$$
+
+        Por tanto, el número mínimo de viajeros de la muestra debe ser 369.
+    </li>
+</ol>

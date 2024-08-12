@@ -1,0 +1,31 @@
+<p>
+    Llamamos $X \sim N(145, 22)$ a la distribución de la altura de las plantas.
+</p>
+
+<ol>
+    <li>
+        Calculamos la probabilidad de que la altura esté entre 135 cm y 155 cm.
+        \begin{align}
+            & P(135 \leq X \leq 155) = P\left(\frac{135-145}{22} \leq Z \leq \frac{155-145}{22}\right) = P\left(-\frac{5}{11} \leq Z \leq \frac{5}{11}\right) = \\
+            & = P\left(Z \leq \frac{5}{11}\right) - P\left(Z \leq -\frac{5}{11}\right) = P\left(Z \leq \frac{5}{11}\right) - \left(1 - P\left(Z \leq \frac{5}{11}\right)\right) = 2P\left(Z \leq \frac{5}{11}\right) - 1 \approx 0,3472.
+        \end{align}
+
+        Así que un 34,72% de las plantas tiene una altura comprendida entre 135 cm y 155 cm.
+    </li>
+
+    <li>
+        Como la altura de las plantas sigue una distribución normal, el centro de la distribución se encuentra en la media.
+        Por tanto, una planta debe tener al menos una altura de 145 cm para estar entre el 50% de las más altas.
+    </li>
+
+    <li>
+        La distribución de las medias muestrales $\overline{X}$ sigue una normal $N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)$ con $\mu = 145$, $\sigma = 22$ y $n = 16.$
+        Es decir, $\overline{X} \sim N(145; \; 5,5).$
+
+        Calculamos la probabilidad.
+        \begin{align}
+            & P(140 \leq \overline{X} \leq 151) = P\left(\frac{140-145}{5,5} \leq Z \leq \frac{151-145}{5,5}\right) = P\left(-\frac{10}{11} \leq Z \leq \frac{12}{11}\right) = \\
+            & = P\left(Z \leq \frac{12}{11}\right) - P\left(Z \leq -\frac{10}{11}\right) = P\left(Z \leq \frac{12}{11}\right) - \left(1 - P\left(Z \leq \frac{10}{11}\right)\right) \approx 0,6807.
+        \end{align}
+    </li>
+</ol>

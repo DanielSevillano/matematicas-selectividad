@@ -1,0 +1,44 @@
+<p>
+    Llamamos $x$ al número de emisiones de anuncios por radio e $y$ al de anuncios por televisión.
+</p>
+
+<p>
+    El coste de emisión por radio es de 2.400€, el de emisión por televisión es de 3.600€ y se dispone de 78.000€, así que
+    $$2.400x + 3.600y \leq 78.000 \Leftrightarrow 6x + 9y \leq 195.$$
+
+    Como la diferencia entre el número de emisiones de cada tipo debe ser menor o igual que 10, entonces
+    $$x - y \leq 10 \quad \text{y} \quad y - x \leq 10.$$
+
+    Además, se quiere que se emitan un mínimo de 10 anuncios en total, así que
+    $$x + y \geq 10.$$
+
+    Por último, como las emisiones de un anuncio de radio y de televisión llegan a 34.000 personas y 72.000 personas respectivamente, la función objetivo es
+    $$F(x, y) = 34.000x + 72.000y.$$
+
+    Por tanto, el problema es
+    \begin{align}
+        \text{Maximizar } & F(x, y) = 34.000x + 72.000y, \\
+        \text{sujeto a } & 6x + 9y \leq 195, \\
+        & x - y \leq 10, \\
+        & y - x \leq 10, \\
+        & x + y \geq 10.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región definida mediante las inecuaciones.
+    <img src="img/sociales/R202452.png" alt="Figura" loading="lazy">
+
+    Los vértices son
+    $$A(0, 10), \quad B(7, 17), \quad C(19, 9) \quad \text{y} \quad D(10, 0).$$
+</p>
+
+<p>
+    Para hallar el máximo de la función $F$, la evaluamos en los vértices.
+    \begin{align}
+        & F(A) = F(0, 10) = 720.000, & & F(B) = F(7, 17) = 1.462.000, \\
+        & F(C) = F(19, 9) = 1.294.000, & & F(D) = F(10, 0) = 340.000.
+    \end{align}
+
+    Por tanto, el valor máximo de audiencia se alcanza contratando 7 emisiones de radio y 17 de televisión, con una audiencia de 1.462.000 personas.
+</p>

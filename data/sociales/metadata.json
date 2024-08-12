@@ -140,6 +140,7 @@
     },
     {
         "ejercicio": 202452,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
@@ -184,6 +185,7 @@
     },
     {
         "ejercicio": 202457,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Distribución de medias muestrales"
@@ -191,6 +193,7 @@
     },
     {
         "ejercicio": 202458,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"
