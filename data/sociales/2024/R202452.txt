@@ -4,7 +4,7 @@
 
 <p>
     El coste de emisión por radio es de 2.400€, el de emisión por televisión es de 3.600€ y se dispone de 78.000€, así que
-    $$2.400x + 3.600y \leq 78.000 \Leftrightarrow 6x + 9y \leq 195.$$
+    $$2.400x + 3.600y \leq 78.000 \Leftrightarrow 2x + 3y \leq 65.$$
 
     Como la diferencia entre el número de emisiones de cada tipo debe ser menor o igual que 10, entonces
     $$x - y \leq 10 \quad \text{y} \quad y - x \leq 10.$$
