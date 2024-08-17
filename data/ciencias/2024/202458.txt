@@ -1,0 +1,2 @@
+Considera los puntos $A(4, 0, 0)$ y $B(0, 2, 0).$
+Calcula los puntos del plano $OXZ$ que forman un triángulo equilátero con $A$ y $B.$

@@ -1,0 +1,11 @@
+Considera el plano $\pi \equiv x - 2y + z - 2 = 0$ y la recta
+$$r \equiv \begin{cases}
+    x = 1 + 2\lambda, \\
+    y = \lambda, \\
+    z = 1,
+\end{cases} \quad \lambda \in \mathbb{R}.$$
+
+<ol>
+    <li>Estudia la posición relativa de $\pi$ y $r.$</li>
+    <li>Calcula la ecuación de la recta contenida en $\pi$ que pasa por el punto $P(2, -1, -2)$ y es perpendicular a $r.$</li>
+</ol>

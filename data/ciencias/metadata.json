@@ -132,6 +132,61 @@
         ]
     },
     {
+        "ejercicio": 202451,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 202452,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202453,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202454,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202455,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202456,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Problemas"
+        ]
+    },
+    {
+        "ejercicio": 202457,
+        "categorias": [
+            "Geometría",
+            "Posición relativa"
+        ]
+    },
+    {
+        "ejercicio": 202458,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
         "ejercicio": 202301,
         "resuelto": true,
         "categorias": [

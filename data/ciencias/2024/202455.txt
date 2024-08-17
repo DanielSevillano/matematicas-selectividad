@@ -1,0 +1,10 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    -1 & 0 \\
+    0 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halla todas las matrices $X$ que cumplen $XA = -AX^t$ y $X^2 = I$, donde $I$ es la matriz identidad de orden 2.</li>
+    <li>Halla todas las matrices $Y$ que cumplen $YA = AY$, la suma de los elementos de su diagonal principal es cero y tienen determinante -1.</li>
+</ol>

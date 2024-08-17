@@ -1,0 +1,10 @@
+Sean $f, g: \mathbb{R} \to \mathbb{R}$ las funciones definidas por $f(x) = -x^2 + 7$ y $g(x) = |x^2-1|.$
+
+<ol>
+    <li>
+        Halla los puntos de intersección de las gráficas de $f$ y $g.$
+        Realiza un esbozo del recinto acotado y limitado por dichas gráficas.
+    </li>
+
+    <li>Calcula el área de dicho recinto.</li>
+</ol>

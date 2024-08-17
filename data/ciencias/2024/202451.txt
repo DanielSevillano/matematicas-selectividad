@@ -1,0 +1,4 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por
+$$f(x) = a + b\cos(x) + c\mathrm{sen}(x).$$
+
+Halla $a$, $b$ y $c$ sabiendo que su gráfica tiene en el punto de abscisa $x = \frac{\pi}{2}$ a la recta $y = 1$ como recta tangente, y que la recta $y = x-1$ corta a la gráfica de $f$ en el punto de abscisa $x = 0.$

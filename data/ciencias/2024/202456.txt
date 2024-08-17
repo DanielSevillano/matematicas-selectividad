@@ -1,0 +1,8 @@
+Un proveedor de perfumerías vende a sus comerciantes tres tipos de perfumes A, B y C.
+En un primer pedido una tienda ha encargado 20 perfumes de tipo A, 30 de tipo B y 15 de tipo C, por un importe de 2.200 euros.
+En un segundo pedido ha comprado 15 perfumes de tipo A, 10 de tipo B y 10 de tipo C, por un importe de 1.250 euros.
+
+<ol>
+    <li>¿Cuánto tendremos que pagar por un pedido de 25 perfumes de tipo A, 10 perfumes de tipo B y 16 de tipo C?</li>
+    <li>Si añadimos que el precio de un perfume de tipo C es $\frac{2}{5}$ del precio de una unidad de tipo A, ¿cuál es el precio de cada tipo de perfume?</li>
+</ol>
