@@ -1,0 +1,32 @@
+<p>
+    En primer lugar, hallamos la derivada de la función $f.$
+    $$f'(x) = -b\mathrm{sen}(x) + c\cos(x).$$
+</p>
+
+<ul>
+    <li>
+        Si la recta tangente en $x = \frac{\pi}{2}$ tiene pendiente 0, entonces $f'\left(\frac{\pi}{2}\right) = 0.$
+        $$f'\left(\frac{\pi}{2}\right) = 0 \Leftrightarrow -b = 0 \Leftrightarrow b = 0.$$
+    </li>
+
+    <li>
+        Si $y = 1$ es la recta tangente en $x = \frac{\pi}{2}$, el punto $\left(\frac{\pi}{2}, 1\right)$ pertenece a la función.
+        Así que $f\left(\frac{\pi}{2}\right) = 1.$
+        $$f\left(\frac{\pi}{2}\right) = 1 \Leftrightarrow a + c = 1.$$
+    </li>
+
+    <li>
+        Si $y = x-1$ corta a la función en $x = 0$, el punto $(0, -1)$ pertenece a la función.
+        Así que $f(0) = -1.$
+        $$f(0) = -1 \Leftrightarrow a + b = -1 \xrightarrow{b = 0} a = -1.$$
+    </li>
+</ul>
+
+<p>
+    Como $a = -1$, sustituyendo en la segunda ecuación
+    $$a + c = 1 \xrightarrow{a = -1} c = 2.$$
+</p>
+
+<p>
+    Por tanto, $a = -1$, $b = 0$ y $c = 2.$
+</p>

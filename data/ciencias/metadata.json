@@ -133,12 +133,14 @@
     },
     {
         "ejercicio": 202451,
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
     },
     {
         "ejercicio": 202452,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos"
