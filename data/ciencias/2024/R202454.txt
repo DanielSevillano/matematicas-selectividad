@@ -1,0 +1,30 @@
+<p>
+    En primer lugar, hallamos una primitiva de la función
+    $$f(x) = e^x\cos(x).$$
+
+    Resolvemos la integral por partes.
+    \begin{align}
+        u = \cos(x) & \Rightarrow u' = -\mathrm{sen}(x), \\
+        v' = e^x & \Rightarrow v = e^x.
+    \end{align}
+
+    Entonces
+    $$\int e^x\cos(x)dx = e^x\cos(x) + \int e^x\mathrm{sen}(x)dx.$$
+
+    Integramos de nuevo por partes.
+    \begin{align}
+        u = \mathrm{sen}(x) & \Rightarrow u' = \cos(x), \\
+        v' = e^x & \Rightarrow v = e^x.
+    \end{align}
+
+    Luego
+    $$\int e^x\cos(x)dx = e^x\cos(x) + \int e^x\mathrm{sen}(x)dx = e^x\cos(x) + e^x\mathrm{sen}(x) - \int e^x\cos(x)dx.$$
+
+    Despejando la integral en la expresión anterior, obtenemos que
+    $$2\int e^x\cos(x)dx = e^x(\cos(x) + \mathrm{sen}(x)) \Leftrightarrow \int e^x\cos(x)dx = \frac{1}{2}e^x(\cos(x) + \mathrm{sen}(x)).$$
+</p>
+
+<p>
+    Por último, calculamos la integral definida.
+    $$\int_0^\frac{\pi}{2} e^x\cos(x)dx = \frac{1}{2}\Big[e^x(\cos(x) + \mathrm{sen}(x))\Big]_0^\frac{\pi}{2} = \frac{1}{2}(e^\frac{\pi}{2} - 1).$$
+</p>

@@ -148,6 +148,7 @@
     },
     {
         "ejercicio": 202453,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
@@ -156,6 +157,7 @@
     },
     {
         "ejercicio": 202454,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
