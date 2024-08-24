@@ -165,6 +165,7 @@
     },
     {
         "ejercicio": 202455,
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
