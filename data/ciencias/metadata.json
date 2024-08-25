@@ -172,6 +172,7 @@
     },
     {
         "ejercicio": 202456,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
@@ -180,6 +181,7 @@
     },
     {
         "ejercicio": 202457,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Posición relativa"

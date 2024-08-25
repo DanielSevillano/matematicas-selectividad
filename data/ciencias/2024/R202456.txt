@@ -1,0 +1,65 @@
+<p>
+    Llamamos $x$ al precio de un perfume de tipo A, $y$ al de tipo B y $z$ al de tipo C.
+</p>
+
+<p>
+    Un pedido de 20 perfumes de tipo A, 30 de tipo B y 15 de tipo C tiene un coste de 2.200 euros, así que
+    $$20x + 30y + 15z = 2.200 \Leftrightarrow 4x + 6y + 3z = 440.$$
+
+    Además, como otro pedido de 15 perfumes de tipo A, 10 de tipo B y 10 de tipo C cuesta 1.250 euros,
+    $$15x + 10y + 10z = 1.250 \Leftrightarrow 3x + 2y + 2z = 250.$$
+</p>
+
+<ol>
+    <li>
+        Podemos plantear el sistema de ecuaciones lineales
+        \begin{cases}
+            4x + 6y + 3z = 440, \\
+            3x + 2y + 2z = 250.
+        \end{cases}
+
+        Resolvemos el sistema mediante el método de Gauss.
+        $$\begin{pmatrix}
+            4 & 6 & 3 & 440 \\
+            3 & 2 & 2 & 250
+        \end{pmatrix} \xrightarrow{2F_1 - 3F_2}
+        \begin{pmatrix}
+            -1 & 6 & 0 & 130 \\
+            3 & 2 & 2 & 250
+        \end{pmatrix}.$$
+
+        El sistema resultante es
+        \begin{cases}
+            -x + 6y = 130, \\
+            3x + 2y + 2z = 250.
+        \end{cases}
+
+        Si $y = \lambda$, entonces
+        \begin{align}
+            & -x + 6y = 130 \Leftrightarrow x = 6y - 130 \xrightarrow{y = \lambda} x = 6\lambda - 130, \\
+            & 3x + 2y + 2z = 250 \Leftrightarrow z = \frac{250 - 3x - 2y}{2} \xrightarrow[z=\lambda]{x=6\lambda-130} z = \frac{250 - 18\lambda + 390 - 2\lambda}{2} = 320 - 10\lambda.
+        \end{align}
+
+        Así que el precio de un pedido de 25 perfumes de tipo A, 10 perfumes de tipo B y 16 de tipo C se puede calcular como
+        $$25x + 10y + 16z = 25 \cdot (6\lambda - 130) + 10\lambda + 16 \cdot (320 - 10\lambda) = 150\lambda - 3.250 + 10\lambda + 5.120 - 160\lambda = 1.870.$$
+
+        Por tanto, el precio total es de 1.870€.
+    </li>
+
+    <li>
+        Si el precio de un perfume de tipo C es $\frac{2}{5}$ del precio de uno de tipo A, entonces
+        $$z = \frac{2}{5}x \Leftrightarrow 2x = 5z.$$
+
+        Así que
+        $$2 \cdot (6\lambda - 130) = 5 \cdot (320 - 10\lambda) \Leftrightarrow 12\lambda - 260 = 1.600 - 50\lambda \Leftrightarrow \lambda = 30.$$
+
+        Así que
+        \begin{align}
+            & x = 6 \cdot 30 - 130 = 50, \\
+            & y = 30, \\
+            & z = 320 - 10 \cdot 30 = 20.
+        \end{align}
+
+        Por tanto, el precio de un perfume de tipo A es de 50€, el de uno de tipo B de 30€ y el de uno de tipo C de 20€.
+    </li>
+</ol>
