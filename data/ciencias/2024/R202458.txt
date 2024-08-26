@@ -1,0 +1,36 @@
+<p>
+    Llamamos $C(a, b, c)$ al punto que nos piden.
+    Como $C$ está en el plano $OXZ$, entonces $b = 0.$
+</p>
+
+<p>
+    Como queremos que el triángulo $ABC$ sea equilátero, las distancias entre los vértices tienen que ser iguales.
+    Calculamos las distancias mediante los vectores $\vec{AB} = (-4, 2, 0)$, $\vec{AC} = (a-4, 0, c)$ y $\vec{BC} = (a, -2, c).$
+    \begin{align}
+        & \mathrm{dist}(A, B) = |\vec{AB}| = \sqrt{4^2 + 2^2} = \sqrt{20}, \\
+        & \mathrm{dist}(A, C) = |\vec{AC}| = \sqrt{(a-4)^2 + c^2} = \sqrt{a^2 - 8a + 16 + c^2}, \\
+        & \mathrm{dist}(B, C) = |\vec{BC}| = \sqrt{a^2 + 2^2 + c^2} = \sqrt{a^2 + 4 + c^2}.
+    \end{align}
+
+    Así que
+    $$\begin{cases}
+        \sqrt{a^2 - 8a + 16 + c^2} = \sqrt{20}, \\
+        \sqrt{a^2 + 4 + c^2} = \sqrt{20}
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        a^2 - 8a + 16 + c^2 = 20, \\
+        a^2 + 4 + c^2 = 20
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        a^2 - 8a + c^2 = 4, \\
+        a^2 + c^2 = 16.
+    \end{cases}$$
+
+    Si restamos las dos ecuaciones, obtenemos que
+    $$-8a = 12 \Leftrightarrow a = \frac{3}{2}.$$
+
+    Despejando y sustituyendo en la segunda ecuación,
+    $$a^2 + c^2 = 16 \Leftrightarrow c = \sqrt{16 - a^2} \xrightarrow{a = 3/2} c = \pm \frac{\sqrt{55}}{2}.$$
+
+    Por tanto, los puntos son $C_1\left(\frac{3}{2}, 0, -\frac{\sqrt{55}}{2}\right)$ y $C_2\left(\frac{3}{2}, 0, \frac{\sqrt{55}}{2}\right).$
+</p>

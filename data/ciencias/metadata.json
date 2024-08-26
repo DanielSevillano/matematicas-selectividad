@@ -189,8 +189,10 @@
     },
     {
         "ejercicio": 202458,
+        "resuelto": true,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Distancia"
         ]
     },
     {
