@@ -883,6 +883,7 @@
     },
     {
         "ejercicio": 202243,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos"
@@ -890,6 +891,7 @@
     },
     {
         "ejercicio": 202244,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",

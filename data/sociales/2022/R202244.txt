@@ -1,0 +1,106 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                Si $x \neq 1$, $f$ es continua y derivable con
+                $$f'(x) = \begin{cases}
+                    2ax + b, & \text{si } x < 1, \\
+                    -\dfrac{2}{x^2}, & \text{si } x > 1.
+                \end{cases}$$
+
+            </li>
+
+            <li>
+                Estudiamos la continuidad para $x = 1.$
+                \begin{align}
+                    & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} (ax^2 + bx + 1) = a + b + 1, \\
+                    & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} \frac{2}{x} = 2, \\
+                    & f(1) = a + b + 1.
+                \end{align}
+
+                Para que $f$ sea continua en $x = 1$, ha de verificarse
+                $$a + b + 1 = 2 \Leftrightarrow a + b = 1.$$
+
+                Pasamos a estudiar la derivabilidad.
+                \begin{align}
+                    & f'_-(1) = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} (2ax + b) = 2a + b, \\
+                    & f'_+(1) = \lim_{x \to 1^+} f'(x) = \lim_{x \to 1^+} -\frac{2}{x^2} = -2.
+                \end{align}
+
+                Para que $f$ sea derivable en $x = 1$, ha de verificarse
+                $$2a + b = -2.$$
+            </li>
+        </ul>
+
+        Con estas dos condiciones, planteamos el sistema de ecuaciones
+        \begin{cases}
+            a + b = 1, \\
+            2a + b = -2.
+        \end{cases}
+
+        Resolvemos el sistema por reducción. Si restamos las ecuaciones, obtenemos que
+        $$-a = 3 \Leftrightarrow a = -3.$$
+
+        Despejando y sustituyendo en la primera ecuación,
+        $$a + b = 1 \Leftrightarrow b = 1 - a \xrightarrow{a = -3} b = 4.$$
+
+        Por tanto, $a = -3$ y $b = 4.$
+    </li>
+
+    <li>
+        Si $a = -3$ y $b = 4$, por el apartado anterior $f$ es continua y derivable en $\mathbb{R}$ con
+        $$f(x) = \begin{cases}
+            -3x^2 + 4x + 1, & \text{si } x < 1, \\
+            \dfrac{2}{x}, & \text{si } x \geq 1
+        \end{cases} \quad \text{y} \quad
+        f'(x) = \begin{cases}
+            -6x + 4, & \text{si } x < 1, \\
+            -\dfrac{2}{x^2}, & \text{si } x \geq 1.
+        \end{cases}$$
+
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+
+        <ul>
+            <li>
+                Si $x < 1$,
+                $$f'(x) = 0 \Leftrightarrow -6x + 4 = 0 \Leftrightarrow x = \frac{2}{3}.$$
+            </li>
+
+            <li>
+                Si $x \geq 1$,
+                $$f'(x) = -\frac{2}{x^2} \neq 0.$$
+            </li>
+        </ul>
+
+        Así que el único punto crítico es $x = \frac{2}{3}.$
+        Estudiamos el signo de $f'.$
+
+        <ul>
+            <li>
+                Si $x < \frac{2}{3}$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $x > \frac{2}{3}$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+        </ul>
+
+        Por tanto, el punto $\left(\frac{2}{3}, \frac{7}{3}\right)$ es un máximo relativo.
+    </li>
+
+    <li>
+        Si $a = -2$ y $b = 3$,
+        $$f(x) = \begin{cases}
+            -2x^2 + 3x + 1, & \text{si } x < 1, \\
+            \dfrac{2}{x}, & \text{si } x \geq 1.
+        \end{cases}$$
+
+        Calculamos la integral.
+        \begin{align}
+            & \int_{-1}^3 f(x)dx = \int_{-1}^1 (-2x^2 + 3x + 1)dx + \int_1^3 \frac{2}{x}dx = \left[-\frac{2}{3}x^3 + \frac{3}{2}x^2 + x\right]_{-1}^1 + \Big[2\ln(x)\Big]_1^3 = \\
+            & = -\frac{2}{3} + \frac{3}{2} + 1 - \left(\frac{2}{3} + \frac{3}{2} - 1\right) + 2\ln(3) = \frac{2}{3} + 2\ln(3).
+        \end{align}
+    </li>
+</ol>

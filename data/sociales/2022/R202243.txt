@@ -1,0 +1,31 @@
+<p>
+    Como la empresa no puede fumigar más de 10 hectáreas al mes, $\mathrm{Dom}(B) = [0, 10].$
+</p>
+
+<ol>
+    <li>
+        Hallamos los puntos de corte de la función $B$ con el eje $X$, es decir, aquellos en los que el beneficio es cero.
+        $$B(x) = 0 \Leftrightarrow -x^2 + 16x - 48 = 0 \Leftrightarrow \begin{cases}
+            x = 4, \\
+            x = 12.
+        \end{cases}$$
+
+        Así que el único punto de corte con el eje en el dominio $[0, 10]$ está en $x = 4.$
+        Observamos además que $B(x) > 0$ si $4 < x \leq 10.$
+        Por tanto, la empresa obtendrá beneficios si fumiga entre 4 y 10 hectáreas al mes.
+    </li>
+
+    <li>
+        La función es cuadrática y su gráfica es cóncava, así que el máximo se alcanza en el vértice de la parábola.
+        Como el vértice es el punto $(8, 16)$, la empresa tendrá que fumigar 8 hectáreas al mes para obtener el beneficio máximo, que asciende a 16.000€.
+    </li>
+
+    <li>
+        Se obtiene un beneficio de 7.000€ si $B(x) = 7.$
+        $$B(x) = 7 \Leftrightarrow -x^2 + 16x - 48 = 7 \Leftrightarrow -x^2 + 16x - 55 = 0 \Leftrightarrow \begin{cases}
+            x = 5, \\
+            x = 11.
+        \end{cases}$$
+
+        Como $x = 11$ no pertenece al dominio, la función solo alcanza un valor de 7 en $x = 5.$
+        Por tanto, la empresa ha fumigado 5 hectáreas.
