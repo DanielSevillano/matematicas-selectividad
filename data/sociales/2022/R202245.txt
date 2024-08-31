@@ -1,0 +1,145 @@
+<p>
+    Llamamos $G_1$ a ganar en la primera oportunidad y $G_2$ a ganar en la segunda.
+    Podemos hacer un diagrama de árbol.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <td>$G_1$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad \quad}$</td>
+                <td></td>
+                <td></td>
+            </tr>        
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$G_2$</td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$G_1^c$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$G_2^c$</td>
+            </tr>
+        </table>
+    </div>
+
+
+    Para hallar las probabilidades, podemos hacer una tabla con todas las posibilidades al lanzar dos dados.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+
+            <tr>
+                <th>1</th>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+
+            <tr>
+                <th>2</th>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <th>3</th>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <th>4</th>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <th>5</th>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+
+            <tr>
+                <th>6</th>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </table>
+    </div>
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que Juan gane lanzando una sola vez los dados es
+        $$P(G_1) = \frac{16}{36} = \frac{4}{9}.$$
+    </li>
+
+    <li>
+        La probabilidad de que Juan gane en la segunda oportunidad sabiendo que no ganó en la primera es
+        $$P(G_2|G_1^c) = \frac{6}{36} = \frac{1}{6}.$$
+
+        Por tanto, la probabilidad de que Juan gane en la segunda oportunidad es
+        $$P(G_2) = P(G_1^c) \cdot P(G_2|G_1^c) = \frac{5}{9} \cdot \frac{1}{6} = \frac{5}{54}.$$
+    </li>
+
+    <li>
+        La probabilidad de que Juan gane es
+        $$P(G_1) + P(G_2) = \frac{4}{9} + \frac{5}{54} = \frac{29}{54}.$$
+    </li>
+</ol>

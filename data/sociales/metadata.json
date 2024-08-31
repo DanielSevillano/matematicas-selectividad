@@ -902,12 +902,14 @@
     },
     {
         "ejercicio": 202245,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202246,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
