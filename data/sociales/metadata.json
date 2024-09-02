@@ -868,6 +868,7 @@
     },
     {
         "ejercicio": 202241,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
@@ -916,6 +917,7 @@
     },
     {
         "ejercicio": 202247,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"
@@ -923,6 +925,7 @@
     },
     {
         "ejercicio": 202248,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"

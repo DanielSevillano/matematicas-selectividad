@@ -1,0 +1,78 @@
+<p>
+    Llamamos $x$ al número de juegos de ajedrez e $y$ al de dominó.
+    Podemos organizar la información en una tabla.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <th>Madera (kg)</th>
+                <th>Trabajo (h)</th>
+                <th>Precio (€)</th>
+            </tr>
+
+            <tr>
+                <th>Ajedrez</th>
+                <td>2</td>
+                <td>4</td>
+                <td>40</td>
+            </tr>
+
+            <tr>
+                <th>Dominó</th>
+                <td>1</td>
+                <td>1</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <th>Máximo</th>
+                <td>7</td>
+                <td>9</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</p>
+
+<p>
+    Se usan 2kg de madera para cada juego de ajedrez, 1kg para cada juego de dominó y se dispone un máximo de 7kg, así que
+    $$2x + y \leq 7.$$
+
+    Se emplean 4 horas de trabajo para cada juego de ajedrez, 1 hora para cada juego de dominó y se dispone de un máximo de 9 horas, así que
+    $$4x + y \leq 9.$$
+
+    Como hay que hacer al día al menos 3 juegos, entonces
+    $$x + y \geq 3.$$
+
+    Además, incorporamos las restricciones
+    $$x \geq 0, \quad y \geq 0.$$
+
+    Por último, como los precios son de 40€ y 15€ por cada juego de ajedrez y de dominó respectivamente, la función objetivo es
+    $$F(x, y) = 40x + 15y.$$
+
+    Por tanto, el problema es
+    \begin{align}
+        \text{Maximizar } & F(x, y) = 40x + 15y, \\
+        \text{sujeto a } & 2x + y \leq 7, \\
+        & 4x + y \leq 9, \\
+        & x + y \leq 3, \\
+        & x \geq 0, \\
+        & y \geq 0.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región definida mediante las inecuaciones.
+    <img src="img/sociales/R202241.png" alt="Figura" loading="lazy">
+
+    Los vértices son
+    $$A(0, 3), \quad B(0, 7), \quad C(1, 5) \quad \text{y} \quad D(2, 1).$$
+</p>
+
+<p>
+    Para hallar el máximo de la función $F$, la evaluamos en los vértices.
+    $$F(A) = F(0, 3) = 45, \quad F(B) = F(0, 7) = 105, \quad F(C) = F(1, 5) = 115, \quad F(D) = F(2, 1) = 95.$$
+
+    Por tanto, la ganancia máxima se alcanza fabricando 1 juego de ajedrez y 5 juegos de dominó diarios, con unos beneficios de 115€.
+</p>
