@@ -1,0 +1,9 @@
+Un fabricante de tapices dispone de 500 kg de hilo de seda, 400 kg de hilo de plata y 225 kg de hilo de oro.
+Desea fabricar dos tipos de tapices: A y B.
+Para los del tipo A se necesita 1 kg de hilo de seda y 2 kg de hilo de plata, y para los del tipo B, 2 kg de hilo de seda, 1 kg de hilo de plata y 1 kg de hilo de oro.
+Cada tapiz del tipo A se vende a 2.000 euros y cada tapiz del tipo B a 3.000 euros.
+
+<ol>
+    <li>Si se vende todo lo que se fabrica, ¿cuántos tapices de cada tipo ha de fabricar para que el beneficio sea máximo y cuál es ese beneficio?</li>
+    <li>¿Qué cantidad de hilo de cada clase quedará cuando se fabrique el número de tapices que proporciona el máximo beneficio?</li>
+</ol>

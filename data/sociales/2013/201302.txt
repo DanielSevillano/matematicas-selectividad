@@ -1,0 +1,8 @@
+Los beneficios de una empresa en sus primeros 8 años vienen dados, en millones de euros, por la función
+$$B(t) = \frac{t^3}{4} - 3t^2 + 9t, \quad 0 \leq t \leq 8,$$
+donde la variable $t$ indica el tiempo transcurrido, en años, desde su fundación.
+
+<ol>
+    <li>Estudie la monotonía y los extremos de $B(t).$</li>
+    <li>Dibuje la gráfica de $B(t)$ en el intervalo $[0, 8]$ y explique, a partir de ella, la evolución de los beneficios de esta empresa en sus 8 años de existencia.</li>
+</ol>

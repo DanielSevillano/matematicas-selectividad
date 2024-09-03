@@ -1,0 +1,8 @@
+De los sucesos aleatorios independientes $A$ y $B$ se sabe que $P(A) = 0,3$ y que $P(B) = 0,25.$
+Calcule las siguientes probabilidades:
+
+<ol>
+    <li>$P(A \cup B).$</li>
+    <li>$P(A^c \cap B^c).$</li>
+    <li>$P(A|B^c).$</li>
+</ol>

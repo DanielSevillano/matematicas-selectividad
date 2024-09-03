@@ -1,0 +1,22 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    2 & -1 \\
+    a & b
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    -1 & 1 \\
+    3 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Obtenga $a$ y $b$ sabiendo que
+        $$A^2 = \begin{pmatrix}
+            5 & -2 \\
+            -2 & 1
+        \end{pmatrix}.$$
+        ¿Es $A$ simétrica?
+    </li>
+
+    <li>Para los valores $a = 3$ y $b = 1$, calcule la matriz $X$ tal que $AB = 2(X-3I_2).$</li>
+</ol>

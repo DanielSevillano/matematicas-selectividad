@@ -1,0 +1,7 @@
+Sea $f(x)$ una función cuya función derivada, $f'(x)$, tiene por gráfica una parábola que corta al eje $OX$ en los puntos $(-1,0)$ y $(5,0)$ y con vértice $(2,-4).$
+
+<ol>
+    <li>Estudie razonadamente la monotonía de $f(x).$</li>
+    <li>Determine las abscisas de los extremos relativos de la función $f(x).$</li>
+    <li>Halle la ecuación de la recta tangente a la gráfica de $f(x)$ en el punto de abscisa $x = 2$, sabiendo que $f(2) = 5.$</li>
+</ol>

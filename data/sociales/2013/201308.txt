@@ -1,0 +1,7 @@
+El tiempo que los españoles dedican a ver la televisión los domingos es una variable aleatoria que sigue una distribución Normal de media desconocida y desviación típica 75 minutos.
+Elegida una muestra aleatoria de españoles se ha obtenido, para la media de esa distribución, el intervalo de confianza $(188,18; \; 208,82)$, con un nivel del 99%.
+
+<ol>
+    <li>Calcule la media muestral y el tamaño de la muestra.</li>
+    <li>Calcule el error máximo permitido si se hubiese utilizado una muestra de tamaño 500 y un nivel de confianza del 96%.</li>
+</ol>
