@@ -1,0 +1,19 @@
+En una empresa de montajes, el número de montajes diarios realizados por un trabajador depende de los días trabajados segun la funcion
+$$M(t) = \frac{11t + 17}{2t + 12}, \quad t \geq 1,$$
+donde $t$ es el número de días trabajados.
+
+<ol>
+    <li>
+        ¿Cuántos montajes realiza el primer día?
+        ¿Cuántos días necesitará para realizar cinco montajes diarios?
+    </li>
+
+    <<li>¿Qué ocurriría con el número de montajes diarios si trabajara indefinidamente?</li>
+
+    <li>
+        El dueño de la empresa cree que el número de montajes diarios aumenta con los días de trabajo.
+        Estudiando la función, justifique si es cierta dicha creencia.
+    </li>
+
+    <li>Dibuje la gráfica de la función.</li>
+</ol>

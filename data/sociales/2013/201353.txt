@@ -1,0 +1,10 @@
+Se cree que hay una vuelta hacia estilos de baile más populares, por lo que se realiza una encuesta a estudiantes de bachillerato, resultando que al 40% les gusta la salsa, al 30% les gusta el merengue y al 10% les gusta tanto la salsa como el merengue.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que a un estudiante le guste el merengue si le gusta la salsa?</li>
+    <li>¿Y la de que a un estudiante le guste el merengue si no le gusta la salsa?</li>
+    <li>
+        ¿Son independientes los sucesos "gustar la salsa" y "gustar el merengue"?
+        ¿Son compatibles?
+    </li>
+</ol>

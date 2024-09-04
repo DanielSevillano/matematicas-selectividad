@@ -1,0 +1,7 @@
+El gasto mensual de las familias de un municipio se distribuye segun una variable Normal con desviación típica igual a 180 euros.
+Seleccionadas 30 familias al azar, han tenido un gasto medio mensual de 900 euros.
+
+<ol>
+    <li>Calcule un intervalo de confianza para el gasto medio mensual de las familias de ese municipio con un nivel de confianza del 98%.</li>
+    <li>Calcule el tamaño muestral mínimo necesario para estimar el gasto medio mensual de las familias con un error no superior a 60 euros, con el mismo nivel de confianza.</li>
+</ol>

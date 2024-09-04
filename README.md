@@ -46,7 +46,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [x] Reserva 1
 - [x] 2023 a 2014
 - [ ] 2013
-    - [x] Junio
+    - [x] Junio y septiembre
 
 ### Ejercicios resueltos de ciencias
 - [ ] 2024

@@ -1,0 +1,8 @@
+El 50% de los préstamos que concede un banco son para vivienda, el 30% para industria y el 20% para consumo.
+No se pagan el 20% de los préstamos para vivienda, el 15% de los prestamos para industria y el 70% de los prestamos para consumo.
+
+<ol>
+    <li>Si se elige al azar un préstamo, calcule la probabilidad de que se pague.</li>
+    <li>Se elige un préstamo al azar que resulta impagado, ¿cuál es la probabilidad de que sea un préstamo para consumo?</li>
+    <li>Ante un préstamo impagado el director del banco afirma que es más probable que sea para vivienda que para consumo, ¿lleva razón el director?</li>
+</ol>

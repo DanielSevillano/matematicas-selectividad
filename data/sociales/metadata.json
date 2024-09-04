@@ -3800,5 +3800,62 @@
             "Estadística",
             "Estimación de la media"
         ]
+    },
+    {
+        "ejercicio": 201351,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201352,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201353,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201354,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201355,
+        "categorias": [
+            "Álgebra",
+            "Dimensiones",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201356,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Monotonía y extremos",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201357,
+        "categorias": [
+            "Probabilidad",
+            "Problemas de sucesos"
+        ]
+    },
+    {
+        "ejercicio": 201358,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
     }
 ]

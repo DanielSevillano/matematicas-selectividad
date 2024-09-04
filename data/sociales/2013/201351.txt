@@ -1,0 +1,11 @@
+Sea $R$ la región factible definida por las siguientes inecuaciones:
+$$x \geq 3y, \quad x \leq 5, \quad y \geq 1.$$
+
+<ol>
+    <li>Razone si el punto $(4,5; \; 1,55)$ pertenece a $R.$</li>
+    <li>Dada la función objetivo $F(x, y) = 2x - 3y$, calcule sus valores extremos en $R.$</li>
+    <li>
+        Razone si hay algún punto de $R$ donde la función $F$ valga 3,5.
+        ¿Y 7,5?
+    </li>
+</ol>
