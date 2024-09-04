@@ -56,7 +56,7 @@
                     & \lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{1}{x^2} = 0.
                 \end{align}
 
-                Por tanto, la recya $y = 0$ es una asíntota horizontal y $f$ no tiene ninguna asíntota oblicua.
+                Por tanto, la recta $y = 0$ es una asíntota horizontal y $f$ no tiene ninguna asíntota oblicua.
             </li>
         </ul>
 
