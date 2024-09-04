@@ -1,0 +1,41 @@
+<p>
+    En primer lugar, hallamos la primera y la segunda derivada de la función $f.$
+    $$f'(x) = 3ax^2 + 2bx + c, \quad f''(x) = 6ax + 2b.$$
+</p>
+
+<ul>
+    <li>
+        Si la función tiene un punto de inflexión en $x = 0$, entonces $f''(0) = 0.$
+        $$f''(0) = 0 \Leftrightarrow b = 0.$$
+
+        Por otro lado, si $(0, 4)$ es un punto de la función, $f(0) = 4.$
+        $$f(0) = 4 \Leftrightarrow d = 4.$$
+    </li>
+    
+    <li>
+        Si la recta normal a la gráfica de la función en $x = 1$ es paralela al eje de ordenadas, entonces la recta tangente en $x = 1$ tiene pendiente 0, así que $f'(1) = 0.$
+        $$f'(1) = 0 \Leftrightarrow 3a + c = 0.$$
+
+        Por otro lado, si $(1, 8)$ es un punto de la función, $f(1) = 8.$
+        $$f(1) = 8 \Leftrightarrow a + c + 4 = 8 \Leftrightarrow a + c = 4.$$
+    </li>
+</ul>
+
+<p>
+    Con estas dos condiciones, podemos montar un sistema de ecuaciones.
+    \begin{cases}
+        3a + c = 0, \\
+        a + c = 4.
+    \end{cases}
+
+    Resolvemos el sistema por reducción.
+    Si restamos las dos ecuaciones, obtenemos que
+    $$2a = -4 \Leftrightarrow a = -2.$$
+
+    Despejando y sustituyendo en la segunda ecuación,
+    $$a + c = 4 \Leftrightarrow c = 4 - a \xrightarrow{a = -2} c = 6.$$
+</p>
+
+<p>
+    Por tanto, $a = -2$, $b = 0$, $c= 6$ y $d = 4.$
+</p>

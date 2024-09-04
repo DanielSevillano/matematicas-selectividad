@@ -1087,6 +1087,7 @@
     },
     {
         "ejercicio": 202111,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Curvatura y puntos de inflexión"
@@ -1094,6 +1095,7 @@
     },
     {
         "ejercicio": 202112,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Asíntotas",

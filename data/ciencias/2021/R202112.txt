@@ -1,0 +1,76 @@
+<ol>
+    <li>
+        Estudiamos las asíntotas.
+
+        <ul>
+            <li>
+                El denominador se anula en $x = -3$ y $x = 1.$
+                Observamos que
+                \begin{align}
+                    & \lim_{x \to -3^-} f(x) = \lim_{x \to -3^-} \frac{x^2 - 10}{x^2 + 2x - 3} = \frac{-1}{0^+} = -\infty, \\
+                    & \lim_{x \to -3^+} f(x) = \lim_{x \to -3^+} \frac{x^2 - 10}{x^2 + 2x - 3} = \frac{-1}{0^-} = +\infty.
+                \end{align}
+
+                Por tanto, la recta $x = -3$ es una asíntota vertical.
+
+                De igual forma, observamos que
+                \begin{align}
+                    & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} \frac{x^2 - 10}{x^2 + 2x - 3} = \frac{-9}{0^-} = +\infty, \\
+                    & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} \frac{x^2 - 10}{x^2 + 2x - 3} = \frac{-9}{0^+} = -\infty.
+                \end{align}
+
+                Por tanto, la recta $x = 1$ es una asíntota vertical.
+            </li>
+
+            <li>
+                Veamos si tiene asíntota horizontal.
+                $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{x^2 - 10}{x^2 + 2x - 3} = 1.$$
+
+                Por tanto, la recta $y = 1$ es una asíntota horizontal y $f$ no tiene ninguna asíntota oblicua.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        En primer lugar, hallamos la derivada de la función $f.$
+        $$f'(x) = \frac{2x(x^2 + 2x - 3) - (x^2-10)(2x+2)}{(x^2 + 2x - 3)^2} = \frac{2x^3 + 4x^2 - 6x - 2x^3 - 2x^2 + 20x + 20}{(x^2 + 2x - 3)^2} = \frac{2x^2 + 14x + 20}{(x^2 + 2x - 3)^2}.$$
+
+        Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
+        $$f'(x) = 0 \Leftrightarrow \frac{2x^2 + 14x + 20}{(x^2 + 2x - 3)^2} = 0 \Leftrightarrow 2x^2 + 14x + 20 = 0 \Leftrightarrow x^2 + 7x + 10 = 0 \Leftrightarrow \begin{cases}
+            x = -5, \\
+            x = -2.
+        \end{cases}$$
+
+        Así que los puntos críticos son $x = -5$ y $x = -2.$
+        También consideramos $x = -3$ y $x = 1$ por no pertenecer al dominio.
+
+        <ul>
+            <li>
+                Si $x < -5$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $-5 < x < -3$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $-3 < x < -2$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $-2 < x < 1$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $x > 1$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es creciente en $(-\infty, -5) \cup (-2, 1) \cup (1, +\infty)$ y decreciente en $(-5, -3) \cup (-3, -2).$
+    </li>
+</ol>
