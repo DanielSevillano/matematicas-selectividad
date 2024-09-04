@@ -8,7 +8,7 @@ donde $t$ es el número de días trabajados.
         ¿Cuántos días necesitará para realizar cinco montajes diarios?
     </li>
 
-    <<li>¿Qué ocurriría con el número de montajes diarios si trabajara indefinidamente?</li>
+    <li>¿Qué ocurriría con el número de montajes diarios si trabajara indefinidamente?</li>
 
     <li>
         El dueño de la empresa cree que el número de montajes diarios aumenta con los días de trabajo.
