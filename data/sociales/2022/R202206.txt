@@ -23,7 +23,7 @@
     </li>
 
     <li>
-        La probabilidad de que lea libros dado que no juega con videojuegos es
+        La probabilidad de que lea libros sabiendo que no juega con videojuegos es
         $$P(L|V^c) = 1 - P(L^c|V^c) = 1 - \frac{P(L^c \cap V^c)}{P(V^c)} = 1 - \frac{P(L^c \cap V^c)}{1 - P(V)} = 1 - \frac{0,15}{1 - 0,65} \approx 0,5714.$$
     </li>
 </ol>

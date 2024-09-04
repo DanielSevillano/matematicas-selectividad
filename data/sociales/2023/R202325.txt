@@ -15,7 +15,7 @@
     </li>
 
     <li>
-        La probabilidad de jugar a videojuegos dado que no envía mensajes es
+        La probabilidad de jugar a videojuegos sabiendo que no envía mensajes es
         $$P(V|M^c) = \frac{P(V \cap M^c)}{P(M^c)} = \frac{P(V) - P(M \cap V)}{1 - P(M)} = \frac{0,6 - 0,45}{1 - 0,65} \approx 0,4286.$$
     </li>
 

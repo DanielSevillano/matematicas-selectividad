@@ -17,7 +17,7 @@
     </li>
 
     <li>
-        La probabilidad de que el transporte sea realizado por un camión de tipo C dado que ha sufrido una incidencia es
+        La probabilidad de que el transporte sea realizado por un camión de tipo C sabiendo que ha sufrido una incidencia es
         $$P(T_C|I) = \frac{P(T_C \cap I)}{P(I)} = \frac{P(T_C) \cdot P(I|T_C)}{P(I)} = \frac{0,5 \cdot 0,05}{0,033} \approx 0,7576.$$
     </li>
 

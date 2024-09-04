@@ -55,7 +55,7 @@
                 Veamos si tiene una asíntota horizontal.
                 $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{x-3}{x+2} = 1.$$
 
-                Por tanto, la recta $y = 1$ es una asíntota horizontal y $f$ no tiene ninguna asíntota oblicua.
+                Por tanto, la recta $y = 1$ es una asíntota horizontal.
             </li>
 
             <li>

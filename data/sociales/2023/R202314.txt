@@ -82,7 +82,7 @@
                 Veamos si tiene alguna asíntota horizontal por la derecha.
                 $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \left(1 + \frac{1}{x-2}\right) = 1.$$
 
-                Por tanto, la recta $y = 1$ es una asíntota horizontal por la derecha y $f$ no tiene ninguna asíntota oblicua.
+                Por tanto, la recta $y = 1$ es una asíntota horizontal por la derecha.
             </li>
         </ul>
     </li>

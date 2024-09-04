@@ -32,7 +32,7 @@
     </li>
 
     <li>
-        La probabilidad de haber conseguido el tercer premio dado que ha obtenido un premio es
+        La probabilidad de haber conseguido el tercer premio sabiendo que ha obtenido un premio es
         $$\frac{P(E_3)}{P(E_1 \cup E_2 \cup E_3)} = \frac{P(E_3)}{P(E_1) + P(E_2) + P(E_3)} = \frac{\frac{28}{72}}{\frac{2}{72} + \frac{6}{72} + \frac{28}{72}} = \frac{28}{36} = \frac{7}{9}.$$
     </li>
 </ol>

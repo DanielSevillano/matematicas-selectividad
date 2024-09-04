@@ -15,7 +15,7 @@
     </li>
 
     <li>
-        La probabilidad de producir un componente en la fábrica A dado que no es exportado es
+        La probabilidad de producir un componente en la fábrica A sabiendo que no es exportado es
         $$P(F_A|E^c) = \frac{P(F_A \cap E^c)}{P(E^c)} = \frac{P(F_A) \cdot P(E^c|F_A)}{1 - P(E)} = \frac{P(F_A) \cdot (1 - P(E|F_A))}{1 - P(E)} = \frac{0,8 \cdot (1 - 0,4)}{1 - 0,37} \approx 0,7619.$$
     </li> 
 </ol>

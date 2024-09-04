@@ -17,7 +17,7 @@
                 Así que, despejando en la expresión anterior, la probabilidad de admitir los dos medios de pago es
                 $$P(T \cap M) = P(T) + P(M) - P(T \cup M) = 0,8 + 0,5 - 0,9 = 0,4.$$
 
-                Por tanto, la probabilidad de que admita pagar con móvil dado que admite pagar con tarjeta es
+                Por tanto, la probabilidad de que admita pagar con móvil sabiendo que admite pagar con tarjeta es
                 $$P(M|T) = \frac{P(M \cap T)}{P(T)} = \frac{0,4}{0,8} = 0,5.$$
             </li>
         </ol>

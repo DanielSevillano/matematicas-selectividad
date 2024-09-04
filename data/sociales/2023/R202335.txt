@@ -9,12 +9,12 @@
     </li>
 
     <li>
-        La probabilidad de que no ganase dado que jugó sobre tierra es
+        La probabilidad de que no ganase sabiendo que jugó sobre tierra es
         $$P(G^c|T) = 1 - P(G|T) = 1 - 0,9 = 0,1.$$
     </li>
 
     <li>
-        La probabilidad de que jugase sobre tierra dado que ganó es
+        La probabilidad de que jugase sobre tierra sabiendo que ganó es
         $$P(T|G) = \frac{P(T \cap G)}{P(G)} = \frac{P(T) \cdot P(G|T)}{P(G)} = \frac{0,625 \cdot 0,9}{0,75} = 0,75.$$
     </li>
 </ol>

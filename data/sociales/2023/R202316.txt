@@ -11,7 +11,7 @@
         Sabemos que la probabilidad es escoger un caramelo de naranja viene dada por
         $$P(N) = P(A) \cdot P(N|A) + P(A^c) \cdot P(N | A^c).$$
 
-        Por tanto, despejando en la expresión anterior, la probabilidad de escoger un caramelo de naranja dado que es azucarado es
+        Por tanto, despejando en la expresión anterior, la probabilidad de escoger un caramelo de naranja sabiendo que es azucarado es
         $$P(N|A) = \frac{P(N) - P(A^c) \cdot P(N | A^c)}{P(A)} = \frac{0,4 - (1-0,4) \cdot 0,4}{0,4} = 0,4.$$
     </li>
 

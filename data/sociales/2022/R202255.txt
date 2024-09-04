@@ -18,7 +18,7 @@
     </li>
 
     <li>
-        La probabilidad de que un estudiante proceda de la universidad A o B dado que no ha encontrado trabajo en su región es
+        La probabilidad de que un estudiante proceda de la universidad A o B sabiendo que no ha encontrado trabajo en su región es
         \begin{align}
             & P(A \cup B | T^c) = \frac{P((A \cup B) \cap T^c)}{P(T^c)} = \frac{P((A \cap T^c) \cup (B \cap T^c))}{P(T^c)} = \frac{P(A \cap T^c) + P(B \cap T^c)}{P(T^c)} = \\
             & = \frac{P(A) \cdot P(T^c|A) + P(B) \cdot P(T^c|B)}{P(T^c)} = \frac{0,6 \cdot 0,4 + 0,3 \cdot 0,5}{0,395} = 0,9873.

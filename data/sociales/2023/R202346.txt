@@ -14,7 +14,7 @@
     </li>
 
     <li>
-        La probabilidad de que un estudiante utilice la plataforma del centro dado que no usa el correo electrónico es
+        La probabilidad de que un estudiante utilice la plataforma del centro sabiendo que no usa el correo electrónico es
         $$P(A|B^c) = \frac{P(A \cap B^c)}{P(B^c)} = \frac{P(A) - P(A \cap B)}{1 - P(B)} = \frac{0,75 - 0,3}{1 - 0,4} = 0,75.$$
     </li>
 
