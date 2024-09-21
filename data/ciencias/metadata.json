@@ -1104,6 +1104,7 @@
     },
     {
         "ejercicio": 202113,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Recta tangente",
@@ -1113,6 +1114,7 @@
     },
     {
         "ejercicio": 202114,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"

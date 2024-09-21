@@ -1,0 +1,23 @@
+<ol>
+    <li>
+        En primer lugar, sabemos que la derivada de la función $f$ es $f'(x) = e^x.$
+        La ecuación de la recta tangente a la gráfica de $f$ en $x = a$ es
+        $$y - f(a) = f'(a)(x-a) \Leftrightarrow y - e^a = e^a(x-a) \Leftrightarrow y = e^ax + e^a - ae^a.$$
+
+        Si la recta tangente pasa por el origen de coordenadas, su ordenada en el origen debe ser 0.
+        Así que
+        $$e^a - ae^a = 0 \Leftrightarrow e^a(1 - a) = 0 \Leftrightarrow a = 1.$$
+
+        Podemos hallar la ecuación de la recta tangente a la gráfica de $f$ en $x = 1$ para comprobar que, efectivamente, pasa por el origen.
+        $$y - f(1) = f'(1)(x-1) \Leftrightarrow y - e = e(x-1) \Leftrightarrow y = ex.$$
+    </li>
+
+    <li>
+        Sabemos por el apartado anterior que la función y la recta se cortan en $x = 1.$
+        Podemos representar el recinto la función, la recta tangente y el eje de ordenadas.
+        <img src="img/ciencias/R202113.png" alt="Figura" loading="lazy">
+
+        Calculamos el área.
+        $$\int_0^1 (e^x - ex)dx = \left[e^x - \frac{e}{2}x^2\right]_0^1 = e - \frac{e}{2} - 1 = \frac{e}{2} - 1 \; u^2.$$
+    </li>
+</ol>
