@@ -1,0 +1,43 @@
+<ol>
+    <li>
+        Llamamos $\tau$ al plano que queremos hallar.
+        Como $\tau$ es un plano paralelo a $\pi$, tiene el mismo vector normal.
+        Luego su ecuación será de la forma
+        $$\tau \equiv 2x - y + z + d = 0.$$
+
+        El punto $A(0, 0, 0)$ pertenece al plano $\pi$, así que la distancia entre $\pi$ y $\tau$ viene dada por
+        $$\mathrm{dist}(\pi, \tau) = \mathrm{dist}(A, \tau) = \frac{|d|}{|\vec{n}|} = \frac{|d|}{\sqrt{6}}.$$
+
+        Como queremos que la distancia sea de $\sqrt{6}$ unidades,
+        $$\mathrm{dist}(\pi, \tau) = \sqrt{6} \Leftrightarrow \frac{|d|}{\sqrt{6}} = \sqrt{6} \Leftrightarrow |d| = 6 \Leftrightarrow d = \pm 6.$$
+
+        Por tanto, las ecuaciones de los planos son
+        $$\tau_1 \equiv 2x - y + z + 6 = 0 \quad \text{y} \quad \tau_2 \equiv 2x - y + z - 6 = 0.$$
+    </li>
+
+    <li>
+        Para hallar el punto simétrico $P'$ de $P$ con respecto a $\pi$, trazamos una recta $r$ perpendicular al plano que pase por el punto $P.$
+        Al ser perpendicular a $\pi$, su vector director es $\vec{d} = \vec{n} = (2, -1, 1).$
+        Así que las ecuaciones de la recta $r$ son
+        \begin{cases}
+            x = 1 + 2\lambda, \\
+            y = 2 - \lambda, \\
+            z = 6 + \lambda.
+        \end{cases}
+
+        A continuación, hallamos el punto de intersección $Q$ de la recta $r$ y el plano.
+        Para ello sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
+        $$2(1+2\lambda) - (2-\lambda) + 6 + \lambda = 0 \Leftrightarrow 2 + 4\lambda - 2 + \lambda + 6 + \lambda = 0 \Leftrightarrow 6\lambda + 6 = 0 \Leftrightarrow \lambda = -1.$$
+
+        Por tanto, el punto de intersección es $Q(-1, 3, 5).$
+        Como $Q$ es el punto medio de $P$ y $P'$, podemos hallar $P'$ como el simétrico de $P$ con respecto a $Q.$
+        Si llamamos $P'(a, b, c)$, tiene que verificarse:
+        \begin{cases}
+            \frac{1+a}{2} = -1 \Leftrightarrow a = -3, \\
+            \frac{2+b}{2} = 3 \Leftrightarrow b = 4, \\
+            \frac{6+c}{2} = 5 \Leftrightarrow c = 4.
+        \end{cases}
+
+        Por tanto, el punto simétrico de $P$ con respecto al plano $\pi$ es $P'(-3, 4, 4).$
+    </li>
+</ol>
