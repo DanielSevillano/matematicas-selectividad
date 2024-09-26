@@ -1,0 +1,118 @@
+<ol>
+    <li>
+        La matriz de coeficientes del sistema es
+        $$A = \begin{pmatrix}
+            1 & m & m \\
+            1 & 2m & m+1 \\
+            2 & m & m
+        \end{pmatrix}.$$
+
+        Para determinar el rango de $A$ en función del valor de $m$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            1 & m & m \\
+            1 & 2m & m+1 \\
+            2 & m & m
+        \end{vmatrix} = 2m^2 + 2m(m+1) + m^2 - 4m^2 - m(m+1) - m^2 = -m^2 + m.$$
+
+        Observamos que
+        $$|A| = 0 \Leftrightarrow -m^2 + m = 0 \Leftrightarrow m(-m + 1) = 0 \Leftrightarrow \begin{cases}
+            m = 0, \\
+            -m + 1 = 0 \Leftrightarrow m = 1.
+        \end{cases}$$
+
+        Es decir, $\mathrm{rang}(A) = 3$ si y solo si $m \neq 0$ y $m \neq 1.$
+        En otro caso, $\mathrm{rang}(A) \leq 2.$
+
+        <ul>
+            <li>
+                Si $m \neq 0$ y $m \neq 1$, el rango de la matriz de coeficientes es máximo.
+                Por tanto, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $m = 0$, la matriz de coeficientes es
+                $$A = \begin{pmatrix}
+                    1 & 0 & 0 \\
+                    1 & 0 & 1 \\
+                    2 & 0 & 0
+                \end{pmatrix}.$$
+
+                Podemos ver que
+                $$\begin{vmatrix}
+                    1 & 1 \\
+                    2 & 0
+                \end{vmatrix} = -2 \neq 0 \Rightarrow \mathrm{rang}(A) = 2.$$
+
+                La matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    1 & 0 & 0 & 1 \\
+                    1 & 0 & 1 & 1 \\
+                    2 & 0 & 0 & 2
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    1 & 0 & 1 \\
+                    1 & 1 & 1 \\
+                    2 & 0 & 2
+                \end{vmatrix} = 0 \Rightarrow \mathrm{rang}(A|B) = 2.$$
+
+                Como $\mathrm{rang}(A) = \mathrm{rang}(A|B) < 3$, el sistema es compatible indeterminado.
+            </li>
+
+            <li>
+                Si $m = 1$, la matriz de coeficientes es
+                $$A = \begin{pmatrix}
+                    1 & 1 & 1 \\
+                    1 & 2 & 2 \\
+                    2 & 1 & 1
+                \end{pmatrix}.$$
+
+                Podemos ver que
+                $$\begin{vmatrix}
+                    1 & 1 \\
+                    2 & 1
+                \end{vmatrix} = -1 \neq 0 \Rightarrow \mathrm{rang}(A) = 2.$$
+
+                La matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    1 & 1 & 1 & 1 \\
+                    1 & 2 & 2 & 1 \\
+                    2 & 1 & 1 & 2
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    1 & 1 & 1 \\
+                    1 & 2 & 1 \\
+                    2 & 1 & 2
+                \end{vmatrix} = 0 \Rightarrow \mathrm{rang}(A|B) = 2.$$
+
+                Como $\mathrm{rang}(A) = \mathrm{rang}(A|B) < 3$, el sistema es compatible indeterminado.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Si $m = 1$, el sistema es compatible indeterminado por el apartado anterior.
+        Podemos reducir el sistema a
+        \begin{cases}
+            x + y + z = 1, \\
+            2x + y + z = 1.
+        \end{cases}
+
+        Resolvemos el sistema por reducción.
+        Si restamos ambas ecuaciones, obtenemos que
+        $$-x = -1 \Leftrightarrow x = 1.$$
+
+        Si tomamos $y = \lambda$, entonces
+        $$x + y + z = 1 \Leftrightarrow z = 1 - x - y \xrightarrow[y=\lambda]{x=1} z = -\lambda.$$
+
+        Por tanto, las soluciones del sistema son de la forma
+        \begin{cases}
+            x = 1, \\
+            y = \lambda, \\
+            z = -\lambda.
+        \end{cases}
+    </li>
+</ol>

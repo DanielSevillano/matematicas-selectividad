@@ -1130,6 +1130,7 @@
     },
     {
         "ejercicio": 202116,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
