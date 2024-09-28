@@ -1,0 +1,60 @@
+<ol>
+    <li>
+        En primer lugar, expresamos $f(x) = x^2 + |x-1|$ como una función a trozos.
+        $$f(x) = x^2 + |x-1| = \begin{cases}
+            x^2 - x + 1, & \text{si } x < 1, \\
+            x^2 + x - 1, & \text{si } x \geq 1.
+        \end{cases}$$
+
+        Si $x \neq 1$, $f$ es derivable con
+        $$f'(x) = \begin{cases}
+            2x - 1, & \text{si } x < 1, \\
+            2x + 1, & \text{si } x > 1.
+        \end{cases}$$
+
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada de $f$ a cero.
+
+        <ul>
+            <li>
+                Si $x < 1$,
+                $$f'(x) = 0 \Leftrightarrow 2x - 1 = 0 \Leftrightarrow x = \frac{1}{2}.$$
+            </li>
+
+            <li>
+                Si $x > 1$,
+                $$f'(x) = 0 \Leftrightarrow 2x + 1 = 0 \Leftrightarrow x = -\frac{1}{2} < 1.$$
+            </li>
+        </ul>
+
+        Así que el único punto crítico es $x = \frac{1}{2}.$
+        También consideramos $x = 1$ por ser el punto de ruptura.
+        Estudiamos el signo $f'.$
+
+        <ul>
+            <li>
+                Si $x < \frac{1}{2}$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $\frac{1}{2} < x < 1$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+            
+            <li>
+                Si $x > 1$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es creciente en $\left(\frac{1}{2}, 1\right) \cup (1, +\infty)$ y decreciente en $\left(-\infty, \frac{1}{2}\right).$
+    </li>
+    
+    <li>
+        Calculamos la integral.
+        \begin{align}
+            & \int_0^2 f(x)dx = \int_0^1 (x^2-x+1)dx + \int_1^2 (x^2+x-1)dx = \left[\frac{1}{3}x^3 - \frac{1}{2}x^2 + x\right]_0^1 + \left[\frac{1}{3}x^3 + \frac{1}{2}x^2 - x\right]_1^2 = \\
+            & = \frac{1}{3} - \frac{1}{2} + 1 + \frac{8}{3} + 2 - 2 - \left(\frac{1}{3} + \frac{1}{2} - 1\right) = \frac{11}{3}.
+        \end{align}
+    </li>
+</ol>
