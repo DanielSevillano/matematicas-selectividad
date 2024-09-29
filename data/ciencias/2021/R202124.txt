@@ -1,0 +1,30 @@
+<ol>
+    <li>
+        Hallamos los puntos de corte de la función $f$ y la recta $y = x.$
+        $$f(x) = x \Leftrightarrow xe^x = x \Leftrightarrow xe^x - x = 0 \Leftrightarrow x(e^x - 1) = 0 \Leftrightarrow x = 0.$$
+
+        Por tanto, el punto de corte es $(0, 0).$
+        Representamos el recinto determinado por la gráfica de $f$ y las rectas $y = x$ y $x = 2.$
+        <img src="img/ciencias/R202124.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        El área del recinto viene dada por
+        $$\int_0^2 (f(x) - x)dx = \int_0^2 (xe^x - x)dx.$$
+
+        Hallamos en primer lugar una primitiva de esta función.
+        $$\int (xe^x - x)dx = \int xe^xdx - \frac{1}{2}x^2.$$
+
+        Resolvemos la integral por partes.
+        \begin{align}
+            u = x & \Rightarrow u' = 1, \\
+            v' = e^x & \Rightarrow v = e^x.
+        \end{align}
+
+        Entonces:
+        $$\int xe^xdx - \frac{1}{2}x^2 = xe^x - \int e^xdx - \frac{1}{2}x^2 = xe^x - e^x - \frac{1}{2}e^x = (x-1)e^x - \frac{1}{2}x^2.$$
+
+        Por último, hallamos el área del recinto.
+        $$\int_0^2 (xe^x - x)dx = \left[(x-1)e^x - \frac{1}{2}x^2\right]_0^2 = e^2 - 2 - (-1) = e^2 - 1 \; u^2.$$
+    </li>
+</ol>
