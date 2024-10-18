@@ -1208,6 +1208,7 @@
     },
     {
         "ejercicio": 202127,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Punto simétrico",

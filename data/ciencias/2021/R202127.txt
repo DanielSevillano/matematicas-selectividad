@@ -1,0 +1,33 @@
+<ol>
+    <li>
+        Para hallar el punto simétrico $P'$ de $P$ con respecto a $\pi$, trazamos una recta $s$ perpendicular al plano que pase por $P.$
+        Al ser perpendicular a $\pi$, su vector director es $\vec{d}_s = \vec{n}_\pi = (1, -1, 1).$
+        Así que las ecuaciones paramétricas de la recta $s$ son
+        $$s \equiv \begin{cases}
+            x = 1 + \lambda, \\
+            y = -\lambda, \\
+            z = 1 + \lambda.
+        \end{cases}$$
+
+        A continuación, hallamos el punto de intersección $Q$ de la recta $s$ y el plano.
+        Para ello sustituimos las ecuaciones paramétricas de $s$ en la ecuación del plano.
+        $$1 + \lambda - (-\lambda) + 1 + \lambda + 1 = 0 \Leftrightarrow 3 + 3\lambda = 0 \Leftrightarrow \lambda = -1.$$
+
+        Por tanto, el punto de intersección es $Q(0, 1, 0).$
+        Como $Q$ es el punto medio de $P$ y $P'$, podemos hallar $P'$ como el simétrico de $P$ con respecto de $Q.$
+        Si llamamos $P'(a, b, c)$, tiene que verificase:
+        \begin{cases}
+            \frac{1+a}{2} = 0 \Leftrightarrow a = -1, \\
+            \frac{b}{2} = 1 \Leftrightarrow b = 2, \\
+            \frac{1+c}{2} = 0 \Leftrightarrow c = -1.
+        \end{cases}
+
+        Por tanto, el punto simétrico de $P$ con respecto al plano $\pi$ es $P'(-1, 2, -1).$
+    </li>
+
+    <li>
+        Por el apartado anterior, $\mathrm{dist}(P, \pi) = \mathrm{dist}(P, Q).$
+        Calculamos la distancia de $P$ a $\pi$ como el módulo del vector $\vec{PQ} = (-1, 1, -1).$
+        $$\mathrm{dist}(P, \pi) = \mathrm{dist}(P, Q) = |\vec{PQ}| = \sqrt{1^2 + 1^2 + 1^2} = \sqrt{3} \; u.$$
+    </li>
+</ol>
