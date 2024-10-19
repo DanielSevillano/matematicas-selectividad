@@ -1,0 +1,35 @@
+<ol>
+    <li>
+        En primer lugar, hallamos las ecuaciones paramétricas de la recta $s.$
+        Si tomamos $y = \lambda$,
+        $$s \equiv \begin{cases}
+            x = 3 - 2\lambda, \\
+            y = \lambda, \\
+            z = 2 - 2\lambda.
+        \end{cases}$$
+
+        Así que su vector director es $\vec{d}_s = (-2, 1, -2).$
+        Por otro lado, el vector director de $r$ es $\vec{d}_r = (-2, 1, -2).$
+        Como los vectores directores son iguales, las rectas $r$ y $s$ son paralelas o coincidentes.
+        Tomamos un punto $A(2, 1, 0)$ de $r$ y comprobamos si también pertenece a $s.$
+        \begin{cases}
+            2 + 2 \neq 3, \\
+            2 = 2.
+        \end{cases}
+
+        Como el punto $A$ no pertenece a $s$, las rectas $r$ y $s$ son paralelas.
+    </li>
+
+    <li>
+        Llamamos $\pi$ al plano que nos piden.
+        Como $\pi$ contiene a $r$ y $s$, $\vec{d}_r$ es un vector director del plano.
+        De igual forma, si tomamos un punto $B(3, 0, 2)$ de $s$, el vector $\vec{AB} = (1, -1, 2)$ es otro vector director del plano.
+        Además, el punto $A$ pertenece al plano por ser un punto de $r.$
+        Por tanto, las ecuaciones paramétricas del plano $\pi$ son
+        \begin{cases}
+            x = 2 - 2\lambda + \mu, \\
+            y = 1 + \lambda - \mu, \\
+            z = -2\lambda + 2\mu.
+        \end{cases}
+    </li>
+</ol>
