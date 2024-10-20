@@ -1006,6 +1006,7 @@
     },
     {
         "ejercicio": 202102,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"
@@ -1013,6 +1014,7 @@
     },
     {
         "ejercicio": 202103,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
@@ -1022,6 +1024,7 @@
     },
     {
         "ejercicio": 202104,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",

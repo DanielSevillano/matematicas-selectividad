@@ -1,0 +1,47 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                En primer lugar, observamos que
+                $$f(x) = \ln\left(\frac{x-1}{x+1}\right) = \ln(x-1) - \ln(x+1).$$
+
+                Calculamos la derivada de la función $f.$
+                $$f'(x) = \frac{1}{x-1} + \frac{1}{x+1} = \frac{2}{x^2-1}.$$
+            </li>
+
+            <li>
+                Calculamos la derivada de la función $g.$
+                $$g'(x) = 3x^2 \cdot e^{2x^2} + x^3 \cdot e^{2x^2} \cdot 4x = x^2e^{x^2}(4x^2+3).$$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li>La parábola tiene vértice $\left(-\frac{1}{2}, \frac{3}{4}\right).$</li>
+
+            <li>
+                Hallamos los puntos de corte con el eje $X$, es decir, aquellos puntos con coordenada $y = 0.$
+                Observamos que
+                $$h(x) = x^2 + x + 1 \neq 0,$$
+                así que la función no corta al eje $X.$
+            </li>
+
+            <li>
+                Hallamos el punto de corte con el eje $Y.$
+                Observamos que $h(0) = 1$, así que el punto de corte es $(0, 1).$
+            </li>
+        </ul>
+
+        Representamos gráficamente la función.
+        <img src="img/sociales/R202104-1.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        Podemos representar el recinto acotado limitado por la gráfica de $h$, el eje $X$ y las rectas $x = -\frac{1}{2}$ y $x = 0.$
+        <img src="img/sociales/R202104-2.png" alt="Figura" loading="lazy">
+
+        Calculamos el área.
+        $$\int_{-\frac{1}{2}}^0 h(x)dx = \int_{-\frac{1}{2}}^0 (x^2+x+1)dx = \left[\frac{1}{3}x^3 + \frac{1}{2}x^2 + x\right]_{-\frac{1}{2}}^0 = -\left(-\frac{1}{24} + \frac{1}{8} - \frac{1}{2}\right) = \frac{5}{12} \; u^2.$$
+    </li>
+</ol>
