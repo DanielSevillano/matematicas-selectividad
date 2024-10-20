@@ -4,13 +4,75 @@
         Sabemos que
         $$P(G|T) = 0,9, \quad P(G|T^c) = 0,5 \quad \text{y} \quad P(T) = \frac{25}{40} = 0,625.$$
 
+        Podemos hacer un diagrama de árbol.
+        
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,9 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$T$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,625 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,375 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$T^c$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$G^c$</td>
+                </tr>
+            </table>
+        </div>
+
         La probabilidad de que ganase el partido es
-        $$P(G) = P(T) \cdot P(G|T) + P(T^c) \cdot P(G|T^c) = 0,625 \cdot 0,9 + (1-0,625) \cdot 0,5 = 0,75.$$
+        $$P(G) = P(T) \cdot P(G|T) + P(T^c) \cdot P(G|T^c) = 0,625 \cdot 0,9 + 0,375 \cdot 0,5 = 0,75.$$
     </li>
 
     <li>
-        La probabilidad de que no ganase sabiendo que jugó sobre tierra es
-        $$P(G^c|T) = 1 - P(G|T) = 1 - 0,9 = 0,1.$$
+        La probabilidad de que no ganase sabiendo que jugó sobre tierra es $P(G^c|T) = 0,1.$
     </li>
 
     <li>

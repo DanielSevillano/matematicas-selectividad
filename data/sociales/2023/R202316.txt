@@ -8,16 +8,79 @@
             & P(M | A^c) = 0,3, & & P(N) = 0,4.
         \end{align}
 
+        Podemos hacer un diagrama de árbol.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$N$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$A$</td>
+                    <td>$\xrightarrow{\quad 0,25 \quad}$</td>
+                    <td>$L$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,75 - p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$M$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$N$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$A^c$</td>
+                    <td>$\xrightarrow{\quad 0,3 \quad}$</td>
+                    <td>$L$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$M$</td>
+                </tr>
+            </table>
+        </div>
+
         Sabemos que la probabilidad es escoger un caramelo de naranja viene dada por
         $$P(N) = P(A) \cdot P(N|A) + P(A^c) \cdot P(N | A^c).$$
 
         Por tanto, despejando en la expresión anterior, la probabilidad de escoger un caramelo de naranja sabiendo que es azucarado es
-        $$P(N|A) = \frac{P(N) - P(A^c) \cdot P(N | A^c)}{P(A)} = \frac{0,4 - (1-0,4) \cdot 0,4}{0,4} = 0,4.$$
+        $$P(N|A) = \frac{P(N) - P(A^c) \cdot P(N | A^c)}{P(A)} = \frac{0,4 - 0,4 \cdot 0,4}{0,6} = 0,4.$$
     </li>
 
     <li>
         La probabilidad de escoger un caramelo de limón es
-        $$P(L) = P(A) \cdot P(L|A) + P(A^c) \cdot P(L | A^c) = 0,6 \cdot 0,25 + (1-0,6) \cdot 0,3 = 0,27.$$
+        $$P(L) = P(A) \cdot P(L|A) + P(A^c) \cdot P(L | A^c) = 0,6 \cdot 0,25 + 0,4 \cdot 0,3 = 0,27.$$
         
         Así que la probabilidad de escoger un caramelo de sabor a frutas es
         $$P(N \cup L) = P(N) + P(L) = 0,4 + 0,27 = 0,67.$$

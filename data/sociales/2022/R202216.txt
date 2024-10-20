@@ -99,10 +99,13 @@
         </div>
 
         Por el teorema de la probabilidad total,
-        $$P(G) = P(A) \cdot P(G|A) + P(B) \cdot P(G|B) + P(C) \cdot P(G|C).$$
-        
-        Despejando en la expresión anterior,
-        $$P(G|A) = \frac{P(G) - P(B) \cdot P(G|B) - P(C) \cdot P(G|C)}{P(A)} = \frac{0,05 - \frac{99}{1335} \cdot \frac{5}{99} - \frac{182}{1335} \cdot \frac{13}{182}}{\frac{1054}{1335}} \approx 0,0463.$$
+        \begin{align}
+            & P(G) = P(A) \cdot P(G|A) + P(B) \cdot P(G|B) + P(C) \cdot P(G|C) = \frac{1054}{1335} \cdot p + \frac{99}{1335} \cdot \frac{5}{99} + \frac{182}{1335} \cdot \frac{13}{182} = \\
+            & = \frac{1054}{1335}p + \frac{5}{1335} + \frac{13}{1335} = \frac{1054p + 18}{1335}.
+        \end{align}
+
+        Como $P(G) = 0,05$,
+        $$\frac{1054p + 18}{1335} = 0,05 \Leftrightarrow 1054p + 18 = 66,75 \Leftrightarrow 1054p = 48,75 \Leftrightarrow p = \frac{48,75}{1054} \approx 0,0463.$$
 
         Así que la probabilidad de vender un boleto no premiado en $A$ es
         $$P(G^c|A) = 1 - P(G|A) = 1 - 0,0463 = 0,9537.$$

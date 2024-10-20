@@ -97,11 +97,16 @@
 
 <ol>
     <li>
-        Por el teorema de la probabilidad total,
-        $$P(F) = P(I) \cdot P(F|I) + P(T) \cdot P(F|T) + P(A) \cdot P(F|A).$$
+        Por el teorema de la probabilidad total, la probabilidad de que opine que el teletrabajo mejora la conciliación familiar viene dada por
+        \begin{align}
+            & P(F) = P(I) \cdot P(F|I) + P(T) \cdot P(F|T) + P(A) \cdot P(F|A) = \\
+            & = 0,72 \cdot 0,87 + 0,11 \cdot p + 0,17 \cdot 0,86 = 0,11p + 0,7726.
+        \end{align}
 
-        Despejando en la expresión anterior, la probabilidad de que opine que el teletrabajo mejora la conciliación familiar sabiendo que tiene un contrato temporal es
-        $$P(F|T) = \frac{P(F) - P(I) \cdot P(F|I) - P(A) \cdot P(F|A)}{P(T)} = \frac{0,8749 - 0,72 \cdot 0,87 - 0,17 \cdot 0,86}{0,11} = 0,93.$$
+        Como $P(F) = 0,8749$,
+        $$0,11p + 0,7726 = 0,8749 \Leftrightarrow 0,11p = 0,1023 \Leftrightarrow p = 0,93.$$
+
+        Por tanto, la probabilidad de que opine que el teletrabajo mejora la conciliación familiar sabiendo que tiene un contrato temporal es $P(F|T) = 0,93.$
     </li>
 
     <li>

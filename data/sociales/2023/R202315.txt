@@ -1,16 +1,107 @@
 <ol>
     <li>
-        Llamamos $T_A$ a que un camión de tipo A realice el transporte, $T_B$ a que lo realice uno de tipo B y $T_C$ a que lo realice uno de tipo C.
+        Llamamos $A$ a que un camión de tipo A realice el transporte, $B$ a que lo realice uno de tipo B y $C$ a que lo realice uno de tipo C.
         También llamamos $I$ a que el transporte sufra una incidencia y $L$ a que la incidencia sea debida a la lluvia.
         Sabemos que
         \begin{align}
-            & P(T_A) = 0,3, & & P(I|T_A) = 0,02, \\
-            & P(T_B) = 0,2, & & P(I|T_B) = 0,01, \\
-            & P(T_C) = 0,5, & & P(I|T_C) = 0,05.
+            & P(A) = 0,3, & & P(I|A) = 0,02, \\
+            & P(B) = 0,2, & & P(I|B) = 0,01, \\
+            & P(C) = 0,5, & & P(I|C) = 0,05.
         \end{align}
 
+        Podemos hacer un diagrama de árbol.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$I$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,02 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$A$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,98 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$I^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$I$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,01 \quad}$</td>
+                </tr>
+                <tr>
+                    <td>$\xrightarrow{\quad 0,2 \quad}$</td>
+                    <td>$B$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,99 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$I^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$I$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,05 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$C$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,95 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$I^c$</td>
+                </tr>
+            </table>
+        </div>
+
         La probabilidad de que el transporte sufra alguna incidencia es
-        $$P(I) = P(T_A) \cdot P(I|T_A) + P(T_B) \cdot P(I|T_B) + P(T_C) \cdot P(I|T_C) = 0,3 \cdot 0,02 + 0,2 \cdot 0,01 + 0,5 \cdot 0,05 = 0,033.$$
+        $$P(I) = P(A) \cdot P(I|A) + P(B) \cdot P(I|B) + P(C) \cdot P(I|C) = 0,3 \cdot 0,02 + 0,2 \cdot 0,01 + 0,5 \cdot 0,05 = 0,033.$$
         
         Por tanto, la probabilidad de que el transporte no sufra ninguna incidencia es
         $$P(I^c) = 1 - P(I) = 1 - 0,033 = 0,967.$$
@@ -18,14 +109,14 @@
 
     <li>
         La probabilidad de que el transporte sea realizado por un camión de tipo C sabiendo que ha sufrido una incidencia es
-        $$P(T_C|I) = \frac{P(T_C \cap I)}{P(I)} = \frac{P(T_C) \cdot P(I|T_C)}{P(I)} = \frac{0,5 \cdot 0,05}{0,033} \approx 0,7576.$$
+        $$P(C|I) = \frac{P(C \cap I)}{P(I)} = \frac{P(C) \cdot P(I|C)}{P(I)} = \frac{0,5 \cdot 0,05}{0,033} \approx 0,7576.$$
     </li>
 
     <li>
         Sabemos que
-        $$P(L | T_A \cap I) = 0,4.$$
+        $$P(L|A \cap I) = 0,4.$$
 
         La probabilidad de que el transporte haya sido realizado por un camión de tipo A, haya sufrido una incidencia y también sea debida a la lluvia es
-        $$P(L \cap I \cap T_A) = P(T_A \cap I) \cdot P(L | T_A \cap I) = P(T_A) \cdot P(I|T_A) \cdot P(L | T_A \cap I) = 0,3 \cdot 0,02 \cdot 0,4 = 0,0024.$$
+        $$P(L \cap I \cap A) = P(A \cap I) \cdot P(L | A \cap I) = P(A) \cdot P(I|A) \cdot P(L | A \cap I) = 0,3 \cdot 0,02 \cdot 0,4 = 0,0024.$$
     </li>
 </ol>

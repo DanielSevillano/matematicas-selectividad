@@ -5,8 +5,71 @@
         Como la palabra "lottery" aparece en el 40% de los correos de spam y en el 0,6% del resto de correos, sabemos que
         $$P(L | S) = 0,4 \quad \text{y} \quad P(L | S^c) = 0,006.$$
 
+        Podemos hacer un diagrama de árbol.
+
+         <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$L$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$S$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$L^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$L$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,006 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$S^c$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,994 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$L^c$</td>
+                </tr>
+            </table>
+        </div>
+
         Así que la probabilidad de recibir un correo con la palabra "lottery" es
-        $$P(L) = P(S) \cdot P(L | S) + P(S^c) \cdot P(L | S^c) = 0,2 \cdot 0,4 + (1 - 0,2) \cdot 0,006 = 0,0848.$$
+        $$P(L) = P(S) \cdot P(L | S) + P(S^c) \cdot P(L | S^c) = 0,2 \cdot 0,4 + 0,8 \cdot 0,006 = 0,0848.$$
 
         Por tanto, la probabilidad de que un correo con la palabra "lotery" sea de spam es
         $$P(S|L) = \frac{P(S \cap L)}{P(L)} = \frac{P(S) \cdot P(L | S)}{P(L)} = \frac{0,2 \cdot 0,4}{0,0848} \approx 0,9434.$$
@@ -14,11 +77,11 @@
 
     <li>
         La probabilidad de que un correo sin la palabra "lotery" no sea de spam es
-        $$P(S^c|L^c) = \frac{P(S^c \cap L^c)}{P(L^c)} = \frac{(1 - 0,2) \cdot (1 - 0,006)}{1 -0,0848} \approx 0,8689.$$
+        $$P(S^c|L^c) = \frac{P(S^c \cap L^c)}{P(L^c)} = \frac{0,8 \cdot 0,994}{1 -0,0848} \approx 0,8689.$$
     </li>
 
     <li>
         La probabilidad de que un correo se etiquete incorrectamente es
-        $$P(S \cap L^c) + P(S^c \cap L) = 0,2 \cdot (1 - 0,4) + (1 - 0,2) \cdot 0,006 = 0,1248.$$
+        $$P(S \cap L^c) + P(S^c \cap L) = 0,2 \cdot 0,6 + 0,8 \cdot 0,006 = 0,1248.$$
     </li>
 </ol>
