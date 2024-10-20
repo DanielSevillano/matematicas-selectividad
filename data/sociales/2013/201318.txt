@@ -1,0 +1,11 @@
+En una población próxima a un puerto deportivo se quiere estimar la proporción de habitantes que navegan al menos una vez a la semana.
+Se toma una muestra, al azar, de 400 habitantes de la población, de los que 160 afirman navegar al menos una vez en semana.
+
+<ol>
+    <li>Halle el intervalo de confianza del 90% para la proporción de habitantes que navegan al menos una vez en semana.</li>
+    
+    <li>
+        A la vista del resultado, se pretende repetir la experiencia para conseguir una cota del error de 0,1 con el mismo nivel de confianza del apartado anterior.
+        ¿Cuántos individuos debe tener al menos la muestra?
+    </li>
+</ol>

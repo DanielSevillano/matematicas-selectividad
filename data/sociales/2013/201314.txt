@@ -1,0 +1,3 @@
+Un director sanitario sostiene que el Índice de Masa Corporal (IMC) medio de los adolescentes de su distrito no supera el nivel 25 (sobrepeso).
+Para contrastar su afirmación toma una muestra aleatoria de 225 adolescentes que da como resultado un IMC medio de 26.
+Sabiendo que el IMC sigue una distribucion Normal con desviación típica 5 discuta, mediante un contraste de hipótesis con $H_0: \mu \leq 25$, si la afirmación del director sanitario es correcta, con un nivel de significación del 5%.

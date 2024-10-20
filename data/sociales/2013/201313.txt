@@ -1,0 +1,10 @@
+Una granja avícola dedicada a la produccion de huevos posee un sistema automático de clasificación en tres calibres según su peso: grande, mediano y pequeño.
+Se conoce que el 40% de la producción es clasificada como huevos grandes, el 35% como medianos y el 25% restante como pequeños.
+Además, se sabe que este sistema de clasificación produce defectos por rotura en el cascarón que dependen del peso.
+Así, la probabilidad de que un huevo grande sea defectuoso por esta razón es del 5%, la de uno mediano del 3% y de un 2% la de uno pequeno.
+Se elige aleatoriamente un huevo.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sea defectuoso?</li>
+    <li>Si el huevo es defectuoso, ¿cuál es la probabilidad de que sea grande?</li>
+</ol>

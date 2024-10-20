@@ -1,0 +1,8 @@
+A la Junta General de Accionistas de una empresa asisten 105 accionistas de los cuales 45 tienen menos de 40 años y 18 más de 60 años.
+Sometida a votación una propuesta, es rechazada por la tercera parte de los menores de 40 años, por la tercera parte de los que están entre 40 y 60 años y por 4 personas mayores de 60 anos; los demás la aceptan.
+
+<ol>
+    <li>Calcule la probabilidad de que, elegida una persona al azar, tenga menos de 40 años y haya aceptado la propuesta.</li>
+    <li>La prensa afirmó que la propuesta había sido aceptada por el 80% de los asistentes, ¿es correcta la afirmación?</li>
+    <li>Si una persona escogida al azar ha rechazado la propuesta, ¿qué probabilidad hay de que tenga más de 60 años?</li>
+</ol>

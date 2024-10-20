@@ -3805,6 +3805,63 @@
         ]
     },
     {
+        "ejercicio": 201311,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201312,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201313,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201314,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201315,
+        "categorias": [
+            "Álgebra",
+            "Potencias",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201316,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201317,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201318,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
         "ejercicio": 201351,
         "categorias": [
             "Programación lineal"

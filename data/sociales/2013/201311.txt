@@ -1,0 +1,14 @@
+<ol>
+    <li>
+        Plantee, sin resolver, el siguiente problema:
+        "Un barco puede transportar vehículos de dos tipos: coches y motos.
+        Las condiciones de la nave obligan a que el numero de motos no pueda ser inferior a la cuarta parte del de coches ni superior a su doble; además, la suma del número de motos más el doble del número de coches no puede ser mayor que 100.
+        ¿Cuántos vehiculos, como máximo, puede transportar este barco?"
+    </li>
+
+    <li>
+        Dado el recinto limitado por las inecuaciones
+        $$y \geq 30, \quad 3x - y \geq 150, \quad 6x + 7y \leq 840,$$
+        halle en qué puntos de ese recinto la función $F(x, y) = 6x - 2y$ alcanza su valor mínimo.
+    </li>
+</ol>

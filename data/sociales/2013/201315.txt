@@ -1,0 +1,14 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    0 & 1 \\
+    1 & 0
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & 2 \\
+    3 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule $A^2$ y $A^{2013}.$</li>
+    <li>Resuelva la ecuación matricial $AX + I_2 = 5B^t - A^2.$</li>
+</ol>

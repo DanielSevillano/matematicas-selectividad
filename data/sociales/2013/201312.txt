@@ -1,0 +1,6 @@
+Estudie la derivabilidad de la función
+$$f(x) = \begin{cases}
+    e^x, & \text{si } x \leq 0, \\
+    1, & \text{si } 0 < x \leq 3, \\
+    -x^2 + 6x + 2, & \text{si } x > 3.
+\end{cases}$$
