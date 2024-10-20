@@ -1,0 +1,53 @@
+<ol>
+    <li>
+        En primer lugar, observamos que $f$ es continua y derivable en cada una de sus ramas para cualquier valor de $a$ y $b$, con
+        $$f'(x) = \begin{cases}
+            -\dfrac{a+b}{(x-1)^2}, & \text{si } x < 0, \\
+            \dfrac{1}{1+x}, & \text{si } x \geq 0.
+        \end{cases}$$
+
+        Pasamos a estudiar su continuidad y derivabilidad en el punto de ruptura $x = 0.$
+
+        <ul>
+            <li>
+                Estudiamos la continuidad.
+                \begin{align}
+                    & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} \frac{ax+b}{x-1} = -b, \\
+                    & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \ln(1+x) = 0, \\
+                    & f(0) = 0.
+                \end{align}
+
+                Como $f$ es continua en $x = 0$,
+                $$\lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) = f(0) \Leftrightarrow -b = 0 \Leftrightarrow b = 0.$$
+            </li>
+
+            <li>
+                Estudiamos la derivabilidad.
+                \begin{align}
+                    & f'_-(0) = \lim_{x \to 0^-} f'(x) = \lim_{x \to 0^-} \frac{-a}{(x-1)^2} = -a, \\
+                    & f'_+(0) = \lim_{x \to 0^+} f'(x) = \lim_{x \to 0^+} \frac{1}{1+x} = 1.
+                \end{align}
+
+                Como $f$ es derivable en $x = 0$,
+                $$f'_-(0) = f'_+(0) \Leftrightarrow -a = 1 \Leftrightarrow a = -1.$$
+            </li>
+        </ul>
+
+        Así que $a = -1$ y $b = 0.$
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                La ecuación de la recta tangente a la gráfica de $f$ en $x = 2$ es
+                $$y - f(2) = f'(2)(x-2) \Leftrightarrow y - \ln(3) = \frac{1}{3}(x-2) \Leftrightarrow y = \frac{1}{3}x - \frac{2}{3} + \ln(3).$$
+            </li>
+
+            <li>
+                La recta normal a la gráfica de $f$ en $x = 2$ tiene como pendiente $-\frac{1}{f'(2)}.$
+                Por tanto, su ecuación es
+                $$y - f(2) = -\frac{1}{f'(2)}(x-2) \Leftrightarrow y - \ln(3) = -3(x-2) \Leftrightarrow y = -3x + 6 + \ln(3).$$
+            </li>
+        </ul>
+    </li>
+</ol>

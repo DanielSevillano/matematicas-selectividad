@@ -1225,6 +1225,7 @@
     },
     {
         "ejercicio": 202131,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Derivabilidad",
