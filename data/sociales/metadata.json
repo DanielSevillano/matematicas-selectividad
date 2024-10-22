@@ -1033,12 +1033,14 @@
     },
     {
         "ejercicio": 202105,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202106,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

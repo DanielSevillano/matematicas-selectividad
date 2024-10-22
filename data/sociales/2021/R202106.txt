@@ -1,0 +1,22 @@
+<p>
+    Llamamos $E$ a comprar productos electrónicos e $I$ a comprar productos por Internet.
+    Sabemos que
+    $$P(E) = 0,55, \quad P(I) = 0,72 \quad \text{y} \quad P(E|I) = 0,64.$$
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que la compra haya sido de productos electrónicos y se haya realizado por Internet es
+        $$P(E \cap I) = P(I) \cdot P(E|I) = 0,72 \cdot 0,64 = 0,4608.$$
+    </li>
+
+    <li>
+        La probabilidad de que la compra se haya realizado por Internet o que se hayan comprado productos electrónicos es
+        $$P(E \cup I) = P(E) + P(I) - P(E \cap I) = 0,55 + 0,72 - 0,4608 = 0,8092.$$
+    </li>
+
+    <li>
+        La probabilidad de que la compra no se haya realizado por Internet sabiendo que no se han comprado productos electrónicos es
+        $$P(I^c|E^c) = \frac{P(I^c \cap E^c)}{P(E^c)} = \frac{P((I \cup E)^c)}{1 - P(E)} = \frac{1 - P(I \cup E)}{1 - P(E)} = \frac{1 - 0,8092}{1 - 0,55} = 0,424.$$
+    </li>
+</ol>
