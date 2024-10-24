@@ -1,0 +1,30 @@
+<ol>
+    <li>
+        <ol>
+            <li>Se debe emplear un muestreo aleatorio estratificado con afijación proporcional.</li>
+
+            <li>
+                El tamaño de la población es
+                $$60 + 40 + 30 + 50 + 20 = 200.$$
+
+                Como se quiere tomar una muestra compuesta por el 20% de la población, debe estar formada por $200 \cdot 0,2 = 40$ estudiantes.
+
+                <ul>
+                    <li>De Ingeniería Eléctrica se deben tomar $60 \cdot 0,2 = 12$ estudiantes.</li>
+                    <li>De Ingeniería Informática se deben tomar $40 \cdot 0,2 = 8$ estudiantes.</li>
+                    <li>De Ingeniería Civil se deben tomar $30 \cdot 0,2 = 6$ estudiantes.</li>
+                    <li>De Ingeniería Mecánica se deben tomar $50 \cdot 0,2 = 10$ estudiantes.</li>
+                    <li>De Ingeniería Aeronáutica se deben tomar $20 \cdot 0,2 = 4$ estudiantes.</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        La media $\mu$ de la población viene dada por
+        $$\mu = \frac{a + 10 + 12 + 11 + 18}{5} = \frac{51 + a}{5}.$$
+
+        Como la media de las medias muestrales coincide con la media poblacional $\mu$, entonces
+        $$\mu = 13,2 \Leftrightarrow \frac{51 + a}{5} = 13,2 \Leftrightarrow 51 + a = 66 \Leftrightarrow a = 15.$$
+    </li>
+</ol>
