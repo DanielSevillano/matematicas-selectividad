@@ -1,5 +1,11 @@
 <h2>Sistemas de ecuaciones lineales</h2>
 
+<ul class="categorias">
+    <li><a class="contorno" href="#teorema-rouche-frobenius">Teorema de Rouché-Frobenius</a></li>
+    <li><a class="contorno" href="#sistemas-homogeneos">Sistemas homogéneos</a></li>
+    <li><a class="contorno" href="#resolucion-sistemas">Resolución de sistemas</a></li>
+</ul>
+
 <p>
     Una <b>ecuación lineal</b> es una ecuación de primer grado que puede incluir a una o más variables.
     Es decir, una ecuación en la que las variables aparecen elevadas a 1 y no contiene productos entre variables.
@@ -88,7 +94,7 @@
     Los sistemas compatibles son <b>determinados</b> si tienen una única solución e <b>indeterminados</b> si tienen infinitas soluciones.
 </p>
 
-<h3>Teorema de Rouché-Frobenius</h3>
+<h3 id="teorema-rouche-frobenius">Teorema de Rouché-Frobenius</h3>
 
 <p>
     Al estudio de las soluciones de un sistema de ecuaciones lineales sin resolverlo primero se le llama <b>discusión del sistema</b>.
@@ -182,7 +188,7 @@
     </ul>
 </p>
 
-<h3>Sistemas homogéneos</h3>
+<h3 id="sistemas-homogeneos">Sistemas homogéneos</h3>
 <p>
     Los <b>sistemas homogéneos</b> son un tipo de sistemas que se caracteriza por tener todos los términos independientes nulos.
     Es decir, son sistemas de la forma
@@ -225,7 +231,7 @@
 </p>
 
 
-<h3>Resolución de sistemas</h3>
+<h3 id="resolucion-sistemas">Resolución de sistemas</h3>
 <p>
     Hay tres métodos principales para resolver un sistema de ecuaciones compatible determinado y dos de ellos son también válidos para sistemas compatibles indeterminados.
     Vamos a usar todos ellos para resolver el sistema

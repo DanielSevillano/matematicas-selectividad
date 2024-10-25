@@ -1,5 +1,12 @@
 <h2>Funciones</h2>
 
+<ul class="categorias">
+    <li><a class="contorno" href="#propiedades">Propiedades</a></li>
+    <li><a class="contorno" href="#funciones-elementales">Funciones elementales</a></li>
+    <li><a class="contorno" href="#funciones-a-trozos">Funciones a trozos</a></li>
+    <li><a class="contorno" href="#composicion">Composición de funciones</a></li>
+</ul>
+
 <p>
     Una <b>función</b> es una correspondencia entre dos conjuntos numéricos que asigna a cada elemento del primer conjunto un único elemento del segundo.
     Por ejemplo, la función $f(x) = x^2$ asigna a cada número real su cuadrado.
@@ -24,7 +31,7 @@
     <img src="img/ciencias/analisis-funciones-1.png" alt="Función"/>
 </p>
 
-<h3>Propiedades</h3>
+<h3 id="propiedades">Propiedades</h3>
 
 <p>
     Las funciones tienen una serie de propiedades importantes.
@@ -134,7 +141,7 @@
     </li>
 </ul>
 
-<h3>Funciones elementales</h3>
+<h3 id="funciones-elementales">Funciones elementales</h3>
 
 <p>
     Existen una serie de funciones elementales que tenemos que conocer.
@@ -262,7 +269,7 @@
     </li>
 </ul>
 
-<h3>Funciones a trozos</h3>
+<h3 id="funciones-a-trozos">Funciones a trozos</h3>
 
 <p>
     Una <b>función a trozos</b> es una función cuya expresión cambia según el valor que toma la variable $x.$
@@ -314,7 +321,7 @@
     \end{cases}$$
 </p>
 
-<h3>Composición de funciones</h3>
+<h3 id="composicion">Composición de funciones</h3>
 
 <p>
     La <b>composición de funciones</b> es una operación que consiste en aplicar dos funciones de forma sucesiva y da como resultado una nueva.

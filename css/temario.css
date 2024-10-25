@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 65px;
+}
+
 h2,
 h3,
 h4 {
@@ -16,4 +21,8 @@ main li {
 
 button:disabled {
     opacity: 0.5;
+}
+
+.categorias li {
+    margin: 0;
 }
