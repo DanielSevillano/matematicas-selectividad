@@ -1,0 +1,46 @@
+<ol>
+    <li>
+        En primer lugar, hallamos la derivada de la función $f.$
+        $$f'(x) = 2\ln(x) \cdot \frac{1}{x} = \frac{2\ln(x)}{x}.$$
+
+        Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
+        $$f'(x) = 0 \Leftrightarrow \frac{2\ln(x)}{x} = 0 \Leftrightarrow \ln(x) = 0 \Leftrightarrow x = 1.$$
+
+        Estudiamos el signo de $f'.$
+
+        <ul>
+            <li>
+                Si $0 < x < 1$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $x > 1$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es creciente en $(1, +\infty)$ y decreciente en $(0, 1).$
+        Además, el punto $(1, 0)$ es un mínimo relativo.
+    </li>
+
+    <li>
+        Podemos representar la región limitada por la gráfica de $f$, el eje de abscisas y las rectas $x = 1$ y $x = e.$
+        <img src="img/ciencias/R202133.png" alt="Figura">
+
+        El área de la región viene dada por
+        $$\int_1^e f(x)dx = \int_1^e \ln^2(x)dx.$$
+
+        En primer lugar, hallamos una primitiva de $f$ por partes.
+        \begin{align}
+            u = \ln^2(x) & \Rightarrow u' = \frac{2\ln(x)}{x}, \\
+            v' = 1 & \Rightarrow v = x.
+        \end{align}
+
+        Entonces
+        $$\int \ln^2(x)dx = x\ln^2(x) - \int 2\ln(x)dx = x\ln^2(x) - 2x\ln(x) + 2x.$$
+
+        Por último, calculamos el área de la región.
+        $$\int_1^e \ln^2(x)dx = \left[x\ln^2(x) - 2x\ln(x) + 2x\right]_1^e = e - 2e + 2e - 2 = e - 2 \; u^2.$$
+    </li>
+</ol>
