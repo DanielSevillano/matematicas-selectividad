@@ -39,7 +39,7 @@
 
         <ul>
             <li>
-                Si $x \neq 1$ y $x \neq 2$, $f$ es derivable y
+                Si $x \neq 1$ y $x \neq 2$, $f$ es derivable con
                 $$f'(x) = \begin{cases}
                     3x^2 + 4x, & \text{si } x < 1, \\
                     -\dfrac{1}{(x-2)^2}, & \text{si } x > 1.
@@ -49,14 +49,11 @@
             <li>
                 Estudiamos la derivabilidad para el punto de ruptura $x = 1.$
                 \begin{align}
-                    & f'_-(1) = 7, \\
-                    & f'_+(1) = -1.
+                    & f'_-(1) = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} (3x^2 + 4x) = 7, \\
+                    & f'_+(1) = \lim_{x \to 1^+} f'(x) = \lim_{x \to 1^+} -\frac{1}{(x-2)^2} = -1.
                 \end{align}
 
-                Observamos que
-                $$f'_-(1) \neq f'_+(1).$$
-
-                Así que $f$ no es derivable en $x = 1.$
+                Observamos que $f'_-(1) \neq f'_+(1)$, así que $f$ no es derivable en $x = 1.$
             </li>
         </ul>
 

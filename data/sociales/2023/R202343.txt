@@ -24,14 +24,11 @@
 
                 Pasamos a estudiar la derivabilidad.
                 \begin{align}
-                    & f'_-(3) = 2, \\
-                    & f'_+(3) = -1.
+                    & f'_-(3) = \lim_{x \to 3^-} f'(x) = \lim_{x \to 3^-} (2x - 4) = 2, \\
+                    & f'_+(3) = \lim_{x \to 3^+} f'(x) = \lim_{x \to 3^+} -1 = -1.
                 \end{align}
 
-                Observamos que
-                $$f'_-(3) \neq f'_+(3).$$
-
-                Así que $f$ no es derivable en $x = 3.$
+                Observamos que $f'_-(3) \neq f'_+(3)$, así que $f$ no es derivable en $x = 3.$
             </li>
         </ul>
 

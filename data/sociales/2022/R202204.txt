@@ -22,8 +22,8 @@
 
                 Pasamos a estudiar la derivabilidad.
                 \begin{align}
-                    & f'_-(1) = 6, \\
-                    & f'_+(1) = 2a + b.
+                    & f'_-(1) = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} 6 = 6, \\
+                    & f'_+(1) = \lim_{x \to 1^+} f'(x) = \lim_{x \to 1^+} (2ax + b) = 2a + b.
                 \end{align}
 
                 Para que $f$ sea derivable, ha de verificarse

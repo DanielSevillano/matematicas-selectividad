@@ -6,7 +6,7 @@
 
         <ul>
             <li>
-                Si $x \neq 1$ y $x \in [-1, 3]$, $f$ es continua y derivable con
+                Si $x \in [-1, 3]$ con $x \neq 1$, $f$ es continua y derivable con
                 $$f'(x) = \begin{cases}
                     -2x, & \text{si } -1 \leq x < 1, \\
                     2(x-2), & \text{si } 1 < x \leq 3.
@@ -26,12 +26,12 @@
 
                 Así que $f$ es continua en $x = 1.$
                 Pasamos a estudiar la derivabilidad.
-                $$f'_-(1) = -2, \quad f'_+(1) = -2.$$
+                \begin{align}
+                    & f'_-(1) = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} -2x = -2, \\
+                    & f'_+(1) = \lim_{x \to 1^+} f'(x) = \lim_{x \to 1^+} 2(x-2) = -2.
+                \end{align}
 
-                Observamos que
-                $$f'_-(1) = f'_+(1).$$
-
-                Así que $f$ es derivable en $x = 1.$
+                Observamos que $f'_-(1) = f'_+(1)$, así que $f$ es derivable en $x = 1.$
             </li>
         </ul>
 

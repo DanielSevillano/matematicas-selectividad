@@ -22,8 +22,8 @@
 
                 Pasamos a estudiar la derivabilidad.
                 \begin{align}
-                    & f'_-(1) = 4a, \\
-                    & f'_+(1) = b.
+                    & f'_-(1) = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} 2a(x+1) = 4a, \\
+                    & f'_+(1) = \lim_{x \to 1^+} f'(x) = \lim_{x \to 1^+} bx = b.
                 \end{align}
 
                 Para que $f$ sea derivable, ha de verificarse
