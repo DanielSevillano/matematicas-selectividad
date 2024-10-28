@@ -15,7 +15,7 @@
 
     <li>
         Para hallar la distancia de la recta $r$ al plano $\pi$, podemos trazar una recta $s$ perpendicular a $\pi$ que pase por $P.$
-        Esta recta cortará a $\pi$ es un punto $Q$, de forma que $\mathrm{dist}(r, \pi) = \mathrm{dist}(P, Q).$
+        Esta recta cortará a $\pi$ en un punto $Q$, de forma que $\mathrm{dist}(r, \pi) = \mathrm{dist}(P, Q).$
         <img src="img/ciencias/R202227-2.png" alt="Figura" loading="lazy">
 
         Si $s$ es perpendicular a $\pi$, su vector director es $\vec{d}_s = \vec{n}_\pi = (1, 1, 1).$
