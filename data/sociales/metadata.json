@@ -3866,6 +3866,65 @@
         ]
     },
     {
+        "ejercicio": 201321,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201322,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201323,
+        "categorias": [
+            "Probabilidad",
+            "Problemas de sucesos"
+        ]
+    },
+    {
+        "ejercicio": 201324,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 201325,
+        "categorias": [
+            "Programación lineal",
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201326,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201327,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201328,
+        "categorias": [
+            "Estadística",
+            "Muestreo",
+            "Distribución de medias muestrales"
+        ]
+    },
+    {
         "ejercicio": 201351,
         "categorias": [
             "Programación lineal"

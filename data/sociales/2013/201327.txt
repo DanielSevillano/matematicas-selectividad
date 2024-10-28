@@ -1,0 +1,7 @@
+Una encuesta realizada en un banco indica que el 60% de sus clientes tiene un préstamo hipotecario, el 50% tiene un préstamo personal y un 20% tiene un préstamo de cada tipo.
+Se elige, al azar, un cliente de ese banco.
+
+<ol>
+    <li>Calcule la probabilidad de que no tenga ninguno de los dos préstamos.</li>
+    <li>Calcule la probabilidad de que tenga un préstamo hipotecario sabiendo que no tiene préstamo personal.</li>
+</ol>

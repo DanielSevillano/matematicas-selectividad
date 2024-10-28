@@ -1,0 +1,7 @@
+Queremos estudiar la proporción de personas de una población que acceden a internet a través de teléfono móvil.
+Para ello hacemos una encuesta a una muestra aleatoria de 400 personas de esa poblacion, y obtenemos que 240 de ellas acceden a internet a traves del móvil.
+
+<ol>
+    <li>Determine un intervalo de confianza, al 98,5%, para la proporción de personas de esa población que acceden a internet a través del teléfono móvil.</li>
+    <li>Razone el efecto que tendría sobre la amplitud del intervalo de confianza el aumento o disminución del tamaño de la muestra, suponiendo que se mantuvieran la misma proporción muestral y el mismo nivel de confianza.</li>
+</ol>

@@ -1,0 +1,8 @@
+En un experimento aleatorio, la probabilidad de que ocurra un suceso $A$ es 0,68, la de que ocurra otro suceso $B$ es 0,2, y la de que no ocurra ninguno de los dos es 0,27.
+Halle la probabilidad de que:
+
+<ol>
+    <li>Ocurran los dos a la vez.</li>
+    <li>Ocurra $B$ pero no $A.$</li>
+    <li>Ocurra $B$, sabiendo que no ha ocurrido $A.$</li>
+</ol>

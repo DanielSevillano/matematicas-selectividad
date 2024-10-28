@@ -1,0 +1,14 @@
+Consideremos la función
+$$f(x) = \begin{cases}
+    -x^2 + 6x - 5, & \text{si } 2 \leq x \leq 4, \\
+    -2x + 11, & \text{si } 4 < x \leq 5.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la derivabilidad de la función $f(x)$ en el punto de abscisa $x = 4.$</li>
+    <li>
+        Represente gráficamente la función $f(x)$ e indique dónde alcanza su máximo y su mínimo absolutos.
+        ¿Cuál es el valor del máximo?
+        ¿Y del mínimo?
+    </li>
+</ol>
