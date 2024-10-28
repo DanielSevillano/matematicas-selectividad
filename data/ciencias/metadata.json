@@ -1276,6 +1276,7 @@
     },
     {
         "ejercicio": 202137,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Área"
@@ -1283,6 +1284,7 @@
     },
     {
         "ejercicio": 202138,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Posición relativa",

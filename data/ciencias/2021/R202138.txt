@@ -1,0 +1,46 @@
+<ol>
+    <li>
+        En primer lugar, hallamos las ecuaciones paramétricas de la recta $s.$
+        Si $z = \lambda$,
+        $$s \equiv \begin{cases}
+            x = 2 - \lambda, \\
+            y = -1 + \lambda, \\
+            z = \lambda.
+        \end{cases}$$
+
+        Así que su vector director es $\vec{d}_s = (-1, 1, 1).$
+        Por otro lado, el vector director de $r$ es $\vec{d}_r = (1, 1, m).$
+        Observamos que los vectores directores no pueden ser proporcionales para ningún valor de $m$, porque
+        $$\frac{1}{-1} \neq \frac{1}{1}.$$
+
+        Así que las dos rectas no son paralelas ni coincidentes.
+        Tomamos un punto $R(1, 1, 2)$ de $r$ y un punto $S(2, -1, 0)$ de $s.$
+        Podemos determinar si las dos rectas están contenidas en un plano estudiando si $\vec{d}_r$, $\vec{d}_s$ y $\vec{RS} = (1, -2, -2)$ son linealmente dependientes.
+        $$\begin{vmatrix}
+            1 & 1 & m \\
+            -1 & 1 & 1 \\
+            1 & -2 & -2
+        \end{vmatrix} = -2 + 1 + 2m - m - 2 + 2 = m - 1.$$
+
+        Observamos que
+        $$m - 1 = 0 \Leftrightarrow m = 1.$$
+
+        <ul>
+            <li>
+                Si $m = 1$, los tres vectores son linealmente dependientes, por lo que $r$ y $s$ están contenidas en un mismo plano.
+                Por tanto, las rectas $r$ y $s$ se cortan.
+            </li>
+
+            <li>
+                Si $m \neq 1$, los tres vectores son linealmente independientes, por lo que $r$ y $s$ no están contenidas en un mismo plano.
+                Por tanto, las rectas $r$ y $s$ se cruzan.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Si $m = 1$, $\vec{d}_r = (1, 1, 1).$
+        El coseno del ángulo $\alpha$ que forman las rectas $r$ y $s$ viene dado por
+        $$\cos(\alpha) = \frac{|\vec{d}_r \cdot \vec{d}_s|}{|\vec{d}_r||\vec{d}_s|} = \frac{1}{\sqrt{3} \cdot \sqrt{3}} = \frac{1}{3}.$$
+    </li>
+</ol>
