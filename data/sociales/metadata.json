@@ -999,6 +999,7 @@
     },
     {
         "ejercicio": 202101,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
