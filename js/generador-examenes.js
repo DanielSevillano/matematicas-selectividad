@@ -53,7 +53,7 @@ async function obtenerExamenGenerado(modalidad, ejercicios) {
         boton.style.setProperty("--progreso", numero / 7 * 100);
 
         let seccion;
-        if (modalidad == ciencias && numero == 7) seccion = await obtenerEjercicio("sociales", parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
+        if (modalidad == "ciencias" && numero == 7) seccion = await obtenerEjercicio("sociales", parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
         else seccion = await obtenerEjercicio(modalidad, parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
 
         if (numero == 1 || numero % 2 == 0) {
