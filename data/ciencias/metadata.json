@@ -1334,6 +1334,7 @@
     },
     {
         "ejercicio": 202146,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Rango"
