@@ -1301,6 +1301,7 @@
     },
     {
         "ejercicio": 202142,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Asíntotas",

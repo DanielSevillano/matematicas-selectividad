@@ -1,0 +1,20 @@
+<ol>
+    <li>
+        Observamos que el denominador no se anula para ningún valor de $x$, así que no tiene ninguna asíntota vertical.
+        Veamos si tiene alguna asíntota horizontal.
+        \begin{align}
+            & \lim_{x \to -\infty} f(x) = \lim_{x \to -\infty} \frac{e^{2x} - 1}{e^{2x} + 1} = -1, \\
+            & \lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{e^{2x} - 1}{e^{2x} + 1} = 1.
+        \end{align}
+
+        Por tanto, la recta $y = -1$ es una asíntota horizontal por la izquierda mientras que $y = 1$ es una asíntota horizontal por la derecha.
+        Además, $f$ no tiene ninguna asíntota oblicua.
+    </li>
+
+    <li>
+        En primer lugar, hallamos la derivada de $f.$
+        $$f'(x) = \frac{2e^{2x}(e^{2x}+1) - 2e^{2x}(e^{2x}-1)}{(e^{2x+1}+1)^2} = \frac{2e^x(e^{2x}+1-e^{2x}+1)}{(e^{2x}+1)^2} = \frac{4e^{2x}}{(e^{2x}+1)^2}.$$
+
+        Observamos que $f'(x) > 0$ para todo valor de $x$, así que $f$ es creciente en $\mathbb{R}.$
+    </li>
+</ol>
