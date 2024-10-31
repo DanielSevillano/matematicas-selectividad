@@ -1,0 +1,7 @@
+Sea la función $f(x) = x^3 - 24x^2 + 4x.$
+
+<ol>
+    <li>Halle los intervalos de concavidad y convexidad y los puntos de inflexión.</li>
+    <li>Obtenga la ecuación de la recta tangente a la gráfica de $f(x)$ en el punto de abscisa $x = -2.$</li>
+    <li>En el punto de abscisa $x = 1$, ¿la función es creciente o decreciente?</li>
+</ol>

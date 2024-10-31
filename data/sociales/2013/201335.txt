@@ -1,0 +1,8 @@
+Se considera el recinto $R$ del plano determinado por las siguientes inecuaciones:
+$$5x - 4y \leq 20, \quad x + 8y \leq 48, \quad x \geq 2, \quad y \geq 0.$$
+
+<ol>
+    <li>Represente gráficamente el recinto $R$ y calcule sus vértices.</li>
+    <li>Halle los valores máximo y mínimo que alcanza la función $F(x, y) = 2x + 12y$ en este recinto e indique dónde se alcanzan.</li>
+    <li>Razone si existen valores $(x, y)$ pertenecientes al recinto para los que $F(x, y) = 100.$</li>
+</ol>

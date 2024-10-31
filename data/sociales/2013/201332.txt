@@ -1,0 +1,12 @@
+Sea la función
+$$f(x) = \begin{cases}
+    2x^2 - 12, & \text{si } x < -3, \\
+    -x + 3, & \text{si } -3 \leq x \leq 2, \\
+    x - 1, & \text{si } x > 2.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de $f(x)$ en su dominio.</li>
+    <li>Determine los intervalos de crecimiento y decrecimiento.</li>
+    <li>Calcule los extremos relativos.</li>
+</ol>

@@ -1,0 +1,7 @@
+En una urna A hay 10 bolas verdes y 10 rojas, y en otra urna B hay 15 verdes y 5 rojas.
+Se lanza un dado, de forma que si sale múltiplo de 3 se extrae una bola de la urna A y en el resto de casos se extrae una bola de la urna B.
+
+<ol>
+    <li>Calcule la probabilidad de que la bola extraída sea roja.</li>
+    <li>Si la bola extraída resulta ser de color verde, ¿cuál es la probabilidad de que proceda de la urna B?</li>
+</ol>

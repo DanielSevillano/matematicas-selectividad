@@ -1,0 +1,11 @@
+El peso de los sobres de café que fabrica una empresa sigue una ley Normal de media desconocida y desviación típica 0,3 g.
+Se quiere construir un intervalo de confianza para estimar dicha media, con un nivel de confianza del 98%, y para ello se toma una muestra de 9 sobres.
+
+<ol>
+    <li>¿Qué amplitud tendrá dicho intervalo?</li>
+    <li>¿Cómo afectaría a dicha amplitud un aumento del tamaño de la muestra, manteniendo el mismo nivel de confianza?</li>
+    <li>
+        Obtenga el intervalo de confianza sabiendo que los pesos, en gramos, de los sobres de la muestra son:
+        $$7 \quad 7,1 \quad 7 \quad 6,93 \quad 7,02 \quad 7 \quad 7,01 \quad 6,5 \quad 7,1.$$
+    </li>
+</ol>

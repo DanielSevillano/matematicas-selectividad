@@ -1,0 +1,3 @@
+Los representantes de un partido político creen que la proporción de sus votantes será al menos del 35%.
+Para confirmarlo eligen una muestra al azar de 1.200 votantes y obtienen que 336 de ellos son partidarios de votarles.
+Mediante un contraste de hipótesis, con $H_0: p \geq 0,35$, y a un nivel de significación del 0,01, ¿se puede admitir como cierta la creencia de los representantes del partido político?

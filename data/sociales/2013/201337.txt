@@ -1,0 +1,9 @@
+En una empresa, el 65% de sus empleados habla inglés, y de éstos, el 40% habla también alemán.
+De los que no hablan inglés, el 25% habla alemán.
+Se escoge un empleado al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que hable ambos idiomas?</li>
+    <li>¿Cuál es la probabilidad de que hable alemán?</li>
+    <li>¿Cuál es la probabilidad de que, sabiendo que habla alemán, hable también inglés?</li>
+</ol>
