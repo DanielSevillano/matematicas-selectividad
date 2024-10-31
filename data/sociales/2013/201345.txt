@@ -1,0 +1,8 @@
+Se desea maximizar la función $F(x, y) = 14x + 8y$ en el recinto dado por:
+$$y + 3x \geq 9, \quad y \leq -\frac{4}{7}x + 14, \quad 5x - 2y \leq 15, \quad x \geq 0.$$
+
+<ol>
+    <li>Represente la región factible del problema.</li>
+    <li>¿Cuál es el valor máximo de $F$ y la solución óptima del problema?</li>
+    <li>Obtenga un punto de la región factible que no sea el óptimo.</li>
+</ol>

@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Se considera la población $\{2, 4, 6\}.$
+        Escriba todas las posibles muestras de tamaño dos elegidas mediante muestreo aleatorio simple y determine la desviación típica de las medias muestrales.
+    </li>
+
+    <li>
+        En una ciudad se seleccionó una muestra aleatoria de 500 alumnos de Bachillerato a los que se les preguntó si poseían una determinada marca de teléfono móvil, resultando que 80 de ellos contestaron afirmativamente.
+        Obtenga un intervalo de confianza, al 92%, para estimar la proporción de estudiantes de Bachillerato que poseen esa marca de teléfono móvil.
+    </li>
+</ol>

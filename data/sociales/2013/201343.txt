@@ -1,0 +1,10 @@
+Un Centro de Salud propone dos terapias, A y B, para dejar de fumar.
+De las personas que acuden al Centro para dejar de fumar, el 45% elige la terapia A, y el resto la B.
+Después de un año el 70% de los que siguieron la terapia A y el 80% de los que siguieron la B no han vuelto a fumar.
+Se elige al azar un usuario del Centro que siguió una de las dos terapias.
+
+<ol>
+    <li>Calcule la probabilidad de que después de un año no haya vuelto a fumar.</li>
+    <li>Si transcurrido un año esa persona sigue sin fumar, calcule la probabilidad de que hubiera seguido la terapia A.</li>
+    <li>Si transcurrido un año esa persona ha vuelto a fumar, calcule la probabilidad de que hubiera seguido la terapia A.</li>
+</ol>

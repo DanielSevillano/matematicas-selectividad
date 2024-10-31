@@ -1,0 +1,11 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    x^3 - 1, & \text{si } x < 1, \\
+    -x^2 + 4x - 3, & \text{si } x \geq 1.
+\end{cases}$$
+
+<ol>
+    <li>Determine el dominio y estudie la continuidad de la función.</li>
+    <li>Obtenga los extremos de la función.</li>
+    <li>Estudie su curvatura.</li>
+</ol>

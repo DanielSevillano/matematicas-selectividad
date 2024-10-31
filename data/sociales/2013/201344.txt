@@ -1,0 +1,9 @@
+Se conoce que la acidez de una solución es una variable aleatoria que sigue una distribución Normal con desviación típica 0,2.
+Se ha tomado una muestra aleatoria de cinco soluciones y se han obtenido las siguientes medidas de la acidez:
+$$7,92 \quad 7,95 \quad 7,91 \quad 7,9 \quad 7,94.$$
+
+<ol>
+    <li>Halle el intervalo de confianza, al 99%, para la media poblacional.</li>
+    <li>¿Qué error máximo se ha cometido en el intervalo anterior?</li>
+    <li>Para el mismo nivel de confianza, calcule el tamaño mínimo muestral que permita reducir el error anterior a la mitad.</li>
+</ol>

@@ -1,0 +1,7 @@
+De los sucesos independientes $A$ y $B$ se sabe que $P(A^c) = 0,4$ y $P(A \cup B) = 0,8.$
+
+<ol>
+    <li>Halle la probabilidad de $B.$</li>
+    <li>Halle la probabilidad de que no se verifique $B$ si se ha verificado $A.$</li>
+    <li>¿Son incompatibles los sucesos $A$ y $B$?</li>
+</ol>

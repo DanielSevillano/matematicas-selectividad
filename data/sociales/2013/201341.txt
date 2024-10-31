@@ -1,0 +1,23 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    2 & 3 \\
+    3 & 5
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    3 & -5 & 3 \\
+    0 & 2 & 1
+\end{pmatrix}, \quad
+C = \begin{pmatrix}
+    8 \\
+    3 \\
+    0
+\end{pmatrix} \quad \text{y} \quad
+D = \begin{pmatrix}
+    5 \\
+    3
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule $A^3.$</li>
+    <li>Determine la matriz $X$ para que $AX + BC = D.$</li>
+</ol>

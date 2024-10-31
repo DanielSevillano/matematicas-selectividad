@@ -3983,6 +3983,62 @@
         ]
     },
     {
+        "ejercicio": 201341,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201342,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201343,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201344,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201345,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201346,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 201347,
+        "categorias": [
+            "Probabilidad",
+            "Problemas de sucesos"
+        ]
+    },
+    {
+        "ejercicio": 201348,
+        "categorias": [
+            "Estadística",
+            "Muestreo",
+            "Estimación de la proporción"
+        ]
+    },
+    {
         "ejercicio": 201351,
         "categorias": [
             "Programación lineal"
