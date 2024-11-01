@@ -1,0 +1,21 @@
+<p>
+    En primer lugar, hallamos una primitiva de la función.
+    $$\int (2\mathrm{sen}^2(x) - \cos^2(x))dx = \int (2\mathrm{sen}^2(x) - (1 - \mathrm{sen}^2(x)))dx = \int (3\mathrm{sen}^2(x) - 1)dx = 3\int \mathrm{sen}^2(x)dx - x.$$
+
+    Para integrar $\mathrm{sen}^2(x)$, hacemos uso de las siguientes identidades trigonométricas:
+    \begin{align}
+        1 & = \cos^2(x) + \mathrm{sen}^2(x), \\
+        \cos(2x) & = \cos^2(x) - \mathrm{sen}^2(x).
+    \end{align}
+
+    Si restamos las dos expresiones, obtenemos que
+    $$1 - \cos(2x) = 2\mathrm{sen}^2(x) \Leftrightarrow \mathrm{sen}^2(x) = \frac{1 - \cos(2x)}{2}.$$
+
+    Así que:
+    $$3\int \mathrm{sen}^2(x)dx - x = \frac{3}{2} \int (1 - \cos(2x))dx - x = \frac{3}{2}x - \frac{3}{4}\mathrm{sen}(2x) - x = \frac{1}{2}x - \frac{3}{4}\mathrm{sen}(2x).$$
+</p>
+
+<p>
+    Por último, calculamos la integral definida.
+    $$\int_0^{\frac{\pi}{2}} (2\mathrm{sen}^2(x) - \cos^2(x))dx = \left[\frac{1}{2}x - \frac{3}{4}\mathrm{sen}(2x)\right]_0^{\frac{\pi}{2}} = \frac{\pi}{4}.$$
+</p>

@@ -1,0 +1,34 @@
+<ol>
+    <li>
+        Calculamos los puntos de corte de las dos funciones.
+        $$f(x) = g(x) \Leftrightarrow |x| - 2 = 4 - x^2 \Leftrightarrow |x| = 6 - x^2 \Leftrightarrow \begin{cases}
+            x = 6 - x^2 \Leftrightarrow x^2 + x - 6 = 0 \Leftrightarrow \begin{cases}
+                x = -3 \text{ (no válida)}, \\
+                x = 2,
+            \end{cases} \\
+            -x = 6 - x^2 \Leftrightarrow x^2 - x - 6 = 0 \Leftrightarrow \begin{cases}
+                x = -2, \\
+                x = 3 \text{ (no válida)}.
+            \end{cases}
+        \end{cases}$$
+
+        Por tanto, los puntos de corte son $(-2, 0)$ y $(2, 0).$
+        Representamos el recinto delimitado por ambas funciones.
+
+        <img src="img/ciencias/R202144.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        En primer lugar, podemos expresar la función $f$ como una función a trozos.
+        $$f(x) = \begin{cases}
+            -x - 2, & \text{si } x < 0, \\
+            x - 2, & \text{si } x \geq 0.
+        \end{cases}$$
+
+        Como el recinto es simétrico, podemos calcular el área como
+        \begin{align}
+            & 2 \int_0^2 (g(x) - f(x))dx = 2 \int_0^2 (4 - x^2 - (x-2))dx = 2 \int_0^2 (-x^2 - x + 6)dx = 2\left[-\frac{1}{3}x^3 - \frac{1}{2}x^2 + 6x\right]_0^2 = \\
+            & = 2 \cdot \left(-\frac{8}{3} - 2 + 12\right) = \frac{44}{3} \; u^2.
+        \end{align}
+    </li>
+</ol>

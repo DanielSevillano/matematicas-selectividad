@@ -1310,6 +1310,7 @@
     },
     {
         "ejercicio": 202143,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -1317,6 +1318,7 @@
     },
     {
         "ejercicio": 202144,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
@@ -1342,12 +1344,14 @@
     },
     {
         "ejercicio": 202147,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
     },
     {
         "ejercicio": 202148,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Distancia",
