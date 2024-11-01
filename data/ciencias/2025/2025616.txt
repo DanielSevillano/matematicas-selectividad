@@ -1,0 +1,12 @@
+Se estudia una prueba diagnóstica para detectar una enfermedad en un grupo de 200.000 personas a las que se ha sometido a dicha prueba y de los que el 0,5% están enfermos.
+Se ha observado que de los enfermos ha dado negativo a 50 personas y, de las sanas, le ha dado positivo a 19.900.
+Se escoge al azar una de estas persona sometidas a la prueba diagnóstica.
+
+<ol>
+    <li>
+        Calcula la probabilidad de que la prueba dé resultado positivo.
+        ¿Cuál sería la probabilidad de que el resultado de la prueba sea erróneo?
+    </li>
+
+    <li>Calcula la probabilidad de que la persona padezca la enfermedad, si el resultado de la prueba es negativo.</li>
+</ol>

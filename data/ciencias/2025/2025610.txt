@@ -1,0 +1,8 @@
+Una enfermedad puede estar producida por tres virus A, B y C.
+En el laboratorio hay tres tubos de ensayo con el virus A, 2 tubos de ensayo con el virus B y 5 tubos de ensayo con el virus C.
+La probabilidad de que el virus A produzca la enfermedad en un animal es de $\frac{1}{3}$, que la produzca el virus B es de $\frac{2}{3}$, y que la produzca el virus C es de $\frac{1}{7}.$
+
+<ol>
+    <li>Si elegimos al azar un tubo de ensayo e inoculamos el virus a un animal, calcula la probabilidad de que contraiga la enfermedad.</li>
+    <li>Si se inocula el virus a un animal y contrae la enfermedad, calcula la probabilidad de que el virus que se ha inoculado sea del tipo C.</li>
+</ol>

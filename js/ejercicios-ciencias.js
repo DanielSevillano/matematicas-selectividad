@@ -18,6 +18,7 @@ let soloResueltos = casilla.checked;
 
 const categoriasAlgebra = ["algebra", "potencias", "determinantes", "rango", "ecuaciones-matriciales", "sistemas", "discusion-de-sistemas", "problemas"];
 const categoriasGeometria = ["geometria", "vectores", "posicion-relativa", "punto-simetrico", "distancia", "angulos", "area", "volumen"];
+const categoriasProbabilidad = ["probabilidad", "probabilidad-total", "distribucion-binomial", "distribucion-normal"];
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
@@ -69,6 +70,7 @@ botonAleatorio.addEventListener("click", () => {
     boton.click();
     if (categoriasAlgebra.includes(categoria)) document.querySelector("#grupo-algebra").click();
     else if (categoriasGeometria.includes(categoria)) document.querySelector("#grupo-geometria").click();
+    else if (categoriasProbabilidad.includes(categoria)) document.querySelector("#grupo-probabilidad").click();
     else document.querySelector(".grupo").click();
 });
 
@@ -84,6 +86,7 @@ else {
         document.querySelector("#boton-" + categoria).click();
         if (categoriasAlgebra.includes(categoria)) document.querySelector("#grupo-algebra").click();
         else if (categoriasGeometria.includes(categoria)) document.querySelector("#grupo-geometria").click();
+        else if (categoriasProbabilidad.includes(categoria)) document.querySelector("#grupo-probabilidad").click();
         else document.querySelector(".grupo").click();
     }
     catch {

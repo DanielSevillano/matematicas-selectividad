@@ -1,0 +1,7 @@
+La edad de los habitantes de cierta ciudad se distribuye normalmente, con una media de 40 años.
+Se sabe además que el 2,28% de los habitantes de esa ciudad tiene más de 60 años.
+
+<ol>
+    <li>Calcula la desviación típica de la distribución.</li>
+    <li>Si la edad de la población siguiera una distribución $N(40, 10)$, calcula el porcentaje de habitantes con menos de 35 años.</li>
+</ol>

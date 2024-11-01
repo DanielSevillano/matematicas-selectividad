@@ -1,0 +1,8 @@
+Se sabe que la probabilidad de que un dardo impacte en una diana es 0,4.
+Si se lanzan 9 dardos, determina:
+
+<ol>
+    <li>Qué tipo de distribución sigue la variable aleatoria que cuenta el número de dardos que dan en la diana.</li>
+    <li>La media y la desviación típica de esta distribución.</li>
+    <li>La probabilidad de que al menos 5 dardos impacten en la diana.</li>
+</ol>

@@ -1,0 +1,7 @@
+De una urna que contiene cuatro bolas rojas y dos azules, extraemos una bola y, sin devolverla a la urna, extraemos otra a continuación.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sean de distinto color?</li>
+    <li>¿Cuál es la probabilidad de que la segunda bola sea azul?</li>
+    <li>Si la segunda bola es azul, ¿cuál es la probabilidad de que la primera sea roja?</li>
+</ol>

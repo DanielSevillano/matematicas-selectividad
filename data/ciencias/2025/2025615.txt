@@ -1,0 +1,9 @@
+De una baraja española (40 cartas) Carlos y Paula extraen 8 cartas: los cuatro ases y los cuatro reyes.
+Con esas 8 cartas, Paula da dos cartas a Carlos y posteriormente una para ella.
+Calcula:
+
+<ol>
+    <li>La probabilidad de que Carlos tenga dos ases.</li>
+    <li>La probabilidad de que Carlos tenga un as y un rey.</li>
+    <li>La probabilidad de que Paula tenga un as y Carlos no tenga dos reyes.</li>
+</ol>

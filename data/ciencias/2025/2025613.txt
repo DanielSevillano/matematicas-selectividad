@@ -1,0 +1,8 @@
+Una empresa automovilística fabrica sus coches en cuatro factorías: $F_1$, $F_2$, $F_3$ y $F_4.$
+El porcentaje de producción total de coches que se fabrica en cada factoría es del 40%, 30%, 20% y 10%, respectivamente, y además el porcentaje de pintado defectuoso en cada factoría es del 1%, 2%, 7% y 4%, respectivamente.
+Tomamos un coche al azar.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que el coche haya sido fabricado en la factoría $F_1$ y esté perfecto?</li>
+    <li>¿Cuál es la probabilidad de que la pintura del coche presente algún desperfecto?</li>
+</ol>

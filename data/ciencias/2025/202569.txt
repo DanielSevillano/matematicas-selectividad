@@ -1,0 +1,8 @@
+Se estima que solo un 20% de los que compran acciones en bolsa tienen conocimientos bursátiles.
+De ellos, el 80% obtiene beneficios.
+De los que compran acciones sin conocimientos bursátiles, solo un 10% obtiene beneficios.
+
+<ol>
+    <li>Calcula el porcentaje de los que obtienen beneficios comprando acciones en bolsa.</li>
+    <li>Eligiendo una persona al azar, calcula la probabilidad de que no tenga conocimientos bursátiles y que no tenga beneficios al inverir en bolsa.</li>
+</ol>

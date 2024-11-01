@@ -1,0 +1,4 @@
+La variedad de naranjas Navel se suele dedicar a naranja de mesa por su tamaño y aspecto.
+Pero aquellas que no cumplen con los estándares de calidad exigidos, son utilizadas para hacer zumo.
+En una finca, una de cada tres naranjas de la variedad Navel recolectadas se destina a hacer zumo.
+Si se elige un cargamento de 90 naranjas de esa finca, calcula la probabilidad de que entre ellas haya por lo menos 30 que se destinen a hacer zumo.

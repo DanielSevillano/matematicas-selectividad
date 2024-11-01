@@ -1,0 +1,9 @@
+Se tienen dos urnas A y B con bolas de colores con la siguiente composición: la urna A contiene 3 bolas verdes, 4 negras y 3 rojas; mientras que la urna B contiene 6 bolas verdes y 4 bolas negras.
+Además, se tiene un dado con 2 caras marcadas con la letra A y 4 caras marcadas con la letra B.
+Se lanza el dado y se saca una bola al azar de la urna que ha indicado el dado.
+
+<ol>
+    <li>¿Cual es la probabilidad de que la bola sea verde?</li>
+    <li>¿Cual es la probabilidad de que la bola sea roja?</li>
+    <li>Si la bola extraída es verde, ¿cual es la probabilidad de que esta proceda de la urna B?</li>
+</ol>

@@ -1,0 +1,2 @@
+El peso de las lubinas vendidas en una cadena de hipermercados sigue una distribución normal de media 6.706 gramos.
+Sabiendo que el 20% de las lubinas pesan más de 7.386 gramos, calcula el porcentaje de lubinas que pesan entre 6 y 8 kg.

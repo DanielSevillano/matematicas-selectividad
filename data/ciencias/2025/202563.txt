@@ -1,0 +1,7 @@
+Un dado con las caras numeradas del 1 al 6 está trucado de modo que la probabilidad de obtener un número es directamente proporcional a dicho número.
+Tiramos el dado una vez.
+
+<ol>
+    <li>Halla la probabilidad de que salga 3 si se sabe que salió un número impar.</li>
+    <li>Calcula la probabilidad de que salga un número par si se sabe que salió un número mayor que 3.</li>
+</ol>

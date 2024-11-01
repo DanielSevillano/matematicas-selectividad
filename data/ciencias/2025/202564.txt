@@ -1,0 +1,6 @@
+En un club deportivo, el 55% de los socios practica natación, el 65% practica tenis, y el 10% no practica ni natación ni tenis.
+
+<ol>
+    <li>Si el club tiene 1.200 socios, ¿cuántos practicarían ambos deportes?</li>
+    <li>Tomando al azar una persona de este club que practique natación, calcula la probabilidad de que no juegue al tenis.</li>
+</ol>

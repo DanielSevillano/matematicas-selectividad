@@ -52,9 +52,10 @@ async function obtenerExamenGenerado(modalidad, ejercicios) {
 
         boton.style.setProperty("--progreso", numero / 7 * 100);
 
-        let seccion;
-        if (modalidad == "ciencias" && numero == 7) seccion = await obtenerEjercicio("sociales", parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
-        else seccion = await obtenerEjercicio(modalidad, parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
+        const examen = parseInt(String(ejercicio.ejercicio).slice(0, 5));
+        const numeracion = parseInt(String(ejercicio.ejercicio).slice(5));
+
+        const seccion = await obtenerEjercicio(modalidad, examen, numeracion, resuelto, categorias, true);
 
         if (numero == 1 || numero % 2 == 0) {
             const indicacion = document.createElement("div");
@@ -137,10 +138,7 @@ async function procesar(event) {
         const ejerciciosGeometria1 = datos.filter(ejercicio => ejercicio.categorias.includes("Geometría"));
         const ejerciciosGeometria2 = ejerciciosGeometria1.filter(ejercicio => !ejercicio.categorias.includes("Vectores"));
 
-        const respuestaSociales = await fetch("data\\sociales\\metadata.json");
-        const dataSociales = await respuestaSociales.json();
-
-        const ejerciciosProbabilidad = dataSociales.filter(ejercicio => ejercicio.categorias.includes("Probabilidad"));
+        const ejerciciosProbabilidad = data.filter(ejercicio => ejercicio.categorias.includes("Probabilidad"));
 
         const bloques = ["Funciones", "Integrales", "Álgebra", "Geometría"];
         const indiceObligatorio = Math.floor(Math.random() * bloques.length);

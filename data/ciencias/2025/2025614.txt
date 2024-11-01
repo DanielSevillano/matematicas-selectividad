@@ -1,0 +1,8 @@
+El 60% de los coches de una marca se fabrican en su factoría de Valencia, el 25%
+en Madrid y el resto en Lisboa.
+El 1% de los coches fabricados en Valencia tiene algún defecto de fabricación, mientras que para los coches fabricados en Madrid y en Lisboa estos porcentajes son del 0,5% y del 2%, respectivamente.
+
+<ol>
+    <li>Elegido al azar un coche de esa marca, calcule la probabilidad de que no sea defectuoso.</li>
+    <li>Si un coche de esa marca resulta ser defectuoso, ¿cuál es la probabilidad de que haya sido fabricado en Madrid?</li>
+</ol>

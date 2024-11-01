@@ -1,0 +1,8 @@
+En un laboratorio de análisis clínicos, el 5% de las muestras que llegan no cumplen las condiciones requeridas para obtener resultados concluyentes en el análisis.
+Si se eligen 5 muestras, calcula:
+
+<ol>
+    <li>La probabilidad de que de todas las muestras se puedan obtener resultados concluyentes.</li>
+    <li>La probabilidad de que de al menos dos no se obtengan resultados concluyentes.</li>
+    <li>La media y la desviación típica de la distribución.</li>
+</ol>

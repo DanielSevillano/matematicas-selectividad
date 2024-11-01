@@ -18,8 +18,9 @@ async function ejercicioDiario(seccion) {
 
     const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
     const datos = await respuesta.json();
+    const filtro = await datos.filter(objeto => objeto.ejercicio < 2025600);
 
-    const objeto = datos[indice];
+    const objeto = filtro[indice];
     const codigo = String(objeto.ejercicio);
     const articulo = await obtenerEjercicio(modalidad, codigo.slice(0, 5), codigo.slice(-1), false, objeto.categorias, true);
     articulo.classList.add("tarjeta");

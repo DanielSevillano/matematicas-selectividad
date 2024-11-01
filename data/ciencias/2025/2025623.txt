@@ -1,0 +1,4 @@
+Un modelo de avión tiene capacidad para 260 pasajeros.
+Sin embargo, la compañía aérea a la que pertenece ha decidido vender más billetes que asientos hay en el avión.
+La probabilidad de que un pasajero se presente en el aeropuerto el día del vuelo es del 95%.
+Si ese día la compañía ha vendido 280 billetes, ¿cuál es la probabilidad de que ese día se presenten 270 pasajeros?

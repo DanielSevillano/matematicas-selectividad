@@ -1,0 +1,14 @@
+Se tiene una prueba diagnóstica para una enfermedad con las siguientes propiedades:
+
+<ol>
+    <li>La probabilidad de que el test dé positivo teniendo la enfermedad es 0,95.</li>
+    <li>La probabilidad de que el test dé negativo no teniendo la enfermedad es 0,95.</li>
+    <li>La probabilidad de que una persona tenga la enfermedad es 0,05.</li>
+</ol>
+
+Realizada la prueba a una persona al azar, calcular:
+
+<ol>
+    <li>La probabilidad de que el test dé positivo.</li>
+    <li>La probabilidad de tener la enfermedad cuando el test ha dado positivo.</li>
+</ol>

@@ -1,0 +1,15 @@
+En un centro de fertilidad, cada intento de inseminación in vitro para cualquier pareja tiene un porcentaje de éxito del 30%.
+Esta semana han acudido 10 parejas para realizar el tratamiento.
+Nos preguntamos por el número de ellas que consiguen tener hijos.
+
+<ol>
+    <li>
+        ¿De qué tipo de distribución se trata?
+        Calcular su media y su desviación.
+    </li>
+
+    <li>
+        ¿Qué probabilidad hay de que ninguna pareja conciba?
+        ¿Y de que alguna conciba?
+    </li>
+</ol>

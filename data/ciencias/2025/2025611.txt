@@ -1,0 +1,9 @@
+Un ayuntamiento estima que el 60% de los árboles de su localidad son de hoja caduca, y de ellos un 20% son autóctonos del área geográfica.
+Sin embargo, de los árboles de hoja perenne (no caduca) los autóctonos ascienden al 70%.
+Se elige al azar un árbol de esta localidad.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sea de hoja caduca y no sea autóctono?</li>
+    <li>¿Qué probabilidad hay de que el árbol sea autóctono?</li>
+    <li>Sabiendo que el árbol es autóctono, ¿cuál es la probabilidad de que sea de hoja caduca?</li>
+</ol>

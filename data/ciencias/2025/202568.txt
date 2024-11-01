@@ -1,0 +1,4 @@
+En el enfermero de la doctora Martínez no se puede confiar, pues durante la ausencia del médico la probabilidad de que no le inyecte un suero a un enfermo es de 0,6.
+Se sabe que si a un enfermo grave se le inyecta el suero tiene igual probabilidad de mejorar que de empeorar, pero si no se le inyecta entonces la probabilidad de que mejore es de 0,25.
+A su regreso, la Dra. Martínez se encuentra con que un enfermo ha empeorado.
+Calcula la probabilidad de que el enfermero olvidara inyectar el suero a este paciente.

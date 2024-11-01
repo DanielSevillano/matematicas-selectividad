@@ -27,6 +27,12 @@ function tituloExamen(examen) {
     const edicion = codigo.slice(-1);
 
     let titulo = "";
+
+    if (edicion == 6) {
+        titulo += "Modelo de prueba";
+        return titulo;
+    }
+
     if (edicion == 0) {
         if (curso == 2020) titulo += "Julio";
         else titulo += "Junio";
@@ -68,11 +74,13 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
     if (tituloCompleto) {
         titulo.textContent = "Ejercicio " + letra + numeracion + ": ";
 
-        const enlace = document.createElement("a");
-        enlace.textContent = tituloExamen(examen);
-        enlace.href = "/examenes-" + modalidad + html + "?examen=" + examen;
-
-        titulo.append(enlace);
+        if (examen == 20256) titulo.textContent += tituloExamen(examen);
+        else {
+            const enlace = document.createElement("a");
+            enlace.textContent = tituloExamen(examen);
+            enlace.href = "/examenes-" + modalidad + html + "?examen=" + examen;
+            titulo.append(enlace);
+        }
     } else titulo.textContent = "Ejercicio " + letra + numeracion;
 
     articulo.append(titulo);
@@ -201,7 +209,10 @@ async function obtenerCategoria(modalidad, categoria, soloResueltos, contador = 
             categorias = ejercicio.categorias;
         }
 
-        const parrafo = await obtenerEjercicio(modalidad, parseInt(ejercicio.ejercicio / 10), ejercicio.ejercicio % 10, resuelto, categorias, true);
+        const examen = parseInt(String(ejercicio.ejercicio).slice(0, 5));
+        const numero = parseInt(String(ejercicio.ejercicio).slice(5));
+
+        const parrafo = await obtenerEjercicio(modalidad, examen, numero, resuelto, categorias, true);
         main.append(parrafo);
         formatear(parrafo);
     };

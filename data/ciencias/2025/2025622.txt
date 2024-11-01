@@ -1,0 +1,6 @@
+La probabilidad de que un pez de una determinada especie sobreviva más de 6 meses es del 20%.
+
+<ol>
+    <li>Si en un acuario tenemos 15 peces de esta especie nacidos este mes, halla la probabilidad de que al menos 2 de ellos sigan vivos dentro de 6 meses.</li>
+    <li>Si en un tanque de una piscifactoría hay 300 peces de esta especie nacidos este mismo mes, halla la probabilidad de que al cabo de 6 meses hayan sobrevivido al menos 50 de ellos.</li>
+</ol>

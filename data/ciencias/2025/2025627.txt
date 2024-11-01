@@ -1,0 +1,6 @@
+El peso de los estudiantes de determinada localidad sigue una distribución Normal de media 75 kg y varianza 36 kg<sup>2</sup>.
+
+<ol>
+    <li>Calcula el porcentaje de alumnado cuyo peso está comprendido entre 68 y 80 kg.</li>
+    <li>Si se sabe que uno de los estudiantes pesa más de 76 kg, ¿cuál es la probabilidad de que pese más de 80 kg?</li>
+</ol>

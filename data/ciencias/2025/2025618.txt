@@ -1,0 +1,7 @@
+La probabilidad de que un individuo elegido al azar tenga problemas dermatológicos es de 0,15.
+Se toma una muestra de 50 personas.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que ninguna tenga problemas dermatológicos?</li>
+    <li>¿Cuál es la probabilidad de que al menos cuatro tengan problemas dermatológicos?</li>
+</ol>

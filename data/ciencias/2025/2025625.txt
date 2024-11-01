@@ -1,0 +1,7 @@
+La altura de los individuos de una población sigue una distribución normal de media 175 cm y desviación típica 4 cm.
+
+<ol>
+    <li>Calcula la probabilidad de que un individuo elegido al azar mida más de 170 cm.</li>
+    <li>Calcula qué porcentaje de la población mide entre 170 y 185 cm.</li>
+    <li>Calcula la altura máxima que es superada por el 33% de la población.</li>
+</ol>

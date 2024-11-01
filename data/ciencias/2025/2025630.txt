@@ -1,0 +1,6 @@
+Estudios realizados en un cierto país demuestran que el consumo de gasolina en autos compactos está normalmente distribuido, con una media de 6 litros por cada 100 km y una desviación estándar de 1,2 litros por cada 100 km.
+
+<ol>
+    <li>Calcula el porcentaje de autos compactos que gasta 7 o más litros cada 100 km.</li>
+    <li>Calcula el número máximo de litros por cada 100 km que debe consumir un auto compacto si el fabricante quiere que supere en economía de combustible al 95% de los que hay actualmente en el mercado.</li>
+</ol>

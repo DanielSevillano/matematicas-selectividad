@@ -1,0 +1,7 @@
+El peso de una población de elefantes africanos macho sigue una distribución normal de media 6 toneladas y desviación típica 1.500 kg.
+
+<ol>
+    <li>Calcula la probabilidad de que un individuo elegido al azar pese exactamente 6 toneladas.</li>
+    <li>Calcula qué porcentaje de la población pesa entre 5 y 8 toneladas.</li>
+    <li>Calcula qué peso es superado por el 33% de la población.</li>
+</ol>

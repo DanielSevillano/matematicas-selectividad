@@ -1,0 +1,9 @@
+Python y JavaScript se encuentran entre los lenguajes de programación más estudiados por los programadores, con un 20% y un 18% de desarrolladores que se especializan únicamente en cada uno de ellos.
+El resto de desarrolladores se especializan entre una decena de lenguajes (HTML-CSS, Java, C,...).
+La probabilidad de que un desarrollador que se ha especializado en Python obtenga empleo es 0,85, mientras que la de que lo obtenga uno que se ha especializado en JavaScript es 0,9.
+También se sabe que la probabilidad de que un desarrollador esté desempleado es del 0,15.
+
+<ol>
+    <li>Calcula la probabilidad de que un desarrollador esté empleado si no ha estudiado Python ni JavaScript.</li>
+    <li>Calcula la probabilidad de que un desarrollador que está desempleado se haya especializado en Python o JavaScript.</li>
+</ol>

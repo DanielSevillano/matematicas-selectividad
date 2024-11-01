@@ -1,0 +1,6 @@
+Dados dos sucesos, $A$ y $B$, de un experimento aleatorio, con probabilidades tales que $P(A) = \frac{4}{9}$, $P(B) = \frac{1}{2}$ y $P(A \cup B) = \frac{13}{18}$, se pide:
+
+<ol>
+    <li>Comprobar si los sucesos $A$ y $B$ son independientes o no.</li>
+    <li>Calcular $P(\bar{A}|B).$</li>
+</ol>

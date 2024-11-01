@@ -1,0 +1,11 @@
+Una fábrica de baterías para móviles ha detectado que una de sus máquinas produce un 10% de baterías defectuosas.
+Se han seleccionado al azar y de forma independiente 6 baterías.
+
+<ol>
+    <li>
+        Calcula la probabilidad de que exactamente cuatro baterías sean defectuosas.
+        ¿Cuál es la probabilidad de que como máximo la mitad sean defectuosas?
+    </li>
+
+    <li>¿Qué es más probable: que ninguna sea defectuosa o que lo sean las seis?</li>
+</ol>

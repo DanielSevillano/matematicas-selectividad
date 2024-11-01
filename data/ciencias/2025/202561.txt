@@ -1,0 +1,2 @@
+Sean $A$ y $B$ dos sucesos independientes tales que la probabilidad de que ocurran ambos simultáneamente es $\frac{1}{3}$ y la de que no ocurra ninguno de ellos es $\frac{1}{6}.$
+Calcula $P(A)$ y $P(B).$
