@@ -124,6 +124,7 @@ h1 {
 
 header a {
     color: inherit;
+    text-decoration: none;
 }
 
 #navegacion-global ul {
@@ -223,6 +224,7 @@ a {
 
 a:hover {
     color: var(--accent-link-hover);
+    text-decoration: underline;
 }
 
 a:active {
