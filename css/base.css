@@ -124,7 +124,6 @@ h1 {
 
 header a {
     color: inherit;
-    text-decoration: none;
 }
 
 #navegacion-global ul {
@@ -218,6 +217,7 @@ Enlace
 
 a {
     color: var(--accent-link);
+    text-decoration: none;
     transition: color 200ms;
 }
 
