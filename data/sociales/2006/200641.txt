@@ -1,0 +1,4 @@
+Plantee, sin resolver, el sistema de ecuaciones que permita encontrar la solucion del siguiente problema:
+"En un examen de Matematicas que constaba de tres problemas, un alumno obtuvo una calificacion total de 7,2.
+La puntuacion del primer problema fue un 40% mas que la del segundo, y la del tercero fue el doble de la suma de las puntuaciones del primero y el segundo.
+¿Cual fue la puntuacion de cada problema?"

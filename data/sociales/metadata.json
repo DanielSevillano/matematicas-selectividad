@@ -4093,5 +4093,54 @@
             "Estadística",
             "Estimación de la media"
         ]
+    },
+    {
+        "ejercicio": 200911,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 200935,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 200721,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 200731,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 200755,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 200641,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 200655,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
     }
 ]

@@ -1,0 +1,16 @@
+<ol>
+    <li>
+        En un comercio de bricolaje se venden listones de madera de tres longitudes: 0,90 m, 1,50 m y 2,40 m, cuyos precios respectivos son 4 euros, 6 euros y 10 euros.
+        Un cliente ha comprado 19 listones, con una longitud total de 30 m, que le han costado 126 euros en total.
+        Plantee, sin resolver, el sistema de ecuaciones necesario para determinar cuántos listones de cada longitud ha comprado el cliente.
+    </li>
+
+    <li>
+        Clasifique el siguiente sistema de ecuaciones y resuélvalo, si es posible:
+        \begin{cases}
+            3x - y - z = 0, \\
+            2x - 2y + z = 18, \\
+            x - 3z = 0.
+        \end{cases}
+    </li>
+</ol>

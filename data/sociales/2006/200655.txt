@@ -1,0 +1,4 @@
+El cajero de un banco solo dispone de billetes de 10, 20 y 50 euros.
+Hemos sacado 290 euros del banco y el cajero nos ha entregado exactamente 8 billetes.
+El número de billetes de 10 euros es el doble del de 20 euros.
+Plantee y resuelva el sistema de ecuaciones lineales asociado a este problema para obtener el número de billetes de cada tipo que nos ha entregado el cajero.

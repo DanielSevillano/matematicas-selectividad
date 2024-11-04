@@ -1,0 +1,6 @@
+Resuelva y clasifique el sistema de ecuaciones:
+\begin{cases}
+    x + y = 1 + z, \\
+    2x + z = 2 + y, \\
+    y = z.
+\end{cases}

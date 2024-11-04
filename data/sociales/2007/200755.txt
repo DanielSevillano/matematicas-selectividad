@@ -1,0 +1,2 @@
+Clasifique y resuelva el sistema formado por las tres ecuaciones siguientes:
+$$x - 3y + 2z = 0, \quad -2x + y - z = 0, \quad x - 8y + 5z = 0.$$

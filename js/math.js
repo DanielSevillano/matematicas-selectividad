@@ -74,7 +74,7 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
     if (tituloCompleto) {
         titulo.textContent = "Ejercicio " + letra + numeracion + ": ";
 
-        if (examen == 20256) titulo.textContent += tituloExamen(examen);
+        if (examen == 20256 || examen < 20100) titulo.textContent += tituloExamen(examen);
         else {
             const enlace = document.createElement("a");
             enlace.textContent = tituloExamen(examen);
