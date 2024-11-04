@@ -1,0 +1,16 @@
+<ol>
+    <li>
+        En primer lugar, usamos la probabilidad de la unión para hallar la probabilidad de la intersección.
+        $$P(A \cup B) = P(A) + P(B) - P(A \cap B) \Leftrightarrow P(A \cap B) = P(A) + P(B) - P(A \cup B) = \frac{4}{9} + \frac{1}{2} - \frac{13}{18} = \frac{2}{9}.$$
+
+        Por otro lado, observamos que
+        $$P(A) \cdot P(B) = \frac{4}{9} \cdot \frac{1}{2} = \frac{2}{9}.$$
+
+        Como $P(A \cap B) = P(A) \cdot P(B)$, los sucesos $A$ y $B$ son independientes.
+    </li>
+
+    <li>
+        Como $A$ y $B$ son independientes,
+        $$P(\bar{A}|B) = P(\bar{A}) = 1 - P(A) = 1 - \frac{4}{9} = \frac{5}{9}.$$
+    </li>
+</ol>

@@ -1,0 +1,54 @@
+<p>
+    Sabemos que
+    $$P(A \cap B) = \frac{1}{3} \quad \text{y} \quad P(A^c \cap B^c) = \frac{1}{6}.$$
+
+    En primer lugar, observamos que
+    $$P(A^c \cap B^c) = P((A \cup B)^c) = 1 - P(A \cup B) \Leftrightarrow P(A \cup B) = 1 - P(A^c \cap B^c) = 1 - \frac{1}{6} = \frac{5}{6}.$$
+</p>
+
+<p>
+    Como los sucesos $A$ y $B$ son independientes,
+    $$P(A) \cdot P(B) = P(A \cap B) = \frac{1}{3}.$$
+
+    Por otro lado, usamos la probabilidad de la unión.
+    $$P(A \cup B) = P(A) + P(B) - P(A \cap B) \Leftrightarrow P(A) + P(B) = P(A \cup B) + P(A \cap B) = \frac{5}{6} + \frac{1}{3} = \frac{7}{6}.$$
+</p>
+
+<p>
+    Planteamos el sistema de ecuaciones
+    \begin{cases}
+        P(A) \cdot P(B) = \frac{1}{3}, \\
+        P(A) + P(B) = \frac{7}{6}.
+    \end{cases}
+
+    Resolvemos el sistema por sustitución.
+    Despejando en la segunda ecuación,
+    $$P(B) = \frac{7}{6} - P(A).$$
+
+    Sustituyendo en la primera ecuación, obtenemos que
+    \begin{align}
+        & P(A) \cdot \left(\frac{7}{6} - P(A)\right) = \frac{1}{3} \Leftrightarrow \frac{7}{6}P(A) - P(A)^2 = \frac{1}{3} \Leftrightarrow P(A)^2 - \frac{7}{6}P(A) + \frac{1}{3} = 0 \Leftrightarrow \\
+        & \Leftrightarrow 6P(A)^2 - 7P(A) + 2 = 0 \Leftrightarrow \begin{cases}
+            P(A) = \frac{1}{2}, \\
+            P(A) = \frac{2}{3}.
+        \end{cases}
+    \end{align}
+
+    Sustituimos estos valores en la ecuación $P(B) = \frac{7}{6} - P(A).$
+
+    <ul>
+        <li>
+            Si $P(A) = \frac{1}{2}$,
+            $$P(B) = \frac{7}{6} - \frac{1}{2} = \frac{4}{6} = \frac{2}{3}.$$
+        </li>
+
+        <li>
+            Si $P(A) = \frac{2}{3}$,
+            $$P(B) = \frac{7}{6} - \frac{2}{3} = \frac{3}{6} = \frac{1}{2}.$$
+        </li>
+    </ul>
+</p>
+
+<p>
+    Por tanto, $P(A) = \frac{1}{2}$ y $P(B) = \frac{2}{3}$, o viceversa.
+</p>

@@ -1,0 +1,37 @@
+<p>
+    Llamamos $N_1, N_2, N_3, N_4, N_5, N_6$ a obtener un 1, 2, 3, 4, 5 y 6 en el dado, respectivamente.
+    Sabemos que:
+    \begin{align}
+        & P(N_1) = p, & & P(N_2) = 2p, & & P(N_3) = 3p, \\
+        & P(N_4) = 4p, & & P(N_5) = 5p, & & P(N_6) = 6p.
+    \end{align}
+
+    Como la suma de sus probabilidades tiene que ser 1,
+    $$p + 2p + 3p + 4p + 5p + 6p = 1 \Leftrightarrow 21p = 1 \Leftrightarrow p = \frac{1}{21}.$$
+
+    Por tanto,
+    \begin{align}
+        & P(N_1) = \frac{1}{21}, & & P(N_2) = \frac{2}{21}, & & P(N_3) = \frac{3}{21} = \frac{1}{7}, \\
+        & P(N_4) = \frac{4}{21}, & & P(N_5) = \frac{5}{21}, & & P(N_6) = \frac{6}{21} = \frac{2}{7}.
+    \end{align}
+</p>
+
+<ol>
+    <li>
+        Llamamos $I$ a obtener un número impar en el dado.
+        Sabemos que:
+        $$P(I) = P(N_1) + P(N_3) + P(N_5) = \frac{1}{21} + \frac{3}{21} + \frac{5}{21} = \frac{9}{21} = \frac{3}{7}.$$
+
+        La probabilidad de que salga 3 sabiendo que salió un número impar es
+        $$P(N_3|I) = \frac{P(N_3 \cap I)}{P(I)} = \frac{P(N_3)}{P(I)} = \frac{\frac{1}{7}}{\frac{3}{7}} = \frac{1}{3}.$$
+    </li>
+
+    <li>
+        Llamamos $M_3$ a obtener un número mayor que 3 y denotamos por $\bar{I}$ a obtener un número par.
+        Sabemos que:
+        $$P(M_3) = P(N_4) + P(N_5) + P(N_6) = \frac{4}{21} + \frac{5}{21} + \frac{6}{21} = \frac{15}{21} = \frac{5}{7}.$$
+
+        La probabilidad de que salga un número par sabiendo que salió un número mayor que 3 es
+        $$P(\bar{I}|M_3) = \frac{P(\bar{I} \cap M_3)}{P(M_3)} = \frac{P(N_4) + P(N_6)}{P(M_3)} = \frac{\frac{4}{21} + \frac{6}{21}}{\frac{5}{7}} = \frac{2}{3}.$$
+    </li>
+</ol>
