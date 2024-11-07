@@ -143,7 +143,8 @@ async function obtenerDatos() {
     //Estadísticas de ciencias
 
     const respuestaCiencias = await fetch("data\\ciencias\\metadata.json");
-    const datosCiencias = await respuestaCiencias.json();
+    const metadatosCiencias = await respuestaCiencias.json();
+    const datosCiencias = metadatosCiencias.filter(objeto => objeto.ejercicio < 2025000);
 
     const numeroEjerciciosCiencias = datosCiencias.length;
 
@@ -171,7 +172,8 @@ async function obtenerDatos() {
     // Estadísticas de sociales
 
     const respuestaSociales = await fetch("data\\sociales\\metadata.json");
-    const datosSociales = await respuestaSociales.json();
+    const metadatosSociales = await respuestaSociales.json();
+    const datosSociales = metadatosSociales.filter(objeto => objeto.ejercicio > 201000);
 
     const numeroEjerciciosSociales = datosSociales.length;
 
