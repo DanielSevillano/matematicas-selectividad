@@ -1,0 +1,115 @@
+<ol>
+    <li>
+        Estudiamos la continuidad y la derivabilidad de $f.$
+
+        <ul>
+            <li>
+                Si $t \in [0,2; \, 10]$ con $t \neq 1,8$ y $t \neq 5$, $f$ es continua y derivable con
+                $$f'(t) = \begin{cases}
+                    -2t + 2, & \text{si } 0,2 \leq t < 1,8, \\
+                    0,1, & \text{si } 1,8 < t < 5, \\
+                    -t + 8,3, & \text{si } 5 < t < 10.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la continuidad para $t = 1,8.$
+                \begin{align}
+                    & \lim_{t \to 1,8^-} f(t) = \lim_{t \to 1,8^-} (-t^2 + 2t - 0,3) = 0,06, \\
+                    & \lim_{t \to 1,8^+} f(t) = \lim_{t \to 1,8^+} (0,1t - 0,12) = 0,06, \\
+                    & f(1,8) = 0,06.
+                \end{align}
+
+                Observamos que
+                $$\lim_{t \to 1,8^-} f(t) = \lim_{t \to 1,8^+} f(t) = f(1,8).$$
+
+                Así que $f$ es continua en $t = 1,8.$
+                Pasamos a estudiar su derivabilidad.
+                \begin{align}
+                    & f'_-(1,8) = \lim_{t \to 1,8^-} f'(t) = \lim_{t \to 1,8^-} (-2t + 2) = -1,6, \\
+                    & f'_+(1,8) = \lim_{t \to 1,8^+} f'(t) = \lim_{t \to 1,8^+} 0,1 = 0,1.
+                \end{align}
+
+                Observamos que $f'_-(1,8) \neq f'_+(1,8)$, así que $f$ no es derivable en $t = 1,8.$
+            </li>
+
+            <li>
+                Estudiamos la continuidad para $t = 5.$
+                \begin{align}
+                    & \lim_{t \to 5^-} f(t) = \lim_{t \to 5^-} (0,1t - 0,12) = 0,38, \\
+                    & \lim_{t \to 5^+} f(t) = \lim_{t \to 5^+} (-0,5t^2 + 8,3t - 28,62) = 0,38, \\
+                    & f(5) = 0,38.
+                \end{align}
+
+                Observamos que
+                $$\lim_{t \to 5^-} f(t) = \lim_{t \to 5^+} f(t) = f(5).$$
+
+                Así que $f$ es continua en $t = 5.$
+                Pasamos a estudiar su derivabilidad.
+                \begin{align}
+                    & f'_-(5) = \lim_{t \to 5^-} f'(t) = \lim_{t \to 5^-} 0,1 = 0,1, \\
+                    & f'_+(5) = \lim_{t \to 5^+} f'(t) = \lim_{t \to 5^+} (-t + 8,3) = 3,3.
+                \end{align}
+
+                Observamos que $f'_-(5) \neq f'_+(5)$, así que $f$ no es derivable en $t = 5.$
+            </li>
+        </ul>
+
+        Por tanto, $f$ es continua en $[0,2; \; 10]$ y derivable en $[0,2; \, 1,8) \cup (1,8; \, 5) \cup (5, 10].$
+    </li>
+
+    <li>
+        Para hallar los puntos críticos, igualamos las tres ramas de la derivada a cero.
+
+        <ul>
+            <li>
+                Si $0,2 \leq t < 1,8$,
+                $$f'(t) = 0 \Leftrightarrow -2t + 2 = 0 \Leftrightarrow t = 1.$$
+            </li>
+
+            <li>
+                Si $1,8 < t < 5$,
+                $$f'(t) = 0,1 \neq 0.$$
+            </li>
+
+            <li>
+                Si $5 < t \leq 10$,
+                $$f'(t) = 0 \Leftrightarrow -t + 8,3 = 0 \Leftrightarrow t = 8,3.$$
+            </li>
+        </ul>
+
+        Así que los puntos críticos son $t = 1$ y $t = 8,3.$
+        También consideramos $t = 1,8$ y $t = 5$ por no ser derivable.
+        Estudiamos el signo de $f'.$
+
+        <ul>
+            <li>
+                Si $0,2 \leq t < 1$, $f'(t) > 0.$
+                Luego $f$ es creciente.
+            </li>
+
+            <li>
+                Si $1 < t < 1,8$, $f'(t) < 0.$
+                Luego $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $1,8 < t < 5$, $f'(t) > 0.$
+                Luego $f$ es creciente.
+            </li>
+
+            <li>
+                Si $5 < t < 8,3$, $f'(t) > 0.$
+                Luego $f$ es creciente.
+            </li>
+
+            <li>
+                Si $8,3 < t \leq 10$, $f'(t) < 0.$
+                Luego $f$ es decreciente.
+            </li>
+        </ul>
+
+        Por tanto, los puntos $(1; \, 0,7)$ y $(8,3; \, 5,825)$ son máximos relativos, así que $(8,3; \, 5,825)$ es el máximo absoluto.
+        Esto significa que 5.825 fue el número máximo de diagnosticados y se alcanzó a los 8 meses y 9 días.
+    </li>
+</ol>
