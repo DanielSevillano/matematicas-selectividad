@@ -1,0 +1,12 @@
+Se estima que el beneficio de una empresa, en millones de euros, para los próximos 10 años viene dado por la función
+$$B(t) = \begin{cases}
+    at - t^2, & \text{si } 0 \leq t \leq 6, \\
+    2t, & \text{si } 6 < t \leq 10,
+\end{cases}$$
+siendo $t$ el tiempo transcurrido en años.
+
+<ol>
+    <li>Calcule el valor del parámetro $a$ para que $B$ sea una función continua.</li>
+    <li>Para $a = 8$ represente su gráfica e indique en qué períodos de tiempo la función crecerá o decrecerá.</li>
+    <li>Para $a = 8$ indique en qué momento se obtiene el máximo beneficio en los primeros 6 años y a cuánto asciende su valor.</li>
+</ol>

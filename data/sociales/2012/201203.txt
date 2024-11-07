@@ -1,0 +1,7 @@
+Una compañía de seguros ha hecho un seguimiento durante un año a 50.000 coches de la marca A, a 20.000 de la marca B y a 30.000 de la C, que tenía asegurados, obteniendo que, de ellos, habían tenido accidente 650 coches de la marca A, 200 de la B y 150 de la C.
+A la vista de estos datos:
+
+<ol>
+    <li>¿Cuál de las tres marcas de coches tiene menos proporción de accidentes?</li>
+    <li>Si, elegido al azar uno de los coches observados, ha tenido un accidente, ¿cuál es la probabilidad de que sea de la marca C?</li>
+</ol>

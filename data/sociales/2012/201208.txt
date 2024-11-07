@@ -1,0 +1,12 @@
+Se considera que, a lo sumo, el 5% de los artículos guardados en un almacén son defectuosos.
+Pasado un tiempo, la persona encargada del mantenimiento del almacén decide investigar si esa estimación es adecuada.
+Para ello, escoge aleatoriamente 300 artículos de los que 35 están defectuosos.
+
+<ol>
+    <li>
+        Plantee un contraste de hipótesis $(H_0: p \leq 0,05)$ para determinar si ha aumentado la proporción de artículos defectuosos.
+        Obtenga la región crítica del contraste para un nivel de significación del 5%.
+    </li>
+
+    <li>¿Qué conclusión se obtiene con los datos muestrales observados?</li>
+</ol>

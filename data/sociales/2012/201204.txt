@@ -1,0 +1,6 @@
+De una muestra aleatoria de 120 alumnos presentados a las Pruebas de Acceso, sólo 15 han resultado no aptos.
+
+<ol>
+    <li>Calcule un intervalo de confianza, al 99%, para estimar la proporción de alumnos que han resultado aptos en dicha prueba.</li>
+    <li>Manteniendo la misma confianza, ¿cuál debe ser el tamaño mínimo de la muestra para estimar la proporción de alumnos aptos, cometiendo un error inferior al 5%?</li>
+</ol>

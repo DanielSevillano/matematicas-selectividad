@@ -1,0 +1,11 @@
+Sea la matriz
+$$A = \begin{pmatrix}
+    1 & -1 \\
+    2 & -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Resuelva la ecuación matricial $AX + A^t = I_2.$</li>
+    <li>¿Qué requisitos mínimos debe cumplir una matriz $B$ para que pueda efectuarse el producto $AB$?</li>
+    <li>¿Y para el producto $3BA$?</li>
+</ol>

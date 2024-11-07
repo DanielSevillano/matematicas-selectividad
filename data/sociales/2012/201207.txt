@@ -1,0 +1,10 @@
+En una localidad hay solamente dos supermercados A y B.
+El 58% de los habitantes compra en el A, el 35% en el B y el 12% compra en ambos.
+Si se elige un ciudadano al azar, calcule la probabilidad de que:
+
+<ol>
+    <li>Compre en algún supermercado.</li>
+    <li>No compre en ningún supermercado.</li>
+    <li>Compre solamente en un supermercado.</li>
+    <li>Compre en el supermercado A, sabiendo que no compra en B.</li>
+</ol>

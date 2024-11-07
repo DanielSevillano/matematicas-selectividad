@@ -1,0 +1,8 @@
+Sea el recinto limitado por las siguientes inecuaciones:
+$$y + 2x \geq 2, \quad 2y - 3x \geq -3, \quad 3y - x \leq 6.$$
+
+<ol>
+    <li>Represente gráficamente dicho recinto.</li>
+    <li>Calcule sus vértices.</li>
+    <li>Obtenga el valor mínimo de la función $F(x, y) = 2x - y$ en el recinto anterior, así como dónde lo alcanza.</li>
+</ol>

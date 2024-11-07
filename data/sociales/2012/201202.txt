@@ -1,0 +1,17 @@
+<ol>
+    <li>
+        Sea la función
+        $$f(x) = \begin{cases}
+            ax^2 + 3x, & \text{si } x \leq 2, \\
+            x^2 - bx - 4, & \text{si } x > 2.
+        \end{cases}$$
+
+        Determine los valores de $a$ y $b$ para que la función $f$ sea derivable en $x = 2.$
+    </li>
+    
+    <li>
+        Calcule la ecuación de la recta tangente a la gráfica de la función
+        $$g(x) = \frac{x+2}{x-1}$$
+        en el punto de abscisa $x = 0.$
+    </li>
+</ol>
