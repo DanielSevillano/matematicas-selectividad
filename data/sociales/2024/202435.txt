@@ -1,0 +1,10 @@
+Una tienda vende ropa de tallas M, L y XL.
+Se sabe que el 65% de sus clientes son mujeres.
+El 50% de las mujeres que compran ropa en esa tienda usan la talla M y el 10% la talla XL.
+De los hombres, el 40% usan la talla L y el 45% la XL.
+
+<ol>
+    <li>¿Qué porcentaje de mujeres que compran ropa en esa tienda no usan la talla XL?</li>
+    <li>Halle el porcentaje de clientes que no usan la talla L.</li>
+    <li>De los clientes que usan la talla M, ¿qué porcentaje son mujeres?</li>
+</ol>

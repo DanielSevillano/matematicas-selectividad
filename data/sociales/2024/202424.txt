@@ -1,0 +1,13 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    -x^2 + 2x, & \text{si } x < 2, \\
+    x^2 - 2x, & \text{si } x \geq 2.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y la derivabilidad de $f.$</li>
+    <li>
+        Represente el recinto limitado por las rectas $y = 2x$, $x = -1$, $x = 1$ y la gráfica de $f.$
+        Calcule su área.
+    </li>
+</ol>

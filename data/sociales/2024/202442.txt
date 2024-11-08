@@ -1,0 +1,5 @@
+Un joyero desea fabricar dos tipos de pulseras, A y B, y para ello dispone de 50 g de oro, 40 g de platino y 25 g de plata.
+Para fabricar las del tipo A necesita 1 g de oro y 2 g de platino, mientras que para las del tipo B requiere 2 g de oro, 1 g de platino y 1 g de plata.
+Cada pulsera del tipo A se vende por 150€ y cada una del tipo B por 200€.
+Si se vende toda la producción, ¿cuántas pulseras de cada tipo debe fabricar para maximizar los ingresos y a cuánto ascienden éstos?
+¿Qué cantidad de cada metal sobrará cuando se fabrique el número de joyas que proporciona el máximo beneficio?

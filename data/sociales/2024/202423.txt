@@ -1,0 +1,9 @@
+Se considera la función
+$$f(x) = 1 - \frac{4}{3+x}.$$
+
+<ol>
+    <li>Halle el dominio de $f$ y los puntos de corte de su gráfica con los ejes de coordenadas.</li>
+    <li>Calcule las asíntotas de la función $f.$</li>
+    <li>Obtenga los puntos donde la recta tangente a la gráfica de $f$ tiene pendiente 1.</li>
+    <li>Estudie la curvatura de la función $f.$</li>
+</ol>

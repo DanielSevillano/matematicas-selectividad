@@ -1,0 +1,13 @@
+<ol>
+    <li>
+        El tiempo que un carpintero necesita para fabricar una mesa sigue una distribución Normal de media 60 minutos y desviación típica de 30 minutos.
+        Si en un mes ese carpintero ha fabricado 100 mesas, calcule la probabilidad de que el tiempo medio de fabricación de las mesas de esa muestra sea superior a 54 minutos.
+    </li>
+
+    <li>
+        El tiempo que un carpintero necesita para fabricar una puerta sigue una distribución Normal de media desconocida y desviación típica de 20 minutos.
+        En un mes ese carpintero ha fabricado 25 puertas, obteniendo un tiempo medio de fabricación de 40 minutos.
+        Halle un intervalo de confianza para el tiempo medio de fabricación de una puerta con un nivel de confianza del 97%.
+        Determine el error máximo cometido al realizar la estimación.
+    </li>
+</ol>

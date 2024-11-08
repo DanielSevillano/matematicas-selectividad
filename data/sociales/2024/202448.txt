@@ -1,0 +1,17 @@
+Una empresa farmacéutica desea revisar la efectividad de un nuevo medicamento antipirético (reduce la fiebre).
+Se conoce que el tiempo en el que este medicamento comienza a hacer efecto sigue una ley Normal de media desconocida y desviación típica de 5 minutos.
+Para estimar la media poblacional, se ha seleccionado una muestra aleatoria de 10 individuos con fiebre y tras administrarse el medicamento, se han anotado los tiempos en los que comienza a remitir.
+Los tiempos obtenidos, en minutos, fueron:
+$$20 \quad 25 \quad 30 \quad 35 \quad 35 \quad 20 \quad 20 \quad 25 \quad 30 \quad 30.$$
+
+<ol>
+    <li>
+        Determine un intervalo, con un nivel de confianza del 98%, para estimar el tiempo medio de respuesta de este medicamento.
+        Según el intervalo obtenido, razone si puede admitirse que el tiempo medio en el que el medicamento comienza a hacer efecto es superior a 35 minutos.
+    </li>
+
+    <li>
+        Un estudio posterior ha revelado que el tiempo de respuesta a este medicamento sigue una ley Normal de media 27,2 minutos y desviación típica de 5 minutos.
+        Determine la probabilidad de que a un paciente con fiebre que ha ingerido el medicamento no le haya hecho efecto hasta pasados 20 minutos.
+    </li>
+</ol>

@@ -1,0 +1,12 @@
+Se desea analizar la evolución de la población de una localidad.
+Se conoce que la función $f$ aproxima el número de habitantes que tiene la población para cada tiempo $t$, medido en meses, con $t \in [0, 60].$
+El crecimiento de esta población viene dado por la siguiente expresión:
+$$f'(t) = 400 + 30\sqrt{t}.$$
+
+También se sabe que la población en la actualidad, $t = 0$, es de 90.000 habitantes.
+
+<ol>
+    <li>¿Cuál será la población dentro de 9 meses?</li>
+    <li>Calcule $\int_9^{16} f'(t)dt$ e interprete el resultado.</li>
+    <li>Si se entrega una ayuda de 150€ por cada nuevo habitante durante los tres primeros años, calcule la cuantía total aproximada de la ayuda que recibirá la localidad.</li>
+</ol>

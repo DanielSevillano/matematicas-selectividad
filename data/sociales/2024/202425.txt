@@ -1,0 +1,10 @@
+Un grupo de 15 amigas se van a pasar un fin de semana a una casa rural.
+Al llegar reparten las tareas: 3 irán al mercado, 2 a comprar leña y el resto se quedarán en la casa.
+Para realizar el reparto de las tareas se introducen 15 papeletas en una urna de las que 3 tienen la palabra "mercado", 2 la palabra "leña" y el resto la palabra "casa".
+Cada una coge una papeleta de forma ordenada y sin reposición. Calcule la probabilidad de los siguientes sucesos:
+
+<ol>
+    <li>Las dos primeras papeletas extraídas tienen escrita la palabra "mercado".</li>
+    <li>Las dos primeras papeletas extraídas no tienen escrita la palabra "casa".</li>
+    <li>Si la segunda papeleta extraída tiene escrita "leña", ¿cuál es la probabilidad de que la primera también tenga escrita "leña"?</li>
+</ol>

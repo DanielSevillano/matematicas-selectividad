@@ -131,6 +131,189 @@
         ]
     },
     {
+        "ejercicio": 202421,
+        "categorias": [
+            "Álgebra",
+            "Dimensiones",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202422,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202423,
+        "categorias": [
+            "Análisis",
+            "Asíntotas",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 202424,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202425,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202426,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202427,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 202428,
+        "categorias": [
+            "Estadística",
+            "Distribución de medias muestrales",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 202431,
+        "categorias": [
+            "Álgebra",
+            "Dimensiones",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202432,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202433,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202434,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Recta tangente",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202435,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202436,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202437,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 202438,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 202441,
+        "categorias": [
+            "Álgebra",
+            "Dimensiones",
+            "Potencias",
+            "Sistemas de ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202442,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202443,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202444,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Monotonía y extremos",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202445,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202446,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202447,
+        "categorias": [
+            "Estadística",
+            "Muestreo",
+            "Distribución de medias muestrales"
+        ]
+    },
+    {
+        "ejercicio": 202448,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
         "ejercicio": 202451,
         "resuelto": true,
         "categorias": [

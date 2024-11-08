@@ -1,0 +1,18 @@
+En un invernadero de Almería se realiza un estudio sobre dos de sus productos, melones y sandías.
+
+<ol>
+    <li>
+        De los 4.000 melones recolectados en un determinado periodo, 1.420 son de la variedad A, 980 de la B, 720 de la C y el resto de la D.
+        Si se selecciona una muestra de 200 de estos melones, ¿cuál debe ser la composición que debe tener dicha muestra si se realiza mediante muestreo aleatorio estratificado con afijación proporcional?
+    </li>
+
+    <li>
+        El peso de las sandías sigue una distribución Normal de media 3,85 kg y desviación típica 1,32 kg.
+        Se selecciona, de forma aleatoria, una muestra de 121 sandías.
+
+        <ol>
+            <li>Indique la distribución que sigue la media muestral del peso de las sandías.</li>
+            <li>Calcule la probabilidad de que el peso medio de la muestra esté comprendido entre 3,6 kg y 4 kg.</li>
+        </ol>
+    </li>
+</ol>

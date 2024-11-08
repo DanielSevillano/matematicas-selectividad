@@ -1,0 +1,19 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    3 + e^x, & \text{si } x < 1, \\
+    x^2 + ax + 2, & \text{si } x \geq 1.
+\end{cases}$$
+
+<ol>
+    <li>
+        Determine el valor de $a$ para que la función $f$ sea continua en $\mathbb{R}.$
+        Para ese valor de $a$, ¿es $f$ derivable?
+    </li>
+
+    <li>Para $a = -3$, calcule la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 0.$</li>
+
+    <li>
+        Para $a = -3$, represente la región limitada por la gráfica de $f$, las rectas $x = 2$, $x = 4$ y el eje de abscisas.
+        Calcule el área de dicha región.
+    </li>
+</ol>

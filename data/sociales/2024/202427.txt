@@ -1,0 +1,7 @@
+Una tienda decide evaluar a su empresa de transporte para determinar si está cumpliendo con sus estándares de calidad.
+Para ello, se analizan 400 de sus envíos y se comprueba que 370 han sido entregados a tiempo.
+
+<ol>
+    <li>Si los estándares de calidad de dicha empresa requieren que al menos el 88% de los envíos sean entregados a tiempo, estime, mediante un intervalo de confianza al 93%, si la empresa de transporte cumple con los estándares de calidad.</li>
+    <li>Si se mantiene la misma proporción muestral y se aumenta el nivel de confianza al 95%, ¿cuántos envíos, como mínimo, habrá que analizar para que la amplitud del intervalo de confianza sea inferior a 0,03?</li>
+</ol>

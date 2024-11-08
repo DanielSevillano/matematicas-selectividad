@@ -1,0 +1,11 @@
+En cierta localidad el 30% de los habitantes profesan la religión A y el 50% profesan otras religiones diferentes de A.
+De los que profesan la religión A el 40% son mujeres.
+De las mujeres el 25% profesa la religión A.
+Se elige un habitante al azar de esa localidad.
+Calcule la probabilidad de que:
+
+<ol>
+    <li>No profese ninguna religión.</li>
+    <li>Sea hombre.</li>
+    <li>Solo verifique uno de los siguientes sucesos: "profesa la religión A"; "es mujer".</li>
+</ol>

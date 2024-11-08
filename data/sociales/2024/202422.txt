@@ -1,0 +1,6 @@
+Para un proyecto de software libre se dispone de 150 desarrolladores de JavaScript y 120 de Python.
+Es necesario formar equipos de trabajo de dos tipos.
+El primer tipo estará compuesto por 2 desarrolladores de JavaScript y 3 de Python, y el segundo tipo por 6 de JavaScript y 4 de Python.
+Se requieren al menos 6 equipos del segundo tipo.
+Determine cuántos equipos de cada tipo se podrán formar para obtener el mayor número de equipos posible.
+En tal caso, ¿cuántos desarrolladores de JavaScript y Python se utilizarán?

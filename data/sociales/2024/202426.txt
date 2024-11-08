@@ -1,0 +1,10 @@
+Una empresa ha instalado 50 alarmas de las que 30 son de tipo básico y el resto de tipo superior.
+Se sabe que el 80% de todas las alarmas no presentan incidencias y que de las de tipo básico un 30% presentan alguna incidencia.
+Se elige al azar una de estas alarmas. Calcule la probabilidad de que:
+
+<ol>
+    <li>Sea de tipo básico y no presente incidencias.</li>
+    <li>No presente incidencias siendo de tipo superior.</li>
+    <li>Teniendo incidencias sea de tipo básico.</li>
+    <li>Sea de "tipo básico y tenga incidencias" o sea de "tipo superior y no tenga incidencias".</li>
+</ol>

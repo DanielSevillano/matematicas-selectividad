@@ -1,0 +1,27 @@
+Se consideran las matrices
+$$M = \begin{pmatrix}
+    1 & 0 & 1 \\
+    2 & 1 & 0 \\
+    1 & 1 & 1
+\end{pmatrix}, \quad
+N = \begin{pmatrix}
+    3 & 2 & 2 \\
+    5 & 2 & 1 \\
+    7 & 4 & 0
+\end{pmatrix} \quad \text{y} \quad
+V = \begin{pmatrix}
+    5-a^2 \\ a-1 \\ a^2
+\end{pmatrix},$$
+siendo $a$ un número real.
+
+<ol>
+    <li>
+        Halle el valor de $a$ para que se verifique que
+        $$M^tV = \begin{pmatrix}
+            5 \\ 1 \\  5
+        \end{pmatrix}^t.$$
+    </li>
+
+    <li>Calcule $M^{-1}$ y resuelva la ecuación matricial $XM - I_3 = N.$</li>
+    <li>Razone si las operaciones $2VN^t$ y $(N+M^t)V$ se pueden realizar y, en aquellos casos en que sea posible, indique la dimensión de la matriz resultante.</li>
+</ol>

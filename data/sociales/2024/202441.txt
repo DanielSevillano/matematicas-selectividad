@@ -1,0 +1,27 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    0 & 1 \\
+    1 & 0
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    3 & 2 \\
+    2 & 0
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 0 \\
+    1 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Determine las matrices $X$ e $Y$ que satisfacen simultáneamente las ecuaciones
+        $$2X - Y = 4A, \quad X + Y = B.$$
+    </li>
+
+    <li>Calcule la matriz $C^{2024}.$</li>
+
+    <li>
+        Si $D$ es una matriz de dimensión $2 \times 3$, razone si las siguientes operaciones se pueden realizar y, en aquellos casos en los que sea posible, indique la dimensión de la matriz resultante:
+        $$A^tB + DD^t, \quad DB^t + A, \quad D^tA^t + D.$$
+    </li>
+</ol>

@@ -1,0 +1,12 @@
+La cuota mensual de las hipotecas en una ciudad es una variable aleatoria que sigue una distribución Normal de media desconocida y desviación típica igual a 140€.
+
+<ol>
+    <li>
+        Se toma una muestra aleatoria de hipotecas en dicha ciudad y se obtiene que el intervalo de confianza al 95% para la media de las cuotas mensuales es $(517,65; \, 551,95).$
+        Calcule el valor de la media muestral y el tamaño de la muestra elegida.
+    </li>
+    
+    <li>Escogida otra muestra de 78 hipotecas en esa ciudad y con un nivel de confianza del 97%, calcule el error máximo cometido para estimar la cuota mensual media.</li>
+
+    <li>Si en otra ciudad la cuota mensual de las hipotecas sigue una distribución Normal de media 540€ y desviación típica de 150€, calcule la probabilidad de que la cuota de una hipoteca elegida al azar en dicha ciudad esté comprendida entre 600 y 700 euros.</li>
+</ol>

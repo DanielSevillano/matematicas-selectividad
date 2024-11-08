@@ -38,10 +38,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [x] 2024 a 2012
 
 ### Exámenes de sociales
-- [ ] 2024
-    - [x] Junio y julio
-    - [x] Reserva 1
-- [x] 2023 a 2013
+- [x] 2024 a 2013
 - [ ] 2012
     - [x] Junio
 

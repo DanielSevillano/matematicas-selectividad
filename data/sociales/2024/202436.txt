@@ -1,0 +1,11 @@
+El 75% de los estudiantes de un centro aprueba la asignatura A y un 55% aprueba la asignatura B.
+Además, un 35% del total de estudiantes aprueba ambas.
+Elegido un estudiante al azar de este centro, calcule las siguientes probabilidades:
+
+<ol>
+    <li>No apruebe B sabiendo que ha aprobado A.</li>
+    <li>Aprueba alguna de estas asignaturas.</li>
+    <li>No apruebe ni A ni B.</li>
+    <li>Haya aprobado A si se sabe que ha aprobado alguna de estas dos asignaturas.</li>
+    <li>Estudie si los sucesos "aprobar A" y "aprobar B" son independientes.</li>
+</ol>

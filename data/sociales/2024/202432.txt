@@ -1,0 +1,5 @@
+Un centro de bricolaje, que almacena bidones de pintura de interior y de exterior, cuenta con una capacidad máxima de almacenaje de 160 bidones.
+Por una cuestión logística, en el almacén deben mantenerse al menos 60 bidones, siendo como mínimo 20 bidones de pintura interior.
+Además, el número de bidones de pintura exterior almacenados no podrá ser inferior al de pintura interior.
+Se sabe que el gasto diario por almacenar cada bidón de pintura interior es de 1,50€ y por cada bidón de pintura exterior es de 0,90€.
+Calcule cuántos bidones de cada tipo se deben almacenar para que el gasto diario sea mínimo e indique cuánto supone ese gasto mínimo.

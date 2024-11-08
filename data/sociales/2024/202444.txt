@@ -1,0 +1,14 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    -\frac{1}{2}x^2 + x + 1, & \text{si } x \leq 2, \\
+    \dfrac{1}{x-1}, & \text{si } x > 2.
+\end{cases}$$
+
+<ol>
+    <li>
+        Estudie la continuidad, derivabilidad y monotonía de $f.$
+        Represente gráficamente dicha función.
+    </li>
+
+    <li>Calcule el area del recinto limitado por la gráfica de $f$, las rectas $x = 0$, $x = 4$ y el eje $OX.$</li>
+</ol>

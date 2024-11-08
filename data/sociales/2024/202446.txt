@@ -1,0 +1,8 @@
+En una empresa, el 30% de los empleados ejercen de economistas y el 25% ejercen de abogados.
+El 75% de los economistas y el 60% de los abogados ocupan puestos directivos, mientras que, de los empleados que no ejercen ni de economistas ni de abogados, el 15% ocupa un puesto directivo.
+Seleccionado un empleado al azar de esta empresa, calcule la probabilidad de que:
+
+<ol>
+    <li>No ocupe un puesto directivo.</li>
+    <li>Ejerza de economista sabiendo que ocupa un puesto directivo.</li>
+</ol>

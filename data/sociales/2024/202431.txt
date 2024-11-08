@@ -1,0 +1,27 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    1 & -1 & 1 \\
+    -2 & 1 & 0
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    0 & -1 \\
+    1 & 0 \\
+    -1 & 2
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    1 & 3 & 2 \\
+    1 & 1 & 1 \\
+    0 & 3 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Resuelva la siguiente ecuación
+        $$ABXC = \begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0
+        \end{pmatrix}.$$
+    </li>
+    
+    <li>Halle las dimensiones de las matrices $D$ y $E$ para que tenga sentido la igualdad $AD = EB.$</li>
+</ol>

@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Para estimar la proporción de mujeres matriculadas en carreras STEM en Andalucía, se realiza una encuesta a 2.000 universitarias andaluzas elegidas al azar y se obtiene que 710 de ellas están matriculadas en carreras STEM.
+        Con un nivel de confianza del 96,5%, calcule un intervalo de confianza para estimar la proporción de mujeres matriculadas en carreras STEM en Andalucía.
+    </li>
+
+    <li>
+        En otra comunidad autónoma, al seleccionar una muestra de universitarias, se observa que el porcentaje de mujeres matriculadas en carreras STEM es del 37%.
+        Con un nivel de confianza del 98%, calcule el tamaño mínimo de esa nueva muestra para que el error máximo cometido sea del 1,5%.
+    </li>
+</ol>
