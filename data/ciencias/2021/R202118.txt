@@ -2,12 +2,12 @@
     <li>
         Las distancias entre un punto genérico $R(-\lambda, 1+2\lambda, -1+\lambda)$ de la recta $r$ y cada uno de los puntos vienen dadas por
         \begin{align}
-            & \mathrm{dist}(R, B) = \sqrt{(-\lambda+1)^2 + (1+2\lambda)^2 + \lambda^2} = \sqrt{\lambda^2 - 2\lambda + 1 + 4\lambda^2 + 4\lambda + 1 + \lambda^2} = \sqrt{6\lambda^2 + 2\lambda + 2}, \\
-            & \mathrm{dist}(R, C) = \sqrt{(-\lambda)^2 + (2\lambda)^2 + (\lambda+2)^2} = \sqrt{\lambda^2 + 4\lambda^2 + \lambda^2 + 4\lambda + 4} = \sqrt{6\lambda^2 + 4\lambda + 4}.
+            & \operatorname{dist}(R, B) = \sqrt{(-\lambda+1)^2 + (1+2\lambda)^2 + \lambda^2} = \sqrt{\lambda^2 - 2\lambda + 1 + 4\lambda^2 + 4\lambda + 1 + \lambda^2} = \sqrt{6\lambda^2 + 2\lambda + 2}, \\
+            & \operatorname{dist}(R, C) = \sqrt{(-\lambda)^2 + (2\lambda)^2 + (\lambda+2)^2} = \sqrt{\lambda^2 + 4\lambda^2 + \lambda^2 + 4\lambda + 4} = \sqrt{6\lambda^2 + 4\lambda + 4}.
         \end{align}
 
         Como queremos hallar los puntos de $R$ que equidisten de $B$ y $C$,
-        $$\mathrm{dist}(R, B) = \mathrm{dist}(R, C) \Leftrightarrow \sqrt{6\lambda^2 + 2\lambda + 2} = \sqrt{6\lambda^2 + 4\lambda + 4} \Leftrightarrow 6\lambda^2 + 2\lambda + 2 = 6\lambda^2 + 4\lambda + 4 \Leftrightarrow \lambda = -1.$$
+        $$\operatorname{dist}(R, B) = \operatorname{dist}(R, C) \Leftrightarrow \sqrt{6\lambda^2 + 2\lambda + 2} = \sqrt{6\lambda^2 + 4\lambda + 4} \Leftrightarrow 6\lambda^2 + 2\lambda + 2 = 6\lambda^2 + 4\lambda + 4 \Leftrightarrow \lambda = -1.$$
 
         Por tanto, el punto es $(1, -1, -2).$
     </li>

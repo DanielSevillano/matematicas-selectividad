@@ -21,7 +21,7 @@
     </ul>
 
     Veamos si $f$ tiene alguna asíntota horizontal.
-    Como $\mathrm{Dom}(f) = (-1, +\infty)$, solo podría tener una asíntota horizontal por la derecha.
+    Como $\operatorname{Dom}(f) = (-1, +\infty)$, solo podría tener una asíntota horizontal por la derecha.
     $$\lim_{x \to +\infty} \frac{\ln(x+1)}{3x+4} = 0.$$
     Por tanto, la recta $y = 0$ es una asíntota horizontal y $f$ no tiene asíntotas oblicuas.</li>
 </ol>

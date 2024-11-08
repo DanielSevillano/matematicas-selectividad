@@ -26,14 +26,14 @@
 
         Como $m = 1$, por el apartado anterior la matriz $A$ es invertible y $\det(A) = 2.$
         Para hallar su inversa, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(A) = \begin{pmatrix}
+        $$\operatorname{Adj}(A) = \begin{pmatrix}
             5 & -2 & -1 \\
             -2 & 2 & 0 \\
             -1 & 0 & 1
         \end{pmatrix}.$$
 
         Ahora podemos calcular la inversa de $A$ como
-        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{2} \begin{pmatrix}
+        $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \frac{1}{2} \begin{pmatrix}
             5 & -2 & -1 \\
             -2 & 2 & 0 \\
             -1 & 0 & 1

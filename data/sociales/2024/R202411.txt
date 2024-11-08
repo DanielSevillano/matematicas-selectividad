@@ -12,14 +12,14 @@
         $$P^{-1}AP = J \Leftrightarrow A = PJP^{-1}.$$
 
         Para hallar la inversa de $P$, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(P) = \begin{pmatrix}
+        $$\operatorname{Adj}(P) = \begin{pmatrix}
             -1 & 0 & -1 \\
             -1 & -2 & 1 \\
             -1 & 0 & 1
         \end{pmatrix}.$$
 
         Ahora podemos calcular su inversa como
-        $$P^{-1} = \frac{1}{|P|}\mathrm{Adj}(P)^t = -\frac{1}{2} \begin{pmatrix}
+        $$P^{-1} = \frac{1}{|P|}\operatorname{Adj}(P)^t = -\frac{1}{2} \begin{pmatrix}
             -1 & -1 & -1 \\
             0 & -2 & 0 \\
             -1 & 1 & 1

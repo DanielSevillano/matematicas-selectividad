@@ -2,7 +2,7 @@ Sea la función continua $f: \mathbb{R} \to \mathbb{R}$ definida por
 $$f(x) = \begin{cases}
     \dfrac{\ln(e^x + x^3)}{x}, & \text{si } x < 0, \\
     4x^2 + a, & \text{si } 0 \leq x < 1, \\
-    b + \mathrm{sen}(\pi x), & \text{si } 1 \leq x.
+    b + \operatorname{sen}(\pi x), & \text{si } 1 \leq x.
 \end{cases}$$
 
 Determina $a$ y $b.$

@@ -30,10 +30,10 @@
 
 <p>
     La distancia entre $\pi$ y un punto genérico $R$ de la recta $r$ viene dada por
-    $$\mathrm{dist}(R, \pi) = \frac{|3 + 2\lambda - 3(3 + \lambda) + 2\lambda|}{|\vec{n}|} = \frac{|\lambda - 2|}{\sqrt{1^2 + 3^2 + 2^2}} = \frac{|\lambda - 2|}{\sqrt{14}}.$$
+    $$\operatorname{dist}(R, \pi) = \frac{|3 + 2\lambda - 3(3 + \lambda) + 2\lambda|}{|\vec{n}|} = \frac{|\lambda - 2|}{\sqrt{1^2 + 3^2 + 2^2}} = \frac{|\lambda - 2|}{\sqrt{14}}.$$
 
     Como queremos hallar los puntos de $r$ cuya distancia a $\pi$ sea de $\sqrt{14} \; u$,
-    $$\mathrm{dist}(R, \pi) = \sqrt{14} \Leftrightarrow \frac{|\lambda - 2|}{\sqrt{14}} = \sqrt{14} \Leftrightarrow |\lambda - 2| = 14 \Leftrightarrow \begin{cases}
+    $$\operatorname{dist}(R, \pi) = \sqrt{14} \Leftrightarrow \frac{|\lambda - 2|}{\sqrt{14}} = \sqrt{14} \Leftrightarrow |\lambda - 2| = 14 \Leftrightarrow \begin{cases}
         \lambda - 2 = 14 \Leftrightarrow \lambda = 16 \Rightarrow R_1(35, 18, 16), \\
         \lambda - 2 = -14 \Leftrightarrow \lambda = -12 \Rightarrow R_2(-21, -10, -12).
     \end{cases}$$

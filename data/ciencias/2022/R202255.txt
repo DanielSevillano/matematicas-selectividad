@@ -20,26 +20,26 @@
     Observamos que $A$ también es invertible, porque $\det(A) = 1 \neq 0.$
     
     Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
-    $$\mathrm{Adj}(A) = \begin{pmatrix}
+    $$\operatorname{Adj}(A) = \begin{pmatrix}
         1 & 2 \\
         0 & 1
     \end{pmatrix}.$$
 
     Ahora podemos calcular su inversa como
-    $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \begin{pmatrix}
+    $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \begin{pmatrix}
         1 & 0 \\
         2 & 1
     \end{pmatrix}.$$
 
     Repetimos el mismo procedimiento para hallar la inversa de $B.$
     Calculamos su matriz adjunta:
-    $$\mathrm{Adj}(B) = \begin{pmatrix}
+    $$\operatorname{Adj}(B) = \begin{pmatrix}
         -2 & 2 & 2 \\
         2 & -2 & 0 \\
         0 & 1 & -1
     \end{pmatrix}.$$
     Como $\det(B) = -2a^2 + 4a = 2$,
-    $$B^{-1} = \frac{1}{|B|}\mathrm{Adj}(B)^t = \frac{1}{2}\begin{pmatrix}
+    $$B^{-1} = \frac{1}{|B|}\operatorname{Adj}(B)^t = \frac{1}{2}\begin{pmatrix}
         -2 & 2 & 0 \\
         2 & -2 & 1 \\
         2 & 0 & -1

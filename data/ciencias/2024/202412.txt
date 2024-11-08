@@ -1,4 +1,4 @@
-Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = \mathrm{arctg}(x + \pi).$
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = \operatorname{arctg}(x + \pi).$
 
 <ol>
     <li>
@@ -8,6 +8,6 @@ Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = \mathr
 
     <li>
         Calcula
-        $$\lim_{x \to -\pi} \frac{\mathrm{arctg}(x+\pi)}{\mathrm{sen}(x)}.$$
+        $$\lim_{x \to -\pi} \frac{\operatorname{arctg}(x+\pi)}{\operatorname{sen}(x)}.$$
     </li>
 </ol>

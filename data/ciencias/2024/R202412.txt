@@ -25,9 +25,9 @@
 
     <li>
         Calculamos el límite.
-        $$\lim_{x \to -\pi} \frac{\mathrm{arctg}(x+\pi)}{\mathrm{sen}(x)} = \frac{0}{0}.$$
+        $$\lim_{x \to -\pi} \frac{\operatorname{arctg}(x+\pi)}{\operatorname{sen}(x)} = \frac{0}{0}.$$
 
         Para resolver la indeterminación, aplicamos la regla de L'Hôpital.
-        $$\lim_{x \to -\pi} \frac{\mathrm{arctg}(x+\pi)}{\mathrm{sen}(x)} \overset{\text{L'H}}{=} \lim_{x \to -\pi} \frac{\frac{1}{1 + (x+\pi)^2}}{\cos(x)} = \frac{1}{-1} = -1.$$
+        $$\lim_{x \to -\pi} \frac{\operatorname{arctg}(x+\pi)}{\operatorname{sen}(x)} \overset{\text{L'H}}{=} \lim_{x \to -\pi} \frac{\frac{1}{1 + (x+\pi)^2}}{\cos(x)} = \frac{1}{-1} = -1.$$
     </li>
 </ol>

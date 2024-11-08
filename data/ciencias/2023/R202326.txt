@@ -16,7 +16,7 @@
             \lambda-1 & 1 & 1
         \end{pmatrix}.$$
 
-        Como la matriz $M$ es cuadrada, $\mathrm{rang}(M) < 3 \Leftrightarrow |M| = 0.$
+        Como la matriz $M$ es cuadrada, $\operatorname{rang}(M) < 3 \Leftrightarrow |M| = 0.$
         Calculamos el determinante de $M.$
         $$|M| = \begin{vmatrix}
             1 & 1 & \lambda-1 \\
@@ -44,12 +44,12 @@
             -2 & 1 & 1
         \end{pmatrix}.$$
 
-        Por el apartado anterior sabemos que $\mathrm{rang}(M) < 3.$
+        Por el apartado anterior sabemos que $\operatorname{rang}(M) < 3.$
         Observamos que
         $$\begin{vmatrix}
             1 & 1 \\
             1 & -2
-        \end{vmatrix} = -3 \neq 0 \Rightarrow \mathrm{rang}(M) = 2.$$
+        \end{vmatrix} = -3 \neq 0 \Rightarrow \operatorname{rang}(M) = 2.$$
 
         El sistema a resolver es
         $$\begin{pmatrix}

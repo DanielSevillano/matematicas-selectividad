@@ -1,5 +1,5 @@
 Sea $f: [0, 2\pi] \to \mathbb{R}$ la función definida por
-$$f(x) = \frac{\mathrm{sen}(x)}{2 - \cos(x)}.$$
+$$f(x) = \frac{\operatorname{sen}(x)}{2 - \cos(x)}.$$
 
 <ol>
     <li>Halla los extremos absolutos de $f$ (abscisas donde se obitenen y valores que se alcanzan).</li>

@@ -10,7 +10,7 @@
         \end{cases}$$
 
         Para hallar la distancia del punto $A$ a la recta $r$ podemos trazar un plano $\pi$ perpendicular a $r$ que pase por $A.$
-        Este plano cortará a $r$ en un punto $P$, de forma que $\mathrm{dist}(A, r) = \mathrm{dist}(A, P).$
+        Este plano cortará a $r$ en un punto $P$, de forma que $\operatorname{dist}(A, r) = \operatorname{dist}(A, P).$
 
         Si $\pi$ es perpendicular a $r$, su vector normal es $\vec{n}_\pi = \vec{BC} = (-2, 0, -2).$
         Así que la ecuación del plano $\pi$ es
@@ -23,7 +23,7 @@
         $$P\left(2 - 2 \cdot \frac{1}{4}, 1, 1 - 2 \cdot \frac{1}{4}\right) = \left(\frac{3}{2}, 1, \frac{1}{2}\right).$$
 
         Por último, calculamos la distancia de $A$ a $r$ como el módulo del vector $\vec{AP} = \left(\frac{5}{2}, 0, -\frac{5}{2}\right).$
-        $$\mathrm{dist}(A, r) = \mathrm{dist}(A, P) = |\vec{AP}| = \sqrt{\left(\frac{5}{2}\right)^2 + \left(\frac{5}{2}\right)^2} = \sqrt{2\left(\frac{5}{2}\right)^2} = \frac{5}{2}\sqrt{2} \; u.$$
+        $$\operatorname{dist}(A, r) = \operatorname{dist}(A, P) = |\vec{AP}| = \sqrt{\left(\frac{5}{2}\right)^2 + \left(\frac{5}{2}\right)^2} = \sqrt{2\left(\frac{5}{2}\right)^2} = \frac{5}{2}\sqrt{2} \; u.$$
     </li>
 
     <li>

@@ -13,14 +13,14 @@
         $$A^t - XA = 3I_3 \Leftrightarrow XA = A^t - 3I_3 \Leftrightarrow X = (A^t-3I_3)A^{-1}.$$
 
         Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(A) = \begin{pmatrix}
+        $$\operatorname{Adj}(A) = \begin{pmatrix}
             -4 & -8 & 5 \\
             -24 & -38 & 30 \\
             -22 & -34 & 25
         \end{pmatrix}.$$
 
         Ahora podemos calcular su inversa como
-        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{10} \begin{pmatrix}
+        $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \frac{1}{10} \begin{pmatrix}
             -4 & -24 & -22 \\
             -8 & -38 & -24 \\
             5 & 30 & 25

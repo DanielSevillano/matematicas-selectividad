@@ -40,8 +40,8 @@
     </li>
 
     <li>
-        Por el apartado anterior, $\mathrm{dist}(P, \pi) = \mathrm{dist}(P, Q).$
+        Por el apartado anterior, $\operatorname{dist}(P, \pi) = \operatorname{dist}(P, Q).$
         Calculamos la distancia de $P$ a $\pi$ como el módulo del vector $\vec{PQ} = (-2, -3, 6).$
-        $$\mathrm{dist}(P, \pi) = \mathrm{dist}(P, Q) = |\vec{PQ}| = \sqrt{2^2 + 3^2 + 6^2} = \sqrt{49} = 7 \; u.$$
+        $$\operatorname{dist}(P, \pi) = \operatorname{dist}(P, Q) = |\vec{PQ}| = \sqrt{2^2 + 3^2 + 6^2} = \sqrt{49} = 7 \; u.$$
     </li>
 </ol>

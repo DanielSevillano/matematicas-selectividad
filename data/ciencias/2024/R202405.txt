@@ -43,14 +43,14 @@
         $$A^2XA + I = O \Leftrightarrow A^2XA = -I \Leftrightarrow X = -A^{-2}A^{-1} = -A^{-3}.$$
 
         Para hallar la inversa de $A^3$, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(A^3) = \begin{pmatrix}
+        $$\operatorname{Adj}(A^3) = \begin{pmatrix}
             1 & 0 & 0 \\
             -\frac{3}{8} & 1 & 0 \\
             -\frac{3}{8} & 0 & 1
         \end{pmatrix}.$$
 
         Ahora podemos calcular su inversa como
-        $$A^{-3} = \frac{1}{|A^3|}\mathrm{Adj}(A^3)^t = \begin{pmatrix}
+        $$A^{-3} = \frac{1}{|A^3|}\operatorname{Adj}(A^3)^t = \begin{pmatrix}
             1 & -\frac{3}{8} & -\frac{3}{8} \\
             0 & 1 & 0 \\
             0 & 0 & 1

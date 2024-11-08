@@ -47,26 +47,26 @@
             <li>
                 <b>Denominadores que se anulan.</b>
                 Por ejemplo, la función $f(x) = \frac{1}{x^2 - 4}$ está definida cuando $x^2 - 4 \neq 0.$
-                Así que $\mathrm{Dom}(f) = \mathbb{R} \setminus \{-2, 2\}.$
+                Así que $\operatorname{Dom}(f) = \mathbb{R} \setminus \{-2, 2\}.$
             </li>
 
             <li>
                 <b>Raíces con radicando negativo.</b>
                 Por ejemplo, la función $g(x) = \sqrt{x+3}$ está definida cuando $x + 3 \geq 0.$
-                Así que $\mathrm{Dom}(g) = [-3, +\infty).$
+                Así que $\operatorname{Dom}(g) = [-3, +\infty).$
             </li>
 
             <li>
                 <b>Logaritmos con argumento negativo o cero.</b>
                 Por ejemplo, la función $h(x) = \log(2x-8)$ está definida cuando $2x - 8 > 0.$
-                Así que $\mathrm{Dom}(h) = (4, +\infty).$
+                Así que $\operatorname{Dom}(h) = (4, +\infty).$
             </li>
         </ul>
     </li>
 
     <li>
         La <b>imagen</b> o el <b>recorrido</b> de una función es el conjunto de valores que toma la variable dependiente.
-        Por ejemplo, la función $f(x) = x^2$ toma valores mayores e iguales que cero, así que $\mathrm{Im}(f) = [0, +\infty).$
+        Por ejemplo, la función $f(x) = x^2$ toma valores mayores e iguales que cero, así que $\operatorname{Im}(f) = [0, +\infty).$
     </li>
 
     <li>
@@ -135,7 +135,7 @@
     <li>
         Una función es <b>periódica</b> si se repite en intervalos regulares.
         A la longitud de estos intervalos se le denomina período.
-        Por ejemplo, la función $f(x) = \mathrm{sen}(x)$ es periódica con período $2\pi.$
+        Por ejemplo, la función $f(x) = \operatorname{sen}(x)$ es periódica con período $2\pi.$
 
         <img src="img/ciencias/analisis-funciones-5.png" alt="Función"/>
     </li>
@@ -264,7 +264,7 @@
         Las principales <b>funciones trigonométricas</b> son las funciones seno y coseno.
         La variable $x$ se suele tomar en radianes y sus gráficas tienen forma de ondas periódicas.
         De hecho, la función coseno es como la función seno desplazada $\frac{\pi}{2}$ unidades hacia la izquierda.
-        Las gráficas de las funciones $f(x) = \mathrm{sen}(x)$ y $g(x) = \cos(x)$ son
+        Las gráficas de las funciones $f(x) = \operatorname{sen}(x)$ y $g(x) = \cos(x)$ son
         <img src="img/ciencias/analisis-funciones-12.png" alt="Función"/>
     </li>
 </ul>

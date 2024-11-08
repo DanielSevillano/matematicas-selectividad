@@ -9,14 +9,14 @@
 
         Como $\det(A) \neq 0$, $A$ es invertible.
         Para hallar la inversa de la matriz, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(A) = \begin{pmatrix}
+        $$\operatorname{Adj}(A) = \begin{pmatrix}
             0 & 2 & -2 \\
             1 & -2 & 3 \\
             1 & 0 & -1
         \end{pmatrix}.$$
 
         Ahora podemos calcular su inversa como
-        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{2} \begin{pmatrix}
+        $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \frac{1}{2} \begin{pmatrix}
             0 & 1 & 1 \\
             2 & -2 & 0 \\
             -2 & 3 & -1

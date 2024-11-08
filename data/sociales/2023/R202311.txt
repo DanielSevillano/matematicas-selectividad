@@ -38,13 +38,13 @@
 
                 Como $\det(M) \neq 0$, la matriz $M$ es invertible.
                 Para hallar su inversa, calculamos primero su matriz adjunta.
-                $$\mathrm{Adj}(M) = \begin{pmatrix}
+                $$\operatorname{Adj}(M) = \begin{pmatrix}
                     1 & -1 \\
                     0 & 1
                 \end{pmatrix}.$$
 
                 Ahora podemos calcular su inversa como
-                $$M^{-1} = \frac{1}{|M|}\mathrm{Adj}(M)^{-1} = \begin{pmatrix}
+                $$M^{-1} = \frac{1}{|M|}\operatorname{Adj}(M)^{-1} = \begin{pmatrix}
                     1 & 0 \\
                     -1 & 1
                 \end{pmatrix}.$$

@@ -22,14 +22,14 @@
         
         La matriz $A-I$ es de la forma $A-mI$ con $m = 1$, así que por el apartado anterior es invertible y $\det(A-I) = 2.$
         Para hallar su inversa, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(A-I) = \begin{pmatrix}
+        $$\operatorname{Adj}(A-I) = \begin{pmatrix}
             -1 & 1 & 1 \\
             1 & -1 & 1 \\
             1 & 1 & -1
         \end{pmatrix}.$$
 
         Ahora podemos calcular la inversa como
-        $$(A-I)^{-1} = \frac{1}{|A-I|}\mathrm{Adj}(A)^t = \frac{1}{2}\begin{pmatrix}
+        $$(A-I)^{-1} = \frac{1}{|A-I|}\operatorname{Adj}(A)^t = \frac{1}{2}\begin{pmatrix}
             -1 & 1 & 1 \\
             1 & -1 & 1 \\
             1 & 1 & -1

@@ -1,6 +1,6 @@
 <ol>
     <li>
-        En primer lugar, observamos que $\mathrm{Dom}(f) = \mathbb{R} \setminus \{2\}.$
+        En primer lugar, observamos que $\operatorname{Dom}(f) = \mathbb{R} \setminus \{2\}.$
         La función $f$ es racional, así que es continua y derivable en todo su dominio.
         Estudiamos las asíntotas.
 

@@ -258,16 +258,16 @@
 </p>
 
 <p>
-    La <b>matriz adjunta</b> de $A$ es una matriz del mismo orden cuyos elementos son los adjuntos de los elementos de $A$ y se denota $\mathrm{Adj}(A).$
+    La <b>matriz adjunta</b> de $A$ es una matriz del mismo orden cuyos elementos son los adjuntos de los elementos de $A$ y se denota $\operatorname{Adj}(A).$
     Es decir, si $A$ es de orden 3,
-    $$\mathrm{Adj}(A) = \begin{pmatrix}
+    $$\operatorname{Adj}(A) = \begin{pmatrix}
         A_{11} & A_{12} & A_{13} \\
         A_{21} & A_{22} & A_{23} \\
         A_{31} & A_{32} & A_{33}
     \end{pmatrix}.$$
 
     Volviendo al ejemplo,
-    $$\mathrm{Adj}(A) = \begin{pmatrix}
+    $$\operatorname{Adj}(A) = \begin{pmatrix}
         -1 & 1 & -1 \\
         0 & 4 & -3 \\
         1 & 4 & -3
@@ -282,7 +282,7 @@
     <li>Si todos los menores de orden $p$ y superior son cero, entonces el rango de la matriz es menor que $p.$</li>
 </ul>
 
-<p>Como consecuencia, si $A$ es una matriz cuadrada de orden $n$, entonces $\mathrm{rang}(A) = n \Leftrightarrow \det(A) \neq 0.$</p>
+<p>Como consecuencia, si $A$ es una matriz cuadrada de orden $n$, entonces $\operatorname{rang}(A) = n \Leftrightarrow \det(A) \neq 0.$</p>
 
 <p>
     Por ejemplo, estudiemos el rango de la matriz
@@ -296,7 +296,7 @@
         1 & 2 \\
         5 & 6
     \end{vmatrix} = -4 \neq 0,$$
-    entonces $\mathrm{rang}(A) \geq 2.$<br>
+    entonces $\operatorname{rang}(A) \geq 2.$<br>
     Como además todos los menores de orden 3 verifican que
     $$\begin{vmatrix}
         1 & 2 & 3 \\
@@ -318,8 +318,8 @@
         6 & 7 & 8 \\
         10 & 11 & 12
     \end{vmatrix} = 0,$$
-    entonces $\mathrm{rang}(A) < 3.$
-    Por tanto, $\mathrm{rang}(A) = 2.$
+    entonces $\operatorname{rang}(A) < 3.$
+    Por tanto, $\operatorname{rang}(A) = 2.$
 </p>
 
 <h4>Estudio del rango con parámetros</h4>
@@ -337,7 +337,7 @@
         1 & 0 \\
         2 & -1
     \end{vmatrix} = -1 \neq 0,$$
-    así que $\mathrm{rang}(A) \geq 2$ para cualquier valor de $\lambda.$<br>
+    así que $\operatorname{rang}(A) \geq 2$ para cualquier valor de $\lambda.$<br>
     Ahora calculamos todos los menores de orden 3.
     \begin{align}
         & m_1 = \begin{vmatrix}
@@ -375,12 +375,12 @@
     <ul>
         <li>
             Si $\lambda = 3$, todos los menores de orden 3 se anulan.
-            Así que $\mathrm{rang}(A) = 2.$
+            Así que $\operatorname{rang}(A) = 2.$
         </li>
 
         <li>
             Si $\lambda \neq 3$, al menos los menores $m_2$ y $m_4$ no se anulan.
-            Así que $\mathrm{rang}(A) = 3.$
+            Así que $\operatorname{rang}(A) = 3.$
         </li>
     </ul>
 </p>
@@ -391,7 +391,7 @@
 <p>
     Una matriz cuadrada $A$ es invertible si y solo si $\det(A) \neq 0.$
     En ese caso, se puede calcular la matriz inversa como
-    $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t.$$
+    $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t.$$
 
     Por ejemplo, hallemos la inversa de la matriz
     $$A = \begin{pmatrix}

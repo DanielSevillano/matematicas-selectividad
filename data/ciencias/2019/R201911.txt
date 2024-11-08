@@ -1,9 +1,9 @@
 <p>
     Calculamos el límite.
-    $$\lim_{x \to 0} \frac{\cos(x) - e^{-2x} - 2x}{\mathrm{sen}^2(x)} = \frac{0}{0}.$$
+    $$\lim_{x \to 0} \frac{\cos(x) - e^{-2x} - 2x}{\operatorname{sen}^2(x)} = \frac{0}{0}.$$
 </p>
 
 <p>
     Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
-    $$\lim_{x \to 0} \frac{\cos(x) - e^{-2x} - 2x}{\mathrm{sen}^2(x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{-\mathrm{sen}(x) + 2e^{-2x} - 2}{2\mathrm{sen}(x)\cos(x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{-\cos(x) - 4e^{-2x}}{2\cos^2(x) - 2\mathrm{sen}^2(x)} = -\frac{5}{2}.$$
+    $$\lim_{x \to 0} \frac{\cos(x) - e^{-2x} - 2x}{\operatorname{sen}^2(x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{-\operatorname{sen}(x) + 2e^{-2x} - 2}{2\operatorname{sen}(x)\cos(x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{-\cos(x) - 4e^{-2x}}{2\cos^2(x) - 2\operatorname{sen}^2(x)} = -\frac{5}{2}.$$
 </p>

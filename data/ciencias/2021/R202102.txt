@@ -5,13 +5,13 @@
 
         \begin{align}
             & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} (3x-6)e^x = -6, \\
-            & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \frac{36(\mathrm{sen}(x)-ax)}{x^3} = \frac{0}{0} \rightarrow \lim_{x \to 0^+} \frac{36(\mathrm{sen}(x)-ax)}{x^3} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{36(\cos(x)-a)}{3x^2} = \frac{36(1-a)}{0}, \\
+            & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \frac{36(\operatorname{sen}(x)-ax)}{x^3} = \frac{0}{0} \rightarrow \lim_{x \to 0^+} \frac{36(\operatorname{sen}(x)-ax)}{x^3} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{36(\cos(x)-a)}{3x^2} = \frac{36(1-a)}{0}, \\
             & f(0) = -6.
         \end{align}
 
         Si $a \neq 1$ el segundo límite será infinito y la función no será continua en $x = 0$, así que necesariamente $a = 1.$
         Continuamos resolviendo el límite para $a = 1.$
-        $$\lim_{x \to 0^+} \frac{36(\cos(x)-1)}{3x^2} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{-36\mathrm{sen}(x)}{6x} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{-36\cos(x)}{6} = -\frac{36}{6} = -6.$$
+        $$\lim_{x \to 0^+} \frac{36(\cos(x)-1)}{3x^2} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{-36\operatorname{sen}(x)}{6x} \overset{\text{L'H}}{=} \lim_{x \to 0^+} \frac{-36\cos(x)}{6} = -\frac{36}{6} = -6.$$
 
         Observamos que para este valor de $a$ se verifica que
         $$\lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) = f(0).$$ 

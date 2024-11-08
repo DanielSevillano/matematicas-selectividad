@@ -1,4 +1,4 @@
-Sea $f: [0, 2\pi] \to \mathbb{R}$ la función definida por $f(x) = e^x(\cos(x) + \mathrm{sen}(x)).$
+Sea $f: [0, 2\pi] \to \mathbb{R}$ la función definida por $f(x) = e^x(\cos(x) + \operatorname{sen}(x)).$
 
 <ol>
     <li>Halla los extremos absolutos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>

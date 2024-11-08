@@ -66,14 +66,14 @@
 
         Como $\det(A-B) \neq 0$, la matriz $A-B$ es invertible.
         Para hallar su inversa, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(A-B) = \begin{pmatrix}
+        $$\operatorname{Adj}(A-B) = \begin{pmatrix}
             0 & 2 & 0 \\
             1 & 0 & 1 \\
             2 & 0 & 0
         \end{pmatrix}.$$
 
         Calculamos su inversa como
-        $$(A-B)^{-1} = \frac{1}{|A-B|}\mathrm{Adj}(A-B)^t = \frac{1}{2} \begin{pmatrix}
+        $$(A-B)^{-1} = \frac{1}{|A-B|}\operatorname{Adj}(A-B)^t = \frac{1}{2} \begin{pmatrix}
             0 & 1 & 2 \\
             2 & 0 & 0 \\
             0 & 1 & 0

@@ -48,7 +48,7 @@
         $$\begin{vmatrix}
             2 & 1 \\
             2 & 2
-        \end{vmatrix} = 2 \neq 0 \Rightarrow \mathrm{rang}(BA) \geq 2.$$
+        \end{vmatrix} = 2 \neq 0 \Rightarrow \operatorname{rang}(BA) \geq 2.$$
 
         Calculamos el determinante de $BA.$
         \begin{align}
@@ -60,6 +60,6 @@
             & = -4m + 2m^2 + 2 - 4m - 4m - 2m^2 + 2m + 2m - 2 + 8m = 0.
         \end{align}
 
-        Por tanto, $\mathrm{rang}(BA) = 2$ para todos los valores de $m.$
+        Por tanto, $\operatorname{rang}(BA) = 2$ para todos los valores de $m.$
     </li>
 </ol>

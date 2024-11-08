@@ -38,7 +38,7 @@
     $$\begin{vmatrix}
         1 & 1 \\
         1 & 4
-    \end{vmatrix} = 3 \neq 0 \Rightarrow \mathrm{rang}(A) \geq 2.$$
+    \end{vmatrix} = 3 \neq 0 \Rightarrow \operatorname{rang}(A) \geq 2.$$
 
     Calculamos el determinante de $A.$
     $$|A| = \begin{vmatrix}
@@ -48,7 +48,7 @@
     \end{vmatrix} = 4a - 4b + 1 + 4a - b - 4 = 8a - 5b - 3.$$
 
     Así que
-    $$\mathrm{rang}(A) = 2 \Leftrightarrow |A| = 0 \Leftrightarrow 8a - 5b - 3 = 0 \Leftrightarrow 8a - 5b = 3.$$
+    $$\operatorname{rang}(A) = 2 \Leftrightarrow |A| = 0 \Leftrightarrow 8a - 5b - 3 = 0 \Leftrightarrow 8a - 5b = 3.$$
 </p>
 
 <p>

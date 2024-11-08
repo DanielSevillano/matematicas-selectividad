@@ -26,14 +26,14 @@
     $$AX = 12I \Leftrightarrow X = 12A^{-1}.$$
     Como $m = 4$, $A$ es invertible.
     Hallamos su inversa calculando primero su matriz adjunta.
-    $$\mathrm{Adj}(A) = \begin{pmatrix}
+    $$\operatorname{Adj}(A) = \begin{pmatrix}
         15 & -6 & -6 \\
         -6 & 12 & 0 \\
         -6 & 0 & 12
     \end{pmatrix}.$$
 
     Como $\det(A) = m(m^2 - 2m + 1) = 36$, podemos calcular su inversa como
-    $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{36}\begin{pmatrix}
+    $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \frac{1}{36}\begin{pmatrix}
         15 & -6 & -6 \\
         -6 & 12 & 0 \\
         -6 & 0 & 12

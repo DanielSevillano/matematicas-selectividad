@@ -42,7 +42,7 @@
         9 & 9 & 18
     \end{vmatrix} = 90 + 27 + 54 - 45 - 27 - 108 = -9.$$
 
-    Como $\det(A) \neq 0$, entonces $\mathrm{rang}(A) = 3.$
+    Como $\det(A) \neq 0$, entonces $\operatorname{rang}(A) = 3.$
     El rango de la matriz de coeficientes es máximo, así que por el teorema de Rouché-Frobenius el sistema es compatible determinado.
     Por tanto, sí es posible obtener dicha mezcla.
 </p>

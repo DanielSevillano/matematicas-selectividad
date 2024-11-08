@@ -1,2 +1,2 @@
 Calcula
-$$\int_0^\pi x^2\mathrm{sen}(x)dx.$$
+$$\int_0^\pi x^2\operatorname{sen}(x)dx.$$

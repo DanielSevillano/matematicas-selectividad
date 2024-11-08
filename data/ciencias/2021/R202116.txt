@@ -20,8 +20,8 @@
             -m + 1 = 0 \Leftrightarrow m = 1.
         \end{cases}$$
 
-        Es decir, $\mathrm{rang}(A) = 3$ si y solo si $m \neq 0$ y $m \neq 1.$
-        En otro caso, $\mathrm{rang}(A) \leq 2.$
+        Es decir, $\operatorname{rang}(A) = 3$ si y solo si $m \neq 0$ y $m \neq 1.$
+        En otro caso, $\operatorname{rang}(A) \leq 2.$
 
         <ul>
             <li>
@@ -41,7 +41,7 @@
                 $$\begin{vmatrix}
                     1 & 1 \\
                     2 & 0
-                \end{vmatrix} = -2 \neq 0 \Rightarrow \mathrm{rang}(A) = 2.$$
+                \end{vmatrix} = -2 \neq 0 \Rightarrow \operatorname{rang}(A) = 2.$$
 
                 La matriz de coeficientes ampliada es
                 $$(A|B) = \begin{pmatrix}
@@ -55,9 +55,9 @@
                     1 & 0 & 1 \\
                     1 & 1 & 1 \\
                     2 & 0 & 2
-                \end{vmatrix} = 0 \Rightarrow \mathrm{rang}(A|B) = 2.$$
+                \end{vmatrix} = 0 \Rightarrow \operatorname{rang}(A|B) = 2.$$
 
-                Como $\mathrm{rang}(A) = \mathrm{rang}(A|B) < 3$, el sistema es compatible indeterminado.
+                Como $\operatorname{rang}(A) = \operatorname{rang}(A|B) < 3$, el sistema es compatible indeterminado.
             </li>
 
             <li>
@@ -72,7 +72,7 @@
                 $$\begin{vmatrix}
                     1 & 1 \\
                     2 & 1
-                \end{vmatrix} = -1 \neq 0 \Rightarrow \mathrm{rang}(A) = 2.$$
+                \end{vmatrix} = -1 \neq 0 \Rightarrow \operatorname{rang}(A) = 2.$$
 
                 La matriz de coeficientes ampliada es
                 $$(A|B) = \begin{pmatrix}
@@ -86,9 +86,9 @@
                     1 & 1 & 1 \\
                     1 & 2 & 1 \\
                     2 & 1 & 2
-                \end{vmatrix} = 0 \Rightarrow \mathrm{rang}(A|B) = 2.$$
+                \end{vmatrix} = 0 \Rightarrow \operatorname{rang}(A|B) = 2.$$
 
-                Como $\mathrm{rang}(A) = \mathrm{rang}(A|B) < 3$, el sistema es compatible indeterminado.
+                Como $\operatorname{rang}(A) = \operatorname{rang}(A|B) < 3$, el sistema es compatible indeterminado.
             </li>
         </ul>
     </li>

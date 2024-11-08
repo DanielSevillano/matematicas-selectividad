@@ -1,4 +1,4 @@
-Sean $f, g: \mathbb{R} \to \mathbb{R}$ las funciones definidas por $f(x) = \mathrm{sen}(x)$ y $g(x) = \cos(x)$ respectivamente.
+Sean $f, g: \mathbb{R} \to \mathbb{R}$ las funciones definidas por $f(x) = \operatorname{sen}(x)$ y $g(x) = \cos(x)$ respectivamente.
 
 <ol>
     <li>Realiza un esbozo de las gráficas de $f$ y $g$ en el intervalo $\left[0, \frac{\pi}{2}\right].$</li>

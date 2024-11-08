@@ -1,6 +1,6 @@
 <p>
     En primer lugar, hallamos la derivada de la función $f.$
-    $$f'(x) = -b\mathrm{sen}(x) + c\cos(x).$$
+    $$f'(x) = -b\operatorname{sen}(x) + c\cos(x).$$
 </p>
 
 <ul>

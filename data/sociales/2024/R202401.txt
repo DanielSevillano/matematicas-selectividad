@@ -19,14 +19,14 @@
         $$XA - B = CA \Leftrightarrow XA = CA + B \Leftrightarrow X = (CA + B)A^{-1} = C + BA^{-1}.$$
 
         Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(A) = \begin{pmatrix}
+        $$\operatorname{Adj}(A) = \begin{pmatrix}
             -2 & 2 & -4 \\
             -5 & 1 & -2 \\
             1 & 3 & 2
         \end{pmatrix}.$$
 
         Ahora podemos calcular su inversa como
-        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{8} \begin{pmatrix}
+        $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \frac{1}{8} \begin{pmatrix}
             -2 & -5 & 1 \\
             2 & 1 & 3 \\
             -4 & -2 & 2

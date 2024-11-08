@@ -44,8 +44,8 @@
             \alpha = 1.
         \end{cases}$$
 
-        Es decir, $\mathrm{rang}(D) = 3$ si y solo si $\alpha \neq -2$ y $\alpha \neq 1.$
-        En otro caso, $\mathrm{rang}(D) \leq 2.$
+        Es decir, $\operatorname{rang}(D) = 3$ si y solo si $\alpha \neq -2$ y $\alpha \neq 1.$
+        En otro caso, $\operatorname{rang}(D) \leq 2.$
 
         <ul>
             <li>
@@ -60,7 +60,7 @@
                 $$\begin{vmatrix}
                     1 & -2 \\
                     1 & 1
-                \end{vmatrix} = 3 \neq 0 \Rightarrow \mathrm{rang}(D) = 2.$$
+                \end{vmatrix} = 3 \neq 0 \Rightarrow \operatorname{rang}(D) = 2.$$
             </li>
 
             <li>
@@ -69,7 +69,7 @@
                     1 & 1 & 1 \\
                     1 & 1 & 1 \\
                     1 & 1 & 1
-                \end{pmatrix} \Rightarrow \mathrm{rang}(D) = 1.$$
+                \end{pmatrix} \Rightarrow \operatorname{rang}(D) = 1.$$
             </li>
         </ul>
         
@@ -94,7 +94,7 @@
                     -2 & 1 & 1 \\
                     1 & -2 & 1 \\
                     1 & 1 & 1
-                \end{vmatrix} = 9 \neq 0 \Rightarrow \mathrm{rang}(D|E) = 3.$$
+                \end{vmatrix} = 9 \neq 0 \Rightarrow \operatorname{rang}(D|E) = 3.$$
 
                 Como los rangos no coinciden, el sistema es incompatible.
             </li>
@@ -105,9 +105,9 @@
                     1 & 1 & 1 & 1 \\
                     1 & 1 & 1 & 1 \\
                     1 & 1 & 1 & 1
-                \end{pmatrix} \Rightarrow \mathrm{rang}(D|E) = 1.$$
+                \end{pmatrix} \Rightarrow \operatorname{rang}(D|E) = 1.$$
 
-                Como $\mathrm{rang}(D) = \mathrm{rang}(D|E) < 3$, el sistema es compatible indeterminado.
+                Como $\operatorname{rang}(D) = \operatorname{rang}(D|E) < 3$, el sistema es compatible indeterminado.
             </li>
         </ul>
     </li>

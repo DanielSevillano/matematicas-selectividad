@@ -24,14 +24,14 @@
 
 <p>
     Para hallar su inversa, calculamos primero su matriz adjunta.
-    $$\mathrm{Adj}(3I - A) = \begin{pmatrix}
+    $$\operatorname{Adj}(3I - A) = \begin{pmatrix}
         -1 & 6 & -2 \\
         -2 & 12 & -5 \\
         -1 & 5 & -2
     \end{pmatrix}.$$
 
     Ahora podemos calcular su inversa como
-    $$(3I - A)^{-1} = \frac{1}{|3I - A|}\mathrm{Adj}(3I - A)^t = \begin{pmatrix}
+    $$(3I - A)^{-1} = \frac{1}{|3I - A|}\operatorname{Adj}(3I - A)^t = \begin{pmatrix}
         -1 & -2 & -1 \\
         6 & 12 & 5 \\
         -2 & -5 & -2

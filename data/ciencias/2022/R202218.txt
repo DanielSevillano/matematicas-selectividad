@@ -10,12 +10,12 @@
 
         Las distancias entre un punto genérico $R(\lambda, 1, 1-2\lambda)$ de la recta $r$ y cada uno de los planos vienen dadas por
         \begin{align}
-            & \mathrm{dist}(R, \pi_1) = \frac{|\lambda + 1 + 2|}{|\vec{n}_1|} = \frac{|\lambda + 3|}{\sqrt{2}}, \\
-            & \mathrm{dist}(R, \pi_2) = \frac{|\lambda - (1 - 2\lambda) - 2|}{|\vec{n}_2|} = \frac{|3\lambda - 2|}{\sqrt{2}}.
+            & \operatorname{dist}(R, \pi_1) = \frac{|\lambda + 1 + 2|}{|\vec{n}_1|} = \frac{|\lambda + 3|}{\sqrt{2}}, \\
+            & \operatorname{dist}(R, \pi_2) = \frac{|\lambda - (1 - 2\lambda) - 2|}{|\vec{n}_2|} = \frac{|3\lambda - 2|}{\sqrt{2}}.
         \end{align}
 
         Como queremos hallar los puntos de $r$ que equidisten de $\pi_1$ y $\pi_2$,
-        $$\mathrm{dist}(R, \pi_1) = \mathrm{dist}(R, \pi_2) \Leftrightarrow \frac{|\lambda + 3|}{\sqrt{2}} = \frac{|3\lambda - 2|}{\sqrt{2}} \Leftrightarrow |\lambda + 3| = |3\lambda - 2| \Leftrightarrow \begin{cases}
+        $$\operatorname{dist}(R, \pi_1) = \operatorname{dist}(R, \pi_2) \Leftrightarrow \frac{|\lambda + 3|}{\sqrt{2}} = \frac{|3\lambda - 2|}{\sqrt{2}} \Leftrightarrow |\lambda + 3| = |3\lambda - 2| \Leftrightarrow \begin{cases}
             \lambda + 3 = 3\lambda - 2 \Leftrightarrow \lambda = \frac{5}{2}, \\
             \lambda + 3 = -3\lambda + 2 \Leftrightarrow \lambda = -\frac{1}{4}.
         \end{cases}$$

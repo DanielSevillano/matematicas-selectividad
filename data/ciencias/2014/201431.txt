@@ -1,2 +1,2 @@
 Calcula
-$$\lim_{x \to 0} \frac{\mathrm{tg}(x) - \mathrm{sen}(x)}{x - \mathrm{sen}(x)}.$$
+$$\lim_{x \to 0} \frac{\operatorname{tg}(x) - \operatorname{sen}(x)}{x - \operatorname{sen}(x)}.$$

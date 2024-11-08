@@ -30,14 +30,14 @@
         $$AXB = C \Leftrightarrow X = A^{-1}CB^{-1}.$$
 
         Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(A) = \begin{pmatrix}
+        $$\operatorname{Adj}(A) = \begin{pmatrix}
             -1 & 0 & 0 \\
             -1 & 1 & -1 \\
             2 & -2 & 1
         \end{pmatrix}.$$
 
         Ahora podemos calcular su inversa como
-        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \begin{pmatrix}
+        $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \begin{pmatrix}
             1 & 1 & -2 \\
             0 & -1 & 2 \\
             0 & 1 & -1
@@ -45,13 +45,13 @@
 
         Repetimos el mismo procedimiento para hallar la inversa de $B.$
         Calculamos su matriz adjunta:
-        $$\mathrm{Adj}(B) = \begin{pmatrix}
+        $$\operatorname{Adj}(B) = \begin{pmatrix}
             -1 & -1 \\
             1 & 2
         \end{pmatrix}.$$
 
         Calculamos su inversa como
-        $$B^{-1} = \frac{1}{|B|}\mathrm{Adj}(B)^t = \begin{pmatrix}
+        $$B^{-1} = \frac{1}{|B|}\operatorname{Adj}(B)^t = \begin{pmatrix}
             1 & -1 \\
             1 & -2
         \end{pmatrix}.$$

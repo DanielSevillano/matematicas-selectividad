@@ -26,8 +26,8 @@
     </li>
 
     <li>
-        Por el apartado anterior, $\mathrm{dist}(P, \pi) = \mathrm{dist}(P, Q).$
+        Por el apartado anterior, $\operatorname{dist}(P, \pi) = \operatorname{dist}(P, Q).$
         Calculamos la distancia de $P$ a $\pi$ como el módulo del vector $\vec{PQ} = (-1, 1, -1).$
-        $$\mathrm{dist}(P, \pi) = \mathrm{dist}(P, Q) = |\vec{PQ}| = \sqrt{1^2 + 1^2 + 1^2} = \sqrt{3} \; u.$$
+        $$\operatorname{dist}(P, \pi) = \operatorname{dist}(P, Q) = |\vec{PQ}| = \sqrt{1^2 + 1^2 + 1^2} = \sqrt{3} \; u.$$
     </li>
 </ol>

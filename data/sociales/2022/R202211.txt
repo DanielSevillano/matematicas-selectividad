@@ -59,14 +59,14 @@
         $$XA = I_3 \Leftrightarrow X = A^{-1}.$$
 
         Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
-        $$\mathrm{Adj}(A) = \begin{pmatrix}
+        $$\operatorname{Adj}(A) = \begin{pmatrix}
             3 & 1 & 0 \\
             3 & -2 & 3 \\
             0 & -4 & 3
         \end{pmatrix}.$$
 
         Ahora podemos calcular su inversa como
-        $$A^{-1} = \frac{1}{|A|}\mathrm{Adj}(A)^t = \frac{1}{3} \begin{pmatrix}
+        $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \frac{1}{3} \begin{pmatrix}
             3 & 3 & 0 \\
             1 & -2 & -4 \\
             0 & 3 & 3

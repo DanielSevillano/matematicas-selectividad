@@ -1,7 +1,7 @@
 <ol>
     <li>
         En primer lugar, calculamos la derivada de la función $f.$
-        $$f'(x) = e^x(\cos(x) + \mathrm{sen}(x)) + e^x(-\mathrm{sen}(x) + \cos(x)) = 2e^x\cos(x).$$
+        $$f'(x) = e^x(\cos(x) + \operatorname{sen}(x)) + e^x(-\operatorname{sen}(x) + \cos(x)) = 2e^x\cos(x).$$
 
         Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
         $$f'(x) = 0 \Leftrightarrow 2e^x\cos(x) = 0 \Leftrightarrow \cos(x) = 0 \Leftrightarrow \begin{cases}

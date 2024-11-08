@@ -6,7 +6,7 @@ $$A = \begin{pmatrix}
 Determina, si existen, los valores de $k$ en cada uno de los casos siguientes.
 
 <ol>
-    <li>$\mathrm{rang}(A) = 1.$</li>
+    <li>$\operatorname{rang}(A) = 1.$</li>
     <li>$A^2 = A.$</li>
     <li>$A$ tiene inversa.</li>
     <li>$\det(A) = -2.$</li>
