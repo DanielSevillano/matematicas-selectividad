@@ -1,0 +1,6 @@
+Considera los puntos $O(0, 0, 0)$, $A(a, -1, 2)$ y $B(a, 1, 0).$
+
+<ol>
+    <li>Determina $a$ para que el triángulo $OAB$ tenga área 3 unidades cuadradas.</li>
+    <li>Calcula $a$ para que $O$, $A$ y $B$ sean coplanarios con el punto $C(1, 1, 0).$</li>
+</ol>

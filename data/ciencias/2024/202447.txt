@@ -1,0 +1,10 @@
+Considera las rectas
+$$r \equiv x = y + a = \frac{z+1}{2} \quad \text{y} \quad s \equiv \begin{cases}
+    x - 2y = 3a, \\
+    x + z = 2.
+\end{cases}$$
+
+<ol>
+    <li>Calcula $a$ para que las rectas se corten.</li>
+    <li>Para $a = -1$, halla la recta que corta perpendicularmente a $r$ y $s.$</li>
+</ol>

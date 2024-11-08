@@ -1,0 +1,2 @@
+Calcula $a$ y $b$ sabiendo que
+$$\lim_{x \to 0} \frac{a(\ln(1+x) - x) + b(e^x - 1) + 1 - \cos(x)}{\operatorname{sen}^2(x)} = 5.$$

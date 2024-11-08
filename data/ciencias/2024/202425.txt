@@ -1,0 +1,11 @@
+Considera el sistema de ecuaciones lineales
+\begin{cases}
+    ax + y + z = 1 + a, \\
+    x + 2y - z = 1 - a, \\
+    x + (1+a)y - az = 0.
+\end{cases}
+
+<ol>
+    <li>Calcula $a$ para que el sistema sea compatible indeterminado.</li>
+    <li>Resuelve el sistema, si es posible, para $a = 0.$</li>
+</ol>

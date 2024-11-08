@@ -276,6 +276,179 @@
         ]
     },
     {
+        "ejercicio": 202421,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202422,
+        "categorias": [
+            "Análisis",
+            "Límites"
+        ]
+    },
+    {
+        "ejercicio": 202423,
+        "categorias": [
+            "Análisis",
+            "Recta tangente",
+            "Integrales",
+            "Teorema fundamental del cálculo"
+        ]
+    },
+    {
+        "ejercicio": 202424,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202425,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202426,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202427,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "ejercicio": 202428,
+        "categorias": [
+            "Geometría",
+            "Área"
+        ]
+    },
+    {
+        "ejercicio": 202431,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 202432,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 202433,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202434,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202435,
+        "categorias": [
+            "Álgebra",
+            "Determinantes",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202436,
+        "categorias": [
+            "Álgebra",
+            "Rango",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202437,
+        "categorias": [
+            "Geometría",
+            "Distancia"
+        ]
+    },
+    {
+        "ejercicio": 202438,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "ejercicio": 202441,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 202442,
+        "categorias": [
+            "Análisis",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 202443,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202444,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202445,
+        "categorias": [
+            "Álgebra",
+            "Determinantes"
+        ]
+    },
+    {
+        "ejercicio": 202446,
+        "categorias": [
+            "Álgebra",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202447,
+        "categorias": [
+            "Geometría",
+            "Posición relativa"
+        ]
+    },
+    {
+        "ejercicio": 202448,
+        "categorias": [
+            "Geometría",
+            "Ángulos"
+        ]
+    },
+    {
         "ejercicio": 202411,
         "resuelto": true,
         "categorias": [

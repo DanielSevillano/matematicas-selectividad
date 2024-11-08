@@ -1,0 +1,7 @@
+Sea la función $f: (0, +\infty) \to \mathbb{R}$ definida por
+$$f(x) = \ln\left(\frac{x^2+1}{x}\right).$$
+
+<ol>
+    <li>Calcula los intervalos de crecimiento y de decrecimiento.</li>
+    <li>Estudia y halla los extremos relativos y absolutos de $f$ (abscisas donde se obtienen y valores que alcanzan).</li>
+</ol>

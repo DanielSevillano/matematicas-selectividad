@@ -1,0 +1,8 @@
+Considera la función
+$$f(x) = \begin{cases}
+    1 - e^x, & \text{si } x \leq 0, \\
+    x\cos(x), & \text{si } x > 0.
+\end{cases}$$
+
+Calcula
+$$\int_{-\pi}^\pi f(x)dx.$$

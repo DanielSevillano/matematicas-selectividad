@@ -1,0 +1,6 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^3 - 6x^2 + 8x.$
+
+<ol>
+    <li>Calcula los puntos de corte de la gráfica de $f$ con los ejes de coordenadas y esboza dicha gráfica.</li>
+    <li>Calcula la suma de las áreas de los recintos acotados y limitados por la gráfica de $f$ y el eje de abscisas.</li>
+</ol>

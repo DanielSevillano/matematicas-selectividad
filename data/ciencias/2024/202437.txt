@@ -1,0 +1,8 @@
+Considera la recta
+$$r \equiv \frac{x+1}{2} = \frac{y-2}{2} = 3 - z$$
+y el punto $P(0, 2, -4).$
+
+<ol>
+    <li>Calcula el punto de $r$ a menor distancia de $P.$</li>
+    <li>Halla los puntos de $r$ cuya distancia a $P$ sea igual a $\sqrt{50}.$</li>
+</ol>

@@ -1,0 +1,2 @@
+Sea $\pi_1$ el plano determinado por los puntos $A(1, 0, 0)$, $B(1, 1, -3)$ y $C(0, 1, 1)$ y sea $\pi_2 \equiv x - y + z - 1 = 0.$
+Determina la ecuación de la recta paralela a ambos planos que pasa por el origen.

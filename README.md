@@ -35,10 +35,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ## 📋 Progreso
 
 ### Exámenes de ciencias
-- [ ] 2024
-    - [x] Junio y julio
-    - [x] Reserva 1
-- [x] 2023 a 2012
+- [x] 2024 a 2012
 
 ### Exámenes de sociales
 - [ ] 2024

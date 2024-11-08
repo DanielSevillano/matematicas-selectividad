@@ -1,0 +1,17 @@
+Considera el sistema
+$$\begin{pmatrix}
+    5 & -2 & -3 \\
+    2 & 0 & -2 \\
+    3 & -2 & -1
+\end{pmatrix}
+\begin{pmatrix}
+    x \\ y \\ z
+\end{pmatrix} =
+m \begin{pmatrix}
+    x \\ y \\ z
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina los valores de $m$ para los que el sistema es compatible indeterminado.</li>
+    <li>Para $m = 2$ resuelve el sistema, si es posible.</li>
+</ol>

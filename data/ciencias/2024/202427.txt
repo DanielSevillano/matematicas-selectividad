@@ -1,0 +1,7 @@
+Considera el plano $\pi \equiv x - y = 0$ y la recta
+$$r \equiv \frac{x-1}{2} = \frac{y}{3} = z - 2.$$
+
+<ol>
+    <li>Calcula, si es posible, el plano perpendicular a $\pi$ que contiene a $r$.</li>
+    <li>Calcula, si es posible, la recta perpendicular a $r$, contenida en $\pi$ y que pasa por el origen.</li>
+</ol>

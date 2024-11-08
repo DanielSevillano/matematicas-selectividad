@@ -1,0 +1,8 @@
+Considera la función definida por
+$$f(x) = \frac{ax^3 + x - 1}{x^2 + bx - 3},$$
+para $x^2 + bx - 3 \neq 0.$
+
+<ol>
+    <li>Calcula $a$ y $b$ para que $y = x-2$ sea una asíntota oblicua de la gráfica de $f.$</li>
+    <li>Estudia y halla las asíntotas verticales de la gráfica de $f$ cuando $a = 0$ y $b = 2.$</li>
+</ol>

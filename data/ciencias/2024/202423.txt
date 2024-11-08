@@ -1,0 +1,4 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \int_0^x \cos(t)\operatorname{sen}^2(t)dt.$$
+
+Determina las ecuaciones de la recta tangente y de la recta normal a la gráfica de $f$ en el punto de abscisa $x = \frac{\pi}{4}.$

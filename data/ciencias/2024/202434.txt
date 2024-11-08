@@ -1,0 +1,4 @@
+Calcula
+$$\int \frac{e^{3x} - 1}{e^x - 3}dx.$$
+
+(Sugerencia: efectúa el cambio de variable $t = e^x$).

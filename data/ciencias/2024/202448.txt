@@ -1,0 +1,6 @@
+Considera los vectores $\vec{u} = (1, a, 2)$ y $\vec{v} = (-2, 1, a).$
+
+<ol>
+    <li>Calcula $a$ para que ambos vectores formen un ángulo de $\frac{\pi}{3}$ radianes.</li>
+    <li>Calcula $a$ para que el vector $(\vec{u} \times \vec{v}) - \vec{v}$ sea ortogonal a $\vec{u}.$</li>
+</ol>

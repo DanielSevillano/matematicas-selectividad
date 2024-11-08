@@ -1,0 +1,20 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    1 & 0 & 1 \\
+    2 & 0 & a \\
+    5 & 3a - 1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula el rango de $A$ según los valores de $a.$</li>
+    <li>
+        Si
+        $$B = \begin{pmatrix}
+            1 \\ 2 \\ 4
+        \end{pmatrix}, \quad
+        X = \begin{pmatrix}
+            x \\ y \\ z
+        \end{pmatrix}$$
+        y $a = 2$ resuelve, si es posible, el sistema $AX = B.$
+    </li>
+</ol>

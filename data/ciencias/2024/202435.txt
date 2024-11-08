@@ -1,0 +1,16 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & -1 & 0 \\
+    7 & 2 & 0 \\
+    0 & 0 & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    2 & 0 & 1 \\
+    0 & 1 & 0 \\
+    \frac{1}{9} & 0 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula los determinantes de las matrices $((AB)^5)^{-1}$ y $27AB^6.$</li>
+    <li>Halla la matriz $X$, si es posible, que verifica que $AXB = 9I$, donde $I$ es la matriz identidad de orden 3.</li>
+</ol>

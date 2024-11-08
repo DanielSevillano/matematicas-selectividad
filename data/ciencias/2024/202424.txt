@@ -1,0 +1,4 @@
+Calcula
+$$\int \frac{dx}{\sqrt{4 + 4e^x}}.$$
+
+(Sugerencia: efectúa el cambio de variable $t = \sqrt{1+e^x}$).
