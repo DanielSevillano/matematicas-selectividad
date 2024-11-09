@@ -293,6 +293,7 @@
     },
     {
         "ejercicio": 202423,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Recta tangente",
