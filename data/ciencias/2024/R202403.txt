@@ -1,5 +1,5 @@
 <p>
-    En primer lugar, hallamos todas las primitivas de la función $F.$
+    En primer lugar, hallamos todas las primitivas de la función $f.$
     $$F(x) = \int f(x)dx = \int \frac{x^3+2}{x^2-1}dx.$$
 
     Para resolver esta integral, hacemos la división de polinomios del integrando.
