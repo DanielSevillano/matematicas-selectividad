@@ -1,0 +1,112 @@
+<ol>
+    <li>
+        La matriz de coeficientes del sistema es
+        $$A = \begin{pmatrix}
+            a & 1 & 1 \\
+            1 & 2 & -1 \\
+            1 & 1+a & -a
+        \end{pmatrix}.$$
+
+        Observamos que
+        $$\begin{vmatrix}
+            1 & 1 \\
+            2 & -1
+        \end{vmatrix} = -3 \neq 0 \Rightarrow \operatorname{rang}(A) \geq 2.$$
+
+        Para determinar el rango de $A$ según el valor de $a$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            a & 1 & 1 \\
+            1 & 2 & -1 \\
+            1 & 1+a & -a
+        \end{vmatrix} = -2a^2 - 1 + 1 + a - 2 + a(1+a) + a = -a^2 + 3a - 2.$$
+
+        Observamos que
+        $$|A| = 0 \Leftrightarrow -a^2 + 3a - 2 = 0 \Leftrightarrow \begin{cases}
+            a = 1, \\
+            a = 2.
+        \end{cases}$$
+
+        Es decir, $\operatorname{rang}(A) = 3$ si y solo si $a \neq 1$ y $a \neq 2.$
+        En otro caso, $\operatorname{rang}(A) = 2.$
+
+        <ul>
+            <li>
+                Si $a \neq 1$ y $a \neq 2$, el rango de la matriz de coeficientes es máximo.
+                Por tanto, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $a = 1$, la matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    1 & 1 & 1 & 2 \\
+                    1 & 2 & -1 & 0 \\
+                    1 & 2 & -1 & 0
+                \end{pmatrix}.$$
+
+                Observamos que las dos últimas filas son iguales, así que $\operatorname{rang}(A|B) = 2.$
+                Como $\operatorname{rang}(A) = \operatorname{rang}(A|B) < 3$, el sistema es compatible indeterminado.
+            </li>
+
+            <li>
+                Si $a = 2$, la matriz de coeficientes ampliada es
+                $$(A|B) = \begin{pmatrix}
+                    2 & 1 & 1 & 3 \\
+                    1 & 2 & -1 & -1 \\
+                    1 & 3 & -2 & 0
+                \end{pmatrix}.$$
+
+                Observamos que
+                $$\begin{vmatrix}
+                    1 & 1 & 3 \\
+                    2 & -1 & -1 \\
+                    3 & -2 & 0
+                \end{vmatrix} = -8 \neq 0 \Rightarrow \operatorname{rang}(A|B) = 3.$$
+
+                Como $\operatorname{rang}(A) \neq \operatorname{rang}(A|B)$, el sistema es incompatible.
+            </li>
+        </ul>
+
+        Por tanto, el sistema es compatible indeterminado para $a = 1.$
+    </li>
+
+    <li>
+        Si $a = 0$, el sistema es compatible determinado por el apartado anterior, así que tiene solución única.
+        Resolvemos el sistema mediante el método de Gauss.
+        $$\begin{pmatrix}
+            0 & 1 & 1 & 1 \\
+            1 & 2 & -1 & 1 \\
+            1 & 1 & 0 & 0
+        \end{pmatrix} \xrightarrow{F_2 + F_1}
+        \begin{pmatrix}
+            0 & 1 & 1 & 1 \\
+            1 & 3 & 0 & 2 \\
+            1 & 1 & 0 & 0
+        \end{pmatrix} \xrightarrow{F_2 - F_3}
+        \begin{pmatrix}
+            0 & 1 & 1 & 1 \\
+            0 & 2 & 0 & 2 \\
+            1 & 1 & 0 & 0
+        \end{pmatrix}.$$
+
+        El sistema resultante es
+        \begin{cases}
+            y + z = 1, \\
+            2y = 2, \\
+            x + y = 0.
+        \end{cases}
+
+        Resolvemos el sistema.
+        \begin{align}
+            & 2y = 2 \Leftrightarrow y = 1, \\
+            & y + z = 1 \Leftrightarrow z = 1 - y \xrightarrow{y = 1} z = 0, \\
+            & x + y = 0 \Leftrightarrow x = -y \xrightarrow{y = 1} x = -1.
+        \end{align}
+
+        Por tanto, la solución del sistema es
+        \begin{cases}
+            x = -1, \\
+            y = 1, \\
+            z = 0.
+        \end{cases}
+    </li>
+</ol>

@@ -1,0 +1,48 @@
+<p>
+    Calculamos la integral indefinida.
+    $$\int \frac{dx}{\sqrt{4 + 4e^x}} = \frac{1}{2} \int \frac{1}{\sqrt{1 + e^x}}dx.$$
+</p>
+
+<p>
+    Para resolver esta integral, usamos el cambio de variable:
+    \begin{align}
+        t = \sqrt{1 + e^x} \Rightarrow x & = \ln(t^2 - 1), \\
+        dx & = \frac{2t}{t^2 - 1}dt.
+    \end{align}
+
+    De esta forma,
+    $$\frac{1}{2} \int \frac{1}{\sqrt{1 + e^x}}dx = \frac{1}{2} \int \frac{1}{t} \cdot \frac{2t}{t^2 - 1}dt = \int \frac{1}{t^2-1}dt.$$
+</p>
+
+<p>
+    Expresamos el integrando como suma de fracciones simples.
+    Las raíces del denominador son -1 y 1, así que el integrando se puede escribir como
+    $$\frac{1}{t^2-1} = \frac{A}{t-1} + \frac{B}{t+1} = \frac{A(t+1) + B(t-1)}{t^2-1} = \frac{(A+B)t + A - B}{t^2-1}.$$
+
+    Igualando ambas expresiones, obtenemos que
+    \begin{cases}
+        A + B = 0, \\
+        A - B = 1.
+    \end{cases}
+
+    Resolvemos el sistema por reducción.
+    Si sumamos las dos ecuaciones, obtenemos que
+    $$2A = 1 \Leftrightarrow A = \frac{1}{2}.$$
+
+    Despejando y sustituyendo en la primera ecuación, obtenemos que
+    $$A + B = 0 \Leftrightarrow B = -A \xrightarrow{A = 1/2} B = -\frac{1}{2}.$$
+
+    Así que
+    $$\frac{1}{t^2-1} = \frac{1}{2(t-1)} - \frac{1}{2(t+1)}.$$
+</p>
+
+<p>
+    Resolvemos la integral.
+    \begin{align}
+        & \int \frac{1}{t^2-1}dt = \frac{1}{2} \int \frac{1}{t-1}dt - \frac{1}{2} \int \frac{1}{t+1}dt = \frac{1}{2}(\ln|t-1| - \ln|t+1|) + C = \\
+        & = \frac{1}{2}(\ln|\sqrt{1+e^x} - 1| - \ln|\sqrt{1+e^x} + 1|) + C.
+    \end{align}
+
+    Por tanto,
+    $$\int \frac{dx}{\sqrt{4 + 4e^x}} = \frac{1}{2}(\ln|\sqrt{1+e^x} - 1| - \ln|\sqrt{1+e^x} + 1|) + C.$$
+</p>

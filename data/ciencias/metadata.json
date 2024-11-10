@@ -303,6 +303,7 @@
     },
     {
         "ejercicio": 202424,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -310,6 +311,7 @@
     },
     {
         "ejercicio": 202425,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas"
@@ -317,6 +319,7 @@
     },
     {
         "ejercicio": 202426,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Ecuaciones matriciales"

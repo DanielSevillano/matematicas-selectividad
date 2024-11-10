@@ -1,0 +1,97 @@
+<ol>
+    <li>
+        En primer lugar, calculamos $(A + aI)^2.$
+        \begin{align}
+            & (A + aI)^2 = \left[
+                \begin{pmatrix}
+                    1 & 3 \\
+                    -2 & 5
+                \end{pmatrix} +
+                \begin{pmatrix}
+                    a & 0 \\
+                    0 & a
+                \end{pmatrix}
+            \right]^2 =
+            \begin{pmatrix}
+                a+1 & 3 \\
+                -2 & a+5
+            \end{pmatrix}^2 =
+            \begin{pmatrix}
+                (a+1)^2 - 6 & 3(a+1) + 3(a+5) \\
+                -2(a+1) - 2(a+5) & (a+5)^2 - 6
+            \end{pmatrix} = \\
+            & = \begin{pmatrix}
+                (a+1)^2 - 6 & 6a + 18 \\
+                -4a - 12 & (a+5)^2 - 6
+            \end{pmatrix}.
+        \end{align}
+
+        Así que:
+        $$(A + aI)^2 = bI \Leftrightarrow
+        \begin{pmatrix}
+            (a+1)^2 - 6 & 6a + 18 \\
+            -4a - 12 & (a+5)^2 - 6
+        \end{pmatrix} =
+        \begin{pmatrix}
+            b & 0 \\
+            0 & b
+        \end{pmatrix} \Leftrightarrow \begin{cases}
+            (a+1)^2 - 6 = b, \\
+            6a + 18 = 0, \\
+            -4a - 12 = 0, \\
+            (a+5)^2 - 6 = b.
+        \end{cases}$$
+
+        Resolvemos el sistema.
+        \begin{align}
+            & 6a + 18 = 0 \Leftrightarrow a = -3, \\
+            & -4a - 12 = 0 \Leftrightarrow a = -3, \\
+            & (a+1)^2 - 6 = b \xrightarrow{a = -3} b = -2, \\
+            & (a+5)^2 - 6 = b \xrightarrow{a = -3} b = -2.
+        \end{align}
+
+        Por tanto, $a = -3$ y $b = -2.$
+    </li>
+
+    <li>
+        En primer lugar, hallamos el determinante de la matriz $M.$
+        $$\begin{vmatrix}
+            0 & 1 \\
+            1 & 1
+        \end{vmatrix} = -1.$$
+
+        Como $\det(M) \neq 0$, la matriz $M$ es invertible.
+        Despejamos la ecuación matricial.
+        $$MX + M^2 = I \Leftrightarrow MX = I - M^2 \Leftrightarrow X = M^{-1}(I - M^2) = M^{-1} - M.$$
+
+        Para hallar la inversa de $M$, calculamos primero su matriz adjunta.
+        $$\operatorname{Adj}(M) = \begin{pmatrix}
+            1 & -1 \\
+            -1 & 0
+        \end{pmatrix}.$$
+
+        De esta forma, calculamos su inversa como:
+        $$M^{-1} = \frac{1}{|M|}\operatorname{Adj}(M)^t = -\begin{pmatrix}
+            1 & -1 \\
+            -1 & 0
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -1 & 1 \\
+            1 & 0
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$X = M^{-1} - M = \begin{pmatrix}
+            -1 & 1 \\
+            1 & 0
+        \end{pmatrix} -
+        \begin{pmatrix}
+            0 & 1 \\
+            1 & 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -1 & 0 \\
+            0 & -1
+        \end{pmatrix}.$$
+    </li>
+</ol>
