@@ -327,12 +327,14 @@
     },
     {
         "ejercicio": 202427,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
     },
     {
         "ejercicio": 202428,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Área"

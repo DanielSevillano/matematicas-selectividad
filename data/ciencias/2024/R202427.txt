@@ -1,0 +1,31 @@
+<ol>
+    <li>
+        Llamamos $\tau$ al plano que los piden.
+        Como $\tau$ es perpendicular a $\pi$ y contiene a $r$, $\vec{n}_\pi = (1, -1, 0)$ y $\vec{d}_r = (2, 3, 1)$ son dos vectores directores del plano.
+        Además, el punto $(1, 0, 2)$ pertenece al plano por ser un punto de $r.$
+        Por tanto, las ecuaciones paramétricas del plano $\tau$ son:
+        $$\tau \equiv \begin{cases}
+            x = 1 + \lambda + 2\mu, \\
+            y = -\lambda + 3\mu, \\
+            z = 2 + \mu.
+        \end{cases}$$
+    </li>
+
+    <li>
+        Llamamos $s$ a la recta que nos piden.
+        Como $s$ es perpendicular a $r$ y está contenida en $\pi$,
+        $$\vec{d}_s = \vec{d}_r \times \vec{n}_\pi = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            2 & 3 & 1 \\
+            1 & -1 & 0
+        \end{vmatrix} = (1, 1, -5).$$
+
+        Además, el punto $(0, 0, 0)$ pertenece a la recta.
+        Por tanto, las ecuaciones paramétricas de la recta $s$ es:
+        $$s \equiv \begin{cases}
+            x = \lambda, \\
+            y = \lambda, \\
+            z = -5\lambda.
+        \end{cases}$$
+    </li>
+</ol>

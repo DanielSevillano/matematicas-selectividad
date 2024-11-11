@@ -1,0 +1,33 @@
+<ol>
+    <li>
+        Para hallar el área del triángulo $OAB$, calculamos en primer lugar el producto vectorial de los vectores $\vec{OA} = (a, -1, 2)$ y $\vec{OB} = (a, 1, 0).$
+        $$\vec{OA} \times \vec{OB} = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            a & -1 & 2 \\
+            a & 1 & 0
+        \end{vmatrix} = (-2, 2a, 2a).$$
+
+        El área del triángulo viene dada por:
+        $$S = \frac{1}{2}|\vec{OA} \times \vec{OB}| = \frac{1}{2}\sqrt{2^2 + (2a)^2 + (2a)^2} = \frac{1}{2}\sqrt{4 + 8a^2} = \sqrt{1 + 2a^2}.$$
+
+        Para que el área sea de $3 \; u^2$,
+        $$S = 3 \Leftrightarrow \sqrt{1 + 2a^2} = 3 \Leftrightarrow 1 + 2a^2 = 9 \Leftrightarrow a^2 = 4 \Leftrightarrow a = \pm 2.$$
+
+        Por tanto, los posibles valores son $a = -2$ y $a = 2.$
+    </li>
+
+    <li>
+        Los cuatro puntos son coplanarios si el determinante formado por $\vec{OA}$, $\vec{OB}$ y $\vec{OC} = (1, 1, 0)$ es nulo.
+        Calculamos este determinante.
+        $$\begin{vmatrix}
+            a & -1 & 2 \\
+            a & 1 & 0 \\
+            1 & 1 & 0
+        \end{vmatrix} = 2a - 2.$$
+
+        Para que los cuatro puntos sean coplanarios,
+        $$2a - 2 = 0 \Leftrightarrow a = 1.$$
+
+        Por tanto, $a = 1.$
+    </li>
+</ol>

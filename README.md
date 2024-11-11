@@ -47,8 +47,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Modelo de prueba (1, 2, 3)
 - [ ] 2024
     - [x] Junio y julio
-    - [x] Reserva 1
-    - [ ] Reserva 2 (1, 2, 3, 4, 5, 6)
+    - [x] Reservas 1 y 2
 - [x] 2023 a 2021
 - [ ] 2020
     - [ ] Septiembre (2)
