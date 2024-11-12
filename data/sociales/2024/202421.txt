@@ -18,7 +18,7 @@ siendo $a$ un número real.
     <li>
         Halle el valor de $a$ para que se verifique que
         $$M^tV = \begin{pmatrix}
-            5 \\ 1 \\  5
+            5 & 1 & 5
         \end{pmatrix}^t.$$
     </li>
 
