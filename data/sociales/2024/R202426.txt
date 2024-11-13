@@ -1,0 +1,99 @@
+<p>
+    Llamamos $B$ a ser de tipo básico, $S$ a ser de tipo superior e $I$ a presentar alguna incidencia.
+    Sabemos que:
+    $$P(B) = \frac{30}{50} = 0,6, \quad P(S) = \frac{20}{50} = 0,4, \quad P(I^c) = 0,8 \Rightarrow P(I) = 0,2 \quad \text{y} \quad P(I|B) = 0,3.$$
+
+    Podemos hacer un diagrama de árbol.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$I$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$B$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,7 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$I^c$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$I$</td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$S$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$I^c$</td>
+            </tr>
+        </table>
+    </div>
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que sea de tipo básico y no presente incidencias es:
+        $$P(B \cap I^c) = P(B) \cdot P(I^c|B) = 0,6 \cdot 0,7 = 0,42.$$
+    </li>
+
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que presente alguna incidencia viene dada por:
+        $$P(I) = P(B) \cdot P(I|B) + P(S) \cdot P(I|S) = 0,6 \cdot 0,3 + 0,4 \cdot p = 0,18 + 0,4p.$$
+
+        Como $P(I) = 0,2$,
+        $$0,18 + 0,4p = 0,2 \Leftrightarrow 0,4p = 0,02 \Leftrightarrow p = 0,05.$$
+
+        Por tanto, la probabilidad de que no presente incidencias siendo de tipo superior es:
+        $$P(I^c|S) = 1 - P(I|S) = 1 - 0,05 = 0,95.$$
+    </li>
+
+    <li>
+        La probabilidad de que teniendo incidencias sea de tipo básico es:
+        $$P(B|I) = \frac{P(B \cap I)}{P(I)} = \frac{P(B) \cdot P(I|B)}{P(I)} = \frac{0,6 \cdot 0,3}{0,2} = 0,9.$$
+    </li>
+
+    <li>
+        La probabilidad de que sea de "tipo básico y tenga incidencias" o sea de "tipo superior y no tenga incidencias" es:
+        \begin{align}
+            & P((B \cap I) \cup (S \cap I^c)) = P(B \cap I) + P(S \cap I^c) = P(B) \cdot P(I|B) + P(S) \cdot P(I^c|S) = \\
+            & = 0,6 \cdot 0,3 + 0,4 \cdot 0,95 = 0,56.
+        \end{align}
+    </li>
+</ol>

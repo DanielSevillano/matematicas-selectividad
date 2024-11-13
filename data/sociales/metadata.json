@@ -157,6 +157,7 @@
     },
     {
         "ejercicio": 202424,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",
@@ -167,12 +168,14 @@
     },
     {
         "ejercicio": 202425,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202426,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

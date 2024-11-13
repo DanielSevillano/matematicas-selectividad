@@ -1,0 +1,113 @@
+<p>
+    Llamamos $M$ a tener escrita la palabra "mercado", $L$ la palabra "leña" y $C$ la palabra casa.
+    Podemos hacer un diagrama de árbol.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$M_2$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 2/14 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$M_1$</td>
+                <td>$\xrightarrow{\quad 2/14 \quad}$</td>
+                <td>$L_2$</td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 3/15 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 10/14 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$C_2$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$M_2$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 3/14 \quad}$</td>
+            </tr>
+            <tr>
+                <td>$\xrightarrow{\quad 2/15 \quad}$</td>
+                <td>$L_1$</td>
+                <td>$\xrightarrow{\quad 1/14 \quad}$</td>
+                <td>$L_2$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 10/14 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$C_2$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$M_2$</td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 10/15 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 3/14 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$C_1$</td>
+                <td>$\xrightarrow{\quad 2/14 \quad}$</td>
+                <td>$L_2$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 9/14 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$C_2$</td>
+            </tr>
+        </table>
+    </div>
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que las dos primeras papeletas tengan escrita la palabra "mercado" es:
+        $$P(M_1 \cap M_2) = P(M_1) \cdot P(M_2|M_1) = \frac{3}{15} \cdot \frac{2}{14} = \frac{1}{35}.$$
+    </li>
+
+    <li>
+        La probabilidad de que ninguna de las dos primeras papeletas tenga escrita la palabra "casa" es:
+        \begin{align}
+            & P(C_1^c \cap C_2^c) = P(M_1) \cdot P(M_2|M_1) + P(M_1) \cdot P(L_1|M_1) + P(L_1) \cdot P(M_2|L_1) + P(L_1) \cdot P(L_2|L_1) = \\
+            & = \frac{3}{15} \cdot \frac{2}{14} + \frac{3}{15} \cdot \frac{2}{14} + \frac{2}{15} \cdot \frac{3}{14} + \frac{2}{15} \cdot \frac{1}{14} = \frac{2}{21}.
+        \end{align}
+    </li>
+
+    <li>
+        La probabilidad de que la primera papaleta tenga escrita la palabra "leña" sabiendo que la segunda la tiene es:
+        $$P(L_1|L_2) = \frac{P(L_1 \cap L_2)}{P(L_2)} = \frac{P(L_1) \cdot P(L_2|L_1)}{P(L_2)} = \frac{\frac{2}{15} \cdot \frac{1}{14}}{\frac{3}{15} \cdot \frac{2}{14} + \frac{2}{15} \cdot \frac{1}{14} + \frac{10}{15} \cdot \frac{2}{14}} = \frac{1}{14}.$$
+    </li>
+</ol>
