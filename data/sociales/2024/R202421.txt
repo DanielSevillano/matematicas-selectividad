@@ -1,0 +1,120 @@
+<ol>
+    <li>
+        En primer lugar, calculamos $M^tV.$
+        $$M^tV = \begin{pmatrix}
+            1 & 2 & 1 \\
+            0 & 1 & 1 \\
+            1 & 0 & 1
+        \end{pmatrix}
+        \begin{pmatrix}
+            5-a^2 \\ a-1 \\ a^2
+        \end{pmatrix} =
+        \begin{pmatrix}
+            5 - a^2 + 2a - 2 + a^2 \\ a - 1 + a^2 \\ 5 - a^2 + a^2
+        \end{pmatrix} =
+        \begin{pmatrix}
+            2a + 3 \\
+            a^2 + a - 1 \\
+            5
+        \end{pmatrix}.$$
+
+        Así que:
+        $$M^tV = \begin{pmatrix}
+            5 \\ 1 \\ 5
+        \end{pmatrix} \Leftrightarrow
+        \begin{pmatrix}
+            2a + 3 \\
+            a^2 + a - 1 \\
+            5
+        \end{pmatrix} =
+        \begin{pmatrix}
+            5 \\ 1 \\ 5
+        \end{pmatrix} \Leftrightarrow
+        \begin{cases}
+            2a + 3 = 5 \Leftrightarrow a = 1, \\
+            a^2 + a - 1 = 1 \Leftrightarrow \begin{cases}
+                a = -2, \\
+                a = 1.
+            \end{cases}
+        \end{cases}$$
+
+        Por tanto, se verifica para $a = 1.$
+    </li>
+
+    <li>
+        Hallamos en primer lugar el determinante de la matriz $M.$
+        $$|M| = \begin{vmatrix}
+            1 & 0 & 1 \\
+            2 & 1 & 0 \\
+            1 & 1 & 1
+        \end{vmatrix} = 2.$$
+
+        Como $\det(M) \neq 0$, la matriz es invertible.
+        Para hallar su inversa, calculamos primero su matriz adjunta.
+        $$\operatorname{Adj}(M) = \begin{pmatrix}
+            1 & -2 & 1 \\
+            1 & 0 & -1 \\
+            -1 & 2 & 1
+        \end{pmatrix}.$$
+
+        Calculamos su inversa como:
+        $$M^{-1} = \frac{1}{|M|}\operatorname{Adj}(M)^t = \frac{1}{2} \begin{pmatrix}
+            1 & 1 & -1 \\
+            -2 & 0 & 2 \\
+            1 & -1 & 1
+        \end{pmatrix}.$$
+
+        Despejamos la ecuación matricial.
+        $$XM - I_3 = N \Leftrightarrow XM = N + I_3 \Leftrightarrow X = (N + I_3)M^{-1}.$$
+
+        Por tanto,
+        \begin{align}
+            & X = (N + I_3)M^{-1} = \frac{1}{2} \left[
+                \begin{pmatrix}
+                    3 & 2 & 2 \\
+                    5 & 2 & 1 \\
+                    7 & 4 & 0
+                \end{pmatrix} +
+                \begin{pmatrix}
+                    1 & 0 & 0 \\
+                    0 & 1 & 0 \\
+                    0 & 0 & 1
+                \end{pmatrix}
+            \right]
+            \begin{pmatrix}
+                1 & 1 & -1 \\
+                -2 & 0 & 2 \\
+                1 & -1 & 1
+            \end{pmatrix} = \\
+            & = \frac{1}{2} \begin{pmatrix}
+                4 & 2 & 2 \\
+                5 & 3 & 1 \\
+                7 & 4 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 1 & -1 \\
+                -2 & 0 & 2 \\
+                1 & -1 & 1
+            \end{pmatrix} = \frac{1}{2} \begin{pmatrix}
+                2 & 2 & 2 \\
+                0 & 4 & 2 \\
+                0 & 6 & 2
+            \end{pmatrix} =
+            \begin{pmatrix}
+                1 & 1 & 1 \\
+                0 & 2 & 1 \\
+                0 & 3 & 1
+            \end{pmatrix}.
+        \end{align}
+    </li>
+
+    <li>
+        <ul>
+            <li>$V$ es de dimensión $3 \times 1$ y $N^t$ es $3 \times 3$, así que el producto no se puede realizar.</li>
+            <li>
+                $N$ y $M^t$ son matrices cuadradas de orden 3, por lo que se pueden sumar y $N + M^t$ es también una matriz cuadrada de orden 3.
+                Por otro lado, como $V$ es de dimensión $3 \times 1$, se pueden multiplicar y da como resultado una matriz de dimensión $3 \times 1.$
+            </li>
+        </ul>
+    </li>
+</ol>

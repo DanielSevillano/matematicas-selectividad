@@ -132,6 +132,7 @@
     },
     {
         "ejercicio": 202421,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Dimensiones",
@@ -147,6 +148,7 @@
     },
     {
         "ejercicio": 202423,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Asíntotas",
@@ -177,6 +179,7 @@
     },
     {
         "ejercicio": 202427,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"
@@ -184,6 +187,7 @@
     },
     {
         "ejercicio": 202428,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Distribución de medias muestrales",

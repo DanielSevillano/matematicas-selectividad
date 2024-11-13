@@ -1,0 +1,83 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                La función $f$ es una función racional, así que los puntos que no pertenecen al dominio son aquellos que anulan el denominador.
+                $$3 + x = 0 \Leftrightarrow x = -3.$$
+
+                Por tanto, $\operatorname{Dom}(f) = \mathbb{R} \setminus \{-3\}.$
+            </li>
+
+            <li>
+                Hallamos los puntos de corte con el eje $X$, es decir, aquellos puntos con $y = 0.$
+                $$f(x) = 0 \Leftrightarrow 1 - \frac{4}{3+x} = 0 \Leftrightarrow 1 = \frac{4}{3+x} \Leftrightarrow 3 + x = 4 \Leftrightarrow x = 1.$$
+
+                Luego el único punto de corte con el eje $X$ es $(1, 0).$
+            </li>
+
+            <li>
+                Hallamos ahora el punto de corte con el eje $Y.$
+                $$f(0) = 1 - \frac{4}{3} = -\frac{1}{3}.$$
+
+                Así que el punto de corte con el eje $Y$ es $\left(0, -\frac{1}{3}\right).$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                El denominador se anula en $x = -3$ y observamos que
+                \begin{align}
+                    & \lim_{x \to -3^-} f(x) = \lim_{x \to -3^-} \left(1 - \frac{4}{3+x}\right) = +\infty, \\
+                    & \lim_{x \to -3^+} f(x) = \lim_{x \to -3^+} \left(1 - \frac{4}{3+x}\right) = -\infty.
+                \end{align}
+
+                Por tanto, la recta $x = -3$ es una asíntota vertical.
+            </li>
+
+            <li>
+                Veamos si tiene una asíntota horizontal.
+                $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \left(1 - \frac{4}{3+x}\right) = 1.$$
+
+                Por tanto, la recta $y = 1$ es una asíntota horizontal.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        En primer lugar, hallamos la derivada de la función $f.$
+        $$f'(x) = \frac{4}{(3+x)^2}.$$
+
+        La pendiente de la recta tangente viene dada por el valor de la derivada.
+        Así que:
+        $$f'(x) = 1 \Leftrightarrow \frac{4}{(3+x)^2} = 1 \Leftrightarrow 4 = (3+x)^2 \Leftrightarrow \begin{cases}
+            3 + x = 2 \Leftrightarrow x = -1, \\
+            3 + x = -2 \Leftrightarrow x = -5.
+        \end{cases}$$
+
+        Por tanto, la recta tangente tiene pendiente 1 en los puntos de abscisa $x = -1$ y $x = -5.$
+    </li>
+
+    <li>
+        En primer lugar, hallamos la segunda derivada de la función $f.$
+        $$f''(x) = -\frac{8}{(3+x)^3}.$$
+
+        Observamos que $f''(x) \neq 0$ para $x \neq -3$, así que no tiene puntos de inflexión.
+        Estudiamos el signo de $f''$ considerando $x = -3$ por no pertenecer al dominio.
+
+        <ul>
+            <li>
+                Si $x < -3$, $f''(x) > 0.$
+                Así que $f$ es convexa.
+            </li>
+
+            <li>
+                Si $x > -3$, $f''(x) < 0.$
+                Así que $f$ es cóncava.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es convexa en $(-\infty, -3)$ y cóncava en $(-3, +\infty).$
+    </li>
+</ol>

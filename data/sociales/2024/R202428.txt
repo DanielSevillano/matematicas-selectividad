@@ -1,0 +1,27 @@
+<ol>
+    <li>
+        La distribución de las medias muestrales $\overline{X}$ sigue una distribución normal $N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)$ con $\mu = 60$, $\sigma = 30$ y $n = 100.$
+        Es decir,
+        $$\overline{X} \sim N(60, 3).$$
+        
+        La probabilidad de que el tiempo medio de fabricación de las mesas de esa muestra sea superior a 54 minutos es:
+        $$P(\overline{X} > 54) = P\left(Z > \frac{54 - 60}{3}\right) = P(Z > -2) = P(Z < 2) = 0,9772.$$
+    </li>
+
+    <li>
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \; \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+        Como el nivel de confianza es del 97%, entonces:
+        $$1 - \alpha = 0,97 \Leftrightarrow \alpha = 1 - 0,97 = 0,03.$$
+
+        Así que:
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
+
+        Por tanto, el intervalo de confianza para estimar el tiempo medio de fabricación de una puerta con un nivel de confianza del 97% es:
+        $$I = \left(40 - 2,17 \cdot \frac{20}{\sqrt{25}}, \; 40 + 2,17 \cdot \frac{20}{\sqrt{25}}\right) = (31,32; \, 48,68).$$
+
+        El error máximo cometido es:
+        $$E = \frac{48,68 - 31,32}{2} = 8,68.$$
+    </li>
+</ol>
