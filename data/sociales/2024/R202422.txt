@@ -1,0 +1,76 @@
+<p>
+    Llamamos $x$ al número de equipos del primer tipo e $y$ al de equipos del segundo tipo.
+    Podemos organizar la información en una tabla.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <th>JavaScript</th>
+                <th>Python</th>
+            </tr>
+
+            <tr>
+                <th>Primer tipo</th>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <th>Segundo tipo</th>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <th>Máximo</th>
+                <td>150</td>
+                <td>120</td>
+            </tr>
+        </table>
+    </div>
+</p>
+
+<p>
+    Se necesitan 2 desarrolladores de JavaScript para el primer tipo, 6 para el segundo tipo y se dispone de 150 en total, así que:
+    $$2x + 6y \leq 150 \Leftrightarrow x + 3y \leq 75.$$
+
+    Se necesitan 3 desarrolladores de Python para el primer tipo, 4 para el segundo tipo y se dispone de 120 en total, así que:
+    $$3x + 4y \leq 120.$$
+
+    Se requieren al menos 6 equipos del segundo tipo, así que:
+    $$y \geq 6.$$
+
+    Además, incorporamos la restricción:
+    $$x \geq 0.$$
+
+    Por último, la función objetivo es:
+    $$F(x, y) = x + y.$$
+
+    Por tanto, el problema es:
+    \begin{align}
+        \text{Maximizar } & F(x, y) = x + y, \\
+        \text{sujeto a } & x + 3y \leq 75, \\
+        & 3x + 4y \leq 120, \\
+        & y \geq 6, \\
+        & x \geq 0.
+    \end{align}
+</p>
+
+<p>
+    Dibujamos la región obtenida mediante las inecuaciones.
+    <img src="img/sociales/R202422.png" alt="Figura" loading="lazy">
+
+    Los vértices son:
+    $$A(0, 6), \quad B(0, 25), \quad C(12, 21) \quad \text{y} \quad D(32, 6).$$
+</p>
+
+<p>
+    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    \begin{align}
+        & F(A) = F(0, 6) = 6, & & F(B) = F(0, 25) = 25, \\
+        & F(C) = F(12, 21) = 32, & & F(D) = F(32, 6) = 38.
+    \end{align}
+
+    Por tanto, el número máximo de equipos se obtiene con 32 del primer tipo y 6 del segundo tipo, utilizando $2 \cdot 32 + 6 \cdot 6 = 100$ desarrolladores de JavaScript y $3 \cdot 32 + 6 = 120$ desarrolladores de Python.
+</p>
