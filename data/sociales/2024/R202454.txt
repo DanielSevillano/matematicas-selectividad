@@ -52,7 +52,7 @@
             </li>
         </ul>
 
-        Así que el único punto crítico es $x = 2$.
+        Así que el único punto crítico es $x = 2.$
         También consideramos $x = 4$ por no ser derivable.
         Estudiamos el signo de $f'.$
 
@@ -78,7 +78,7 @@
     </li>
 
     <li>
-        Representamos el recinto limitado por la gráfica de $f$, el eje $X$ y las rectas $x = 3$ y $x = 5$.
+        Representamos el recinto limitado por la gráfica de $f$, el eje $X$ y las rectas $x = 3$ y $x = 5.$
         Observamos que la parábola tiene vértice $(2, 7).$
         <img src="img/sociales/R202454.png" alt="Figura" loading="lazy">
 

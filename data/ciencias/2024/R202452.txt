@@ -37,7 +37,7 @@
         Veamos si alguno de estos extremos es absoluto.
         Por un lado, observamos que
         $$\lim_{x \to -\infty} f(x) = \lim_{x \to -\infty} \left(x - \frac{1}{2}\right)e^{-x^2} = 0,$$
-        así que $f$ no alcanza valores inferiores a $-\frac{1}{\sqrt[4]{e}}$.
+        así que $f$ no alcanza valores inferiores a $-\frac{1}{\sqrt[4]{e}}.$
         Por tanto, $\left(-\frac{1}{2}, -\frac{1}{\sqrt[4]{e}}\right)$ es un mínimo absoluto.
         Por otro lado, como
         $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \left(x - \frac{1}{2}\right)e^{-x^2} = 0,$$

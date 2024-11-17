@@ -46,7 +46,7 @@
 
         Así que el único punto crítico es $x = 1.$
         También consideramos $x = 0$ por no ser derivable.
-        Estudiamos el signo de $f'$.
+        Estudiamos el signo de $f'.$
 
         <ul>
             <li>
