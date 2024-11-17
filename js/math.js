@@ -48,7 +48,7 @@ function tituloExamen(examen) {
 }
 
 function formatear(elemento) {
-    if (math) MathJax.typeset([elemento]);
+    if (math) MathJax.typesetPromise([elemento]);
     else setTimeout(() => formatear(elemento));
 }
 
