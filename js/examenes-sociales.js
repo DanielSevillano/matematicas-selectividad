@@ -10,6 +10,9 @@ const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
 
+let metadatos;
+const guardarMetadatos = datos => { metadatos = datos };
+
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
         grupos.forEach(g => {
@@ -27,7 +30,7 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const examen = boton.id.replace("boton-", "");
-        mostrarExamen("sociales", examen);
+        mostrarExamen("sociales", examen, metadatos, guardarMetadatos);
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
 
         botones.forEach(b => {

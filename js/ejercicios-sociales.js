@@ -13,8 +13,10 @@ const cinta = document.querySelector("#cinta");
 const contador = cinta.querySelector("#contador");
 const casilla = cinta.querySelector("#casilla");
 
+let metadatos;
 let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
+const guardarMetadatos = datos => { metadatos = datos };
 
 const categoriasProgramacionLineal = ["programacion-lineal", "problemas-de-optimizacion"];
 const categoriasAlgebra = ["algebra", "dimensiones", "potencias", "ecuaciones-matriciales", "sistemas-de-ecuaciones-matriciales", "problemas-de-matrices", "sistemas-de-ecuaciones"];
@@ -37,7 +39,7 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
-        mostrarCategoria("sociales", categoria, soloResueltos, contador);
+        mostrarCategoria("sociales", categoria, metadatos, soloResueltos, contador, guardarMetadatos);
         categoriaSeleccionada = categoria;
         cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
@@ -51,7 +53,7 @@ function pulsar(boton) {
 }
 
 function mostrarSoloResueltos() {
-    if (!estado.cancelado) mostrarCategoria("sociales", categoriaSeleccionada, soloResueltos, contador);
+    if (!estado.cancelado) mostrarCategoria("sociales", categoriaSeleccionada, metadatos, soloResueltos, contador, guardarMetadatos);
     else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 

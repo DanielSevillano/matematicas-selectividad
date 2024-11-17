@@ -128,7 +128,7 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
     return articulo;
 }
 
-async function obtenerExamen(modalidad, examen) {
+async function obtenerExamen(modalidad, examen, metadatos) {
     const main = document.querySelector("main");
 
     const titulo = document.createElement("h2");
@@ -143,9 +143,6 @@ async function obtenerExamen(modalidad, examen) {
 
     main.append(titulo);
 
-    const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
-    const datos = await respuesta.json();
-
     for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
         if (estado.cancelado) {
             estado.reanudar();
@@ -153,7 +150,7 @@ async function obtenerExamen(modalidad, examen) {
         }
 
         const codigo = examen * 10 + ejercicio;
-        const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
+        const datosEjercicio = metadatos.find(dato => dato.ejercicio == codigo);
 
         let resuelto = false;
         let categorias = [];
@@ -175,24 +172,28 @@ async function obtenerExamen(modalidad, examen) {
     return true;
 }
 
-async function mostrarExamen(modalidad, examen) {
+async function mostrarExamen(modalidad, examen, metadatos, guardarMetadatos) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerExamen(modalidad, examen).then(() => {
+    let datos;
+    if (!metadatos) {
+        const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
+        datos = await respuesta.json();
+        guardarMetadatos(datos);
+    } else datos = metadatos;
+
+    obtenerExamen(modalidad, examen, datos).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });
 }
 
-async function obtenerCategoria(modalidad, categoria, soloResueltos, contador = undefined) {
+async function obtenerCategoria(modalidad, categoria, metadatos, soloResueltos, contador = undefined) {
     const main = document.querySelector("main");
 
-    const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
-    const datos = await respuesta.json();
-
-    let ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
+    let ejercicios = metadatos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
     if (soloResueltos) ejercicios = ejercicios.filter(ejercicio => ejercicio.resuelto);
     if (contador) contador.textContent = ejercicios.length;
 
@@ -220,12 +221,19 @@ async function obtenerCategoria(modalidad, categoria, soloResueltos, contador = 
     return true;
 }
 
-async function mostrarCategoria(modalidad, categoria, soloResueltos = false, contador) {
+async function mostrarCategoria(modalidad, categoria, metadatos, soloResueltos = false, contador, guardarMetadatos) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerCategoria(modalidad, categoria, soloResueltos, contador).then(() => {
+    let datos;
+    if (!metadatos) {
+        const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
+        datos = await respuesta.json();
+        guardarMetadatos(datos);
+    } else datos = metadatos;
+
+    obtenerCategoria(modalidad, categoria, datos, soloResueltos, contador).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });

@@ -13,8 +13,10 @@ const cinta = document.querySelector("#cinta");
 const contador = cinta.querySelector("#contador");
 const casilla = cinta.querySelector("#casilla");
 
+let metadatos;
 let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
+const guardarMetadatos = datos => { metadatos = datos };
 
 const categoriasAlgebra = ["algebra", "potencias", "determinantes", "rango", "ecuaciones-matriciales", "sistemas", "discusion-de-sistemas", "problemas"];
 const categoriasGeometria = ["geometria", "vectores", "posicion-relativa", "punto-simetrico", "distancia", "angulos", "area", "volumen"];
@@ -37,7 +39,7 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
-        mostrarCategoria("ciencias", categoria, soloResueltos, contador);
+        mostrarCategoria("ciencias", categoria, metadatos, soloResueltos, contador, guardarMetadatos);
         categoriaSeleccionada = categoria;
         cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
@@ -51,7 +53,7 @@ function pulsar(boton) {
 }
 
 function mostrarSoloResueltos() {
-    if (!estado.cancelado) mostrarCategoria("ciencias", categoriaSeleccionada, soloResueltos, contador);
+    if (!estado.cancelado) mostrarCategoria("ciencias", categoriaSeleccionada, metadatos, soloResueltos, contador, guardarMetadatos);
     else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 
