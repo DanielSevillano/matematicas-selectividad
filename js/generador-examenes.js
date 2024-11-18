@@ -12,6 +12,9 @@ const intervalos = [intervalo1, intervalo2];
 const minimoCiencias = 2012;
 const minimoSociales = 2013;
 
+let metadatosCiencias;
+let metadatosSociales;
+
 function establecerMinimo(minimo) {
     intervalos.forEach((intervalo) => {
         intervalo.min = minimo;
@@ -117,10 +120,22 @@ async function procesar(event) {
     const cursoInicial = Math.max(parseInt(intervalo1.value), parseInt(intervalo2.value));
     const cursoFinal = Math.min(parseInt(intervalo1.value), parseInt(intervalo2.value));
 
-    const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
-    const data = await respuesta.json();
+    let metadatos;
+    if (modalidad == "ciencias") {
+        if (!metadatosCiencias) {
+            const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
+            metadatosCiencias = await respuesta.json();
+        }
+        metadatos = metadatosCiencias;
+    } else if (modalidad == "sociales") {
+        if (!metadatosSociales) {
+            const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
+            metadatosSociales = await respuesta.json();
+        }
+        metadatos = metadatosSociales;
+    }
 
-    const datos = data.filter(ejercicio => {
+    const datos = metadatos.filter(ejercicio => {
         const curso = parseInt(ejercicio.ejercicio / 100);
         return curso >= cursoFinal && curso <= cursoInicial;
     });
@@ -138,7 +153,7 @@ async function procesar(event) {
         const ejerciciosGeometria1 = datos.filter(ejercicio => ejercicio.categorias.includes("Geometría"));
         const ejerciciosGeometria2 = ejerciciosGeometria1.filter(ejercicio => !ejercicio.categorias.includes("Vectores"));
 
-        const ejerciciosProbabilidad = data.filter(ejercicio => ejercicio.categorias.includes("Probabilidad"));
+        const ejerciciosProbabilidad = metadatos.filter(ejercicio => ejercicio.categorias.includes("Probabilidad"));
 
         const bloques = ["Funciones", "Integrales", "Álgebra", "Geometría"];
         const indiceObligatorio = Math.floor(Math.random() * bloques.length);
