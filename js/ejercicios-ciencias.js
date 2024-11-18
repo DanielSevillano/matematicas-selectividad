@@ -13,9 +13,11 @@ const cinta = document.querySelector("#cinta");
 const contador = cinta.querySelector("#contador");
 const casilla = cinta.querySelector("#casilla");
 
-let metadatos;
 let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
+
+let metadatos;
+let mapaEjercicios = new Map();
 const guardarMetadatos = datos => { metadatos = datos };
 
 const categoriasAlgebra = ["algebra", "potencias", "determinantes", "rango", "ecuaciones-matriciales", "sistemas", "discusion-de-sistemas", "problemas"];
@@ -39,7 +41,6 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
-        mostrarCategoria("ciencias", categoria, metadatos, soloResueltos, contador, guardarMetadatos);
         categoriaSeleccionada = categoria;
         cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
@@ -48,12 +49,14 @@ function pulsar(boton) {
             if (boton == b) b.classList.add("seleccionado");
             else b.classList.remove("seleccionado");
         });
+
+        mostrarCategoria("ciencias", categoria, metadatos, mapaEjercicios, soloResueltos, contador, guardarMetadatos);
     }
     else setTimeout(() => pulsar(boton));
 }
 
 function mostrarSoloResueltos() {
-    if (!estado.cancelado) mostrarCategoria("ciencias", categoriaSeleccionada, metadatos, soloResueltos, contador, guardarMetadatos);
+    if (!estado.cancelado) mostrarCategoria("ciencias", categoriaSeleccionada, metadatos, mapaEjercicios, soloResueltos, contador, guardarMetadatos);
     else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 

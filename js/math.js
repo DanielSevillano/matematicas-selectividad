@@ -52,7 +52,7 @@ function formatear(elemento) {
     else setTimeout(() => formatear(elemento));
 }
 
-async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false) {
+async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false, mapaEjercicios = undefined) {
     const articulo = document.createElement("article");
     const titulo = document.createElement("h3");
     const parrafo = document.createElement("p");
@@ -99,10 +99,18 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
     articulo.append(contenedorCategorias);
 
     const curso = String(examen).slice(0, 4);
-    const ruta = "data\\" + modalidad + "\\" + curso + "\\" + examen + ejercicio + ".txt";
+    const codigo = String(examen) + String(ejercicio);
 
-    const respuesta = await fetch(ruta);
-    const datos = await respuesta.text();
+    let datos;
+    if (!mapaEjercicios || !mapaEjercicios.get(codigo)) {
+        const ruta = "data\\" + modalidad + "\\" + curso + "\\" + codigo + ".txt";
+        const respuesta = await fetch(ruta);
+        datos = await respuesta.text();
+        if (mapaEjercicios) mapaEjercicios.set(codigo, datos);
+    } else {
+        datos = mapaEjercicios.get(codigo);
+        await new Promise(resolve => setTimeout(resolve, 0));
+    }
 
     parrafo.innerHTML = datos;
 
@@ -113,9 +121,17 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
 
         tituloResolucion.textContent = "Resolución";
 
-        const ruta = "data\\" + modalidad + "\\" + curso + "\\R" + examen + ejercicio + ".txt";
-        const respuesta = await fetch(ruta);
-        const datos = await respuesta.text();
+        const codigoResolucion = "R" + codigo;
+
+        if (!mapaEjercicios || !mapaEjercicios.get(codigoResolucion)) {
+            const ruta = "data\\" + modalidad + "\\" + curso + "\\" + codigoResolucion + ".txt";
+            const respuesta = await fetch(ruta);
+            datos = await respuesta.text();
+            if (mapaEjercicios) mapaEjercicios.set(codigoResolucion, datos);
+        } else {
+            datos = mapaEjercicios.get(codigoResolucion);
+            await new Promise(resolve => setTimeout(resolve, 0));
+        }
 
         textoResolucion.innerHTML = datos;
 
@@ -190,7 +206,7 @@ async function mostrarExamen(modalidad, examen, metadatos, guardarMetadatos) {
     });
 }
 
-async function obtenerCategoria(modalidad, categoria, metadatos, soloResueltos, contador = undefined) {
+async function obtenerCategoria(modalidad, categoria, metadatos, mapaEjercicios, soloResueltos, contador = undefined) {
     const main = document.querySelector("main");
 
     let ejercicios = metadatos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
@@ -213,7 +229,7 @@ async function obtenerCategoria(modalidad, categoria, metadatos, soloResueltos, 
         const examen = parseInt(String(ejercicio.ejercicio).slice(0, 5));
         const numero = parseInt(String(ejercicio.ejercicio).slice(5));
 
-        const parrafo = await obtenerEjercicio(modalidad, examen, numero, resuelto, categorias, true);
+        const parrafo = await obtenerEjercicio(modalidad, examen, numero, resuelto, categorias, true, mapaEjercicios);
         main.append(parrafo);
         formatear(parrafo);
     };
@@ -221,7 +237,7 @@ async function obtenerCategoria(modalidad, categoria, metadatos, soloResueltos, 
     return true;
 }
 
-async function mostrarCategoria(modalidad, categoria, metadatos, soloResueltos = false, contador, guardarMetadatos) {
+async function mostrarCategoria(modalidad, categoria, metadatos, mapaEjercicios, soloResueltos = false, contador, guardarMetadatos) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
@@ -233,7 +249,7 @@ async function mostrarCategoria(modalidad, categoria, metadatos, soloResueltos =
         guardarMetadatos(datos);
     } else datos = metadatos;
 
-    obtenerCategoria(modalidad, categoria, datos, soloResueltos, contador).then(() => {
+    obtenerCategoria(modalidad, categoria, datos, mapaEjercicios, soloResueltos, contador).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });
