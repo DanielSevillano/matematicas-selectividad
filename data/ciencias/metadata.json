@@ -342,6 +342,7 @@
     },
     {
         "ejercicio": 202431,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
@@ -350,6 +351,7 @@
     },
     {
         "ejercicio": 202432,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Derivabilidad",

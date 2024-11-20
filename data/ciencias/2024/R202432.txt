@@ -1,0 +1,53 @@
+<ol>
+    <li>
+        En primer lugar, observamos que $f$ es continua y derivable en cada una de sus ramas para cualquier valor de $a$ y $b$, con
+        $$f'(x) = \begin{cases}
+            -ae^{-x} - \dfrac{b}{1-x}, & \text{si } x < 0, \\
+            1 + \dfrac{1}{1+x}, & \text{si } x \geq 0.
+        \end{cases}$$
+
+        Pasamos a estudiar su continuidad y derivabilidad en el punto de ruptura $x = 0.$
+
+        <ul>
+            <li>
+                Estudiamos la continuidad.
+                \begin{align}
+                    & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} (ae^{-x} + b\ln(1-x)) = a, \\
+                    & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} (x + \ln(1+x)) = 0, \\
+                    & f(0) = 0.
+                \end{align}
+
+                Como $f$ es continua en $x = 0$,
+                $$\lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) = f(0) \Leftrightarrow a = 0.$$
+            </li>
+
+            <li>
+                Estudiamos la derivabilidad.
+                \begin{align}
+                    & f'_-(0) = \lim_{x \to 0^-} f'(x) = \lim_{x \to 0^-} -\frac{b}{1-x} = -b, \\
+                    & f'_+(0) = \lim_{x \to 0^+} f'(x) = \lim_{x \to 0^+} 1 + \frac{1}{1+x} = 2.
+                \end{align}
+
+                Como $f$ es derivable en $x = 0$,
+                $$f'_-(0) = f'_+(0) \Leftrightarrow -b = 2 \Leftrightarrow b = -2.$$
+            </li>
+        </ul>
+
+        Así que $a = 0$ y $b = -2.$
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                La ecuación de la recta tangente a la gráfica de $f$ en $x = 0$ es:
+                $$y - f(0) = f'(0)(x-0) \Leftrightarrow y = 2x.$$
+            </li>
+
+            <li>
+                La recta normal a la gráfica de $f$ en $x = 0$ tiene como pendiente $-\frac{1}{f'(0)}.$
+                Por tanto, su ecuación es:
+                $$y - f(0) = -\frac{1}{f'(0)}(x-0) \Leftrightarrow y = -\frac{1}{2}x.$$
+            </li>
+        </ul>
+    </li>
+</ol>
