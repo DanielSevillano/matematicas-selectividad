@@ -360,6 +360,7 @@
     },
     {
         "ejercicio": 202433,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
