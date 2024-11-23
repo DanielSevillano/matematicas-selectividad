@@ -16,7 +16,7 @@
             </li>
         </ul>
 
-        Así que la gráfica de $f$ tiene dos puntos de corte con el eje de abscisas: $(0, -2)$ y $(0, 2).$
+        Así que la gráfica de $f$ tiene dos puntos de corte con el eje de abscisas: $(-2, 0)$ y $(2, 0).$
         Además, corta al eje $Y$ en el punto $(0, 4).$
 
         La primera rama es una recta, mientras que la segunda es una parábola con vértice $(2, 0).$
