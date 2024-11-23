@@ -106,7 +106,8 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
         const ruta = "data\\" + modalidad + "\\" + curso + "\\" + codigo + ".txt";
         const respuesta = await fetch(ruta);
         datos = await respuesta.text();
-        if (mapaEjercicios) mapaEjercicios.set(codigo, datos);
+        console.log(codigo, datos.length);
+        if (mapaEjercicios && curso >= 2021) mapaEjercicios.set(codigo, datos);
     } else {
         datos = mapaEjercicios.get(codigo);
         await new Promise(resolve => setTimeout(resolve, 0));
@@ -127,7 +128,7 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
             const ruta = "data\\" + modalidad + "\\" + curso + "\\" + codigoResolucion + ".txt";
             const respuesta = await fetch(ruta);
             datos = await respuesta.text();
-            if (mapaEjercicios) mapaEjercicios.set(codigoResolucion, datos);
+            if (mapaEjercicios && curso >= 2023) mapaEjercicios.set(codigoResolucion, datos);
         } else {
             datos = mapaEjercicios.get(codigoResolucion);
             await new Promise(resolve => setTimeout(resolve, 0));
