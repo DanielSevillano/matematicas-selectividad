@@ -106,7 +106,6 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
         const ruta = "data\\" + modalidad + "\\" + curso + "\\" + codigo + ".txt";
         const respuesta = await fetch(ruta);
         datos = await respuesta.text();
-        console.log(codigo, datos.length);
         if (mapaEjercicios && curso >= 2021) mapaEjercicios.set(codigo, datos);
     } else {
         datos = mapaEjercicios.get(codigo);
@@ -207,12 +206,17 @@ async function mostrarExamen(modalidad, examen, metadatos, guardarMetadatos) {
     });
 }
 
-async function obtenerCategoria(modalidad, categoria, metadatos, mapaEjercicios, soloResueltos, contador = undefined) {
+async function obtenerCategoria(modalidad, categoria, metadatos, mapaEjercicios, soloResueltos, cinta) {
     const main = document.querySelector("main");
 
     let ejercicios = metadatos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
     if (soloResueltos) ejercicios = ejercicios.filter(ejercicio => ejercicio.resuelto);
-    if (contador) contador.textContent = ejercicios.length;
+
+    cinta.querySelector("#contador").textContent = ejercicios.length;
+    cinta.classList.add("cargando");
+
+    let contador = 0;
+    const total = ejercicios.length;
 
     for (let ejercicio of ejercicios) {
         if (estado.cancelado) {
@@ -230,15 +234,20 @@ async function obtenerCategoria(modalidad, categoria, metadatos, mapaEjercicios,
         const examen = parseInt(String(ejercicio.ejercicio).slice(0, 5));
         const numero = parseInt(String(ejercicio.ejercicio).slice(5));
 
+        contador++;
+        cinta.style.setProperty("--progreso", contador / total * 100);
+
         const parrafo = await obtenerEjercicio(modalidad, examen, numero, resuelto, categorias, true, mapaEjercicios);
         main.append(parrafo);
         formatear(parrafo);
     };
 
+    cinta.classList.remove("cargando");
+
     return true;
 }
 
-async function mostrarCategoria(modalidad, categoria, metadatos, mapaEjercicios, soloResueltos = false, contador, guardarMetadatos) {
+async function mostrarCategoria(modalidad, categoria, metadatos, mapaEjercicios, soloResueltos = false, cinta, guardarMetadatos) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
@@ -250,7 +259,7 @@ async function mostrarCategoria(modalidad, categoria, metadatos, mapaEjercicios,
         guardarMetadatos(datos);
     } else datos = metadatos;
 
-    obtenerCategoria(modalidad, categoria, datos, mapaEjercicios, soloResueltos, contador).then(() => {
+    obtenerCategoria(modalidad, categoria, datos, mapaEjercicios, soloResueltos, cinta).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });

@@ -10,7 +10,6 @@ const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
 const cinta = document.querySelector("#cinta");
-const contador = cinta.querySelector("#contador");
 const casilla = cinta.querySelector("#casilla");
 
 let categoriaSeleccionada;
@@ -50,13 +49,13 @@ function pulsar(boton) {
             else b.classList.remove("seleccionado");
         });
 
-        mostrarCategoria("sociales", categoria, metadatos, mapaEjercicios, soloResueltos, contador, guardarMetadatos);
+        mostrarCategoria("sociales", categoria, metadatos, mapaEjercicios, soloResueltos, cinta, guardarMetadatos);
     }
     else setTimeout(() => pulsar(boton));
 }
 
 function mostrarSoloResueltos() {
-    if (!estado.cancelado) mostrarCategoria("sociales", categoriaSeleccionada, metadatos, mapaEjercicios, soloResueltos, contador, guardarMetadatos);
+    if (!estado.cancelado) mostrarCategoria("sociales", categoriaSeleccionada, metadatos, mapaEjercicios, soloResueltos, cinta, guardarMetadatos);
     else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 
