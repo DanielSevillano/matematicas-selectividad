@@ -211,12 +211,11 @@ async function obtenerCategoria(modalidad, categoria, metadatos, mapaEjercicios,
 
     let ejercicios = metadatos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
     if (soloResueltos) ejercicios = ejercicios.filter(ejercicio => ejercicio.resuelto);
-
-    cinta.querySelector("#contador").textContent = ejercicios.length;
-    cinta.classList.add("cargando");
-
-    let contador = 0;
     const total = ejercicios.length;
+
+    cinta.querySelector("#contador").textContent = total;
+    cinta.classList.add("cargando");
+    let contador = 0;
 
     for (let ejercicio of ejercicios) {
         if (estado.cancelado) {
