@@ -22,12 +22,14 @@
     },
     {
         "ejercicio": 2025604,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 2025605,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Probabilidad total"

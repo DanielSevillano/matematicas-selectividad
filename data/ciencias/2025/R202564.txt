@@ -1,0 +1,23 @@
+<p>
+    Llamamos $N$ a practicar natación y $T$ a practicar tenis.
+    Sabemos que:
+    $$P(N) = 0,55, \quad P(T) = 0,65 \quad \text{y} \quad P(\bar{N} \cap \bar{T}) = 0,1.$$
+
+    Podemos hallar la probabilidad de la unión.
+    $$P(N \cup T) = 1 - P(\overline{N \cup T}) = 1 - P(\bar{N} \cap \bar{T}) = 1 - 0,1 = 0,9.$$
+</p>
+
+<ol>
+    <li>
+        La probabilidad de practicar ambos deportes es:
+        $$P(N \cap T) = P(N) + P(T) - P(N \cup T) = 0,55 + 0,65 - 0,9 = 0,3.$$
+
+        Así que el 30% practican natación y tenis.
+        Como el club tiene 1.200 socios, $1.200 \cdot 0,3 = 360$ practican ambos deportes.
+    </li>
+
+    <li>
+        La probabilidad de que no juegue al tenis sabiendo que practica natación es:
+        $$P(\bar{T}|N) = \frac{P(\bar{T} \cap N)}{P(N)} = \frac{P(N) - P(N \cap T)}{P(N)} = \frac{0,55 - 0,3}{0,55} \approx 0,4545.$$
+    </li>
+</ol>
