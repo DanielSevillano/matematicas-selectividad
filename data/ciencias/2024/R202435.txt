@@ -1,0 +1,85 @@
+<ol>
+    <li>
+        En primer lugar, hallamos los determinantes de las matrices $A$ y $B.$
+        $$|A| = \begin{vmatrix}
+            1 & -1 & 0 \\
+            7 & 2 & 0 \\
+            0 & 0 & 1
+        \end{vmatrix} = 9, \quad
+        |B| = \begin{vmatrix}
+            2 & 0 & 1 \\
+            0 & 1 & 0 \\
+            \frac{1}{9} & 0 & 0
+        \end{vmatrix} = -\frac{1}{9}.$$
+
+        <ul>
+            <li>
+                Calculamos el determinante de $((AB)^5)^{-1}.$
+                $$|((AB)^5)^{-1}| = (|A| \cdot |B|)^{-5} = \left(9 \cdot \left(-\frac{1}{9}\right)\right)^{-5} = -1.$$
+            </li>
+
+            <li>
+                Calculamos el determinante de $27AB^6.$
+                Como $A$ y $B$ son de orden 3,
+                $$|27AB^6| = 27^3 \cdot |A| \cdot |B|^6 = 27^3 \cdot 9 \cdot \left(-\frac{1}{9}\right)^6 = \frac{1}{3}.$$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Por el apartado anterior, $A$ y $B$ son invertibles.
+        Despejamos la ecuación matricial.
+        $$AXB = 9I \Leftrightarrow X = 9A^{-1}B^{-1} = 9(BA)^{-1}.$$
+
+        En primer lugar, calculamos $BA.$
+        $$BA = \begin{pmatrix}
+            2 & 0 & 1 \\
+            0 & 1 & 0 \\
+            \frac{1}{9} & 0 & 0
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & -1 & 0 \\
+            7 & 2 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            2 & -2 & 1 \\
+            7 & 2 & 0 \\
+            \frac{1}{9} & -\frac{1}{9} & 0
+        \end{pmatrix}.$$
+
+        Además, su determinante es:
+        $$|BA| = |B| \cdot |A| = -\frac{1}{9} \cdot 9 = -1.$$
+
+        Para hallar la inversa de $BA$, calculamos primero su matriz adjunta.
+        $$\operatorname{Adj}(BA) = \begin{pmatrix}
+            0 & 0 & -1 \\
+            -\frac{1}{9} & -\frac{1}{9} & 0 \\
+            -2 & 7 & 18
+        \end{pmatrix}.$$
+
+        De esta forma, podemos calcular su inversa como:
+        $$(BA)^{-1} = \frac{1}{|BA|}\operatorname{Adj}(BA)^t = -\begin{pmatrix}
+            0 & -\frac{1}{9} & -2 \\
+            0 & -\frac{1}{9} & 7 \\
+            -1 & 0 & 18
+        \end{pmatrix} =
+        \begin{pmatrix}
+            0 & \frac{1}{9} & 2 \\
+            0 & \frac{1}{9} & -7 \\
+            1 & 0 & -18
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$X = 9(BA)^{-1} = 9 \begin{pmatrix}
+            0 & \frac{1}{9} & 2 \\
+            0 & \frac{1}{9} & -7 \\
+            1 & 0 & -18
+        \end{pmatrix} =
+        \begin{pmatrix}
+            0 & 1 & 18 \\
+            0 & 1 & -63 \\
+            9 & 0 & -162
+        \end{pmatrix}.$$
+    </li>
+</ol>

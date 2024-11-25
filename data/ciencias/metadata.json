@@ -369,6 +369,7 @@
     },
     {
         "ejercicio": 202434,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -376,6 +377,7 @@
     },
     {
         "ejercicio": 202435,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Determinantes",
