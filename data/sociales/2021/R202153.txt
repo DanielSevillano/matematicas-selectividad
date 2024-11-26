@@ -2,7 +2,7 @@
     <li>
         Estudiamos la continuidad y la derivabilidad de $f.$
 
-        <ol>
+        <ul>
             <li>
                 Si $x \neq 0$, $f$ es continua y derivable con
                 $$f'(x) = \begin{cases}
@@ -24,7 +24,7 @@
                 
                 Así que $f$ no es continua ni derivable en $x = 0.$
             </li>
-        </ol>
+        </ul>
 
         Por tanto, $f$ es continua y derivable en $\mathbb{R} \setminus \{0\}.$
     </li>
