@@ -397,6 +397,7 @@
     },
     {
         "ejercicio": 202437,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Distancia"
@@ -404,6 +405,7 @@
     },
     {
         "ejercicio": 202438,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]

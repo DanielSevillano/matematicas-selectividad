@@ -1,0 +1,36 @@
+<ol>
+    <li>
+        Para hallar el punto de $r$ a menor distancia de $P$, trazamos un plano $\pi$ perpendicular a $r$ que pase por $P.$
+        Al ser perpendicular a la recta $r$, su vector normal es $\vec{n}_\pi = \vec{d}_r = (2, 2, -1).$
+        Así que la ecuación del plano $\pi$ es:
+        $$\pi \equiv 2x + 2(y-2) - (z+4) = 0 \Leftrightarrow 2x + 2y - z - 8 = 0.$$
+
+        A continuación, calculamos el punto de intersección $Q$ de la recta y el plano, que será el punto de $r$ a menor distancia del punto $P.$
+        En primer lugar, hallamos las ecuaciones paramétricas de la recta $r.$
+        $$r \equiv \begin{cases}
+            x = -1 + 2\lambda, \\
+            y = 2 + 2\lambda, \\
+            z = 3 - \lambda.
+        \end{cases}$$
+        
+        Para ello hallar el punto de corte, sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
+        $$2(-1 + 2\lambda) + 2(2 + 2\lambda - 2) - (3 - \lambda) - 8 = 0 \Leftrightarrow 9\lambda - 9 = 0 \Leftrightarrow \lambda = 1.$$
+
+        Por tanto, el punto de intersección es $Q(1, 4, 2).$
+        Así que este es el punto de $r$ a menor distancia de $P.$
+    </li>
+
+    <li>
+        Consideramos un punto genérico $R(-1 + 2\lambda, 2 + 2\lambda, 3 - \lambda)$ de la recta $r.$
+        La distancia entre $P$ y el punto genérico $R$ viene dada por el módulo del vector $\vec{PR} = (-1 + 2\lambda, 2\lambda, 7 - \lambda).$
+        $$\operatorname{dist}(P, R) = |\vec{PR}| = \sqrt{(-1 + 2\lambda)^2 + (2\lambda)^2 + (7 - \lambda)^2} = \sqrt{9\lambda^2 - 18\lambda + 50}.$$
+
+        Como queremos hallar los puntos de $r$ cuya distancia a $P$ sea de $\sqrt{50} \; u$,
+        $$\operatorname{dist}(P, R) = \sqrt{50} \Leftrightarrow \sqrt{9\lambda^2 - 18\lambda + 50} = \sqrt{50} \Leftrightarrow 9\lambda^2 - 18\lambda + 50 = 50 \Leftrightarrow 9\lambda(\lambda - 2) = 0 \Leftrightarrow \begin{cases}
+            \lambda = 0, \\
+            \lambda = 2.
+        \end{cases}$$
+
+        Por tanto, los puntos son $R_1(-1, 2, 3)$ y $R_2(3, 6, 1).$
+    </li>
+</ol>
