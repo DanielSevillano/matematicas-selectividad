@@ -37,6 +37,7 @@
     },
     {
         "ejercicio": 2025606,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Probabilidad total"

@@ -1,0 +1,80 @@
+<p>
+    Llamamos $V$ a sacar una bola verde, $N$ a sacar una bola negra, $R$ a sacar una bola roja, $A$ a elegir la urna A y $B$ a elegir la urna B.
+    Podemos hacer un diagrama de árbol.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$V$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 3/10 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$A$</td>
+                <td>$\xrightarrow{\quad 4/10 \quad}$</td>
+                <td>$N$</td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 2/6 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 3/10 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$R$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="padding-top: 20px;">$V$</td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 4/6 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 6/10 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$B$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 4/10 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$N$</td>
+            </tr>
+        </table>
+    </div>
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que la bola sea verde es:
+        $$P(V) = P(A \cap V) + P(B \cap V) = P(A) \cdot P(V|A) + P(B) \cdot P(V|B) = \frac{2}{6} \cdot \frac{3}{10} + \frac{4}{6} \cdot \frac{6}{10} = \frac{1}{2}.$$
+    </li>
+
+    <li>
+        La probabilidad de que la bola sea roja es:
+        $$P(R) = P(A \cap R) = P(A) \cdot P(R|A) = \frac{2}{6} \cdot \frac{3}{10} = \frac{1}{10}.$$
+    </li>
+
+    <li>
+        La probabilidad de que la bola proceda de la urna B sabiendo que es verde es:
+        $$P(B|V) = \frac{P(B \cap V)}{P(V)} = \frac{P(B) \cdot P(V|B)}{P(V)} = \frac{\frac{4}{6} \cdot \frac{6}{10}}{\frac{1}{2}} = \frac{4}{5}.$$
+    </li>
+</ol>
