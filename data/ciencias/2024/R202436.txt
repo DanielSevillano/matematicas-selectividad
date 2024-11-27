@@ -1,0 +1,89 @@
+<ol>
+    <li>
+        En primer lugar, calculamos el determinante de la matriz $A.$
+        $$|A| = \begin{vmatrix}
+            1 & 0 & 1 \\
+            2 & 0 & a \\
+            5 & 3a - 1 & 0
+        \end{vmatrix} = 2(3a-1) - a(3a-1) = (2-a)(3a-1).$$
+
+        Observamos que:
+        $$|A| = 0 \Leftrightarrow (2-a)(3a-1) = 0 \Leftrightarrow \begin{cases}
+            2 - a = 0 \Leftrightarrow a = 2, \\
+            3a - 1 = 0 \Leftrightarrow a = \frac{1}{3}.
+        \end{cases}$$
+
+        Así que $\operatorname{rang}(A) = 3$ si $a \neq \frac{1}{3}$ y $a \neq 2.$
+        En caso contrario, $\operatorname{rang}(A) \leq 2.$
+        Estudiamos estos casos.
+
+        <ul>
+            <li>
+                Si $a = \frac{1}{3}$,
+                $$A = \begin{pmatrix}
+                    1 & 0 & 1 \\
+                    2 & 0 & \frac{1}{3} \\
+                    5 & 0 & 0
+                \end{pmatrix}.$$
+
+                Observamos que:
+                $$\begin{vmatrix}
+                    1 & 1 \\
+                    2 & \frac{1}{3}
+                \end{vmatrix} = -\frac{5}{3} \neq 0 \Rightarrow \operatorname{rang}(A) = 2.$$
+            </li>
+
+            <li>
+                Si $a = 2$,
+                $$A = \begin{pmatrix}
+                    1 & 0 & 1 \\
+                    2 & 0 & 2 \\
+                    5 & 5 & 0
+                \end{pmatrix}.$$
+
+                Observamos que:
+                $$\begin{vmatrix}
+                    1 & 0 \\
+                    5 & 5
+                \end{vmatrix} = 5 \neq 0 \Rightarrow \operatorname{rang}(A) = 2.$$
+            </li>
+        </ul>
+
+        Por tanto,
+        <ul>
+            <li>Si $a \neq \frac{1}{3}$ y $a \neq 2$, entonces $\operatorname{rang}(A) = 3.$</li>
+            <li>Si $a = \frac{1}{3}$ o $a = 2$, entonces $\operatorname{rang}(A) = 2.$</li>
+        </ul>
+    </li>
+
+    <li>
+        Si $a = 2$, por el apartado anterior $\operatorname{rang}(A) = 2.$
+        La matriz de coeficientes ampliada es:
+        $$(A|B) = \begin{pmatrix}
+            1 & 0 & 1 & 1 \\
+            2 & 0 & 2 & 2 \\
+            5 & 5 & 0 & 4
+        \end{pmatrix}$$
+
+        Observamos que la segunda fila es el doble de la primera, así que $\operatorname{rang}(A|B) = 2.$
+        Como $\operatorname{rang}(A) = \operatorname{rang}(A|B) < 3$, el sistema es compatible determinado.
+        Podemos reducir el sistema a:
+        \begin{cases}
+            x + z = 1, \\
+            5x + 5y = 4.
+        \end{cases}
+
+        Si tomamos $x = \lambda$, entonces:
+        \begin{align}
+            & x + z = 1 \Leftrightarrow z = 1 - x \xrightarrow{x = \lambda} z = 1 - \lambda, \\
+            & 5x + 5y = 4 \Leftrightarrow 5y = 4 - 5x \Leftrightarrow y = \frac{4-5x}{5} = \frac{4}{5} - x \xrightarrow{x = \lambda} y = \frac{4}{5} - \lambda.
+        \end{align}
+
+        Por tanto, las soluciones del sistema son de la forma:
+        \begin{cases}
+            x = \lambda, \\
+            y = \frac{4}{5} - \lambda, \\
+            z = 1 - \lambda.
+        \end{cases}
+    </li>
+</ol>

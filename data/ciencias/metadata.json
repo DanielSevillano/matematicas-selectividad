@@ -389,6 +389,7 @@
     },
     {
         "ejercicio": 202436,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Rango",
