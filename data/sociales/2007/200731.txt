@@ -1,3 +1,3 @@
-Un taller de carpinteria ha vendido 15 muebles, entre sillas, sillones y butacas, por un total de 1.600 euros.
-Se sabe que cobra 50 euros por cada silla, 150 euros por cada sillon y 200 euros por cada butaca, y que el numero de butacas es la cuarta parte del numero que suman los demas muebles.
-Plantee, sin resolver, el sistema de ecuaciones adecuado que permite calcular cuantos muebles de cada clase ha vendido ese taller.
+Un taller de carpintería ha vendido 15 muebles, entre sillas, sillones y butacas, por un total de 1.600 euros.
+Se sabe que cobra 50 euros por cada silla, 150 euros por cada sillón y 200 euros por cada butaca, y que el número de butacas es la cuarta parte del número que suman los demás muebles.
+Plantee, sin resolver, el sistema de ecuaciones adecuado que permite calcular cuántos muebles de cada clase ha vendido ese taller.
