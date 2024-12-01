@@ -413,6 +413,7 @@
     },
     {
         "ejercicio": 202441,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Optimización"

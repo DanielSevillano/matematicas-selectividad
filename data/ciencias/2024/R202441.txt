@@ -1,0 +1,45 @@
+<p>
+    Llamamos $x$ e $y$ al largo y el ancho del rectángulo en centímetros, respectivamente.
+    Como $x$ e $y$ son longitudes, $x, y > 0.$
+</p>
+
+<p>
+    Como el área del rectángulo es de 25 cm<sup>2</sup>, entonces:
+    $$xy = 25 \Rightarrow y = \frac{25}{x}.$$
+
+    Así que la función a minimizar es:
+    $$f(x) = \left(\sqrt{x^2 + y^2}\right)^2 = x^2 + y^2 = x^2 + \left(\frac{25}{x}\right)^2 = x^2 + \frac{625}{x^2}.$$
+</p>
+
+<p>
+    En primer lugar, hallamos la derivada de la función $f.$
+    $$f'(x) = 2x - 2 \cdot \frac{625}{x^3} = 2 \left(x - \frac{625}{x^3}\right).$$
+
+    Hallamos los puntos críticos de $f$ igualando la derivada a cero.
+    $$f'(x) = 0 \Leftrightarrow 2 \left(x - \frac{625}{x^3}\right) = 0 \Leftrightarrow x - \frac{625}{x^3} = 0 \Leftrightarrow x^4 = 625 \Leftrightarrow x = \pm 5.$$
+
+    Como $x > 0$ por ser una longitud, la solución $x = -5$ no es válida para este problema.
+</p>
+
+<p>
+    Comprobamos que en el punto de abscisa $x = 5$ se alcanza el mínimo de la función.
+
+    <ul>
+        <li>
+            Si $0 < x < 5$, $f'(x) < 0.$
+            Así que $f$ es decreciente.
+        </li>
+
+        <li>
+            Si $x > 5$, $f'(x) > 0.$
+            Así que $f$ es creciente.
+        </li>
+    </ul>
+
+    Luego $f$ tiene un mínimo en $x = 5.$
+    Por tanto, $y = \frac{25}{5} = 5.$
+</p>
+
+<p>
+    Así que el rectángulo tiene base 5 cm y altura 5 cm, es decir, se trata de un cuadrado de lado 5 cm.
+</p>
