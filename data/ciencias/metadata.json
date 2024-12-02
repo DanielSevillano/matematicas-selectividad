@@ -421,6 +421,7 @@
     },
     {
         "ejercicio": 202442,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Asíntotas"
