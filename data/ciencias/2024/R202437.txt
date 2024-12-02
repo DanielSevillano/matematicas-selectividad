@@ -23,10 +23,10 @@
     <li>
         Consideramos un punto genérico $R(-1 + 2\lambda, 2 + 2\lambda, 3 - \lambda)$ de la recta $r.$
         La distancia entre $P$ y el punto genérico $R$ viene dada por el módulo del vector $\vec{PR} = (-1 + 2\lambda, 2\lambda, 7 - \lambda).$
-        $$\operatorname{dist}(P, R) = |\vec{PR}| = \sqrt{(-1 + 2\lambda)^2 + (2\lambda)^2 + (7 - \lambda)^2} = \sqrt{9\lambda^2 - 18\lambda + 50}.$$
+        $$\dist(P, R) = |\vec{PR}| = \sqrt{(-1 + 2\lambda)^2 + (2\lambda)^2 + (7 - \lambda)^2} = \sqrt{9\lambda^2 - 18\lambda + 50}.$$
 
         Como queremos hallar los puntos de $r$ cuya distancia a $P$ sea de $\sqrt{50} \; u$,
-        $$\operatorname{dist}(P, R) = \sqrt{50} \Leftrightarrow \sqrt{9\lambda^2 - 18\lambda + 50} = \sqrt{50} \Leftrightarrow 9\lambda^2 - 18\lambda + 50 = 50 \Leftrightarrow 9\lambda(\lambda - 2) = 0 \Leftrightarrow \begin{cases}
+        $$\dist(P, R) = \sqrt{50} \Leftrightarrow \sqrt{9\lambda^2 - 18\lambda + 50} = \sqrt{50} \Leftrightarrow 9\lambda^2 - 18\lambda + 50 = 50 \Leftrightarrow 9\lambda(\lambda - 2) = 0 \Leftrightarrow \begin{cases}
             \lambda = 0, \\
             \lambda = 2.
         \end{cases}$$

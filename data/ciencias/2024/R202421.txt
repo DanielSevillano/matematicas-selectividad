@@ -6,7 +6,7 @@
         Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
         $$f'(x) = 0 \Leftrightarrow \frac{x^2 - 1}{x(x^2 + 1)} = 0 \Leftrightarrow x^2 - 1 = 0 \Leftrightarrow x = \pm 1.$$
 
-        Como $\operatorname{Dom}(f) = (0, +\infty)$, el único punto crítico es $x = 1.$
+        Como $\Dom(f) = (0, +\infty)$, el único punto crítico es $x = 1.$
         Estudiamos el signo de $f'.$
         
         <ul>

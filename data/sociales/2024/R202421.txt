@@ -51,14 +51,14 @@
 
         Como $\det(M) \neq 0$, la matriz es invertible.
         Para hallar su inversa, calculamos primero su matriz adjunta.
-        $$\operatorname{Adj}(M) = \begin{pmatrix}
+        $$\Adj(M) = \begin{pmatrix}
             1 & -2 & 1 \\
             1 & 0 & -1 \\
             -1 & 2 & 1
         \end{pmatrix}.$$
 
         Calculamos su inversa como:
-        $$M^{-1} = \frac{1}{|M|}\operatorname{Adj}(M)^t = \frac{1}{2} \begin{pmatrix}
+        $$M^{-1} = \frac{1}{|M|}\Adj(M)^t = \frac{1}{2} \begin{pmatrix}
             1 & 1 & -1 \\
             -2 & 0 & 2 \\
             1 & -1 & 1

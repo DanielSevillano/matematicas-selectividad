@@ -18,11 +18,11 @@
     Resolvemos la integral por partes.
     \begin{align}
         u = t & \Rightarrow u' = 1, \\
-        v' = \cos(t) & \Rightarrow v = \operatorname{sen}(t).
+        v' = \cos(t) & \Rightarrow v = \sin(t).
     \end{align}
 
     Entonces:
-    $$F(x) = 2\int t\cos(t)dt = 2t\operatorname{sen}(t) - 2\int \operatorname{sen}(t)dt = 2t\operatorname{sen}(t) + 2\cos(t) + C = 2t\operatorname{sen}(\sqrt{x}) + 2\cos(\sqrt{x}) + C.$$
+    $$F(x) = 2\int t\cos(t)dt = 2t\sin(t) - 2\int \sin(t)dt = 2t\sin(t) + 2\cos(t) + C = 2t\sin(\sqrt{x}) + 2\cos(\sqrt{x}) + C.$$
 </p>
 
 <p>
@@ -30,5 +30,5 @@
     Por tanto,
     $$F(0) = 5 \Leftrightarrow 2 + C = 5 \Leftrightarrow C = 3.$$
     Luego la primitiva es
-    $$F(x) = 2t\operatorname{sen}(\sqrt{x}) + 2\cos(\sqrt{x}) + 3.$$
+    $$F(x) = 2t\sin(\sqrt{x}) + 2\cos(\sqrt{x}) + 3.$$
 </p>

@@ -4,27 +4,27 @@
 
     Resolvemos la integral por partes.
     \begin{align}
-        u = \cos(x) & \Rightarrow u' = -\operatorname{sen}(x), \\
+        u = \cos(x) & \Rightarrow u' = -\sin(x), \\
         v' = e^x & \Rightarrow v = e^x.
     \end{align}
 
     Entonces
-    $$\int e^x\cos(x)dx = e^x\cos(x) + \int e^x\operatorname{sen}(x)dx.$$
+    $$\int e^x\cos(x)dx = e^x\cos(x) + \int e^x\sin(x)dx.$$
 
     Integramos de nuevo por partes.
     \begin{align}
-        u = \operatorname{sen}(x) & \Rightarrow u' = \cos(x), \\
+        u = \sin(x) & \Rightarrow u' = \cos(x), \\
         v' = e^x & \Rightarrow v = e^x.
     \end{align}
 
     Luego
-    $$\int e^x\cos(x)dx = e^x\cos(x) + \int e^x\operatorname{sen}(x)dx = e^x\cos(x) + e^x\operatorname{sen}(x) - \int e^x\cos(x)dx.$$
+    $$\int e^x\cos(x)dx = e^x\cos(x) + \int e^x\sin(x)dx = e^x\cos(x) + e^x\sin(x) - \int e^x\cos(x)dx.$$
 
     Despejando la integral en la expresión anterior, obtenemos que
-    $$2\int e^x\cos(x)dx = e^x(\cos(x) + \operatorname{sen}(x)) \Leftrightarrow \int e^x\cos(x)dx = \frac{1}{2}e^x(\cos(x) + \operatorname{sen}(x)).$$
+    $$2\int e^x\cos(x)dx = e^x(\cos(x) + \sin(x)) \Leftrightarrow \int e^x\cos(x)dx = \frac{1}{2}e^x(\cos(x) + \sin(x)).$$
 </p>
 
 <p>
     Por último, calculamos la integral definida.
-    $$\int_0^\frac{\pi}{2} e^x\cos(x)dx = \frac{1}{2}\Big[e^x(\cos(x) + \operatorname{sen}(x))\Big]_0^\frac{\pi}{2} = \frac{1}{2}(e^\frac{\pi}{2} - 1).$$
+    $$\int_0^\frac{\pi}{2} e^x\cos(x)dx = \frac{1}{2}\Big[e^x(\cos(x) + \sin(x))\Big]_0^\frac{\pi}{2} = \frac{1}{2}(e^\frac{\pi}{2} - 1).$$
 </p>

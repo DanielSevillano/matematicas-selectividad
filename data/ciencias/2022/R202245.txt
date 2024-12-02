@@ -12,7 +12,7 @@
         $$\begin{vmatrix}
             1 & 1 \\
             -1 & 1
-        \end{vmatrix} = 2 \neq 0 \Rightarrow \operatorname{rang}(A) \geq 2.$$
+        \end{vmatrix} = 2 \neq 0 \Rightarrow \rang(A) \geq 2.$$
 
         Para determinar el rango de $A$ según el valor de $\alpha$, estudiamos su determinante.
         $$|A| = \begin{vmatrix}
@@ -27,8 +27,8 @@
             \alpha = 1.
         \end{cases}$$
 
-        Es decir, $\operatorname{rang}(A) = 3$ si y solo si $\alpha \neq 0$ y $\alpha \neq 1.$
-        En otro caso, $\operatorname{rang}(A) = 2.$
+        Es decir, $\rang(A) = 3$ si y solo si $\alpha \neq 0$ y $\alpha \neq 1.$
+        En otro caso, $\rang(A) = 2.$
 
         <ul>
             <li>
@@ -37,7 +37,7 @@
             </li>
 
             <li>
-                Si $\alpha = 0$ o $\alpha = 1$, $\operatorname{rang}(A) = 2 < 3.$
+                Si $\alpha = 0$ o $\alpha = 1$, $\rang(A) = 2 < 3.$
                 Por tanto, el sistema es compatible indeterminado.
             </li>
         </ul>

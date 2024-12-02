@@ -19,14 +19,14 @@
     <li>
         Si $a = 5$, por el apartado anterior $A$ es invertible con $\det(A) = 45.$
         Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
-        $$\operatorname{Adj}(A) = \begin{pmatrix}
+        $$\Adj(A) = \begin{pmatrix}
             25 & -40 & 0 \\
             -10 & 25 & 0 \\
             0 & 0 & 9
         \end{pmatrix}.$$
 
         Calculamos su inversa como
-        $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \frac{1}{45} \begin{pmatrix}
+        $$A^{-1} = \frac{1}{|A|}\Adj(A)^t = \frac{1}{45} \begin{pmatrix}
             25 & -10 & 0 \\
             -40 & 25 & 0 \\
             0 & 0 & 9

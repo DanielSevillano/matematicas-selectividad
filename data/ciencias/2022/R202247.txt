@@ -6,10 +6,10 @@
         $$\tau \equiv 2x + y - 2z + d = 0.$$
 
         El punto $P(0, 2, 0)$ pertenece al plano $\pi$, así que la distancia entre $\pi$ y $\tau$ viene dada por
-        $$\operatorname{dist}(\pi, \tau) = \operatorname{dist}(P, \tau) = \frac{|2+d|}{|\vec{n}|} = \frac{|2+d|}{3}.$$
+        $$\dist(\pi, \tau) = \dist(P, \tau) = \frac{|2+d|}{|\vec{n}|} = \frac{|2+d|}{3}.$$
 
         Como queremos que la distancia sea de dos unidades,
-        $$\operatorname{dist}(\pi, \tau) = 2 \Leftrightarrow \frac{|2+d|}{3} = 2 \Leftrightarrow |2+d| = 6 \Leftrightarrow \begin{cases}
+        $$\dist(\pi, \tau) = 2 \Leftrightarrow \frac{|2+d|}{3} = 2 \Leftrightarrow |2+d| = 6 \Leftrightarrow \begin{cases}
             2 + d = 6 \Leftrightarrow d = 4, \\
             2 + d = -6 \Leftrightarrow d = -8.
         \end{cases}$$

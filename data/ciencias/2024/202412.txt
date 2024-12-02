@@ -1,4 +1,4 @@
-Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = \operatorname{arctg}(x + \pi).$
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = \arctan(x + \pi).$
 
 <ol>
     <li>
@@ -8,6 +8,6 @@ Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = \opera
 
     <li>
         Calcula
-        $$\lim_{x \to -\pi} \frac{\operatorname{arctg}(x+\pi)}{\operatorname{sen}(x)}.$$
+        $$\lim_{x \to -\pi} \frac{\arctan(x+\pi)}{\sin(x)}.$$
     </li>
 </ol>

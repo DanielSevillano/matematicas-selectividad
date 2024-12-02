@@ -5,7 +5,7 @@
 
 <p>
     Para hallar la distancia entre dos las rectas, podemos trazar un plano $\pi$ perpendicular a $r$ y $s$ que pase por el punto $P(0, -2, 1)$ de $r.$
-    Esta recta cortará a $s$ en un punto $Q$, de forma que $\operatorname{dist}(r, s) = \operatorname{dist}(P, Q).$
+    Esta recta cortará a $s$ en un punto $Q$, de forma que $\dist(r, s) = \dist(P, Q).$
 </p>
 
 <p>
@@ -33,7 +33,7 @@
 
     Por tanto, el punto de corte es $Q\left(-\frac{4}{3}, -\frac{5}{3}, \frac{5}{3}\right).$
     Por último, calculamos la distancia de $r$ a $s$ como el módulo del vector $\vec{PQ} = \left(-\frac{4}{3}, -\frac{1}{3}, \frac{2}{3}\right).$
-    $$\operatorname{dist}(r, s) = \operatorname{dist}(P, Q) = |\vec{PQ}| = \sqrt{\left(\frac{4}{3}\right)^2 + \left(\frac{1}{3}\right)^2 + \left(\frac{2}{3}\right)^2} = \sqrt{\frac{21}{9}} = \frac{\sqrt{21}}{3} \; u.$$
+    $$\dist(r, s) = \dist(P, Q) = |\vec{PQ}| = \sqrt{\left(\frac{4}{3}\right)^2 + \left(\frac{1}{3}\right)^2 + \left(\frac{2}{3}\right)^2} = \sqrt{\frac{21}{9}} = \frac{\sqrt{21}}{3} \; u.$$
 
     Luego el área del cuadrado es
     $$\left(\frac{\sqrt{21}}{3}\right)^2 = \frac{21}{9} = \frac{7}{3} \; u^2.$$

@@ -1,6 +1,6 @@
 Se sabe que la función $f: \mathbb{R} \to \mathbb{R}$, dada por
 \begin{cases}
-    \operatorname{sen}(x) + ax + b, & \text{si } x \leq 0, \\
+    \sin(x) + ax + b, & \text{si } x \leq 0, \\
     \dfrac{\ln(x+1)}{x}, & \text{si } x > 0
 \end{cases}
 es derivable.

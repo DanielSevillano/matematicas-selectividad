@@ -1,12 +1,12 @@
 <ol>
     <li>Calculamos la integral definida.
     \begin{align}
-        & \int_0^\frac{\pi}{6} (3f(x) - \cos(x))dx = 3\int_0^\frac{\pi}{6} f(x)dx - \int_0^\frac{\pi}{6} \cos(x)dx = 3\Big[F(x)\Big]_0^\frac{\pi}{6} - \Big[\operatorname{sen}(x)\Big]_0^\frac{\pi}{6} = \\
-        & = 3\left(F\left(\frac{\pi}{6}\right) - F(0)\right) - \operatorname{sen}\left(\frac{\pi}{6}\right) = 3\left(\pi - \frac{\pi}{3}\right) - \frac{1}{2} = 2\pi - \frac{1}{2} = \frac{4\pi - 1}{2}.
+        & \int_0^\frac{\pi}{6} (3f(x) - \cos(x))dx = 3\int_0^\frac{\pi}{6} f(x)dx - \int_0^\frac{\pi}{6} \cos(x)dx = 3\Big[F(x)\Big]_0^\frac{\pi}{6} - \Big[\sin(x)\Big]_0^\frac{\pi}{6} = \\
+        & = 3\left(F\left(\frac{\pi}{6}\right) - F(0)\right) - \sin\left(\frac{\pi}{6}\right) = 3\left(\pi - \frac{\pi}{3}\right) - \frac{1}{2} = 2\pi - \frac{1}{2} = \frac{4\pi - 1}{2}.
     \end{align}
     </li>
 
     <li>Como la función $f$ es continua y $F$ es su primitiva, por el teorema fundamental del cálculo $F$ es derivable con $F'(x) = f(x).$
     Calculamos la integral definida.
-    $$\int_0^\frac{\pi}{6} \operatorname{sen}(F(x))f(x)dx = \Big[-\cos(F(x))\Big]_0^\frac{\pi}{6} = -\cos\left(F\left(\frac{\pi}{6}\right)\right) + \cos(F(0)) = -\cos(\pi) + \cos\left(\frac{\pi}{3}\right) = 1 + \frac{1}{2} = \frac{3}{2}.$$</li>
+    $$\int_0^\frac{\pi}{6} \sin(F(x))f(x)dx = \Big[-\cos(F(x))\Big]_0^\frac{\pi}{6} = -\cos\left(F\left(\frac{\pi}{6}\right)\right) + \cos(F(0)) = -\cos(\pi) + \cos\left(\frac{\pi}{3}\right) = 1 + \frac{1}{2} = \frac{3}{2}.$$</li>
 </ol>

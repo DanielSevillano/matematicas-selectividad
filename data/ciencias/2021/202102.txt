@@ -1,7 +1,7 @@
 Considera la función continua $f: \mathbb{R} \to \mathbb{R}$ definida por
 $$f(x) = \begin{cases}
     (3x-6)e^x, & \text{si } x \leq 0, \\
-    \dfrac{36(\operatorname{sen}(x) - ax)}{x^3}, & \text{si } x > 0.
+    \dfrac{36(\sin(x) - ax)}{x^3}, & \text{si } x > 0.
 \end{cases}$$
 
 <ol>

@@ -65,13 +65,13 @@
         $$MX + M^2 = I \Leftrightarrow MX = I - M^2 \Leftrightarrow X = M^{-1}(I - M^2) = M^{-1} - M.$$
 
         Para hallar la inversa de $M$, calculamos primero su matriz adjunta.
-        $$\operatorname{Adj}(M) = \begin{pmatrix}
+        $$\Adj(M) = \begin{pmatrix}
             1 & -1 \\
             -1 & 0
         \end{pmatrix}.$$
 
         De esta forma, calculamos su inversa como:
-        $$M^{-1} = \frac{1}{|M|}\operatorname{Adj}(M)^t = -\begin{pmatrix}
+        $$M^{-1} = \frac{1}{|M|}\Adj(M)^t = -\begin{pmatrix}
             1 & -1 \\
             -1 & 0
         \end{pmatrix} =

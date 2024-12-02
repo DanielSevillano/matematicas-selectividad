@@ -26,7 +26,7 @@
         Así que podemos escribir la función $f$ como:
         $$f(x) = \frac{x-1}{(x-1)(x+3)} = \frac{1}{x+3}.$$
 
-        De esta forma, $\operatorname{Dom}(f) = \mathbb{R} \setminus \{-3\}.$
+        De esta forma, $\Dom(f) = \mathbb{R} \setminus \{-3\}.$
         Observamos que:
         \begin{align}
             & \lim_{x \to -3^-} f(x) = \lim_{x \to -3^-} \frac{1}{x+3} = \frac{1}{0^-} = -\infty, \\

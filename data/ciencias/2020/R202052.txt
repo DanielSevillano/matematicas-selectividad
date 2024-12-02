@@ -2,27 +2,27 @@
     En primer lugar, hallamos una primitiva de la función.
     Para resolver esta integral, usamos las relaciones trigonométricas
     \begin{cases}
-        \cos^2(x) + \operatorname{sen}^2(x) = 1 \Leftrightarrow \cos^2(x) = 1 - \operatorname{sen}^2(x), \\
-        \cos(2x) = \cos^2(x) - \operatorname{sen}^2(x).
+        \cos^2(x) + \sin^2(x) = 1 \Leftrightarrow \cos^2(x) = 1 - \sin^2(x), \\
+        \cos(2x) = \cos^2(x) - \sin^2(x).
     \end{cases}
 
     Sustituyendo en la segunda identidad,
-    $$\cos(2x) = \cos^2(x) - \operatorname{sen}^2(x) \Leftrightarrow \cos(2x) = 1 - 2\operatorname{sen}^2(x) \Leftrightarrow \operatorname{sen}^2(x) = \frac{1 - \cos(2x)}{2}.$$
+    $$\cos(2x) = \cos^2(x) - \sin^2(x) \Leftrightarrow \cos(2x) = 1 - 2\sin^2(x) \Leftrightarrow \sin^2(x) = \frac{1 - \cos(2x)}{2}.$$
 
     De esta forma,
-    $$\int x\operatorname{sen}(x)dx = \int x\frac{1 - \cos(2x)}{2}dx = \frac{1}{2} \int xdx - \frac{1}{2} \int x\cos(2x)dx = \frac{1}{4}x^2 - \frac{1}{2} \int x\cos(2x)dx.$$
+    $$\int x\sin(x)dx = \int x\frac{1 - \cos(2x)}{2}dx = \frac{1}{2} \int xdx - \frac{1}{2} \int x\cos(2x)dx = \frac{1}{4}x^2 - \frac{1}{2} \int x\cos(2x)dx.$$
 
     Resolvemos la integral por partes.
     \begin{align}
         u = x & \Rightarrow u' = 1, \\
-        v' = \cos(2x) & \Rightarrow v = \frac{1}{2}\operatorname{sen}(2x).
+        v' = \cos(2x) & \Rightarrow v = \frac{1}{2}\sin(2x).
     \end{align}
 
     Entonces:
-    $$\frac{1}{4}x^2 - \frac{1}{2} \int x\cos(2x)dx = \frac{1}{4}x^2 - \frac{1}{2} \left(\frac{1}{2}x\operatorname{sen}(2x) - \frac{1}{2} \int \operatorname{sen}(2x)dx\right) = \frac{1}{4}x^2 - \frac{1}{4}x\operatorname{sen}(2x) - \frac{1}{8}\cos(2x).$$
+    $$\frac{1}{4}x^2 - \frac{1}{2} \int x\cos(2x)dx = \frac{1}{4}x^2 - \frac{1}{2} \left(\frac{1}{2}x\sin(2x) - \frac{1}{2} \int \sin(2x)dx\right) = \frac{1}{4}x^2 - \frac{1}{4}x\sin(2x) - \frac{1}{8}\cos(2x).$$
 </p>
 
 <p>
     Por último, calculamos la integral definida.
-    $$\int_0^\pi x\operatorname{sen}(x)dx = \left[\frac{1}{4}x^2 - \frac{1}{4}x\operatorname{sen}(2x) - \frac{1}{8}\cos(2x)\right]_0^\pi = \frac{\pi^2}{4} - \frac{1}{8} - \left(- \frac{1}{8}\right) = \frac{\pi^2}{4}.$$
+    $$\int_0^\pi x\sin(x)dx = \left[\frac{1}{4}x^2 - \frac{1}{4}x\sin(2x) - \frac{1}{8}\cos(2x)\right]_0^\pi = \frac{\pi^2}{4} - \frac{1}{8} - \left(- \frac{1}{8}\right) = \frac{\pi^2}{4}.$$
 </p>

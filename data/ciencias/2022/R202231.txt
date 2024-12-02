@@ -1,11 +1,11 @@
 <p>
     Calculamos el límite.
-    $$\lim_{x \to 0} \frac{a\operatorname{sen}(x) + x\ln(x+1) + bx^2}{x^3 + x^2} = \frac{0}{0}.$$
+    $$\lim_{x \to 0} \frac{a\sin(x) + x\ln(x+1) + bx^2}{x^3 + x^2} = \frac{0}{0}.$$
 </p>
 
 <p>
     Para resolver la indeterminación, aplicamos la regla de L'Hôpital.
-    $$\lim_{x \to 0} \frac{a\operatorname{sen}(x) + x\ln(x+1) + bx^2}{x^3 + x^2} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{a\cos(x) + \ln(x+1) + \frac{x}{x+1} + 2bx}{3x^2 + 2x} = \frac{a}{0}.$$
+    $$\lim_{x \to 0} \frac{a\sin(x) + x\ln(x+1) + bx^2}{x^3 + x^2} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{a\cos(x) + \ln(x+1) + \frac{x}{x+1} + 2bx}{3x^2 + 2x} = \frac{a}{0}.$$
     Si $a \neq 0$ este límite será infinito, así que necesariamente $a = 0.$
 </p>
 
@@ -16,5 +16,5 @@
 
 <p>
     Por tanto,
-    $$\lim_{x \to 0} \frac{a\operatorname{sen}(x) + x\ln(x+1) + bx^2}{x^3 + x^2} = 2 \Leftrightarrow 1 + b = 2 \Leftrightarrow b = 1.$$
+    $$\lim_{x \to 0} \frac{a\sin(x) + x\ln(x+1) + bx^2}{x^3 + x^2} = 2 \Leftrightarrow 1 + b = 2 \Leftrightarrow b = 1.$$
 </p>

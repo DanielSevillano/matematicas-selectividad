@@ -5,7 +5,7 @@
                 La función $f$ es una función racional, así que los puntos que no pertenecen al dominio son aquellos que anulan al denominador.
                 $$x + 2 = 0 \Leftrightarrow x = -2.$$
 
-                Por tanto, $\operatorname{Dom}(f) = \mathbb{R} \setminus \{-2\}.$
+                Por tanto, $\Dom(f) = \mathbb{R} \setminus \{-2\}.$
             </li>
 
             <li>

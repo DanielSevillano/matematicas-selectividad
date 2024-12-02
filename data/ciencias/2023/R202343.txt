@@ -1,6 +1,6 @@
 <p>
     En primer lugar, hallamos todas las primitivas de la función $f.$
-    $$F(x) = \int f(x)dx = \int \operatorname{arctg}(\sqrt{x})dx.$$
+    $$F(x) = \int f(x)dx = \int \arctan(\sqrt{x})dx.$$
 </p>
 
 <p>
@@ -11,18 +11,18 @@
     \end{align}
 
     De esta forma,
-    $$F(x) = \int \operatorname{arctg}(\sqrt{x})dx = \int 2t\operatorname{arctg}(t)dt.$$
+    $$F(x) = \int \arctan(\sqrt{x})dx = \int 2t\arctan(t)dt.$$
 </p>
 
 <p>
     Resolvemos la integral por partes.
     \begin{align}
-        u = \operatorname{arctg}(t) & \Rightarrow u' = \frac{1}{1+t^2}, \\
+        u = \arctan(t) & \Rightarrow u' = \frac{1}{1+t^2}, \\
         v' = 2t & \Rightarrow v = t^2.
     \end{align}
 
     Entonces:
-    $$F(x) = \int 2t\operatorname{arctg}(t)dt = t^2\operatorname{arctg}(t) - \int \frac{t^2}{1+t^2}dt.$$
+    $$F(x) = \int 2t\arctan(t)dt = t^2\arctan(t) - \int \frac{t^2}{1+t^2}dt.$$
 </p>
 
 <p>
@@ -30,7 +30,7 @@
     $$\frac{t^2}{1+t^2} = 1 - \frac{1}{1+t^2}.$$
 
     Así que:
-    $$F(x) = t^2\operatorname{arctg}(t) - \int 1dt + \int \frac{1}{1+t^2}dt = t^2\operatorname{arctg}(t) - t + \operatorname{arctg}(t) + C = (x+1)\operatorname{arctg}(\sqrt{x}) - \sqrt{x} + C.$$
+    $$F(x) = t^2\arctan(t) - \int 1dt + \int \frac{1}{1+t^2}dt = t^2\arctan(t) - t + \arctan(t) + C = (x+1)\arctan(\sqrt{x}) - \sqrt{x} + C.$$
 </p>
 
 <p>
@@ -38,5 +38,5 @@
     Por tanto,
     $$F(0) = 1 \Leftrightarrow C = 1.$$
     Luego la primitiva es
-    $$F(x) = (x+1)\operatorname{arctg}(\sqrt{x}) - \sqrt{x} + 1.$$
+    $$F(x) = (x+1)\arctan(\sqrt{x}) - \sqrt{x} + 1.$$
 </p>

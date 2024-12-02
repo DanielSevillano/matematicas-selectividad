@@ -1,2 +1,2 @@
 Calcula
-$$\int_0^\pi x\operatorname{sen}^2(x)dx.$$
+$$\int_0^\pi x\sin^2(x)dx.$$

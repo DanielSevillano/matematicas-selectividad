@@ -5,27 +5,27 @@
     Resolvemos la integral por partes.
     \begin{align}
         u = x & \Rightarrow u' = 1, \\
-        v' = \cos(x) & \Rightarrow v = \operatorname{sen}(x).
+        v' = \cos(x) & \Rightarrow v = \sin(x).
     \end{align}
 
     Entonces:
-    $$f'(x) = \int x\cos(x)dx = x\operatorname{sen}(x) - \int \operatorname{sen}(x)dx = x\operatorname{sen}(x) + \cos(x) + C.$$
+    $$f'(x) = \int x\cos(x)dx = x\sin(x) - \int \sin(x)dx = x\sin(x) + \cos(x) + C.$$
 </p>
 
 <p>
     De igual forma, $f'$ es la derivada de $f$, así que
-    $$f(x) = \int f'(x)dx = \int (x\operatorname{sen}(x) + \cos(x) + C)dx = \int x\operatorname{sen}(x)dx + \operatorname{sen}(x) + Cx.$$
+    $$f(x) = \int f'(x)dx = \int (x\sin(x) + \cos(x) + C)dx = \int x\sin(x)dx + \sin(x) + Cx.$$
 
     Resolvemos la integral por partes.
     \begin{align}
         u = x & \Rightarrow u' = 1, \\
-        v' = \operatorname{sen}(x) & \Rightarrow v = -\cos(x).
+        v' = \sin(x) & \Rightarrow v = -\cos(x).
     \end{align}
 
     Entonces:
     \begin{align}
-        & f(x) = \int x\operatorname{sen}(x)dx + \operatorname{sen}(x) + Cx = -x\cos(x) + \int \cos(x)dx  + \operatorname{sen}(x) + Cx + K = \\
-        & = -x\cos(x) + 2\operatorname{sen}(x) + Cx + K.
+        & f(x) = \int x\sin(x)dx + \sin(x) + Cx = -x\cos(x) + \int \cos(x)dx  + \sin(x) + Cx + K = \\
+        & = -x\cos(x) + 2\sin(x) + Cx + K.
     \end{align}
 </p>
 
@@ -43,5 +43,5 @@
 
 <p>
     Así que la función es
-    $$f(x) = -x\cos(x) + 2\operatorname{sen}(x) + \frac{1}{2}x + \frac{\pi}{2}.$$
+    $$f(x) = -x\cos(x) + 2\sin(x) + \frac{1}{2}x + \frac{\pi}{2}.$$
 </p>

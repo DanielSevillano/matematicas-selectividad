@@ -11,13 +11,13 @@
 
         Como la matriz $A$ tiene que ser invertible, necesariamente $a \neq 0.$
         Para hallar su inversa, calculamos primero su matriz adjunta.
-        $$\operatorname{Adj}(A) = \begin{pmatrix}
+        $$\Adj(A) = \begin{pmatrix}
             1 & -a \\
             -3 & -a
         \end{pmatrix}.$$
 
         Ahora podemos calcular la inversa como
-        $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = -\frac{1}{4a} \begin{pmatrix}
+        $$A^{-1} = \frac{1}{|A|}\Adj(A)^t = -\frac{1}{4a} \begin{pmatrix}
             1 & -3 \\
             -a & -a
         \end{pmatrix} =

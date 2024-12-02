@@ -38,14 +38,14 @@
     Resolvemos la integral por partes.
     \begin{align}
         u = t & \Rightarrow u' = 1, \\
-        v' = \cos(t) & \Rightarrow v = \operatorname{sen}(t).
+        v' = \cos(t) & \Rightarrow v = \sin(t).
     \end{align}
 
     Entonces:
-    $$\int 2t\cos(t)dt = 2\int t\cos(t)dt = 2t\operatorname{sen}(t) - 2\int \operatorname{sen}(t)dt = 2t\operatorname{sen}(t) + 2\cos(t).$$
+    $$\int 2t\cos(t)dt = 2\int t\cos(t)dt = 2t\sin(t) - 2\int \sin(t)dt = 2t\sin(t) + 2\cos(t).$$
 
     Calculamos la integral definida.
-    $$F(\pi) = \int_0^\pi 2t\cos(t)dt = 2\Big[t\operatorname{sen}(t) + \cos(t)\Big]_0^\pi = -2-2 = -4.$$
+    $$F(\pi) = \int_0^\pi 2t\cos(t)dt = 2\Big[t\sin(t) + \cos(t)\Big]_0^\pi = -2-2 = -4.$$
 
     Por tanto, la ecuación de la recta tangente en $x = \pi$ es
     $$y + 4 = -2\pi(x-\pi) \Leftrightarrow y = -2\pi x + 2\pi^2 - 4.$$

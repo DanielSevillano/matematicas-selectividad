@@ -3,7 +3,7 @@
         En primer lugar, calculamos la derivada de $f.$
         $$f'(x) = \begin{cases}
             5, & \text{si } -2 \leq x < 0, \\
-            e^x(\cos(x) - \operatorname{sen}(x)), & \text{si } 0 < x \leq 2\pi.
+            e^x(\cos(x) - \sin(x)), & \text{si } 0 < x \leq 2\pi.
         \end{cases}$$
 
         Para hallar los puntos críticos, igualamos las dos ramas de la derivada de $f$ a cero.
@@ -13,7 +13,7 @@
         
             <li>
                 Si $0 < x \leq 2\pi$,
-                $$f'(x) = 0 \Leftrightarrow e^x(\cos(x) - \operatorname{sen}(x)) = 0 \Leftrightarrow \cos(x) - \operatorname{sen}(x) = 0 \Leftrightarrow \cos(x) = \operatorname{sen}(x) \Leftrightarrow \begin{cases}
+                $$f'(x) = 0 \Leftrightarrow e^x(\cos(x) - \sin(x)) = 0 \Leftrightarrow \cos(x) - \sin(x) = 0 \Leftrightarrow \cos(x) = \sin(x) \Leftrightarrow \begin{cases}
                     x = \frac{\pi}{4}, \\
                     x = \frac{5\pi}{4}.
                 \end{cases}$$

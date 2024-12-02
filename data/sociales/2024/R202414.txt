@@ -1,6 +1,6 @@
 <ol>
     <li>
-        En primer lugar, observamos que $\operatorname{Dom}(f) = \operatorname{Dom}(g) = [-1, 3].$
+        En primer lugar, observamos que $\Dom(f) = \Dom(g) = [-1, 3].$
         La función $g$ es continua y derivable en todo su dominio por ser constante.
         Estudiamos la continuidad y la derivabilidad de la función $f.$
 

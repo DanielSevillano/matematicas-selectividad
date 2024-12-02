@@ -4,5 +4,5 @@ Sea $f: \left[0, \frac{\pi}{6}\right] \to \mathbb{R}$ una función continua y se
     <li>Calcula
     $$\int_0^{\frac{\pi}{6}} (3f(x) - \cos(x))dx.$$</li>
     <li>Calcula
-    $$\int_0^{\frac{\pi}{6}} \operatorname{sen}(F(x))f(x)dx.$$</li>
+    $$\int_0^{\frac{\pi}{6}} \sin(F(x))f(x)dx.$$</li>
 </ol>

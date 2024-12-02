@@ -22,14 +22,14 @@
         $$\frac{1}{2}AX + C^4 = B \Leftrightarrow \frac{1}{2}AX = B - C^4 \Leftrightarrow X = 2A^{-1}(B - C^4).$$
 
         Para hallar la inversa de la matriz $A$, calculamos primero su matriz adjunta.
-        $$\operatorname{Adj}(A) = \begin{pmatrix}
+        $$\Adj(A) = \begin{pmatrix}
             0 & -2 & 2 \\
             -2 & 0 & -2 \\
             2 & -2 & 0
         \end{pmatrix}.$$
 
         Ahora podemos calcular su inversa como
-        $$A^{-1} = \frac{1}{|A|} \operatorname{Adj}(A)^t = -\frac{1}{4} \begin{pmatrix}
+        $$A^{-1} = \frac{1}{|A|} \Adj(A)^t = -\frac{1}{4} \begin{pmatrix}
             0 & -2 & 2 \\
             -2 & 0 & -2 \\
             2 & -2 & 0

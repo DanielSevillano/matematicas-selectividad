@@ -26,14 +26,14 @@
 
                 Como $\det(A) \neq 0$, la matriz $A$ es invertible.
                 Para hallar su inversa, calculamos primero su matriz adjunta.
-                $$\operatorname{Adj}(A) = \begin{pmatrix}
+                $$\Adj(A) = \begin{pmatrix}
                     -12 & 7 & 21 \\
                     11 & -5 & -15 \\
                     -28 & 22 & 49
                 \end{pmatrix}.$$
 
                 Calculamos su inversa como
-                $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t = \frac{1}{17} \begin{pmatrix}
+                $$A^{-1} = \frac{1}{|A|}\Adj(A)^t = \frac{1}{17} \begin{pmatrix}
                     -12 & 11 & -28 \\
                     7 & -5 & 22 \\
                     21 & -15 & 49

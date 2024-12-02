@@ -1,4 +1,4 @@
 Considera la función $F: \mathbb{R} \to \mathbb{R}$ definida por
-$$F(x) = \int_0^x \operatorname{sen}(t^2)dt.$$
+$$F(x) = \int_0^x \sin(t^2)dt.$$
 Calcula
-$$\lim_{x \to 0} \frac{xF(x)}{\operatorname{sen}(x^2)}.$$
+$$\lim_{x \to 0} \frac{xF(x)}{\sin(x^2)}.$$

@@ -6,10 +6,10 @@
         $$\tau \equiv 2x - y + z + d = 0.$$
 
         El punto $A(0, 0, 0)$ pertenece al plano $\pi$, así que la distancia entre $\pi$ y $\tau$ viene dada por
-        $$\operatorname{dist}(\pi, \tau) = \operatorname{dist}(A, \tau) = \frac{|d|}{|\vec{n}|} = \frac{|d|}{\sqrt{6}}.$$
+        $$\dist(\pi, \tau) = \dist(A, \tau) = \frac{|d|}{|\vec{n}|} = \frac{|d|}{\sqrt{6}}.$$
 
         Como queremos que la distancia sea de $\sqrt{6}$ unidades,
-        $$\operatorname{dist}(\pi, \tau) = \sqrt{6} \Leftrightarrow \frac{|d|}{\sqrt{6}} = \sqrt{6} \Leftrightarrow |d| = 6 \Leftrightarrow d = \pm 6.$$
+        $$\dist(\pi, \tau) = \sqrt{6} \Leftrightarrow \frac{|d|}{\sqrt{6}} = \sqrt{6} \Leftrightarrow |d| = 6 \Leftrightarrow d = \pm 6.$$
 
         Por tanto, las ecuaciones de los planos son
         $$\tau_1 \equiv 2x - y + z + 6 = 0 \quad \text{y} \quad \tau_2 \equiv 2x - y + z - 6 = 0.$$

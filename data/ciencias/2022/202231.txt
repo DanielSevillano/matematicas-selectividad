@@ -1,2 +1,2 @@
 Calcula $a$ y $b$ sabiendo que
-$$\lim_{x \to 0} \frac{a\operatorname{sen}(x) + x\ln(x+1) + bx^2}{x^3 + x^2} = 2.$$
+$$\lim_{x \to 0} \frac{a\sin(x) + x\ln(x+1) + bx^2}{x^3 + x^2} = 2.$$

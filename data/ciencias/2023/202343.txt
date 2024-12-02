@@ -1,2 +1,2 @@
-Calcula una primitiva de la función $f: [0, +\infty) \to \mathbb{R}$ definida por $f(x) = \operatorname{arctg}(\sqrt{x})$ cuya gráfica pase por el punto $(0, 1).$
+Calcula una primitiva de la función $f: [0, +\infty) \to \mathbb{R}$ definida por $f(x) = \arctan(\sqrt{x})$ cuya gráfica pase por el punto $(0, 1).$
 Sugerencia: efectúa el cambio $x = t^2.$

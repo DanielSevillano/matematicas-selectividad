@@ -52,14 +52,14 @@
         $$|BA| = |B| \cdot |A| = -\frac{1}{9} \cdot 9 = -1.$$
 
         Para hallar la inversa de $BA$, calculamos primero su matriz adjunta.
-        $$\operatorname{Adj}(BA) = \begin{pmatrix}
+        $$\Adj(BA) = \begin{pmatrix}
             0 & 0 & -1 \\
             -\frac{1}{9} & -\frac{1}{9} & 0 \\
             -2 & 7 & 18
         \end{pmatrix}.$$
 
         De esta forma, podemos calcular su inversa como:
-        $$(BA)^{-1} = \frac{1}{|BA|}\operatorname{Adj}(BA)^t = -\begin{pmatrix}
+        $$(BA)^{-1} = \frac{1}{|BA|}\Adj(BA)^t = -\begin{pmatrix}
             0 & -\frac{1}{9} & -2 \\
             0 & -\frac{1}{9} & 7 \\
             -1 & 0 & 18

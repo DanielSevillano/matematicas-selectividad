@@ -1,7 +1,7 @@
 Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por
 $$f(x) = \begin{cases}
     ax^2 + bx + c, & \text{si } x \leq 0, \\
-    \dfrac{e^x - e^{-x} - 2x}{x - \operatorname{sen}(x)}, & \text{si } x > 0.
+    \dfrac{e^x - e^{-x} - 2x}{x - \sin(x)}, & \text{si } x > 0.
 \end{cases}$$
 
 Determina $a$, $b$ y $c$ sabiendo que $f$ es continua, alcanza un máximo relativo en $x = -1$ y la recta tangente a la gráfica de $f$ en el punto de abscisa $x = -2$ tiene pendiente 2.

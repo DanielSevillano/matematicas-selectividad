@@ -47,14 +47,14 @@
 
         Como $\det(I + A + A^2) = 1 \neq 0$, la matriz es invertible.
         Para hallar su inversa, calculamos primero su matriz adjunta.
-        $$\operatorname{Adj}(I + A + A^2) = \begin{pmatrix}
+        $$\Adj(I + A + A^2) = \begin{pmatrix}
             1 & 0 & 0 \\
             -a & 1 & 0 \\
             b & -b & 1
         \end{pmatrix}.$$
 
         Ahora podemos calcular su inversa como
-        $$(I + A + A^2)^{-1} = \frac{1}{|I + A + A^2|}\operatorname{Adj}(I + A + A^2)^t = \begin{pmatrix}
+        $$(I + A + A^2)^{-1} = \frac{1}{|I + A + A^2|}\Adj(I + A + A^2)^t = \begin{pmatrix}
             1 & -a & b \\
             0 & 1 & -b \\
             0 & 0 & 1

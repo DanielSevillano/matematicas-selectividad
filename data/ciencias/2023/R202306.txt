@@ -23,14 +23,14 @@
     Además, $|A + I| = m^3 + 1 \neq 0$ para $m \neq -1$, así que esta matriz es invertible.
 
     Para hallar la inversa de la matriz $A + I$, calculamos primero su matriz adjunta.
-    $$\operatorname{Adj}(A + I) = \begin{pmatrix}
+    $$\Adj(A + I) = \begin{pmatrix}
         1 & -m & m^2 \\
         m^2 & 1 & -m \\
         -m & m^2 & 1
     \end{pmatrix}.$$
 
     Ahora podemos calcular la inversa como
-    $$(A + I)^{-1} = \frac{1}{|A + I|}\operatorname{Adj}(A + I)^t = \frac{1}{m^3+1}\begin{pmatrix}
+    $$(A + I)^{-1} = \frac{1}{|A + I|}\Adj(A + I)^t = \frac{1}{m^3+1}\begin{pmatrix}
         1 & m^2 & -m \\
         -m & 1 & m^2 \\
         m^2 & -m & 1

@@ -35,10 +35,10 @@
 
 <p>
     La distancia entre $Q$ y $Q'$ viene dada por
-    $$\operatorname{dist}(Q, Q') = |\vec{QQ'}| = \sqrt{\left(\frac{d}{5}\right)^2 + \left(\frac{2d}{5}\right)^2 + \left(\frac{2d}{5}\right)^2} = \sqrt{\frac{9d^2}{25}} = \frac{3|d|}{5}.$$
+    $$\dist(Q, Q') = |\vec{QQ'}| = \sqrt{\left(\frac{d}{5}\right)^2 + \left(\frac{2d}{5}\right)^2 + \left(\frac{2d}{5}\right)^2} = \sqrt{\frac{9d^2}{25}} = \frac{3|d|}{5}.$$
 
     Como queremos que la distancia sea de 2 unidades,
-    $$\operatorname{dist}(Q, Q') = 2 \Leftrightarrow \frac{3|d|}{5} = 2 \Leftrightarrow |d| = \frac{10}{3} \Leftrightarrow d = \pm \frac{10}{3}.$$
+    $$\dist(Q, Q') = 2 \Leftrightarrow \frac{3|d|}{5} = 2 \Leftrightarrow |d| = \frac{10}{3} \Leftrightarrow d = \pm \frac{10}{3}.$$
 
     Por tanto, las posibles ecuaciones del plano $\pi'$ son
     $$\pi_1' \equiv x + y + z + \frac{10}{3} = 0 \quad \text{y} \quad \pi_2' \equiv x + y + z - \frac{10}{3} = 0.$$

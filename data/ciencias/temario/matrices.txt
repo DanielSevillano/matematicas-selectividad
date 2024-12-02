@@ -463,7 +463,7 @@
 
 <p>
     El <b>rango</b> de una matriz es el número de filas o columnas linealmente independientes.
-    Por ejemplo, el rango de $A$ se denota por $\operatorname{rang}(A)$ y es 2, porque hemos visto que la tercera fila es combinación lineal de las dos primeras.
+    Por ejemplo, el rango de $A$ se denota por $\rang(A)$ y es 2, porque hemos visto que la tercera fila es combinación lineal de las dos primeras.
 </p>
 
 <p>
@@ -475,12 +475,12 @@
     <li>
         <b>Intercambiar dos filas de posición.</b>
         Por ejemplo:
-        $$\operatorname{rang}\begin{pmatrix}
+        $$\rang\begin{pmatrix}
             1 & 2 & 3 \\
             -2 & 5 & 1 \\
             0 & 9 & 7
         \end{pmatrix} =
-        \operatorname{rang}\begin{pmatrix}
+        \rang\begin{pmatrix}
             -2 & 5 & 1 \\
             1 & 2 & 3 \\
             0 & 9 & 7
@@ -490,17 +490,17 @@
     <li>
         <b>Multiplicar una fila por un número no nulo.</b>
         Por ejemplo:
-        $$\operatorname{rang}\begin{pmatrix}
+        $$\rang\begin{pmatrix}
             1 & 2 & 3 \\
             -2 & 5 & 1 \\
             0 & 9 & 7
         \end{pmatrix} =
-        \operatorname{rang}\begin{pmatrix}
+        \rang\begin{pmatrix}
             1 \cdot 4 & 2 \cdot 4 & 3 \cdot 4 \\
             -2 & 5 & 1 \\
             0 & 9 & 7
         \end{pmatrix} =
-        \operatorname{rang}\begin{pmatrix}
+        \rang\begin{pmatrix}
             4 & 8 & 12 \\
             -2 & 5 & 1 \\
             0 & 9 & 7
@@ -510,12 +510,12 @@
     <li>
         <b>Sumar a una fila una combinación lineal de otras filas.</b>
         Por ejemplo, si a la tercera fila le sumamos $2F_1 - F_2$,
-        $$\operatorname{rang}\begin{pmatrix}
+        $$\rang\begin{pmatrix}
             1 & 2 & 3 \\
             -2 & 5 & 1 \\
             0 & 1 & 1
         \end{pmatrix} =
-        \operatorname{rang}\begin{pmatrix}
+        \rang\begin{pmatrix}
             1 & 2 & 3 \\
             -2 & 5 & 1 \\
             4 & 0 & 6
@@ -525,12 +525,12 @@
     <li>
         <b>Eliminar una fila que es combinación lineal de otras filas.</b>
         Por ejemplo, como vimos que la tercera fila era combinación lineal de las dos primeras,
-        $$\operatorname{rang}\begin{pmatrix}
+        $$\rang\begin{pmatrix}
             1 & 2 & 3 \\
             -2 & 5 & 1 \\
             0 & 9 & 7
         \end{pmatrix} =
-        \operatorname{rang}\begin{pmatrix}
+        \rang\begin{pmatrix}
             1 & 2 & 3 \\
             -2 & 5 & 1
         \end{pmatrix}.$$
@@ -539,12 +539,12 @@
     <li>
         <b>Eliminar una fila de ceros.</b>
         Por ejemplo:
-        $$\operatorname{rang}\begin{pmatrix}
+        $$\rang\begin{pmatrix}
             1 & 2 & 3 \\
             -2 & 5 & 1 \\
             0 & 0 & 0
         \end{pmatrix} =
-        \operatorname{rang}\begin{pmatrix}
+        \rang\begin{pmatrix}
             1 & 2 & 3 \\
             -2 & 5 & 1
         \end{pmatrix}.$$
@@ -553,12 +553,12 @@
     <li>
         <b>Trasponer la matriz.</b>
         Por ejemplo:
-        $$\operatorname{rang}\begin{pmatrix}
+        $$\rang\begin{pmatrix}
             1 & 2 & 3 \\
             -2 & 5 & 1 \\
             0 & 9 & 7
         \end{pmatrix} =
-        \operatorname{rang}\begin{pmatrix}
+        \rang\begin{pmatrix}
             1 & -2 & 0 \\
             2 & 5 & 9 \\
             3 & 1 & 7

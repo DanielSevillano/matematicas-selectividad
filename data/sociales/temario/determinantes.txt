@@ -156,16 +156,16 @@
 </p>
 
 <p>
-    La <b>matriz adjunta</b> de $A$ es una matriz del mismo orden cuyos elementos son los adjuntos de los elementos de $A$ y se denota $\operatorname{Adj}(A).$
+    La <b>matriz adjunta</b> de $A$ es una matriz del mismo orden cuyos elementos son los adjuntos de los elementos de $A$ y se denota $\Adj(A).$
     Es decir, si $A$ es de orden 3,
-    $$\operatorname{Adj}(A) = \begin{pmatrix}
+    $$\Adj(A) = \begin{pmatrix}
         A_{11} & A_{12} & A_{13} \\
         A_{21} & A_{22} & A_{23} \\
         A_{31} & A_{32} & A_{33}
     \end{pmatrix}.$$
 
     Volviendo al ejemplo,
-    $$\operatorname{Adj}(A) = \begin{pmatrix}
+    $$\Adj(A) = \begin{pmatrix}
         -1 & 1 & -1 \\
         0 & 4 & -3 \\
         1 & 4 & -3
@@ -177,7 +177,7 @@
 <p>
     Una matriz cuadrada $A$ es invertible si y solo si $\det(A) \neq 0.$
     En ese caso, se puede calcular la matriz inversa como
-    $$A^{-1} = \frac{1}{|A|}\operatorname{Adj}(A)^t.$$
+    $$A^{-1} = \frac{1}{|A|}\Adj(A)^t.$$
 
     Por ejemplo, hallemos la inversa de la matriz
     $$A = \begin{pmatrix}

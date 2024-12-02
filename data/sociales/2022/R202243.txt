@@ -1,5 +1,5 @@
 <p>
-    Como la empresa no puede fumigar más de 10 hectáreas al mes, $\operatorname{Dom}(B) = [0, 10].$
+    Como la empresa no puede fumigar más de 10 hectáreas al mes, $\Dom(B) = [0, 10].$
 </p>
 
 <ol>

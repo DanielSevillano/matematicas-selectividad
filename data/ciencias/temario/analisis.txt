@@ -4,7 +4,7 @@
 
 <p>
     Nuestro objetivo en este bloque será aprender a <b>estudiar, esbozar e integrar funciones</b>, lo que nos servirá para <b>resolver problemas mediante la optimización</b> y <b>calcular áreas</b>.
-    Por ejemplo, determinar las dimensiones de una lata para minimizar el coste o hallar el área bajo la función $f(x) = \operatorname{sen}(x)$ entre $x = 0$ y $x = \pi.$
+    Por ejemplo, determinar las dimensiones de una lata para minimizar el coste o hallar el área bajo la función $f(x) = \sin(x)$ entre $x = 0$ y $x = \pi.$
 </p>
 
 <img src="img/ciencias/analisis-introduccion.png" alt="Función"/>

@@ -98,16 +98,16 @@
 
 <p>
     Al estudio de las soluciones de un sistema de ecuaciones lineales sin resolverlo primero se le llama <b>discusión del sistema</b>.
-    Como herramienta fundamental, el <b>teorema de Rouché-Frobenius</b> afirma que un sistema de ecuaciones lineales es compatible si $\operatorname{rang}(A) = \operatorname{rang}(A|B).$
+    Como herramienta fundamental, el <b>teorema de Rouché-Frobenius</b> afirma que un sistema de ecuaciones lineales es compatible si $\rang(A) = \rang(A|B).$
     En caso contrario, el sistema es incompatible.<br>
 </p>
 
 <p>
-    Además, en el caso de un sistema compatible con $n$ incógnitas, si $\operatorname{rang}(A) = n$ entonces el sistema es determinado.
-    Si por el contrario $\operatorname{rang}(A) < n$, el sistema es indeterminado.
+    Además, en el caso de un sistema compatible con $n$ incógnitas, si $\rang(A) = n$ entonces el sistema es determinado.
+    Si por el contrario $\rang(A) < n$, el sistema es indeterminado.
 </p>
 
-<p>Merece la pena observar que, como la matriz ampliada es una extensión de la matriz $A$, entonces $\operatorname{rang}(A|B) \geq \operatorname{rang}(A)$ siempre.</p>
+<p>Merece la pena observar que, como la matriz ampliada es una extensión de la matriz $A$, entonces $\rang(A|B) \geq \rang(A)$ siempre.</p>
 
 <p>
     Por ejemplo, discutamos el sistema
@@ -125,7 +125,7 @@
     \end{pmatrix}.$$
 
     Podemos ver que $\det(A) = -10 \neq 0$, así que el rango de $A$ es 3.
-    Como además el rango máximo de la matriz ampliada es 3 y $\operatorname{rang}(A|B) \geq \operatorname{rang}(A)$, entonces $\operatorname{rang}(A|B) = 3.$
+    Como además el rango máximo de la matriz ampliada es 3 y $\rang(A|B) \geq \rang(A)$, entonces $\rang(A|B) = 3.$
     Los rangos de las dos matrices coinciden, así que por el teorema de Rouché-Frobenius podemos afirmar que el sistema es compatible.
     Puesto que además el sistema tiene 3 incógnitas, el sistema es compatible determinado.
     Es decir, tiene solución única.
@@ -153,7 +153,7 @@
         -1 & 1 \\
         -1 & -1
     \end{vmatrix} = 2 \neq 0.$$
-    Así que $\operatorname{rang}(A) \geq 2$ para todo valor de $\lambda.$
+    Así que $\rang(A) \geq 2$ para todo valor de $\lambda.$
 
     Veamos para qué valores de $\lambda$ alcanza el rango máximo calculando su determinante.
     $$\det(A) = 3 - 3\lambda.$$
@@ -163,13 +163,13 @@
 
     <ul>
         <li>
-            Si $\lambda \neq 1$ entonces $\det(A) \neq 0$, así que $\operatorname{rang}(A) = 3.$
-            Como además el rango máximo de la matriz ampliada es 3 y $\operatorname{rang}(A|B) \geq \operatorname{rang}(A)$, entonces $\operatorname{rang}(A|B) = 3.$
+            Si $\lambda \neq 1$ entonces $\det(A) \neq 0$, así que $\rang(A) = 3.$
+            Como además el rango máximo de la matriz ampliada es 3 y $\rang(A|B) \geq \rang(A)$, entonces $\rang(A|B) = 3.$
             Los rangos de las dos matrices coinciden entre sí y con el número de incógnitas, así que por el teorema de Rouché-Frobenius el sistema es compatible determinado.
         </li>
 
         <li>
-            Si $\lambda = 1$ entonces $\det(A) = 0$, así que $\operatorname{rang}(A) = 2.$
+            Si $\lambda = 1$ entonces $\det(A) = 0$, así que $\rang(A) = 2.$
             Queda por estudiar para $\lambda = 1$ el rango de la matriz ampliada, que puede ser 2 o 3.
             $$(A|B) = \left(\begin{array}{ccc | c}
                 1 & -1 & 1 & 1 \\
@@ -182,7 +182,7 @@
                 1 & -1 & 0 \\
                 1 & 2 & 2
             \end{vmatrix} = -1 \neq 0,$$
-            así que $\operatorname{rang}(A|B) = 3.$
+            así que $\rang(A|B) = 3.$
             Como los rangos de las dos matrices no coinciden, por el teorema de Rouché-Frobenius el sistema es incompatible.
         </li>
     </ul>
@@ -215,18 +215,18 @@
 
 <p>
     Esta observación se puede verificar con el teorema de Rouché-Frobenius.
-    $$\operatorname{rang}(A|B) = \operatorname{rang}\left(\begin{array}{cccc | c}
+    $$\rang(A|B) = \rang\left(\begin{array}{cccc | c}
         a_{11} & a_{12} & \dots & a_{1n} & 0 \\
         a_{21} & a_{22} & \dots & a_{2n} & 0 \\
         \vdots & \vdots & \ddots & \vdots & \vdots \\
         a_{m1} & a_{m2} & \dots & a_{mn} & 0
     \end{array}\right) =
-    \operatorname{rang}\begin{pmatrix}
+    \rang\begin{pmatrix}
         a_{11} & a_{12} & \dots & a_{1n} \\
         a_{21} & a_{22} & \dots & a_{2n} \\
         \vdots & \vdots & \ddots & \vdots \\
         a_{m1} & a_{m2} & \dots & a_{mn}
-    \end{pmatrix} = \operatorname{rang}(A).$$
+    \end{pmatrix} = \rang(A).$$
     Como estos dos rangos coinciden, el sistema es compatible.
 </p>
 
@@ -395,7 +395,7 @@
         5x + 3y - 2z = 1, \\
         7x + 4y + z = 3.
     \end{cases}
-    Es fácil ver que tenemos 3 incógnitas y $\operatorname{rang}(A) = \operatorname{rang}(A|B) = 2$, así que se trata de un sistema compatible indeterminado por el teorema de Rouché-Frobenius.
+    Es fácil ver que tenemos 3 incógnitas y $\rang(A) = \rang(A|B) = 2$, así que se trata de un sistema compatible indeterminado por el teorema de Rouché-Frobenius.
     Como nos sobra una incógnita, transformamos una de ellas en parámetro, por ejemplo $z = \lambda.$
     Entonces, podemos escribir el sistema como
     \begin{cases}

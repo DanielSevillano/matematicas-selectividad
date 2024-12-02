@@ -11,7 +11,7 @@
         $$\begin{vmatrix}
             5 & 2 \\
             1 & 0
-        \end{vmatrix} = -2 \neq 0 \Rightarrow \operatorname{rang}(A) \geq 2.$$
+        \end{vmatrix} = -2 \neq 0 \Rightarrow \rang(A) \geq 2.$$
 
         Para determinar el rango de $A$ en función del valor de $m$, estudiamos su determinante.
         $$|A| = \begin{vmatrix}
@@ -26,8 +26,8 @@
             6m + 15 = 0 \Leftrightarrow m = -\frac{15}{6} = -\frac{5}{2}.
         \end{cases}$$
 
-        Así que, si $m \neq -\frac{5}{2}$ y $m \neq 0$, entonces $\operatorname{rang}(A) = 3.$
-        En caso contrario, $\operatorname{rang}(A) = 2.$
+        Así que, si $m \neq -\frac{5}{2}$ y $m \neq 0$, entonces $\rang(A) = 3.$
+        En caso contrario, $\rang(A) = 2.$
         Por tanto,
 
         <ul>
@@ -49,7 +49,7 @@
                     2 & -1 & 1 \\
                     -4 & 2 & 0 \\
                     -\frac{15}{2} & 0 & -\frac{21}{10}
-                \end{vmatrix} = 15 \neq 0 \Rightarrow \operatorname{rang}(A|B) = 3.$$
+                \end{vmatrix} = 15 \neq 0 \Rightarrow \rang(A|B) = 3.$$
                 
                 Como los rangos no coinciden, el sistema es incompatible.
             </li>
@@ -67,9 +67,9 @@
                     2 & -1 & 1 \\
                     -4 & 2 & 0 \\
                     0 & 0 & \frac{2}{5}
-                \end{vmatrix} = 0 \Rightarrow \operatorname{rang}(A|B) = 2.$$
+                \end{vmatrix} = 0 \Rightarrow \rang(A|B) = 2.$$
                 
-                Como $\operatorname{rang}(A) = \operatorname{rang}(A|B) < 3$, el sistema es compatible indeterminado.
+                Como $\rang(A) = \rang(A|B) < 3$, el sistema es compatible indeterminado.
             </li>
         </ul>
     </li>

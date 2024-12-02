@@ -5,7 +5,7 @@
                 La función $f$ es una función racional, así que los puntos que no pertenecen al dominio son aquellos que anulan el denominador.
                 $$3 + x = 0 \Leftrightarrow x = -3.$$
 
-                Por tanto, $\operatorname{Dom}(f) = \mathbb{R} \setminus \{-3\}.$
+                Por tanto, $\Dom(f) = \mathbb{R} \setminus \{-3\}.$
             </li>
 
             <li>

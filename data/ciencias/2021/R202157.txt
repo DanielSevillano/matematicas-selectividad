@@ -8,6 +8,6 @@
     <li>
         La distancia de $A$ a su simétrico $A'$ respecto a $\pi$ es el doble de la distancia de $A$ al punto $B.$
         Por tanto,
-        $$\operatorname{dist}(A, A') = 2\operatorname{dist}(A, B) = 2|\vec{AB}| = 2\sqrt{\left(\frac{1}{2}\right)^2 + \left(\frac{1}{2}\right)^2} = \frac{2}{\sqrt{2}} = \sqrt{2} \; u.$$
+        $$\dist(A, A') = 2\dist(A, B) = 2|\vec{AB}| = 2\sqrt{\left(\frac{1}{2}\right)^2 + \left(\frac{1}{2}\right)^2} = \frac{2}{\sqrt{2}} = \sqrt{2} \; u.$$
     </li>
 </ol>

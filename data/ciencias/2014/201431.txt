@@ -1,2 +1,2 @@
 Calcula
-$$\lim_{x \to 0} \frac{\operatorname{tg}(x) - \operatorname{sen}(x)}{x - \operatorname{sen}(x)}.$$
+$$\lim_{x \to 0} \frac{\tan(x) - \sin(x)}{x - \sin(x)}.$$

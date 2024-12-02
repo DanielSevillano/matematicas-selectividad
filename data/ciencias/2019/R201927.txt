@@ -47,7 +47,7 @@
         $$\begin{vmatrix}
             -2 & 1 \\
             1 & -2
-        \end{vmatrix} = 3 \neq 0 \Rightarrow \operatorname{rang}(A-2I) = 2.$$
+        \end{vmatrix} = 3 \neq 0 \Rightarrow \rang(A-2I) = 2.$$
 
         Así que el sistema se puede reducir a
         \begin{cases}

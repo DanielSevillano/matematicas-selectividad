@@ -7,9 +7,9 @@
     Como queremos que el triángulo $ABC$ sea equilátero, las distancias entre los vértices tienen que ser iguales.
     Calculamos las distancias mediante los vectores $\vec{AB} = (-4, 2, 0)$, $\vec{AC} = (a-4, 0, c)$ y $\vec{BC} = (a, -2, c).$
     \begin{align}
-        & \operatorname{dist}(A, B) = |\vec{AB}| = \sqrt{4^2 + 2^2} = \sqrt{20}, \\
-        & \operatorname{dist}(A, C) = |\vec{AC}| = \sqrt{(a-4)^2 + c^2} = \sqrt{a^2 - 8a + 16 + c^2}, \\
-        & \operatorname{dist}(B, C) = |\vec{BC}| = \sqrt{a^2 + 2^2 + c^2} = \sqrt{a^2 + 4 + c^2}.
+        & \dist(A, B) = |\vec{AB}| = \sqrt{4^2 + 2^2} = \sqrt{20}, \\
+        & \dist(A, C) = |\vec{AC}| = \sqrt{(a-4)^2 + c^2} = \sqrt{a^2 - 8a + 16 + c^2}, \\
+        & \dist(B, C) = |\vec{BC}| = \sqrt{a^2 + 2^2 + c^2} = \sqrt{a^2 + 4 + c^2}.
     \end{align}
 
     Así que

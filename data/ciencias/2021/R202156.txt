@@ -46,7 +46,7 @@
             1 & 0 & 1
         \end{vmatrix} = 0.$$
 
-        Como $\det(A) = 0$, entonces $\operatorname{rang}(A) < 3.$
+        Como $\det(A) = 0$, entonces $\rang(A) < 3.$
         Por tanto, no se trata de un sistema compatible determinado, así que no se puede determinar el número de viajes por ruta.
     </li>
 

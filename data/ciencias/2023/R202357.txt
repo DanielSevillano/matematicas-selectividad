@@ -22,7 +22,7 @@
         \end{cases}$$
 
         Para hallar la distancia de la recta $r$ al punto $P$ podemos trazar un plano $\tau$ perpendicular a $r$ que pase por $P.$
-        Este plano cortará a $r$ en un punto $Q$, de forma que $\operatorname{dist}(P, r) = \operatorname{dist}(P, Q).$
+        Este plano cortará a $r$ en un punto $Q$, de forma que $\dist(P, r) = \dist(P, Q).$
         Si $\tau$ es perpendicular a $r$, su vector normal es $\vec{n} = \vec{d}_r = (-1, 1, 2).$
         Así que la ecuación del plano $\tau$ es
         $$\tau \equiv -(x - 2) + y - 6 + 2(z + 2) = 0 \Leftrightarrow -x + y + 2z = 0.$$
@@ -34,7 +34,7 @@
         Por tanto, el punto de corte es $Q(1, 1, 0).$
         <br>
         Por último, calculamos la distancia de $P$ a $r$ como el módulo del vector $\vec{PQ} = (-1, -5, 2).$
-        $$\operatorname{dist}(P, r) = \operatorname{dist}(P, Q) = |\vec{PQ}| = \sqrt{1 + 5^2 + 2^2} = \sqrt{30} \; u.$$
+        $$\dist(P, r) = \dist(P, Q) = |\vec{PQ}| = \sqrt{1 + 5^2 + 2^2} = \sqrt{30} \; u.$$
     </li>
 
     <li>

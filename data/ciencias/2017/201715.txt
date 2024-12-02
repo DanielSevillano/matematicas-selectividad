@@ -1,2 +1,2 @@
 Calcula
-$$\lim_{x \to 0} \left(\frac{1}{x} - \frac{\cos(x)}{\operatorname{sen}(x)}\right).$$
+$$\lim_{x \to 0} \left(\frac{1}{x} - \frac{\cos(x)}{\sin(x)}\right).$$

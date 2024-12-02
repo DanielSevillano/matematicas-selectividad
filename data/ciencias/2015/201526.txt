@@ -1,2 +1,2 @@
 Calcula
-$$\int e^{2x}\operatorname{sen}(x)dx.$$
+$$\int e^{2x}\sin(x)dx.$$
