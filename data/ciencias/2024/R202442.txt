@@ -7,7 +7,7 @@
         Para que tenga pendiente 1, tiene que ocurrir que $a = 1.$
         
         Por otro lado, la ordenada en el origen de la asíntota oblicua viene dada por:
-        $$\lim_{x \to +\infty} (f(x) - x) = \lim_{x \to +\infty} \left(\frac{x^3 + x - 1}{x^2 + bx - 3} - x\right) = \lim{x \to +\infty} \frac{-bx^2 + 4x -1}{x^2 + bx - 3} = -b.$$
+        $$\lim_{x \to +\infty} (f(x) - x) = \lim_{x \to +\infty} \left(\frac{x^3 + x - 1}{x^2 + bx - 3} - x\right) = \lim_{x \to +\infty} \frac{-bx^2 + 4x -1}{x^2 + bx - 3} = -b.$$
 
         Para que su ordenada en el origen sea -2, tiene que verificarse que $-b = -2 \Leftrightarrow b = 2.$
         Por tanto, $a = 1$ y $b = 2.$
