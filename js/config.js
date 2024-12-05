@@ -14,7 +14,9 @@ window.MathJax = {
         }
     },
     options: {
-        enableMenu: false
+        enableMenu: false,
+        enableEnrichment: false,
+        enableExplorer: false
     },
     startup: {
         ready: () => {
