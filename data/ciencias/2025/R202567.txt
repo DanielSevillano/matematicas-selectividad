@@ -1,0 +1,120 @@
+<p>
+    Llamamos $A$ a especializarse en Python, $B$ a especializarse en JavaScript, $C$ a especializarse en otro lenguaje de programación y $E$ a obtener empleo.
+    Podemos hacer un diagrama de árbol.
+    
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$E$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,85 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$A$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,15 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$\bar{E}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$E$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,9 \quad}$</td>
+            </tr>
+            <tr>
+                <td>$\xrightarrow{\quad 0,18 \quad}$</td>
+                <td>$B$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$\bar{E}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$E$</td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,62 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$C$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$\bar{E}$</td>
+            </tr>
+        </table>
+    </div>
+
+    También sabemos que:
+    $$P(\bar{E}) = 0,15 \Rightarrow P(E) = 0,85.$$
+</p>
+
+<ol>
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que un desarrollador tenga empleo viene dada por:
+        \begin{align}
+            & P(E) = P(E \cap A) + P(E \cap B) + P(E \cap C) = P(A) \cdot P(E|A) + P(B) \cdot P(E|B) + P(C) \cdot P(E|C) = \\
+            & = 0,2 \cdot 0,85 + 0,18 \cdot 0,9 + 0,62 \cdot p = 0,62p + 0,332.
+        \end{align}
+
+        Como $P(E) = 0,85$,
+        $$0,85 = 0,62p + 0,332 \Leftrightarrow 0,62p = 0,518 \Leftrightarrow p \approx 0,8355.$$
+        
+        Por tanto, la probabilidad de que un desarrollador esté empleado si no ha estudiado Python ni JavaScript es:
+        $$P(E|C) = 0,8355.$$
+    </li>
+
+    <li>
+        La probabilidad de que un desarrollador se haya especializado en Python o JavaScript sabiendo que está desempleado es:
+        \begin{align}
+            & P(A \cup B|\bar{E}) = P(A|\bar{E}) + P(B|\bar{E}) = \frac{P(A \cap \bar{E})}{P(\bar{E})} + \frac{P(B \cap \bar{E})}{P(\bar{E})} = \frac{P(A) \cdot P(\bar{E}|A)}{P(\bar{E})} + \frac{P(B) \cdot P(\bar{E}|B)}{P(\bar{E})} = \\
+            & = \frac{0,2 \cdot 0,15}{0,15} + \frac{0,18 \cdot 0,1}{0,15} = 0,32.
+        \end{align}
+    </li>
+</ol>

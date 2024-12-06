@@ -1,0 +1,79 @@
+<p>
+    Llamamos $C$ a tener conocimientos bursátiles y $B$ a obtener beneficios.
+    Podemos hacer un diagrama de árbol.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$B$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$C$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$\bar{B}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$B$</td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$\bar{C}$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,9 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$\bar{B}$</td>
+            </tr>
+        </table>
+    </div>
+</p>
+
+<ol>
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de obtener beneficios es:
+        $$P(B) = P(B \cap C) + P(B \cap \bar{C}) = P(C) \cdot P(B|C) + P(\bar{C}) \cdot P(B|\bar{C}) = 0,2 \cdot 0,8 + 0,8 \cdot 0,1 = 0,24.$$
+
+        Por tanto, el 24% de las personas que compran acciones en bolsa obtienen beneficios.
+    </li>
+
+    <li>
+        La probabilidad de que una persona no tenga conocimientos bursátiles ni beneficios al invertir en bolsa es:
+        $$P(\bar{C} \cap \bar{B}) = P(\bar{C}) \cdot P(\bar{B}|\bar{C}) = 0,8 \cdot 0,9 = 0,72.$$
+    </li>
+</ol>

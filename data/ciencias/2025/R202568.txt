@@ -1,0 +1,73 @@
+<p>
+    Llamamos $I$ a inyectar el suero y $M$ a mejorar.
+    Podemos hacer un diagrama de árbol.
+
+    <div class="tabla">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$M$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$I$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$\bar{M}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$M$</td>
+            </tr>
+            <tr>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+                <td></td>
+                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,25 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$\bar{I}$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,75 \quad}$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>$\bar{M}$</td>
+            </tr>
+        </table>
+    </div>
+</p>
+
+<p>
+    Por el teorema de la probabilidad total, la probabilidad de que el paciente empeore es:
+    $$P(\bar{M}) = P(\bar{M} \cap I) + P(\bar{M} \cap \bar{I}) = P(I) \cdot P(\bar{M}|I) + P(\bar{I}) \cdot P(\bar{M}|\bar{I}) = 0,4 \cdot 0,5 + 0,6 \cdot 0,75 = 0,65.$$
+    
+    Por tanto, la probabilidad de que el enfermero olvidara inyectar el suero al paciente sabiendo que ha empeorado es:
+    $$P(\bar{I}|\bar{M}) = \frac{P(\bar{I} \cap \bar{M})}{P(\bar{M})} = \frac{P(\bar{I}) \cdot P(\bar{M}|\bar{I})}{P(\bar{M})} = \frac{0,6 \cdot 0,75}{0,65} \approx 0,6923.$$
+</p>
