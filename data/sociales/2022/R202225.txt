@@ -1,40 +1,42 @@
+<p>
+    Llamamos $D$ a practicar deporte e $I$ a estudiar idiomas.
+    Sabemos que:
+    $$P(D \cup I) = 0,8, \quad P(D \cap I) = 0,35 \quad \text{y} \quad P(I^c) = 0,6 \Rightarrow P(I) = 0,4.$$
+</p>
+
 <ol>
     <li>
         <ol>
             <li>
-                Llamamos $D$ a practicar deporte e $I$ a estudiar idiomas.
-                Sabemos que
-                $$P(D \cup I) = 0,8, \quad P(D \cap I) = 0,35 \quad \text{y} \quad P(I^c) = 0,6 \Rightarrow P(I) = 0,4.$$
-
-                Sabemos también que la probabilidad de practicar deporte o estudiar idiomas viene dada por
+                Sabemos que la probabilidad de practicar deporte o estudiar idiomas viene dada por:
                 $$P(D \cup I) = P(D) + P(I) - P(D \cap I).$$
                 
-                Así que, despejando en la expresión anterior, la probabilidad de practicar deporte es
+                Así que, despejando en la expresión anterior, la probabilidad de practicar deporte es:
                 $$P(D) = P(D \cup I) + P(D \cap I) - P(I) = 0,8 + 0,35 - 0,4 = 0,75.$$
 
-                Por tanto, la probabilidad de practicar deporte y no estudiar idiomas es
+                Por tanto, la probabilidad de practicar deporte y no estudiar idiomas es:
                 $$P(D \cap I^c) = P(D) - P(D \cap I) = 0,75 - 0,35 = 0,4.$$
             </li>
 
             <li>
-                La probabilidad de estudiar idiomas y no practicar deporte es
+                La probabilidad de estudiar idiomas y no practicar deporte es:
                 $$P(I \cap D^c) = P(I) - P(D \cap I) = 0,4 - 0,35 = 0,05.$$
             </li>
 
             <li>
-                La probabilidad de hacer solo una de las dos actividades es
+                La probabilidad de hacer solo una de las dos actividades es:
                 $$P((D \cap I^c) \cup (D^c \cap I)) = P(D \cap I^c) + P(D^c \cap I) = 0,4 + 0,05 = 0,45.$$
             </li>
 
             <li>
-                La probabilidad de no hacer ninguna de las dos actividades es
+                La probabilidad de no hacer ninguna de las dos actividades es:
                 $$P(D^c \cap I^c) = P((D \cup I)^c) = 1 - P(D \cup I) = 1 - 0,8 = 0,2.$$
             </li>
         </ol>
     </li>
 
     <li>
-        Observamos que
+        Observamos que:
         \begin{align}
             & P(D) \cdot P(I) = 0,75 \cdot 0,4 = 0,3, \\
             & P(D \cap I) = 0,35.

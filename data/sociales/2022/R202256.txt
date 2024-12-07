@@ -1,17 +1,19 @@
+<p>
+    Sabemos que:
+    $$P(A^c) = \frac{5}{7} \Rightarrow P(A) = \frac{2}{7} \quad \text{y} \quad P(B^c) = \frac{2}{3} \Rightarrow P(B) = \frac{1}{3}.$$
+</p>
+
 <ol>
     <li>
-        Sabemos que
-        $$P(A^c) = \frac{5}{7} \Rightarrow P(A) = \frac{2}{7} \quad \text{y} \quad P(B^c) = \frac{2}{3} \Rightarrow P(B) = \frac{1}{3}.$$
-        
         En primer lugar, calculamos la probabilidad de la intersección.
-        Sabemos que la probabilidad de la unión viene dada por
+        Sabemos que la probabilidad de la unión viene dada por:
         $$P(A \cup B) = P(A) + P(B) - P(A \cap B).$$
 
-        Así que, despejando en la expresión anterior, la probabilidad de la intersección es
+        Así que, despejando en la expresión anterior, la probabilidad de la intersección es:
         $$P(A \cap B) = P(A) + P(B) - P(A \cup B) = \frac{2}{7} + \frac{1}{3} - \frac{3}{7} = \frac{4}{21}.$$
         
         Como $P(A \cap B) > 0$, los sucesos no son incompatibles.
-        Por otro lado, observamos que
+        Por otro lado, observamos que:
         \begin{align}
             & P(A) \cdot P(B) = \frac{2}{7} \cdot \frac{1}{3} = \frac{2}{21}, \\
             & P(A \cap B) = \frac{4}{21}.
@@ -21,12 +23,12 @@
     </li>
 
     <li>
-        Calculamos
+        Calculamos:
         $$P(A^c \cap B^c) = P((A \cup B)^c) = 1 - P(A \cup B) = 1 - \frac{3}{7} = \frac{4}{7}.$$
     </li>
 
     <li>
-        Calculamos
+        Calculamos:
         $$P(B|A^c) = \frac{P(B \cap A^c)}{P(A^c)} = \frac{P(B) - P(A \cap B)}{P(A^c)} = \frac{\frac{1}{3} - \frac{4}{21}}{\frac{5}{7}} = \frac{1}{5}.$$
     </li>
 </ol>

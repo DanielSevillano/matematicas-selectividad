@@ -1,103 +1,105 @@
+<p>
+    Llamamos $A$ a recibir la vacuna A, $B$ a recibir la vacuna B, $C$ a recibir la vacuna C y $E$ a que la vacuna sea efectiva.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,7 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,48 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,95 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,35 \quad}$</td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,05 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,17 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,94 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,06 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E^c$</td>
+        </tr>
+    </table>
+</div>
+
 <ol>
     <li>
-        Llamamos $A$ a recibir la vacuna A, $B$ a recibir la vacuna B, $C$ a recibir la vacuna C y $E$ a que la vacuna sea efectiva.
-        Podemos hacer un diagrama de árbol.
-
-        <div class="tabla">
-            <table>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,7 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$A$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,48 \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E^c$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,95 \quad}$</td>
-                </tr>
-                <tr>
-                    <td>$\xrightarrow{\quad 0,35 \quad}$</td>
-                    <td>$B$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,05 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E^c$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E$</td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,17 \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,94 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$C$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,06 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E^c$</td>
-                </tr>
-            </table>
-        </div>
-
-        La probabilidad de que haya sido vacunada con A y no le sea efectiva es
+        La probabilidad de que haya sido vacunada con A y no le sea efectiva es:
         $$P(A \cap E^c) = P(A) \cdot P(E^c|A) = 0,48 \cdot 0,3 = 0,144.$$
     </li>
 
     <li>
-        Por el teorema de la probabilidad total, la probabilidad de que la vacuna le sea efectiva es
+        Por el teorema de la probabilidad total, la probabilidad de que la vacuna le sea efectiva es:
         \begin{align}
             & P(E) = P(A \cap E) + P(B \cap E) + P(C \cap E) = P(A) \cap P(E|A) + P(B) \cap P(E|B) + P(C) \cap P(E|C) = \\
             & = 0,48 \cdot 0,7 + 0,35 \cdot 0,95 + 0,17 \cdot 0,94 = 0,8283.
@@ -105,7 +107,7 @@
     </li>
 
     <li>
-        La probabilidad de que haya sido vacunada con C sabiendo que la vacuna no le ha sido efectiva es
+        La probabilidad de que haya sido vacunada con C sabiendo que la vacuna no le ha sido efectiva es:
         $$P(C|E^c) = \frac{P(C \cap E^c)}{P(E^c)} = \frac{P(C) \cdot P(E^c|C)}{1-P(E)} = \frac{0,17 \cdot 0,06}{1 - 0,8283} \approx 0,0594.$$
     </li>
 </ol>

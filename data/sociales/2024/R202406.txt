@@ -1,114 +1,110 @@
+<p>
+    Llamamos $A$ a proceder de Andalucía, $O$ de otras comunidades, $E$ del extranjero y $M$ a ser mayor de edad.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,65 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,42 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,35 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,75 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,32 \quad}$</td>
+            <td>$O$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,25 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,26 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$E$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M^c$</td>
+        </tr>
+    </table>
+</div>
+
 <ol>
     <li>
-        Llamamos $A$ a proceder de Andalucía, $O$ de otras comunidades, $E$ del extranjero y $M$ a ser mayor de edad.
-        Sabemos que:
-        \begin{align}
-            & P(A) = 0,42, & & P(O) = 0,32, \\
-            & P(M|A) = 0,65, & & P(M|O) = 0,75, & & P(M^c|E) = 0,2.
-        \end{align}
-
-        Podemos hacer un diagrama de árbol.
-        
-        <div class="tabla">
-            <table>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$M$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,65 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$A$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,42 \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,35 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$M^c$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$M$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,75 \quad}$</td>
-                </tr>
-                <tr>
-                    <td>$\xrightarrow{\quad 0,32 \quad}$</td>
-                    <td>$O$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,25 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$M^c$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$M$</td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,26 \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$E$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$M^c$</td>
-                </tr>
-            </table>
-        </div>
-
-        Por el teorema de la probabilidad total, la probabilidad de que sea mayor de edad es
+        Por el teorema de la probabilidad total, la probabilidad de que sea mayor de edad es:
         $$P(M) = P(A) \cdot P(M|A) + P(O) \cdot P(M|O) + P(E) \cdot P(M|E) = 0,42 \cdot 0,65 + 0,32 \cdot 0,75 + 0,26 \cdot 0,8 = 0,721.$$
     </li>
 
     <li>
-        La probabilidad de que proceda de Andalucía y sea menor de edad es
+        La probabilidad de que proceda de Andalucía y sea menor de edad es:
         $$P(A \cap M^c) = P(A) \cdot P(M^c|A) = 0,42 \cdot 0,35 = 0,147.$$
     </li>
 
     <li>
-        La probabilidad de que sea extranjero sabiendo que es menor de edad es
+        La probabilidad de que sea extranjero sabiendo que es menor de edad es:
         $$P(E|M^c) = \frac{P(E \cap M^c)}{P(M^c)} = \frac{P(E) \cdot P(M^c|E)}{1 - P(M)} = \frac{0,26 \cdot 0,2}{1 - 0,721} \approx 0,1864.$$
     </li>
 </ol>

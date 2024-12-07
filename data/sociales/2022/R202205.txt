@@ -1,23 +1,26 @@
+<p>
+    Llamamos $H$ a conceder un crédito hipotecario y $S$ a conceder un crédito superior a 200.000€.
+    Sabemos que:
+    $$P(H) = 0,7, \quad P(S) = 0,25 \quad \text{y} \quad P(H \cap S) = 0,2.$$
+</p>
+
 <ol>
     <li>
-        Llamamos $H$ a conceder un crédito hipotecario y $S$ a conceder un crédito superior a 200.000€.
-        Sabemos que
-        $$P(H) = 0,7, \quad P(S) = 0,25 \quad \text{y} \quad P(H \cap S) = 0,2.$$
 
-        La probabilidad de que el crédito sea hipotecario o superior a 200.000€ es
+        La probabilidad de que el crédito sea hipotecario o superior a 200.000€ es:
         $$P(H \cup S) = P(H) + P(S) - P(H \cap S) = 0,7 + 0,25 - 0,2 = 0,75.$$
 
-        Por tanto, la probabilidad de que el crédito no sea hipotecario y no supere los 200.000€ es
+        Por tanto, la probabilidad de que el crédito no sea hipotecario y no supere los 200.000€ es:
         $$P(H^c \cap S^c) = P((H \cup S)^c) = 1 - P(H \cup S) = 1 - 0,75 = 0,25.$$
     </li>
     
     <li>
-        La probabilidad de que el crédito no supere los 200.000€ sabiendo que es hipotecario es
+        La probabilidad de que el crédito no supere los 200.000€ sabiendo que es hipotecario es:
         $$P(S^c|H^c) = \frac{P(S^c \cap H^c)}{P(H^c)} = \frac{P((S \cup H)^c)}{1 - P(H)} = \frac{1 - P(S \cup H)}{1 - P(H)} = \frac{1-0,75}{1-0,7} \approx 0,8333.$$
     </li>
 
     <li>
-        La probabilidad de que el crédito no sea hipotecario sabiendo que supera los 200.000€ es
+        La probabilidad de que el crédito no sea hipotecario sabiendo que supera los 200.000€ es:
         $$P(H^c|S) = 1 - P(H|S) = 1 - \frac{P(H \cap S)}{P(S)} = 1 - \frac{0,2}{0,25} = 0,2.$$
     </li>
 </ol>

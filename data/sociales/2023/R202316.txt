@@ -1,91 +1,93 @@
+<p>
+    Llamamos $N$ a escoger un caramelo de naranja, $L$ a escoger un caramelo de limón, $M$ a escoger un caramelo de menta y $A$ a escoger un caramelo azucarado.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$N$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad p \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td>$\xrightarrow{\quad 0,25 \quad}$</td>
+            <td>$L$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 0,75 - p \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$N$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 0,4 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A^c$</td>
+            <td>$\xrightarrow{\quad 0,3 \quad}$</td>
+            <td>$L$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 0,3 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+    </table>
+</div>
+
+<p>
+    También sabemos que $P(N) = 0,4.$
+</p>
+
 <ol>
     <li>
-        Llamamos $N$ a escoger un caramelo de naranja, $L$ a escoger un caramelo de limón, $M$ a escoger un caramelo de menta y $A$ a escoger un caramelo azucarado.
-        Sabemos que
-        \begin{align}
-            & P(A) = 0,6, & & P(L | A) = 0,25, \\
-            & P(N | A^c) = 0,4, & & P(L | A^c) = 0,3, \\
-            & P(M | A^c) = 0,3, & & P(N) = 0,4.
-        \end{align}
+        Por el teorema de la probabilidad total, la probabilidad es escoger un caramelo de naranja viene dada por:
+        $$P(N) = P(N \cap A) + P(N \cap A^c) = P(A) \cdot P(N|A) + P(A^c) \cdot P(N | A^c) = 0,6 \cdot p + 0,4 \cdot 0,4 = 0,6p + 0,16.$$
 
-        Podemos hacer un diagrama de árbol.
+        Como $P(N) = 0,4$,
+        $$0,4 = 0,6p + 0,16 \Leftrightarrow 0,6p = 0,24 \Leftrightarrow p = 0,4.$$
 
-        <div class="tabla">
-            <table>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$N$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$A$</td>
-                    <td>$\xrightarrow{\quad 0,25 \quad}$</td>
-                    <td>$L$</td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,75 - p \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$M$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$N$</td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$A^c$</td>
-                    <td>$\xrightarrow{\quad 0,3 \quad}$</td>
-                    <td>$L$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$M$</td>
-                </tr>
-            </table>
-        </div>
-
-        Sabemos que la probabilidad es escoger un caramelo de naranja viene dada por
-        $$P(N) = P(A) \cdot P(N|A) + P(A^c) \cdot P(N | A^c).$$
-
-        Por tanto, despejando en la expresión anterior, la probabilidad de escoger un caramelo de naranja sabiendo que es azucarado es
-        $$P(N|A) = \frac{P(N) - P(A^c) \cdot P(N | A^c)}{P(A)} = \frac{0,4 - 0,4 \cdot 0,4}{0,6} = 0,4.$$
+        Por tanto, la probabilidad de escoger un caramelo de naranja sabiendo que es azucarado es:
+        $$P(N|A) = 0,4.$$
     </li>
 
     <li>
-        La probabilidad de escoger un caramelo de limón es
-        $$P(L) = P(A) \cdot P(L|A) + P(A^c) \cdot P(L | A^c) = 0,6 \cdot 0,25 + 0,4 \cdot 0,3 = 0,27.$$
+        Por el teorema de la probabilidad total, la probabilidad de escoger un caramelo de limón es:
+        $$P(L) = P(L \cap A) + P(L \cap A^c) = P(A) \cdot P(L|A) + P(A^c) \cdot P(L|A^c) = 0,6 \cdot 0,25 + 0,4 \cdot 0,3 = 0,27.$$
         
-        Así que la probabilidad de escoger un caramelo de sabor a frutas es
+        Así que la probabilidad de escoger un caramelo de sabor a frutas es:
         $$P(N \cup L) = P(N) + P(L) = 0,4 + 0,27 = 0,67.$$
 
-        Por otro lado, como los sucesos $N$, $L$ y $M$ son complementarios, la probabilidad de escoger un caramelo de menta es
+        Por otro lado, como los sucesos $N$, $L$ y $M$ son complementarios, la probabilidad de escoger un caramelo de menta es:
         $$P(M) = 1 - P(N) - P(L) = 1 - 0,4 - 0,27 = 0,33.$$
 
         Por tanto, es más probable escoger un caramelo con sabor a frutas.

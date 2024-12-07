@@ -1,68 +1,68 @@
 <p>
     Llamamos $C$ a tener conocimientos bursátiles y $B$ a obtener beneficios.
     Podemos hacer un diagrama de árbol.
-
-    <div class="tabla">
-        <table>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$B$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$C$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$\bar{B}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$B$</td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$\bar{C}$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,9 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$\bar{B}$</td>
-            </tr>
-        </table>
-    </div>
 </p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$B$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$\bar{B}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$B$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$\bar{C}$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,9 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$\bar{B}$</td>
+        </tr>
+    </table>
+</div>
 
 <ol>
     <li>

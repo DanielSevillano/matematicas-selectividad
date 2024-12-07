@@ -1,104 +1,100 @@
+<p>
+    Llamamos $A$ a ser de tipo A, $B$ a ser de tipo B, $C$ a ser de tipo C y $D$ a descartar el procesador.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,3 \quad}$</td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+    </table>
+</div>
+
 <ol>
     <li>
-        Llamamos $A$ a ser de tipo A, $B$ a ser de tipo B, $C$ a ser de tipo C y $D$ a descartar el procesador.
-        Sabemos que
-        \begin{align}
-            & P(A) = 0,6, & & P(B) = 0,3, & & P(C) = 0,1, \\
-            & P(D|A) = 0,2, & & P(D|B) = 0,5, & & P(D|C) = 0,6.
-        \end{align}
-
-        Podemos hacer un diagrama de árbol.
-
-        <div class="tabla">
-            <table>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$D$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$A$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$D^c$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$D$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
-                </tr>
-                <tr>
-                    <td>$\xrightarrow{\quad 0,3 \quad}$</td>
-                    <td>$B$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$D^c$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$D$</td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$C$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$D^c$</td>
-                </tr>
-            </table>
-        </div>
-
-        La probabilidad de que un procesador sea descartado y sea de tipo A o B es
+        La probabilidad de que un procesador sea descartado y sea de tipo A o B es:
         \begin{align}
             & P(D \cap (A \cup B)) = P((D \cap A) \cup (D \cap B)) = P(D \cap A) + P(D \cap B) = P(A) \cdot P(D|A) + P(B) \cdot P(D|B) = \\
             & = 0,6 \cdot 0,2 + 0,3 \cdot 0,5 = 0,27.
@@ -106,7 +102,7 @@
     </li>
 
     <li>
-        La probabilidad de que un procesador sea descartado es
+        Por el teorema de la probabilidad total, la probabilidad de que un procesador sea descartado es:
         \begin{align}
             & P(D) = P(D \cap A) + P(D \cap B) + P(D \cap C) = P(A) \cdot P(D|A) + P(B) \cdot P(D|B) + P(C) \cdot P(D|C) = \\
             & = 0,27 + 0,1 \cdot 0,6 = 0,33.
@@ -114,7 +110,7 @@
     </li>
 
     <li>
-        La probabilidad de que un procesador sea de tipo C sabiendo que no ha sido descartado es
+        La probabilidad de que un procesador sea de tipo C sabiendo que no ha sido descartado es:
         $$P(C|D^c) = \frac{P(C \cap D^c)}{P(D^c)} = \frac{P(C) - P(C \cap D)}{1 - P(D)} = \frac{P(C) - P(C) \cdot P(D|C)}{1 - P(D)} = \frac{0,1 - 0,1 \cdot 0,6}{1 - 0,33} \approx 0,0597.$$
     </li>
 </ol>

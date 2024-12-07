@@ -1,103 +1,105 @@
 <p>
     Llamamos $I$ a trabajar con contrato indefinido, $T$ con contrato temporal, $A$ por cuenta propia y $F$ a pensar que el teletrabajo mejora la conciliación familiar.
-    Sabemos que
-    $$P(I) = 0,72, \quad P(T) = 0,11, \quad P(F|I) = 0,87, \quad P(F|A) = 0,86 \quad \text{y} \quad P(F^c) = 0,1251 \Rightarrow P(F) = 0,8749.$$
-
     Podemos hacer un diagrama de árbol.
+</p>
 
-    <div class="tabla">
-        <table>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$F$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,87 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$I$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,72 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,13 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$F^c$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$F$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
-            </tr>
-            <tr>
-                <td>$\xrightarrow{\quad 0,11 \quad}$</td>
-                <td>$T$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$F^c$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$F$</td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,17 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,86 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$A$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,14 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$F^c$</td>
-            </tr>
-        </table>
-    </div>
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$F$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,87 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$I$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,72 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,13 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$F^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$F$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,11 \quad}$</td>
+            <td>$T$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$F^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$F$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,17 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,86 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,14 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$F^c$</td>
+        </tr>
+    </table>
+</div>
+
+<p>
+    También sabemos que:
+    $$P(F^c) = 0,1251 \Rightarrow P(F) = 0,8749.$$
 </p>
 
 <ol>
     <li>
-        Por el teorema de la probabilidad total, la probabilidad de que opine que el teletrabajo mejora la conciliación familiar viene dada por
+        Por el teorema de la probabilidad total, la probabilidad de que opine que el teletrabajo mejora la conciliación familiar viene dada por:
         \begin{align}
             & P(F) = P(I) \cdot P(F|I) + P(T) \cdot P(F|T) + P(A) \cdot P(F|A) = \\
             & = 0,72 \cdot 0,87 + 0,11 \cdot p + 0,17 \cdot 0,86 = 0,11p + 0,7726.
@@ -110,7 +112,7 @@
     </li>
 
     <li>
-        La probabilidad de que no esté trabajando por cuenta propia sabiendo que opina que el teletrabajo mejora la conciliación familiar es
+        La probabilidad de que no esté trabajando por cuenta propia sabiendo que opina que el teletrabajo mejora la conciliación familiar es:
         $$P(A^c|F) = 1 - P(A|F) = 1 - \frac{P(A \cap F)}{P(F)} = 1 - \frac{0,17 \cdot 0,86}{0,8749} \approx 0,8329.$$
     </li>
 </ol>

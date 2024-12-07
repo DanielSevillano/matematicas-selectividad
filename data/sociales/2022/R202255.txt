@@ -1,24 +1,115 @@
+<p>
+    Llamamos $A$ a proceder de la universidad A, $B$ de la universidad B, $C$ de la universidad C y $T$ a encontrar trabajo en la región.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,3 \quad}$</td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad p \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T^c$</td>
+        </tr>
+    </table>
+</div>
+
 <ol>
     <li>
-        Llamamos $A$ a proceder de la universidad A, $B$ de la universidad B, $C$ de la universidad C y $T$ a encontrar trabajo en la región.
-        Sabemos que
+        Sabemos que $P(T^c) = 0,395.$
+        Por el teorema de la probabilidad total, la probabilidad de que un estudiante no encuentre trabajo en su región viene dada por:
         \begin{align}
-            & P(A) = 0,6, & & P(B) = 0,3, & & P(C) = 0,1, \\
-            & P(T^c|A) = 0,4, & & P(T^c|B) = 0,5, & & P(T^c) = 0,395.
+            & P(T^c) = P(T^c \cap A) + P(T^c \cap B) + P(T^c \cap C) = P(A) \cdot P(T^c|A) + P(B) \cdot P(T^c|B) + P(C) \cdot P(T^c|C) = \\
+            & = 0,6 \cdot 0,4 + 0,3 \cdot 0,5 + 0,1 \cdot p = 0,1p + 0,39.
         \end{align}
 
-        Sabemos que la probabilidad de que un estudiante no encuentre trabajo en su región viene dada por
-        $$P(T^c) = P(A) \cdot P(T^c|A) + P(B) \cdot P(T^c|B) + P(C) \cdot P(T^c|C).$$
+        Como $P(T^c) = 0,395,$
+        $$0,395 = 0,1p + 0,39 \Leftrightarrow 0,1p = 0,005 \Leftrightarrow p = 0,05.$$
 
-        Despejando en la expresión anterior, la probabilidad de que un estudiante de la universidad C no encuentre trabajo en su región es
-        $$P(T^c|C) = \frac{P(T^c) - P(A) \cdot P(T^c|A) - P(B) \cdot P(T^c|B)}{P(C)} = \frac{0,395 - 0,6 \cdot 0,4 - 0,3 \cdot 0,5}{0,1} = 0,05.$$
-
-        Por tanto, la probabilidad de que un estudiante de la universidad C encuentre trabajo en su región es
+        Por tanto, la probabilidad de que un estudiante de la universidad C encuentre trabajo en su región es:
         $$P(T|C) = 1 - P(T^c|C) = 1 - 0,05 = 0,95.$$
     </li>
 
     <li>
-        La probabilidad de que un estudiante proceda de la universidad A o B sabiendo que no ha encontrado trabajo en su región es
+        La probabilidad de que un estudiante proceda de la universidad A o B sabiendo que no ha encontrado trabajo en su región es:
         \begin{align}
             & P(A \cup B | T^c) = \frac{P((A \cup B) \cap T^c)}{P(T^c)} = \frac{P((A \cap T^c) \cup (B \cap T^c))}{P(T^c)} = \frac{P(A \cap T^c) + P(B \cap T^c)}{P(T^c)} = \\
             & = \frac{P(A) \cdot P(T^c|A) + P(B) \cdot P(T^c|B)}{P(T^c)} = \frac{0,6 \cdot 0,4 + 0,3 \cdot 0,5}{0,395} = 0,9873.

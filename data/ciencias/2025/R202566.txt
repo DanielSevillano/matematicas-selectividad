@@ -1,66 +1,66 @@
 <p>
     Llamamos $V$ a sacar una bola verde, $N$ a sacar una bola negra, $R$ a sacar una bola roja, $A$ a elegir la urna A y $B$ a elegir la urna B.
     Podemos hacer un diagrama de árbol.
-
-    <div class="tabla">
-        <table>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$V$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 3/10 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$A$</td>
-                <td>$\xrightarrow{\quad 4/10 \quad}$</td>
-                <td>$N$</td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 2/6 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 3/10 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$R$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td style="padding-top: 20px;">$V$</td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 4/6 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 6/10 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$B$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 4/10 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$N$</td>
-            </tr>
-        </table>
-    </div>
 </p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$V$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 3/10 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td>$\xrightarrow{\quad 4/10 \quad}$</td>
+            <td>$N$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 2/6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 3/10 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$R$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="padding-top: 20px;">$V$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 4/6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 6/10 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$B$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 4/10 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$N$</td>
+        </tr>
+    </table>
+</div>
 
 <ol>
     <li>

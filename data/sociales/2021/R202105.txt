@@ -1,91 +1,91 @@
 <p>
     Llamamos $A$ a administrar la vacuna A, $B$ a administrar la vacuna B, $C$ a administrar el placebo y $D$ a generar anticuerpos.
-    Sabemos que
-    $$P(A) = \frac{3.000}{5.000} = 0,6, \quad P(B) = \frac{1.500}{5.000} = 0,3, \quad P(D|A) = 0,9 \quad \text{y} \quad P(D|B) = 0,95.$$
+    Sabemos que:
+    $$P(A) = \frac{3.000}{5.000} = 0,6 \quad \text{y} \quad P(B) = \frac{1.500}{5.000} = 0,3.$$
 
     Podemos hacer un diagrama de árbol.
-
-    <div class="tabla">
-        <table>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$D$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,9 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$A$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$D^c$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$D$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,95 \quad}$</td>
-            </tr>
-            <tr>
-                <td>$\xrightarrow{\quad 0,3 \quad}$</td>
-                <td>$B$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,05 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$D^c$</td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$C$</td>
-                <td>$\xrightarrow{\quad 1 \quad}$</td>
-                <td>$D^c$</td>
-            </tr>
-        </table>
-    </div>
 </p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,9 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,95 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,3 \quad}$</td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,05 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td>$\xrightarrow{\quad 1 \quad}$</td>
+            <td>$D^c$</td>
+        </tr>
+    </table>
+</div>
 
 <ol>
     <li>
-        Por el teorema de la probabilidad total, la probabilidad de que haya generado anticuerpos es
+        Por el teorema de la probabilidad total, la probabilidad de que haya generado anticuerpos es:
         $$P(D) = P(A) \cdot P(D|A) + P(B) \cdot P(D|B) = 0,6 \cdot 0,9 + 0,3 \cdot 0,95 = 0,825.$$
     </li>
 
     <li>
-        La probabilidad de que se le haya administrado placebo sabiendo que no ha generado anticuerpos es
+        La probabilidad de que se le haya administrado placebo sabiendo que no ha generado anticuerpos es:
         $$P(C|D^c) = \frac{P(C \cap D^c)}{P(D^c)} = \frac{P(C)}{1 - P(D)} = \frac{0,1}{1 - 0,825} \approx 0,5714.$$
     </li>
 </ol>

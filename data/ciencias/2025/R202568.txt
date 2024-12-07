@@ -1,68 +1,68 @@
 <p>
     Llamamos $I$ a inyectar el suero y $M$ a mejorar.
     Podemos hacer un diagrama de árbol.
-
-    <div class="tabla">
-        <table>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$M$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$I$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$\bar{M}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$M$</td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,25 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$\bar{I}$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,75 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$\bar{M}$</td>
-            </tr>
-        </table>
-    </div>
 </p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$I$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$\bar{M}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,25 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$\bar{I}$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,75 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$\bar{M}$</td>
+        </tr>
+    </table>
+</div>
 
 <p>
     Por el teorema de la probabilidad total, la probabilidad de que el paciente empeore es:

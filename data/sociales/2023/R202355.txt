@@ -1,38 +1,121 @@
+<p>
+    Llamamos $V$ a extraer una ficha verde, $A$ a extraer una ficha azul y $R$ a extraer una ficha roja.
+    También llamamos $E_1$ a obtener el primer premio, $E_2$ a obtener el segundo y $E_3$ a obtener el tercero.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$V_2$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 2/8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$V_1$</td>
+            <td>$\xrightarrow{\quad 2/8 \quad}$</td>
+            <td>$A_2$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 3/9 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 4/8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$R_2$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="padding-top: 20px;">$V_2$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 3/8 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 2/9 \quad}$</td>
+            <td>$A_1$</td>
+            <td>$\xrightarrow{\quad 1/8 \quad}$</td>
+            <td>$A_2$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 4/8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$R_2$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="padding-top: 20px;">$V_2$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 4/9 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 3/8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$R_1$</td>
+            <td>$\xrightarrow{\quad 2/8 \quad}$</td>
+            <td>$A_2$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 3/8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$R_2$</td>
+        </tr>
+    </table>
+</div>
+
 <ol>
     <li>
-        Llamamos $V$ a extraer una ficha verde, $A$ a extraer una ficha azul y $R$ a extraer una ficha roja.
-        También llamamos $E_1$ a obtener el primer premio, $E_2$ a obtener el segundo y $E_3$ a obtener el tercero.
-        Como hay 9 fichas, sabemos que
-        $$P(V) = \frac{3}{9}, \quad P(A) = \frac{2}{9} \quad \text{y} \quad P(R) = \frac{4}{9}.$$
+        La probabilidad de que un jugador consiga el primer premio es:
+        $$P(E_1) = P(A_1 \cap A_2) = P(A_1) \cdot P(A_2|A_1) = \frac{2}{9} \cdot \frac{1}{8} = \frac{1}{36}.$$
 
-        Al realizar dos extracciones, el espacio muestral es
-        $$\{VV, VA, VR, AV, AA, AR, RV, RA, RR\}.$$
+        Por otro lado, la probabilidad de que un jugador consiga el segundo premio es:
+        $$P(E_2) = P(V_1 \cap V_2) = P(V_1) \cdot P(V_2|V_1) = \frac{3}{9} \cdot \frac{2}{8} = \frac{1}{12}.$$
 
-        La probabilidad de que un jugador consiga el primer premio corresponde al suceso $AA.$
-        Como las extracciones se realizan sin reemplazamiento,
-        $$P(E_1) = P(AA) = \frac{2}{9} \cdot \frac{1}{8} = \frac{2}{72}.$$
-
-        Por otro lado, la probabilidad de que un jugador consiga el segundo premio corresponde al suceso $VV.$
-        $$P(E_2) = P(VV) = \frac{3}{9} \cdot \frac{2}{8} = \frac{6}{72}.$$
-
-        Por tanto, la probabilidad de conseguir el primer o segundo premio es
-        $$P(E_1 \cup E_2) = P(E_1) + P(E_2) = \frac{2}{72} + \frac{6}{72} = \frac{8}{72} = \frac{1}{9}.$$
+        Por tanto, la probabilidad de conseguir el primer o segundo premio es:
+        $$P(E_1 \cup E_2) = P(E_1) + P(E_2) = \frac{1}{36} + \frac{1}{12} = \frac{1}{9}.$$
     </li>
 
     <li>
-        La probabilidad de que un jugador consiga el tercer premio corresponde a los sucesos $VA$, $AV$, $AR$ y $RA.$
-        Hallamos sus probabilidades.
+        La probabilidad de que un jugador consiga en tercer premio es:
         \begin{align}
-            & P(VA) = \frac{3}{9} \cdot \frac{2}{8} = \frac{6}{72}, & & P(AV) = \frac{2}{9} \cdot \frac{3}{8} = \frac{6}{72}, \\
-            & P(AR) = \frac{2}{9} \cdot \frac{4}{8} = \frac{8}{72}, & & P(RA) = \frac{4}{9} \cdot \frac{2}{8} = \frac{8}{72}.
+            & P(E_3) = P(V_1 \cap A_1) + P(A_1 \cap V_2) + P(A_1 \cap R_2) + P(R_1 \cap A_2) = \\
+            & = P(V_1) \cdot P(A_1|V_1) + P(A_1) \cdot P(V_2|A_1) + P(A_1) \cdot P(R_2|A_1) + P(R_1) \cdot P(A_2|R_1) = \\
+            & = \frac{3}{9} \cdot \frac{2}{8} + \frac{2}{9} \cdot \frac{3}{8} + \frac{2}{9} \cdot \frac{4}{8} + \frac{4}{9} \cdot \frac{2}{8} = \frac{7}{18}.
         \end{align}
-
-        Por tanto, la probabilidad de conseguir el tercer premio es
-        $$P(E_3) = P(VA \cup AV \cup AR \cup RA) = \frac{6}{72} + \frac{6}{72} + \frac{8}{72} + \frac{8}{72} = \frac{28}{72} = \frac{7}{18}.$$
     </li>
 
     <li>
-        La probabilidad de haber conseguido el tercer premio sabiendo que ha obtenido un premio es
-        $$\frac{P(E_3)}{P(E_1 \cup E_2 \cup E_3)} = \frac{P(E_3)}{P(E_1) + P(E_2) + P(E_3)} = \frac{\frac{28}{72}}{\frac{2}{72} + \frac{6}{72} + \frac{28}{72}} = \frac{28}{36} = \frac{7}{9}.$$
+        La probabilidad de haber conseguido el tercer premio sabiendo que ha obtenido un premio es:
+        $$P(E_3|E_1 \cup E_2 \cup E_3) = \frac{P(E_3)}{P(E_1 \cup E_2 \cup E_3)} = \frac{P(E_3)}{P(E_1) + P(E_2) + P(E_3)} = \frac{\frac{7}{18}}{\frac{1}{36} + \frac{1}{12} + \frac{7}{18}} = \frac{7}{9}.$$
     </li>
 </ol>

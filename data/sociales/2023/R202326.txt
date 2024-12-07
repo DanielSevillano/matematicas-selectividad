@@ -1,73 +1,76 @@
+<p>
+    Llamamos $A$ a producir un componente en la fábrica A, $B$ a producir un componente en la fábrica B y $E$ a exportar un componente.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,25 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,75 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E^c$</td>
+        </tr>
+    </table>
+</div>
+
+<p>
+    También sabemos que $P(E) = 0,37.$
+</p>
+
 <ol>
     <li>
-        Llamamos $A$ a producir un componente en la fábrica A, $B$ a producir un componente en la fábrica B y $E$ a exportar un componente.
-        Sabemos que
-        $$P(E|A) = 0,4, \quad P(E|B) = 0,25 \quad \text{y} \quad P(E) = 0,37.$$
-
-        Podemos hacer un diagrama de árbol.
-
-        <div class="tabla">
-            <table>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$A$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E^c$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E$</td>
-                </tr>
-                <tr>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1-p \quad}$</td>
-                    <td></td>
-                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,25 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>$B$</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,75 \quad}$</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>$E^c$</td>
-                </tr>
-            </table>
-        </div>
-
-        Por el teorema de la probabilidad total, la probabilidad de exportar un componente viene dada por
+        Por el teorema de la probabilidad total, la probabilidad de exportar un componente viene dada por:
         $$P(E) = P(A) \cdot P(E|A) + P(B) \cdot P(E|B) = p \cdot 0,4 + (1-p) \cdot 0,25 = 0,15p + 0,25.$$
 
         Como $P(E) = 0,37$,
@@ -77,7 +80,7 @@
     </li>
 
     <li>
-        La probabilidad de producir un componente en la fábrica A sabiendo que no es exportado es
+        La probabilidad de producir un componente en la fábrica A sabiendo que no es exportado es:
         $$P(A|E^c) = \frac{P(A \cap E^c)}{P(E^c)} = \frac{P(A) \cdot P(E^c|A)}{1 - P(E)} = \frac{0,8 \cdot 0,6}{1 - 0,37} \approx 0,7619.$$
     </li> 
 </ol>

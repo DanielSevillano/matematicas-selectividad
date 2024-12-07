@@ -1,88 +1,85 @@
 <p>
     Llamamos $A$ a consumir alcohol y $T$ a dar positivo en el test.
-    Sabemos que:
-    $$P(A) = 0,05, \quad P(T|A) = 0,96 \quad \text{y} \quad P(T|A^c) = 0,1.$$
-
     Podemos hacer un diagrama de árbol.
-
-    <div class="tabla">
-        <table>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$T$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,96 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$A$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,05 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,04 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$T^c$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$T$</td>
-            </tr>
-            <tr>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,95 \quad}$</td>
-                <td></td>
-                <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>$A^c$</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,9 \quad}$</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>$T^c$</td>
-            </tr>
-        </table>
-    </div>
 </p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,96 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,05 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,04 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,95 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,1 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A^c$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,9 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T^c$</td>
+        </tr>
+    </table>
+</div>
 
 <ol>
     <li>
-        En primer lugar, calculamos la probabilidad de que el test dé positivo.
-        $$P(T) = P(A) \cdot P(T|A) + P(A^c) \cdot P(T|A^c) = 0,05 \cdot 0,96 + 0,95 \cdot 0,1 = 0,143.$$
+        Por el teorema de la probabilidad, la probabilidad de que el test dé positivo es:
+        $$P(T) = P(T \cap A) + P(T \cap A^c) = P(A) \cdot P(T|A) + P(A^c) \cdot P(T|A^c) = 0,05 \cdot 0,96 + 0,95 \cdot 0,1 = 0,143.$$
 
-        Por tanto, la probabilidad de que el conductor haya consumido alcohol sabiendo que el test da positivo es
+        Por tanto, la probabilidad de que el conductor haya consumido alcohol sabiendo que el test da positivo es:
         $$P(A|T) = \frac{P(A \cap T)}{P(T)} = \frac{P(A) \cdot P(T|A)}{P(T)} = \frac{0,05 \cdot 0,96}{0,143} \approx 0,3357.$$
     </li>
 
     <li>
-        La probabilidad de que el test dé negativo y el conductor no haya consumido alcohol es
+        La probabilidad de que el test dé negativo y el conductor no haya consumido alcohol es:
         $$P(T^c \cap A^c) = P(A^c) \cdot P(T^c|A^c) = 0,95 \cdot 0,9 = 0,855.$$
     </li>
 
     <li>
-        La probabilidad de que el conductor no haya consumido alcohol sabiendo que el test ha dado negativo es
+        La probabilidad de que el conductor no haya consumido alcohol sabiendo que el test ha dado negativo es:
         $$P(A^c|T^c) = \frac{P(A^c \cap T^c)}{P(T^c)} = \frac{0,855}{1-0,143} \approx 0,9977.$$
     </li>
 </ol>

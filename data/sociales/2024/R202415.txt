@@ -1,15 +1,17 @@
+<p>
+    Llamamos $H$ a comprar novelas históricas y $F$ a comprar novelas de fantasía.
+    Sabemos que:
+    $$P(H) = 0,45, \quad P(F^c) = 0,4 \Rightarrow P(F) = 0,6 \quad \text{y} \quad P(H|F) = 0,3.$$
+</p>
+
 <ol>
     <li>
-        Llamamos $H$ a comprar novelas históricas y $F$ a comprar novelas de fantasía.
-        Sabemos que
-        $$P(H) = 0,45, \quad P(F^c) = 0,4 \Rightarrow P(F) = 0,6 \quad \text{y} \quad P(H|F) = 0,3.$$
-
-        La probabilidad de que un cliente compre novelas históricas y de fantasía es
+        La probabilidad de que un cliente compre novelas históricas y de fantasía es:
         $$P(H \cap F) = P(F) \cdot P(H|F) = 0,6 \cdot 0,3 = 0,18.$$
     </li>
 
     <li>
-        La probabilidad de que no compre novelas ni históricas ni de fantasía es
+        La probabilidad de que no compre novelas ni históricas ni de fantasía es:
         \begin{align}
             & P(H^c \cap F^c) = P((H \cup F)^c) = 1 - P(H \cup F) = \\
             & = 1 - (P(H) + P(F) - P(H \cap F)) = 1 - (0,45 + 0,6 - 0,18) = 0,13.
@@ -17,7 +19,7 @@
     </li>
 
     <li>
-        La probabilidad de que compre una novela de fantasía sabiendo que no ha comprado ninguna novela histórica es
+        La probabilidad de que compre una novela de fantasía sabiendo que no ha comprado ninguna novela histórica es:
         $$P(F|H^c) = \frac{P(F \cap H^c)}{P(H^c)} = \frac{P(F) - P(H \cap F)}{1-P(H)} = \frac{0,6 - 0,18}{1 - 0,45} \approx 0,7636.$$
     </li>
 </ol>

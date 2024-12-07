@@ -1,20 +1,22 @@
+<p>
+    Llamamos $A$ a usar la plataforma del centro y $B$ a usar el correo electrónico.
+    Sabemos que:
+    $$P(A) = 0,75, \quad P(B) = 0,4 \quad \text{y} \quad P((A \cup B)^c) = 0,15 \Rightarrow P(A \cup B) = 0,85.$$
+</p>
+
 <ol>
     <li>
-        Llamamos $A$ a usar la plataforma del centro y $B$ a usar el correo electrónico.
-        Sabemos que
-        $$P(A) = 0,75, \quad P(B) = 0,4 \quad \text{y} \quad P((A \cup B)^c) = 0,15 \Rightarrow P(A \cup B) = 0,85.$$
-
-        La probabilidad de que un estudiante utilice ambos medios de comunicación es
+        La probabilidad de que un estudiante utilice ambos medios de comunicación es:
         $$P(A \cap B) = P(A) + P(B) - P(A \cup B) = 0,75 + 0,4 - 0,85 = 0,3.$$
     </li>
 
     <li>
-        La probabilidad de que un estudiante utilice solo uno de los dos medios de comunicación es
+        La probabilidad de que un estudiante utilice solo uno de los dos medios de comunicación es:
         $$P(A-B) + P(B-A) = P(A \cup B) - P(A \cap B) = 0,85 - 0,3 = 0,55.$$
     </li>
 
     <li>
-        La probabilidad de que un estudiante utilice la plataforma del centro sabiendo que no usa el correo electrónico es
+        La probabilidad de que un estudiante utilice la plataforma del centro sabiendo que no usa el correo electrónico es:
         $$P(A|B^c) = \frac{P(A \cap B^c)}{P(B^c)} = \frac{P(A) - P(A \cap B)}{1 - P(B)} = \frac{0,75 - 0,3}{1 - 0,4} = 0,75.$$
     </li>
 
