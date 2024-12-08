@@ -1,0 +1,24 @@
+<ol>
+    <li>
+        El coseno del ángulo $\alpha$ que forman los vectores $\vec{u}$ y $\vec{v}$ viene dado por:
+        $$\cos(\alpha) = \frac{|\vec{u} \cdot \vec{v}|}{|\vec{u}| \cdot |\vec{v}|} = \frac{|-2 + 3a|}{\sqrt{5 + a^2} \cdot \sqrt{5 + a^2}} = \frac{|-2 + 3a|}{5 + a^2}.$$
+
+        Para que formen un ángulo de $\frac{\pi}{3}$, ha de verificarse:
+        $$\frac{1}{2} = \frac{|-2 + 3a|}{5 + a^2} \Leftrightarrow \begin{cases}
+            \frac{1}{2} = \frac{-2 + 3a}{5 + a^2} \Leftrightarrow -4 + 6a = 5 + a^2 \Leftrightarrow a^2 - 6a + 9 = 0 \Leftrightarrow a = 3, \\
+            \frac{1}{2} = \frac{2 - 3a}{5 + a^2} \Leftrightarrow 4 - 6a = 5 + a^2 \Leftrightarrow a^2 + 6a + 1 = 0 \Leftrightarrow a = -3 \pm 2\sqrt{2}.
+        \end{cases}$$
+    </li>
+
+    <li>
+        En primer lugar, calculamos el vector $(\vec{u} \times \vec{v}) - \vec{v}.$
+        $$(\vec{u} \times \vec{v}) - \vec{v} = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            1 & a & 2 \\
+            -2 & 1 & a
+        \end{vmatrix} - (-2, 1, a) = (a^2 - 2, -a - 5, 1 + a) - (-2, 1, a) = (a^2, -a - 5, 1 + a).$$
+
+        Para que este vector y $\vec{u}$ sean ortogonales, ha de verificarse:
+        $$((\vec{u} \times \vec{v}) - \vec{v}) \cdot \vec{u} = 0 \Leftrightarrow a^2 + a(-a - 5) + 2(1+a) = 0 \Leftrightarrow a^2 - a^2 - 5a + 2 + 2a = 0 \Leftrightarrow 3a = 2 \Leftrightarrow a = \frac{2}{3}.$$
+    </li>
+</ol>

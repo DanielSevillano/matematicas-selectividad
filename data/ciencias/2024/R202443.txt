@@ -1,0 +1,23 @@
+<p>
+    Calculamos la integral:
+    $$\int_{-\pi}^\pi f(x)dx = \int_{-\pi}^0 (1-e^x)dx + \int_0^\pi x\cos(x)dx.$$
+</p>
+
+<p>
+    En primer lugar, hallamos una primitiva de la función $f(x) = x\cos(x)$ integrando por partes.
+    \begin{align}
+        u = x & \Rightarrow u' = 1, \\
+        v' = \cos(x) & \Rightarrow v = \sin(x).
+    \end{align}
+
+    De esta forma,
+    $$\int x\cos(x)dx = x\sin(x) - \int \sin(x)dx = x\sin(x) + \cos(x).$$
+</p>
+
+<p>
+    Por tanto,
+    \begin{align}
+        & \int_{-\pi}^\pi f(x)dx = \int_{-\pi}^0 (1-e^x)dx + \int_0^\pi x\cos(x)dx = \Big[x - e^x\Big]_{-\pi}^0 + \Big[x\sin(x) + \cos(x)\Big]_0^\pi = \\
+        & = -1 - (-\pi - e^{-\pi}) + (-1) - 1 = e^{-\pi} + \pi - 3.
+    \end{align}
+</p>

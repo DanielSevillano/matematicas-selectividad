@@ -432,6 +432,7 @@
     },
     {
         "ejercicio": 202443,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -446,6 +447,7 @@
     },
     {
         "ejercicio": 202445,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Determinantes"
@@ -467,8 +469,10 @@
     },
     {
         "ejercicio": 202448,
+        "resuelto": true,
         "categorias": [
             "Geometría",
+            "Vectores",
             "Ángulos"
         ]
     },
