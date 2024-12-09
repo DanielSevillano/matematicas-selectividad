@@ -440,6 +440,7 @@
     },
     {
         "ejercicio": 202444,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
