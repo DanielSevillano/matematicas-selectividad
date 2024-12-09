@@ -462,6 +462,7 @@
     },
     {
         "ejercicio": 202447,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Posición relativa"
