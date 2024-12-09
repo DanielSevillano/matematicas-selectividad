@@ -1,1 +1,6 @@
-De entre todos los rectángulos de área 25 cm<sup>2</sup>, determina las dimensiones de aquel en el que el producto de las longitudes de sus dos diagonales sea el menor posible.
+Sea la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = (x^2 + 1)e^x.$
+
+<ol>
+    <li>Calcula los intervalos de crecimiento y de decrecimiento de $f.$</li>
+    <li>Determina los intervalos de concavidad y de convexidad de $f$ y los puntos de inflexión de su gráfica (abscisas donde se obtienen y valores que alcanzan).</li>
+</ol>

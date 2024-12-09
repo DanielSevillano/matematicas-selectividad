@@ -1,36 +1,57 @@
 <ol>
     <li>
-        Para hallar el punto de $r$ a menor distancia de $P$, trazamos un plano $\pi$ perpendicular a $r$ que pase por $P.$
-        Al ser perpendicular a la recta $r$, su vector normal es $\vec{n}_\pi = \vec{d}_r = (2, 2, -1).$
-        Así que la ecuación del plano $\pi$ es:
-        $$\pi \equiv 2x + 2(y-2) - (z+4) = 0 \Leftrightarrow 2x + 2y - z - 8 = 0.$$
-
-        A continuación, calculamos el punto de intersección $Q$ de la recta y el plano, que será el punto de $r$ a menor distancia del punto $P.$
-        En primer lugar, hallamos las ecuaciones paramétricas de la recta $r.$
-        $$r \equiv \begin{cases}
-            x = -1 + 2\lambda, \\
-            y = 2 + 2\lambda, \\
-            z = 3 - \lambda.
+        En primer lugar, hallamos las ecuaciones paramétricas de la recta $s.$
+        Si tomamos $x = \mu$,
+        $$s \equiv \begin{cases}
+            x = \mu, \\
+            y = -\frac{3a}{2} + \frac{1}{2}\mu, \\
+            z = 2 - \mu.
         \end{cases}$$
-        
-        Para ello hallar el punto de corte, sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
-        $$2(-1 + 2\lambda) + 2(2 + 2\lambda - 2) - (3 - \lambda) - 8 = 0 \Leftrightarrow 9\lambda - 9 = 0 \Leftrightarrow \lambda = 1.$$
 
-        Por tanto, el punto de intersección es $Q(1, 4, 2).$
-        Así que este es el punto de $r$ a menor distancia de $P.$
+        Observamos que los vectores directores $\vec{d}_r = (1, 1, 2)$ y $\vec{d}_s = \left(1, \frac{1}{2}, -1\right)$ no son proporcionales, así que las dos rectas no son ni paralelas ni coincidentes para ningún valor de $a.$
+        Tomamos un punto $R(0, -a, -1)$ de $r$ y $S\left(0, -\frac{3a}{2}, 2\right)$ de $s.$
+        Podemos comprobar si las dos rectas están contenidas en un mismo plano estudiando si $\vec{d}_r$, $\vec{d}_s$ y $\vec{RS} = \left(0, -\frac{a}{2}, 3\right)$ son linealmente dependientes.
+        $$\begin{vmatrix}
+            1 & 1 & 2 \\
+            1 & \frac{1}{2} & -1 \\
+            0 & -\frac{a}{2} & 3
+        \end{vmatrix} = \frac{3}{2} - a - \frac{a}{2} - 3 = -\frac{3}{2} - \frac{3a}{2}.$$
+
+        Para que las rectas $r$ y $s$ se corten, ha de verificarse:
+        $$-\frac{3}{2} - \frac{3a}{2} = 0 \Leftrightarrow a = -1.$$
     </li>
 
     <li>
-        Consideramos un punto genérico $R(-1 + 2\lambda, 2 + 2\lambda, 3 - \lambda)$ de la recta $r.$
-        La distancia entre $P$ y el punto genérico $R$ viene dada por el módulo del vector $\vec{PR} = (-1 + 2\lambda, 2\lambda, 7 - \lambda).$
-        $$\dist(P, R) = |\vec{PR}| = \sqrt{(-1 + 2\lambda)^2 + (2\lambda)^2 + (7 - \lambda)^2} = \sqrt{9\lambda^2 - 18\lambda + 50}.$$
+        Si $a = -1$, las rectas $r$ y $s$ se cortan por el apartado anterior.
+        Llamamos $t$ a la recta que nos piden.
+        Como es perpendicular a las rectas $r$ y $s$, su vector director viene dado por:
+        $$\vec{d}_t = \vec{d}_r \times \vec{d}_s = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            1 & 1 & 2 \\
+            1 & \frac{1}{2} & -1
+        \end{vmatrix} = \left(-2, 3, -\frac{1}{2}\right).$$
 
-        Como queremos hallar los puntos de $r$ cuya distancia a $P$ sea de $\sqrt{50} \; u$,
-        $$\dist(P, R) = \sqrt{50} \Leftrightarrow \sqrt{9\lambda^2 - 18\lambda + 50} = \sqrt{50} \Leftrightarrow 9\lambda^2 - 18\lambda + 50 = 50 \Leftrightarrow 9\lambda(\lambda - 2) = 0 \Leftrightarrow \begin{cases}
-            \lambda = 0, \\
-            \lambda = 2.
+        Como además corta a las dos rectas, $t$ tiene que pasar por el punto de corte de $r$ y $s.$
+        Para ello, hallamos en primer lugar las ecuaciones paramétricas de la recta $r.$
+        $$r \equiv \begin{cases}
+            x = \lambda, \\
+            y = 1 + \lambda, \\
+            z = -1 + 2\lambda.
         \end{cases}$$
 
-        Por tanto, los puntos son $R_1(-1, 2, 3)$ y $R_2(3, 6, 1).$
+        Calculamos el punto de corte igualando las ecuaciones entre sí.
+        \begin{cases}
+            \lambda = \mu, \\
+            1 + \lambda = \frac{3}{2} + \frac{1}{2}\lambda, \\
+            -1 + 2\lambda = 2 - \mu
+        \end{cases}
+        
+        Obtenemos que $\lambda = 1$ y $\mu = 1$, así que el punto de corte es $(1, 2, 1).$
+        Por tanto, las ecuaciones paramétricas de la recta $t$ son:
+        $$t \equiv \begin{cases}
+            x = 1 - 2\lambda, \\
+            y = 2 + 3\lambda, \\
+            z = 1 - \frac{1}{2}\lambda.
+        \end{cases}$$
     </li>
 </ol>

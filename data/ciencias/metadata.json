@@ -351,8 +351,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Monotonía y extremos",
-            "Curvatura y puntos de inflexión"
+            "Optimización"
         ]
     },
     {
@@ -360,8 +359,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Derivabilidad",
-            "Recta tangente"
+            "Asíntotas"
         ]
     },
     {
@@ -369,8 +367,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Integrales",
-            "Área de recintos"
+            "Integrales"
         ]
     },
     {
@@ -386,8 +383,7 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
-            "Determinantes",
-            "Ecuaciones matriciales"
+            "Determinantes"
         ]
     },
     {
@@ -395,7 +391,6 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
-            "Rango",
             "Sistemas"
         ]
     },
@@ -404,14 +399,16 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Distancia"
+            "Posición relativa"
         ]
     },
     {
         "ejercicio": 202438,
         "resuelto": true,
         "categorias": [
-            "Geometría"
+            "Geometría",
+            "Vectores",
+            "Ángulos"
         ]
     },
     {
@@ -419,7 +416,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Optimización"
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión"
         ]
     },
     {
@@ -427,7 +425,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Asíntotas"
+            "Derivabilidad",
+            "Recta tangente"
         ]
     },
     {
@@ -435,7 +434,8 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
-            "Integrales"
+            "Integrales",
+            "Área de recintos"
         ]
     },
     {
@@ -451,7 +451,8 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
-            "Determinantes"
+            "Determinantes",
+            "Ecuaciones matriciales"
         ]
     },
     {
@@ -459,6 +460,7 @@
         "resuelto": true,
         "categorias": [
             "Álgebra",
+            "Rango",
             "Sistemas"
         ]
     },
@@ -467,16 +469,14 @@
         "resuelto": true,
         "categorias": [
             "Geometría",
-            "Posición relativa"
+            "Distancia"
         ]
     },
     {
         "ejercicio": 202448,
         "resuelto": true,
         "categorias": [
-            "Geometría",
-            "Vectores",
-            "Ángulos"
+            "Geometría"
         ]
     },
     {

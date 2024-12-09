@@ -1,4 +1,4 @@
-Calcula una primitiva de la función $f: (1, +\infty) \to \mathbb{R}$ definida por
-$$f(x) = (x-1)^2 \ln\left(\frac{\sqrt{x-1}}{2}\right)$$
-cuya gráfica pase por el punto $\left(5, -\frac{7}{2}\right).$
-(Sugerencia: efectúa el cambio de variable $x - 1 = t^2$).
+Calcula
+$$\int \frac{e^{3x} - 1}{e^x - 3}dx.$$
+
+(Sugerencia: efectúa el cambio de variable $t = e^x$).

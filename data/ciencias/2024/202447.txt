@@ -1,10 +1,8 @@
-Considera las rectas
-$$r \equiv x = y + a = \frac{z+1}{2} \quad \text{y} \quad s \equiv \begin{cases}
-    x - 2y = 3a, \\
-    x + z = 2.
-\end{cases}$$
+Considera la recta
+$$r \equiv \frac{x+1}{2} = \frac{y-2}{2} = 3 - z$$
+y el punto $P(0, 2, -4).$
 
 <ol>
-    <li>Calcula $a$ para que las rectas se corten.</li>
-    <li>Para $a = -1$, halla la recta que corta perpendicularmente a $r$ y $s.$</li>
+    <li>Calcula el punto de $r$ a menor distancia de $P.$</li>
+    <li>Halla los puntos de $r$ cuya distancia a $P$ sea igual a $\sqrt{50}.$</li>
 </ol>

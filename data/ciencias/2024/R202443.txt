@@ -1,23 +1,62 @@
-<p>
-    Calculamos la integral:
-    $$\int_{-\pi}^\pi f(x)dx = \int_{-\pi}^0 (1-e^x)dx + \int_0^\pi x\cos(x)dx.$$
-</p>
+<ol>
+    <li>
+        <ul>
+            <li>
+                Hallamos los puntos de corte de la gráfica de $f$ con el eje $X.$
+                $$f(x) = 0 \Leftrightarrow x^3 - 6x^2 + 8x = 0 \Leftrightarrow x(x^2 - 6x + 8) = 0 \Leftrightarrow \begin{cases}
+                    x = 0, \\
+                    x = 2, \\
+                    x = 4.
+                \end{cases}$$
+                
+                Por tanto, $(0, 0)$, $(2, 0)$ y $(4, 0)$ son los puntos de corte con el eje de abscisas.
+                Además, $(0, 0)$ es también el punto de corte con el eje $Y.$
+            </li>
 
-<p>
-    En primer lugar, hallamos una primitiva de la función $f(x) = x\cos(x)$ integrando por partes.
-    \begin{align}
-        u = x & \Rightarrow u' = 1, \\
-        v' = \cos(x) & \Rightarrow v = \sin(x).
-    \end{align}
+            <li>
+                Para representar correctamente la gráfica de función, estudiamos su monotonía.
+                Hallamos en primer lugar la derivada de la función $f.$
+                $$f'(x) = 3x^2 - 12x + 8.$$
 
-    De esta forma,
-    $$\int x\cos(x)dx = x\sin(x) - \int \sin(x)dx = x\sin(x) + \cos(x).$$
-</p>
+                Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
+                $$f'(x) = 0 \Leftrightarrow 3x^2 - 12x + 8 = 0 \Leftrightarrow x = 2 \pm \frac{2\sqrt{3}}{3}.$$
 
-<p>
-    Por tanto,
-    \begin{align}
-        & \int_{-\pi}^\pi f(x)dx = \int_{-\pi}^0 (1-e^x)dx + \int_0^\pi x\cos(x)dx = \Big[x - e^x\Big]_{-\pi}^0 + \Big[x\sin(x) + \cos(x)\Big]_0^\pi = \\
-        & = -1 - (-\pi - e^{-\pi}) + (-1) - 1 = e^{-\pi} + \pi - 3.
-    \end{align}
-</p>
+                Estudiamos el signo de $f'.$
+
+                <ul>
+                    <li>
+                        Si $x < 2 - \frac{2\sqrt{3}}{3}$, $f'(x) > 0.$
+                        Así que $f$ es creciente.
+                    </li>
+
+                    <li>
+                        Si $2 - \frac{2\sqrt{3}}{3} < x < 2 + \frac{2\sqrt{3}}{3}$, $f'(x) < 0.$
+                        Así que $f$ es decreciente.
+                    </li>
+
+                    <li>
+                        Si $x > 2 + \frac{2\sqrt{3}}{3}$, $f'(x) > 0.$
+                        Así que $f$ es creciente.
+                    </li>
+                </ul>
+
+                Por tanto, $f$ es creciente en $\left(-\infty, 2 - \frac{2\sqrt{3}}{3}\right) \cup \left(2 + \frac{2\sqrt{3}}{3}, +\infty\right)$ y decreciente en $\left(2 - \frac{2\sqrt{3}}{3}, 2 + \frac{2\sqrt{3}}{3}\right).$
+                Además, el punto $\left(2 - \frac{2\sqrt{3}}{3}, \frac{16\sqrt{3}}{9}\right)$ es un máximo relativo y el punto $\left(2 + \frac{2\sqrt{3}}{3}, -\frac{16\sqrt{3}}{9}\right)$ es un mínimo relativo.
+            </li>
+        </ul>
+
+        Representamos gráficamente la función usando esta información.
+        <img src="img/ciencias/R202433-1.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        Podemos representar los recintos limitados por la gráfica de $f$ y el eje de abscisas.
+        <img src="img/ciencias/R202433-2.png" alt="Figura" loading="lazy">
+
+        Calculamos el área de los recintos.
+        \begin{align}
+            & \int_0^2 f(x)dx - \int_2^4 f(x)dx = \int_0^2 (x^3 - 6x^2 + 8x)dx - \int_2^4 (x^3 - 6x^2 + 8x)dx = \\
+            & = \left[\frac{1}{4}x^4 - 2x^3 + 4x^2\right]_0^2 - \left[\frac{1}{4}x^4 - 2x^3 + 4x^2\right]_2^4 = 4 - 16 + 16 - (64 - 128 + 64 - (4 - 16 + 16)) = 8 \; u^2.
+        \end{align}
+    </li>
+</ol>

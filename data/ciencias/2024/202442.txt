@@ -1,8 +1,10 @@
-Considera la función definida por
-$$f(x) = \frac{ax^3 + x - 1}{x^2 + bx - 3},$$
-para $x^2 + bx - 3 \neq 0.$
+Sea la función derivable $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \begin{cases}
+    ae^{-x} + b\ln(1-x), & \text{si } x < 0, \\
+    x + \ln(1+x), & \text{si } x \geq 0.
+\end{cases}$$
 
 <ol>
-    <li>Calcula $a$ y $b$ para que $y = x-2$ sea una asíntota oblicua de la gráfica de $f.$</li>
-    <li>Estudia y halla las asíntotas verticales de la gráfica de $f$ cuando $a = 0$ y $b = 2.$</li>
+    <li>Determina $a$ y $b.$</li>
+    <li>Halla la ecuación de la recta tangente y de la recta normal a la gráfica de $f$ en el punto de abscisa $x = 0.$</li>
 </ol>

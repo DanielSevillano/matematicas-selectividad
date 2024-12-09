@@ -1,26 +1,16 @@
 Considera las matrices
 $$A = \begin{pmatrix}
-    x & y & z \\
-    3 & 0 & 2 \\
-    1 & 1 & 1
-\end{pmatrix}, \quad
-B = \begin{pmatrix}
-    1 & y & z
+    1 & -1 & 0 \\
+    7 & 2 & 0 \\
+    0 & 0 & 1
 \end{pmatrix} \quad \text{y} \quad
-C = \begin{pmatrix}
-    3 & 0 & 0
+B = \begin{pmatrix}
+    2 & 0 & 1 \\
+    0 & 1 & 0 \\
+    \frac{1}{9} & 0 & 0
 \end{pmatrix}.$$
 
 <ol>
-    <li>
-        Sabiendo que el determinante de $A$ es 5, calcula
-        $$\begin{vmatrix}
-            x-1 & y-1 & z-1 \\
-            1 & 1 & 1 \\
-            4 & 1 & 3
-        \end{vmatrix},$$
-        indicando las propiedades que utilizas.
-    </li>
-    
-    <li>Calcula los valores $(x, y, z)$ tales que $BA = C.$</li>
+    <li>Calcula los determinantes de las matrices $((AB)^5)^{-1}$ y $27AB^6.$</li>
+    <li>Halla la matriz $X$, si es posible, que verifica que $AXB = 9I$, donde $I$ es la matriz identidad de orden 3.</li>
 </ol>
