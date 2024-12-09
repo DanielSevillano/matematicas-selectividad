@@ -1,10 +1,5 @@
 <p>
-    En primer lugar, hallamos todas las primitivas de la función $f.$
-    $$F(x) = \int f(x)dx = \int \cos(\sqrt{x})dx.$$
-</p>
-
-<p>
-    Para resolver esta integral, usamos el cambio de variable
+    En primer lugar, hallamos todas las primitivas de la función $f$ usando el cambio de variable:
     \begin{align}
         t = \sqrt{x} \Rightarrow t^2 & = x, \\
         2tdt & = dx.
@@ -12,9 +7,7 @@
 
     De esta forma,
     $$F(x) = \int \cos(\sqrt{x})dx = 2\int t\cos(t)dt.$$
-</p>
 
-<p>
     Resolvemos la integral por partes.
     \begin{align}
         u = t & \Rightarrow u' = 1, \\
@@ -22,13 +15,13 @@
     \end{align}
 
     Entonces:
-    $$F(x) = 2\int t\cos(t)dt = 2t\sin(t) - 2\int \sin(t)dt = 2t\sin(t) + 2\cos(t) + C = 2t\sin(\sqrt{x}) + 2\cos(\sqrt{x}) + C.$$
+    $$F(x) = 2\int t\cos(t)dt = 2t\sin(t) - 2\int \sin(t)dt = 2t\sin(t) + 2\cos(t) + C = 2\sqrt{x}\sin(\sqrt{x}) + 2\cos(\sqrt{x}) + C.$$
 </p>
 
 <p>
-    La primitiva que pasa por el punto $(0, 5)$ ha de verificar $F(0) = 5.$
-    Por tanto,
+    La primitiva que pasa por el punto $(0, 5)$ ha de verificar:
     $$F(0) = 5 \Leftrightarrow 2 + C = 5 \Leftrightarrow C = 3.$$
-    Luego la primitiva es
+    
+    Por tanto, la primitiva es:
     $$F(x) = 2t\sin(\sqrt{x}) + 2\cos(\sqrt{x}) + 3.$$
 </p>
