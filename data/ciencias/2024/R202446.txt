@@ -1,0 +1,63 @@
+<ol>
+    <li>
+        En primer lugar, escribimos la expresión matricial en forma de sistema de ecuaciones.
+        $$\begin{cases}
+            5x - 2y - 3z = mx, \\
+            2x - 2z = my, \\
+            3x - 2y - z = mz
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            (5-m)x - 2y - 3z = 0, \\
+            2x - my - 2z = 0, \\
+            3x - 2y + (-1 - m)z = 0.
+        \end{cases}$$
+
+        Observamos que se trata de un sistema homogéneo, así que es compatible para cualquier valor de $m.$
+        La matriz de coeficientes del sistema es:
+        $$A = \begin{pmatrix}
+            5-m & -2 & -3 \\
+            2 & -m & -2 \\
+            3 & -2 & -1-m
+        \end{pmatrix}.$$
+
+        Para determinar el rango $A$ según el valor de $m$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            5-m & -2 & -3 \\
+            2 & -m & -2 \\
+            3 & -2 & -1-m
+        \end{vmatrix} = m(5-m)(1+m) + 24 - 9m - 4(1+m) - 4(5-m) = -m^3 + 4m^2 - 4m.$$
+
+        Observamos que:
+        $$|A| = 0 \Leftrightarrow -m^3 + 4m^2 - 4m = 0 \Leftrightarrow -m(m^2 - 4m + 4) = 0 \Leftrightarrow \begin{cases}
+            m = 0, \\
+            m^2 - 4m + 4 = 0 \Leftrightarrow m = 2.
+        \end{cases}$$
+
+        Así que $\rang(A) \leq 2$ si $m = 0$ o $m = 2.$
+        Por tanto, el sistema es compatible indeterminado para $m = 0$ y $m = 2.$
+    </li>
+
+    <li>
+        Si $m = 2$, el sistema es compatible indeterminado por el apartado anterior.
+        Podemos reducir el sistema a:
+        $$\begin{cases}
+            3x - 2y - 3z = 0, \\
+            2x - 2y - 2z = 0
+        \end{cases} \Leftrightarrow \begin{cases}
+            3x - 2y - 3z = 0, \\
+            x - y - z = 0.
+        \end{cases}$$
+
+        Resolvemos el sistema por reducción.
+        Si a la primera ecuación le restamos el triple de la segunda, obtenemos que $y = 0.$
+        Si tomamos $z = \lambda$, entonces:
+        $$x - y - z = 0 \Leftrightarrow x = y + z \xrightarrow[z=\lambda]{y=0} x = \lambda.$$
+
+        Por tanto, las soluciones del sistema son de la forma:
+        \begin{cases}
+            x = \lambda, \\
+            y = 0, \\
+            z = \lambda.
+        \end{cases}
+    </li>
+</ol>

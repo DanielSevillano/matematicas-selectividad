@@ -45,11 +45,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ### Ejercicios resueltos de ciencias
 - [ ] 2025
     - [ ] Modelo de prueba (1 a 9)
-- [ ] 2024
-    - [x] Junio y julio
-    - [x] Reservas 1 a 3
-    - [ ] Reserva 4 (1, 2, 3, 4, 5, 7, 8)
-- [x] 2023 a 2021
+- [x] 2024 a 2021
 - [ ] 2020
     - [ ] Septiembre (2)
     - [ ] Reserva 1 (1, 3, 5)

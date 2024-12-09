@@ -456,6 +456,7 @@
     },
     {
         "ejercicio": 202446,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas"
