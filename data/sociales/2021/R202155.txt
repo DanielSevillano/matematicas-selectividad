@@ -1,0 +1,85 @@
+<p>
+    Llamamos $E$ a estar enfermo y $T$ a dar positivo en el test.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,92 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$E$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,15 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,08 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,85 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,04 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$E^c$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,96 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$T^c$</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de dar positivo en el test es:
+        $$P(T) = P(T \cap E) + P(T \cap E^c) = P(E) \cdot P(T|E) + P(E^c) \cdot P(T|E^c) = 0,15 \cdot 0,92 + 0,85 \cdot 0,04 = 0,172.$$
+
+        Por tanto, la probabilidad de que la persona esté enferma sabiendo que ha dado positivo el test es:
+        $$P(E|T) = \frac{P(E \cap T)}{P(T)} = \frac{P(E) \cdot P(T|E)}{P(T)} = \frac{0,15 \cdot 0,92}{0,172} \approx 0,8023.$$
+    </li>
+
+    <li>
+        La probabilidad de que la persona esté enferma y el test salga negativo es:
+        $$P(E \cap T^c) = P(E) \cdot P(T^c|E) = 0,15 \cdot 0,08 = 0,012.$$
+    </li>
+
+    <li>
+        La probabilidad de que la persona esté enferma sabiendo que ha salido negativo el test es:
+        $$P(E|T^c) = \frac{P(E \cap T^c)}{P(T^c)} = \frac{0,012}{1 - 0,172} = 0,0145.$$
+    </li>
+</ol>

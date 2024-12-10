@@ -1532,12 +1532,14 @@
     },
     {
         "ejercicio": 202155,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202156,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

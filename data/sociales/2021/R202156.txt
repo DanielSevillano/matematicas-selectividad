@@ -1,0 +1,28 @@
+<p>
+    Llamamos $V$ a tener vehículo propio y $T$ a usar transporte público.
+    Sabemos que:
+    $$P(V) = 0,9, \quad P(T) = 0,4 \quad \text{y} \quad P(V^c \cap T^c) = 0,03.$$
+
+    Observamos que:
+    $$P(V^c \cap T^c) = P((V \cup T)^c) = 1 - P(V \cup T) \Rightarrow P(V \cup T) = 1 - P(V^c \cap T^c) = 1 - 0,03 = 0,97.$$
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que tenga vehículo propio o use el transporte público es:
+        $$P(V \cup T) = 0,97.$$
+    </li>
+
+    <li>
+        La probabilidad de la intersección es:
+        $$P(V \cap T) = P(V) + P(T) - P(V \cup T) = 0,9 + 0,4 - 0,97 = 0,33.$$
+
+        Por tanto, la probabilidad de que use el transporte público y no tenga vehículo propio es:
+        $$P(T \cap V^c) = P(T) - P(T \cap V) = 0,4 - 0,33 = 0,07.$$
+    </li>
+
+    <li>
+        La probabilidad de que use el transporte público sabiendo que no tiene vehículo propio es:
+        $$P(T|V^c) = \frac{P(T \cap V^c)}{P(V^c)} = \frac{0,07}{1 - 0,9} = 0,7.$$
+    </li>
+</ol>
