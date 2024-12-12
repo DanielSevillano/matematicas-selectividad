@@ -1,0 +1,93 @@
+<p>
+    Llamamos $W$ a ser mujer, $H$ a ser hombre, $M$ a usar la talla M, $L$ a usar la talla L y $X$ a usar la talla XL.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$W$</td>
+            <td>$\xrightarrow{\quad 0,4 \quad}$</td>
+            <td>$L$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,65 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 0,1 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$X$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,35 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad 0,15 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$H$</td>
+            <td>$\xrightarrow{\quad 0,4 \quad}$</td>
+            <td>$L$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad 0,45 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$X$</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        La probabilidad de que un cliente no use la talla XL sabiendo que es mujer es:
+        $$P(X^c|W) = 1 - P(X|W) = 1 - 0,1 = 0,9.$$
+
+        Por tanto, el 90% de las mujeres que compran ropa en esa tienda no usan la talla XL.
+    </li>
+
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que un cliente use la talla L es:
+        $$P(L) = P(L \cap W) + P(L \cap H) = P(W) \cdot P(L|W) + P(H) \cdot P(L|H) = 0,65 \cdot 0,4 + 0,35 \cdot 0,4 = 0,4.$$
+
+        Así que la probabilidad de que un cliente no use la talla L es:
+        $$P(L^c) = 1 - P(L) = 1 - 0,4 = 0,6.$$
+
+        Por tanto, el 60% de los clientes no usan la talla L.
+    </li>
+
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que un cliente use la talla M es:
+        $$P(M) = P(M \cap W) + P(M \cap H) = P(W) \cdot P(M|W) + P(H) \cdot P(M|H) = 0,65 \cdot 0,5 + 0,35 \cdot 0,15 = 0,3775.$$
+        La probabilidad de que un cliente sea mujer sabiendo que usa la talla M es:
+        $$P(W|M) = \frac{P(W \cap M)}{P(M)} = \frac{P(W) \cdot P(M|W)}{P(M)} = \frac{0,65 \cdot 0,5}{0,3775} \approx 0,8609.$$
+
+        Por tanto, el 86,09% de los clientes que usan la talla M son mujeres.
+    </li>
+</ol>

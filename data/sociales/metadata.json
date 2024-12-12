@@ -233,12 +233,14 @@
     },
     {
         "ejercicio": 202435,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "ejercicio": 202436,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

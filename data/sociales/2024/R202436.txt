@@ -1,0 +1,31 @@
+<p>
+    Llamamos $A$ a aprobar la asignatura A y $B$ a aprobar la asignatura B.
+    Sabemos que:
+    $$P(A) = 0,75, \quad P(B) = 0,55 \quad \text{y} \quad P(A \cap B) = 0,35.$$
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que no apruebe B sabiendo que ha aprobado A es:
+        $$P(B^c|A) = 1 - P(B|A) = 1 - \frac{P(B \cap A)}{P(A)} = 1 - \frac{0,35}{0,75} \approx 0,5333.$$
+    </li>
+
+    <li>
+        La probabilidad de que apruebe alguna de estas asignaturas es:
+        $$P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0,75 + 0,55 - 0,35 = 0,95.$$
+    </li>
+
+    <li>
+        La probabilidad de que no apruebe ni A ni B es:
+        $$P(A^c \cap B^c) = P((A \cup B)^c) = 1 - P(A \cup B) = 1 - 0,95 = 0,05.$$
+    </li>
+
+    <li>
+        La probabilidad de que haya aprobado A sabiendo que ha aprobado alguna de estas asignaturas es:
+        $$P(A|A \cup B) = \frac{P(A)}{P(A \cup B)} = \frac{0,75}{0,95} \approx 0,7895.$$
+    </li>
+
+    <li>
+        Como $P(B^c|A) \neq P(B^c)$, los sucesos $A$ y $B$ no son independientes.
+    </li>
+</ol>
