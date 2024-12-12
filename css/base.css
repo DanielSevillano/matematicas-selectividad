@@ -105,7 +105,7 @@ body>header {
     z-index: 3;
     display: flex;
     align-items: center;
-    column-gap: 35px;
+    column-gap: 20px;
     width: 100%;
     padding: 0.75em 20px;
     box-sizing: border-box;
@@ -127,6 +127,10 @@ header a {
     text-decoration: none;
 }
 
+header>a:first-child {
+    margin-right: 15px;
+}
+
 #navegacion-global ul {
     display: flex;
     gap: 20px;
@@ -139,16 +143,23 @@ header a {
     font-size: 0.875rem;
 }
 
-.github {
+.busqueda {
+    height: 20px;
     margin-left: auto;
+    transition: opacity 200ms;
+}
+
+.github {
     height: 25px;
     transition: opacity 200ms;
 }
 
+.busqueda:hover,
 .github:hover {
     opacity: 80%;
 }
 
+.busqueda:active,
 .github:active {
     opacity: 60%;
 }
@@ -399,7 +410,9 @@ mjx-container {
 Adaptabilidad
 ********************/
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
+
+    .busqueda,
     .github {
         display: none;
     }
@@ -427,6 +440,8 @@ Adaptabilidad
 }
 
 @media (prefers-color-scheme: dark) {
+
+    .busqueda img,
     .github img {
         filter: invert(1);
     }
