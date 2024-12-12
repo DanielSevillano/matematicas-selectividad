@@ -8,6 +8,7 @@ const main = document.querySelector("main");
 const busqueda = document.querySelector("input");
 const cinta = document.querySelector("#cinta");
 
+const contenedorGrupos = document.querySelector(".contenedor-grupos");
 const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const contenidoCiencias = document.querySelector("#ciencias");
@@ -38,6 +39,7 @@ async function buscar(texto) {
     contenidoSociales.textContent = "";
     main.classList.add("cargando");
 
+    contenedorGrupos.classList.remove("oculto");
     contenidoCiencias.classList.remove("oculto");
     contenidoSociales.classList.remove("oculto");
 
