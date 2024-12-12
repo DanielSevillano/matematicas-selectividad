@@ -15,6 +15,10 @@
     margin: 0;
 }
 
+#cinta.oculto {
+    display: none;
+}
+
 #contenedor-casilla {
     display: flex;
     flex-direction: row;
