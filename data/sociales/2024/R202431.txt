@@ -1,0 +1,125 @@
+<ol>
+    <li>
+        En primer lugar, hallamos la matriz $AB.$
+        $$AB = \begin{pmatrix}
+            1 & -1 & 1 \\
+            -2 & 1 & 0
+        \end{pmatrix}
+        \begin{pmatrix}
+            0 & -1 \\
+            1 & 0 \\
+            -1 & 2
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -2 & 1 \\
+            1 & 2
+        \end{pmatrix}.$$
+
+        <ul>
+            <li>
+                Calculamos el determinante de $AB.$
+                $$|AB| = \begin{vmatrix}
+                    -2 & 1 \\
+                    1 & 2
+                \end{vmatrix} = -5 \neq 0.$$
+
+                Así que $AB$ es invertible con $\det(AB) = -5.$
+            </li>
+
+            <li>
+                Calculamos el determinante de $C.$
+                $$|C| = \begin{vmatrix}
+                    1 & 3 & 2 \\
+                    1 & 1 & 1 \\
+                    0 & 3 & 1
+                \end{vmatrix} = 1 \neq 0.$$
+
+                Así que $C$ es invertible con $\det(C) = 1.$
+            </li>
+        </ul>
+
+        Despejamos la ecuación matricial.
+        $$ABXC = \begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0
+        \end{pmatrix} \Leftrightarrow X = (AB)^{-1}\begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0
+        \end{pmatrix}C^{-1}.$$
+
+        <ul>
+            <li>
+                Para hallar la inversa de $AB$, calculamos primero su matriz adjunta.
+                $$\Adj(AB) = \begin{pmatrix}
+                    2 & -1 \\
+                    -1 & -2
+                \end{pmatrix}.$$
+
+                Calculamos su inversa de la forma:
+                $$(AB)^{-1} = \frac{1}{|AB|} \Adj(AB)^t = -\frac{1}{5} \begin{pmatrix}
+                    2 & -1 \\
+                    -1 & -2
+                \end{pmatrix} = \frac{1}{5} \begin{pmatrix}
+                    -2 & 1 \\
+                    1 & 2
+                \end{pmatrix}.$$
+            </li>
+
+            <li>
+                Para hallar la inversa de $C$, calculamos primero su matriz adjunta.
+                $$\Adj(C) = \begin{pmatrix}
+                    -2 & -1 & 3 \\
+                    3 & 1 & -3 \\
+                    1 & 1 & -2
+                \end{pmatrix}.$$
+
+                Calculamos su inversa de la forma:
+                $$C^{-1} = \frac{1}{|C|} \Adj(C)^t = \begin{pmatrix}
+                    -2 & 3 & 1 \\
+                    -1 & 1 & 1 \\
+                    3 & -3 & -2
+                \end{pmatrix}.$$
+            </li>
+        </ul>
+
+        Por tanto,
+        \begin{align}
+            & X = (AB)^{-1}\begin{pmatrix}
+                1 & 0 & 0 \\
+                0 & 1 & 0
+            \end{pmatrix}C^{-1} = \frac{1}{5} \begin{pmatrix}
+                -2 & 1 \\
+                1 & 2
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 0 & 0 \\
+                0 & 1 & 0
+            \end{pmatrix}
+            \begin{pmatrix}
+                -2 & 3 & 1 \\
+                -1 & 1 & 1 \\
+                3 & -3 & -2
+            \end{pmatrix} = \\
+            & = \frac{1}{5} \begin{pmatrix}
+                -2 & 1 & 0 \\
+                1 & 2 & 0
+            \end{pmatrix}
+            \begin{pmatrix}
+                -2 & 3 & 1 \\
+                -1 & 1 & 1 \\
+                3 & -3 & -2
+            \end{pmatrix} = \frac{1}{5} \begin{pmatrix}
+                3 & -5 & -1 \\
+                -4 & 5 & 3
+            \end{pmatrix}.
+        \end{align}
+    </li>
+
+    <li>
+        Llamamos $m \times n$ a la dimensión de $D$ y $p \times q$ a la de $E.$
+        Como la matriz $A$ es de dimensión $2 \times 3$, $D$ debe tener 3 filas para poder multiplicarse con ella y el producto $AD$ tiene dimensión $2 \times n.$
+        Por otro lado, como $B$ es de dimensión $3 \times 2$, $E$ debe tener 3 columnas para poder multiplicarse y el producto $EB$ tiene dimensión $p \times 2.$
+        Por último, para que se cumpla la igualdad se tiene que verificar que $n = 2$ y $p = 2.$
+        Por tanto, $D$ tiene dimensión $3 \times 2$ y $E$ dimensión $2 \times 3.$
+    </li>
+</ol>

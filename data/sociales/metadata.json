@@ -200,6 +200,7 @@
     },
     {
         "ejercicio": 202431,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Dimensiones",
