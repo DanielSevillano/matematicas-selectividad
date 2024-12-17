@@ -216,6 +216,7 @@
     },
     {
         "ejercicio": 202433,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -223,6 +224,7 @@
     },
     {
         "ejercicio": 202434,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",

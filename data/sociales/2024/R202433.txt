@@ -1,0 +1,28 @@
+<ol>
+    <li>
+        En primer lugar, hallamos la función $f$ integrando.
+        $$f(t) = \int f'(t)dt = \int (400 + 30\sqrt{t})dt = 400t + 30 \cdot \frac{2}{3}t^{\frac{3}{2}} + C = 400t + 20\sqrt{t^3} + C.$$
+
+        Como la población en $t = 0$ es de 90.00 habitantes, ha de verificarse que:
+        $$f(0) = 90.000 \Leftrightarrow C = 90.000.$$
+
+        Así que:
+        $$f(t) = 400t + 20\sqrt{t^3} + 90.000.$$
+
+        Por tanto, la población dentro de 9 meses será de $f(9) = 94.140$ habitantes.
+    </li>
+
+    <li>
+        Calculamos la integral.
+        $$\int_9^{16} f'(t)dt = \Big[400t + 20\sqrt{t^3}\Big]_9^{16} = 400 \cdot 16 + 20 \cdot 64 - (400 \cdot 9 + 20 \cdot 27) = 3.540.$$
+
+        El resultado se corresponde con el incremento del número de habitantes entre los meses 9 y 16.
+    </li>
+
+    <li>
+        El número de nuevos habitantes durante los tres primeros años viene dado por:
+        $$f(36) - f(0) = 108.720 - 90.000 = 18.720.$$
+
+        Por tanto, la ayuda que recibirá la localidad es de $18.720 \cdot 150 = 2.808.000\text{€}.$
+    </li>
+</ol>
