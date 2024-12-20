@@ -280,6 +280,7 @@
     },
     {
         "ejercicio": 202443,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",
