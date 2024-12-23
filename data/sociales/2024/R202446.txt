@@ -1,0 +1,108 @@
+<p>
+    Llamamos $E$ a ejercer de economista, $A$ a ejercer de abogado, $O$ a tener otro empleo y $D$ a ocupar un puesto directivo.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,75 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$E$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,25 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,25 \quad}$</td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,45 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,15 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$O$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,85 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que no ocupe un puesto directivo es:
+        \begin{align}
+            & P(D^c) = P(D^c \cap E) + P(D^c \cap A) + P(D^c \cap O) = P(E) \cdot P(D^c|E) + P(A) \cdot P(D^c|A) + P(O) \cdot P(D^c|O) = \\
+            & = 0,3 \cdot 0,25 + 0,25 \cdot 0,4 + 0,45 \cdot 0,85 = 0,5575.
+        \end{align}
+    </li>
+
+    <li>
+        La probabilidad de que ejerza de economista sabiendo que ocupa un puesto directivo:
+        $$P(E|D) = \frac{P(E \cap D)}{P(D)} = \frac{P(E) \cdot P(D|E)}{1 - P(D^c)} = \frac{0,3 \cdot 0,75}{1 - 0,5575} \approx 0,5085.$$
+    </li>
+</ol>
