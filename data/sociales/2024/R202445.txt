@@ -15,7 +15,7 @@
         $$P(A \cap M) = P(A) \cdot P(M|A) = 0,3 \cdot 0,4 = 0,12.$$
 
         Por otro lado, la probabilidad de que profese la religión A sabiendo que es mujer viene dada por:
-        $$P(A|M) = \frac{P(A \cap M)}{P(M)} \Rightarrow P(M) = \frac{P(A \cap M)}{P(A|M)} = \frac{0,3 \cdot 0,4}{0,25} = 0,48.$$
+        $$P(A|M) = \frac{P(A \cap M)}{P(M)} \Rightarrow P(M) = \frac{P(A \cap M)}{P(A|M)} = \frac{0,12}{0,25} = 0,48.$$
 
         Por tanto, la probabilidad de que sea hombre es:
         $$P(H) = 1 - P(M) = 1 - 0,48 = 0,52.$$
