@@ -1,0 +1,35 @@
+<ol>
+    <li>
+        Llamamos $x$ al número de melones en la muestra de la variedad A, $y$ al de la variedad B, $z$ al de la variedad C y $t$ al de la variedad D.
+        Como se usa afijación proporcional,
+        $$\frac{4.000}{200} = \frac{1.420}{x} = \frac{980}{y} = \frac{720}{z} = \frac{880}{t}.$$
+
+        Despejamos estos valores.
+        \begin{align}
+            & \frac{4.000}{200} = \frac{1.420}{x} \Leftrightarrow x = \frac{200 \cdot 1.420}{4.000} = 71, \\
+            & \frac{4.000}{200} = \frac{980}{y} \Leftrightarrow y = \frac{200 \cdot 980}{4.000} = 49, \\
+            & \frac{4.000}{200} = \frac{7200}{z} \Leftrightarrow z = \frac{200 \cdot 7200}{4.000} = 36, \\
+            & \frac{4.000}{200} = \frac{880}{t} \Leftrightarrow t = \frac{200 \cdot 880}{4.000} = 44.
+        \end{align}
+
+        Por tanto, para la muestra se seleccionan 71 melones de la variedad A, 49 de la variedad B, 36 de la variedad C y 44 de la variedad D.
+    </li>
+
+    <li>
+        <ol>
+            <li>
+                La distribución de la media muestral $\overline{X}$ sigue una normal $N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)$ con $\mu = 3,85$, $\sigma = 1,32$ y $n = 121.$
+                Por tanto, $\overline{X} \sim N(3,85; \, 0,12).$
+            </li>
+
+            <li>
+                Calculamos la probabilidad.
+                \begin{align}
+                    & P(3,6 < \overline{X} < 4) = P\left(\frac{3,6 - 3,85}{0,12} < Z < \frac{4 - 3,85}{0,12}\right) = P(-2,08 < Z < 1,25) = \\
+                    & = P(Z < 1,25) - P(Z < -2,08) = P(Z < 1,25) - (1 - P(Z < 2,08)) = \\
+                    & = P(Z < 1,25) + P(Z < 2,08) - 1 = 0,8944 + 0,9812 - 1 = 0,8756.
+                \end{align}
+            </li>
+        </ol>
+    </li>
+</ol>

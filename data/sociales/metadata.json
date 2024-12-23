@@ -316,6 +316,7 @@
     },
     {
         "ejercicio": 202447,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Muestreo",
