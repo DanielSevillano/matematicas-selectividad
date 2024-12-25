@@ -1,0 +1,37 @@
+<ol>
+    <li>
+        En primer lugar, la media muestral viene dada por el punto medio del intervalo.
+        $$\overline{x} = \frac{517,65 + 551,95}{2} = 534,8.$$
+
+        Por otro lado, el error cometido viene dado por la mitad de la amplitud del intervalo.
+        $$E = \frac{551,95 - 517,65}{2} = 17,15.$$
+
+        Como el nivel de confianza es del 95%, entonces:
+        $$\alpha = 1 - 0,95 = 0,05 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
+
+        El error máximo cometido viene dado por:
+        $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 1,96 \cdot \frac{140}{\sqrt{n}} = \frac{274,4}{\sqrt{n}}.$$
+
+        Como el error cometido es 17,15, se tiene que verificar:
+        $$\frac{274,4}{\sqrt{n}} = 17,15 \Leftrightarrow \sqrt{n} = \frac{274,4}{17,15} \Leftrightarrow n = \left(\frac{274,4}{17,15}\right)^2 = 256.$$
+
+        Por tanto, el tamaño de la muestra es 256.
+    </li>
+
+    <li>
+        Si el nivel de confianza es del 97%, entonces
+        $$\alpha = 1 - 0,97 = 0,03 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
+
+        El error máximo cometido viene dado por:
+        $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 2,17 \cdot \frac{140}{\sqrt{78}} \approx 34,3986.$$
+    </li>
+
+    <li>
+        La cuota mensual de las hipotecas $X$ sigue una distribución $N(540, 150).$
+        La probabilidad de que la cuota de una hipoteca esté comprendida entre 600 y 700 euros es:
+        \begin{align}
+            & P(600 \leq X \leq 700) = P\left(\frac{600 - 540}{150} \leq Z \leq \frac{700 - 540}{150}\right) = P(0,4 < Z < 1,07) = \\
+            & = P(Z < 1,07) - P(Z < 0,4) = 0,8577 - 0,6554 = 0,2023.
+        \end{align}
+    </li>
+</ol>
