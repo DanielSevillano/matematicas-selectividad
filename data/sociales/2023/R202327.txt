@@ -1,25 +1,22 @@
 <ol>
     <li>
-        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \; \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \, \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
 
-        Como el nivel de confianza es del 94%, entonces
-        $$1 - \alpha = 0,94 \Leftrightarrow \alpha = 1 - 0,94 = 0,06.$$
-
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,06}{2} = 0,97 \Rightarrow z_{\alpha/2} = 1,885.$$
+        Como el nivel de confianza es del 94%, entonces:
+        $$\alpha = 1 - 0,94 = 0,06 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,06}{2} = 0,97 \Rightarrow z_{\alpha/2} = 1,885.$$
 
         Además, la media muestral es de 4 años y 2 meses, es decir, de 50 meses.
 
-        Por tanto, el intervalo de confianza para estimar la vida media de las baterías con un nivel de confianza del 94% es
-        $$I = \left(50 - 1,885 \cdot \frac{\sqrt{8}}{\sqrt{100}}, \; 50 + 1,885 \cdot \frac{\sqrt{8}}{\sqrt{100}}\right) \approx (49,4668; \; 50,5332).$$
+        Por tanto, el intervalo de confianza para estimar la vida media de las baterías con un nivel de confianza del 94% es:
+        $$I = \left(50 - 1,885 \cdot \frac{\sqrt{8}}{\sqrt{100}}, \, 50 + 1,885 \cdot \frac{\sqrt{8}}{\sqrt{100}}\right) \approx (49,4668; \, 50,5332).$$
     </li>
 
     <li>
-        El error máximo cometido viene dado por
+        El error máximo cometido viene dado por:
         $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 1,885 \cdot \frac{\sqrt{8}}{\sqrt{n}} = \frac{1,885 \sqrt{8}}{\sqrt{n}}.$$
 
-        Si se quiere que el error máximo sea menor que 0,1, entonces
+        Si se quiere que el error máximo sea menor que 0,1, entonces:
         $$\frac{1,885 \sqrt{8}}{\sqrt{n}} = 0,1 \Leftrightarrow \sqrt{n} = \frac{1,885 \sqrt{8}}{0,1} \Leftrightarrow n = \frac{1,885^2 \cdot 8}{0,1^2} \approx 2.842,58.$$
 
         Por tanto, el tamaño mínimo de la muestra debe ser de 2.843 personas.

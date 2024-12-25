@@ -1,26 +1,23 @@
 <ol>
     <li>
-        Como 630 estudiantes de $n = 2.100$ provienen de otras provincias, la proporción muestral es
+        Como 630 estudiantes de $n = 2.100$ provienen de otras provincias, la proporción muestral es:
         $$p = \frac{630}{2.100} = 0,3.$$
 
-        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
 
-        Como el nivel de confianza es del 97,5%, entonces
-        $$1 - \alpha = 0,975 \Leftrightarrow \alpha = 1 - 0,975 = 0,025.$$
+        Como el nivel de confianza es del 97,5%, entonces:
+        $$\alpha = 1 - 0,975 = 0,025 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,025}{2} = 0,9875 \Rightarrow z_{\alpha/2} = 2,24.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,025}{2} = 0,9875 \Rightarrow z_{\alpha/2} = 2,24.$$
-
-        Por tanto, el intervalo de confianza para estimar la proporción poblacional de estudiantes que proceden de otras provincias con un nivel de confianza del 97,5% es
-        $$I = \left(0,3 - 2,24 \cdot \sqrt{\frac{0,3 \cdot (1-0,3)}{2.100}}, \; 0,3 + 2,24 \cdot \sqrt{\frac{0,3 \cdot (1-0,3)}{2.100}}\right) = (0,2776; \; 0,3224).$$
+        Por tanto, el intervalo de confianza para estimar la proporción poblacional de estudiantes que proceden de otras provincias con un nivel de confianza del 97,5% es:
+        $$I = \left(0,3 - 2,24 \cdot \sqrt{\frac{0,3 \cdot (1-0,3)}{2.100}}, \, 0,3 + 2,24 \cdot \sqrt{\frac{0,3 \cdot (1-0,3)}{2.100}}\right) = (0,2776; \, 0,3224).$$
     </li>
 
     <li>
-        El error máximo de estimación viene dado por
+        El error máximo de estimación viene dado por:
         $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 2,24 \cdot \sqrt{\frac{0,3 \cdot (1-0,3)}{n}} = \frac{2,24 \cdot \sqrt{0,21}}{\sqrt{n}}.$$
 
-        Si se quiere que el error máximo sea de 0,01, entonces
+        Si se quiere que el error máximo sea de 0,01, entonces:
         $$\frac{2,24 \cdot \sqrt{0,21}}{\sqrt{n}} = 0,01 \Leftrightarrow \sqrt{n} = \frac{2,24 \cdot \sqrt{0,21}}{0,01} \Leftrightarrow n = \frac{2,24^2 \cdot 0,21}{0,01^2} = 10.536,96.$$
 
         Por tanto, el tamaño mínimo de la muestra debe ser de 10.537 estudiantes.

@@ -1,26 +1,23 @@
 <ol>
     <li>
-        Como 1.425 tornillos de $n = 1.500$ han cumplido las especificaciones del fabricante, la proporción muestral es
+        Como 1.425 tornillos de $n = 1.500$ han cumplido las especificaciones del fabricante, la proporción muestral es:
         $$p = \frac{1.425}{1.500} = 0,95.$$
 
-        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
 
-        Como el nivel de confianza es del 97%, entonces
-        $$1 - \alpha = 0,97 \Leftrightarrow \alpha = 1 - 0,97 = 0,03.$$
+        Como el nivel de confianza es del 97%, entonces:
+        $$\alpha = 1 - 0,97 = 0,03 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
-
-        Por tanto, el intervalo de confianza para estimar la proporción de tornillos que cumplen las especificaciones del fabricante con un nivel de confianza del 97% es
-        $$I = \left(0,95 - 2,17 \cdot \sqrt{\frac{0,95 \cdot (1-0,95)}{1.500}}, \; 0,95 + 2,17 \cdot \sqrt{\frac{0,95 \cdot (1-0,95)}{1.500}}\right) \approx (0,9378; \; 0,9622).$$
+        Por tanto, el intervalo de confianza para estimar la proporción de tornillos que cumplen las especificaciones del fabricante con un nivel de confianza del 97% es:
+        $$I = \left(0,95 - 2,17 \cdot \sqrt{\frac{0,95 \cdot (1-0,95)}{1.500}}, \, 0,95 + 2,17 \cdot \sqrt{\frac{0,95 \cdot (1-0,95)}{1.500}}\right) \approx (0,9378; \, 0,9622).$$
     </li>
 
     <li>
-        El error máximo de estimación viene dado por
+        El error máximo de estimación viene dado por:
         $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 2,17 \cdot \sqrt{\frac{0,95 \cdot (1-0,95)}{n}} = 2,17 \cdot \sqrt{\frac{0,0475}{n}}.$$
 
-        Si se quiere el error no sea mayor que 0,01, entonces
+        Si se quiere el error no sea mayor que 0,01, entonces:
         $$2,17 \cdot \sqrt{\frac{0,0475}{n}} = 0,01 \Leftrightarrow \sqrt{\frac{0,0475}{n}} = \frac{0,01}{2,17} \Leftrightarrow \frac{0,0475}{n} = \frac{0,01^2}{2,17^2} \Leftrightarrow n = \frac{0,0475 \cdot 2,17^2}{0,01^2} = 2.236,7275.$$
 
         Por tanto, el número mínimo de tornillos de la muestra debe ser 2.237.

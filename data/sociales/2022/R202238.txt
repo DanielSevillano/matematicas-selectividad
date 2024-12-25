@@ -1,32 +1,26 @@
 <ol>
     <li>
-        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \; \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \, \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
 
-        Como el nivel de confianza es del 92%, entonces
-        $$1 - \alpha = 0,92 \Leftrightarrow \alpha = 1 - 0,92 = 0,08.$$
+        Como el nivel de confianza es del 92%, entonces:
+        $$\alpha = 1 - 0,92 = 0,08 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
-
-        Además, la media poblacional es
+        Además, la media poblacional es:
         $$\overline{x} = \frac{26.830}{100} = 268,3.$$
 
-        Por tanto, el intervalo de confianza para estimar el consumo medio de energía en kilovatios hora con un nivel de confianza del 92% es
-        $$I = \left(268,3 - 1,75 \cdot \frac{\sqrt{4.225}}{\sqrt{100}}, \; 268,3 + 1,75 \cdot \frac{\sqrt{4.225}}{\sqrt{100}}\right) = (256,925; \; 279,675).$$
+        Por tanto, el intervalo de confianza para estimar el consumo medio de energía en kilovatios hora con un nivel de confianza del 92% es:
+        $$I = \left(268,3 - 1,75 \cdot \frac{\sqrt{4.225}}{\sqrt{100}}, \, 268,3 + 1,75 \cdot \frac{\sqrt{4.225}}{\sqrt{100}}\right) = (256,925; \, 279,675).$$
     </li>
 
     <li>
-        Si el nivel de confianza es del 98%, entonces
-        $$1 - \alpha = 0,98 \Leftrightarrow \alpha = 1 - 0,98 = 0,02.$$
+        Si el nivel de confianza es del 98%, entonces:
+        $$\alpha = 1 - 0,98 = 0,02 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,02}{2} = 0,99 \Rightarrow z_{\alpha/2} = 2,325.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,02}{2} = 0,99 \Rightarrow z_{\alpha/2} = 2,325.$$
-
-        El error máximo cometido viene dado por
+        El error máximo cometido viene dado por:
         $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 2,325 \cdot \frac{\sqrt{4.225}}{\sqrt{n}} = \frac{151,125}{\sqrt{n}}.$$
 
-        Si se quiere que el error máximo sea de 5, entonces
+        Si se quiere que el error máximo sea de 5, entonces:
         $$\frac{151,125}{\sqrt{n}} = 5 \Leftrightarrow \sqrt{n} = \frac{151,125}{5} \Leftrightarrow n = \frac{151,125^2}{5^2} \approx 913,5506.$$
 
         Por tanto, el tamaño mínimo de la muestra debe ser de 914 viviendas.
@@ -34,7 +28,6 @@
 
     <li>
         La media poblacional viene dada por el punto medio del intervalo de confianza.
-        Así que
         $$\overline{x} = \frac{224,08 + 255,92}{2} = 240.$$
 
         Por tanto, la media del consumo de energía mensual por vivienda es de 240 kWh.

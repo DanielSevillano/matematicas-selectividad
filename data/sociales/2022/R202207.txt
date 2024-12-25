@@ -1,23 +1,20 @@
 <ol>
     <li>
-        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \; \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \, \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
 
-        Como el nivel de confianza es del 92%, entonces
-        $$1 - \alpha = 0,92 \Leftrightarrow \alpha = 1 - 0,92 = 0,08.$$
+        Como el nivel de confianza es del 92%, entonces:
+        $$\alpha = 1 - 0,92 = 0,08 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
-
-        Por tanto, el intervalo de confianza para estimar la resistencia media de las herramientas con un nivel de confianza del 92% es
-        $$I = \left(800 - 1,75 \cdot \frac{15}{\sqrt{100}}, \; 800 + 1,75 \cdot \frac{15}{\sqrt{100}}\right) = (797,375; \; 802,625).$$
+        Por tanto, el intervalo de confianza para estimar la resistencia media de las herramientas con un nivel de confianza del 92% es:
+        $$I = \left(800 - 1,75 \cdot \frac{15}{\sqrt{100}}, \, 800 + 1,75 \cdot \frac{15}{\sqrt{100}}\right) = (797,375; \, 802,625).$$
     </li>
 
     <li>
-        El error máximo cometido viene dado por
+        El error máximo cometido viene dado por:
         $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 1,75 \cdot \frac{15}{\sqrt{n}} = \frac{26,25}{\sqrt{n}}.$$
 
-        Si se quiere que el error máximo sea menor que 2, entonces
+        Si se quiere que el error máximo sea menor que 2, entonces:
         $$\frac{26,25}{\sqrt{n}} = 2 \Leftrightarrow \sqrt{n} = \frac{26,25}{2} \Leftrightarrow n = \frac{26,25^2}{4} \approx 172,27.$$
 
         Por tanto, el tamaño mínimo de la muestra debe ser de 173 herramientas.

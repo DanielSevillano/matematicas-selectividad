@@ -1,26 +1,23 @@
 <ol>
     <li>
-        Como 45 personas de $n = 100$ están en contra de la construcción de una central nuclear, la proporción muestral es
+        Como 45 personas de $n = 100$ están en contra de la construcción de una central nuclear, la proporción muestral es:
         $$p = \frac{45}{100} = 0,45.$$
 
-        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
 
-        Como el nivel de confianza es del 92%, entonces
-        $$1 - \alpha = 0,92 \Leftrightarrow \alpha = 1 - 0,92 = 0,08.$$
+        Como el nivel de confianza es del 92%, entonces:
+        $$\alpha = 1 - 0,92 = 0,08 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
-
-        Por tanto, el intervalo de confianza para estimar la proporción poblacional de personas que están en contra de la construcción de una central nuclear con un nivel de confianza del 92% es
-        $$I = \left(0,45 - 1,75 \cdot \sqrt{\frac{0,45 \cdot (1-0,45)}{100}}, \; 0,45 + 1,75 \cdot \sqrt{\frac{0,45 \cdot (1-0,45)}{100}}\right) \approx (0,3629; \; 0,5371).$$
+        Por tanto, el intervalo de confianza para estimar la proporción poblacional de personas que están en contra de la construcción de una central nuclear con un nivel de confianza del 92% es:
+        $$I = \left(0,45 - 1,75 \cdot \sqrt{\frac{0,45 \cdot (1-0,45)}{100}}, \, 0,45 + 1,75 \cdot \sqrt{\frac{0,45 \cdot (1-0,45)}{100}}\right) \approx (0,3629; \, 0,5371).$$
     </li>
 
     <li>
-        El error máximo de estimación viene dado por
+        El error máximo de estimación viene dado por:
         $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 1,75 \cdot \sqrt{\frac{0,45 \cdot (1-0,45)}{n}} = \frac{1,75 \cdot \sqrt{0,2475}}{\sqrt{n}}.$$
 
-        Si se quiere que el error cometido sea inferior a 0,05, entonces
+        Si se quiere que el error cometido sea inferior a 0,05, entonces:
         $$\frac{1,75 \cdot \sqrt{0,2475}}{\sqrt{n}} = 0,05 \Leftrightarrow \sqrt{n} = \frac{1,75 \cdot \sqrt{0,2475}}{0,05} \Leftrightarrow n = \frac{1,75^2 \cdot 0,2475}{0,05^2} = 303,1875.$$
 
         Por tanto, el tamaño mínimo de la muestra debe ser de 304 personas.

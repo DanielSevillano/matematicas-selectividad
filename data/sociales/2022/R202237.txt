@@ -1,32 +1,26 @@
 <ol>
     <li>
-        Como 96 clientes de $n = 120$ volverían a solicitar los servicios del taller, la proporción muestral es
+        Como 96 clientes de $n = 120$ volverían a solicitar los servicios del taller, la proporción muestral es:
         $$p = \frac{96}{120} = 0,8.$$
 
-        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
 
-        Como el nivel de confianza es del 95%, entonces
-        $$1 - \alpha = 0,95 \Leftrightarrow \alpha = 1 - 0,95 = 0,05.$$
+        Como el nivel de confianza es del 95%, entonces:
+        $$\alpha = 1 - 0,95 = 0,05 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
-
-        Por tanto, el intervalo de confianza para estimar la proporción de clientes que volverían a solicitar sus servicios con un nivel de confianza del 95% es
-        $$I = \left(0,8 - 1,96 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{120}}, \; 0,8 + 1,96 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{120}}\right) \approx (0,7284; \; 0,8716).$$
+        Por tanto, el intervalo de confianza para estimar la proporción de clientes que volverían a solicitar sus servicios con un nivel de confianza del 95% es:
+        $$I = \left(0,8 - 1,96 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{120}}, \, 0,8 + 1,96 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{120}}\right) \approx (0,7284; \, 0,8716).$$
     </li>
 
     <li>
-        Si el nivel de confianza es del 97%, entonces
-        $$1 - \alpha = 0,97 \Leftrightarrow \alpha = 1 - 0,97 = 0,03.$$
+        Si el nivel de confianza es del 97%, entonces:
+        $$\alpha = 1 - 0,97 = 0,03 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
-
-        El error máximo de estimación viene dado por
+        El error máximo de estimación viene dado por:
         $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 2,17 \cdot \sqrt{\frac{0,8 \cdot (1-0,8)}{n}} = \frac{0,868}{\sqrt{n}}.$$
 
-        Si se quiere el error máximo sea de 0,05, entonces
+        Si se quiere el error máximo sea de 0,05, entonces:
         $$\frac{0,868}{\sqrt{n}} = 0,05 \Leftrightarrow \sqrt{n} = \frac{0,868}{0,05} \Leftrightarrow n = \frac{0,868^2}{0,05^2} = 301,3696.$$
 
         Por tanto, el número mínimo de personas de la muestra debe ser 302.

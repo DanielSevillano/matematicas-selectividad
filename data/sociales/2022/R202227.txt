@@ -1,26 +1,23 @@
 <ol>
     <li>
-        Como 36 jóvenes de $n = 100$ están suscritos a la plataforma, la proporción muestral es
+        Como 36 jóvenes de $n = 100$ están suscritos a la plataforma, la proporción muestral es:
         $$p = \frac{36}{100} = 0,36.$$
 
-        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
 
-        Como el nivel de confianza es del 92%, entonces
-        $$1 - \alpha = 0,92 \Leftrightarrow \alpha = 1 - 0,92 = 0,08.$$
+        Como el nivel de confianza es del 92%, entonces:
+        $$\alpha = 1 - 0,92 = 0,08 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
-
-        Por tanto, el intervalo de confianza para estimar la proporción poblacional de jóvenes suscritos a la plataforma con un nivel de confianza del 92% es
-        $$I = \left(0,36 - 1,75 \cdot \sqrt{\frac{0,36 \cdot (1-0,36)}{100}}, \; 0,36 + 1,75 \cdot \sqrt{\frac{0,36 \cdot (1-0,36)}{100}}\right) = (0,276; \; 0,444).$$
+        Por tanto, el intervalo de confianza para estimar la proporción poblacional de jóvenes suscritos a la plataforma con un nivel de confianza del 92% es:
+        $$I = \left(0,36 - 1,75 \cdot \sqrt{\frac{0,36 \cdot (1-0,36)}{100}}, \, 0,36 + 1,75 \cdot \sqrt{\frac{0,36 \cdot (1-0,36)}{100}}\right) = (0,276; \, 0,444).$$
     </li>
 
     <li>
-        El error máximo de estimación viene dado por
+        El error máximo de estimación viene dado por:
         $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 1,75 \cdot \sqrt{\frac{0,36 \cdot (1-0,36)}{n}} = \frac{0,84}{\sqrt{n}}.$$
 
-        Si se quiere que el error máximo sea de 0,025, entonces
+        Si se quiere que el error máximo sea de 0,025, entonces:
         $$\frac{0,84}{\sqrt{n}} = 0,025 \Leftrightarrow \sqrt{n} = \frac{0,84}{0,025} \Leftrightarrow n = \frac{0,84^2}{0,025^2} = 1.128,96.$$
 
         Por tanto, el tamaño mínimo de la muestra debe ser de 1.129 jóvenes.

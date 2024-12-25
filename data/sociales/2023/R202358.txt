@@ -1,35 +1,30 @@
 <ol>
     <li>
-        Como 325 casas de $n = 500$ estaban afectadas por la erupción, la proporción muestral es
+        Como 325 casas de $n = 500$ estaban afectadas por la erupción, la proporción muestral es:
         $$p = \frac{325}{500} = 0,65.$$
 
-        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
 
-        Como el nivel de confianza es del 97%, entonces
-        $$1 - \alpha = 0,97 \Leftrightarrow \alpha = 1 - 0,97 = 0,03.$$
+        Como el nivel de confianza es del 97%, entonces:
+        $$\alpha = 1 - 0,97 = 0,03 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
-
-        Por tanto, el intervalo de confianza para estimar la proporción poblacional de donantes de sangre con un nivel de confianza del 98% es
-        $$I = \left(0,65 - 2,17 \cdot \sqrt{\frac{0,65 \cdot (1-0,65)}{500}}, \; 0,65 + 2,17 \cdot \sqrt{\frac{0,65 \cdot (1-0,65)}{500}}\right) \approx (0,6037; \; 0,6963).$$
+        Por tanto, el intervalo de confianza para estimar la proporción poblacional de donantes de sangre con un nivel de confianza del 98% es:
+        $$I = \left(0,65 - 2,17 \cdot \sqrt{\frac{0,65 \cdot (1-0,65)}{500}}, \, 0,65 + 2,17 \cdot \sqrt{\frac{0,65 \cdot (1-0,65)}{500}}\right) \approx (0,6037; \, 0,6963).$$
 
         Como 0,64 pertenece a este intervalo, se puede admitir como la proporción poblacional de casas afectadas.
     </li>
 
     <li>
-        Si el nivel de confianza es del 92%, entonces
-        $$1 - \alpha = 0,92 \Leftrightarrow \alpha = 1 - 0,92 = 0,08.$$
+        Si el nivel de confianza es del 92%, entonces:
+        $$\alpha = 1 - 0,92 = 0,08 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
-
-        El error máximo de estimación viene dado por
+        El error máximo de estimación viene dado por:
         $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 1,75 \cdot \sqrt{\frac{0,65 \cdot (1-0,65)}{n}} = 1,75 \cdot \sqrt{\frac{0,2275}{n}}.$$
 
-        Si se quiere que el error máximo sea de 0,02, entonces
+        Si se quiere que el error máximo sea de 0,02, entonces:
         $$1,75 \cdot \sqrt{\frac{0,2275}{n}} = 0,02 \Leftrightarrow \sqrt{\frac{0,2275}{n}} = \frac{0,02}{1,75} \Leftrightarrow \frac{0,2275}{n} = \frac{0,02^2}{1,75^2} \Leftrightarrow n = \frac{0,2275 \cdot 1,75^2}{0,02^2} \approx 1741,7969.$$
 
         Por tanto, el tamaño mínimo de la nueva muestra debe ser de 1742 casas.
+    </li>
 </ol>

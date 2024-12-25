@@ -1,29 +1,26 @@
 <ol>
     <li>
-        Como 180 personas de $n = 300$ creen que siguen una media saludable, la proporción muestral es
+        Como 180 personas de $n = 300$ creen que siguen una media saludable, la proporción muestral es:
         $$p = \frac{180}{300} = 0,6.$$
 
-        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por
-        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
 
-        Como el nivel de confianza es del 95%, entonces
-        $$1 - \alpha = 0,95 \Leftrightarrow \alpha = 1 - 0,95 = 0,05.$$
+        Como el nivel de confianza es del 95%, entonces:
+        $$\alpha = 1 - 0,95 = 0,05 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
 
-        Así que
-        $$1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
-
-        Por tanto, el intervalo de confianza para estimar la proporción poblacional de personas que creen seguir una dieta saludable con un nivel de confianza del 95% es
-        $$I = \left(0,6 - 1,96 \cdot \sqrt{\frac{0,6 \cdot (1-0,6)}{300}}, \; 0,6 + 1,96 \cdot \sqrt{\frac{0,6 \cdot (1-0,6)}{300}}\right) \approx (0,5446; \; 0,6554).$$
+        Por tanto, el intervalo de confianza para estimar la proporción poblacional de personas que creen seguir una dieta saludable con un nivel de confianza del 95% es:
+        $$I = \left(0,6 - 1,96 \cdot \sqrt{\frac{0,6 \cdot (1-0,6)}{300}}, \, 0,6 + 1,96 \cdot \sqrt{\frac{0,6 \cdot (1-0,6)}{300}}\right) \approx (0,5446; \, 0,6554).$$
     </li>
 
     <li>
-        En primer lugar, el error cometido en el intervalo $(0,54; \; 0,66)$ es
+        En primer lugar, el error cometido en el intervalo $(0,54; \, 0,66)$ es:
         $$\frac{0,66 - 0,54}{2} = 0,06.$$
 
-        Por otro lado, el error máximo cometido viene dado por
+        Por otro lado, el error máximo cometido viene dado por:
         $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 1,96 \cdot \sqrt{\frac{0,6 \cdot (1-0,6)}{n}} = \frac{1,96 \cdot \sqrt{0,24}}{\sqrt{n}}.$$
 
-        Si se quiere que el error máximo sea un tercio del error cometido en el intervalo dado, entonces
+        Si se quiere que el error máximo sea un tercio del error cometido en el intervalo dado, entonces:
         $$\frac{1,96 \cdot \sqrt{0,24}}{\sqrt{n}} = \frac{1}{3} \cdot 0,06 \Leftrightarrow \frac{1,96 \cdot \sqrt{0,24}}{\sqrt{n}} = 0,02 \Leftrightarrow \sqrt{n} = \frac{1,96 \cdot \sqrt{0,24}}{0,02} \Leftrightarrow n = \frac{1,96^2 \cdot 0,24}{0,02^2} = 2.304,96.$$
 
         Por tanto, el tamaño mínimo de la muestra debe ser de 2.305 habitantes.
