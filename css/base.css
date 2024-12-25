@@ -352,6 +352,10 @@ details[open] summary::after {
     rotate: 0deg;
 }
 
+details div>ol>li {
+    margin-top: 1em;
+}
+
 /********************
 Progreso
 ********************/
