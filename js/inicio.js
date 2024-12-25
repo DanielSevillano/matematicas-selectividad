@@ -1,8 +1,8 @@
 import { formatear, obtenerEjercicio } from "./math.js";
 
-async function ejercicioDiario(seccion) {
-    const contenedor = document.querySelector("#ejercicios-diarios");
+const contenedor = document.querySelector("#ejercicios-diarios");
 
+async function ejercicioDiario(seccion) {
     const titulo = document.createElement("h3");
     titulo.textContent = seccion;
 
@@ -28,11 +28,12 @@ async function ejercicioDiario(seccion) {
     articulo.prepend(titulo);
     contenedor.append(articulo);
     formatear(articulo);
-    contenedor.classList.remove("cargando");
 }
 
 async function ejerciciosDiarios() {
-    ejercicioDiario("Ciencias").then(() => ejercicioDiario("Sociales"));
+    ejercicioDiario("Ciencias")
+        .then(() => ejercicioDiario("Sociales"))
+        .then(() => contenedor.classList.remove("cargando"));
 }
 
 ejerciciosDiarios();
