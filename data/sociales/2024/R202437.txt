@@ -1,0 +1,35 @@
+<ol>
+    <li>
+        Como 710 universitarias de $n = 2.000$ están matriculadas en carreras STEM, la proporción muestral es:
+        $$p = \frac{710}{2.000} = 0,355.$$
+
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \; p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+
+        Como el nivel de confianza es del 96,5%, entonces:
+        $$1 - \alpha = 0,965 \Leftrightarrow \alpha = 1 - 0,965 = 0,035.$$
+
+        Así que:
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,035}{2} = 0,9825 \Rightarrow z_{\alpha/2} = 2,11.$$
+
+        Por tanto, el intervalo de confianza para estimar la proporción de universitarias que están matriculadas en carreras STEM con un nivel de confianza del 96,5% es:
+        $$I = \left(0,355 - 2,11 \cdot \sqrt{\frac{0,355 \cdot (1-0,355)}{2.000}}, \; 0,355 + 2,11 \cdot \sqrt{\frac{0,355 \cdot (1-0,355)}{2.000}}\right) \approx (0,3324; \; 0,3776).$$
+    </li>
+
+    <li>
+        La proporción muestral es $p = 0,37.$
+        Si además el nivel de confianza es del 98%, entonces:
+        $$1 - \alpha = 0,90 \Leftrightarrow \alpha = 1 - 0,90 = 0,02.$$
+
+        Así que:
+        $$1 - \frac{\alpha}{2} = 1 - \frac{0,02}{2} = 0,99 \Rightarrow z_{\alpha/2} = 2,33.$$
+
+        El error máximo de estimación viene dado por:
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 2,33 \cdot \sqrt{\frac{0,37 \cdot (1-0,37)}{n}} = 2,33 \cdot \sqrt{\frac{0,2331}{n}}.$$
+
+        Si se quiere el error máximo sea de 0,015, entonces:
+        $$2,33 \cdot \sqrt{\frac{0,2331}{n}} = 0,015 \Leftrightarrow \sqrt{\frac{0,2331}{n}} = \frac{0,015}{2,33} \Leftrightarrow \frac{0,2331}{n} = \frac{0,015^2}{2,33^2} \Leftrightarrow n = \frac{0,2331 \cdot 2,33^2}{0,015^2} = 5.624,3404.$$
+
+        Por tanto, el número mínimo de personas de la muestra debe ser 5.625.
+    </li>
+</ol>
