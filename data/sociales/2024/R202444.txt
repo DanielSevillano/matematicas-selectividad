@@ -1,0 +1,93 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                Estudiamos la continuidad y la derivabilidad de $f.$
+
+                <ul>
+                    <li>
+                        Si $x \neq 2$, $f$ es continua y derivable con:
+                        $$f'(x) = \begin{cases}
+                            -x + 1, & \text{si } x < 2, \\
+                            -\dfrac{1}{(x-1)^2}, & \text{si } x > 2.
+                        \end{cases}$$
+                    </li>
+
+                    <li>
+                        Estudiamos la continuidad en el punto de ruptura $x = 2.$
+                        \begin{align}
+                            & \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} -\frac{1}{2}x^2 + x + 1 = 1, \\
+                            & \lim_{x \to 2^+} f(x) = \lim_{x \to 2^+} \frac{1}{x-1} = 1, \\
+                            & f(2) = 1.
+                        \end{align}
+
+                        Observamos que:
+                        $$\lim_{x \to 2^-} f(x) = \lim_{x \to 2^+} f(x) = f(2).$$
+
+                        Así que $f$ es continua en $x = 2.$
+                        Pasamos a estudiar la derivabilidad.
+                        \begin{align}
+                            & f'_-(2) = \lim_{x \to 2^-} f'(x) = \lim_{x \to 2^-} -x + 1 = -1, \\
+                            & f'_+(2) = \lim_{x \to 2^+} f'(x) = \lim_{x \to 2^+} -\frac{1}{(x-1)^2} = -1.
+                        \end{align}
+
+                        Observamos que $f'_-(2) = f'_+(2)$, así que $f$ es derivable en $x = 2.$
+                    </li>
+                </ul>
+
+                Por tanto, $f$ es continua y derivable en $\mathbb{R}.$
+            </li>
+
+            <li>
+                Estudiamos la monotonía de $f.$
+                Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+
+                <ul>
+                    <li>
+                        Si $x < 2$,
+                        $$f'(x) = 0 \Leftrightarrow -x + 1 = 0 \Leftrightarrow x = 1.$$
+                    </li>
+
+                    <li>
+                        Si $x > 2$,
+                        $$f'(x) = -\frac{1}{(x-1)^2} \neq 0.$$
+                    </li>
+                </ul>
+
+                Así que el único punto crítico es $x = 1.$
+                Estudiamos el signo de $f'.$
+
+                <ul>
+                    <li>
+                        Si $x < 1$, $f'(x) > 0.$
+                        Así que $f$ es creciente.
+                    </li>
+
+                    <li>
+                        Si $x > 1$, $f'(x) < 0.$
+                        Así que $f$ es decreciente.
+                    </li>
+                </ul>
+
+                Por tanto, $f$ es creciente en $(-\infty, 1)$ y decreciente en $(1, +\infty).$
+                Además, el punto $\left(1, \frac{3}{2}\right)$ es un máximo relativo.
+            </li>
+
+            <li>
+                Representamos la función.
+                <img src="img/sociales/R202444-1.png" alt="Figura" loading="lazy">
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Podemos representar el recinto.
+        <img src="img/sociales/R202444-2.png" alt="Figura" loading="lazy">
+
+        Calculamos el área.
+        \begin{align}
+            & \int_0^2 (-\frac{1}{2}x^2 + x + 1)dx + \int_2^4 \frac{1}{x-1}dx = \left[-\frac{1}{6}x^3 + \frac{1}{2}x^2 + x\right]_0^2 + \Big[\ln(x-1)\Big]_2^4 = \\
+            & = -\frac{4}{3} + 2 + 2 + \ln(3) = \frac{8}{3} + \ln(3) \; u^2.
+        \end{align}
+    </li>
+</ol>
