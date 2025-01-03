@@ -1,0 +1,29 @@
+<p>
+    Llamamos $x$ al número de bidones de pintura de interior e $y$ al de bidones de pintura de exterior.
+    Las restricciones del problema son:
+    \begin{cases}
+        x + y \leq 160, \\
+        x + y \geq 60, \\
+        x \geq 20, \\
+        y \geq x.
+    \end{cases}
+
+    La función objetivo a minimizar es:
+    $$F(x, y) = 1,5x + 0,9y.$$
+</p>
+
+<p>
+    Representamos la región factible.
+    <img src="img/sociales/R202432.png" alt="Figura" loading="lazy">
+
+    Los vértices son:
+    $$A(20, 40), \quad B(20, 140), \quad C(60, 60) \quad \text{y} \quad D(30, 30).$$
+</p>
+
+<p>
+    Por el teorema fundamental de la programación lineal, el mínimo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices.
+    $$F(A) = F(20, 40) = 66, \quad F(B) = F(20, 140) = 156, \quad F(C) = F(60, 60) = 192, \quad F(D) = F(30, 30) = 72.$$
+
+    Por tanto, el coste diario mínimo se alcanza almacenando 20 bidones de pintura de interior y 40 de exterior, con unos gastos de 66€.
+</p>
