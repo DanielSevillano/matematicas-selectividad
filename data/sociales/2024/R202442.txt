@@ -1,0 +1,70 @@
+<p>
+    Llamamos $x$ al número de pulseras del tipo A e $y$ al número de pulseras del tipo B.
+    Podemos organizar la información en una tabla.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <th>Oro (g)</th>
+            <th>Platino (g)</th>
+            <th>Plata (g)</th>
+            <th>Precio (€)</th>
+        </tr>
+
+        <tr>
+            <th>Tipo A</th>
+            <td>1</td>
+            <td>2</td>
+            <td>0</td>
+            <td>150</td>
+        </tr>
+
+        <tr>
+            <th>Tipo B</th>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>200</td>
+        </tr>
+
+        <tr>
+            <th>Máximo</th>
+            <td>50</td>
+            <td>40</td>
+            <td>25</td>
+        </tr>
+    </table>
+</div>
+
+<p>
+    Las restricciones del problema son:
+    \begin{cases}
+        x + 2y \leq 50, \\
+        2x + y \leq 40, \\
+        y \leq 25, \\
+        x \geq 0, \\
+        y \geq 0.
+    \end{cases}
+
+    La función objetivo a maximizar es:
+    $$F(x, y) = 150x + 200y.$$
+</p>
+
+<p>
+    Representamos la región factible.
+    <img src="img/sociales/R202442.png" alt="Figura" loading="lazy">
+
+    Los vértices son:
+    $$A(0, 0), \quad B(0, 25), \quad C(10, 20) \quad \text{y} \quad D(20, 0).$$
+</p>
+
+<p>
+    Por el teorema fundamental de la programación lineal, el máximo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices.
+    $$F(A) = F(0, 0) = 0, \quad F(B) = F(0, 25) = 5.000, \quad F(C) = F(10, 20) = 5.500, \quad F(D) = F(20, 0) = 3.000.$$
+
+    Por tanto, el máximo de los ingresos se alcanza fabricando 10 pulseras de tipo A y 20 de tipo B, con unos beneficios de 5.500€.
+    Se gastarán $10 + 2 \cdot 20 = 50$ gramos de oro, $2 \cdot 10 + 20 = 40$ gramos de platino y 20 gramos de plata, así que solo sobrarán 5 gramos de plata.
+</p>
