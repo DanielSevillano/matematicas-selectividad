@@ -267,6 +267,7 @@
     },
     {
         "ejercicio": 202441,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Dimensiones",

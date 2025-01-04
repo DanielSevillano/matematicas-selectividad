@@ -1,0 +1,108 @@
+<ol>
+    <li>
+        Resolvemos el sistema por sustitución.
+        Despejando en la segunda ecuación,
+        $$X + Y = B \Leftrightarrow Y = B - X.$$
+
+        Sustituyendo y despejando en la primera ecuación, obtenemos que:
+        $$2X - (B - X) = 4A \Leftrightarrow 3X = 4A + B \Leftrightarrow X = \frac{1}{3}(4A + B) = \frac{1}{3} \left[
+            \begin{pmatrix}
+                0 & 4 \\
+                4 & 0
+            \end{pmatrix} +
+            \begin{pmatrix}
+                3 & 2 \\
+                2 & 0
+            \end{pmatrix}
+        \right] = \frac{1}{3} \begin{pmatrix}
+            3 & 6 \\
+            6 & 0
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 2 \\
+            2 & 0
+        \end{pmatrix}.$$
+        
+        Sustituyendo en la primera ecuación, obtenemos que:
+        $$Y = B - X =
+        \begin{pmatrix}
+            3 & 2 \\
+            2 & 0
+        \end{pmatrix} -
+        \begin{pmatrix}
+            1 & 2 \\
+            2 & 0
+        \end{pmatrix} =
+        \begin{pmatrix}
+            2 & 0 \\
+            0 & 0
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Calculamos las primeras potencias de $C.$
+        \begin{align}
+            & C^2 = C \cdot C = \begin{pmatrix}
+                1 & 0 \\
+                1 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 0 \\
+                1 & 1
+            \end{pmatrix} = 
+            \begin{pmatrix}
+                1 & 0 \\
+                2 & 1
+            \end{pmatrix}, \\
+            & C^3 = C^2 \cdot C = \begin{pmatrix}
+                1 & 0 \\
+                2 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 0 \\
+                1 & 1
+            \end{pmatrix} =
+            \begin{pmatrix}
+                1 & 0 \\
+                3 & 1
+            \end{pmatrix}, \\
+            & C^4 = C^3 \cdot C = \begin{pmatrix}
+                1 & 0 \\
+                3 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 0 \\
+                1 & 1
+            \end{pmatrix} =
+            \begin{pmatrix}
+                1 & 0 \\
+                4 & 1
+            \end{pmatrix}.
+        \end{align}
+
+        Por tanto,
+        $$C^{2024} = \begin{pmatrix}
+            1 & 0 \\
+            2024 & 1
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                $A^t$ y $B$ son matrices cuadradas de orden 2, así que se pueden multiplicar y $A^tB$ es también una matriz cuadrada de orden 2.
+                Por otro lado, como $D$ es de dimensión $2 \times 3$ y $D^t$ es $3 \times 2$, se pueden multiplicar y $DD^t$ es una matriz cuadrada de orden 2.
+                Por tanto, la suma se puede realizar y da como resultado una matriz cuadrada de orden 2.
+            </li>
+
+            <li>
+                $D$ es de dimensión $2 \times 3$ y $B$ es $2 \times 2$, así que el producto no se puede realizar.
+            </li>
+
+            <li>
+                $D^t$ es dimensión $3 \times 2$ y $A^t$ es $2 \times 2$, así que se pueden multiplicar y $D^tA^t$ tiene dimensión $3 \times 2.$
+                Como $D$ es de dimensión $2 \times 3$, la suma no se puede realizar.
+            </li>
+        </ul>
+    </li>
+</ol>
