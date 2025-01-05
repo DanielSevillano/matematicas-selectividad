@@ -10,7 +10,7 @@
         $$\alpha = 1 - 0,98 = 0,02 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,02}{2} = 0,99 \Rightarrow z_{\alpha/2} = 2,325.$$
 
         Por tanto, el intervalo de confianza para estimar el tiempo medio de respuesta del medicamento con un nivel de confianza del 98% es:
-        $$I = \left(26 - 2,325 \cdot \frac{5}{\sqrt{10}}, \, 26 + 2,325 \cdot \frac{5}{\sqrt{10}}\right) = (22,3239; \, 29,6761).$$
+        $$I = \left(27 - 2,325 \cdot \frac{5}{\sqrt{10}}, \, 27 + 2,325 \cdot \frac{5}{\sqrt{10}}\right) = (23,3239; \, 30,6761).$$
     </li>
 
     <li>
