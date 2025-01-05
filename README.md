@@ -59,11 +59,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Reserva 3 (B2)
 
 ### Ejercicios resueltos de sociales
-- [ ] 2024
-    - [x] Junio y julio
-    - [x] Reservas 1 a 3
-    - [ ] Reserva 4 (1, 2, 3, 4, 5, 6, 7)
-- [x] 2023 y 2022
+- [x] 2024 a 2022
 - [ ] 2021
     - [x] Junio
     - [ ] Julio (1, 3, 4, 5, 6)

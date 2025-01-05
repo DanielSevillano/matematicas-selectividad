@@ -1,0 +1,21 @@
+<ol>
+    <li>
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \, \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+        Calculamos la media muestral.
+        $$\overline{x} = \frac{20 + 25 + 30 + 35 + 35 + 20 + 20 + 25 + 30 + 30}{10} = \frac{270}{10} = 27.$$
+
+        Como el nivel de confianza es del 98%, entonces:
+        $$\alpha = 1 - 0,98 = 0,02 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,02}{2} = 0,99 \Rightarrow z_{\alpha/2} = 2,325.$$
+
+        Por tanto, el intervalo de confianza para estimar el tiempo medio de respuesta del medicamento con un nivel de confianza del 98% es:
+        $$I = \left(26 - 2,325 \cdot \frac{5}{\sqrt{10}}, \, 26 + 2,325 \cdot \frac{5}{\sqrt{10}}\right) = (22,3239; \, 29,6761).$$
+    </li>
+
+    <li>
+        Llamamos $X \sim N(27,2; \, 5)$ a la distribución del tiempo de respuesta al medicamento.
+        La probabilidad de que a un paciente no le haya hecho efecto el medicamento hasta pasados 20 minutos es:
+        $$P(X > 20) = P\left(Z > \frac{20 - 27,5}{5}\right) = P(Z > -1,5) = P(Z < 1,5) = 0,9332.$$
+    </li>
+</ol>
