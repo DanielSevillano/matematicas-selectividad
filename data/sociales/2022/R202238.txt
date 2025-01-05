@@ -3,11 +3,11 @@
         El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
         $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \, \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
 
+        Calculamos la media muestral.
+        $$\overline{x} = \frac{26.830}{100} = 268,3.$$
+
         Como el nivel de confianza es del 92%, entonces:
         $$\alpha = 1 - 0,92 = 0,08 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,08}{2} = 0,96 \Rightarrow z_{\alpha/2} = 1,75.$$
-
-        Además, la media poblacional es:
-        $$\overline{x} = \frac{26.830}{100} = 268,3.$$
 
         Por tanto, el intervalo de confianza para estimar el consumo medio de energía en kilovatios hora con un nivel de confianza del 92% es:
         $$I = \left(268,3 - 1,75 \cdot \frac{\sqrt{4.225}}{\sqrt{100}}, \, 268,3 + 1,75 \cdot \frac{\sqrt{4.225}}{\sqrt{100}}\right) = (256,925; \, 279,675).$$
