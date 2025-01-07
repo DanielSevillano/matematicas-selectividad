@@ -21,8 +21,6 @@
         --button-background-color-active: #e0e0e0;
         --button-border-color: #d1d1d1;
         --on-button: black;
-
-        --snow-background: hsl(200, 70%, 90%);
     }
 }
 
@@ -49,8 +47,6 @@
         --button-background-color-active: #1f1f1f;
         --button-border-color: #666666;
         --on-button: #FBFBFE;
-
-        --snow-background: hsl(200, 70%, 10%);
     }
 }
 
@@ -112,13 +108,8 @@ body>header {
     column-gap: 20px;
     width: 100%;
     padding: 0.75em 20px;
-    padding-top: 1.25em;
     box-sizing: border-box;
-    background-color: var(--snow-background);
-    background-image: url(/img/nieve.png);
-    background-position-y: bottom;
-    background-repeat: repeat-x;
-    background-size: contain;
+    background-color: var(--header-color);
     border-bottom: 1px solid hsla(0, 0%, 50%, 0.25);
     transition: background-color 200ms;
 }
