@@ -1,0 +1,21 @@
+<ol>
+    <li>
+        Representamos la región factible.
+        <img src="img/sociales/R202152.png" alt="Figura" loading="lazy">
+
+        Los vértices son:
+        $$A(-7, -2), \quad B(-7, 5) \quad \text{y} \quad C(-3, 1).$$
+    </li>
+
+    <li>
+        Por el teorema fundamental de la programación lineal, tanto el máximo como el mínimo de la función se alcanzan en uno de los vértices de la región en caso de existir.
+        Evaluamos la función en los vértices.
+        $$G(A) = G(-7, -2) = -\frac{18}{5}, \quad G(B) = G(-7, 5) = \frac{139}{10}, \quad G(C) = G(-3, 1) = \frac{31}{10}.$$
+
+        Por tanto, el máximo de la función se alcanza en el punto $B(-7, 5)$ con un valor de $\frac{139}{10}$, mientras que el mínimo se alcanza en $A(-7, -2)$ con un valor de $-\frac{18}{5}.$
+    </li>
+
+    <li>
+        Como el valor máximo que alcanza la función en la región factible es $\frac{139}{10}$ y se verifica que $\frac{47}{3} > \frac{139}{10}$, la función no puede alcanzar el valor $\frac{47}{3}.$
+    </li>
+</ol>

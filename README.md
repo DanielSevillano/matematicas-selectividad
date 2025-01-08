@@ -62,4 +62,4 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [x] 2024 a 2022
 - [ ] 2021
     - [x] Junio
-    - [ ] Julio (1, 3, 4, 5, 6)
+    - [ ] Julio (1, 2, 3, 4, 5, 6)

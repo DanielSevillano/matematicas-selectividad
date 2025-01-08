@@ -1521,6 +1521,7 @@
     },
     {
         "ejercicio": 202152,
+        "resuelto": true,
         "categorias": [
             "Programación lineal"
         ]
@@ -1571,6 +1572,7 @@
         "ejercicio": 202158,
         "categorias": [
             "Estadística",
+            "Distribución de medias muestrales",
             "Estimación de la media"
         ]
     },
