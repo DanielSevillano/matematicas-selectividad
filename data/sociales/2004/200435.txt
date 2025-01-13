@@ -1,0 +1,16 @@
+<ol>
+    <li>
+        Plantee, sin resolver, un sistema de ecuaciones asociado al siguiente problema:
+        "Un monedero contiene 1 euro en monedas de 2, 5 y 10 centimos; en total hay 22 monedas.
+        Sabiendo que el número de monedas de 5 y 10 céntimos juntas excede en 2 unidades al número de monedas de 2 centimos, obtenga el numero de monedas de cada tipo que hay en el monedero".
+    </li>
+
+    <li>
+        Resuelva el sistema formado por las ecuaciones:
+        \begin{cases}
+            x + y + z = 6, \\
+            2x - y + 2z = 3, \\
+            3x + 2y - 3z = 3.
+        \end{cases}
+    </li>
+</ol>

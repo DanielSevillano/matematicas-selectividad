@@ -1,0 +1,15 @@
+Sea el sistema de ecuaciones:
+\begin{cases}
+    x + y - z = -2, \\
+    2x - z = 0, \\
+    -2y + z = 4.
+\end{cases}
+
+<ol>
+    <li>Resuélvalo y clasifíquelo en cuanto a sus soluciones.</li>
+    <li>
+        ¿Tiene inversa la matriz de coeficientes del sistema?
+        Justifíquelo.
+    </li>
+    <li>Obtenga, si existe, una solución del sistema que verifique $x = 2y.$</li>
+</ol>

@@ -1,0 +1,14 @@
+<ol>
+    <li>
+        Resuelva el siguiente sistema y clasifíquelo atendiendo al número de soluciones:
+        \begin{cases}
+            x + y + z = 0, \\
+            2x + 3y - z = 17, \\
+            4x + 5y + z = 17.
+        \end{cases}
+    </li>
+
+    <li>
+        A la vista del resultado anterior, ¿podemos afirmar que hay una ecuación que es combinación lineal de las otras dos?
+    </li>
+</ol>

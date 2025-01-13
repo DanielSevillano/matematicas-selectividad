@@ -4368,14 +4368,16 @@
         "ejercicio": 200911,
         "categorias": [
             "Álgebra",
-            "Sistemas de ecuaciones"
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
         ]
     },
     {
         "ejercicio": 200935,
         "categorias": [
             "Álgebra",
-            "Sistemas de ecuaciones"
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
         ]
     },
     {
@@ -4389,7 +4391,8 @@
         "ejercicio": 200731,
         "categorias": [
             "Álgebra",
-            "Sistemas de ecuaciones"
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
         ]
     },
     {
@@ -4403,11 +4406,50 @@
         "ejercicio": 200641,
         "categorias": [
             "Álgebra",
-            "Sistemas de ecuaciones"
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
         ]
     },
     {
         "ejercicio": 200655,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 200511,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 200525,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 200421,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 200435,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 200445,
         "categorias": [
             "Álgebra",
             "Sistemas de ecuaciones"
