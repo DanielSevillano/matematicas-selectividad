@@ -2,6 +2,6 @@ Sea $f: [0, 2\pi] \to \mathbb{R}$ la función definida por
 $$f(x) = \frac{\sin(x)}{2 - \cos(x)}.$$
 
 <ol>
-    <li>Halla los extremos absolutos de $f$ (abscisas donde se obitenen y valores que se alcanzan).</li>
+    <li>Halla los extremos absolutos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
     <li>Determina la ecuación de la recta tangente y de la recta normal a la gráfica de $f$ en el punto de abscisa $x = \frac{\pi}{3}.$</li>
 </ol>
