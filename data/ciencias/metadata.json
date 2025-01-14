@@ -1840,6 +1840,7 @@
     },
     {
         "ejercicio": 202001,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Asíntotas",

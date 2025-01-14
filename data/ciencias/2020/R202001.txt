@@ -1,0 +1,34 @@
+<ol>
+    <li>
+        En primer lugar, factorizamos los polinomios para simplificar la función.
+        $$f(x) = \frac{x^2 - 2x - 3}{x^2 - 1} = \frac{(x-3)(x+1)}{(x-1)(x+1)} = \frac{x-3}{x-1}.$$
+
+        Así que $\Dom(f) = \mathbb{R} \setminus \{1\}.$
+
+        <ul>
+            <li>
+                Estudiamos la existencia de asíntota vertical en $x = 1.$
+                \begin{align}
+                    & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} \frac{x-3}{x-1} = \frac{-2}{0^-} = +\infty, \\
+                    & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} \frac{x-3}{x-1} = \frac{-2}{0^+} = -\infty.
+                \end{align}
+
+                Por tanto, la recta $x = 1$ es una asíntota vertical.
+            </li>
+
+            <li>
+                Veamos si tiene alguna asíntota horizontal.
+                $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{x-3}{x-1} = 1.$$
+
+                Por tanto, la recta $y = 1$ es una asíntota horizontal y $f$ no tiene ninguna asíntota oblicua.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        En primer lugar, hallamos la derivada de la función $f.$
+        $$f'(x) = \frac{x-1 - (x-3)}{(x-1)^2} = \frac{2}{(x-1)^2}.$$
+
+        Observamos que $f'(x) > 0$ para $x \neq 1$, así que $f$ es creciente en todo su dominio, es decir, en $(-\infty, 1) \cup (1, +\infty).$
+    </li>
+</ol>
