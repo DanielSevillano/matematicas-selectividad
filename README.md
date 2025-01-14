@@ -62,5 +62,4 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ### Ejercicios resueltos de sociales
 - [x] 2024 a 2022
 - [ ] 2021
-    - [x] Junio
-    - [ ] Julio (1, 2, 3, 4, 5, 6)
+    - [x] Junio y julio

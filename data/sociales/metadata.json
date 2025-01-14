@@ -1563,6 +1563,7 @@
     },
     {
         "ejercicio": 202157,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"
@@ -1570,6 +1571,7 @@
     },
     {
         "ejercicio": 202158,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Distribución de medias muestrales",

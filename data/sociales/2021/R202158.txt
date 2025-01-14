@@ -1,0 +1,30 @@
+<ol>
+    <li>
+        La distribución de medias muestrales de tamaño $n = 12$ tiene desviación típica:
+        $$\frac{\sigma}{\sqrt{n}} = \frac{4}{\sqrt{12}} = \frac{2}{\sqrt{3}}.$$
+    </li>
+
+    <li>
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \, \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+        Calculamos la media muestral.
+        $$\overline{x} = \frac{11,8 + 10 + 9,8 + 12 + 9,7 + 10,8 + 9,6 + 11,3 + 10,4 + 12,2 + 9,1 + 10,5}{12} = 10,6.$$
+
+        Como el nivel de confianza es del 97%, entonces:
+        $$\alpha = 1 - 0,97 = 0,03 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
+
+        Por tanto, el intervalo de confianza para estimar la media poblacional con un nivel de confianza del 97% es:
+        $$I = \left(10,6 - 2,17 \cdot \frac{4}{\sqrt{12}}, \, 10,6 + 2,17 \cdot \frac{4}{\sqrt{12}}\right) \approx (8,0943; \, 13,1057).$$
+    </li>
+
+    <li>
+        El error máximo cometido viene dado por:
+        $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 2,17 \cdot \frac{4}{\sqrt{n}} = \frac{8,68}{\sqrt{n}}.$$
+
+        Si se quiere que el error máximo sea menor que 1,2, entonces:
+        $$\frac{8,68}{\sqrt{n}} = 1,2 \Leftrightarrow \sqrt{n} = \frac{8,68}{1,2} \Leftrightarrow n = \frac{8,68^2}{1,2^2} \approx 52,3211.$$
+
+        Por tanto, el tamaño mínimo de la muestra debe ser 53.
+    </li>
+</ol>

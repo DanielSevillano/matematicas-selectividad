@@ -1,0 +1,25 @@
+<ol>
+    <li>
+        Como 115 residentes de $n = 250$ están a favor de la salida de Reino Unido de la Unión Europea, la proporción muestral es:
+        $$p = \frac{115}{250} = 0,46.$$
+
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+
+        Como el nivel de confianza es del 99,5%, entonces:
+        $$\alpha = 1 - 0,995 = 0,005 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,005}{2} = 0,9975 \Rightarrow z_{\alpha/2} = 2,81.$$
+
+        Por tanto, el intervalo de confianza para estimar la proporción de residentes que están a favor de la salida de Reino Unido de la Unión Europea con un nivel de confianza del 99,5% es:
+        $$I = \left(0,46 - 2,81 \cdot \sqrt{\frac{0,46 \cdot (1-0,46)}{250}}, \, 0,46 + 2,81 \cdot \sqrt{\frac{0,46 \cdot (1-0,46)}{250}}\right) \approx (0,3714; \, 0,5486).$$
+    </li>
+
+    <li>
+        El error máximo de estimación viene dado por:
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 2,81 \cdot \sqrt{\frac{0,46 \cdot (1-0,46)}{n}} = 2,81 \cdot \sqrt{\frac{0,2484}{n}}.$$
+
+        Si se quiere el error sea inferior a 0,05, entonces:
+        $$2,81 \cdot \sqrt{\frac{0,2484}{n}} = 0,05 \Leftrightarrow \sqrt{\frac{0,2484}{n}} = \frac{0,05}{2,81} \Leftrightarrow \frac{0,2484}{n} = \frac{0,05^2}{2,81^2} \Leftrightarrow n = \frac{0,2484 \cdot 2,81^2}{0,05^2} \approx 784,5565.$$
+
+        Por tanto, el número mínimo de personas de la muestra debe ser 785.
+    </li>
+</ol>
