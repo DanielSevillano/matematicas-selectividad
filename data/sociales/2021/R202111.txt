@@ -1,0 +1,35 @@
+<p>
+    Llamamos $x$ al número misiones e $y$ al número de programas.
+    Las restricciones del problema son:
+    $$\begin{cases}
+        200.000x + 100.000y \leq 2.400.000, \\
+        200.000x + 100.000y \geq 2.000.000, \\
+        x \geq 4, \\
+        x \leq \frac{y}{2}
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        2x + y \leq 24, \\
+        2x + y \geq 20, \\
+        x \geq 4, \\
+        2x \leq y.
+    \end{cases}$$
+
+    La función objetivo a maximizar es:
+    $$F(x, y) = 0,6x + 0,4y.$$
+</p>
+
+<p>
+    Representamos la región factible.
+    <img src="img/sociales/R202111.png" alt="Figura" loading="lazy">
+
+    Los vértices son:
+    $$A(4, 12), \quad B(4, 16), \quad C(6, 12) \quad \text{y} \quad D(5, 10).$$
+</p>
+
+<p>
+    Por el teorema fundamental de la programación lineal, el máximo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices.
+    $$F(A) = F(4, 12) = 7,2, \quad F(B) = F(4, 16) = 8,8, \quad F(C) = F(6, 12) = 8,4, \quad F(D) = F(5, 10) = 7.$$
+
+    Por tanto, el máximo de la función se alcanza llevando a cabo 4 misiones y 16 programas.
+</p>
