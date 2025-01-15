@@ -1849,6 +1849,7 @@
     },
     {
         "ejercicio": 202002,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",

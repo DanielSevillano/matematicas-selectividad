@@ -1,0 +1,21 @@
+<p>
+    En primer lugar, hallamos una primitiva de la función.
+    Resolvemos la integral por partes.
+    \begin{align}
+        u = x & \Rightarrow u' = 1, \\
+        v' = e^{3x} & \Rightarrow v = \frac{1}{3}e^{3x}.
+    \end{align}
+
+    Así que:
+    $$\int xe^{3x}dx = \frac{1}{3}xe^{3x} - \frac{1}{3} \int e^{3x}dx = \frac{1}{3}xe^{3x} - \frac{1}{9}e^{3x} = \frac{1}{9}e^{3x}(3x - 1).$$
+</p>
+
+<p>
+    De esta forma, el área de la región viene dada por:
+    $$\int_0^a e^{3x}dx = \frac{1}{9}\Big[e^{3x}(3x-1)\Big]_0^a = \frac{1}{9}(e^{3a}(3a - 1) + 1).$$
+</p>
+
+<p>
+    Como la región tiene un área de $\frac{1}{9} \, u^2$, ha de verificarse que:
+    $$\int_0^a e^{3x}dx = \frac{1}{9} \Leftrightarrow \frac{1}{9}(e^{3a}(3a - 1) + 1) = \frac{1}{9} \Leftrightarrow e^{3a}(3a - 1) + 1 = 1 \Leftrightarrow e^{3a}(3a - 1) = 0 \Leftrightarrow 3a - 1 = 0 \Leftrightarrow a = \frac{1}{3}.$$
+</p>
