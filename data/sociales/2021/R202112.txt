@@ -1,0 +1,110 @@
+<ol>
+    <li>
+        Calculamos las primeras potencias de $A.$
+        \begin{align}
+            & A^2 = A \cdot A = \begin{pmatrix}
+                1 & 0 & 1 \\
+                0 & 1 & 0 \\
+                1 & 0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 0 & 1 \\
+                0 & 1 & 0 \\
+                1 & 0 & 1
+            \end{pmatrix} =
+            \begin{pmatrix}
+                2 & 0 & 2 \\
+                0 & 1 & 0 \\
+                2 & 0 & 2
+            \end{pmatrix}, \\
+            & A^3 = A^2 \cdot A = \begin{pmatrix}
+                2 & 0 & 2 \\
+                0 & 1 & 0 \\
+                2 & 0 & 2
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 0 & 1 \\
+                0 & 1 & 0 \\
+                1 & 0 & 1
+            \end{pmatrix} =
+            \begin{pmatrix}
+                4 & 0 & 4 \\
+                0 & 1 & 0 \\
+                4 & 0 & 4
+            \end{pmatrix}, \\
+            & A^4 = A^3 \cdot A = \begin{pmatrix}
+                4 & 0 & 4 \\
+                0 & 1 & 0 \\
+                4 & 0 & 4
+            \end{pmatrix}
+            \begin{pmatrix}
+                1 & 0 & 1 \\
+                0 & 1 & 0 \\
+                1 & 0 & 1
+            \end{pmatrix} =
+            \begin{pmatrix}
+                8 & 0 & 8 \\
+                0 & 1 & 0 \\
+                8 & 0 & 8
+            \end{pmatrix}.
+        \end{align}
+
+        Por tanto,
+        $$A^n = \begin{pmatrix}
+            2^{n-1} & 0 & 2^{n-1} \\
+            0 & 1 & 0 \\
+            2^{n-1} & 0 & 2^{n-1}
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Calculamos en primer lugar el determinante de la matriz $B.$
+        $$|B| = \begin{vmatrix}
+            1 & 0 & 2 \\
+            1 & 1 & -1 \\
+            2 & 1 & 0
+        \end{vmatrix} = -1.$$
+
+        Como $\det(B) \neq 0$, la matriz $B$ es invertible.
+    </li>
+
+    <li>
+        Por el apartado anterior, $B$ es invertible con $\det(B) = -1.$
+        Despejamos la ecuación matricial.
+        $$BX = C \Leftrightarrow X = B^{-1}C.$$
+
+        Para hallar la inversa de $B$, calculamos primero su matriz adjunta.
+        $$\Adj(B) = \begin{pmatrix}
+            1 & -2 & -1 \\
+            2 & -4 & -1 \\
+            -2 & 3 & 1
+        \end{pmatrix}.$$
+
+        Calculamos su inversa de la forma:
+        $$B^{-1} = \frac{1}{|B|} \Adj(B)^t =
+        -\begin{pmatrix}
+            1 & 2 & -2 \\
+            -2 & -4 & 3 \\
+            -1 & -1 & 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -1 & -2 & 2 \\
+            2 & 4 & -3 \\
+            1 & 1 & -1
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$X = B^{-1}C =
+        \begin{pmatrix}
+            -1 & -2 & 2 \\
+            2 & 4 & -3 \\
+            1 & 1 & -1
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 \\ -3 \\ 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            7 \\ -13 \\ -3
+        \end{pmatrix}.$$
+    </li>
+</ol>

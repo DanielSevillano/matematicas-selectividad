@@ -1280,6 +1280,7 @@
     },
     {
         "ejercicio": 202112,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Potencias",
