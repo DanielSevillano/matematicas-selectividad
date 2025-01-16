@@ -1289,6 +1289,7 @@
     },
     {
         "ejercicio": 202113,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",
