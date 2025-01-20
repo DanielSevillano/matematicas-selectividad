@@ -1,0 +1,6 @@
+Determine los valores que han de tomar $a$ y $b$ para que la función
+$$f(x) = \begin{cases}
+    -x^2 + ax - 7, & \text{si } x < 1, \\
+    4x - b, & \text{si } x \geq 1
+\end{cases}$$
+sea derivable en $\mathbb{R}$.

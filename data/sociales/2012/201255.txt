@@ -1,0 +1,10 @@
+Una fábrica produce dos tipos de productos, A y B, que distribuye a tres clientes.
+En el mes de enero el primer cliente compró 9 unidades de A y 5 de B, el segundo cliente 3 de A y 7 de B, y el tercer cliente 4 de A y 6 de B.
+En el mes de febrero el primer cliente y el segundo duplicaron las compras del mes anterior, y el tercer cliente compró de cada producto una unidad más de las que compró en enero.
+En marzo el primer cliente no compró nada, y el segundo y el tercero compraron lo mismo que en febrero.
+
+<ol>
+    <li>Para cada mes construya la matriz de dimensión $3 \times 2$ correspondiente a las compras de ese mes.</li>
+    <li>Calcule la matriz de compras del trimestre.</li>
+    <li>Si los precios de los productos A y B son, respectivamente, 80 y 100 euros, calcule lo que factura la fábrica en el primer trimestre, por cada cliente y en total.</li>
+</ol>

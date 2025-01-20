@@ -1,0 +1,6 @@
+El peso de las calabazas de una determinada plantación sigue una ley Normal con desviación típica 1.200 g.
+
+<ol>
+    <li>Halle el tamaño mínimo de la muestra que se ha de elegir para, con un nivel de confianza del 95%, estimar el peso medio con un error menor de 450 g.</li>
+    <li>Para el mismo nivel de confianza, indique, razonando la respuesta, si el error aumenta o disminuye al aumentar el tamaño de la muestra.</li>
+</ol>

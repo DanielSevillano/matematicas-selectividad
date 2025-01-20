@@ -1,0 +1,5 @@
+Un empresario fabrica camisas y pantalones para jóvenes.
+Para hacer una camisa se necesitan 2 metros de tela y 5 botones, y para hacer un pantalón hacen falta 3 metros de tela, 2 botones y 1 cremallera.
+La empresa dispone de 1.050 metros de tela, 1.250 botones y 300 cremalleras.
+El beneficio que se obtiene por la venta de una camisa es de 30 euros y el de un pantalón es de 50 euros.
+Suponiendo que se vende todo lo que se fabrica, calcule el número de camisas y de pantalones que debe confeccionar para obtener el máximo beneficio, y determine este beneficio máximo.

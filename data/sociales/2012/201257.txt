@@ -1,0 +1,8 @@
+Sean $A$ y $B$ dos sucesos de un espacio muestral, de los que se conocen las probabilidades $P(A) = 0,60$ y $P(B) = 0,25$.  
+Determine las probabilidades que deben asignarse a los sucesos $A \cup B$ y $A \cap B$ en cada uno de los siguientes supuestos:
+
+<ol>
+    <li>Si $A$ y $B$ fuesen incompatibles.</li>
+    <li>Si $A$ y $B$ fueran independientes.</li>
+    <li>Si $P(A|B) = 0,40$.</li>
+</ol>

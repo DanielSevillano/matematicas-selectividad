@@ -1,0 +1,10 @@
+En una caja de ahorros se sabe que el porcentaje de los nuevos clientes que contratan un plan de pensiones no supera el 23%.
+El director de una de las sucursales decide hacer un regalo a cualquier nuevo cliente que contrate uno de esos planes y, tras un mes, comprueba que 110 de los 470 nuevos clientes han contratado un plan de pensiones.
+
+<ol>
+    <li>
+        Plantee un contraste de hipótesis, con $H_0 : p \leq 0,23$, para decidir si, con los datos dados, se puede afirmar que la medida del director ha aumentado la contratación de estos planes de pensiones.
+        Halle la región de aceptación de este contraste de hipótesis para un nivel de significación del 5%.
+    </li>
+    <li>Según el resultado del apartado anterior, ¿qué conclusión podemos obtener sobre la medida tomada por el director de esta sucursal?</li>
+</ol>

@@ -1,0 +1,10 @@
+En el mar hay una mancha producida por una erupción submarina.
+La superficie afectada, en km<sup>2</sup>, viene dada por la función
+$$f(t) = \frac{11t + 20}{t + 2},$$
+siendo $t$ el tiempo transcurrido desde que empezamos a observarla.
+
+<ol>
+    <li>¿Cuál es la superficie afectada inicialmente, cuando empezamos a medirla?</li>
+    <li>Estudie si la mancha crece o decrece con el tiempo.</li>
+    <li>¿Tiene algún límite la extensión de la superficie de la mancha?</li>
+</ol>

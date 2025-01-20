@@ -4370,6 +4370,60 @@
         ]
     },
     {
+        "ejercicio": 201251,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201252,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201253,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201254,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201255,
+        "categorias": [
+            "Álgebra",
+            "Problemas de matrices"
+        ]
+    },
+    {
+        "ejercicio": 201256,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201257,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201258,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
         "ejercicio": 200911,
         "categorias": [
             "Álgebra",

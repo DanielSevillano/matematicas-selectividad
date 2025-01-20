@@ -1,0 +1,7 @@
+Un pescador tiene tres tipos de carnada de las que solo una es adecuada para pescar salmón.
+Si utiliza la carnada correcta la probabilidad de que pesque un salmón es $\frac{1}{3}$, mientras que si usa una de las inadecuadas esa probabilidad se reduce a $\frac{1}{5}.$
+
+<ol>
+    <li> Si elige aleatoriamente la carnada, ¿cuál es la probabilidad de que pesque un salmón?</li>
+    <li> Si ha pescado un salmón, ¿cuál es la probabilidad de que lo haya hecho con la carnada adecuada?</li>
+</ol>
