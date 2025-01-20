@@ -1,0 +1,60 @@
+<ol>
+    <li>
+        En primer lugar, observamos que:
+        $$\begin{vmatrix}
+            1 & -1 \\
+            0 & 1
+        \end{vmatrix} = 1 \neq 0 \Rightarrow \rang(A) \geq 2.$$
+
+        Calculamos el determinante de la matriz $A.$
+        $$|A| = \begin{vmatrix}
+            1 & -1 & m+2 \\
+            0 & 1 & m+1 \\
+            m & 0 & 5
+        \end{vmatrix} = 5 - m(m+1) - m(m+2) = 5 - m^2 - m - m^2 - 2m = -2m^2 - 3m + 5.$$
+
+        Observamos que:
+        $$|A| = 0 \Leftrightarrow -2m^2 - 3m + 5 = 0 \Leftrightarrow \begin{cases}
+            m = -\frac{5}{2}, \\
+            m = 1.
+        \end{cases}$$
+
+        Por tanto:
+        <ul>
+            <li>Si $m \neq -\frac{5}{2}$ y $m \neq 1$, entonces $\rang(A) = 3.$</li>
+            <li>Si $m = -\frac{5}{2}$ o $m = 1$, entonces $\rang(A) = 2.$</li>
+        </ul>
+    </li>
+
+    <li>
+        Si $m = 2$, $A$ es invertible por el apartado anterior con $\det(A) = -9.$
+        Así que la matriz $2020A$ también es invertible con:
+        $$(2020A)^{-1} = \frac{1}{2020}A^{-1}.$$
+
+        Para hallar la inversa de $A$, calculamos primero su matriz adjunta.
+        $$\Adj(A) = \begin{pmatrix}
+            5 & 6 & -2 \\
+            5 & -3 & -2 \\
+            -7 & -3 & 1
+        \end{pmatrix}.$$
+
+        De esta forma, podemos calcular su inversa como:
+        $$A^{-1} = \frac{1}{|A|} \Adj(A)^t = -\frac{1}{9} \begin{pmatrix}
+            5 & 5 & -7 \\
+            6 & -3 & -3 \\
+            -2 & -2 & 1
+        \end{pmatrix} =
+        \frac{1}{9} \begin{pmatrix}
+            -5 & -5 & 7 \\
+            -6 & 3 & 3 \\
+            2 & 2 & -1
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$(2020A)^{-1} = \frac{1}{2020}A^{-1} = \frac{1}{18.180} \begin{pmatrix}
+            -5 & -5 & 7 \\
+            -6 & 3 & 3 \\
+            2 & 2 & -1
+        \end{pmatrix}$$
+    </li>
+</ol>
