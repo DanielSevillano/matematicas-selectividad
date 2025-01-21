@@ -1301,6 +1301,7 @@
     },
     {
         "ejercicio": 202114,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
@@ -1309,6 +1310,7 @@
     },
     {
         "ejercicio": 202115,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

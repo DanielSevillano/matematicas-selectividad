@@ -1,0 +1,46 @@
+<ol>
+    <li>
+        Para hallar los puntos críticos, igualamos la derivada de $c$ a cero.
+        $$c'(t) = 0 \Leftrightarrow 0,03t^2 - 0,9t + 6 = 0 \Leftrightarrow t^2 - 30t + 200 = 0 \Leftrightarrow \begin{cases}
+            t = 10, \\
+            t = 20.
+        \end{cases}$$
+
+        Estudiamos el signo de $c'.$
+
+        <ul>
+            <li>
+                Si $0 \leq t < 10$, $c'(t) > 0.$
+                Así que $c$ es creciente.
+            </li>
+
+            <li>
+                Si $10 < t < 20$, $c'(t) < 0.$
+                Así que $c$ es decreciente.
+            </li>
+
+            <li>
+                Si $20 < t \leq 24$, $c'(t) > 0.$
+                Así que $c$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es creciente en $(0, 10) \cup (20, 24).$
+    </li>
+
+    <li>
+        Los puntos críticos de $c$ se encuentran en $t = 10$ y $t = 20.$
+        El máximo relativo se alcanza en $t = 10$ y el mínimo relativo en $t = 20.$
+    </li>
+
+    <li>
+        En primer lugar, hallamos la función $c$ integrando.
+        $$c(t) = \int c'(t)dt = \int (0,03t^2 - 0,9t + 6)dt = 0,01t^3 - 0,45t^2 + 6t + K.$$
+
+        Como la cotización al inicio era de 50 euros, ha de verificarse que:
+        $$c(0) = 50 \Leftrightarrow K = 50.$$
+
+        Por tanto,
+        $$c(t) = 0,01t^3 - 0,45t^2 + 6t + 50.$$
+    </li>
+</ol>

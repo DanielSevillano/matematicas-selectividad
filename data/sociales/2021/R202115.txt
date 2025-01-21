@@ -1,0 +1,111 @@
+<p>
+    Llamamos $A$ a proceder de la planta A, $B$ a proceder de la planta B, $C$ a proceder de la planta C y $D$ a ser defectuoso.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,01 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,45 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,99 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,03 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,21 \quad}$</td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,97 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,34 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,02 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,98 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D^c$</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        La probabilidad de que no sea defectuoso y proceda de la planta C es:
+        $$P(D^c \cap C) = P(C) \cdot P(D^c|C) = 0,34 \cdot 0,98 = 0,3332.$$
+    </li>
+
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que el coche elegido no sea defectuoso es:
+        \begin{align}
+            & P(D^c) = P(D^c \cap A) + P(D^c \cap B) + P(D^c \cap C) = P(A) \cdot P(D^c|A) + P(B) \cdot P(D^c|B) + P(C) \cdot P(D^c|C) = \\
+            & = 0,45 \cdot 0,99 + 0,21 \cdot 0,97 + 0,34 \cdot 0,98 = 0,9824.
+        \end{align}
+
+        Por tanto, la probabilidad de que el coche elegido proceda de la planta A sabiendo que no es defectuoso es:
+        $$P(A|D^c) = \frac{P(A \cap D^c)}{P(D^c)} = \frac{P(A) \cdot P(D^c|A)}{P(D^c)} = \frac{0,45 \cdot 0,99}{0,9824} \approx 0,4535.$$
+    </li>
+</ol>
