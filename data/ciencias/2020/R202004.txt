@@ -1,0 +1,73 @@
+<ol>
+    <li>
+        En primer lugar, observamos que los vectores directores $\vec{d}_r = (1, 1, a)$ y $\vec{d}_s = (-a, -1, 2)$ no pueden ser proporcionales para ningún valor de $a$, porque:
+        $$\frac{1}{-a} \neq \frac{a}{2}.$$
+
+        Así que las rectas $r$ y $s$ no son ni paralelas ni coincidentes.
+        Tomamos un punto $R(1, 2, 1)$ de $r$ y un punto $S(3, 3, -1)$ de $s.$
+        Podemos determinar si las dos rectas están contenidas en un plano estudiando si $\vec{d}_r$, $\vec{d}_s$ y $\vec{RS} = (2, 1, -2)$ son linealmente dependientes.
+        $$\begin{vmatrix}
+            1 & 1 & a \\
+            -a & -1 & 2 \\
+            2 & 1 & -2
+        \end{vmatrix} = 2 + 4 - a^2 + 2a - 2a - 2 = -a^2 + 4.$$
+
+        Observamos que:
+        $$-a^2 + 4 = 0 \Leftrightarrow a^2 = 4 \Leftrightarrow a = \pm 2.$$
+
+        <ul>
+            <li>
+                Si $a = \pm 2$, los tres vectores son linealmente dependientes, por lo que $r$ y $s$ están contenidas en un mismo plano.
+                Por tanto, las rectas se cortan.
+            </li>
+
+            <li>
+                Si $a \neq \pm 2$, los tres vectores son linealmente independientes, por lo que $r$ y $s$ no están contenidas en un mismo plano.
+                Por tanto, las rectas se cruzan.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Si $a = 2$, $r$ y $s$ son secantes por el apartado anterior.
+        Llamamos $t$ a la recta que nos piden.
+        Como es perpendicular a las rectas $r$ y $s$, su vector director viene dado por:
+        $$\vec{d}_t = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            1 & 1 & 2 \\
+            -2 & -1 & 2
+        \end{vmatrix} = (4, -6, 1).$$
+
+        Además, pasa por el punto de corte de $r$ y $s.$
+        Para ello, hallamos en primer lugar las ecuaciones paramétricas de $r$ y $s.$
+        $$r \equiv \begin{cases}
+            x = 1 + \lambda, \\
+            y = 2 + \lambda, \\
+            z = 1 + 2\lambda
+        \end{cases} \quad \text{y} \quad
+        s \equiv \begin{cases}
+            x = 3 - 2\mu, \\
+            y = 3 - \mu, \\
+            z = -1 + 2\mu.
+        \end{cases}$$
+
+        Hallamos el punto de corte de $r$ y $s$ igualando las ecuaciones entre sí.
+        \begin{cases}
+            1 + \lambda = 3 - 2\mu, \\
+            2 + \lambda = 3 - \mu, \\
+            1 + 2\lambda = -1 + 2\mu.
+        \end{cases}
+
+        Resolvemos el sistema por reducción.
+        Si restamos las dos primeras ecuaciones, obtenemos que:
+        $$-1 = -\mu \Leftrightarrow \mu = 1.$$
+
+        Luego el punto de corte es $(1, 2, 1).$
+        Por tanto, las ecuaciones paramétricas de la recta $t$ son:
+        $$t \equiv \begin{cases}
+            x = 1 + 4\lambda, \\
+            y = 2 - 6\lambda, \\
+            z = 1 + \lambda.
+        \end{cases}$$
+    </li>
+</ol>
