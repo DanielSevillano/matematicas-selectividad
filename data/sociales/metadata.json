@@ -1317,6 +1317,7 @@
     },
     {
         "ejercicio": 202116,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
