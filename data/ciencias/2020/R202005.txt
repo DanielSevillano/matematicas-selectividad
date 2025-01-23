@@ -1,0 +1,49 @@
+<ol>
+    <li>
+        En primer lugar, hallamos la derivada de la función $f.$
+        $$f'(x) = \frac{\cos(x)(2 - \cos(x)) - \sin^2(x)}{(2-cos(x))^2} = \frac{2\cos(x) - \cos^2(x) - \sin^2(x)}{(2-\cos(x))^2} = \frac{2\cos(x) - 1}{(2-\cos(x))^2}.$$
+
+        Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
+        $$f'(x) = 0 \Leftrightarrow \frac{2\cos(x) - 1}{(2-\cos(x))^2} = 0 \Leftrightarrow 2\cos(x) - 1 = 0 \Leftrightarrow \cos(x) = \frac{1}{2} \Leftrightarrow \begin{cases}
+            x = \frac{\pi}{3}, \\
+            y = \frac{5\pi}{3}.
+        \end{cases}$$
+
+        Estudiamos el signo de $f'.$
+        
+        <ul>
+            <li>
+                Si $0 < x < \frac{\pi}{3}$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $\frac{\pi}{3} < x < \frac{5\pi}{3}$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $\frac{5\pi}{3} < x < 2\pi$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Así que los puntos $(0, 0)$ y $\left(\frac{\pi}{3}, \frac{1}{\sqrt{3}}\right)$ son máximos relativos y los puntos $\left(\frac{5\pi}{3}, -\frac{1}{\sqrt{3}}\right)$ y $(2\pi, 0)$ son mínimos relativos.
+        Por tanto, $\left(\frac{\pi}{3}, \frac{1}{\sqrt{3}}\right)$ es el máximo absoluto y $\left(\frac{5\pi}{3}, -\frac{1}{\sqrt{3}}\right)$ es el mínimo absoluto.
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                La ecuación de la recta tangente a la gráfica de $f$ en $x = \frac{\pi}{3}$ viene dada por:
+                $$y - f\left(\frac{\pi}{3}\right) = f'\left(\frac{\pi}{3}\right)\left(x - \frac{\pi}{3}\right) \Leftrightarrow y - \frac{1}{\sqrt{3}} = 0 \Leftrightarrow y = \frac{1}{\sqrt{3}}.$$
+            </li>
+
+            <li>
+                Observamos que la recta tangente es horizontal, así que la recta normal tiene que ser vertical.
+                Por tanto, su ecuación es:
+                $$x = \frac{\pi}{3}.$$
+            </li>
+        </ul>
+    </li>
+</ol>

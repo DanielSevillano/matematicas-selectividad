@@ -1874,6 +1874,7 @@
     },
     {
         "ejercicio": 202005,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Recta tangente",
