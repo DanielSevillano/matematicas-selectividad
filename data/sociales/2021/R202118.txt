@@ -1,0 +1,25 @@
+<ol>
+    <li>
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \, \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+        Como el nivel de confianza es del 97%, entonces:
+        $$\alpha = 1 - 0,97 = 0,03 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
+
+        Por tanto, el intervalo de confianza para estimar la estatura media de las mujeres con un nivel de confianza del 97% es:
+        $$I = \left(168 - 2,17 \cdot \frac{7}{\sqrt{300}}, \, 168 + 2,17 \cdot \frac{7}{\sqrt{300}}\right) \approx (167,1230; \, 168,8770).$$
+    </li>
+
+    <li>
+        Si el nivel de confianza es del 94%, entonces:
+        $$\alpha = 1 - 0,94 = 0,06 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,06}{2} = 0,97 \Rightarrow z_{\alpha/2} = 1,885.$$
+
+        El error máximo cometido viene dado por:
+        $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 1,885 \cdot \frac{7}{\sqrt{n}} = \frac{13,195}{\sqrt{n}}.$$
+
+        Si se quiere que el error máximo sea inferior a 1,2, entonces:
+        $$\frac{13,195}{\sqrt{n}} = 1,2 \Leftrightarrow \sqrt{n} = \frac{13,195}{1,2} \Leftrightarrow n = \frac{13,195^2}{1,2^2} \approx 120,9084.$$
+
+        Por tanto, el tamaño mínimo de la muestra debe ser de 121 personas.
+    </li>
+</ol>

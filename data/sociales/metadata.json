@@ -1332,6 +1332,7 @@
     },
     {
         "ejercicio": 202118,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"
