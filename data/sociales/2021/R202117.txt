@@ -1,0 +1,28 @@
+<ol>
+    <li>
+        Como 175 individuos de $n = 500$ usan el transporte público, la proporción muestral es:
+        $$p = \frac{175}{500} = 0,35.$$
+
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+
+        Como el nivel de confianza es del 94%, entonces:
+        $$\alpha = 1 - 0,94 = 0,06 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,06}{2} = 0,97 \Rightarrow z_{\alpha/2} = 1,885.$$
+
+        Por tanto, el intervalo de confianza para estimar la proporción de individuos que usan el transporte público con un nivel de confianza del 94% es:
+        $$I = \left(0,35 - 1,885 \cdot \sqrt{\frac{0,35 \cdot (1-0,35)}{500}}, \, 0,35 + 1,885 \cdot \sqrt{\frac{0,35 \cdot (1-0,35)}{500}}\right) \approx (0,3098; \, 0,3902).$$
+    </li>
+
+    <li>
+        Si el nivel de confianza es del 97%, entonces:
+        $$\alpha = 1 - 0,97 = 0,03 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,03}{2} = 0,985 \Rightarrow z_{\alpha/2} = 2,17.$$
+
+        El error máximo de estimación viene dado por:
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 2,17 \cdot \sqrt{\frac{0,35 \cdot (1-0,35)}{n}} = 2,17 \cdot \sqrt{\frac{0,2275}{n}}.$$
+
+        Si se quiere el error sea inferior a 0,02, entonces:
+        $$2,17 \cdot \sqrt{\frac{0,2275}{n}} = 0,02 \Leftrightarrow \sqrt{\frac{0,2275}{n}} = \frac{0,02}{2,17} \Leftrightarrow \frac{0,2275}{n} = \frac{0,02^2}{2,17^2} \Leftrightarrow n = \frac{0,2275 \cdot 2,17^2}{0,02^2} \approx 2.678,1869.$$
+
+        Por tanto, el número mínimo de individuos de la muestra debe ser 2.679.
+    </li>
+</ol>

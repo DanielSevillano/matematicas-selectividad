@@ -1324,6 +1324,7 @@
     },
     {
         "ejercicio": 202117,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"
