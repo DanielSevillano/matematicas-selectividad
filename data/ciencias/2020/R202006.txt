@@ -1,0 +1,33 @@
+<ol>
+    <li>
+        Para resolver la integral, hacemos la división de polinomios del integrando.
+        $$\frac{3x^2 + 4}{(x-2)^2} = \frac{3x^2 + 4}{x^2 - 4x + 4} = 3 + \frac{12x - 8}{x^2 - 4x + 4}.$$
+
+        Así que:
+        $$F(x) = \int \frac{3x^2 + 4}{(x-2)^2}dx = \int 3dx + \int \frac{12x - 8}{x^2 - 4x + 4}dx = 3x + \int \frac{12x - 8}{x^2 - 4x + 4}dx.$$
+
+        Expresamos la función como suma de fracciones simples.
+        La raíz doble del denominador es 2, así que la función se puede escribir de la forma:
+        $$\frac{12x - 8}{x^2 - 4x + 4} = \frac{A}{x-2} + \frac{B}{(x-2)^2} = \frac{Ax - 2A + B}{(x-2)^2}.$$
+
+        Igualando ambas expresiones, obtenemos que:
+        \begin{cases}
+            A = 12, \\
+            -2A + B = -8 \Rightarrow B = 16.
+        \end{cases}
+
+        Por tanto,
+        $$\frac{12x - 8}{x^2 - 4x + 4} = \frac{12}{x-2} + \frac{16}{(x-2)^2}.$$
+
+        Resolvemos la integral.
+        $$F(x) = 3x + \int \frac{12x - 8}{x^2 - 4x + 4}dx = 3x + 12\int \frac{1}{x-2}dx + 16\int \frac{1}{(x-2)^2}dx = 3x + 12\ln|x-2| - \frac{16}{x-2} + K.$$
+    </li>
+
+    <li>
+        La primitiva que pasa por el punto $(3, 5)$ ha de verificar:
+        $$F(3) = 5 \Leftrightarrow 9 - 16 + K = 5 \Leftrightarrow K = 12.$$
+
+        Por tanto, la primitiva es:
+        $$F(x) = 3x + 12\ln|x-2| - \frac{16}{x-2} + 12.$$
+    </li>
+</ol>

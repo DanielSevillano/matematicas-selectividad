@@ -1883,6 +1883,7 @@
     },
     {
         "ejercicio": 202006,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
