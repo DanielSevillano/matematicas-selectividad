@@ -1,0 +1,67 @@
+<ol>
+    <li>
+        Observamos que:
+        $$|A| = \begin{vmatrix}
+            1 & 1 & 1 \\
+            1 & 0 & 1 \\
+            4 & 1 & 4
+        \end{vmatrix} = 0, \quad
+        \begin{vmatrix}
+            1 & 1 \\
+            1 & 0
+        \end{vmatrix} = -1 \neq 0.$$
+
+        Así que $\rang(A) = 2.$
+        Por otro lado, la matriz de coeficientes ampliada es:
+        $$(A|B) = \begin{pmatrix}
+            1 & 1 & 1 & a \\
+            1 & 0 & 1 & 2a \\
+            4 & 1 & 4 & 3a
+        \end{pmatrix}.$$
+
+        Para determinar su rango según el valor de $a$, estudiamos el determinante:
+        $$\begin{vmatrix}
+            1 & 1 & a \\
+            1 & 0 & 2a \\
+            4 & 1 & 3a
+        \end{vmatrix} = 8a + a - 2a - 3a = 4a.$$
+
+        Observamos que:
+        $$4a = 0 \Leftrightarrow a = 0.$$
+        Es decir, $\rang(A|B) = 3$ cuando $a \neq 0.$
+        En otro caso, $\rang(A|B) = 2.$
+
+        <ul>
+            <li>Si $a \neq 0$, $\rang(A) \neq \rang(A|B)$, así que el sistema es incompatible.</li>
+            <li>Si $a = 0$, $\rang(A) = \rang(A|B) < 3$, así que el sistema es compatible indeterminado.</li>
+        </ul>
+    </li>
+
+    <li>
+        Si $a = 0$, el sistema es compatible indeterminado por el apartado anterior.
+        Podemos reducir el sistema a:
+        \begin{cases}
+            x + y + z = 0, \\
+            x + z = 0.
+        \end{cases}
+
+        Resolvemos el sistema por reducción.
+        Si restamos las dos ecuaciones, obtenemos que $y = 0.$
+        Así que, si tomamos $z = \lambda$, entonces $x = -\lambda.$
+        Por tanto, las soluciones del sistema son de la forma:
+        \begin{cases}
+            x = -\lambda, \\
+            y = 0, \\
+            z = \lambda.
+        \end{cases}
+
+        Para $\lambda = 4$, una solución es:
+        \begin{cases}
+            x = -4, \\
+            y = 0, \\
+            z = 4.
+        \end{cases}
+
+        Esta solución verifica que $y + z = 4.$
+    </li>
+</ol>

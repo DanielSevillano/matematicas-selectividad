@@ -1891,6 +1891,7 @@
     },
     {
         "ejercicio": 202007,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
@@ -1899,6 +1900,7 @@
     },
     {
         "ejercicio": 202008,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
