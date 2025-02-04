@@ -1,0 +1,39 @@
+<p>
+    En primer lugar, calculamos la primera y la segunda derivada de $f.$
+    \begin{align}
+        f'(x) & = e^x(x^2 - 5x + 6) + e^x(2x - 5) = e^x(x^2 - 3x + 1), \\
+        f''(x) & = e^x(x^2 - 3x + 1) + e^x(2x - 3) = e^x(x^2 - x - 2).
+    \end{align}
+</p>
+    
+<p>
+    Para hallar los candidatos a puntos de inflexión, igualamos la segunda derivada a cero.
+    $$f''(x) = 0 \Leftrightarrow e^x(x^2 - x - 2) = 0 \Leftrightarrow x^2 - x - 2 = 0 \Leftrightarrow \begin{cases}
+        x = -1, \\
+        x = 2.
+    \end{cases}$$
+
+    Estudiamos el signo de $f''.$
+</p>
+
+<ul>
+    <li>
+        Si $x < -1$, $f''(x) > 0.$
+        Así que $f$ es convexa.
+    </li>
+
+    <li>
+        Si $-1 < x < 2$, $f''(x) < 0.$
+        Así que $f$ es cóncava.
+    </li>
+    
+    <li>
+        Si $x > 2$, $f''(x) > 0.$
+        Así que $f$ es convexa.
+    </li>
+</ul>
+
+<p>
+    Por tanto, $f$ es convexa en $(-\infty, -1) \cup (2, +\infty)$ y cóncava en $(-1, 2).$
+    Además, $\left(-1, \frac{12}{e}\right)$ y $(2, 0)$ son puntos de inflexión.
+</p>

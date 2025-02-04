@@ -2152,6 +2152,7 @@
     },
     {
         "ejercicio": 202051,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Curvatura y puntos de inflexión"
