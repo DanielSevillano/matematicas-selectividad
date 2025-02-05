@@ -2182,6 +2182,7 @@
     },
     {
         "ejercicio": 202055,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Derivabilidad",

@@ -1,0 +1,61 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                Si $x \neq 1$, $f$ es continua y derivable para cualquier valor de $a$ y $b$ con:
+                $$f'(x) = \begin{cases}
+                    2ae^{2ax - 4b}, & \text{si } x < 1, \\
+                    -\ln(x) - 1, & \text{si } x > 1.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la continuidad y la derivabilidad en el punto de ruptura $x = 1.$
+
+                <ul>
+                    <li>
+                        Estudiamos la continuidad.
+                        \begin{align}
+                            & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} e^{2ax - 4b} = e^{2a - 4b}, \\
+                            & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} (1 - x\ln(x)) = 1, \\
+                            & f(1) = 1.
+                        \end{align}
+                        
+                        Para que $f$ sea continua, ha de verificarse que:
+                        $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1) \Leftrightarrow e^{2a - 4b} = 1 \Leftrightarrow 2a - 4b = 0 \Leftrightarrow a = 2b.$$
+                    </li>
+
+                    <li>
+                        Estudiamos la derivabilidad.
+                        \begin{align}
+                            & f'_-(1) = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} 2ae^{2ax - 4b} = 2ae^{2a - 4b}, \\
+                            & f'_+(1) = \lim_{x \to 1^+} f'(x) = \lim_{x \to 1^+} (-\ln(x) - 1) = -1.
+                        \end{align}
+
+                        Para que $f$ sea derivable, ha de verificarse que:
+                        $$f'_-(1) = f'_+(1) \Leftrightarrow 2ae^{2a - 4b} = -1.$$
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        Con estas dos condiciones, planteamos el sistema de ecuaciones:
+        \begin{cases}
+            a = 2b, \\
+            2ae^{2a - 4b} = -1.
+        \end{cases}
+
+        Sustituyendo en la segunda ecuación,
+        $$4b = -1 \Leftrightarrow b = -\frac{1}{4} \Rightarrow a = -\frac{1}{2}.$$
+
+        Por tanto, $a = -\frac{1}{2}$ y $b = -\frac{1}{4}.$
+    </li>
+
+    <li>
+        La ecuación de la recta tangente en $x = 2$ viene dada por:
+        \begin{align}
+            & y - f(2) = f'(2)(x-2) \Leftrightarrow y - 1 + 2\ln(2) = (-\ln(2) - 1)(x-2) \Leftrightarrow \\
+            & \Leftrightarrow y = -(\ln(2)+1)x + 2\ln(2) + 2 - 2\ln(2) + 1 \Leftrightarrow y = -(\ln(2)+1)x + 3.
+        \end{align}
+    </li>
+</ol>
