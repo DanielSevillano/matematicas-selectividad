@@ -19,14 +19,14 @@
         \end{cases}
 
         Resolvemos el sistema mediante el método de Gauss.
-        $$\begin{pmatrix}
+        $$\begin{ampmatrix}
             4 & 6 & 3 & 440 \\
             3 & 2 & 2 & 250
-        \end{pmatrix} \xrightarrow{2F_1 - 3F_2}
-        \begin{pmatrix}
+        \end{ampmatrix} \xrightarrow{2F_1 - 3F_2}
+        \begin{ampmatrix}
             -1 & 6 & 0 & 130 \\
             3 & 2 & 2 & 250
-        \end{pmatrix}.$$
+        \end{ampmatrix}.$$
 
         El sistema resultante es
         \begin{cases}

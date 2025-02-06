@@ -31,16 +31,16 @@
 
 <p>
     Resolvemos el sistema mediante el método de Gauss.
-    $$\begin{pmatrix}
+    $$\begin{ampmatrix}
         1 & 1 & 1 & 500 \\
         1 & 1 & -1 & 60 \\
         106 & 112 & 130 & 59240
-    \end{pmatrix} \xrightarrow[F_3 - 106F_2]{F_1 - F_2}
-    \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow[F_3 - 106F_2]{F_1 - F_2}
+    \begin{ampmatrix}
         0 & 0 & 2 & 440 \\
         1 & 1 & -1 & 60 \\
         0 & 6 & 236 & 52880
-    \end{pmatrix}$$
+    \end{ampmatrix}$$
 
     El sistema resultante es
     $$\begin{cases}

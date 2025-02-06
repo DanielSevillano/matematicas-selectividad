@@ -44,11 +44,11 @@
                 \end{vmatrix} = -2 \neq 0 \Rightarrow \rang(A) = 2.$$
 
                 La matriz de coeficientes ampliada es
-                $$(A|B) = \begin{pmatrix}
+                $$(A|B) = \begin{ampmatrix}
                     1 & 0 & 0 & 1 \\
                     1 & 0 & 1 & 1 \\
                     2 & 0 & 0 & 2
-                \end{pmatrix}.$$
+                \end{ampmatrix}.$$
 
                 Observamos que
                 $$\begin{vmatrix}
@@ -75,11 +75,11 @@
                 \end{vmatrix} = -1 \neq 0 \Rightarrow \rang(A) = 2.$$
 
                 La matriz de coeficientes ampliada es
-                $$(A|B) = \begin{pmatrix}
+                $$(A|B) = \begin{ampmatrix}
                     1 & 1 & 1 & 1 \\
                     1 & 2 & 2 & 1 \\
                     2 & 1 & 1 & 2
-                \end{pmatrix}.$$
+                \end{ampmatrix}.$$
 
                 Observamos que
                 $$\begin{vmatrix}

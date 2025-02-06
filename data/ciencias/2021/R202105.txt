@@ -38,11 +38,11 @@
 
             <li>
                 Si $m = -\frac{5}{2}$, la matriz de coeficientes ampliada es
-                $$(A|B) = \begin{pmatrix}
+                $$(A|B) = \begin{ampmatrix}
                     -\frac{5}{2} & 2 & -1 & 1 \\
                     5 & -4 & 2 & 0 \\
                     1 & -\frac{15}{2} & 0 & -\frac{21}{10}
-                \end{pmatrix}.$$
+                \end{ampmatrix}.$$
 
                 Observamos que
                 $$\begin{vmatrix}
@@ -56,11 +56,11 @@
 
             <li>
                 Si $m = 0$, la matriz de coeficientes ampliada es
-                $$(A|B) = \begin{pmatrix}
+                $$(A|B) = \begin{ampmatrix}
                     0 & 2 & -1 & 1 \\
                     5 & -4 & 2 & 0 \\
                     1 & 0 & 0 & \frac{2}{5}
-                \end{pmatrix}.$$
+                \end{ampmatrix}.$$
 
                 Observamos que
                 $$\begin{vmatrix}
@@ -78,25 +78,25 @@
     <li>
         Si $m = 0$, el sistema es compatible indeterminado por el apartado anterior, así que tiene infinitas soluciones.
         Resolvemos el sistema mediante el método de Gauss.
-        $$\begin{pmatrix}
+        $$\begin{ampmatrix}
             0 & 2 & -1 & 1 \\
             5 & -4 & 2 & 0 \\
             1 & 0 & 0 & \frac{2}{5}
-        \end{pmatrix} \xrightarrow{F_2 - 5F_3}
-        \begin{pmatrix}
+        \end{ampmatrix} \xrightarrow{F_2 - 5F_3}
+        \begin{ampmatrix}
             0 & 2 & -1 & 1 \\
             0 & -4 & 2 & -2 \\
             1 & 0 & 0 & \frac{2}{5}
-        \end{pmatrix} \xrightarrow{F_2 + 2F_1}
-        \begin{pmatrix}
+        \end{ampmatrix} \xrightarrow{F_2 + 2F_1}
+        \begin{ampmatrix}
             0 & 2 & -1 & 1 \\
             0 & 0 & 0 & 0 \\
             1 & 0 & 0 & \frac{2}{5}
-        \end{pmatrix} \to
-        \begin{pmatrix}
+        \end{ampmatrix} \to
+        \begin{ampmatrix}
             0 & 2 & -1 & 1 \\
             1 & 0 & 0 & \frac{2}{5}
-        \end{pmatrix}.$$
+        \end{ampmatrix}.$$
 
         El sistema resultante es
         \begin{cases}

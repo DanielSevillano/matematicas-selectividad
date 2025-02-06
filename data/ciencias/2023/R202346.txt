@@ -34,19 +34,21 @@
 
 <p>
     Resolvemos el sistema mediante el método de Gauss.
-    $$\begin{pmatrix}
+    $$\begin{ampmatrix}
         1 & 3 & -2 & 0 \\
         -5 & 0 & 2 & 0 \\
         1 & -1 & 0 & -100
-    \end{pmatrix} \xrightarrow{F_1 + F_2} \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_1 + F_2}
+    \begin{ampmatrix}
         -4 & 3 & 0 & 0 \\
         -5 & 0 & 2 & 0 \\
         1 & -1 & 0 & -100
-    \end{pmatrix} \xrightarrow{F_1 + 3F_3} \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_1 + 3F_3}
+    \begin{ampmatrix}
         -1 & 0 & 0 & -300 \\
         -5 & 0 & 2 & 0 \\
         1 & -1 & 0 & -100
-    \end{pmatrix}$$
+    \end{ampmatrix}$$
 
     El sistema resultante es
     \begin{cases}

@@ -31,21 +31,21 @@
 
 <p>
     Resolvemos el sistema mediante el método de Gauss.
-    $$\begin{pmatrix}
+    $$\begin{ampmatrix}
         3 & 2 & -3 & 0 \\
         -3 & 1 & 1 & 0 \\
         -1 & 1 & 0 & 100
-    \end{pmatrix} \xrightarrow{F_1 + 3F_2}
-    \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_1 + 3F_2}
+    \begin{ampmatrix}
         -6 & 5 & 0 & 0 \\
         -3 & 1 & 1 & 0 \\
         -1 & 1 & 0 & 100
-    \end{pmatrix} \xrightarrow{F_1 - 5F_3}
-    \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_1 - 5F_3}
+    \begin{ampmatrix}
         -1 & 0 & 0 & -500 \\
         -3 & 1 & 1 & 0 \\
         -1 & 1 & 0 & 100
-    \end{pmatrix}.$$
+    \end{ampmatrix}.$$
 
     El sistema resultante es
     \begin{cases}

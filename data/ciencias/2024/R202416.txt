@@ -24,21 +24,21 @@
 
 <p>
     Resolvemos el sistema mediante el método de Gauss.
-    $$\begin{pmatrix}
+    $$\begin{ampmatrix}
         1 & 1 & 1 & 9 \\
         1 & 0 & -1 & 2 \\
         101 & 20 & 101 & 828
-    \end{pmatrix} \xrightarrow{F_3 - 101F_1}
-    \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_3 - 101F_1}
+    \begin{ampmatrix}
         1 & 1 & 1 & 9 \\
         1 & 0 & -1 & 2 \\
         0 & -81 & 0 & -81
-    \end{pmatrix} \xrightarrow{F_1 - F_2}
-    \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_1 - F_2}
+    \begin{ampmatrix}
         0 & 1 & 2 & 7 \\
         1 & 0 & -1 & 2 \\
         0 & -81 & 0 & -81
-    \end{pmatrix}.$$
+    \end{ampmatrix}.$$
 
     El sistema resultante es
     \begin{cases}

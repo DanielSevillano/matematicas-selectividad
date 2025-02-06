@@ -27,21 +27,21 @@
 
 <p>
     Resolvemos el sistema mediante el método de Gauss.
-    $$\begin{pmatrix}
+    $$\begin{ampmatrix}
         2 & 0 & -1 & 0 \\
         1 & -2 & 1 & 0 \\
         1 & 1 & 1 & 180
-    \end{pmatrix} \xrightarrow[F_3 + F_1]{F_2 + F_1}
-    \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow[F_3 + F_1]{F_2 + F_1}
+    \begin{ampmatrix}
         2 & 0 & -1 & 0 \\
         3 & -2 & 0 & 0 \\
         3 & 1 & 0 & 180
-    \end{pmatrix} \xrightarrow{F_2 + 2F_3}
-    \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_2 + 2F_3}
+    \begin{ampmatrix}
         2 & 0 & -1 & 0 \\
         9 & 0 & 0 & 360 \\
         3 & 1 & 0 & 180
-    \end{pmatrix}.$$
+    \end{ampmatrix}.$$
 
     El sistema resultante es
     \begin{cases}

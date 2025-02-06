@@ -29,21 +29,21 @@
 
 <p>
     Resolvemos el sistema mediante el método de Gauss.
-    $$\begin{pmatrix}
+    $$\begin{ampmatrix}
         1 & 2 & 20 & 200 \\
         1 & -2 & 0 & 0 \\
         1 & 1 & 1 & 52
-    \end{pmatrix} \xrightarrow{F_1 - 20F_2}
-    \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_1 - 20F_2}
+    \begin{ampmatrix}
         -19 & -18 & 0 & -840 \\
         1 & -2 & 0 & 0 \\
         1 & 1 & 1 & 52
-    \end{pmatrix} \xrightarrow{F_1 - 9F_2}
-    \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_1 - 9F_2}
+    \begin{ampmatrix}
         -28 & 0 & 0 & -840 \\
         1 & -2 & 0 & 0 \\
         1 & 1 & 1 & 52
-    \end{pmatrix}.$$
+    \end{ampmatrix}.$$
     
     El sistema resultante es
     \begin{cases}

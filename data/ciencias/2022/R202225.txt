@@ -96,20 +96,20 @@
     <li>
         Si $m = -2$, el sistema es compatible indeterminado por el apartado anterior.
         Resolvemos el sistema mediante el método de Gauss.
-        $$\left(\begin{array}{ccc | c}
+        $$\begin{ampmatrix}
             2 & 3 & -2 & 3 \\
             1 & -2 & -1 & -1 \\
             3 & 1 & -3 & 2
-        \end{array}\right) \xrightarrow[F_3 - 3F_2]{F_1 - 2F_2}
-        \left(\begin{array}{ccc | c}
+        \end{ampmatrix} \xrightarrow[F_3 - 3F_2]{F_1 - 2F_2}
+        \begin{ampmatrix}
             0 & 7 & 0 & 5 \\
             1 & -2 & -1 & -1 \\
             0 & 7 & 0 & 5
-        \end{array}\right) \to
-        \left(\begin{array}{ccc | c}
+        \end{ampmatrix} \to
+        \begin{ampmatrix}
             0 & 7 & 0 & 5 \\
             1 & -2 & -1 & -1
-        \end{array}\right).$$
+        \end{ampmatrix}.$$
         
         El sistema resultante es
         \begin{cases}

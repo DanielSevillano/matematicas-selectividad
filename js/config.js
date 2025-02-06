@@ -3,6 +3,9 @@ let math = false;
 window.MathJax = {
     tex: {
         inlineMath: [["$", "$"]],
+        environments: {
+            ampmatrix: ["\\left(\\begin{array}{ccc|c}", "\\end{array}\\right)"]
+        },
         macros: {
             Adj: "\\operatorname{Adj}",
             arctan: "\\operatorname{arctg}",

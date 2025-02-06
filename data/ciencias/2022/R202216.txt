@@ -30,15 +30,16 @@
 
 <p>
     Resolvemos el sistema mediante el método de Gauss.
-    $$\begin{pmatrix}
+    $$\begin{ampmatrix}
         1 & 1 & 1 & 360 \\
         2 & -1 & 2 & 0 \\
         4 & 0 & -1 & 0
-    \end{pmatrix} \xrightarrow[F_3 + F_1]{F_2 - 2F_1} \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow[F_3 + F_1]{F_2 - 2F_1}
+    \begin{ampmatrix}
         1 & 1 & 1 & 360 \\
         0 & -3 & 0 & -720 \\
         5 & 1 & 0 & 360
-    \end{pmatrix}$$
+    \end{ampmatrix}$$
 
     El sistema resultante es
     \begin{cases}

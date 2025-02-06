@@ -30,19 +30,21 @@
 
 <p>
     Resolvemos el sistema mediante el método de Gauss.
-    $$\begin{pmatrix}
+    $$\begin{ampmatrix}
         1 & 1 & 1 & 13000 \\
         3 & 0 & -1 & 0 \\
         10 & 2 & -5 & 0
-    \end{pmatrix} \xrightarrow{F_3 - 2F_1} \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_3 - 2F_1}
+    \begin{ampmatrix}
         1 & 1 & 1 & 13000 \\
         3 & 0 & -1 & 0 \\
         8 & 0 & -7 & -26000
-    \end{pmatrix} \xrightarrow{F_3 - 7F_2} \begin{pmatrix}
+    \end{ampmatrix} \xrightarrow{F_3 - 7F_2}
+    \begin{ampmatrix}
         1 & 1 & 1 & 13000 \\
         3 & 0 & -1 & 0 \\
         -13 & 0 & 0 & -26000
-    \end{pmatrix}$$
+    \end{ampmatrix}$$
 
     El sistema resultante es
     \begin{cases}

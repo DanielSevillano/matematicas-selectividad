@@ -67,16 +67,16 @@
         \end{cases}$$
 
         Resolvemos el sistema mediante el método de Gauss.
-        $$\begin{pmatrix}
+        $$\begin{ampmatrix}
             1 & 1 & 1 & 70 \\
             1 & -1 & 1 & 0 \\
             0 & 1 & -2 & 5
-        \end{pmatrix} \xrightarrow{F_2 - F_1}
-        \begin{pmatrix}
+        \end{ampmatrix} \xrightarrow{F_2 - F_1}
+        \begin{ampmatrix}
             1 & 1 & 1 & 70 \\
             0 & -2 & 0 & -70  \\
             0 & 1 & -2 & 5
-        \end{pmatrix}.$$
+        \end{ampmatrix}.$$
 
         El sistema resultante es
         \begin{cases}
