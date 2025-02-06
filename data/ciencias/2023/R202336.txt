@@ -83,11 +83,11 @@
 
             <li>
                 Si $\alpha = -2$, la matriz de coeficientes ampliada es
-                $$(D|E) = \begin{pmatrix}
+                $$(D|E) = \begin{ampmatrix}
                     -2 & 1 & 1 & 1 \\
                     1 & -2 & 1 & 1 \\
                     1 & 1 & -2 & 1
-                \end{pmatrix}.$$
+                \end{ampmatrix}.$$
 
                 Observamos que
                 $$\begin{vmatrix}
@@ -101,11 +101,11 @@
 
             <li>
                 Si $\alpha = 1$, la matriz de coeficientes ampliada es
-                $$(D|E) = \begin{pmatrix}
+                $$(D|E) = \begin{ampmatrix}
                     1 & 1 & 1 & 1 \\
                     1 & 1 & 1 & 1 \\
                     1 & 1 & 1 & 1
-                \end{pmatrix} \Rightarrow \rang(D|E) = 1.$$
+                \end{ampmatrix} \Rightarrow \rang(D|E) = 1.$$
 
                 Como $\rang(D) = \rang(D|E) < 3$, el sistema es compatible indeterminado.
             </li>
