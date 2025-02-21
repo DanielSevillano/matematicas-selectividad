@@ -4,7 +4,6 @@
     <li><a class="contorno" href="#propiedades">Propiedades</a></li>
     <li><a class="contorno" href="#funciones-elementales">Funciones elementales</a></li>
     <li><a class="contorno" href="#funciones-a-trozos">Funciones a trozos</a></li>
-    <li><a class="contorno" href="#composicion">Composición de funciones</a></li>
 </ul>
 
 <p>
@@ -319,23 +318,4 @@
         x+3, & \text{si } x \geq -3, \\
         -x-3, & \text{si } x < -3.
     \end{cases}$$
-</p>
-
-<h3 id="composicion">Composición de funciones</h3>
-
-<p>
-    La <b>composición de funciones</b> es una operación que consiste en aplicar dos funciones de forma sucesiva y da como resultado una nueva.
-    Dadas dos funciones $f$ y $g$, la función $f$ compuesta con $g$ es $g \circ f(x) = g(f(x)).$
-</p>
-
-<p>
-    Por ejemplo, si $f(x) = x^2 + 1$ y $g(x) = \sqrt{x-3}$, entonces
-    \begin{align}
-        & g \circ f(x) = g(f(x)) = g(x^2+1) = \sqrt{x^2 + 1 - 3} = \sqrt{x^2 - 2}, \\
-        & f \circ g(x) = f(g(x)) = f(\sqrt{x-3}) = (\sqrt{x-3})^2 + 1 = x-3+1 = x-2.
-    \end{align}
-</p>
-
-<p>
-    Observamos que la composición de funciones no es conmutativa.
 </p>
