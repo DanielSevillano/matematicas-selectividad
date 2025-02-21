@@ -46,7 +46,7 @@ if (!seccion) document.querySelector(".grupo").click();
 else {
     try {
         document.querySelector("#boton-" + seccion).click();
-        if (["analisis", "funciones", "derivadas", "integrales"].includes(seccion)) document.querySelector("#grupo-analisis").click();
+        if (["analisis", "funciones", "limites", "derivadas", "integrales"].includes(seccion)) document.querySelector("#grupo-analisis").click();
         else if (["algebra", "matrices", "sistemas", "determinantes"].includes(seccion)) document.querySelector("#grupo-algebra").click();
         else document.querySelector("#grupo-geometria").click();
     }
