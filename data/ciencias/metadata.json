@@ -2191,6 +2191,7 @@
     },
     {
         "ejercicio": 202056,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales",
