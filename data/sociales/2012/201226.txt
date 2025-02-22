@@ -1,0 +1,10 @@
+Sea la función
+$$f(x) = \begin{cases} 
+    ax^2 - 2x, & \text{si } x \leq 2, \\
+    \dfrac{x}{2} - b, & \text{si } x > 2.
+\end{cases}$$
+
+<ol>
+    <li>Calcule $a$ y $b$ para que la función sea continua en todo su dominio y presente un mínimo en $x = 1.$</li>
+    <li>Represente gráficamente la función para $a = 1,5$ y $b = 0,5.$</li>
+</ol>

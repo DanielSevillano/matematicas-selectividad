@@ -4375,6 +4375,118 @@
         ]
     },
     {
+        "ejercicio": 201211,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201212,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201213,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201214,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201215,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201216,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201217,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201218,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201221,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201222,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 201223,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201224,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201225,
+        "categorias": [
+            "Álgebra",
+            "Problemas de matrices"
+        ]
+    },
+    {
+        "ejercicio": 201226,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201227,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201228,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
         "ejercicio": 201251,
         "categorias": [
             "Programación lineal",

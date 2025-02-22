@@ -1,0 +1,9 @@
+En un congreso de 200 jóvenes profesionales se pasa una encuesta para conocer los hábitos en cuanto a contratar los viajes por internet.
+Se observa que 120 son hombres y que, de estos, 84 contratan los viajes por internet, mientras que 24 de las mujeres no emplean esa vía.
+Elegido un congresista al azar, calcule la probabilidad de que:
+
+<ol>
+    <li>No contrate sus viajes por internet.</li>
+    <li>Use internet para contratar los viajes, si la persona elegida es una mujer.</li>
+    <li>Sea hombre, sabiendo que contrata sus viajes por internet.</li>
+</ol>

@@ -1,0 +1,9 @@
+Lanzamos un dado, si sale 5 o 6 extraemos una bola de una urna A, que contiene 6 bolas blancas y 4 negras.
+Si sale otro resultado se extrae una bola de la urna B, que contiene 3 bolas blancas y 7 negras.
+Calcule:
+
+<ol>
+    <li>La probabilidad de que la bola extraída sea negra.</li>
+    <li>La probabilidad de que la bola sea negra y de la urna B.</li>
+    <li>La probabilidad de que haya salido menos de 5 si la bola extraída ha sido blanca.</li>
+</ol>

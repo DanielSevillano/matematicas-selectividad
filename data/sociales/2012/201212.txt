@@ -1,0 +1,6 @@
+De la función $f$ se sabe que su función derivada es $f'(x) = 3x^2 - 8x + 5.$
+
+<ol>
+    <li>Estudie la monotonía y la curvatura de $f.$</li>
+    <li>Sabiendo que la gráfica de $f$ pasa por el punto $(1, 1)$, calcule la ecuación de la recta tangente en dicho punto.</li>
+</ol>

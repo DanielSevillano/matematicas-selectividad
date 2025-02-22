@@ -1,0 +1,9 @@
+Una empresa dispone de tres máquinas A, B y C, que fabrican, respectivamente, el 60%, 30% y 10% de los artículos que comercializa.
+El 5% de los artículos que fabrica A, el 4% de los de B y el 3% de los de C son defectuosos. 
+Elegido, al azar, un artículo de los que se fabrican en la empresa:
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sea defectuoso y esté fabricado por la máquina C?</li>
+    <li>¿Cuál es la probabilidad de que no sea defectuoso?</li>
+    <li>Si sabemos que no es defectuoso, ¿cuál es la probabilidad de que proceda de la máquina A?</li>
+</ol>

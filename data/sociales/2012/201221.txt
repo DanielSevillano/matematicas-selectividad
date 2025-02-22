@@ -1,0 +1,4 @@
+Un comerciante dispone de 1.200 euros para comprar dos tipos de manzanas $A$ y $B.$
+Las del tipo $A$ las compra a 0,60 euros/kg y las vende a 0,90 euros/kg, mientras que las del tipo $B$ las compra a 1 euro/kg y las vende a 1,35 euros/kg.
+Sabiendo que su vehículo a lo sumo puede transportar 1.500 kg de manzanas, ¿cuántos kilogramos de cada tipo deberá adquirir para que el beneficio que obtenga sea máximo?
+¿Cuál sería ese beneficio?

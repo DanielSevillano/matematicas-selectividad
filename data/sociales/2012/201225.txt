@@ -1,0 +1,11 @@
+Los alumnos de 2º de Bachillerato organizan una venta de pasteles para el viaje de fin de curso.
+Venden pasteles grandes, que necesitan 2 huevos, 5 terrones de azúcar y 100 g de harina cada uno, y pasteles pequeños, que necesitan 1 huevo, 3 terrones de azúcar y 80 g de harina cada uno.
+
+<ol>
+    <li>Presente en una matriz $M$, de dimensión $3 \times 2$, las cantidades de los elementos necesarios para la elaboración de un pastel grande y uno pequeño.</li>
+    <li>Si desean fabricar 20 pasteles de una clase y 30 de otra, escriba las dos matrices columna, $A$ (20 grandes y 30 pequeños) y $B$ (30 grandes y 20 pequeños) que representan este reparto.</li>
+    <li>
+        Calcule los productos $MA$ y $MB$ e indique si con 8 docenas de huevos, 200 terrones de azúcar y 5 kg de harina se pueden elaborar 20 pasteles grandes y 30 pequeños.
+        ¿Y 30 grandes y 20 pequeños?
+    </li>
+</ol>

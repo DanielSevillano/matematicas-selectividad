@@ -1,0 +1,6 @@
+Se sabe que el 90% de los estudiantes del último curso de una Universidad está preocupado por sus posibilidades de encontrar trabajo, el 30% está preocupado por sus notas y el 25% por ambas cosas.
+
+<ol>
+    <li>Si hay 400 alumnos matriculados en el último curso de dicha Universidad, ¿cuántos de ellos no están preocupados por ninguna de las dos cosas?</li>
+    <li>Si un alumno del último curso, elegido al azar, no está preocupado por encontrar trabajo, ¿cuál es la probabilidad de que esté preocupado por sus notas?</li>
+</ol>

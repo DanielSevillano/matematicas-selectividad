@@ -1,0 +1,7 @@
+La variable “tiempo de reacción de un conductor ante un obstáculo imprevisto” sigue una distribución Normal con desviación típica 0,05 segundos.
+Al medir dicho tiempo en 50 conductores se ha obtenido un tiempo medio de 0,85 segundos.
+
+<ol>
+    <li>Halle el intervalo de confianza para el tiempo medio de reacción, con un nivel de confianza del 99%.</li>
+    <li>¿De qué tamaño mínimo ha de tomarse una muestra para que el error de estimación no supere 0,01 segundos, con un nivel de confianza del 95%?</li>
+</ol>

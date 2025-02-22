@@ -1,0 +1,9 @@
+<ol>
+    <li>
+        Para la función $f$ definida de la forma
+        $$f(x) = \frac{ax}{x + b},$$
+        determine, razonadamente, los valores de $a$ y $b$ sabiendo que tiene como asíntota vertical la recta de ecuación $x = -2$ y como asíntota horizontal la de ecuación $y = 3.$
+    </li>
+    
+    <li>Para la función $g$, definida de la forma $g(x) = x^3 - 3x^2 + 2$, determine: su dominio, sus intervalos de crecimiento y decrecimiento y extremos relativos. Con esos datos haga un esbozo de su gráfica.</li>
+</ol>

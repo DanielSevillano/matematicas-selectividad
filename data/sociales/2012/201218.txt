@@ -1,0 +1,7 @@
+Un informe de un Ayuntamiento afirma que al menos el 26% de los usuarios del carril bici habrían utilizado el coche particular para sus desplazamientos de no haber existido dicho carril.
+Sin embargo, un periódico local anuncia la falsedad del dato, informando que una encuesta propia indica que solo 240 de los 1.000 usuarios encuestados afirman que habrían utilizado el coche particular.
+
+<ol>
+    <li>Establezca un contraste, con hipótesis nula $H_0: p \geq 0,26$, para verificar la afirmación del Ayuntamiento e indique la región crítica de dicho contraste para un nivel de significación del 5%.</li>
+    <li>Con este nivel de significación ¿podría aceptarse el informe del Ayuntamiento?</li>
+</ol>

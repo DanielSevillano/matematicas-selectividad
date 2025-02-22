@@ -1,0 +1,4 @@
+Se cree que al menos el 25% de los usuarios de teléfonos móviles son de contrato.
+De una encuesta realizada a 950 personas, elegida al azar, 200 de ellas manifestaron que tenían teléfono móvil de contrato.
+A la vista de estos resultados y con un nivel de significación del 5%, ¿puede admitirse que la proporción de personas con contrato en su teléfono móvil ha disminuido?
+Utilice para la resolución del problema un contraste de hipótesis con hipótesis nula "la proporción $p$ es mayor o igual que 0,25".

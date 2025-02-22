@@ -1,0 +1,8 @@
+Una característica de una determinada población se distribuye según una variable aleatoria Normal $X$ de media desconocida y desviación típica 0,9.
+Extraída al azar una muestra de tamaño 9 de esa población y observada $X$, dio como resultados:
+$$10,5 \quad 10 \quad 8,5 \quad 10,5 \quad 11,5 \quad 13,5 \quad 9,5 \quad 13 \quad 12.$$
+
+<ol>
+    <li>Halle un intervalo de confianza, al 99%, para la media de la variable $X.$</li>
+    <li>Determine el tamaño mínimo que debe tener una muestra de esa población, para que el error máximo que se cometa en la determinación de un intervalo de confianza para la media de $X$ sea, a lo sumo, 0,3, con un nivel de confianza del 90%.</li>
+</ol>
