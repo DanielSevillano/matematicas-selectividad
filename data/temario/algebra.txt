@@ -5,7 +5,7 @@
     En cierto modo, puede ser considerada como una generalización de la aritmética.
 </p>
 
-<p>
+<p class="ciencias">
     Nuestro objetivo en este bloque será aprender a trabajar con <b>matrices</b>, lo que nos servirá para <b>resolver sistemas de ecuaciones lineales</b> con el número de ecuaciones y el número de incógnitas que queramos.
     Por ejemplo:
     \begin{cases}
@@ -14,10 +14,26 @@
     \end{cases}
 </p>
 
-<p>
+<p class="sociales">
+    Nuestro objetivo en este bloque será aprender a trabajar con <b>matrices</b>, una nueva estructura matemática que nos permitirá organizar conjuntos de datos.
+    Por ejemplo:
+    $$\begin{pmatrix}
+        4 & 7 & -1 & 2 \\
+        0 & -8 & 3 & 5 \\
+        2 & -4 & 6 & -7
+    \end{pmatrix}.$$
+</p>
+
+<p class="ciencias">
     Para ello, tendremos que introducir y estudiar las <b>matrices</b>, una estructura matemática que nos resultará fundamental para el estudio de los sistemas de ecuaciones.
     También aprenderemos qué es el <b>determinante de una matriz</b> y por qué es tan importante.
     Por último, veremos cómo todo lo que hemos aprendido se puede aplicar al estudio de <b>sistemas de ecuaciones lineales</b>.
     Nos permitirá determinar si un sistema tiene solución o no, e incluso cuántas soluciones tiene, sin necesidad de resolverlo primero.
     Además, aprenderemos una nueva técnica de resolución de sistemas de ecuaciones lineales haciendo uso de los determinantes.
+</p>
+
+<p class="sociales">
+    Para ello, tendremos que introducir las <b>matrices</b>, sus propiedades más importantes y sus operaciones.
+    También aprenderemos a <b>resolver problemas usando matrices</b> y a hallar las soluciones de <b>ecuaciones matriciales</b>.
+    Por último, veremos qué es el <b>determinante de una matriz</b> y cómo podemos usarlo para el cálculo de la matriz inversa.
 </p>

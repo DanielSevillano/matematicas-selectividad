@@ -1,5 +1,13 @@
 <h2>Matrices</h2>
 
+<ul class="categorias">
+    <li><a class="contorno" href="#tipos">Tipos de matrices</a></li>
+    <li><a class="contorno" href="#operaciones">Operaciones con matrices</a></li>
+    <li class="ciencias"><a class="contorno" href="#rango">Rango de matrices</a></li>
+    <li><a class="contorno" href="#inversa">Inversa de una matriz</a></li>
+    <li><a class="contorno" href="#ecuaciones-matriciales">Ecuaciones matriciales</a></li>
+</ul>
+
 <p>
     Una <b>matriz</b> es un conjunto de números organizados en filas y columnas.
     Por ejemplo:
@@ -41,7 +49,7 @@
     En general, la traspuesta de una matriz $A_{m \times n}$ es una matriz $B_{n \times m}$ tal que $b_{ij} = a_{ji}.$
 </p>
 
-<h3>Tipos de matrices</h3>
+<h3 id="tipos">Tipos de matrices</h3>
 <p>Podemos clasificar las matrices según el número de filas y columnas.</p>
 <ul>
     <li>
@@ -159,7 +167,7 @@
     \end{pmatrix}.$$
 </p>
 
-<h3>Operaciones con matrices</h3>
+<h3 id="operaciones">Operaciones con matrices</h3>
 <p>Con las matrices podemos hacer las siguientes operaciones fundamentales.</p>
 
 <ul>
@@ -439,7 +447,166 @@
     \end{pmatrix}.$$
 </p>
 
-<h3>Inversa de una matriz</h3>
+<section class="ciencias">
+<h3 id="rango">Rango de matrices</h3>
+<p>
+    Una fila es <b>combinación lineal</b> de otras si se puede expresar como suma de esas filas, pudiendo estar cada una de ellas multiplicada por un número real.
+    Esto es igualmente válido para las columnas.
+    Por ejemplo, en la matriz
+    $$A = \begin{pmatrix}
+        1 & 2 & 3 \\
+        -2 & 5 & 1 \\
+        0 & 9 & 7
+    \end{pmatrix},$$
+    podemos ver que la tercera fila es combinación lineal de las dos primeras, puesto que $F_3 = 2F_1 + F_2$, donde $F_1$, $F_2$ y $F_3$ denotan a cada una de las filas.<br>
+    Se dice que una serie de filas (o columnas) son <b>linealmente independientes</b> si ninguna puede expresarse como combinación lineal de las demás.
+</p>
+
+<p>
+    El <b>rango</b> de una matriz es el número de filas o columnas linealmente independientes.
+    Por ejemplo, el rango de $A$ se denota por $\rang(A)$ y es 2, porque hemos visto que la tercera fila es combinación lineal de las dos primeras.
+</p>
+
+<p>
+    Hay una serie de transformaciones que conservan el rango de una matriz.
+    Estas son las siguientes.
+</p>
+
+<ul>
+    <li>
+        <b>Intercambiar dos filas de posición.</b>
+        Por ejemplo:
+        $$\rang\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \rang\begin{pmatrix}
+            -2 & 5 & 1 \\
+            1 & 2 & 3 \\
+            0 & 9 & 7
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Multiplicar una fila por un número no nulo.</b>
+        Por ejemplo:
+        $$\rang\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \rang\begin{pmatrix}
+            1 \cdot 4 & 2 \cdot 4 & 3 \cdot 4 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \rang\begin{pmatrix}
+            4 & 8 & 12 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Sumar a una fila una combinación lineal de otras filas.</b>
+        Por ejemplo, si a la tercera fila le sumamos $2F_1 - F_2$,
+        $$\rang\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 1 & 1
+        \end{pmatrix} =
+        \rang\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            4 & 0 & 6
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Eliminar una fila que es combinación lineal de otras filas.</b>
+        Por ejemplo, como vimos que la tercera fila era combinación lineal de las dos primeras,
+        $$\rang\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \rang\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Eliminar una fila de ceros.</b>
+        Por ejemplo:
+        $$\rang\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 0 & 0
+        \end{pmatrix} =
+        \rang\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        <b>Trasponer la matriz.</b>
+        Por ejemplo:
+        $$\rang\begin{pmatrix}
+            1 & 2 & 3 \\
+            -2 & 5 & 1 \\
+            0 & 9 & 7
+        \end{pmatrix} =
+        \rang\begin{pmatrix}
+            1 & -2 & 0 \\
+            2 & 5 & 9 \\
+            3 & 1 & 7
+        \end{pmatrix}.$$
+    </li>
+</ul>
+
+<p>Se llaman <b>transformaciones elementales</b> y también conservan el rango si se hacen por columnas.</p>
+
+<p>
+    Se puede calcular el rango de una matriz mediante el <b>método de Gauss</b>, que consiste en realizar transformaciones elementales sucesivas hasta llegar a una matriz escalonada.<br>
+    Un ejemplo de una matriz escalonada es
+    $$\begin{pmatrix}
+        1 & 8 & -1 & 3 \\
+        0 & 1 & 3 & -2 \\
+        0 & 0 & 7 & -5
+    \end{pmatrix},$$
+    por la escalera de ceros que tiene en la esquina inferior izquierda.
+</p>
+
+<p>
+    El objetivo del método de Gauss es convertir elementos en cero en las posiciones indicadas para conseguir llegar a una forma escalonada.
+    Por ejemplo:
+    $$\begin{pmatrix}
+        1 & -1 & 1 & 3 \\
+        1 & -2 & 1 & 5 \\
+        1 & -3 & 1 & 7
+    \end{pmatrix} \xrightarrow[F_3 - F_1]{F_2 - F_1}
+    \begin{pmatrix}
+        1 & -1 & 1 & 3 \\
+        0 & -1 & 0 & 2 \\
+        0 & -2 & 0 & 4
+    \end{pmatrix} \xrightarrow{F_3 - 2F_2}
+    \begin{pmatrix}
+        1 & -1 & 1 & 3 \\
+        0 & -1 & 0 & 2 \\
+        0 & 0 & 0 & 0
+    \end{pmatrix} \rightarrow
+    \begin{pmatrix}
+        1 & -1 & 1 & 3 \\
+        0 & -1 & 0 & 2
+    \end{pmatrix}.$$
+    Por tanto, esta matriz tiene rango 2.
+</p>
+</section>
+
+<h3 id="inversa">Inversa de una matriz</h3>
 <p>
     Una matriz cuadrada $A$ es invertible si existe una matriz $B$ del mismo orden de forma que $AB = I.$
     En tal caso $B$ es la matriz inversa de $A$ y se denota $A^{-1}.$
@@ -462,9 +629,21 @@
     así que una matriz es la inversa de la otra.
 </p>
 
+<p class="ciencias">
+    Una matriz cuadrada es invertible si tiene rango máximo.
+    Si tiene orden $n$, esto es equivalente a que su rango sea $n.$
+    Por ejemplo, la matriz
+    $$A = \begin{pmatrix}
+        1 & 0 & -1 \\
+        0 & 1 & 0 \\
+        5 & 2 & -3
+    \end{pmatrix}$$
+    tiene rango 3, así que es invertible.
+</p>
+
 <p>
-    Una matriz no cuadrada no siempre es invertible.
-    En caso de tener inversa, esta se puede calcular mediante el método de Gauss-Jordan.
+    <span class="ciencias">Se puede calcular la inversa de una matriz invertible mediante el método de Gauss-Jordan.</span>
+    <span class="sociales">Una matriz no cuadrada no siempre es invertible. En caso de tener inversa, esta se puede calcular mediante el método de Gauss-Jordan.</span>
     Este consiste en obtener la identidad a partir de la matriz original mediante transformaciones elementales.
     Al principio se coloca una matriz identidad a la derecha de nuestra matriz y se le aplican las mismas transformaciones que a esta.
     La matriz que resulta es la matriz inversa.<br>
@@ -508,7 +687,7 @@
     \end{pmatrix}.$$
 </p>
 
-<h3>Ecuaciones matriciales</h3>
+<h3 id="ecuaciones-matriciales">Ecuaciones matriciales</h3>
 <p>En la resolución de ecuaciones matriciales se aplican la mayoría de los métodos usados en ecuaciones polinómicas.</p>
 
 <ul>

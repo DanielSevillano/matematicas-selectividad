@@ -1,4 +1,4 @@
-export { estado, formatear, obtenerEjercicio, mostrarExamen, mostrarCategoria, mostrarTemario }
+export { estado, formatear, obtenerEjercicio, mostrarExamen, mostrarCategoria, mostrarTemario };
 
 const estado = new Object({
     cancelado: false,
@@ -63,7 +63,7 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
         if (ejercicio <= 4) letra = "A";
         else {
             numeracion = ejercicio - 4;
-            letra = "B"
+            letra = "B";
 
         }
     }
@@ -95,7 +95,7 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
-    })
+    });
     articulo.append(contenedorCategorias);
 
     const curso = String(examen).slice(0, 4);
@@ -223,8 +223,8 @@ async function obtenerCategoria(modalidad, categoria, metadatos, mapaEjercicios,
             return false;
         }
 
-        let resuelto = false
-        let categorias = []
+        let resuelto = false;
+        let categorias = [];
         if (ejercicio != undefined) {
             if (ejercicio.resuelto) resuelto = true;
             categorias = ejercicio.categorias;
@@ -264,10 +264,10 @@ async function mostrarCategoria(modalidad, categoria, metadatos, mapaEjercicios,
     });
 }
 
-async function obtenerTemario(modalidad, seccion) {
+async function obtenerTemario(seccion) {
     const main = document.querySelector("main");
 
-    const respuesta = await fetch("data\\" + modalidad + "\\temario\\" + seccion + ".txt");
+    const respuesta = await fetch("data\\temario\\" + seccion + ".txt");
     const datos = await respuesta.text();
 
     const articulo = document.createElement("article");
@@ -278,12 +278,12 @@ async function obtenerTemario(modalidad, seccion) {
     return true;
 }
 
-async function mostrarTemario(modalidad, seccion) {
+async function mostrarTemario(seccion) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerTemario(modalidad, seccion).then(() => {
+    obtenerTemario(seccion).then(() => {
         main.classList.remove("cargando");
     });
 }

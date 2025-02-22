@@ -13,7 +13,7 @@
 
 <p>
     Por ejemplo, consideramos la función $f$ dada por esta gráfica:
-    <img src="img/ciencias/analisis-limites-1.png" alt="Figura" loading="lazy" style="max-width: min(100%, 60ch);">
+    <img src="img/temario/analisis-limites-1.png" alt="Figura" loading="lazy" style="max-width: min(100%, 60ch);">
 </p>
 
 <p>
@@ -181,7 +181,7 @@
         \end{align}
     </li>
 
-    <li>
+    <li class="ciencias">
         En las funciones exponenciales con base mayor que 1, el límite viene determinado por el signo del exponente.
         Por ejemplo:
         \begin{align}
@@ -190,7 +190,7 @@
         \end{align}
     </li>
 
-    <li>
+    <li class="ciencias">
         En las funciones con raíces o logaritmos, hay que prestar atención al dominio de definición.
         Por ejemplo:
         \begin{align}
@@ -224,6 +224,7 @@
     </li>
 </ul>
 
+<section class="ciencias">
 <p>
     En general, los límites en el infinito de un cociente de dos funciones que tienden a infinito dan lugar a la indeterminación $\frac{\infty}{\infty}.$
     Para resolverla, hay que determinar cuál de las dos funciones aumenta más rápido.
@@ -275,6 +276,7 @@
         \end{align}
     </li>
 </ul>
+</section>
 
 <h3 id="continuidad">Continuidad</h3>
 <p>
@@ -403,6 +405,7 @@
     Como es una función racional, también es una asíntota horizontal cuando $x \to -\infty.$
 </p>
 
+<section class="ciencias">
 <h4>Asíntotas oblicuas</h4>
 <p>
     Una <b>asíntota oblicua</b> es una recta ni horizontal ni vertical a la que se aproxima la gráfica de una función cuando $x$ tiende a $+\infty$ o a $-\infty$.
@@ -439,3 +442,4 @@
     Por tanto, $y = 2x - 1$ es una asíntota oblicua.
     Como es una función racional, también es una asíntota oblicua cuando $x \to -\infty.$
 </p>
+</section>

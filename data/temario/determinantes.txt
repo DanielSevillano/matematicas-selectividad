@@ -1,9 +1,9 @@
 <h2>Determinantes</h2>
 
 <ul class="categorias">
-    <li><a class="contorno" href="#propiedades">Propiedades de los determinantes</a></li>
+    <li class="ciencias"><a class="contorno" href="#propiedades">Propiedades de los determinantes</a></li>
     <li><a class="contorno" href="#menores-y-adjuntos">Menores y adjuntos</a></li>
-    <li><a class="contorno" href="#calculo-rango">Cálculo del rango</a></li>
+    <li class="ciencias"><a class="contorno" href="#calculo-rango">Cálculo del rango</a></li>
     <li><a class="contorno" href="#calculo-matriz-inversa">Cálculo de la matriz inversa</a></li>
 </ul>
 
@@ -54,6 +54,7 @@
 
 <p>Para matrices de orden superior se tienen que utilizar otras técnicas.</p>
 
+<section class="ciencias">
 <h3 id="propiedades">Propiedades de los determinantes</h3>
 <p>Los determinantes tienen una serie de propiedades que nos resultarán muy útiles.</p>
 
@@ -189,6 +190,7 @@
 </ul>
 
 <p>Estas propiedades también son aplicables por columnas.</p>
+</section>
 
 <h3 id="menores-y-adjuntos">Menores y adjuntos</h3>
 <p>
@@ -274,6 +276,7 @@
     \end{pmatrix}.$$
 </p>
 
+<section class="ciencias">
 <h3 id="calculo-rango">Cálculo del rango</h3>
 <p>Para hallar el rango usamos dos propiedades.</p>
 
@@ -384,7 +387,7 @@
         </li>
     </ul>
 </p>
-
+</section>
 
 <h3 id="calculo-matriz-inversa">Cálculo de la matriz inversa</h3>
 

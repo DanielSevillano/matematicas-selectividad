@@ -27,7 +27,7 @@
     Las funciones se pueden representar mediante <b>gráficas</b> en el plano.
     Para representar los puntos de la función usamos los ejes de coordenadas, que están compuestos por el eje $X$ o eje de abscisas y el eje $Y$ o eje de ordenadas.
     Por ejemplo, para representar la función $f(x) = x^2$, podemos utilizar los puntos $(-2, 4)$, $(-1, 1)$, $(0, 0)$, $(1, 1)$ y $(2, 4).$
-    <img src="img/ciencias/analisis-funciones-1.png" alt="Función"/>
+    <img src="img/temario/analisis-funciones-1.png" alt="Función"/>
 </p>
 
 <h3 id="propiedades">Propiedades</h3>
@@ -40,6 +40,7 @@
     <li>
         El <b>dominio</b> de una función es el conjunto de valores de la variable independiente para los que la función está definida.
 
+        <section class="ciencias">
         Hay tres casos principales en los que puede haber problemas de definición de la función.
 
         <ul>
@@ -61,6 +62,13 @@
                 Así que $\Dom(h) = (4, +\infty).$
             </li>
         </ul>
+        </section>
+
+        <section class="sociales">
+        El caso principal en el que puede haber problemas de definición de una función es cuando hay denominadores que se anulan.
+        Por ejemplo, la función $f(x) = \frac{1}{x^2 - 4}$ está definida cuando $x^2 - 4 \neq 0.$
+        Así que $\Dom(f) = \mathbb{R} \setminus \{-2, 2\}.$
+        </section>
     </li>
 
     <li>
@@ -91,11 +99,11 @@
         </ul>
 
         Conocer los puntos de corte con los ejes nos ayuda a representar la función.
-        En nuestro, ejemplo,
-        <img src="img/ciencias/analisis-funciones-2.png" alt="Función"/>
+        En nuestro ejemplo,
+        <img src="img/temario/analisis-funciones-2.png" alt="Función"/>
     </li>
 
-    <li>
+    <li class="ciencias">
         Una función es <b>simétrica</b> si su gráfica presenta algún tipo de simetría.
         Existen dos tipos principales de simetría.
 
@@ -105,7 +113,7 @@
                 Esto ocurre cuando
                 $$f(x) = f(-x).$$
 
-                <img src="img/ciencias/analisis-funciones-3.png" alt="Función"/>
+                <img src="img/temario/analisis-funciones-3.png" alt="Función"/>
 
 
                 Por ejemplo, la función $f(x) = \frac{x^2+1}{x^4-3}$ es simétrica par porque
@@ -117,7 +125,7 @@
                 Esto ocurre cuando
                 $$-f(x) = f(-x).$$
 
-                <img src="img/ciencias/analisis-funciones-4.png" alt="Función"/>
+                <img src="img/temario/analisis-funciones-4.png" alt="Función"/>
 
                 Por ejemplo, la función $g(x) = \frac{1}{x^3 - x}$ es simétrica impar porque
                 $$g(-x) = \frac{1}{(-x)^3 - (-x)} = \frac{1}{-x^3 + x} = -\frac{1}{x^3 - x} = -g(x).$$
@@ -131,12 +139,12 @@
         que es distinto de $h(x)$ y de $-h(x).$
     </li>
 
-    <li>
+    <li class="ciencias">
         Una función es <b>periódica</b> si se repite en intervalos regulares.
         A la longitud de estos intervalos se le denomina período.
         Por ejemplo, la función $f(x) = \sin(x)$ es periódica con período $2\pi.$
 
-        <img src="img/ciencias/analisis-funciones-5.png" alt="Función"/>
+        <img src="img/temario/analisis-funciones-5.png" alt="Función"/>
     </li>
 </ul>
 
@@ -177,7 +185,7 @@
         </div>
 
         Representamos los puntos obtenidos y trazamos la recta que pasa por ambos.
-        <img src="img/ciencias/analisis-funciones-6.png" alt="Función"/>
+        <img src="img/temario/analisis-funciones-6.png" alt="Función"/>
     </li>
 
     <li>
@@ -220,51 +228,51 @@
         Por simetría, podemos obtener los puntos con abscisa -2, -1 y 0.
         Representamos la parábola con la ayuda de todos los puntos hallados.
 
-        <img src="img/ciencias/analisis-funciones-7.png" alt="Función"/>
+        <img src="img/temario/analisis-funciones-7.png" alt="Función"/>
     </li>
 
-    <li>
+    <li class="ciencias">
         Las <b>funciones raíz</b> son de la forma
         $$f(x) = \sqrt{kx}, \quad \text{con } k > 0.$$
 
         Sus gráficas son parábolas con el eje paralelo al eje de abscisas.
         Por ejemplo, la gráfica de la función $f(x) = \sqrt{x}$ es
-        <img src="img/ciencias/analisis-funciones-8.png" alt="Función"/>
+        <img src="img/temario/analisis-funciones-8.png" alt="Función"/>
     </li>
 
-    <li>
+    <li class="ciencias">
         Las <b>funciones de proporcionalidad inversa</b> son de la forma
         $$f(x) = \frac{k}{x}, \quad \text{con } k \neq 0.$$
 
         Sus gráficas son hipérbolas.
         Por ejemplo, la gráfica de la función $f(x) = \frac{1}{x}$ es
-        <img src="img/ciencias/analisis-funciones-9.png" alt="Función"/>
+        <img src="img/temario/analisis-funciones-9.png" alt="Función"/>
     </li>
 
-    <li>
+    <li class="ciencias">
         Las <b>funciones exponenciales</b> son de la forma
         $$f(x) = a^x, \quad \text{con } a > 0 \text{ y } a \neq 1.$$
 
         La función es creciente si $a > 1$ y decreciente si $0 < a < 1.$
         Por ejemplo, las gráficas de las funciones $f(x) = 2^x$ y $g(x) = \left(\frac{1}{2}\right)^x$ son
-        <img src="img/ciencias/analisis-funciones-10.png" alt="Función"/>
+        <img src="img/temario/analisis-funciones-10.png" alt="Función"/>
     </li>
 
-    <li>
+    <li class="ciencias">
         Las <b>funciones logarítmicas</b> son de la forma
         $$f(x) = \log_a(x), \quad \text{con } a > 0 \text{ y } a \neq 1.$$
 
         La función es creciente si $a > 1$ y decreciente si $0 < a < 1.$
         Por ejemplo, las gráficas de las funciones $f(x) = \log_2(x)$ y $g(x) = \log_\frac{1}{2}(x)$ son
-        <img src="img/ciencias/analisis-funciones-11.png" alt="Función"/>
+        <img src="img/temario/analisis-funciones-11.png" alt="Función"/>
     </li>
 
-    <li>
+    <li class="ciencias">
         Las principales <b>funciones trigonométricas</b> son las funciones seno y coseno.
         La variable $x$ se suele tomar en radianes y sus gráficas tienen forma de ondas periódicas.
         De hecho, la función coseno es como la función seno desplazada $\frac{\pi}{2}$ unidades hacia la izquierda.
         Las gráficas de las funciones $f(x) = \sin(x)$ y $g(x) = \cos(x)$ son
-        <img src="img/ciencias/analisis-funciones-12.png" alt="Función"/>
+        <img src="img/temario/analisis-funciones-12.png" alt="Función"/>
     </li>
 </ul>
 
@@ -289,9 +297,10 @@
 <p>
     Para representar gráficamente las funciones a trozos, se representan cada una de las ramas en sus respectivos intervalos de definición.
     La gráfica de la función $f$ es
-    <img src="img/ciencias/analisis-funciones-13.png" alt="Función"/>
+    <img src="img/temario/analisis-funciones-13.png" alt="Función"/>
 </p>
 
+<section class="ciencias">
 <h4>Funciones con valor absoluto</h4>
 
 <p>
@@ -319,3 +328,4 @@
         -x-3, & \text{si } x < -3.
     \end{cases}$$
 </p>
+</section>
