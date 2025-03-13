@@ -1,0 +1,7 @@
+Calcule las derivadas de las siguientes funciones:
+
+<ol>
+    <li>$\displaystyle f(x) = e^{3x} \cdot \ln(2x - 5).$</li>
+    <li>$\displaystyle g(x) = \frac{3x^2}{x^2 - 1}.$</li>
+    <li>$\displaystyle h(x) = (3x^2 + 5x - 1)^6 + x^2 - \ln(x).$</li>
+</ol>

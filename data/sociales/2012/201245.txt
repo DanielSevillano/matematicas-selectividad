@@ -1,0 +1,4 @@
+En una carpintería se construyen dos tipos de estanterías: grandes y pequeñas, y se tienen para ello 60 m<sup>2</sup> de tableros de madera.
+Las grandes necesitan 4 m<up>2</sup> de tablero y las pequeñas 3 m<sup>2</sup>.
+El carpintero debe hacer como mínimo 3 estanterías grandes, y el número de pequeñas que haga debe ser, al menos, el doble del número de las grandes.
+Si la ganancia por cada estantería grande es de 60 euros y por cada una de las pequeñas es de 40 euros, ¿cuántas debe fabricar de cada tipo para obtener el máximo beneficio?

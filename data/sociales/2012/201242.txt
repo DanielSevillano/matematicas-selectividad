@@ -1,0 +1,9 @@
+Sean dos funciones, $f$ y $g$, tales que las expresiones de sus funciones derivadas son, respectivamente, $f'(x) = x + 2$ y $g'(x) = 2.$
+<ol>
+    <li>Estudie la monotonía de las funciones $f$ y $g.$</li>
+    <li>De las dos funciones $f$ y $g$, indique, razonadamente, cuál de ellas tiene algún punto en el que su derivada es nula.</li>
+    <li>
+        ¿Cuál de las funciones $f$ y $g$ es una función polinómica de primer grado?
+        ¿Por qué?
+    </li>
+</ol>

@@ -1,0 +1,7 @@
+La velocidad a la que circulan los conductores por una autopista sigue una distribución $N(\mu, 20).$
+En un control efectuado a 100 conductores elegidos al azar ha resultado una velocidad media de 110 km/h.
+
+<ol>
+    <li>Determine el intervalo de confianza para $\mu$, con un nivel del 99%.</li>
+    <li>¿Cuál es el máximo error cometido en esta estimación?</li>
+</ol>

@@ -1,0 +1,3 @@
+Un índice para calibrar la madurez lectora de los alumnos de primaria se distribuye según una ley Normal con desviación típica 2.
+Elegida una muestra de 18 alumnos en un centro de primaria, se obtiene una media muestral de 10,8 en dicho índice.
+Mediante el uso de un contraste de hipótesis, ¿se puede aceptar, con un nivel de significación del 1%, la hipótesis nula de que la media del índice de madurez lectora de los alumnos de este centro no es inferior a 11?

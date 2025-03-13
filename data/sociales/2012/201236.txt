@@ -1,0 +1,12 @@
+Sea $P(t)$ el porcentaje de células, de un determinado tejido, afectadas por un cierto tipo de enfermedad transcurrido un tiempo $t$, medido en meses:
+$$P(t) = \begin{cases} 
+    t^2, & \text{si } 0 \leq t \leq 5, \\
+    \dfrac{100t - 250}{t + 5}, & \text{si } t > 5.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad de la función $P.$</li>
+    <li>Estudie la derivabilidad de $P$ en $t = 5.$</li>
+    <li>Estudie la monotonía de dicha función e interprete la evolución del porcentaje de células afectadas.</li>
+    <li>¿En algún momento el porcentaje de células afectadas podría valer 50?</li>
+</ol>

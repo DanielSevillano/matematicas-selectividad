@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        En una ciudad viven 400 hombres y 320 mujeres y se quiere seleccionar una muestra de tamaño 54 utilizando muestreo estratificado por sexos, con afijación proporcional.
+        ¿Cuál sería la composición de la muestra?
+    </li>
+    
+    <li>
+        A partir de una población de elementos 1, 2, 3, 4 se seleccionan, mediante muestreo aleatorio simple, todas las muestras de tamaño 2.
+        Escriba dichas muestras y calcule la varianza de las medias muestrales.
+    </li>
+</ol>

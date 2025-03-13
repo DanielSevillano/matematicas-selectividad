@@ -1,0 +1,14 @@
+Halle la matriz $X$ que verifique la ecuación matricial $A^2 X = A - BC$, siendo $A$, $B$ y $C$ las matrices:
+$$A = \begin{pmatrix}
+    1 & 1 \\
+    0 & 2
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+1 & 0 & 1 \\
+-1 & 1 & 4
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    -1 & 0 \\
+    -1 & 1 \\
+    2 & 0
+\end{pmatrix}.$$

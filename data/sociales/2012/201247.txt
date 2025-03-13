@@ -1,0 +1,8 @@
+Se consideran dos sucesos $A$ y $B$ asociados a un experimento aleatorio.
+Se sabe que $P(A) = 0,8$, $P(B) = 0,7$ y $P(A \cup B) = 0,94.$
+
+<ol>
+    <li>¿Son $A$ y $B$ sucesos independientes?</li>
+    <li>Calcule $P(A|B).$</li>
+    <li>Calcule $P(A|B^c).$</li>
+</ol>

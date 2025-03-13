@@ -1,0 +1,11 @@
+Se acepta que los rendimientos anuales, medidos en porcentajes, que producen los depósitos bancarios a plazo, se distribuyen según una ley Normal con desviación típica 1,8 y se pretende realizar una estimación del rendimiento medio de los mismos.
+Para ello, se tiene una muestra de 36 entidades bancarias en la que se observa que el rendimiento medio de los depósitos es del 2,5.
+
+<ol>
+    <li>
+        Calcule un intervalo de confianza, al 96%, para el rendimiento medio de los depósitos a plazo.
+        ¿Cuál es el error máximo cometido en la estimación?
+    </li>
+
+    <li>Manteniendo el mismo nivel de confianza, ¿cuál debe ser el tamaño mínimo de la muestra para estimar el rendimiento medio de los depósitos con un error máximo de 0,5?</li>
+</ol>

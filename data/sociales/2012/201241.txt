@@ -1,0 +1,17 @@
+Una empresa vende tres artículos diferentes A, B y C, cada uno de ellos en dos formatos, grande y normal.
+En la matriz $F$ se indican las cantidades de los tres artículos, en cada uno de los dos formatos, que ha vendido la empresa en un mes.
+En la matriz $G$ se indican las ganancias, en euros, que obtiene la empresa por cada unidad que ha vendido de cada artículo en cada formato.
+$$F = \begin{pmatrix}
+    100 & 150 & 80 \\
+    200 & 250 & 140
+\end{pmatrix}, \quad
+G = \begin{pmatrix}
+    6 & 8 & 5 \\
+    4 & 5 & 3
+\end{pmatrix}.$$
+
+<ol>
+    <li>Efectúe los productos $FG$ y $FG^t.$</li>
+    <li>Indique en qué matriz se pueden encontrar las ganancias que ha recibido la empresa en ese mes por el total de las unidades vendidas de cada uno de los tres artículos y especifique cuáles son esas ganancias.</li>
+    <li>Indique en qué matriz se pueden encontrar las ganancias que ha recibido la empresa en ese mes por el total de las unidades vendidas en cada uno de los formatos, especifique cuáles son esas ganancias y halle la ganancia total.</li>
+</ol>

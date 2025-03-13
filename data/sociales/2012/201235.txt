@@ -1,0 +1,13 @@
+<ol>
+    <li>
+        Represente la región definida por las siguientes inecuaciones:
+        $$7x - y \leq -10, \quad x + y \leq 2, \quad 3x - 5y \leq 14$$
+        y determine sus vértices.
+    </li>
+
+    <li>
+        Calcule los valores máximo y mínimo que alcanza la función:
+        $$F(x, y) = 2x + 3y$$
+        en dicha región.
+    </li>
+</ol>

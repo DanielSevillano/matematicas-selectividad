@@ -1,0 +1,8 @@
+Se considera la función
+$$f(x) = 1 - \frac{2}{x + 2}.$$
+
+<ol>
+    <li>Determine la monotonía y curvatura de la función.</li>
+    <li>Calcule sus asíntotas.</li>
+    <li>Represéntela gráficamente.</li>
+</ol>

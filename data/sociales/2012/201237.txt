@@ -1,0 +1,7 @@
+Se sabe que el 44% de la población activa de cierta provincia está formada por mujeres.
+También se sabe que, de ellas, el 25% está en paro y que el 20% de los hombres de la población activa también están en paro.
+
+<ol>
+    <li>Elegida, al azar, una persona de la población activa de esa provincia, calcule la probabilidad de que esté en paro.</li>
+    <li>Si hemos elegido, al azar, una persona que trabaja, ¿cuál es la probabilidad de que sea hombre?</li>
+</ol>

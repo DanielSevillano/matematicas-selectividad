@@ -4487,6 +4487,117 @@
         ]
     },
     {
+        "ejercicio": 201231,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201232,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 201233,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201234,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 201235,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201236,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201237,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201238,
+        "categorias": [
+            "Estadística",
+            "Muestreo",
+            "Distribución de medias muestrales"
+        ]
+    },
+    {
+        "ejercicio": 201241,
+        "categorias": [
+            "Álgebra",
+            "Problemas de matrices"
+        ]
+    },
+    {
+        "ejercicio": 201242,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201243,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201244,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201245,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 201246,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201247,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201248,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
         "ejercicio": 201251,
         "categorias": [
             "Programación lineal",

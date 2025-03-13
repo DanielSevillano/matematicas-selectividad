@@ -1,0 +1,9 @@
+Se ha impartido un curso de conducción eficiente a 200 personas.
+De los asistentes al curso, 60 son profesores de autoescuela y, de ellos, el 95% han mejorado su conducción.
+Este porcentaje baja al 80% en el resto de los asistentes.
+Halle la probabilidad de que, elegido un asistente al azar:
+
+<ol>
+    <li>No haya mejorado su conducción.</li>
+    <li>No sea profesor de autoescuela, sabiendo que ha mejorado su conducción.</li>
+</ol>

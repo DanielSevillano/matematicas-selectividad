@@ -1,0 +1,9 @@
+Una urna contiene 25 bolas blancas sin marcar, 75 bolas blancas marcadas, 125 bolas negras sin marcar y 175 bolas negras marcadas.
+Se extrae una bola al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que sea blanca.</li>
+    <li>¿Cuál es la probabilidad de que sea blanca sabiendo que está marcada?</li>
+    <li>¿Cuál es la probabilidad de que sea negra y esté marcada?</li>
+    <li>¿Son independientes los sucesos "sacar bola marcada" y "sacar bola blanca"?</li>
+</ol>
