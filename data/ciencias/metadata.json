@@ -2176,6 +2176,7 @@
     },
     {
         "ejercicio": 202054,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]

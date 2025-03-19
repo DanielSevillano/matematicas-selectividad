@@ -1,0 +1,22 @@
+<ol>
+    <li>
+        En primer lugar, hallamos el vector director de la recta $r.$
+        $$\vec{d}_r = (4, -3, 4) \times (3, -2, 1) = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            4 & -3 & 4 \\
+            3 & -2 & 1
+        \end{vmatrix} = (5, 8, 1).$$
+
+        Además, el vector normal de $\pi$ es $\vec{n}_\pi = (1, -1, a).$
+        Como $\pi$ es paralelo a $r$, ha de verificarse que:
+        $$\vec{d}_r \cdot \vec{n}_\pi = 0 \Leftrightarrow 5 - 8 + a = 0 \Leftrightarrow a = 3.$$
+    </li>
+
+    <li>
+        Llamamos $\tau$ al plano que nos piden.
+        Como $\tau$ es perpendicular a $r$, $\vec{n}_\tau = \vec{d}_r = (5, 8, 1).$
+        Además, el punto $P(1, 2, 3)$ pertenece al plano.
+        Por tanto, la ecuación del plano $\tau$ es:
+        $$\tau \equiv 5(x-1) + 8(y-2) + z - 3 = 0 \Leftrightarrow 5x + 8y + z - 24 = 0.$$
+    </li>
+</ol>
