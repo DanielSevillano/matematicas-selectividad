@@ -2202,6 +2202,7 @@
     },
     {
         "ejercicio": 202057,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas"
