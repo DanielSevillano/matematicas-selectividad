@@ -54,7 +54,7 @@
         b_m
     \end{pmatrix},$$
     donde $A$ se llama <b>matriz de coeficientes</b>, $X$ <b>matriz de incógnitas</b> y $B$ <b>matriz de términos independientes</b>.
-    También es útil considerar la <b>matriz ampliada</b> $A^\ast.$<br>
+    También es útil considerar la <b>matriz ampliada</b> $A^\ast$, que se obtiene al añadir la columna de la matriz $B$ a la matriz de coeficientes.<br>
     Por ejemplo, el sistema anterior se puede escribir matricialmente como
     $$\begin{pmatrix}
         2 & 0 & 0 \\
@@ -156,16 +156,44 @@
     Así que $\rang(A) \geq 2$ para todo valor de $\lambda.$
 
     Veamos para qué valores de $\lambda$ alcanza el rango máximo calculando su determinante.
-    $$\det(A) = 3 - 3\lambda.$$
-    Observamos que
-    $$\det(A) = 0 \Leftrightarrow 3 - 3\lambda = 0 \Leftrightarrow \lambda = 1.$$
+    $$|A| = \begin{vmatrix}
+        \lambda & -1 & 1 \\
+        1 & -1 & -1 \\
+        1 & -\lambda & 2
+    \end{vmatrix} = -2\lambda + 1 - \lambda + 1 + 2 - \lambda^2 = -\lambda^2 - 3\lambda + 4.$$
+
+    Observamos que:
+    $$|A| = 0 \Leftrightarrow -\lambda^2 - 3\lambda + 4 = 0 \Leftrightarrow \begin{cases}
+        \lambda = -4, \\
+        \lambda = 1.
+    \end{cases}$$
+
     Distinguimos dos casos.
 
     <ul>
         <li>
-            Si $\lambda \neq 1$ entonces $\det(A) \neq 0$, así que $\rang(A) = 3.$
+            Si $\lambda \neq -4$ y $\lambda \neq 1$, entonces $\rang(A) = 3.$
             Como además el rango máximo de la matriz ampliada es 3 y $\rang(A^\ast) \geq \rang(A)$, entonces $\rang(A^\ast) = 3.$
             Los rangos de las dos matrices coinciden entre sí y con el número de incógnitas, así que por el teorema de Rouché-Frobenius el sistema es compatible determinado.
+        </li>
+
+        <li>
+            Si $\lambda = -4$ entonces $\det(A) = 0$, así que $\rang(A) = 2.$
+            Queda por estudiar para $\lambda = -4$ el rango de la matriz ampliada, que puede ser 2 o 3.
+            $$A^\ast = \begin{ampmatrix}
+                -4 & -1 & 1 & 1 \\
+                1 & -1 & -1 & -5 \\
+                1 & 4 & 2 & 2
+            \end{ampmatrix}.$$
+
+            Estudiamos el menor:
+            $$\begin{vmatrix}
+                -1 & 1 & 1 \\
+                -1 & -1 & -5 \\
+                4 & 2 & 2
+            \end{vmatrix} = -24 \neq 0 \Rightarrow \rang(A^\ast) = 3.$$
+
+            Como los rangos de las dos matrices no coinciden, por el teorema de Rouché-Frobenius el sistema es incompatible.
         </li>
 
         <li>
@@ -176,13 +204,14 @@
                 1 & -1 & -1 & 0 \\
                 1 & -1 & 2 & 2
             \end{ampmatrix}.$$
-            El menor
+
+            Estudiamos el menor:
             $$\begin{vmatrix}
-                1 & 1 & 1 \\
-                1 & -1 & 0 \\
-                1 & 2 & 2
-            \end{vmatrix} = -1 \neq 0,$$
-            así que $\rang(A^\ast) = 3.$
+                -1 & 1 & 1 \\
+                -1 & -1 & 0 \\
+                -1 & 2 & 2
+            \end{vmatrix} = 1 \neq 0 \Rightarrow \rang(A^\ast) = 3.$$
+
             Como los rangos de las dos matrices no coinciden, por el teorema de Rouché-Frobenius el sistema es incompatible.
         </li>
     </ul>
