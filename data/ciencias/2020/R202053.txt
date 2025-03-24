@@ -1,0 +1,85 @@
+<ol>
+    <li>
+        En primer lugar, observamos que:
+        $$\begin{vmatrix}
+            1 & 1 \\
+            0 & -3
+        \end{vmatrix} = -3 \neq 0 \Rightarrow \rang(A) \geq 2.$$
+
+        Para determinar el rango de $A$ en función del valor de $m$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            1 & -2 & 1 \\
+            m & 4 & -2 \\
+            0 & m+2 & -3
+        \end{vmatrix} = -12 + m^2 + 2m - 6m + 2m + 4 = m^2 - 2m - 8.$$
+
+        Observamos que:
+        $$|A| = 0 \Leftrightarrow m^2 - 2m - 8 = 0 \Leftrightarrow \begin{cases}
+            m = -2, \\
+            m = 4.
+        \end{cases}$$
+
+        <ul>
+            <li>
+                Si $m \neq -2$ y $m \neq 4$, entonces $\rang(A) = 3.$
+                Como el rango de la matriz de coeficientes es máximo, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $m = -2$, entonces $\rang(A) = 2.$
+                La matriz de coeficientes ampliada es:
+                $$(A|B) = \begin{ampmatrix}
+                    1 & -2 & 1 & 2 \\
+                    -2 & 4 & -2 & -4 \\
+                    0 & 0 & -3 & 1
+                \end{ampmatrix}.$$
+
+                Observamos que las dos primeras filas son proporcionales, así que $\rang(A|B) = 2.$
+                Como $\rang(A) = \rang(A|B) = 2 < 3$, el sistema es compatible indeterminado.
+            </li>
+
+            <li>
+                Si $m = 4$, entonces $\rang(A) = 2.$
+                La matriz de coeficientes ampliada es:
+                $$(A|B) = \begin{ampmatrix}
+                    1 & -2 & 1 & 2 \\
+                    4 & 4 & -2 & 8 \\
+                    0 & 6 & -3 & 1
+                \end{ampmatrix}.$$
+
+                Observamos que:
+                $$\begin{vmatrix}
+                    1 & 1 & 2 \\
+                    4 & -2 & 8 \\
+                    0 & -3 & 1
+                \end{vmatrix} = -6 \neq 0 \Rightarrow \rang(A|B) = 3.$$
+
+                Como $\rang(A) \neq \rang(A|B)$, el sistema es incompatible.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Si $m = -2$, el sistema es compatible indeterminado por el apartado anterior.
+        Podemos reducir el sistema a:
+        $$\begin{cases}
+            x - 2y + z = 2, \\
+            -3z = 1.
+        \end{cases}$$
+
+        Si tomamos $y = \lambda$, entonces:
+        \begin{align}
+            & -3z = 1 \Leftrightarrow z = -\frac{1}{3}, \\
+            & x - 2y  + z = 2 \Leftrightarrow x = 2 + 2y - z \xrightarrow[z = -1/3]{y = \lambda} x = \frac{7}{3} + 2\lambda.
+        \end{align}
+
+        Por tanto, las soluciones del sistema son de la forma:
+        $$\begin{cases}
+            x = \frac{7}{3} + 2\lambda, \\
+            y = \lambda, \\
+            z = -\frac{1}{3},
+        \end{cases} \qquad \lambda \in \mathbb{R}.$$
+
+        Observamos que no existe ninguna solución con $z = 0.$
+    </li>
+</ol>
