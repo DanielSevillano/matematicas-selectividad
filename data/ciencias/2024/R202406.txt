@@ -37,19 +37,19 @@
 
             <li>
                 Si $k = 1$, la matriz de coeficientes ampliada es
-                $$(A|B) = \begin{ampmatrix}
+                $$A^\ast = \begin{ampmatrix}
                     0 & 1 & 1 & 1 \\
                     0 & 1 & 1 & 1 \\
                     1 & 0 & 1 & 0
                 \end{ampmatrix}.$$
 
-                Observamos que las dos primeras filas son iguales, así que $\rang(A|B) = 2.$
-                Como $\rang(A) = \rang(A|B) < 3$, el sistema es compatible indeterminado.
+                Observamos que las dos primeras filas son iguales, así que $\rang(A^\ast) = 2.$
+                Como $\rang(A) = \rang(A^\ast) < 3$, el sistema es compatible indeterminado.
             </li>
 
             <li>
                 Si $k = 2$, la matriz de coeficientes ampliada es
-                $$(A|B) = \begin{ampmatrix}
+                $$A^\ast = \begin{ampmatrix}
                     0 & 1 & 1 & 1 \\
                     1 & 1 & 1 & 2 \\
                     1 & 1 & 1 & 0
@@ -60,9 +60,9 @@
                     0 & 1 & 1 \\
                     1 & 1 & 2 \\
                     1 & 1 & 0
-                \end{vmatrix} = 2 \neq 0 \Rightarrow \rang(A|B) = 3.$$
+                \end{vmatrix} = 2 \neq 0 \Rightarrow \rang(A^\ast) = 3.$$
 
-                Como $\rang(A) \neq \rang(A|B)$, el sistema es incompatible.
+                Como $\rang(A) \neq \rang(A^\ast)$, el sistema es incompatible.
             </li>
         </ul>
     </li>

@@ -44,7 +44,7 @@
                 \end{vmatrix} = -2 \neq 0 \Rightarrow \rang(A) = 2.$$
 
                 La matriz de coeficientes ampliada es
-                $$(A|B) = \begin{ampmatrix}
+                $$A^\ast = \begin{ampmatrix}
                     1 & 0 & 0 & 1 \\
                     1 & 0 & 1 & 1 \\
                     2 & 0 & 0 & 2
@@ -55,9 +55,9 @@
                     1 & 0 & 1 \\
                     1 & 1 & 1 \\
                     2 & 0 & 2
-                \end{vmatrix} = 0 \Rightarrow \rang(A|B) = 2.$$
+                \end{vmatrix} = 0 \Rightarrow \rang(A^\ast) = 2.$$
 
-                Como $\rang(A) = \rang(A|B) < 3$, el sistema es compatible indeterminado.
+                Como $\rang(A) = \rang(A^\ast) < 3$, el sistema es compatible indeterminado.
             </li>
 
             <li>
@@ -75,7 +75,7 @@
                 \end{vmatrix} = -1 \neq 0 \Rightarrow \rang(A) = 2.$$
 
                 La matriz de coeficientes ampliada es
-                $$(A|B) = \begin{ampmatrix}
+                $$A^\ast = \begin{ampmatrix}
                     1 & 1 & 1 & 1 \\
                     1 & 2 & 2 & 1 \\
                     2 & 1 & 1 & 2
@@ -86,9 +86,9 @@
                     1 & 1 & 1 \\
                     1 & 2 & 1 \\
                     2 & 1 & 2
-                \end{vmatrix} = 0 \Rightarrow \rang(A|B) = 2.$$
+                \end{vmatrix} = 0 \Rightarrow \rang(A^\ast) = 2.$$
 
-                Como $\rang(A) = \rang(A|B) < 3$, el sistema es compatible indeterminado.
+                Como $\rang(A) = \rang(A^\ast) < 3$, el sistema es compatible indeterminado.
             </li>
         </ul>
     </li>

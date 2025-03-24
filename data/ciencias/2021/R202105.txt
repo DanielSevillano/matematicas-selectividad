@@ -38,7 +38,7 @@
 
             <li>
                 Si $m = -\frac{5}{2}$, la matriz de coeficientes ampliada es
-                $$(A|B) = \begin{ampmatrix}
+                $$A^\ast = \begin{ampmatrix}
                     -\frac{5}{2} & 2 & -1 & 1 \\
                     5 & -4 & 2 & 0 \\
                     1 & -\frac{15}{2} & 0 & -\frac{21}{10}
@@ -49,14 +49,14 @@
                     2 & -1 & 1 \\
                     -4 & 2 & 0 \\
                     -\frac{15}{2} & 0 & -\frac{21}{10}
-                \end{vmatrix} = 15 \neq 0 \Rightarrow \rang(A|B) = 3.$$
+                \end{vmatrix} = 15 \neq 0 \Rightarrow \rang(A^\ast) = 3.$$
                 
                 Como los rangos no coinciden, el sistema es incompatible.
             </li>
 
             <li>
                 Si $m = 0$, la matriz de coeficientes ampliada es
-                $$(A|B) = \begin{ampmatrix}
+                $$A^\ast = \begin{ampmatrix}
                     0 & 2 & -1 & 1 \\
                     5 & -4 & 2 & 0 \\
                     1 & 0 & 0 & \frac{2}{5}
@@ -67,9 +67,9 @@
                     2 & -1 & 1 \\
                     -4 & 2 & 0 \\
                     0 & 0 & \frac{2}{5}
-                \end{vmatrix} = 0 \Rightarrow \rang(A|B) = 2.$$
+                \end{vmatrix} = 0 \Rightarrow \rang(A^\ast) = 2.$$
                 
-                Como $\rang(A) = \rang(A|B) < 3$, el sistema es compatible indeterminado.
+                Como $\rang(A) = \rang(A^\ast) < 3$, el sistema es compatible indeterminado.
             </li>
         </ul>
     </li>

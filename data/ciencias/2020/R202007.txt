@@ -13,7 +13,7 @@
 
         Así que $\rang(A) = 2.$
         Por otro lado, la matriz de coeficientes ampliada es:
-        $$(A|B) = \begin{ampmatrix}
+        $$A^\ast = \begin{ampmatrix}
             1 & 1 & 1 & a \\
             1 & 0 & 1 & 2a \\
             4 & 1 & 4 & 3a
@@ -28,12 +28,12 @@
 
         Observamos que:
         $$4a = 0 \Leftrightarrow a = 0.$$
-        Es decir, $\rang(A|B) = 3$ cuando $a \neq 0.$
-        En otro caso, $\rang(A|B) = 2.$
+        Es decir, $\rang(A^\ast) = 3$ cuando $a \neq 0.$
+        En otro caso, $\rang(A^\ast) = 2.$
 
         <ul>
-            <li>Si $a \neq 0$, $\rang(A) \neq \rang(A|B)$, así que el sistema es incompatible.</li>
-            <li>Si $a = 0$, $\rang(A) = \rang(A|B) < 3$, así que el sistema es compatible indeterminado.</li>
+            <li>Si $a \neq 0$, $\rang(A) \neq \rang(A^\ast)$, así que el sistema es incompatible.</li>
+            <li>Si $a = 0$, $\rang(A) = \rang(A^\ast) < 3$, así que el sistema es compatible indeterminado.</li>
         </ul>
     </li>
 

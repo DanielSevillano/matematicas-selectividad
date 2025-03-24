@@ -28,20 +28,20 @@
             <li>
                 Si $m = -2$, entonces $\rang(A) = 2.$
                 La matriz de coeficientes ampliada es:
-                $$(A|B) = \begin{ampmatrix}
+                $$A^\ast = \begin{ampmatrix}
                     1 & -2 & 1 & 2 \\
                     -2 & 4 & -2 & -4 \\
                     0 & 0 & -3 & 1
                 \end{ampmatrix}.$$
 
-                Observamos que las dos primeras filas son proporcionales, así que $\rang(A|B) = 2.$
-                Como $\rang(A) = \rang(A|B) = 2 < 3$, el sistema es compatible indeterminado.
+                Observamos que las dos primeras filas son proporcionales, así que $\rang(A^\ast) = 2.$
+                Como $\rang(A) = \rang(A^\ast) = 2 < 3$, el sistema es compatible indeterminado.
             </li>
 
             <li>
                 Si $m = 4$, entonces $\rang(A) = 2.$
                 La matriz de coeficientes ampliada es:
-                $$(A|B) = \begin{ampmatrix}
+                $$A^\ast = \begin{ampmatrix}
                     1 & -2 & 1 & 2 \\
                     4 & 4 & -2 & 8 \\
                     0 & 6 & -3 & 1
@@ -52,9 +52,9 @@
                     1 & 1 & 2 \\
                     4 & -2 & 8 \\
                     0 & -3 & 1
-                \end{vmatrix} = -6 \neq 0 \Rightarrow \rang(A|B) = 3.$$
+                \end{vmatrix} = -6 \neq 0 \Rightarrow \rang(A^\ast) = 3.$$
 
-                Como $\rang(A) \neq \rang(A|B)$, el sistema es incompatible.
+                Como $\rang(A) \neq \rang(A^\ast)$, el sistema es incompatible.
             </li>
         </ul>
     </li>
