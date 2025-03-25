@@ -1,0 +1,25 @@
+<ol>
+    <li>
+        El vector normal del plano es $\vec{n}_\pi = (1, -1, 1)$ y el vector director de la recta es $\vec{d}_r = (2, 1, -1).$
+        En primer lugar, observamos que:
+        $$\vec{n}_\pi \cdot \vec{d}_r = (1, -1, 1) \cdot (2, 1, -1) = 0 \Rightarrow \pi \parallel r.$$
+
+        Como $P(0, -1, -2)$ es un punto de $r$, la distancia se puede calcular como:
+        $$\dist(r, \pi) = \dist(P, \pi) = \frac{|1 - 2 - 2|}{|\vec{n}_\pi|} = \frac{3}{\sqrt{3}} = \sqrt{3} \; u.$$
+    </li>
+
+    <li>
+        Llamamos $\tau$ al plano que nos piden.
+        Como $\tau$ es perpendicular a $\pi$ y contiene a $r$, entonces $\vec{n}_\pi$ y $\vec{d}_r$ son vectores directores del plano $\tau.$
+        Así que el vector normal de $\tau$ viene dado por:
+        $$\vec{n}_\tau = \vec{n}_\pi \times \vec{d}_r = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            1 & -1 & 1 \\
+            2 & 1 & -1
+        \end{vmatrix} = (0, 3, 3).$$
+
+        Además, el punto $P(0, -1, -2)$ pertenece a $\tau$ por ser un punto de $r.$
+        Por tanto, la ecuación del plano $\tau$ es:
+        $$\tau \equiv 3(y + 1) + 3(z + 2) = 0 \Leftrightarrow 3y + 3z + 9 = 0 \Leftrightarrow x + z + 3 = 0.$$
+    </li>
+</ol>

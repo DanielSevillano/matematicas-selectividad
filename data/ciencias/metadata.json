@@ -2210,6 +2210,7 @@
     },
     {
         "ejercicio": 202058,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Distancia"
