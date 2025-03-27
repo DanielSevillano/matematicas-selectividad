@@ -42,7 +42,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 
 ### Ejercicios resueltos de ciencias
 - [ ] 2025
-    - [ ] Modelo de prueba (1 a 9)
+    - [ ] Modelo de prueba (1 a 10)
 - [x] 2024 a 2021
 - [ ] 2020
     - [x] Julio y septiembre

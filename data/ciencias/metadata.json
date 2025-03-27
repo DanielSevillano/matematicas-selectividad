@@ -69,6 +69,7 @@
     },
     {
         "ejercicio": 2025610,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Probabilidad total"

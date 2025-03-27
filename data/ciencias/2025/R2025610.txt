@@ -1,0 +1,108 @@
+<p>
+    Llamamos $A$ a inocular el virus A, $B$ a inocular el virus B, $C$ a inocular el virus C y $E$ a contraer la enfermedad.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 1/3 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 3/10 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 2/3 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 2/3 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 1/5 \quad}$</td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1/3 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 1/2 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 1/7 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 6/7 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E^c$</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que el animal contraiga la enfermedad es:
+        \begin{align}
+            P(E) & = P(E \cap A) + P(E \cap B) + P(E \cap C) = P(A) \cdot P(E|A) + P(B) \cdot P(E|B) + P(C) \cdot P(E|C) = \\
+            & = \frac{3}{10} \cdot \frac{1}{3} + \frac{1}{5} \cdot \frac{2}{3} + \frac{1}{2} \cdot \frac{1}{7} = \frac{32}{105} \approx 0,3048.
+        \end{align}
+    </li>
+
+    <li>
+        La probabilidad de que se haya inoculado el virus C sabiendo que el animal ha contraído la enfermedad es:
+        $$P(C|E) = \frac{P(C \cap E)}{P(E)} = \frac{P(C) \cdot P(E|C)}{P(E)} = \frac{\frac{1}{2} \cdot \frac{1}{7}}{\frac{32}{105}} = \frac{15}{64} \approx 0,2344.$$
+    </li>
+</ol>
