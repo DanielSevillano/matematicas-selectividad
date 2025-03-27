@@ -147,6 +147,10 @@ async function obtenerDatos() {
     const datosCiencias = metadatosCiencias.filter(objeto => objeto.ejercicio < 2025000);
 
     const numeroEjerciciosCiencias = datosCiencias.length;
+    const examenesCiencias = new Set();
+    datosCiencias.forEach((objeto) => {
+        examenesCiencias.add(String(objeto.ejercicio).slice(0, 5));
+    });
 
     const tarjetaEjerciciosCiencias = document.createElement("div");
     tarjetaEjerciciosCiencias.classList.add("tarjeta");
@@ -154,7 +158,7 @@ async function obtenerDatos() {
 
     const tarjetaExamenesCiencias = document.createElement("div");
     tarjetaExamenesCiencias.classList.add("tarjeta");
-    tarjetaExamenesCiencias.textContent = (numeroEjerciciosCiencias / 8) + " examenes";
+    tarjetaExamenesCiencias.textContent = examenesCiencias.size + " examenes";
 
     const numeroEjerciciosResueltosCiencias = datosCiencias.filter((ejercicio) => ejercicio.resuelto).length;
 
@@ -176,6 +180,10 @@ async function obtenerDatos() {
     const datosSociales = metadatosSociales.filter(objeto => objeto.ejercicio > 201000);
 
     const numeroEjerciciosSociales = datosSociales.length;
+    const examenesSociales = new Set();
+    datosSociales.forEach((objeto) => {
+        examenesSociales.add(String(objeto.ejercicio).slice(0, 5));
+    });
 
     const tarjetaEjerciciosSociales = document.createElement("div");
     tarjetaEjerciciosSociales.classList.add("tarjeta");
@@ -183,7 +191,7 @@ async function obtenerDatos() {
 
     const tarjetaExamenesSociales = document.createElement("div");
     tarjetaExamenesSociales.classList.add("tarjeta");
-    tarjetaExamenesSociales.textContent = (numeroEjerciciosSociales / 8) + " examenes";
+    tarjetaExamenesSociales.textContent = examenesSociales.size + " examenes";
 
     const numeroEjerciciosResueltosSociales = datosSociales.filter((ejercicio) => ejercicio.resuelto).length;
 
@@ -208,7 +216,7 @@ async function obtenerDatos() {
 
     const tarjetaExamenes = document.createElement("div");
     tarjetaExamenes.classList.add("tarjeta");
-    tarjetaExamenes.textContent = (numeroEjercicios / 8) + " examenes";
+    tarjetaExamenes.textContent = (examenesCiencias.size + examenesSociales.size) + " examenes";
 
     const numeroEjerciciosResueltos = numeroEjerciciosResueltosCiencias + numeroEjerciciosResueltosSociales;
 

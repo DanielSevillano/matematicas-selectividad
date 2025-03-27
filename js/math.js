@@ -159,7 +159,10 @@ async function obtenerExamen(modalidad, examen, metadatos) {
 
     main.append(titulo);
 
-    for (let ejercicio = 1; ejercicio <= 8; ejercicio++) {
+    const metadatosFiltrados = metadatos.filter(dato => String(dato.ejercicio).startsWith(examen));
+    const ejercicios = metadatosFiltrados.length;
+
+    for (let ejercicio = 1; ejercicio <= ejercicios; ejercicio++) {
         if (estado.cancelado) {
             estado.reanudar();
             return false;
@@ -175,7 +178,7 @@ async function obtenerExamen(modalidad, examen, metadatos) {
             categorias = datosEjercicio.categorias;
         }
 
-        boton.style.setProperty("--progreso", ejercicio / 8 * 100);
+        boton.style.setProperty("--progreso", ejercicio / ejercicios * 100);
 
         const seccion = await obtenerEjercicio(modalidad, examen, ejercicio, resuelto, categorias);
         main.append(seccion);
