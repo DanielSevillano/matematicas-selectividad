@@ -6,8 +6,13 @@ window.MathJax = {
     },
     options: {
         enableMenu: false,
-        enableEnrichment: false,
-        enableExplorer: false
+        menuOptions: {
+            settings: {
+                braille: false,
+                speech: false,
+                enrich: false
+            }
+        }
     },
     startup: {
         ready: () => {

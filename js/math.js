@@ -1,4 +1,4 @@
-export { estado, formatear, obtenerEjercicio, mostrarExamen, mostrarCategoria, mostrarTemario }
+export { estado, formatear, obtenerEjercicio, mostrarExamen, mostrarCategoria, mostrarTemario };
 
 const estado = new Object({
     cancelado: false,
@@ -48,7 +48,7 @@ function tituloExamen(examen) {
 }
 
 function formatear(elemento) {
-    if (math) MathJax.typesetPromise([elemento]);
+    if (math) window.MathJax.typesetPromise([elemento]);
     else setTimeout(() => formatear(elemento));
 }
 
@@ -63,7 +63,7 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
         if (ejercicio <= 4) letra = "A";
         else {
             numeracion = ejercicio - 4;
-            letra = "B"
+            letra = "B";
 
         }
     }
@@ -95,7 +95,7 @@ async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, 
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
-    })
+    });
     articulo.append(contenedorCategorias);
 
     const curso = String(examen).slice(0, 4);
@@ -203,8 +203,8 @@ async function obtenerCategoria(modalidad, categoria, metadatos, soloResueltos, 
             return false;
         }
 
-        let resuelto = false
-        let categorias = []
+        let resuelto = false;
+        let categorias = [];
         if (ejercicio != undefined) {
             if (ejercicio.resuelto) resuelto = true;
             categorias = ejercicio.categorias;
