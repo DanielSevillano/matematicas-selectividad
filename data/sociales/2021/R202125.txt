@@ -1,0 +1,153 @@
+<p>
+    Llamamos $C$ a jugar en casa, $F$ a jugar fuera, $V$ a obtener una victoria y $D$ a obtener una derrota.
+    Podemos hacer un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$V$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$V$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$F$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,7 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que el partido acabase en victoria es:
+        $$P(V) = P(V \cap C) + P(V \cap F) = P(C) \cdot P(V|C) + P(F) \cdot P(V|F) = 0,4 \cdot 0,6 + 0,6 \cdot 0,3 = 0,42.$$
+    </li>
+
+    <li>
+        La probabilidad de que el partido haya sido jugado en casa sabiendo que el resultado final fue una derrota es:
+        $$P(C|D) = \frac{P(C \cap D)}{P(D)} = \frac{P(C) \cdot P(D|C)}{1 - P(V)} = \frac{0,4 \cdot 0,4}{1 - 0,42} \approx 0,2759.$$
+    </li>
+
+    <li>
+        Llamamos $E$ a tener una prórroga.
+        Podemos expandir el diagrama de árbol.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$V$</td>
+                    <td>$\xrightarrow{\quad 0,2 \quad}$</td>
+                    <td>$E$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$C$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$D$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$V$</td>
+                    <td>$\xrightarrow{\quad 0,1 \quad}$</td>
+                    <td>$E$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$F$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,7 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$D$</td>
+                </tr>
+            </table>
+        </div>
+
+        Por el teorema de la probabilidad total, la probabilidad de que el partido acabase en victoria y que además haya sido tras una prórroga es:
+        \begin{align}
+            & P(V \cap E) = P(C \cap V \cap E) + P(F \cap V \cap E) = P(C) \cdot P(V|C) \cdot P(E|V \cap C) + P(F) \cdot P(V|F) \cdot P(E|V \cap F) = \\
+            & = 0,4 \cdot 0,6 \cdot 0,1 + 0,6 \cdot 0,3 \cdot 0,2 = 0,06.
+        \end{align}
+    </li>
+</ol>
