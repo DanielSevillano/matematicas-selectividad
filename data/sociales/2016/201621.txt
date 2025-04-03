@@ -14,7 +14,7 @@ C = \begin{pmatrix}
 \end{pmatrix}.$$
 
 <ol>
-    <li>Resuelve la ecuación matricial $CBX - 2AX = A^t.$</li>
+    <li>Resuelva la ecuación matricial $CBX - 2AX = A^t.$</li>
     <li>
         Analice cuáles de las siguientes operaciones, sin efectuarlas, se pueden realizar y justifique las respuestas:
         $$BC + 2A, \quad AC + C, \quad B^tC, \quad CB - A.$$
