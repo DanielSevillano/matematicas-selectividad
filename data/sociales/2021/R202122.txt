@@ -1,0 +1,88 @@
+<ol>
+    <li>
+        Calculamos en primer lugar el determinante de la matriz $A.$
+        $$|A| = \begin{vmatrix}
+            a & 4 \\
+            6 & 8
+        \end{vmatrix} = 8a - 24.$$
+
+        La inversa de $A$ existe si y solo si su determinante es no nulo.
+        Observamos que:
+        $$|A| = 0 \Leftrightarrow 8a - 24 = 0 \Leftrightarrow a = 3.$$
+
+        Por tanto, $A$ no tiene inversa cuando $a = 3.$
+    </li>
+
+    <li>
+        Despejamos la ecuación matricial.
+        $$XA - XB = C \Leftrightarrow X(A - B) = C \Leftrightarrow X = C(A - B)^{-1}.$$
+        
+        En primer lugar, calculamos la matriz $A - B$ y hallamos su determinante.
+        $$A - B = \begin{pmatrix}
+            3 & 4 \\
+            6 & 8
+        \end{pmatrix} -
+        \begin{pmatrix}
+            2 & 2 \\
+            3 & 3
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 2 \\
+            3 & 5
+        \end{pmatrix} \Rightarrow
+        |A-B| = \begin{vmatrix}
+            1 & 2 \\
+            3 & 5
+        \end{vmatrix} = -1.$$
+
+        Como $\det(A-B) \neq 0$, la matriz $A - B$ es invertible.
+        Para hallar su inversa, calculamos primero su matriz adjunta.
+        $$\Adj(A-B) = \begin{pmatrix}
+            5 & -3 \\
+            -2 & 1
+        \end{pmatrix}.$$
+
+        Calculamos su inversa de la forma:
+        $$(A-B)^{-1} = \frac{1}{|A-B|} \Adj(A-B)^t = -\begin{pmatrix}
+            5 & -2 \\
+            -3 & 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -5 & 2 \\
+            3 & -1
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$X = C(A - B)^{-1} =
+        \begin{pmatrix}
+            1 & 2
+        \end{pmatrix}
+        \begin{pmatrix}
+            -5 & 2 \\
+            3 & -1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 0
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Calculamos la matriz $A^2$:
+        $$A^2 = A \cdot A =
+        \begin{pmatrix}
+            3 & 4 \\
+            6 & 8
+        \end{pmatrix}
+        \begin{pmatrix}
+            3 & 4 \\
+            6 & 8
+        \end{pmatrix} =
+        \begin{pmatrix}
+            33 & 44 \\
+            66 & 88
+        \end{pmatrix} = 11A.$$
+
+        Por tanto,
+        $$A^8 = (A^2)^4 = (11A)^4 = 11^4A^4 = 11^4 \cdot (A^2)^2 = 11^4 \cdot (11A)^2 = 11^4 \cdot 11^2A^2 = 11^6 \cdot 11A = 11^7A.$$
+    </li>
+</ol>

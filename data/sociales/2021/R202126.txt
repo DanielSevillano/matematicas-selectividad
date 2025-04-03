@@ -1,0 +1,24 @@
+<ol>
+    <li>
+        Calculamos:
+        \begin{align}
+            & P(A) = 1 - P(A^c) = 1 - 0,4 = 0,6, \\
+            & P(A \cap B^c) = P(A) - P(A \cap B) \Rightarrow P(A \cap B) = P(A) - P(A \cap B^c) = 0,6 - 0,12 = 0,48.
+        \end{align}
+    </li>
+
+    <li>
+        Para que $A$ y $B$ sean independientes, ha de verificarse que:
+        $$P(A \cap B) = P(A) \cdot P(B) \Leftrightarrow P(B) = \frac{P(A \cap B)}{P(A)} = \frac{0,48}{0,6} = 0,8.$$
+    </li>
+
+    <li>
+        Como $P(B^c) = 0,2 \Leftrightarrow P(B) = 0,8$, por el apartado anterior sabemos que $A$ y $B$ son independientes.
+        Calculamos:
+        \begin{align}
+            & P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0,6 + 0,8 - 0,48 = 0,92, \\
+            & P(A^c \cup B^c) = P((A \cap B)^c) = 1 - P(A \cap B) = 1 - 0,48 = 0,52, \\
+            & P(A|B^c) = P(A) = 0,6.
+        \end{align}
+    </li>
+</ol>

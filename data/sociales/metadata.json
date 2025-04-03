@@ -1347,6 +1347,7 @@
     },
     {
         "ejercicio": 202122,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Potencias",
@@ -1381,6 +1382,7 @@
     },
     {
         "ejercicio": 202126,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Problemas de sucesos"
