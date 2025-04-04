@@ -1,0 +1,90 @@
+<ol>
+    <li>
+        Estudiamos la continuidad y la derivabilidad.
+
+        <ul>
+            <li>
+                Si $x \in [-2, 2]$ con $x \neq 0$, $f$ es continua y derivable con:
+                $$f'(x) = \begin{cases}
+                    2(x+1), & \text{si } -2 \leq x < 0, \\
+                    2(x-1), & \text{si } 0 < x \leq 2.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la continuidad en $x = 0.$
+                \begin{align}
+                    & \lim_{x \to 0^-} f(x) = \lim_{x \to 0^-} (x + 1)^2 = 1, \\
+                    & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} (x - 1)^2 = 1, \\
+                    & f(0) = 1.
+                \end{align}
+
+                Observamos que:
+                $$\lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) = f(0).$$
+
+                Así que $f$ es continua en $x = 0.$
+                Pasamos a estudiar su derivabilidad.
+                \begin{align}
+                    & f'_-(0) = \lim_{x \to 0^-} f'(x) = \lim_{x \to 0^-} 2(x + 1) = 2, \\
+                    & f'_+(0) = \lim_{x \to 0^+} f'(x) = \lim_{x \to 0^+} 2(x - 1) = -2.
+                \end{align}
+
+                Como $f'_-(0) \neq f'_+(0)$, $f$ no es derivable en $x = 0.$
+            </li>
+        </ul>
+
+        Por tanto, $f$ es continua en $[-2, 2]$ y derivable en $[-2, 0) \cup (0, 2].$
+    </li>
+
+    <li>
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+
+        <ul>
+            <li>
+                Si $-2 \leq x < 0$,
+                $$f'(x) = 0 \Leftrightarrow 2(x + 1) = 0 \Leftrightarrow x = -1.$$
+            </li>
+
+            <li>
+                Si $0 < x \leq 2$,
+                $$f'(x) = 0 \Leftrightarrow 2(x - 1) = 0 \Leftrightarrow x = 1.$$
+            </li>
+        </ul>
+
+        Así que los puntos críticos son $x = -1$ y $x = 1.$
+        Consideramos también $x = 0$ por no ser derivable.
+        Estudiamos el signo de $f'.$
+
+        <ul>
+            <li>
+                Si $-2 < x < -1$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $-1 < x < 0$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $0 < x < 1$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $1 < x < 2$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, los puntos $(-2, 1)$, $(0, 1)$ y $(2, 1)$ son máximos relativos y los puntos $(-1, 0)$ y $(1, 0)$ son mínimos relativos.
+    </li>
+
+    <li>
+        Representamos el recinto.
+        <img src="img/sociales/R202123.png" alt="Figura" loading="lazy">
+
+        Como el recinto es simétrico, podemos calcular su área como:
+        $$2\int_0^1 (x - 1)^2dx =2\left[\frac{1}{3}(x - 1)^3\right]_0^1 = 2 \cdot \frac{1}{3} = \frac{2}{3} \; u^2.$$
+    </li>
+</ol>
