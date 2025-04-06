@@ -1,0 +1,29 @@
+<p>
+    Llamamos $x$ al número de unidades del medicamento A e $y$ al número de unidades del medicamento B.
+    Las restricciones del problema son:
+    $$\begin{cases}
+        x + y \leq 10, \\
+        x + y \geq 4, \\
+        x \leq y + 2, \\
+        x \geq 0.
+    \end{cases}$$
+
+    La función objetivo a maximizar es:
+    $$F(x, y) = 60x + 25y.$$
+</p>
+
+<p>
+    Representamos la región factible.
+    <img src="img/sociales/R202121.png" alt="Figura" loading="lazy">
+
+    Los vértices son:
+    $$A(0, 4), \quad B(0, 10), \quad C(6, 4) \quad \text{y} \quad D(3, 1).$$
+</p>
+
+<p>
+    Por el teorema fundamental de la programación lineal, el máximo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices.
+    $$F(A) = F(0, 4) = 100, \quad F(B) = F(0, 10) = 250, \quad F(C) = F(6, 4) = 460, \quad F(D) = F(3, 1) = 205.$$
+    
+    Por tanto, el beneficio máximo se alcanza fabricando 6 unidades del medicamento A y 4 del medicamento B por hora, con unas ganancias de 460€.
+</p>
