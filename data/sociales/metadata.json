@@ -1392,6 +1392,7 @@
     },
     {
         "ejercicio": 202127,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Muestreo",
@@ -1400,6 +1401,7 @@
     },
     {
         "ejercicio": 202128,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"
