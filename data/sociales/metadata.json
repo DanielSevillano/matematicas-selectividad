@@ -1436,6 +1436,7 @@
     },
     {
         "ejercicio": 202134,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -1443,6 +1444,7 @@
     },
     {
         "ejercicio": 202135,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Problemas de sucesos"

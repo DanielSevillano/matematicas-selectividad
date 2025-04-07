@@ -1,0 +1,21 @@
+<ol>
+    <li>
+        Calculamos las derivadas.
+        \begin{align}
+            f'(x) & = 4(5x^3 + 4x - 2)^3 \cdot (15x^2 + 4) \cdot \ln(2x^5 - 4x^3 + x) + (5x^3 + 4x - 2)^4 \cdot \frac{10x^4 - 12x^2 + 1}{2x^5 - 4x^3 + x}, \\
+            g'(x) & = \frac{e^{3x^2-5x} \cdot (6x - 5) \cdot (6x^2 + 2)^3 - e^{3x^2-5x} \cdot 3(6x^2 + 2)^2 \cdot 12x}{(6x^2 + 2)^6} = \frac{e^{3x^2-5x}[(6x-5)(6x^2+2) - 36x]}{(6x^2 + 2)^4} = \\
+            & = \frac{e^{3x^2-5x}(36x^3 - 30x^2 - 24x - 10)}{(6x^2 + 2)^4}.
+        \end{align}
+    </li>
+
+    <li>
+        Como $h'$ es la derivada de $h$, entonces:
+        $$h(x) = \int h'(x)dx = \int (4x^3 + x^2 - 4x - 1)dx = x^4 + \frac{1}{3}x^3 - 2x^2 - x + C.$$
+
+        Además, se tiene que verificar que:
+        $$h(2) = \frac{11}{3} \Leftrightarrow 16 + \frac{8}{3} - 8 - 2 + C = \frac{11}{3} \Leftrightarrow C = -5.$$
+
+        Por tanto, la función es:
+        $$h(x) = x^4 + \frac{1}{3}x^3 - 2x^2 - x - 5.$$
+    </li>
+</ol>

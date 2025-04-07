@@ -1,0 +1,28 @@
+<p>
+    En primer lugar, calculamos algunas probabilidades.
+    \begin{align}
+        & P(A) = 1 - P(A^c) = 1 - 0,35 = 0,65, \\
+        & P(A - B) = P(A) - P(A \cap B) \Rightarrow P(A \cap B) = P(A) - P(A - B) = 0,65 - 0,3 = 0,35.
+    \end{align}
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que suceda al menos uno de ellos es:
+        $$P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0,65 + 0,55 - 0,35 = 0,85.$$
+    </li>
+
+    <li>
+        La probabilidad de que ocurra $B$ sabiendo que no ha ocurrido $A$ es:
+        $$P(B|A^c) = \frac{P(B \cap A^c)}{P(A^c)} = \frac{P(B) - P(A \cap B)}{P(A^c)} = \frac{0,55 - 0,35}{0,35} \approx 0,5714.$$
+    </li>
+
+    <li>
+        La probabilidad de que no ocurra ninguno de los dos sucesos es:
+        $$P(A^c \cap B^c) = P((A \cup B)^c) = 1 - P(A \cup B) = 1 - 0,85 = 0,15.$$
+    </li>
+
+    <li>
+        Como $P(B) \neq P(B|A^c)$, los sucesos no son independientes.
+    </li>
+</ol>
