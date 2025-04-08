@@ -1,0 +1,28 @@
+<ol>
+    <li>
+        Como 12 imprentas de $n = 50$ usan celulosa reciclada, la proporción muestral es:
+        $$p = \frac{12}{50} = 0,24.$$
+
+        El intervalo de confianza para estimar la proporción poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(p - z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}, \, p + z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}\right).$$
+
+        Como el nivel de confianza es del 95%, entonces:
+        $$\alpha = 1 - 0,95 = 0,05 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
+
+        Por tanto, el intervalo de confianza para estimar la proporción de imprentas que usan celulosa reciclada con un nivel de confianza del 95% es:
+        $$I = \left(0,24 - 1,96 \cdot \sqrt{\frac{0,24 \cdot (1-0,24)}{50}}, \, 0,24 + 1,96 \cdot \sqrt{\frac{0,24 \cdot (1-0,24)}{50}}\right) \approx (0,1216; \, 0,3584).$$
+    </li>
+
+    <li>
+        El error máximo de estimación viene dado por:
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}} = 1,96 \cdot \sqrt{\frac{0,24 \cdot (1-0,24)}{n}} = 1,96 \cdot \sqrt{\frac{0,1824}{n}}.$$
+
+        Si se quiere que el intervalo de confianza tenga una amplitud máxima de 0,2,
+        $$E = \frac{0,2}{2} = 0,1.$$
+
+        Así que:
+        $$1,96 \cdot \sqrt{\frac{0,1824}{n}} = 0,1 \Leftrightarrow \sqrt{\frac{0,1824}{n}} = \frac{0,1}{1,96} \Leftrightarrow \frac{0,1824}{n} = \frac{0,1^2}{1,96^2} \Leftrightarrow n = \frac{0,1824 \cdot 1,96^2}{0,1^2} \approx 70,0708.$$
+
+        Por tanto, el número mínimo de imprentas de la muestra debe ser 71.
+    </li>
+</ol>
