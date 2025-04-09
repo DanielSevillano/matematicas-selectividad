@@ -37,6 +37,11 @@ section>ul li {
     margin-block: 0.2em;
 }
 
+footer {
+    display: none;
+    margin-bottom: 1.5em;
+}
+
 /********************
 Tarjeta
 ********************/
