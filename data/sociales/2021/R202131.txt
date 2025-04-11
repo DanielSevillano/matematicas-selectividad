@@ -1,0 +1,69 @@
+<ol>
+    <li>
+        Llamamos $x$ al número de surtidos de tipo A e $y$ al de tipo B.
+        Podemos organizar la información en una tabla.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <th>Arándanos (g)</th>
+                    <th>Frambuesas (g)</th>
+                    <th>Precio (€)</th>
+                </tr>
+
+                <tr>
+                    <th>Surtido A</th>
+                    <td>75</td>
+                    <td>100</td>
+                    <td>2,40</td>
+                </tr>
+
+                <tr>
+                    <th>Surtido B</th>
+                    <td>75</td>
+                    <td>50</td>
+                    <td>1,80</td>
+                </tr>
+
+                <tr>
+                    <th>Máximo</th>
+                    <td>3.750</td>
+                    <td>4.000</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        Las restricciones del problema son:
+        $$\begin{cases}
+            75x + 75y \leq 3.750, \\
+            100x + 50y \leq 4.000, \\
+            x \leq 2y, \\
+            x \geq 0
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            x + y \leq 50, \\
+            2x + y \leq 80, \\
+            x \leq 2y, \\
+            x \geq 0.
+        \end{cases}$$
+
+        La función objetivo a maximizar es:
+        $$F(x, y) = 2,4x + 1,8y.$$
+    </li>
+
+    <li>
+        Representamos la región factible.
+        <img src="img/sociales/R202131.png" alt="Figura" loading="lazy">
+
+        Los vértices son:
+        $$A(0, 2), \quad B(0, 7), \quad C(5, 0) \quad \text{y} \quad D\left(3, \frac{1}{2}\right).$$
+        
+        Por el teorema fundamental de la programación lineal, el mínimo de la función se alcanza en uno de los vértices de la región en caso de existir.
+        Evaluamos la función en los vértices.
+        $$F(A) = F(0, 2) = 2, \quad F(B) = F(0, 7) = 7, \quad F(C) = F(5, 0) = 10, \quad F(D) = F\left(3, \frac{1}{2}\right) = \frac{13}{2}.$$
+        
+        Por tanto, el mínimo se alcanza en el punto $A(0, 2)$ con un valor de 2.
+    </li>
+</ol>

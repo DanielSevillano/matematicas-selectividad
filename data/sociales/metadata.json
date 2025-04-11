@@ -1410,6 +1410,7 @@
     },
     {
         "ejercicio": 202131,
+        "resuelto": true,
         "categorias": [
             "Programación lineal",
             "Problemas de optimización"
