@@ -1417,6 +1417,7 @@
     },
     {
         "ejercicio": 202132,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Dimensiones",
@@ -1425,6 +1426,7 @@
     },
     {
         "ejercicio": 202133,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",

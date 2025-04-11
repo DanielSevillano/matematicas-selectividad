@@ -1,0 +1,71 @@
+<ol>
+    <li>
+        Las matrices $I_3$ y $A$ son cuadradas de orden 3, así que $10I_3 - A$ es también una matriz cuadrada de orden 3.
+        Para que el producto $(10I_3 - A)X$ se pueda realizar, es necesario que $X$ tenga 3 filas.
+        Por otro lado, para que el resultado de ese producto sea de dimensión $3 \times 1$, la matriz $X$ debe tener 1 columna.
+        Por tanto, la matriz $X$ tiene dimensión $3 \times 1.$
+    </li>
+
+    <li>
+        En primer lugar, hallamos la matriz $10I_3 - A.$
+        $$10I_3 - A = \begin{pmatrix}
+            10 & 0 & 0 \\
+            0 & 10 & 0 \\
+            0 & 0 & 10
+        \end{pmatrix} -
+        \begin{pmatrix}
+            2 & 1 & 0 \\
+            4 & 2 & 0 \\
+            2 & 2 & 5
+        \end{pmatrix} =
+        \begin{pmatrix}
+            8 & -1 & 0 \\
+            -4 & 8 & 0 \\
+            -2 & -2 & 5
+        \end{pmatrix}.$$
+        
+        Comprobamos si la matriz $(10I_3 - A)$ es invertible.
+        $$|10I_3 - A| = \begin{vmatrix}
+            8 & -1 & 0 \\
+            -4 & 8 & 0 \\
+            -2 & -2 & 5
+        \end{vmatrix} = 300.$$
+
+        Como $\det(10I_3 - A) \neq 0$, la matriz es invertible.
+        Despejamos la ecuación matricial.
+        $$(10I_3 - A)X = B \Leftrightarrow X = (10I_3 - A)^{-1}B.$$
+
+        Por tanto, la ecuación tiene solución para cualquier matriz $B$ de tamaño $3 \times 1.$
+    </li>
+
+    <li>
+        Para hallar la inversa de $10I_3 - A$, calculamos primero su matriz adjunta.
+        $$\Adj(10I_3 - A) = \begin{pmatrix}
+            8 & -1 & 0 \\
+            -4 & 8 & 0 \\
+            -2 & -2 & 5
+        \end{pmatrix}.$$
+
+        Calculamos su inversa de la forma:
+        $$(10I_3 - A)^{-1} = \frac{1}{|10I_3 - A|}\Adj(10I_3 - A)^t = \frac{1}{300} \begin{pmatrix}
+            8 & -4 & -2 \\
+            -1 & 8 & -2 \\
+            0 & 0 & 5
+        \end{pmatrix}.$$
+
+        Por tanto,
+        $$X = (10I_3 - A)^{-1}B = \frac{1}{300} \begin{pmatrix}
+            8 & -4 & -2 \\
+            -1 & 8 & -2 \\
+            0 & 0 & 5
+        \end{pmatrix}
+        \begin{pmatrix}
+            5 \\ 20 \\ -3
+        \end{pmatrix} = \frac{1}{300} \begin{pmatrix}
+            300 \\ 900 \\ 300
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 \\ 3 \\ 1
+        \end{pmatrix}.$$
+    </li>
+</ol>

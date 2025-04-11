@@ -1,0 +1,122 @@
+<ol>
+    <li>
+        Estudiamos la continuidad de $f.$
+
+        <ul>
+            <li>
+                Si $x \in [-4, 3]$ con $x \neq -2$ y $x \neq 2$, $f$ es continua.
+            </li>
+
+            <li>
+                Estudiamos su continuidad en $x = -2.$
+                \begin{align}
+                    & \lim_{x \to -2^-} f(x) = \lim_{x \to -2^-} (-2x + 2a) = 4 + 2a, \\
+                    & \lim_{x \to -2^+} f(x) = \lim_{x \to -2^+} (-2x^2 - 4a) = -8 - 4a, \\
+                    & f(-2) = 4 + 2a.
+                \end{align}
+
+                Para que $f$ sea continua en $x = -2$, ha de verificarse que:
+                $$4 + 2a = -8 - 4a \Leftrightarrow 6a = -12 \Leftrightarrow a = -2.$$
+            </li>
+
+            <li>
+                Estudiamos su continuidad en $x = 2.$
+                \begin{align}
+                    & \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} (-2x^2 + 8) = 0, \\
+                    & \lim_{x \to 2^+} f(x) = \lim_{x \to 2^+} (-8x + b) = -16 + b, \\
+                    & f(2) = 0.
+                \end{align}
+
+                Para que $f$ sea continua en $x = 2$, ha de verificarse que:
+                $$0 = -16 + b \Leftrightarrow b = 16.$$
+            </li>
+        </ul>
+
+        Por tanto, $f$ es continua si $a = -2$ y $b = 16.$
+        Estudiamos su derivabilidad para estos valores.
+
+        <ul>
+            <li>
+                Si $x \in [-4, 3]$ con $x \neq -2$ y $x \neq 2$, $f$ es derivable con:
+                $$f'(x) = \begin{cases}
+                    -2, & \text{si } -4 \leq x < -2, \\
+                    -4x, & \text{si } -2 < x < 2, \\
+                    -8, & \text{si } 2 < x \leq 3.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos su derivabilidad en $x = -2.$
+                \begin{align}
+                    & f'_-(-2) = \lim_{x \to -2^-} f'(x) = \lim_{x \to -2^-} -2 = -2, \\
+                    & f'_+(-2) = \lim_{x \to -2^+} f'(x) = \lim_{x \to -2^+} -4x = 8.
+                \end{align}
+
+                Como $f'_-(-2) \neq f'_+(-2)$, $f$ no es derivable en $x = -2.$
+            </li>
+
+            <li>
+                Estudiamos su derivabilidad en $x = 2.$
+                \begin{align}
+                    & f'_-(2) = \lim_{x \to 2^-} f'(x) = \lim_{x \to 2^-} -4x = -8, \\
+                    & f'_+(2) = \lim_{x \to 2^+} f'(x) = \lim_{x \to 2^+} -8 = -8.
+                \end{align}
+
+                Como $f'_-(2) = f'_+(2)$, $f$ es derivable en $x = 2.$
+        </ul>
+
+        Por tanto, $f$ es derivable en $[-4, -2) \cup (-2, 3].$
+    </li>
+
+    <li>
+        Para hallar los puntos críticos, igualamos las tres ramas de la derivada a cero.
+
+        <ul>
+            <li>
+                Si $-4 < x < -2$, $f'(x) = -2 \neq 0.$
+            </li>
+            
+            <li>
+                Si $-2 < x < 3$,
+                $$f'(x) = 0 \Leftrightarrow -4x = 0 \Leftrightarrow x = 0.$$
+            </li>
+            
+            <li>
+                Si $2 < x < 3$, $f'(x) = -8 \neq 0.$
+            </li>
+        </ul>
+
+        Así que el único punto crítico es $x = 0.$
+        Consideramos también $x = -2$ por no ser derivable.
+        Estudiamos el signo de $f'.$
+
+        <ul>
+            <li>
+                Si $-4 < x < -2$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $-2 < x < 0$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $0 < x < 3$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es creciente en $(-2, 0)$ y decreciente en $(-4, -2) \cup (0, 3).$
+        Además, los puntos $(-4, 4)$ y $(0, 8)$ son máximos relativos y los puntos $(-2, 0)$ y $(3, -8)$ son mínimos relativos.
+        Así que $(0, 8)$ es el máximo absoluto y $(3, -8)$ es el mínimo absoluto.
+    </li>
+
+    <li>
+        Podemos representar el recinto.
+        <img src="img/sociales/R202133.png" alt="Figura" loading="lazy">
+
+        Como el recinto es simétrico, podemos calcular su área como:
+        $$2 \int_0^2 (-2x^2 + 8)dx = 2\left[-\frac{2}{3}x^3 + 8x\right]_0^2 = 2\left(-\frac{16}{3} + 16\right) = \frac{64}{3} \; u^2.$$
+    </li>
+</ol>
