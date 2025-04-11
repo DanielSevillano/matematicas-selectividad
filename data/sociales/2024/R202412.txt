@@ -1,40 +1,34 @@
 <p>
     Llamamos $x$ al número de centros florales e $y$ al de candelabros.
-</p>
+    Las restricciones del problema son:
+    $$\begin{cases}
+        x + y \geq 12, \\
+        x + y \leq 40.
+        y \leq \frac{x}{3}, \\
+        y \geq 0
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        x + y \geq 12, \\
+        x + y \leq 40.
+        3y \leq x, \\
+        y \geq 0.
+    \end{cases}$$
 
-<p>
-    Cada mesa se decora con un centro floral o un candelabro y se montan entre 12 y 40 mesas, así que
-    $$x + y \geq 12 \quad \text{y} \quad x + y \leq 40.$$
-
-    El número de candelabros no puede ser superior a una tercera parte de los centros florales, así que
-    $$y \leq \frac{x}{3} \Leftrightarrow 3y \leq x.$$
-
-    Además, incorporamos la restricción
-    $$y \geq 0.$$
-
-    Por último, como los precios de cada centro floral y cada candelabro son de 32€ y 35€ respectivamente, la función objetivo es
+    La función objetivo a maximizar es:
     $$F(x, y) = 32x + 35y.$$
-
-    Por tanto, el problema es
-    \begin{align}
-        \text{Maximizar } & F(x, y) = 32x + 35y, \\
-        \text{sujeto a } & x + y \geq 12, \\
-        & x + y \leq 40, \\
-        & 3y \leq x, \\
-        & y \geq 0.
-    \end{align}
 </p>
 
 <p>
-    Dibujamos la región obtenida mediante las inecuaciones.
+    Representamos la región.
     <img src="img/sociales/R202412.png" alt="Figura" loading="lazy">
 
-    Los vértices son
+    Los vértices son:
     $$A(12, 0), \quad B(9, 3), \quad C(30, 10) \quad \text{y} \quad D(40, 0).$$
 </p>
 
 <p>
-    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    Por el teorema fundamental de la programación lineal, el máximo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices.
     \begin{align}
         & F(A) = F(12, 0) = 384, & & F(B) = F(9, 3) = 393, \\
         & F(C) = F(30, 10) = 1.310, & & F(D) = F(40, 0) = 1.280.
