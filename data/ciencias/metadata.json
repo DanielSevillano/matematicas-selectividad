@@ -5079,5 +5079,61 @@
             "Geometría",
             "Punto simétrico"
         ]
+    },
+    {
+        "ejercicio": 201101,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201102,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 201103,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Discusión de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201104,
+        "categorias": [
+            "Geometría",
+            "Punto simétrico"
+        ]
+    },
+    {
+        "ejercicio": 201105,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201106,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201107,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201108,
+        "categorias": [
+            "Geometría"
+        ]
     }
 ]

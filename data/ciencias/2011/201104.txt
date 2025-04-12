@@ -1,0 +1,2 @@
+Determina el punto simétrico del punto $A(-3, 1, 6)$ respecto de la recta $r$ de ecuaciones:
+$$x - 1 = \frac{y + 3}{2} = \frac{z + 1}{2}.$$

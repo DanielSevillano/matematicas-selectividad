@@ -1,0 +1,10 @@
+Sea $f: (-1,+\infty) \to \mathbb{R}$ la función definida por $f(x) = \ln(x + 1).$
+
+<ol>
+    <li>
+        Esboza el recinto limitado por la gráfica de $f$, el eje $OY$ y la recta $y = 1.$
+        Calcula los puntos de corte de las gráficas.
+    </li>
+
+    <li>Halla el área del recinto anterior.</li>
+</ol>

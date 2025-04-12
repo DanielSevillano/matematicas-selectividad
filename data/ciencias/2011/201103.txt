@@ -1,0 +1,11 @@
+Dado el sistema de ecuaciones lineales:
+$$\begin{cases}
+    -\lambda x + y + z = 1, \\
+    x + \lambda y + z = 2, \\
+    \lambda x + y + z = 1.
+\end{cases}$$
+
+<ol>
+    <li>Clasifica el sistema según los valores del parámetro $\lambda.$</li>
+    <li>Resuelve el sistema para $\lambda = 0.$</li>
+</ol>

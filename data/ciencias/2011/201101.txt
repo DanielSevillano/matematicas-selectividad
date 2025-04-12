@@ -1,0 +1,2 @@
+Se desea construir un depósito cilíndrico cerrado de área total igual a 54 m<sup>2</sup>.
+Determina el radio de la base y la altura del cilindro para que este tenga volumen máximo.

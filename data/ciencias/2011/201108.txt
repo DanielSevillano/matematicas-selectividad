@@ -1,0 +1,10 @@
+Considera los puntos $A(1, 0, -1)$ y $B(2, 1, 0)$, y la recta $r$ dada por:
+$$\begin{cases} 
+    x + y = 1, \\ 
+    x + z = 2.
+\end{cases}$$
+
+<ol>
+    <li>Determina la ecuación del plano que es paralelo a $r$ y pasa por $A$ y $B.$</li>
+    <li>Determina si la recta que pasa por los puntos $P(1, 2, 1)$ y $Q(3, 4, 1)$ está contenida en dicho plano.</li>
+</ol>

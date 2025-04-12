@@ -1,0 +1,10 @@
+Dada la matriz 
+$$A = \begin{pmatrix} 
+    \lambda + 1 & 0 \\
+    1 & -1 
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina los valores de $\lambda$ para los que la matriz $A^2 + 3A$ no tiene inversa.</li>
+    <li>Para $\lambda = 0$, halla la matriz $X$ que verifica la ecuación $AX + A = 2I.$</li>
+</ol>
