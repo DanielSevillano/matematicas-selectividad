@@ -1961,6 +1961,7 @@
     },
     {
         "ejercicio": 202018,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
