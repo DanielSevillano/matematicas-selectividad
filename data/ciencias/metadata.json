@@ -1932,6 +1932,7 @@
     },
     {
         "ejercicio": 202014,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Volumen"
