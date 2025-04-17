@@ -1,0 +1,10 @@
+Sean $f, g: \mathbb{R} \rightarrow \mathbb{R}$ las funciones definidas por
+$$f(x) = -\frac{1}{4}x^2 + 4 \quad \text{y} \quad g(x) = x^2 - 1.$$
+
+<ol>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = -2.$</li>
+    <li>
+        Esboza el recinto limitado por las gráficas de ambas funciones y la recta $y = x + 5.$
+        Calcula el área de este recinto.
+    </li>
+</ol>

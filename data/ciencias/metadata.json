@@ -5138,5 +5138,67 @@
         "categorias": [
             "Geometría"
         ]
+    },
+    {
+        "ejercicio": 201151,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201152,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 201153,
+        "categorias": [
+            "Álgebra",
+            "Rango",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201154,
+        "categorias": [
+            "Geometría",
+            "Vectores",
+            "Volumen"
+        ]
+    },
+    {
+        "ejercicio": 201155,
+        "categorias": [
+            "Análisis",
+            "Asíntotas",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201156,
+        "categorias": [
+            "Análisis",
+            "Recta tangente",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 201157,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201158,
+        "categorias": [
+            "Geometría",
+            "Punto simétrico"
+        ]
     }
 ]

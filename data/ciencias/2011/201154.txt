@@ -1,0 +1,6 @@
+Considera los puntos $A(-1, k, 3)$, $B(k + 1, 0, 2)$, $C(1, 2, 0)$ y $D(2, 0, 1).$
+
+<ol>
+    <li>¿Existe algún valor de $k$ para el que los vectores $\overrightarrow{AB}$, $\overrightarrow{BC}$ y $\overrightarrow{CD}$ sean linealmente dependientes?</li>
+    <li>Calcula los valores de $k$ para los que los puntos $A, B, C$ y $D$ forman un tetraedro de volumen 1.</li>
+</ol>

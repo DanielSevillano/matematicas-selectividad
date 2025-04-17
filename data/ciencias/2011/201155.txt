@@ -1,0 +1,8 @@
+Sea $f$ la función definida por
+$$f(x) = \frac{3x^4 + 1}{x^3}$$
+para $x \neq 0.$
+
+<ol>
+    <li>Estudia las asíntotas de la gráfica de la función.</li>
+    <li>Halla los intervalos de crecimiento y de decrecimiento, y los extremos relativos (abscisas donde se obtienen y valores que se alcanzan).</li>
+</ol>

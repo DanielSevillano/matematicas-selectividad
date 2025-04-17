@@ -1,0 +1,14 @@
+Dadas las matrices:
+$$A = \begin{pmatrix}
+    \alpha & 1 & -1 \\
+    1 & \alpha & -1 \\
+    -1 & -1 & \alpha
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    0 \\ 1 \\ 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcula el rango de $A$ dependiendo de los valores de $\alpha.$</li>
+    <li>Para $\alpha = 2$, resuelve la ecuación matricial $AX = B.$</li>
+</ol>

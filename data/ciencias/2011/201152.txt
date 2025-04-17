@@ -1,0 +1,7 @@
+Considera las funciones $f, g: \mathbb{R} \rightarrow \mathbb{R}$ definidas por:
+$$f(x) = 6x - x^2, \quad g(x) = x^2 - 2x.$$
+
+<ol>
+    <li>Esboza sus gráficas en unos mismos ejes coordenados y calcula sus puntos de corte.</li>
+    <li>Calcula el área del recinto limitado por las gráficas de $f$ y $g.$</li>
+</ol>

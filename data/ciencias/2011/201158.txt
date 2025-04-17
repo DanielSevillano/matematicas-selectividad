@@ -1,0 +1,10 @@
+Dados el plano $\pi$ de ecuación $x + 2y - z = 0$ y la recta $r$ de ecuaciones
+$$\begin{cases}
+    3x - y = 5, \\
+    x + y - 4z = -13.
+\end{cases}.$$
+
+<ol>
+    <li>Halla el punto de intersección del plano $\pi$ y la recta $r.$</li>
+    <li>Halla el punto simétrico del punto $Q(1, -2, 3)$ respecto del plano $\pi.$</li>
+</ol>
