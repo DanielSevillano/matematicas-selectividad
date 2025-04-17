@@ -3,13 +3,13 @@
     Las restricciones del problema son:
     $$\begin{cases}
         x + y \geq 12, \\
-        x + y \leq 40.
+        x + y \leq 40, \\
         y \leq \frac{x}{3}, \\
         y \geq 0
     \end{cases} \Leftrightarrow
     \begin{cases}
         x + y \geq 12, \\
-        x + y \leq 40.
+        x + y \leq 40, \\
         3y \leq x, \\
         y \geq 0.
     \end{cases}$$
