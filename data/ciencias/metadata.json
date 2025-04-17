@@ -1948,6 +1948,7 @@
     },
     {
         "ejercicio": 202016,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"

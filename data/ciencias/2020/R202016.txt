@@ -1,0 +1,31 @@
+<p>
+    En primer lugar, realizamos el cambio de variable:
+    \begin{align}
+        t = x + 1 \Rightarrow x & = t - 1, \\
+        dx & = dt.
+    \end{align}
+
+    De esta forma, la integral queda de la forma:
+    $$\int \ln(x^2 + 2x + 2)dx = \int \ln[(t-1)^2 + 2(t-1) + 2]dt = \int \ln(t^2 - 2t + 1 + 2t - 2 + 2)dt = \int \ln(t^2 + 1)dt.$$
+</p>
+
+<p>
+    Resolvemos la integral por partes.
+    \begin{align}
+        u = \ln(t^2 + 1) & \Rightarrow u' = \frac{2t}{t^2 + 1}, \\
+        v' = 1 & \Rightarrow v = t.
+    \end{align}
+
+    Entonces:
+    $$\int \ln(t^2 + 1)dt = t\ln(t^2 + 1) - \int \frac{2t^2}{t^2 + 1}dt.$$
+
+    Para resolver la integral, hacemos la división de polinomios del integrando.
+    $$\frac{2t^2}{t^2 + 1} = 2 - \frac{2}{t^2 + 1}.$$
+
+    Por tanto:
+    \begin{align}
+        \int \ln(t^2 + 1)dt & = t\ln(t^2 + 1) - \int \frac{2t^2}{t^2 + 1}dt = t\ln(t^2 + 1) - \int 2dt + \int \frac{2}{t^2 + 1}dt = \\
+        & = t\ln(t^2 + 1) - 2t + 2\arctan(t) + C = (x+1)\ln[(x+1)^2 + 1] - 2(x+1) + 2\arctan(x+1) + C = \\
+        & = (x+1)\ln(x^2 + 2x + 2) + 2\arctan(x+1) - 2x - 2 + C.
+    \end{align}
+</p>
