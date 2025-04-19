@@ -1956,6 +1956,7 @@
     },
     {
         "ejercicio": 202017,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
