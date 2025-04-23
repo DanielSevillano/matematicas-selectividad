@@ -1980,6 +1980,7 @@
     },
     {
         "ejercicio": 202022,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"

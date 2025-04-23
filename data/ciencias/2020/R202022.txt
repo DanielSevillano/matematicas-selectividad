@@ -1,0 +1,18 @@
+<p>
+    Como $f''$ es la derivada de $f'$, entonces:
+    $$f'(x) = \int f''(x)dx = \int \frac{1}{x+1}dx = \ln(x+1) + C.$$
+
+    Además, ha de verificarse que:
+    $$f'(0) = 0 \Leftrightarrow C = 0.$$
+</p>
+
+<p>
+    De igual forma, como $f'$ es la derivada de $f$, entonces:
+    $$f(x) = \int f'(x)dx = \int \ln(x+1)dx = (x+1)\ln(x+1) - (x+1) + K.$$
+
+    Si su gráfica pasa por el punto $(0, 1)$, ha de verificarse que:
+    $$f(0) = 1 \Leftrightarrow -1 + K = 1 \Leftrightarrow K = 2.$$
+
+    Por tanto, la función es:
+    $$f(x) = (x+1)\ln(x+1) - x + 1.$$
+</p>
