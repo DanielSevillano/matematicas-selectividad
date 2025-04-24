@@ -1,0 +1,82 @@
+<p>
+    En primer lugar, escribimos $f$ como una función a trozos.
+    $$f(x) = \frac{|x|}{2 - x} = \begin{cases}
+        -\dfrac{x}{2 - x}, & \text{si } x < 0, \\
+        \dfrac{x}{2 - x}, & \text{si } x \geq 0.
+    \end{cases}$$
+</p>
+
+<ol>
+    <li>
+        Estudiamos la continuidad y la derivabilidad de $f.$
+
+        <ul>
+            <li>
+                Si $x \neq 0$ y $x \neq 2$, $f$ es continua y derivable con:
+                $$f'(x) = \begin{cases}
+                    -\dfrac{2}{(2-x)^2}, & \text{si } x < 0, \\
+                    \dfrac{2}{(2-x)^2}, & \text{si } x > 0.
+                \end{cases}$$
+            </li>
+
+            <li>
+                Estudiamos la continuidad en $x = 0.$
+                \begin{align}
+                    & \lim_{x \to 0} f(x) = \lim_{x \to 0} \frac{|x|}{2 - x} = 0, \\
+                    & f(0) = 0.
+                \end{align}
+
+                Así que $f$ es continua en $x = 0.$
+                Pasamos a estudiar su derivabilidad.
+                \begin{align}
+                    & f'_-(0) = \lim_{x \to 0^-} f'(x) = \lim_{x \to 0^-} -\frac{2}{(2 - x)^2} = -\frac{1}{2}, \\
+                    & f'_+(0) = \lim_{x \to 0^+} f'(x) = \lim_{x \to 0^+} \frac{2}{(2 - x)^2} = \frac{1}{2}.
+                \end{align}
+
+                Como $f'_-(0) \neq f'_+(0)$, $f$ no es derivable en $x = 0.$
+            </li>
+        </ul>
+
+        Por tanto, $f$ es derivable en $\mathbb{R} \setminus \{0, 2\}.$
+    </li>
+
+    <li>
+        Estudiamos la monotonía de $f.$
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+
+        <ul>
+            <li>
+                Si $x < 0$,
+                $$f'(x) = -\frac{2}{(2-x)^2} \neq 0.$$
+            </li>
+
+            <li>
+                Si $x > 0$,
+                $$f'(x) = \frac{2}{(2-x)^2} \neq 0.$$
+            </li>
+        </ul>
+
+        Así que $f$ no tiene puntos críticos.
+        Consideramos $x = 0$ y $x = 2$ por no ser derivable y no pertenecer al dominio, respectivamente.
+        Estudiamos el signo de $f'.$
+
+        <ul>
+            <li>
+                Si $x < 0$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $0 < x < 2$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $x > 2$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, la función es creciente en $(0, 2) \cup (2, +\infty)$ y decreciente en $(-\infty, 0).$
+    </li>
+</ol>

@@ -2004,6 +2004,7 @@
     },
     {
         "ejercicio": 202025,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Derivabilidad",
