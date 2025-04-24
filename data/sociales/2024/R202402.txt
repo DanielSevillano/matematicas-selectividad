@@ -64,7 +64,33 @@
     Representamos la región.
     <img src="img/sociales/R202402.png" alt="Figura" loading="lazy">
 
-    Los vértices son:
+    Hallamos los vértices desconocidos.
+    
+    <ul>
+        <li>
+            Para determinar el vértice $C$, planteamos el sistema:
+            $$\begin{cases}
+                y = 20, \\
+                5x + 8y = 300
+            \end{cases} \Leftrightarrow \begin{cases}
+                x = 28, \\
+                y = 20.
+            \end{cases}$$
+        </li>
+
+        <li>
+            Para determinar el vértice $D$, planteamos el sistema:
+            $$\begin{cases}
+                10x + 11y = 550, \\
+                5x + 8y = 300
+            \end{cases} \Leftrightarrow \begin{cases}
+                x = 44, \\
+                y = 10.
+            \end{cases}$$
+        </li>
+    </ul>
+
+    Por tanto, los vértices son:
     $$A(20, 0), \quad B(20, 20), \quad C(28, 20), \quad D(44, 10) \quad \text{y} \quad E(55, 0).$$
 </p>
 
