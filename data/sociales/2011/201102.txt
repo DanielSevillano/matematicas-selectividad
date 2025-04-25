@@ -1,0 +1,12 @@
+<ol>
+    <li>
+        Calcule la función derivada de
+        $$f(x) = \frac{e^{-2x}}{(-x^2 + 2)^2}.$$
+    </li>
+    
+    <li>
+        Se sabe que la expresión que representa el número medio de clientes $N(t)$ que acude un día a una cadena de almacenes, en función del número de horas $t$ que llevan abiertos, es
+        $$N(t) = a \cdot t^2 + b \cdot t, \quad 0 \leq t \leq 8, \quad a, b \in \mathbb{R}.$$
+        Sabiendo que el máximo de clientes que han acudido ese día ha sido de 160 y que se ha producido a las 4 horas de abrir, calcule $a$ y $b$.
+    </li>
+</ol>

@@ -1,0 +1,10 @@
+Las funciones $I(t) = -2t^2 + 51t$ y $G(t) = t^2 - 3t + 96$ con $0 \leq t \leq 18$ representan, respectivamente, los ingresos y gastos de una empresa, en miles de euros, en función de los años, $t$, transcurridos desde su inicio y en los últimos 18 años.
+
+<ol>
+    <li>¿Para qué valores de $t$, desde su entrada en funcionamiento, los ingresos coincidieron con los gastos?</li>
+    <li>Determine la función que refleje los beneficios (ingresos menos gastos) en función de $t$ y represéntela gráficamente.</li>
+    <li>
+        ¿Al cabo de cuántos años, desde su entrada en funcionamiento, los beneficios fueron máximos?
+        Calcule el valor de ese beneficio.
+    </li>
+</ol>

@@ -1,0 +1,8 @@
+Sea el recinto determinado por las siguientes inecuaciones:
+$$x + y \leq 20, \quad 3x + 5y \leq 70, \quad x \geq 0, \quad y \geq 0.$$
+
+<ol>
+    <li>Razone si el punto de coordenadas $(4,1; \, 11,7)$ pertenece al recinto.</li>
+    <li>Represente dicho recinto y calcule sus vértices.</li>
+    <li>¿Dónde alcanzará la función $F(x, y) = 0,6x + y$ sus valores extremos y cuáles serán estos?</li>
+</ol>

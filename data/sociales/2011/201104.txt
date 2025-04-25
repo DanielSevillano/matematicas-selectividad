@@ -1,0 +1,9 @@
+Una máquina está preparada para fabricar piezas de, a lo sumo, 10 cm de longitud.
+Se toma una muestra de 1.000 piezas, comprobándose que la media sus longitudes es de 10,0037 cm.
+La longitud de las piezas fabricadas por esa máquina sigue una ley Normal con desviación típica 0,2 cm.
+
+<ol>
+    <li>Plantee un contraste de hipótesis unilateral para comprobar si con los datos de esa muestra es posible afirmar que la media de la longitud de las piezas fabricadas por la máquina es de más de 10 cm.</li>
+    <li>Determine la región de aceptación de la hipótesis nula de ese contraste para un nivel de significación $\alpha = 0,025$.</li>
+    <li>Con los datos de la muestra y usando el contraste de hipótesis del primer apartado, ¿qué conclusión se obtendría sobre la longitud media de las piezas fabricadas?</li>
+</ol>

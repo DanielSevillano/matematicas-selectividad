@@ -1,0 +1,9 @@
+En una primera bolsa se han colocado 4 bolas blancas y 3 negras, y en una segunda bolsa 3 blancas y 5 negras.
+Se saca una bola de la primera y, sin verla, se introduce en la segunda.
+A continuación, se saca una bola de la segunda.
+Halle la probabilidad de que:
+
+<ol>
+    <li>La bola extraída de la segunda bolsa sea negra.</li>
+    <li>La bola extraída de la primera bolsa sea negra, si sabemos que la bola extraída de la segunda ha sido blanca.</li>
+</ol>

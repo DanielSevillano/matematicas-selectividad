@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Una población de tamaño 1.000 se ha dividido en 4 estratos de tamaño 150, 400, 250 y 200.
+        Utilizando muestreo aleatorio estratificado con afijación proporcional se han seleccionado 10 individuos del tercer estrato, ¿cuál es el tamaño de la muestra?
+    </li>
+
+    <li>
+        El peso de los individuos de una población se distribuye según una ley Normal de desviación típica 6 kg.
+        Calcule el tamaño mínimo de la muestra para estimar, con un nivel de confianza del 95%, el peso medio en la población con un error no superior a 1 kg.
+    </li>
+</ol>

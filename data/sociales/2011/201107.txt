@@ -1,0 +1,9 @@
+Un libro tiene cuatro capítulos.
+El primer capítulo tiene 140 páginas, el segundo 100, el tercero 150 y el cuarto 50.
+El 5% de las páginas del primer capítulo, el 4% del segundo y el 2% del tercero tienen algún error.
+Las páginas del cuarto capítulo no tienen errores.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que, al elegir una página al azar, tenga algún error?</li>
+    <li>Supongamos que elegimos una página al azar y observamos que no tiene ningún error, ¿cuál es la probabilidad de que sea del segundo capítulo?</li>
+</ol>
