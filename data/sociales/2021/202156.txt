@@ -1,4 +1,4 @@
-En una comunidad de vecinos, el 90% de sus miembros tiene vehiculo propio, el 40% hace uso del transporte público y un 3% ni tiene vehículo propio ni usa el transporte público.
+En una comunidad de vecinos, el 90% de sus miembros tiene vehículo propio, el 40% hace uso del transporte público y un 3% ni tiene vehículo propio ni usa el transporte público.
 Se elige al azar un miembro de esa comunidad.
 
 <ol>

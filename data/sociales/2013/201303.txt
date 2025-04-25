@@ -1,5 +1,5 @@
 El 55% de los alumnos de un centro docente utiliza en su desplazamiento transporte público, el 30% usa vehículo propio y el resto va andando.
-El 65% de los que utilizan transporte público son mujeres, el 70% de los que usan vehiculo propio son hombres y el 52% de los que van andando son mujeres.
+El 65% de los que utilizan transporte público son mujeres, el 70% de los que usan vehículo propio son hombres y el 52% de los que van andando son mujeres.
 
 <ol>
     <li>Elegido al azar un alumno de ese centro, calcule la probabilidad de que sea hombre.</li>

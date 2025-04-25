@@ -3,7 +3,7 @@
         Plantee, sin resolver, el siguiente problema:
         "Un barco puede transportar vehículos de dos tipos: coches y motos.
         Las condiciones de la nave obligan a que el numero de motos no pueda ser inferior a la cuarta parte del de coches ni superior a su doble; además, la suma del número de motos más el doble del número de coches no puede ser mayor que 100.
-        ¿Cuántos vehiculos, como máximo, puede transportar este barco?"
+        ¿Cuántos vehículos, como máximo, puede transportar este barco?"
     </li>
 
     <li>
