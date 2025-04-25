@@ -1988,6 +1988,7 @@
     },
     {
         "ejercicio": 202023,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",

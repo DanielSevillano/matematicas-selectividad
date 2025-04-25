@@ -1,0 +1,104 @@
+<ol>
+    <li>
+        La matriz de coeficientes del sistema es:
+        $$A = \begin{pmatrix}
+            a & 1 & 1 \\
+            1 & a & 1 \\
+            1 & 1 & a
+        \end{pmatrix}.$$
+
+        Para determinar el rango de $A$ según el valor de $a$, estudiamos su determinante.
+        $$|A| = \begin{vmatrix}
+            a & 1 & 1 \\
+            1 & a & 1 \\
+            1 & 1 & a
+        \end{vmatrix} = a^3 - 3a + 2.$$
+
+        Observamos que:
+        $$|A| = 0 \Leftrightarrow a^3 - 3a + 2 = 0 \Leftrightarrow (a - 1)^2(a + 2) = 0 \Leftrightarrow \begin{cases}
+            a = -2, \\
+            a = 1.
+        \end{cases}$$
+
+        Es decir, $\rang(A) = 3$ si y solo si $a \neq -2$ y $a \neq 1.$
+        En otro caso, $\rang(A) \leq 2.$
+
+        <ul>
+            <li>
+                Si $a \neq -2$ y $a \neq 1$, el rango de la matriz de coeficientes es máximo.
+                Por tanto, el sistema es compatible determinado.
+            </li>
+
+            <li>
+                Si $a = -2$, la matriz de coeficientes es:
+                $$A = \begin{pmatrix}
+                    -2 & 1 & 1 \\
+                    1 & -2 & 1 \\
+                    1 & 1 & -2
+                \end{pmatrix}.$$
+
+                Observamos que:
+                $$\begin{vmatrix}
+                    -2 & 1 \\
+                    1 & -2
+                \end{vmatrix} = 3 \neq 0 \Rightarrow \rang(A) = 2.$$
+
+                La matriz de coeficientes ampliada es:
+                $$A^\ast = \begin{ampmatrix}
+                    -2 & 1 & 1 & 1 \\
+                    1 & -2 & 1 & -2 \\
+                    1 & 1 & -2 & 4
+                \end{ampmatrix}.$$
+
+                Observamos que:
+                $$\begin{vmatrix}
+                    -2 & 1 & 1 \\
+                    1 & -2 & -2 \\
+                    1 & 1 & 4
+                \end{vmatrix} = 9 \neq 0 \Rightarrow \rang(A^\ast) = 3.$$
+
+                Como $\rang(A) \neq \rang(A^\ast)$, el sistema es incompatible.
+            </li>
+
+            <li>
+                Si $a = 1$, la matrices de coeficientes y ampliada son:
+                $$A = \begin{pmatrix}
+                    1 & 1 & 1 \\
+                    1 & 1 & 1 \\
+                    1 & 1 & 1
+                \end{pmatrix} \quad \text{y} \quad
+                A^\ast = \begin{ampmatrix}
+                    1 & 1 & 1 & 1 \\
+                    1 & 1 & 1 & 1 \\
+                    1 & 1 & 1 & 1
+                \end{ampmatrix}.$$
+
+                Observamos que las tres filas son iguales en las dos matrices, así que $\rang(A) = 1$ y $\rang(A^\ast) = 1.$
+                Como $\rang(A) = \rang(A^\ast) < 3$, el sistema es compatible indeterminado.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                Si $a = 1$, el sistema es compatible indeterminado por el apartado anterior y se puede reducir a:
+                $$x + y + z = 1.$$
+
+                Si tomamos $x = \lambda$ e $y = \mu$, entonces:
+                $$x + y + z = 1 \Leftrightarrow z = 1 - x - y = 1 - \lambda - \mu.$$
+
+                Por tanto, las soluciones del sistema son de la forma:
+                $$\begin{cases}
+                    x = \lambda, \\
+                    y = \mu, \\
+                    z = 1 - \lambda - \mu,
+                \end{cases} \quad \lambda, \mu \in \mathbb{R}.$$
+            </li>
+
+            <li>
+                Si $a = -2$, el sistema es incompatible por el apartado anterior, así que no tiene solución.
+            </li>
+        </ul>
+    </li>
+</ol>
