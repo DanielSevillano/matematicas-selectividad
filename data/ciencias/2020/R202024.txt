@@ -1,0 +1,56 @@
+<p>
+    En primer lugar, hallamos las ecuaciones paramétricas de la recta $r.$
+    Si $z = \lambda$,
+    \begin{align}
+        & x - z = 1 \Leftrightarrow x = 1 + z = 1 + \lambda, \\
+        & x - y + 2z = 5 \Leftrightarrow y = x + 2z - 5 = 1 + \lambda + 2\lambda - 5 = -4 + 3\lambda.
+    \end{align}
+
+    Por tanto,
+    $$r \equiv \begin{cases}
+        x = 1 + \lambda, \\
+        y = -4 + 3\lambda, \\
+        z = \lambda,
+    \end{cases} \quad \lambda \in \mathbb{R}.$$
+</p>
+
+<ol>
+    <li>
+        Para hallar el punto simétrico $P'$ de $P$ con respecto a $r$, trazamos un plano $\pi$ perpendicular a la recta que pase por $P.$
+        Al ser perpendicular a $r$, su vector normal es $\vec{n}_\pi = \vec{d}_r = (1, 3, 1).$
+        Así que la ecuación del plano $\pi$ es:
+        $$\pi \equiv x - 1 + 3y + z + 1 = 0 \Leftrightarrow x + 3y + z = 0.$$
+
+        A continuación, hallamos el punto de intersección $Q$ de la recta $r$ y el plano.
+        Para ello, sustituimos las ecuaciones paramétricas de $r$ en la ecuación del plano.
+        $$1 + \lambda + 3(-4 + 3\lambda) + \lambda = 0 \Leftrightarrow 1 + \lambda - 12 + 9\lambda + \lambda = 0 \Leftrightarrow 11\lambda - 11 = 0 \Leftrightarrow \lambda = 1.$$
+
+        Por tanto, el punto de intersección es $Q(2, -1, 1).$
+        Como $Q$ es el punto medio de $P$ y $P'$, podemos hallar $P'$ como el simétrico de $P$ con respecto de $Q.$
+        Si llamamos $P'(a, b, c)$, ha de que verificarse:
+        \begin{cases}
+            \dfrac{1+a}{2} = 2 \Leftrightarrow a = 3, \\
+            \dfrac{b}{2} = -1 \Leftrightarrow b = -2, \\
+            \dfrac{-1+c}{2} = 1 \Leftrightarrow c = 3.
+        \end{cases}
+
+        Por tanto, el punto simétrico de $P$ con respecto a la recta $r$ es $P'(3, -2, 3).$
+    </li>
+
+    <li>
+        Consideramos un punto genérico $R(1 + \lambda, -4 + 3\lambda, \lambda)$ de la recta $r.$
+        La distancia entre $P$ y el punto genérico $R$ viene dada por el módulo del vector $\vec{PR} = (\lambda, -4+3\lambda, \lambda+1).$
+        \begin{align}
+            \dist(P, R) & = |\vec{PR}| = \sqrt{\lambda^2 + (-4 + 3\lambda)^2 + (\lambda + 1)^2} = \sqrt{\lambda^2 + 16 - 24\lambda + 9\lambda^2 + \lambda^2 + 2\lambda + 1} = \\
+            & = \sqrt{11\lambda^2 - 22\lambda + 17}.
+        \end{align}
+
+        Para que la distancia de un punto de $r$ a $P$ sea de $\sqrt{6}$ unidades, ha de verificarse:
+        \begin{align}
+            \dist(P, R) = \sqrt{6} & \Leftrightarrow \sqrt{11\lambda^2 - 22\lambda + 17} = \sqrt{6} \Leftrightarrow 11\lambda^2 - 22\lambda + 17 = 6 \Leftrightarrow 11\lambda^2 - 22\lambda + 11 = 0 \Leftrightarrow \\
+            & \Leftrightarrow \lambda^2 - 2\lambda + 1 = 0 \Leftrightarrow (\lambda - 1)^2 = 0 \Leftrightarrow \lambda = 1.
+        \end{align}
+
+        Por tanto, el punto es $Q(2, -1, 1).$
+    </li>    
+</ol>

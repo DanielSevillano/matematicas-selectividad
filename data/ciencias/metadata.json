@@ -1997,6 +1997,7 @@
     },
     {
         "ejercicio": 202024,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Punto simétrico",
