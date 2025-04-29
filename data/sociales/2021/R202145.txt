@@ -1,0 +1,106 @@
+<p>
+    Llamamos $L$ a ser agente de la policía local, $B$ a ser bombero, $C$ a ser funcionario de protección civil, $M$ a ser mujer y $H$ a ser hombre.
+    Sabemos que:
+    $$P(L) = \frac{1.000}{2.000} = 0,5, \quad P(B) = \frac{600}{2.000} = 0,3 \quad \text{y} \quad P(C) = \frac{400}{2.000} = 0,2.$$
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,42 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$L$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,58 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$H$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,3 \quad}$</td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$H$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$H$</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que sea mujer es:
+        $$P(M) = P(M \cap L) + P(M \cap B) + P(M \cap C) = P(L) \cdot P(M|L) + P(B) \cdot P(M|B) + P(C) \cdot P(M|C) = 0,5 \cdot 0,42 + 0,3 \cdot 0,2 + 0,2 \cdot 0,5 = 0,37.$$
+    </li>
+
+    <li>
+        La probabilidad de que sea bombero sabiendo que es hombre es:
+        $$P(B|H) = \frac{P(B \cap H)}{P(H)} = \frac{P(B) \cdot P(H|B)}{1 - P(M)} = \frac{0,3 \cdot 0,8}{1 - 0,37} \approx 0,3810.$$
+    </li>
+</ol>
