@@ -1,77 +1,65 @@
 <p>
     Llamamos $x$ al número de lotes vendidos de tipo A e $y$ al de tipo B.
     Podemos organizar la información en una tabla.
-
-    <div class="tabla">
-        <table>
-            <tr>
-                <td></td>
-                <th>Cuadernos</th>
-                <th>Estuches</th>
-                <th>Precio (€)</th>
-            </tr>
-
-            <tr>
-                <th>Tipo A</th>
-                <td>2</td>
-                <td>2</td>
-                <td>35</td>
-            </tr>
-
-            <tr>
-                <th>Tipo B</th>
-                <td>3</td>
-                <td>1</td>
-                <td>45</td>
-            </tr>
-
-            <tr>
-                <th>Máximo</th>
-                <td>400</td>
-                <td>300</td>
-                <td></td>
-            </tr>
-        </table>
-    </div>
 </p>
 
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <th>Cuadernos</th>
+            <th>Estuches</th>
+            <th>Precio (€)</th>
+        </tr>
+
+        <tr>
+            <th>Tipo A</th>
+            <td>2</td>
+            <td>2</td>
+            <td>35</td>
+        </tr>
+
+        <tr>
+            <th>Tipo B</th>
+            <td>3</td>
+            <td>1</td>
+            <td>45</td>
+        </tr>
+
+        <tr>
+            <th>Máximo</th>
+            <td>400</td>
+            <td>300</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
 <p>
-    Se venden 2 cuadernos en cada lote de tipo A, 3 en cada lote de tipo B y se quieren vender un máximo de 400, así que
-    $$2x + 3y \leq 400.$$
+    Las restricciones del problema son:
+    $$\begin{cases}
+        2x + 3y \leq 400, \\
+        2x + y \geq 300, \\
+        y \leq 100, \\
+        x \geq 0, \\
+        y \geq 0.
+    \end{cases}$$
 
-    Se venden 2 estuches en cada lote de tipo A, 1 en cada lote de tipo B y se quieren vender un máximo de 300, así que
-    $$2x + y \leq 300.$$
-
-    Como no es posible vender más de 100 lotes de tipo B,
-    $$y \leq 100.$$
-
-    Además, incorporamos las restricciones
-    $$x \geq 0, \quad y \geq 0.$$
-
-    Por último, como el precio de los lotes de tipo A y B son de 30€ y 45€ respectivamente, la función objetivo es
+    La función objetivo a maximizar es:
     $$F(x, y) = 35x + 45y.$$
-
-    Por tanto, el problema es
-    \begin{align}
-        \text{Maximizar } & F(x, y) = 35x + 45y, \\
-        \text{sujeto a } & 2x + 3y \leq 400, \\
-        & 2x + y \geq 300, \\
-        & y \leq 100, \\
-        & x \geq 0, \\
-        & y \geq 0.
-    \end{align}
 </p>
 
 <p>
-    Dibujamos la región definida mediante las inecuaciones.
+    Representamos la región factible.
     <img src="img/sociales/R202232.png" alt="Figura" loading="lazy">
 
-    Los vértices son
+    Los vértices son:
     $$A(0, 0), \quad B(0, 100), \quad C(50, 100), \quad D(125, 50) \quad \text{y} \quad E(150, 0).$$
 </p>
 
 <p>
-    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    Por el teorema fundamental de la programación lineal, el máximo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices.
     \begin{align}
         & F(A) = F(0, 0) = 0, & & F(B) = F(0, 100) = 4.500, & & F(C) = F(50, 100) = 6.250, \\
         & F(D) = F(125, 50) = 6.625, & & F(E) = F(150, 0) = 5.250.

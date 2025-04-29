@@ -3,42 +3,30 @@
 </p>
 
 <p>
-    El barco $B_1$ puede realizar como máximo 14 viajes y como mínimo el mismo número de viajes que el barco $B_2$, así que
-    $$x \leq 14 \quad \text{y} \quad x \geq y.$$
+    Las restricciones del problema son:
+    $$\begin{cases}
+        x \leq 14, \\
+        x \geq y, \\
+        x + y \geq 10, \\
+        x + y \leq 24, \\
+        y \geq 0.
+    \end{cases}$$
 
-    Entre los dos barcos deben realizar al menos 10 viajes y como mucho 24, así que
-    $$x + y \geq 10 \quad \text{y} \quad x + y \leq 24.$$
-
-    Además, incorporamos la restricción
-    $$y \geq 0.$$
-
-    Por último, como los beneficios obtenidos por cada viaje de los barcos $B_1$ y $B_2$ son de 15.000€ y 17.000€ respectivamente, la función objetivo es
+    La función objetivo a maximizar es:
     $$F(x, y) = 15.000x + 17.000y.$$
-
-    Por tanto, el problema es
-    \begin{align}
-        \text{Maximizar } & F(x, y) = 15.000x + 17.000y, \\
-        \text{sujeto a } & x \leq 14, \\
-        & x \geq y, \\
-        & x + y \geq 10, \\
-        & x + y \leq 24, \\
-        & y \geq 0.
-    \end{align}
 </p>
 
 <p>
-    Dibujamos la región obtenida mediante las inecuaciones.
+    Representamos la región factible.
     <img src="img/sociales/R202322.png" alt="Figura" loading="lazy">
 
-    Los vértices son
-    \begin{align}
-        & A(10, 0), & & B(5, 5), & & C(12, 12), \\
-        & D(14, 10), & & E(14, 0).
-    \end{align}
+    Los vértices son:
+    $$A(10, 0), \quad B(5, 5), \quad C(12, 12), \quad D(14, 10), \quad E(14, 0).$$
 </p>
 
 <p>
-    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    Por el teorema fundamental de la programación lineal, el máximo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices. 
     \begin{align}
         & F(A) = F(10, 0) = 150.000, & & F(B) = F(5, 5) = 160.000, \\
         & F(C) = F(12, 12) = 384.000, & & F(D) = F(14, 10) = 380.000, \\

@@ -1,81 +1,76 @@
 <p>
     Llamamos $x$ al número de botes de pintura de color Júpiter e $y$ al de Minerva.
     Podemos organizar la información en una tabla.
-
-    <div class="tabla">
-        <table>
-            <tr>
-                <td></td>
-                <th>Verde (kg)</th>
-                <th>Morado (kg)</th>
-                <th>Naranja (kg)</th>
-                <th>Beneficio (€)</th>
-            </tr>
-
-            <tr>
-                <th>Júpiter</th>
-                <td>10</td>
-                <td>5</td>
-                <td>5</td>
-                <td>30</td>
-            </tr>
-
-            <tr>
-                <th>Minerva</th>
-                <td>5</td>
-                <td>5</td>
-                <td>0</td>
-                <td>20</td>
-            </tr>
-
-            <tr>
-                <th>Total</th>
-                <td>1.000</td>
-                <td>800</td>
-                <td>300</td>
-                <td></td>
-            </tr>
-        </table>
-    </div>
 </p>
 
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <th>Verde (kg)</th>
+            <th>Morado (kg)</th>
+            <th>Naranja (kg)</th>
+            <th>Beneficio (€)</th>
+        </tr>
+
+        <tr>
+            <th>Júpiter</th>
+            <td>10</td>
+            <td>5</td>
+            <td>5</td>
+            <td>30</td>
+        </tr>
+
+        <tr>
+            <th>Minerva</th>
+            <td>5</td>
+            <td>5</td>
+            <td>0</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <th>Total</th>
+            <td>1.000</td>
+            <td>800</td>
+            <td>300</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
 <p>
-    Se necesitan 10 kg de pintura verde para cada bote de color Júpiter, 5 kg para cada bote de color Minerva y se dispone de 1.000 kg en total, así que
-    $$10x + 5y \leq 1.000 \Leftrightarrow 2x + y \leq 200.$$
-    
-    Se necesitan 5 kg de pintura morada para cada bote de color Júpiter, 5 kg para cada bote de color Minerva y se dispone de 800 kg en total, así que
-    $$5x + 5y \leq 800 \Leftrightarrow x + y \leq 160.$$
+    Las restricciones del problema son:
+    $$\begin{cases}
+        10x + 5y \leq 1.000, \\
+        5x + 5y \leq 800, \\
+        5x \leq 300, \\
+        x \geq 0, \\
+        y \geq 0.
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        2x + y \leq 200, \\
+        x + y \leq 160, \\
+        x \leq 60, \\
+        x \geq 0, \\
+        y \geq 0.
+    \end{cases}$$
 
-    Se necesitan 5 kg de pintura narajana para cada bote de color Júpiter, ninguno para el color Minerva y se dispone de 300 kg en total, así que
-    $$5x \leq 300 \Leftrightarrow x \leq 60.$$
-
-    Además, incorporamos las restricciones
-    $$x \geq 0, \quad y \geq 0.$$
-
-    Por último, como se obtienen unos beneficios de 30€ y 20€ por cada bote de color Júpiter y Minerva respectivamente, la función objetivo es
+    La función objetivo a maximizar es:
     $$F(x, y) = 30x + 20y.$$
-
-    Por tanto, el problema es
-    \begin{align}
-        \text{Maximizar } & F(x, y) = 30x + 20y, \\
-        \text{sujeto a } & 2x + y \leq 200, \\
-        & x + y \leq 160, \\
-        & x \leq 60, \\
-        & x \geq 0, \\
-        & y \geq 0.
-    \end{align}
 </p>
 
 <p>
-    Dibujamos la región definida mediante las inecuaciones.
+    Representamos la región factible.
     <img src="img/sociales/R202341.png" alt="Figura" loading="lazy">
 
-    Los vértices son
+    Los vértices son:
     $$A(0, 0), \quad B(0, 160), \quad C(40, 120), \quad D(60, 80) \quad \text{y} \quad E(60, 0).$$
 </p>
 
 <p>
-    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    Por el teorema fundamental de la programación lineal, el máximo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices. 
     \begin{align}
         & F(A) = F(0, 0) = 0, & & F(B) = F(0, 160) = 3.200, & & F(C) = F(40, 120) = 3.600, \\
         & F(D) = F(60, 80) = 3.400, & & F(E) = F(60, 0) = 1.800.

@@ -3,45 +3,30 @@
 </p>
 
 <p>
-    El aforo máximo es de 10.000 personas, así que
-    $$x + y \leq 10.000.$$
+    Las restricciones del problema son:
+    $$\begin{cases}
+        x + y \leq 10.000, \\
+        y \leq 3.000, \\
+        x \geq 2y, \\
+        x \leq 4y, \\
+        y \geq 0.
+    \end{cases}$$
 
-    Deben ponerse a la venta un máximo de 3.000 entradas para los aficionados del equipo visitante, así que
-    $$y \leq 3.000.$$
-
-    Por cada aficionado visitante debe haber dos aficionados locales como mínimo y cuatro aficionados locales como máximo, así que
-    $$x \geq 2y \quad \text{y} \quad x \leq 4y.$$
-
-    Además, incorporamos la resctricción
-    $$y \geq 0.$$
-
-    Por último, como el precio de la entrada es de $50 \cdot 0,8 = 40$€ para los aficionados del equipo local y de 50€ para los del equipo visitante, la función objetivo es
+    Como el precio de la entrada para los aficionados del equipo local es de $50 \cdot 0,8 = 40\text{€}$, la función objetivo a maximizar es:
     $$F(x, y) = 40x + 50y.$$
-
-    Por tanto, el problema es
-    \begin{align}
-        \text{Maximizar } & F(x, y) = 40x + 50y, \\
-        \text{sujeto a } & x + y \leq 10.000, \\
-        & y \leq 3.000, \\
-        & x \geq 2y, \\
-        & x \leq 4y, \\
-        & y \geq 0.
-    \end{align}
 </p>
 
 <p>
-    Dibujamos la región obtenida mediante las inecuaciones.
+    Representamos la región factible.
     <img src="img/sociales/R202331.png" alt="Figura" loading="lazy">
 
-    Los vértices son
-    \begin{align}
-        & A(0, 0), & & B(6.000, 3.000), \\
-        & C(7.000, 3.000), & & D(8.000, 2.000).
-    \end{align}
+    Los vértices son:
+    $$A(0, 0), \quad B(6.000, 3.000), \quad C(7.000, 3.000), \quad D(8.000, 2.000).$$
 </p>
 
 <p>
-    Para hallar el valor máximo de la función $F$, la evaluamos en los vértices.
+    Por el teorema fundamental de la programación lineal, el máximo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices. 
     \begin{align}
         & F(A) = F(0, 0) = 0, & & F(B) = F(6.000, 3.000) = 390.000, \\
         & F(C) = F(7.000, 3.000) = 430.000, & & F(D) = F(8.000, 2.000) = 420.000.

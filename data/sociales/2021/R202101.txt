@@ -3,42 +3,37 @@
 </p>
 
 <p>
-    Como se deben producir al menos 10 baterías,
-    $$x + y \geq 10.$$
+    Las restricciones del problema son:
+    $$\begin{cases}
+        x + y \geq 10, \\
+        y \leq x + 10, \\
+        150x + 100y \leq 6.000, \\
+        x \geq 0, \\
+        y \geq 0
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        x + y \geq 10, \\
+        y \leq x + 10, \\
+        3x + 2y \leq 120, \\
+        x \geq 0, \\
+        y \geq 0.
+    \end{cases}$$
 
-    El número de baterías de tipo B puede superar como máximo en 10 unidades al de tipo A, así que
-    $$y \leq x + 10. \Leftrightarrow y - x \leq 10.$$
-    
-    Se necesitan 150€ para cada batería de tipo A, 100€ para cada batería de tipo B y se dispone de 6.000€, así que
-    $$150x + 100y \leq 6.000 \Leftrightarrow 3x + 2y \leq 120.$$
-
-    Además, incorporamos las restricciones
-    $$x \geq 0, \quad y \geq 0.$$
-
-    Por último, como los beneficios por cada batería de tipo A y de tipo B son de 130€ y 140€ respectivamente, la función objetivo es
+    La función objetivo a maximizar es:
     $$F(x, y) = 130x + 140y.$$
-
-    Por tanto, el problema es
-    \begin{align}
-        \text{Maximizar } & F(x, y) = 130x + 140y, \\
-        \text{sujeto a } & x + y \geq 10, \\
-        & y - x \leq 10, \\
-        & 3x + 2y \leq 120, \\
-        & x \geq 0, \\
-        & y \geq 0.
-    \end{align}
 </p>
 
 <p>
-    Dibujamos la región definida mediante las inecuaciones.
+    Representamos la región factible.
     <img src="img/sociales/R202101.png" alt="Figura" loading="lazy">
 
-    Los vértices son
+    Los vértices son:
     $$A(10, 0), \quad B(0, 10), \quad C(20, 30) \quad \text{y} \quad D(40, 0).$$
 </p>
 
 <p>
-    Para hallar el máximo de la función $F$, la evaluamos en los vértices.
+    Por el teorema fundamental de la programación lineal, el máximo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices.
     \begin{align}
         & F(A) = F(10, 0) = 1.300, & & F(B) = F(0, 10) = 1.400, \\
         & F(C) = F(20, 30) = 6.800, & & F(D) = F(40, 0) = 5.200.
