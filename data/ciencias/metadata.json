@@ -2015,6 +2015,7 @@
     },
     {
         "ejercicio": 202026,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",
