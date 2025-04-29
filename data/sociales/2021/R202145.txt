@@ -96,7 +96,10 @@
 <ol>
     <li>
         Por el teorema de la probabilidad total, la probabilidad de que sea mujer es:
-        $$P(M) = P(M \cap L) + P(M \cap B) + P(M \cap C) = P(L) \cdot P(M|L) + P(B) \cdot P(M|B) + P(C) \cdot P(M|C) = 0,5 \cdot 0,42 + 0,3 \cdot 0,2 + 0,2 \cdot 0,5 = 0,37.$$
+        \begin{align}
+            P(M) & = P(M \cap L) + P(M \cap B) + P(M \cap C) = P(L) \cdot P(M|L) + P(B) \cdot P(M|B) + P(C) \cdot P(M|C) = \\
+            & = 0,5 \cdot 0,42 + 0,3 \cdot 0,2 + 0,2 \cdot 0,5 = 0,37.
+        \end{align}
     </li>
 
     <li>
