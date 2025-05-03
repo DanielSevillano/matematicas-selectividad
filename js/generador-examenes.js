@@ -10,7 +10,7 @@ const intervalo2 = document.querySelector("#curso-final");
 const intervalos = [intervalo1, intervalo2];
 
 const minimoCiencias = 2012;
-const minimoSociales = 2013;
+const minimoSociales = 2012;
 
 let metadatosCiencias;
 let metadatosSociales;
@@ -46,8 +46,8 @@ async function obtenerExamenGenerado(modalidad, ejercicios) {
     for (let numero = 1; numero <= 7; numero++) {
         const ejercicio = ejercicios[numero - 1];
 
-        let resuelto = false
-        let categorias = []
+        let resuelto = false;
+        let categorias = [];
         if (ejercicio != undefined) {
             if (ejercicio.resuelto) resuelto = true;
             categorias = ejercicio.categorias;
@@ -111,7 +111,7 @@ async function procesar(event) {
     const boton = document.querySelector("#generar");
     boton.disabled = true;
 
-    let modalidad = "ciencias"
+    let modalidad = "ciencias";
     if (document.querySelector("#sociales").checked) modalidad = "sociales";
 
     const intervalo1 = document.querySelector("#curso-inicial");
