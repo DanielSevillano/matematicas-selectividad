@@ -17,14 +17,7 @@ window.MathJax = {
         }
     },
     options: {
-        enableMenu: false,
-        menuOptions: {
-            settings: {
-                braille: false,
-                speech: false,
-                enrich: false
-            }
-        }
+        enableMenu: false
     },
     startup: {
         ready: () => {
