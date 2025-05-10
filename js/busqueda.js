@@ -39,7 +39,7 @@ async function buscarEjercicio(texto, ejercicio) {
     const respuesta = await fetch(ruta);
     contenido = await respuesta.text();
 
-    if (contenido.includes(texto)) {
+    if (contenido.toLowerCase().includes(texto)) {
         const articulo = document.createElement("article");
         articulo.classList.add(ejercicio.modalidad);
         if (ejercicio.modalidad == "ciencias") contenidoCiencias.append(articulo);
