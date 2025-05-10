@@ -1,7 +1,8 @@
-import { formatear, obtenerEjercicio } from "./math.js";
+import { obtenerExamenGenerado } from "./math.js";
 
 const formulario = document.querySelector("form");
 
+const boton = document.querySelector("#generar");
 const botonCiencias = document.querySelector("#ciencias");
 const botonSociales = document.querySelector("#sociales");
 
@@ -28,72 +29,6 @@ if (intervalo2.checked) establecerMinimo(minimoSociales);
 botonCiencias.addEventListener("click", () => establecerMinimo(minimoCiencias));
 botonSociales.addEventListener("click", () => establecerMinimo(minimoSociales));
 
-async function obtenerExamenGenerado(modalidad, ejercicios) {
-    const main = document.querySelector("main");
-
-    const titulo = document.createElement("h2");
-    titulo.innerText = "📋 Examen de " + modalidad;
-
-    const boton = document.createElement("button");
-    boton.textContent = "🖨️ Imprimir";
-    boton.disabled = true;
-    boton.classList.add("cargando");
-    boton.addEventListener("click", () => window.print());
-    titulo.append(boton);
-
-    main.append(titulo);
-
-    for (let numero = 1; numero <= 7; numero++) {
-        const ejercicio = ejercicios[numero - 1];
-
-        let resuelto = false;
-        let categorias = [];
-        if (ejercicio != undefined) {
-            if (ejercicio.resuelto) resuelto = true;
-            categorias = ejercicio.categorias;
-        }
-
-        boton.style.setProperty("--progreso", numero / 7 * 100);
-
-        const examen = parseInt(String(ejercicio.ejercicio).slice(0, 5));
-        const numeracion = parseInt(String(ejercicio.ejercicio).slice(5));
-
-        const seccion = await obtenerEjercicio(modalidad, examen, numeracion, resuelto, categorias, true);
-
-        if (numero == 1 || numero % 2 == 0) {
-            const indicacion = document.createElement("div");
-            indicacion.classList.add("indicacion");
-            if (modalidad == "ciencias") {
-                if (numero == 1) indicacion.innerHTML = "<b>Bloque obligatorio.</b> Resuelve el siguiente ejercicio";
-                else indicacion.innerHTML = "<b>Bloque con optatividad " + numero / 2 + ".</b> Resuelve solo uno de los siguientes ejercicios";
-            } else {
-                if (numero == 1) indicacion.innerHTML = "<b>Bloque obligatorio.</b> Resuelva el siguiente ejercicio";
-                else indicacion.innerHTML = "<b>Bloque con optatividad " + numero / 2 + ".</b> Resuelva solo uno de los siguientes ejercicios";
-            }
-
-            const grupo = document.createElement("div");
-            grupo.classList.add("cadena");
-            grupo.append(indicacion, seccion);
-            main.append(grupo);
-        } else main.append(seccion);
-
-        formatear(seccion);
-    }
-
-    boton.disabled = false;
-    boton.classList.remove("cargando");
-}
-
-async function mostrarExamenGenerado(modalidad, ejercicios) {
-    const main = document.querySelector("main");
-    const boton = document.querySelector("#generar");
-
-    obtenerExamenGenerado(modalidad, ejercicios).then(() => {
-        main.classList.remove("cargando");
-        boton.disabled = false;
-    });
-}
-
 function ejercicioAleatorio(ejercicios, excepcion = null) {
     let aleatorio = ejercicios[Math.floor(Math.random() * ejercicios.length)];
     while (aleatorio === excepcion) aleatorio = ejercicios[Math.floor(Math.random() * ejercicios.length)];
@@ -103,14 +38,9 @@ function ejercicioAleatorio(ejercicios, excepcion = null) {
 
 async function procesar(event) {
     event.preventDefault();
+    if (boton.disabled) return;
 
-    const main = document.querySelector("main");
-    main.textContent = "";
-    main.classList.add("cargando");
-
-    const boton = document.querySelector("#generar");
     boton.disabled = true;
-
     let modalidad = "ciencias";
     if (document.querySelector("#sociales").checked) modalidad = "sociales";
 
@@ -204,7 +134,7 @@ async function procesar(event) {
             ejercicios.push(ejercicioAleatorio(ejerciciosProbabilidad));
         }
 
-        mostrarExamenGenerado(modalidad, ejercicios);
+        await obtenerExamenGenerado(modalidad, ejercicios);
     } else {
         const ejerciciosNumeros = datos.filter(ejercicio => ejercicio.categorias.includes("Programación lineal") || ejercicio.categorias.includes("Álgebra"));
         const ejerciciosProgramacionLineal = ejerciciosNumeros.filter(ejercicio => ejercicio.categorias.includes("Programación lineal"));
@@ -244,8 +174,10 @@ async function procesar(event) {
             }
         });
 
-        mostrarExamenGenerado(modalidad, ejercicios);
+        await obtenerExamenGenerado(modalidad, ejercicios);
     }
+
+    boton.disabled = false;
 }
 
 formulario.addEventListener("submit", procesar);

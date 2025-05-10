@@ -1,4 +1,4 @@
-import { mostrarTemario } from "./math.js";
+import { obtenerTemario } from "./math.js";
 
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
@@ -25,7 +25,7 @@ grupos.forEach((grupo, indice) => {
 
 function pulsar(boton) {
     const seccion = boton.id.replace("boton-", "");
-    mostrarTemario(seccion);
+    obtenerTemario(seccion);
     history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?seccion=" + seccion);
 
     botones.forEach(b => {

@@ -26,18 +26,3 @@
     gap: 5px;
     accent-color: var(--accent-color);
 }
-
-/********************
-Progreso
-********************/
-
-#cinta.cargando::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: calc(var(--progreso, 0) * 1%);
-    height: 2px;
-    background-color: var(--accent-color);
-    border-radius: 10px;
-}

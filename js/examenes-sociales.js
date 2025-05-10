@@ -1,4 +1,4 @@
-import { estado, mostrarExamen } from "./math.js";
+import { obtenerExamen } from "./math.js";
 
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
@@ -11,7 +11,7 @@ const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
 
 let metadatos;
-const guardarMetadatos = datos => { metadatos = datos };
+const guardarMetadatos = datos => { metadatos = datos; };
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
@@ -28,25 +28,19 @@ grupos.forEach((grupo, indice) => {
 });
 
 function pulsar(boton) {
-    if (!estado.cancelado) {
-        const examen = boton.id.replace("boton-", "");
-        mostrarExamen("sociales", examen, metadatos, guardarMetadatos);
-        history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
+    const examen = boton.id.replace("boton-", "");
+    obtenerExamen("sociales", examen, metadatos, guardarMetadatos);
+    history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
 
-        botones.forEach(b => {
-            if (boton == b) b.classList.add("seleccionado");
-            else b.classList.remove("seleccionado");
-        });
-    }
-    else setTimeout(() => pulsar(boton));
+    botones.forEach(b => {
+        if (boton == b) b.classList.add("seleccionado");
+        else b.classList.remove("seleccionado");
+    });
 }
 
 botones.forEach(boton => {
     boton.addEventListener("click", () => {
-        if (!boton.classList.contains("seleccionado")) {
-            if (main.classList.contains("cargando")) estado.cancelar();
-            pulsar(boton);
-        }
+        if (!boton.classList.contains("seleccionado")) pulsar(boton);
     });
 });
 

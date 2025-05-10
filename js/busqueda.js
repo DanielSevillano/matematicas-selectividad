@@ -1,4 +1,4 @@
-import { estado, formatear, obtenerEjercicio } from "./math.js";
+import { Ejercicio, obtenerEjercicio } from "./math.js";
 
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
@@ -7,6 +7,7 @@ const texto = parametros.get("texto");
 const main = document.querySelector("main");
 const busqueda = document.querySelector("input");
 const cinta = document.querySelector("#cinta");
+const contador = cinta.querySelector("#contador");
 
 const contenedorGrupos = document.querySelector(".contenedor-grupos");
 const grupos = document.querySelectorAll(".grupo");
@@ -16,9 +17,6 @@ const contenidoSociales = document.querySelector("#sociales");
 
 let metadatosCiencias;
 let metadatosSociales;
-
-let mapaEjerciciosCiencias = new Map();
-let mapaEjerciciosSociales = new Map();
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
@@ -34,21 +32,34 @@ grupos.forEach((grupo, indice) => {
     });
 });
 
+async function buscarEjercicio(texto, ejercicio) {
+    let contenido;
+
+    const ruta = "data\\" + ejercicio.modalidad + "\\" + ejercicio.curso + "\\" + ejercicio.codigo() + ".txt";
+    const respuesta = await fetch(ruta);
+    contenido = await respuesta.text();
+
+    if (contenido.includes(texto)) {
+        const articulo = document.createElement("article");
+        articulo.classList.add(ejercicio.modalidad);
+        if (ejercicio.modalidad == "ciencias") contenidoCiencias.append(articulo);
+        else contenidoSociales.append(articulo);
+        await obtenerEjercicio(articulo, ejercicio, true);
+        return true;
+    }
+}
+
 async function buscar(texto) {
     contenidoCiencias.textContent = "";
     contenidoSociales.textContent = "";
     main.classList.add("cargando");
+    cinta.classList.add("oculto");
 
     contenedorGrupos.classList.remove("oculto");
     contenidoCiencias.classList.remove("oculto");
     contenidoSociales.classList.remove("oculto");
 
-    cinta.classList.remove("oculto");
-    cinta.classList.add("cargando");
-    cinta.style.setProperty("--progreso", 0);
-    const contador = cinta.querySelector("#contador");
     contador.textContent = 0;
-    let escaneados = 0;
 
     if (!metadatosCiencias) {
         const respuesta = await fetch("data\\ciencias\\metadata.json");
@@ -61,108 +72,31 @@ async function buscar(texto) {
         metadatosSociales = await respuesta.json();
     }
 
-    const total = metadatosCiencias.length + metadatosSociales.length;
+    const promesas = [];
 
     for (let dato of metadatosCiencias) {
-        if (estado.cancelado) {
-            estado.reanudar();
-            return false;
-        }
-
-        const codigo = dato.ejercicio;
-        let contenido;
-
-        if (!mapaEjerciciosCiencias.get(codigo)) {
-            const curso = String(codigo).slice(0, 4);
-            const ruta = "data\\ciencias\\" + curso + "\\" + codigo + ".txt";
-            const respuesta = await fetch(ruta);
-            contenido = await respuesta.text();
-            if (curso > 2021) mapaEjerciciosCiencias.set(codigo, contenido);
-        } else {
-            contenido = mapaEjerciciosCiencias.get(codigo);
-            await new Promise(resolve => setTimeout(resolve, 0));
-        }
-
-        escaneados++;
-        cinta.style.setProperty("--progreso", escaneados / total * 100);
-
-        if (contenido.includes(texto)) {
-            let resuelto = false;
-            let categorias = [];
-            if (dato.resuelto) resuelto = true;
-            categorias = dato.categorias;
-
-            const examen = parseInt(String(dato.ejercicio).slice(0, 5));
-            const numero = parseInt(String(dato.ejercicio).slice(5));
-
-            contador.textContent = parseInt(contador.textContent) + 1;
-
-            const seccion = await obtenerEjercicio("ciencias", examen, numero, resuelto, categorias, mapaEjerciciosCiencias);
-            seccion.classList.add("ciencias");
-            contenidoCiencias.append(seccion);
-            formatear(seccion);
-        }
+        const ejercicio = new Ejercicio("ciencias", dato.ejercicio, false, dato.categorias);
+        promesas.push(buscarEjercicio(texto, ejercicio));
     }
 
     for (let dato of metadatosSociales) {
-        if (estado.cancelado) {
-            estado.reanudar();
-            return false;
-        }
-
-        const codigo = dato.ejercicio;
-        let contenido;
-
-        if (!mapaEjerciciosSociales.get(codigo)) {
-            const curso = String(codigo).slice(0, 4);
-            const ruta = "data\\sociales\\" + curso + "\\" + codigo + ".txt";
-            const respuesta = await fetch(ruta);
-            contenido = await respuesta.text();
-            if (curso > 2021) mapaEjerciciosSociales.set(codigo, contenido);
-        } else {
-            contenido = mapaEjerciciosSociales.get(codigo);
-            await new Promise(resolve => setTimeout(resolve, 0));
-        }
-
-        escaneados++;
-        cinta.style.setProperty("--progreso", escaneados / total * 100);
-
-        if (contenido.includes(texto)) {
-            let resuelto = false;
-            let categorias = [];
-            if (dato.resuelto) resuelto = true;
-            categorias = dato.categorias;
-
-            const examen = parseInt(String(dato.ejercicio).slice(0, 5));
-            const numero = parseInt(String(dato.ejercicio).slice(5));
-
-            contador.textContent = parseInt(contador.textContent) + 1;
-
-            const seccion = await obtenerEjercicio("sociales", examen, numero, resuelto, categorias, mapaEjerciciosCiencias);
-            seccion.classList.add("sociales");
-            contenidoSociales.append(seccion);
-            formatear(seccion);
-        }
+        const ejercicio = new Ejercicio("sociales", dato.ejercicio, false, dato.categorias);
+        promesas.push(buscarEjercicio(texto, ejercicio));
     }
 
-    cinta.classList.remove("cargando");
+    await Promise.all(promesas).catch(() => { return false; });
     main.classList.remove("cargando");
-    estado.reanudar();
+    contador.textContent = document.querySelectorAll("article").length;
+    cinta.classList.remove("oculto");
 }
 
 function pulsar() {
-    if (!estado.cancelado) {
-        history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?texto=" + busqueda.value);
-        buscar(busqueda.value.trim().toLowerCase());
-    }
-    else setTimeout(() => pulsar());
+    history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?texto=" + busqueda.value);
+    buscar(busqueda.value.trim().toLowerCase());
 }
 
 busqueda.addEventListener("keydown", (e) => {
-    if (e.key == "Enter" && busqueda.value.trim().length >= 1) {
-        if (main.classList.contains("cargando")) estado.cancelar();
-        pulsar();
-    }
+    if (e.key == "Enter" && busqueda.value.trim().length >= 1) pulsar();
 });
 
 document.querySelector(".grupo").click();

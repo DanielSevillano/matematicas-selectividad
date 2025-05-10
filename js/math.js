@@ -1,14 +1,16 @@
-export { estado, formatear, obtenerEjercicio, mostrarExamen, mostrarCategoria, mostrarTemario };
+export { Ejercicio, obtenerEjercicio, obtenerExamen, obtenerCategoria, obtenerTemario, obtenerExamenGenerado };
 
-const estado = new Object({
-    cancelado: false,
-    reanudar: function () {
-        this.cancelado = false;
-    },
-    cancelar: function () {
-        this.cancelado = true;
-    }
-});
+const main = document.querySelector("main");
+let html = "";
+if (location.href.includes(".html")) html = ".html";
+
+let controlador = new AbortController();
+let indicacion = controlador.signal;
+
+async function formatear(elemento) {
+    if (math) return window.MathJax.typesetPromise([elemento]);
+    else setTimeout(() => formatear(elemento));
+}
 
 function normalizar(texto) {
     let procesado = texto.toLowerCase();
@@ -21,20 +23,75 @@ function normalizar(texto) {
     return procesado;
 }
 
-function tituloExamen(examen) {
-    const codigo = String(examen);
-    const curso = codigo.slice(0, 4);
-    const edicion = codigo.slice(-1);
-
-    let titulo = "";
-
-    if (edicion == 6) {
-        titulo += "Modelo de prueba";
-        return titulo;
+class Ejercicio {
+    constructor(modalidad, codigo, resuelto = false, categorias = []) {
+        this.modalidad = modalidad;
+        this.curso = parseInt(String(codigo).slice(0, 4));
+        this.edicion = parseInt(String(codigo)[4]);
+        this.numero = parseInt(String(codigo).slice(5));
+        this.resuelto = resuelto;
+        this.categorias = categorias;
+        this.examen = parseInt(String(codigo).slice(0, 5));
     }
 
+    codigo() {
+        return String(this.curso) + String(this.edicion) + String(this.numero);
+    }
+}
+
+function tituloEjercicio(ejercicio, tituloCompleto) {
+    const titulo = document.createElement("h3");
+
+    let numeracion = ejercicio.numero;
+    let letra = "";
+    if (ejercicio.curso <= 2019) {
+        if (ejercicio.numero <= 4) letra = "A";
+        else {
+            numeracion = ejercicio.numero - 4;
+            letra = "B";
+        }
+    }
+
+    if (tituloCompleto) {
+        titulo.textContent = "Ejercicio " + letra + numeracion + ": ";
+
+        if (ejercicio.examen == 20256 || ejercicio.curso < 2010) titulo.textContent += tituloExamen(ejercicio.examen);
+        else {
+            const enlace = document.createElement("a");
+            enlace.textContent = tituloExamen(ejercicio.examen);
+            enlace.href = "/examenes-" + ejercicio.modalidad + html + "?examen=" + ejercicio.examen;
+            titulo.append(enlace);
+        }
+    } else titulo.textContent = "Ejercicio " + letra + numeracion;
+
+    return titulo;
+}
+
+function categoriasEjercicio(categorias) {
+    const contenedorCategorias = document.createElement("ul");
+    contenedorCategorias.classList.add("categorias");
+    categorias.forEach(categoria => {
+        const elementoCategoria = document.createElement("li");
+        const enlaceCategoria = document.createElement("a");
+        enlaceCategoria.textContent = categoria;
+        enlaceCategoria.href = "/ejercicios" + html + "?categoria=" + normalizar(categoria);
+        enlaceCategoria.classList.add("contorno");
+        elementoCategoria.append(enlaceCategoria);
+        contenedorCategorias.append(elementoCategoria);
+    });
+
+    return contenedorCategorias;
+}
+
+function tituloExamen(examen) {
+    const curso = String(examen).slice(0, 4);
+    const edicion = String(examen).slice(-1);
+
+    if (edicion == 6) return "Modelo de prueba";
+
+    let titulo = "";
     if (edicion == 0) {
-        if (curso == 2020) titulo += "Julio";
+        if (examen.curso == 2020) titulo += "Julio";
         else titulo += "Junio";
     }
     else if (edicion == 5) {
@@ -47,246 +104,193 @@ function tituloExamen(examen) {
     return titulo;
 }
 
-function formatear(elemento) {
-    if (math) MathJax.typeset([elemento]);
-    else setTimeout(() => formatear(elemento));
-}
-
-async function obtenerEjercicio(modalidad, examen, ejercicio, resuelto = false, categorias = [], tituloCompleto = false, mapaEjercicios = undefined) {
-    const articulo = document.createElement("article");
-    const titulo = document.createElement("h3");
-    const parrafo = document.createElement("p");
-
-    let numeracion = ejercicio;
-    let letra = "";
-    if (examen < 20200) {
-        if (ejercicio <= 4) letra = "A";
-        else {
-            numeracion = ejercicio - 4;
-            letra = "B";
-
-        }
-    }
-
-    let html = "";
-    if (location.href.includes(".html")) html = ".html";
-
-    if (tituloCompleto) {
-        titulo.textContent = "Ejercicio " + letra + numeracion + ": ";
-
-        if (examen == 20256 || examen < 20100) titulo.textContent += tituloExamen(examen);
-        else {
-            const enlace = document.createElement("a");
-            enlace.textContent = tituloExamen(examen);
-            enlace.href = "/examenes-" + modalidad + html + "?examen=" + examen;
-            titulo.append(enlace);
-        }
-    } else titulo.textContent = "Ejercicio " + letra + numeracion;
-
-    articulo.append(titulo);
-
-    const contenedorCategorias = document.createElement("ul");
-    contenedorCategorias.classList.add("categorias");
-    categorias.forEach(categoria => {
-        const elementoCategoria = document.createElement("li");
-        const enlaceCategoria = document.createElement("a");
-        enlaceCategoria.textContent = categoria;
-        enlaceCategoria.href = "/ejercicios-" + modalidad + html + "?categoria=" + normalizar(categoria);
-        enlaceCategoria.classList.add("contorno");
-        elementoCategoria.append(enlaceCategoria);
-        contenedorCategorias.append(elementoCategoria);
-    });
-    articulo.append(contenedorCategorias);
-
-    const curso = String(examen).slice(0, 4);
-    const codigo = String(examen) + String(ejercicio);
-
-    let datos;
-    if (!mapaEjercicios || !mapaEjercicios.get(codigo)) {
-        const ruta = "data\\" + modalidad + "\\" + curso + "\\" + codigo + ".txt";
-        const respuesta = await fetch(ruta);
-        datos = await respuesta.text();
-        if (mapaEjercicios && curso >= 2021) mapaEjercicios.set(codigo, datos);
-    } else {
-        datos = mapaEjercicios.get(codigo);
-        await new Promise(resolve => setTimeout(resolve, 0));
-    }
-
-    parrafo.innerHTML = datos;
-
-    if (resuelto) {
-        const contenedorResolucion = document.createElement("details");
-        const tituloResolucion = document.createElement("summary");
-        const textoResolucion = document.createElement("div");
-
-        tituloResolucion.textContent = "Resolución";
-
-        const codigoResolucion = "R" + codigo;
-
-        if (!mapaEjercicios || !mapaEjercicios.get(codigoResolucion)) {
-            const ruta = "data\\" + modalidad + "\\" + curso + "\\" + codigoResolucion + ".txt";
-            const respuesta = await fetch(ruta);
-            datos = await respuesta.text();
-            if (mapaEjercicios && curso >= 2023) mapaEjercicios.set(codigoResolucion, datos);
-        } else {
-            datos = mapaEjercicios.get(codigoResolucion);
-            await new Promise(resolve => setTimeout(resolve, 0));
-        }
-
-        textoResolucion.innerHTML = datos;
-
-        contenedorResolucion.append(tituloResolucion, textoResolucion);
-        parrafo.append(contenedorResolucion);
-    }
-
-    articulo.append(parrafo);
-
-    return articulo;
-}
-
-async function obtenerExamen(modalidad, examen, metadatos) {
-    const main = document.querySelector("main");
-
-    const titulo = document.createElement("h2");
-    titulo.innerText = "📋 " + tituloExamen(examen);
+function encabezadoExamen(titulo) {
+    const encabezado = document.createElement("h2");
+    encabezado.innerText = "📋 " + titulo;
 
     const boton = document.createElement("button");
     boton.textContent = "🖨️ Imprimir";
     boton.disabled = true;
-    boton.classList.add("cargando");
     boton.addEventListener("click", () => window.print());
-    titulo.append(boton);
+    encabezado.append(boton);
 
-    main.append(titulo);
+    return { encabezado, boton };
+}
 
-    const metadatosFiltrados = metadatos.filter(dato => String(dato.ejercicio).startsWith(examen));
-    const ejercicios = metadatosFiltrados.length;
+async function descargarMetadatos(modalidad, metadatos, guardarMetadatos) {
+    let datos;
+    if (!metadatos) {
+        const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
+        datos = await respuesta.json();
+        guardarMetadatos(datos);
+    } else datos = metadatos;
 
-    for (let ejercicio = 1; ejercicio <= ejercicios; ejercicio++) {
-        if (estado.cancelado) {
-            estado.reanudar();
-            return false;
-        }
+    return datos;
+}
 
-        const codigo = examen * 10 + ejercicio;
-        const datosEjercicio = metadatos.find(dato => dato.ejercicio == codigo);
+async function obtenerEjercicio(articulo, ejercicio, tituloCompleto = false, prioridad = "auto") {
+    articulo.append(tituloEjercicio(ejercicio, tituloCompleto));
+    if (ejercicio.resuelto) articulo.classList.add("resuelto");
+    if (ejercicio.categorias.length > 0) articulo.append(categoriasEjercicio(ejercicio.categorias));
 
-        let resuelto = false;
-        let categorias = [];
-        if (datosEjercicio != undefined) {
-            if (datosEjercicio.resuelto) resuelto = true;
-            categorias = datosEjercicio.categorias;
-        }
+    const contenido = document.createElement("div");
+    contenido.classList.add("cargando");
+    articulo.append(contenido);
 
-        boton.style.setProperty("--progreso", ejercicio / ejercicios * 100);
+    const parrafo = document.createElement("p");
+    const ruta = "data\\" + ejercicio.modalidad + "\\" + ejercicio.curso + "\\" + ejercicio.codigo() + ".txt";
+    const respuesta = await fetch(ruta, {
+        priority: prioridad,
+        signal: indicacion
+    });
+    const datos = await respuesta.text();
+    parrafo.innerHTML = datos;
+    contenido.append(parrafo);
+    await formatear(parrafo);
+    contenido.classList.remove("cargando");
 
-        const seccion = await obtenerEjercicio(modalidad, examen, ejercicio, resuelto, categorias);
-        main.append(seccion);
-        formatear(seccion);
+    if (ejercicio.resuelto) {
+        const contenedorResolucion = document.createElement("details");
+        const tituloResolucion = document.createElement("summary");
+        tituloResolucion.textContent = "Resolución";
+        contenedorResolucion.append(tituloResolucion);
+        articulo.append(contenedorResolucion);
+
+        const textoResolucion = document.createElement("div");
+        textoResolucion.classList.add("cargando");
+
+        const codigoResolucion = "R" + ejercicio.codigo();
+        const rutaResolucion = "data\\" + ejercicio.modalidad + "\\" + ejercicio.curso + "\\" + codigoResolucion + ".txt";
+        const respuestaResolucion = await fetch(rutaResolucion, {
+            priority: "low",
+            signal: indicacion
+        });
+        const datosResolucion = await respuestaResolucion.text();
+        textoResolucion.innerHTML = datosResolucion;
+
+        contenedorResolucion.append(textoResolucion);
+        await formatear(textoResolucion);
+        textoResolucion.classList.remove("cargando");
     }
 
+    return true;
+}
+
+async function obtenerExamen(modalidad, examen, metadatos, guardarMetadatos) {
+    controlador.abort();
+    controlador = new AbortController();
+    indicacion = controlador.signal;
+    main.textContent = "";
+
+    const titulo = tituloExamen(examen);
+    const { encabezado, boton } = encabezadoExamen(titulo);
+    main.append(encabezado);
+
+    const datos = await descargarMetadatos(modalidad, metadatos, guardarMetadatos);
+    const metadatosFiltrados = datos.filter(dato => String(dato.ejercicio).startsWith(examen));
+    const ejercicios = metadatosFiltrados.length;
+
+    const promesas = [];
+
+    for (let numero = 1; numero <= ejercicios; numero++) {
+        const codigo = examen * 10 + numero;
+        const datosEjercicio = datos.find(dato => dato.ejercicio == codigo);
+        const ejercicio = new Ejercicio(modalidad, codigo, datosEjercicio.resuelto, datosEjercicio.categorias);
+        const articulo = document.createElement("article");
+        main.append(articulo);
+
+        let prioridad;
+        if (numero <= 3) prioridad = "high";
+        promesas.push(obtenerEjercicio(articulo, ejercicio, false, prioridad));
+    }
+
+    await Promise.all(promesas).catch(() => { return false; });
     boton.disabled = false;
-    boton.classList.remove("cargando");
-
     return true;
 }
 
-async function mostrarExamen(modalidad, examen, metadatos, guardarMetadatos) {
-    const main = document.querySelector("main");
+async function obtenerCategoria(modalidad, categoria, metadatos, contador, soloResueltos, guardarMetadatos) {
+    controlador.abort();
+    controlador = new AbortController();
+    indicacion = controlador.signal;
     main.textContent = "";
-    main.classList.add("cargando");
 
-    let datos;
-    if (!metadatos) {
-        const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
-        datos = await respuesta.json();
-        guardarMetadatos(datos);
-    } else datos = metadatos;
+    const datos = await descargarMetadatos(modalidad, metadatos, guardarMetadatos);
+    const ejercicios = datos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
+    let total = ejercicios.length;
+    if (soloResueltos) total = ejercicios.filter(ejercicio => ejercicio.resuelto).length;
+    contador.textContent = total;
 
-    obtenerExamen(modalidad, examen, datos).then(() => {
-        main.classList.remove("cargando");
-        estado.reanudar();
+    const promesas = [];
+
+    ejercicios.forEach((objeto, indice) => {
+        const ejercicio = new Ejercicio(modalidad, objeto.ejercicio, objeto.resuelto, objeto.categorias);
+        const articulo = document.createElement("article");
+        main.append(articulo);
+
+        let prioridad = "auto";
+        if (indice < 5) prioridad = "high";
+        promesas.push(obtenerEjercicio(articulo, ejercicio, true, prioridad));
     });
-}
 
-async function obtenerCategoria(modalidad, categoria, metadatos, mapaEjercicios, soloResueltos, cinta) {
-    const main = document.querySelector("main");
-
-    let ejercicios = metadatos.filter(ejercicio => ejercicio.categorias.map(c => normalizar(c)).includes(categoria));
-    if (soloResueltos) ejercicios = ejercicios.filter(ejercicio => ejercicio.resuelto);
-    const total = ejercicios.length;
-
-    cinta.querySelector("#contador").textContent = total;
-    cinta.classList.add("cargando");
-    let contador = 0;
-
-    for (let ejercicio of ejercicios) {
-        if (estado.cancelado) {
-            estado.reanudar();
-            return false;
-        }
-
-        let resuelto = false;
-        let categorias = [];
-        if (ejercicio != undefined) {
-            if (ejercicio.resuelto) resuelto = true;
-            categorias = ejercicio.categorias;
-        }
-
-        const examen = parseInt(String(ejercicio.ejercicio).slice(0, 5));
-        const numero = parseInt(String(ejercicio.ejercicio).slice(5));
-
-        contador++;
-        cinta.style.setProperty("--progreso", contador / total * 100);
-
-        const parrafo = await obtenerEjercicio(modalidad, examen, numero, resuelto, categorias, true, mapaEjercicios);
-        main.append(parrafo);
-        formatear(parrafo);
-    };
-
-    cinta.classList.remove("cargando");
-
+    await Promise.all(promesas).catch(() => { return false; });
     return true;
-}
-
-async function mostrarCategoria(modalidad, categoria, metadatos, mapaEjercicios, soloResueltos = false, cinta, guardarMetadatos) {
-    const main = document.querySelector("main");
-    main.textContent = "";
-    main.classList.add("cargando");
-
-    let datos;
-    if (!metadatos) {
-        const respuesta = await fetch("data\\" + modalidad + "\\metadata.json");
-        datos = await respuesta.json();
-        guardarMetadatos(datos);
-    } else datos = metadatos;
-
-    obtenerCategoria(modalidad, categoria, datos, mapaEjercicios, soloResueltos, cinta).then(() => {
-        main.classList.remove("cargando");
-        estado.reanudar();
-    });
 }
 
 async function obtenerTemario(seccion) {
-    const main = document.querySelector("main");
+    main.textContent = "";
+    main.classList.add("cargando");
 
     const respuesta = await fetch("data\\temario\\" + seccion + ".txt");
     const datos = await respuesta.text();
 
     const articulo = document.createElement("article");
-    articulo.innerHTML = datos;
     main.append(articulo);
-    formatear(articulo);
+    articulo.innerHTML = datos;
+    await formatear(articulo);
+    main.classList.remove("cargando");
 
     return true;
 }
 
-async function mostrarTemario(seccion) {
-    const main = document.querySelector("main");
+async function obtenerExamenGenerado(modalidad, ejercicios) {
     main.textContent = "";
-    main.classList.add("cargando");
 
-    obtenerTemario(seccion).then(() => {
-        main.classList.remove("cargando");
-    });
+    const titulo = "Examen de " + modalidad;
+    const { encabezado, boton } = encabezadoExamen(titulo);
+    main.append(encabezado);
+
+    const promesas = [];
+
+    for (let numero = 1; numero <= 7; numero++) {
+        const objeto = ejercicios[numero - 1];
+        const ejercicio = new Ejercicio(modalidad, objeto.ejercicio, objeto.resuelto, objeto.categorias);
+        const articulo = document.createElement("article");
+
+        if (numero == 1 || numero % 2 == 0) {
+            const indicacion = document.createElement("div");
+            indicacion.classList.add("indicacion");
+            if (modalidad == "ciencias") {
+                if (numero == 1) indicacion.innerHTML = "<b>Bloque obligatorio.</b> Resuelve el siguiente ejercicio";
+                else indicacion.innerHTML = "<b>Bloque con optatividad " + numero / 2 + ".</b> Resuelve solo uno de los siguientes ejercicios";
+            } else {
+                if (numero == 1) indicacion.innerHTML = "<b>Bloque obligatorio.</b> Resuelva el siguiente ejercicio";
+                else indicacion.innerHTML = "<b>Bloque con optatividad " + numero / 2 + ".</b> Resuelva solo uno de los siguientes ejercicios";
+            }
+
+            const grupo = document.createElement("div");
+            grupo.classList.add("cadena");
+            grupo.append(indicacion, articulo);
+            main.append(grupo);
+
+
+        } else main.append(articulo);
+
+        promesas.push(obtenerEjercicio(articulo, ejercicio, true));
+    }
+
+    await Promise.all(promesas);
+    boton.disabled = false;
+    boton.classList.remove("cargando");
+    return true;
 }
