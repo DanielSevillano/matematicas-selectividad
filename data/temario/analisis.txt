@@ -9,7 +9,7 @@
     <span class="sociales">Por ejemplo, hallar el área bajo la función $f(x) = \sin(x)$ entre $x = 0$ y $x = \pi.$</span>
 </p>
 
-<img src="img/temario/analisis-introduccion.png" alt="Función"/>
+<img src="img/temario/analisis-introduccion.png" alt="Función" loading="lazy"/>
 
 <p>
     Para ello, tendremos que recordar las características principales de las funciones y reintroducir los <b>límites</b>, una herramienta que resultará fundamental para estudiar la continuidad y las asíntotas.
