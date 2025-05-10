@@ -67,14 +67,14 @@ function tituloEjercicio(ejercicio, tituloCompleto) {
     return titulo;
 }
 
-function categoriasEjercicio(categorias) {
+function categoriasEjercicio(modalidad, categorias) {
     const contenedorCategorias = document.createElement("ul");
     contenedorCategorias.classList.add("categorias");
     categorias.forEach(categoria => {
         const elementoCategoria = document.createElement("li");
         const enlaceCategoria = document.createElement("a");
         enlaceCategoria.textContent = categoria;
-        enlaceCategoria.href = "/ejercicios" + html + "?categoria=" + normalizar(categoria);
+        enlaceCategoria.href = "/ejercicios-" + modalidad + html + "?categoria=" + normalizar(categoria);
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
@@ -131,7 +131,7 @@ async function descargarMetadatos(modalidad, metadatos, guardarMetadatos) {
 async function obtenerEjercicio(articulo, ejercicio, tituloCompleto = false, prioridad = "auto") {
     articulo.append(tituloEjercicio(ejercicio, tituloCompleto));
     if (ejercicio.resuelto) articulo.classList.add("resuelto");
-    if (ejercicio.categorias.length > 0) articulo.append(categoriasEjercicio(ejercicio.categorias));
+    if (ejercicio.categorias.length > 0) articulo.append(categoriasEjercicio(ejercicio.modalidad, ejercicio.categorias));
 
     const contenido = document.createElement("div");
     contenido.classList.add("cargando");
