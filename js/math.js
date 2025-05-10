@@ -158,6 +158,7 @@ async function obtenerEjercicio(articulo, ejercicio, tituloCompleto = false, pri
 
         const textoResolucion = document.createElement("div");
         textoResolucion.classList.add("cargando");
+        contenedorResolucion.append(textoResolucion);
 
         const codigoResolucion = "R" + ejercicio.codigo();
         const rutaResolucion = "data\\" + ejercicio.modalidad + "\\" + ejercicio.curso + "\\" + codigoResolucion + ".txt";
@@ -168,7 +169,6 @@ async function obtenerEjercicio(articulo, ejercicio, tituloCompleto = false, pri
         const datosResolucion = await respuestaResolucion.text();
         textoResolucion.innerHTML = datosResolucion;
 
-        contenedorResolucion.append(textoResolucion);
         await formatear(textoResolucion);
         textoResolucion.classList.remove("cargando");
     }
