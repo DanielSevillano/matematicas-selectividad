@@ -44,6 +44,14 @@ article>p {
     margin-inline: auto;
 }
 
+.resueltos article {
+    display: none;
+}
+
+article.resuelto {
+    display: block;
+}
+
 /********************
 Botón
 ********************/
