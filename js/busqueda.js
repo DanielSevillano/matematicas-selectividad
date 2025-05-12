@@ -18,6 +18,9 @@ const contenidoSociales = document.querySelector("#sociales");
 let metadatosCiencias;
 let metadatosSociales;
 
+let controlador = new AbortController();
+let indicacion = controlador.signal;
+
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
         grupos.forEach(g => {
@@ -36,7 +39,9 @@ async function buscarEjercicio(texto, ejercicio) {
     let contenido;
 
     const ruta = "data\\" + ejercicio.modalidad + "\\" + ejercicio.curso + "\\" + ejercicio.codigo() + ".txt";
-    const respuesta = await fetch(ruta);
+    const respuesta = await fetch(ruta, {
+        signal: indicacion
+    });
     contenido = await respuesta.text();
 
     if (contenido.toLowerCase().includes(texto)) {
@@ -50,6 +55,9 @@ async function buscarEjercicio(texto, ejercicio) {
 }
 
 async function buscar(texto) {
+    controlador.abort();
+    controlador = new AbortController();
+    indicacion = controlador.signal;
     contenidoCiencias.textContent = "";
     contenidoSociales.textContent = "";
     main.classList.add("cargando");
@@ -63,8 +71,7 @@ async function buscar(texto) {
 
     if (!metadatosCiencias) {
         const respuesta = await fetch("data\\ciencias\\metadata.json");
-        const metadatos = await respuesta.json();
-        metadatosCiencias = metadatos.filter(dato => dato.ejercicio < 2025000);
+        metadatosCiencias = await respuesta.json();
     }
 
     if (!metadatosSociales) {
