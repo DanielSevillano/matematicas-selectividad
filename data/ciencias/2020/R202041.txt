@@ -1,0 +1,33 @@
+<p>
+    En primer lugar, hallamos las dos primeras derivadas de la función $f.$
+    \begin{align}
+        f'(x) & = -e^{x+4} + (5-x)e^{x+4} = (4-x)e^{x+4}, \\
+        f''(x) & = -e^{x+4} + (4-x)e^{x+4} = (3-x)e^{x+4}.
+    \end{align}
+</p>
+
+<p>
+    La pendiente de la recta tangente viene dada por la derivada.
+    Para encontrar el máximo, hallamos los puntos críticos de $f'$ igualando su derivada a cero.
+    $$f''(x) = 0 \Leftrightarrow (3-x)e^{x+4} = 0 \Leftrightarrow 3 - x = 0 \Leftrightarrow x = 3.$$
+</p>
+
+<p>
+    Estudiamos el signo de $f''.$
+</p>
+
+<ul>
+    <li>
+        Si $x < 3$, $f''(x) > 0.$
+        Así que $f'$ es creciente.
+    </li>
+
+    <li>
+        Si $x > 3$, $f''(x) < 0.$
+        Así que $f'$ es decreciente.
+    </li>
+</ul>
+
+<p>
+    Por tanto, la pendiente máxima de la recta tangente se alcanza en el punto $\left(3, \frac{2}{e}\right).$
+</p>

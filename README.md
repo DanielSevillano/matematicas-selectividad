@@ -52,7 +52,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [ ] 2020
     - [x] Julio y septiembre
     - [x] Reservas 1 y 2
-    - [ ] Reserva 4 (2)
+    - [ ] Reserva 4 (1, 2)
 - [ ] 2019
     - [ ] Junio (A1, A2, A3, B1, B4)
     - [ ] Septiembre (A4, B3, B4)
