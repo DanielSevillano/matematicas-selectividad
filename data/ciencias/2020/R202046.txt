@@ -1,0 +1,24 @@
+<p>
+    Resolvemos la integral por partes.
+    \begin{align}
+        u = \cos(\ln(x)) & \Rightarrow u' = -\sin(\ln(x)) \cdot \frac{1}{x}, \\
+        v' = 1 & \Rightarrow v = x.
+    \end{align}
+
+    De esta forma,
+    $$\int \cos(\ln(x))dx = x\cos(\ln(x)) + \int \sin(\ln(x))dx.$$
+
+    Integramos de nuevo por partes.
+    \begin{align}
+        u = \sin(\ln(x)) & \Rightarrow u' = \cos(\ln(x)) \cdot \frac{1}{x}, \\
+        v' = 1 & \Rightarrow v = x.
+    \end{align}
+
+    Así que:
+    $$\int \cos(\ln(x))dx = x\cos(\ln(x)) + \int \sin(\ln(x))dx = x\cos(\ln(x)) + x\sin(\ln(x)) - \int \cos(\ln(x))dx.$$
+</p>
+
+<p>
+    Despejando la integral en la expresión anterior, obtenemos que:
+    $$2\int \cos(\ln(x))dx = x\cos(\ln(x)) + x\sin(\ln(x)) \Leftrightarrow \int \cos(\ln(x))dx = \frac{x\cos(\ln(x)) + x\sin(\ln(x))}{2} + C.$$
+</p>

@@ -1,0 +1,62 @@
+<p>
+    En primer lugar, hallamos la derivada de la función $f.$
+    $$f'(x) = 3ax^2 + 2bx + c.$$
+</p>
+
+<ul>
+    <li>
+        Si la función tiene un punto crítico en $x = 2$, ha de verificarse que:
+        $$f'(2) = 0 \Leftrightarrow 12a + 4b + c = 0.$$
+    </li>
+
+    <li>
+        Si la recta normal en $x = 1$ tiene pendiente $\frac{1}{2}$, ha de verificarse que:
+        $$-\frac{1}{f'(1)} = \frac{1}{2} \Leftrightarrow f'(1) = -2 \Leftrightarrow 3a + 2b + c = -2.$$
+    </li>
+
+    <li>
+        Si $y = \frac{1}{2}x + \frac{3}{2}$ es la recta normal en $x = 1$, el punto $(1, 2)$ pertenece a la gráfica de la función.
+        Así que ha de verificarse que:
+        $$f(1) = 2 \Leftrightarrow a + b + c - 1 = 2 \Leftrightarrow a + b + c = 3.$$
+    </li>
+</ul>
+
+<p>
+    Planteamos el sistema de ecuaciones:
+    \begin{cases}
+        a + b + c = 3, \\
+        3a + 2b + c = -2, \\
+        12a + 4b + c = 0.
+    \end{cases}
+
+    Resolvemos el sistema mediante el método de Gauss.
+    $$\begin{ampmatrix}
+        1 & 1 & 1 & 3 \\
+        3 & 2 & 1 & -2 \\
+        12 & 4 & 1 & 0
+    \end{ampmatrix} \xrightarrow[F_3 - F_1]{F_2 - F_1}
+    \begin{ampmatrix}
+        1 & 1 & 1 & 3 \\
+        2 & 1 & 0 & -5 \\
+        11 & 3 & 0 & -3
+    \end{ampmatrix} \xrightarrow{F_3 - 3F_2}
+    \begin{ampmatrix}
+        1 & 1 & 1 & 3 \\
+        2 & 1 & 0 & -5 \\
+        5 & 0 & 0 & 12
+    \end{ampmatrix}.$$
+
+    El sistema resultante es:
+    $$\begin{cases}
+        a + b + c = 3, \\
+        2a + b = -5, \\
+        5a = 12.
+    \end{cases}$$
+
+    Por tanto,
+    \begin{align}
+        & 5a = 12 \Leftrightarrow a = \frac{12}{5}, \\
+        & 2a + b = -5 \Leftrightarrow b = -5 - 2a = -5 - \frac{24}{5} -\frac{49}{5}, \\
+        & a + b + c = 3 \Leftrightarrow c = 3 - a - b = 3 - \frac{12}{5} + \frac{49}{5} = \frac{52}{5}.
+    \end{align}
+</p>
