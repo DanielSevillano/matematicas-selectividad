@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Halle el dominio, los puntos de corte con los ejes y las asíntotas de la función:
+        $$f(x) = \frac{4x}{2x + 1}.$$
+    </li>
+  
+    <li>
+        Halle los intervalos de monotonía, los extremos relativos, los intervalos de curvatura y los puntos de inflexión de la función:
+        $$g(x) = x^3 + 3x^2 + 3x.$$
+    </li>
+</ol>

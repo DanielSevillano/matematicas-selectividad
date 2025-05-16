@@ -4724,6 +4724,64 @@
         ]
     },
     {
+        "ejercicio": 201151,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201152,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 201153,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201154,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201155,
+        "categorias": [
+            "Álgebra",
+            "Dimensiones",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201156,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 201157,
+        "categorias": [
+            "Probabilidad",
+            "Problemas de sucesos"
+        ]
+    },
+    {
+        "ejercicio": 201158,
+        "categorias": [
+            "Estadística",
+            "Distribución de medias muestrales"
+        ]
+    },
+    {
         "ejercicio": 200911,
         "categorias": [
             "Álgebra",

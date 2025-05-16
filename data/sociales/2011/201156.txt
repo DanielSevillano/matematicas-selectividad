@@ -1,0 +1,14 @@
+Sea la función
+$$f(x) = \begin{cases} 
+    x^2 - 3x + 4, & \text{si } x \leq 2, \\
+    \dfrac{4 - a}{x}, & \text{si } x > 2.
+\end{cases}.$$
+
+<ol>
+    <li>Halle el valor de $a$ para que dicha función sea continua y estudie la derivabilidad de $f$ para ese valor de $a$.</li>
+    <li>
+        Para $a = 1$, ¿existe alguna asíntota vertical de esa función?
+        ¿Y horizontal?
+        Razone las respuestas y calcule, en caso afirmativo, dichas asíntotas.
+    </li>
+</ol>

@@ -1,0 +1,8 @@
+Suponiendo que la variable “años de vida de los individuos de un país” sigue una distribución Normal con desviación típica 8,9 años, se desea contrastar la hipótesis de que la vida media de los mismos no supera los 70 años.
+A partir de una muestra aleatoria de 100 individuos se ha obtenido que su vida media ha sido 71,8 años.
+
+<ol>
+    <li>Formule el contraste de hipótesis que indica el enunciado.</li>
+    <li>Determine la región crítica a un nivel de significación del 5%.</li>
+    <li>Con los datos muestrales, ¿existe evidencia estadística para rechazar la hipótesis a ese nivel de significación?</li>
+</ol>

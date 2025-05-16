@@ -1,0 +1,14 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    0 & 1 & 0 \\
+    1 & 0 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    3 & -1 \\
+    1 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Efectúe, si es posible, los siguientes productos: $A \cdot A^t$, $A^t \cdot A$, $A \cdot B$.</li>
+    <li>Resuelva la ecuación matricial $A \cdot A^t \cdot X = B$.</li>
+</ol>

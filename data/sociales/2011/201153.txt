@@ -1,0 +1,8 @@
+En un sistema de alarma, la probabilidad de que haya un incidente es 0,1.
+Si este se produce, la probabilidad de que la alarma suene es 0,95.
+La probabilidad de que suene la alarma sin que haya incidente es de 0,03.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que suene la alarma?</li>
+    <li>Si ha sonado la alarma, calcule la probabilidad de que no haya habido incidente.</li>
+</ol>

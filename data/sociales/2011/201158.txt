@@ -1,0 +1,7 @@
+Sea $X$ una variable aleatoria Normal de media 50 y desviación típica 4.
+Se toman muestras de tamaño 16.
+
+<ol>
+    <li>¿Cuál es la distribución de la media muestral?</li>
+    <li>¿Cuál es la probabilidad de que la media muestral esté comprendida entre 47,5 y 52,5?</li>
+</ol>

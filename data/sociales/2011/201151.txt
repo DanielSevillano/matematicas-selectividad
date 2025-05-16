@@ -1,0 +1,8 @@
+Se considera el recinto $R$ del plano, determinado por las siguientes inecuaciones:
+$$x + y \geq 2, \quad x + 3y \leq 15, \quad 3x - y \leq 15, \quad x \geq 0, \quad y \geq 0.$$
+
+<ol>
+    <li>Represente gráficamente el recinto $R$ y calcule sus vértices.</li>
+    <li>Halle los valores máximo y mínimo que alcanza la función $F(x, y) = 3x + y$ en dicho recinto.</li>
+    <li>Razone si existen puntos $(x, y)$ del recinto para los que $F(x, y) = 30$.</li>
+</ol>

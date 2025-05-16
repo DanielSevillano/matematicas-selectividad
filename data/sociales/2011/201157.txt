@@ -1,0 +1,8 @@
+Sean $A$ y $B$ dos sucesos aleatorios tales que:
+$$P(A) = 0,4, \quad P(B) = 0,5, \quad P(A \cap B) = 0,2.$$
+
+<ol>
+  <li>Calcule las siguientes probabilidades: $P(A \cup B)$, $P(A|B)$ y $P(B|A^C)$.</li>
+  <li>Razone si $A$ y $B$ son sucesos incompatibles.</li>
+  <li>Razone si $A$ y $B$ son independientes.</li>
+</ol>
