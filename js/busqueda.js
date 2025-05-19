@@ -49,7 +49,7 @@ async function buscarEjercicio(texto, ejercicio) {
         articulo.classList.add(ejercicio.modalidad);
         if (ejercicio.modalidad == "ciencias") contenidoCiencias.append(articulo);
         else contenidoSociales.append(articulo);
-        await obtenerEjercicio(articulo, ejercicio, true);
+        await obtenerEjercicio(articulo, ejercicio, true, "auto", contenido);
         return true;
     }
 }

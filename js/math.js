@@ -128,7 +128,7 @@ async function descargarMetadatos(modalidad, metadatos, guardarMetadatos) {
     return datos;
 }
 
-async function obtenerEjercicio(articulo, ejercicio, tituloCompleto = false, prioridad = "auto") {
+async function obtenerEjercicio(articulo, ejercicio, tituloCompleto = false, prioridad = "auto", enunciado = undefined) {
     articulo.append(tituloEjercicio(ejercicio, tituloCompleto));
     if (ejercicio.resuelto) articulo.classList.add("resuelto");
     if (ejercicio.categorias.length > 0) articulo.append(categoriasEjercicio(ejercicio.modalidad, ejercicio.categorias));
@@ -138,12 +138,15 @@ async function obtenerEjercicio(articulo, ejercicio, tituloCompleto = false, pri
     articulo.append(contenido);
 
     const parrafo = document.createElement("p");
-    const ruta = "data\\" + ejercicio.modalidad + "\\" + ejercicio.curso + "\\" + ejercicio.codigo() + ".txt";
-    const respuesta = await fetch(ruta, {
-        priority: prioridad,
-        signal: indicacion
-    });
-    const datos = await respuesta.text();
+    let datos;
+    if (!enunciado) {
+        const ruta = "data\\" + ejercicio.modalidad + "\\" + ejercicio.curso + "\\" + ejercicio.codigo() + ".txt";
+        const respuesta = await fetch(ruta, {
+            priority: prioridad,
+            signal: indicacion
+        });
+        datos = await respuesta.text();
+    } else datos = enunciado;
     parrafo.innerHTML = datos;
     contenido.append(parrafo);
     await formatear(parrafo);
