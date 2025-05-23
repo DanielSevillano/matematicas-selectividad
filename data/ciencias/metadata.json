@@ -5150,6 +5150,63 @@
         ]
     },
     {
+        "ejercicio": 201111,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201112,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201113,
+        "categorias": [
+            "Álgebra",
+            "Determinantes",
+            "Rango"
+        ]
+    },
+    {
+        "ejercicio": 201114,
+        "categorias": [
+            "Geometría",
+            "Ángulos",
+            "Área"
+        ]
+    },
+    {
+        "ejercicio": 201115,
+        "categorias": [
+            "Análisis",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201116,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201117,
+        "categorias": [
+            "Álgebra",
+            "Potencias"
+        ]
+    },
+    {
+        "ejercicio": 201118,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
         "ejercicio": 201151,
         "categorias": [
             "Análisis",

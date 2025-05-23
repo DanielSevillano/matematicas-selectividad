@@ -1,0 +1,4 @@
+Considera los planos $\pi_1,$ $\pi_2$ y $\pi_3$ dados respectivamente por las ecuaciones:
+$$3x - y + z - 4 = 0, \quad x - 2y + z - 1 = 0, \quad x + z - 4 = 0.$$
+
+Halla la ecuación de la recta que pasa por el punto $P(3, 1, -1)$, es paralela al plano $\pi_1$ y corta a la recta intersección de los planos $\pi_2$ y $\pi_3$.

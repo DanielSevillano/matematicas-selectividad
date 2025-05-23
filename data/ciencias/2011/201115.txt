@@ -1,0 +1,5 @@
+Sea $f: \mathbb{R} \to \mathbb{R}$ la función definida por $f(x) = 4 - x^2$.
+<ol>
+    <li>Halla la ecuación de la recta normal a la gráfica de $f$ en el punto de abscisa $x = 2$.</li>
+    <li>Determina el punto de la gráfica en el que la recta tangente es perpendicular a la recta $x + 2y - 2 = 0$.</li>
+</ol>

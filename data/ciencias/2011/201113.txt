@@ -1,0 +1,10 @@
+Sean $A$ y $B$ dos matrices cuadradas de orden 3 cuyos determinantes son $|A| = \frac{1}{2}$ y $|B| = -2$.
+Halla:
+
+<ol>
+    <li>$|A^3|$.</li>
+    <li>$|A^{-1}|$.</li>
+    <li>$|-2A|$.</li>
+    <li>$|AB^t|$.</li>
+    <li>El rango de $B$.</li>
+</ol>

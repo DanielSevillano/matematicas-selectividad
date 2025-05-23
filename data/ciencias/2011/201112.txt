@@ -1,0 +1,1 @@
+Determina la función $f: (0, +\infty) \to \mathbb{R}$ tal que $f''(x) = \frac{1}{x}$ y su gráfica tiene tangente horizontal en el punto $P(1, 1)$.

@@ -1,0 +1,2 @@
+Calcula:
+$$\int \frac{x^3 + x^2}{x^2 + x - 2} dx.$$

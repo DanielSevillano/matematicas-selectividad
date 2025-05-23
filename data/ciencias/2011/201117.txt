@@ -1,0 +1,12 @@
+Dada la matriz
+$$A = \begin{pmatrix} 
+    0 & 3 & 4 \\
+    1 & -4 & -5 \\
+    -1 & 3 & 4
+\end{pmatrix}.$$
+
+<ol>
+    <li>Demuestra que se verifica la igualdad $A^3 = -I$, siendo $I$ la matriz identidad de orden 3.</li>
+    <li>Justifica que $A$ es invertible y halla su inversa.</li>
+    <li>Calcula razonadamente $A^{100}$.</li>
+</ol>
