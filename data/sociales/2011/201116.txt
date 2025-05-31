@@ -1,0 +1,2 @@
+Calcule las derivadas de las siguientes funciones:
+$$f(x) = \frac{2x + x^2}{x}, \quad g(x) = (x^2 + 1)^2 \cdot \ln(e^{3x} + 4), \quad h(x) = \frac{1}{3x} - \frac{5}{x^2 - 2}.$$

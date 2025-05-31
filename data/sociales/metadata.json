@@ -4724,6 +4724,62 @@
         ]
     },
     {
+        "ejercicio": 201111,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201112,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Monotonía y extremos",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201113,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201114,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201115,
+        "categorias": [
+            "Álgebra",
+            "Dimensiones",
+            "Problemas de matrices"
+        ]
+    },
+    {
+        "ejercicio": 201116,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "ejercicio": 201117,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201118,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
         "ejercicio": 201151,
         "categorias": [
             "Programación lineal"

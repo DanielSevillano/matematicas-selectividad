@@ -1,0 +1,12 @@
+Sea la función
+$$f(x) = \begin{cases} 
+    -x + 4, & \text{si } x < 2, \\
+    4, & \text{si } 2 \leq x < 4, \\
+    -x^2 - 4x + 1, & \text{si } x \geq 4.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y la derivabilidad de $f$.</li>
+    <li>Determine los extremos locales de $f$.</li>
+    <li>Calcule la ecuación de la recta tangente a la gráfica de la función en el punto de abscisa $x = 3$.</li>
+</ol>

@@ -1,0 +1,29 @@
+<ol>
+    <li>
+        Dadas las matrices
+        $$M = \begin{pmatrix}
+            0 & 3 & -1 \\
+            1 & 0 & -2
+        \end{pmatrix}, \quad
+        N^t = \begin{pmatrix}
+            2 & 3 & -1 \\
+            -1 & 1 & 0
+        \end{pmatrix},$$
+        razone cuáles de las siguientes operaciones tienen sentido y efectúe las que puedan realizarse:
+        $$ M + N^t, \quad M^t \cdot N, \quad M \cdot N.$$
+    </li>
+
+    <li>
+        Un industrial cafetero produce dos tipos de café, natural y descafeinado, en tres modalidades cada uno: A, B y C.
+        Se han anotado en la matriz $P$ los pesos, en kg, del café que el industrial produce de cada una de las modalidades de cada tipo, y en la matriz $Q$ los precios a los que vende el kg de cada producto final:
+        $$P = \begin{pmatrix}
+            550 & 400 & 240 \\
+            260 & 200 & 100
+        \end{pmatrix}, \quad
+        Q = \begin{pmatrix}
+            2,20 & 2,75 & 2,50 \\
+            3,20 & 3,90 & 3,60
+        \end{pmatrix}.$$
+        Efectúe el producto $P \cdot Q^t$ y explique el significado económico de cada uno de los elementos de la diagonal principal de la matriz resultante.
+    </li>
+</ol>

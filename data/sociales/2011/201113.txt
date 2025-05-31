@@ -1,0 +1,9 @@
+Un examen consta de una parte teórica y una parte práctica.
+La probabilidad de que se apruebe la parte teórica es 0,7 y la de que se apruebe la parte práctica 0,75.
+Se sabe que el 50% de los alumnos ha aprobado ambas.
+
+<ol>
+    <li>Calcule la probabilidad de aprobar alguna de las dos partes.</li>
+    <li>Calcule la probabilidad de aprobar la parte práctica sabiendo que no se ha aprobado la parte teórica.</li>
+    <li>¿Son independientes los sucesos “aprobar parte teórica” y “aprobar parte práctica”?</li>
+</ol>

@@ -1,0 +1,8 @@
+Pedro vive en una ciudad donde el 40% de los días del año hay riesgo de lluvia y el resto no lo hay. 
+Cuando hay riesgo de lluvia, Pedro coge el paraguas un 98% de las veces y cuando no lo hay, un 5% de las veces.
+Si se selecciona un día del año al azar:
+
+<ol>
+    <li>¿Cuál es la probabilidad de que Pedro no haya cogido el paraguas ese día?</li>
+    <li>¿Cuál es la probabilidad de que exista riesgo de lluvia, si sabemos que ese día Pedro ha cogido el paraguas?</li>
+</ol>

@@ -1,0 +1,14 @@
+<ol>
+    <li>
+        Represente gráficamente el recinto determinado por las siguientes inecuaciones:
+        $$6x - y + 9 \geq 0, \quad 2x + 5y - 13 \leq 0, \quad 2x - 3y - 5 \leq 0.$$
+    </li>
+    
+    <li>Determine los vértices del recinto anterior.</li>
+
+    <li>
+        Halle los valores máximo y mínimo de la función
+        $$F(x, y) = 3x - 2y + 3$$
+        en el recinto del primer apartado, y especifique en qué puntos los alcanza.
+    </li>
+</ol>

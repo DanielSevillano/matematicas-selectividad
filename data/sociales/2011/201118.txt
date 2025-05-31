@@ -1,0 +1,7 @@
+El peso neto de las tabletas de chocolate de una determinada marca es una variable aleatoria Normal con media $\mu$ y desviación típica 7 gramos.
+Se sabe que 36 tabletas, elegidas al azar, han dado un peso total de 5.274 gramos.
+
+<ol>
+    <li>Calcule un intervalo con un nivel de confianza del 94% para la media $\mu$.</li>
+    <li>Con el mismo nivel de confianza, ¿cuántas tabletas, como mínimo, habrá que tomar como muestra para que la amplitud del intervalo que se obtenga sea, como máximo, de 3 gramos?</li>
+</ol>
