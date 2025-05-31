@@ -1,3 +1,3 @@
 Sabemos que el precio del kilo de tomates es la mitad que el del kilo de carne.
 Además, el precio del kilo de gambas es el doble que el de carne.
-Si pagamos 18 euros por 3 kilos de tomates, 1 kilo de carne y 250 gramos de gambas, ¿cuanto pagaríamos por 2 kilos de carne, 1 kilo de tomates y 500 gramos de gambas?
+Si pagamos 18 euros por 3 kilos de tomates, 1 kilo de carne y 250 gramos de gambas, ¿cuánto pagaríamos por 2 kilos de carne, 1 kilo de tomates y 500 gramos de gambas?
