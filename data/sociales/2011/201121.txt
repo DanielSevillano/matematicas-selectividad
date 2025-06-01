@@ -1,0 +1,16 @@
+Sean las matrices
+$$C = \begin{pmatrix}
+    0 & 1 & 0 \\
+    1 & 0 & 1 \\
+    0 & 1 & 0
+\end{pmatrix}, \quad
+D = \begin{pmatrix}
+    0 & 1 & 1 \\
+    1 & 0 & 1 \\
+    1 & 1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>Resuelva la ecuación matricial $2 \cdot X - C \cdot D = (I_3 + D) \cdot C$.</li>
+    <li>Si las matrices $C$ y $D$ son las matrices de adyacencia de dos grafos, de vértices $a, b, c$ y $1, 2, 3$, respectivamente, haga la representación gráfica de dichos grafos.</li>
+</ol>

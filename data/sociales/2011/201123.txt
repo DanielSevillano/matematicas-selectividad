@@ -1,0 +1,11 @@
+Sean dos sucesos, $A$ y $B$, tales que $P(A) = 0,5$, $P(B) = 0,4$ y $P(A|B) = 0,5$.
+
+<ol>
+    <li>Halle la probabilidad de que se verifique alguno de los dos sucesos.</li>
+    <li>Calcule la probabilidad de que no se verifique $B$ si se ha verificado $A$.</li>
+    
+    <li>
+        ¿Son independientes los sucesos $A$ y $B$?
+        Razone la respuesta.
+    </li>
+</ol>

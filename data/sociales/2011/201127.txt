@@ -1,0 +1,8 @@
+Una compañía aseguradora realiza operaciones de seguros médicos y de seguros de vida.
+El 20% de las operaciones corresponde a seguros médicos y el resto a seguros de vida.
+El porcentaje de operaciones en las que no se producen retrasos en los pagos es del 10% en los seguros médicos y del 15% en seguros de vida.
+
+<ol>
+    <li>Halle el porcentaje de operaciones en las que no se producen retrasos en los pagos.</li>
+    <li>De las operaciones que han sufrido retrasos en los pagos, ¿qué porcentaje corresponde a los seguros de vida?</li>
+</ol>

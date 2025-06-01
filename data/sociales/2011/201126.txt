@@ -1,0 +1,10 @@
+Se considera la función dada por
+$$f(x) = \begin{cases} 
+    \dfrac{-2}{x+2}, & \text{si } x \leq 0, \\
+    \dfrac{2}{x-2}, & \text{si } x > 0.
+\end{cases}.$$
+
+<ol>
+    <li>Estudie la continuidad y la derivabilidad de $f$.</li>
+    <li>Halle las ecuaciones de las asíntotas de esta función.</li>
+</ol>

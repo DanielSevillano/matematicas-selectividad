@@ -1,0 +1,7 @@
+Se sabe que la estatura de las personas de una población es una variable aleatoria que sigue una distribución Normal cuya desviación típica es de 0,04 m.
+Para estimar la media de esta variable se ha tomado una muestra aleatoria de 60 personas de esa población y se ha encontrado una estatura media de 1,73 m.
+
+<ol>
+    <li>Obtenga un intervalo de confianza, con un nivel del 97%, para la media de la distribución de estaturas.</li>
+    <li>Halle el tamaño mínimo que debe tener una muestra de esta población, para que la amplitud de un intervalo de la media con este nivel de confianza sea inferior a 0,08 m.</li>
+</ol>

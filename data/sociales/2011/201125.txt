@@ -1,0 +1,10 @@
+Una empresa elabora dos productos, A y B.
+Cada unidad de A requiere 2 horas en una máquina y 5 horas en una segunda máquina.
+Cada unidad de B necesita 4 horas en la primera máquina y 3 horas en la segunda máquina.
+Semanalmente se dispone de 100 horas en la primera máquina y de 110 horas en la segunda.
+Si la empresa obtiene un beneficio de 70 euros por cada unidad de A, y de 50 euros por cada unidad de B:
+
+<ol>
+    <li>¿Qué cantidad semanal de cada producto debe producir con objeto de maximizar el beneficio total?</li>
+    <li>¿Cuál es ese beneficio?</li>
+</ol>

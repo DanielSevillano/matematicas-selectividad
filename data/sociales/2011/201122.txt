@@ -1,0 +1,9 @@
+Tras un test realizado a un nuevo modelo de automóvil, se ha observado que el consumo de gasolina, $c(x)$, expresado en litros, viene dado por la función:
+$$c(x) = 7,5 - 0,05x + 0,00025x^2,$$
+siendo $x$ la velocidad en km/h y $25 \leq x \leq 175$.
+
+<ol>
+    <li>Determine el consumo de gasolina a las velocidades de 50 km/h y 150 km/h.</li>
+    <li>Estudie el crecimiento y decrecimiento de la función $c(x)$.</li>
+    <li>¿A qué velocidades de ese intervalo se obtiene el mínimo consumo y el máximo consumo y cuáles son éstos?</li>
+</ol>

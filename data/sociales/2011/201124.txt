@@ -1,0 +1,9 @@
+El director de un banco afirma que la cantidad media de dinero extraído, por cliente, de un cajero automático de su sucursal no supera los 120 euros.
+Para contrastar esta hipótesis elige al azar 100 extracciones de este cajero y obtiene una media muestral de 130 euros.
+Se sabe que la cantidad de dinero extraído por un cliente en un cajero automático se distribuye según una ley Normal de media desconocida y desviación típica 67 euros.
+
+<ol>
+    <li>Plantee el contraste de hipótesis asociado al enunciado.</li>
+    <li>Determine la región de aceptación, para un nivel de significación $\alpha = 0,05$.</li>
+    <li>Con los datos muestrales tomados, ¿existe evidencia estadística para rechazar la hipótesis de este director, con el mismo nivel de significación anterior?</li>
+</ol>
