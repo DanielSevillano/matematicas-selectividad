@@ -1,4 +1,4 @@
-Se quiere estimar la proporción de hembras entre los peces de una piscifactoria; para ello se ha tomado una muestra aleatoria de 500 peces, y en ella hay 175 hembras.
+Se quiere estimar la proporción de hembras entre los peces de una piscifactoría; para ello se ha tomado una muestra aleatoria de 500 peces, y en ella hay 175 hembras.
 
 <ol>
     <li>Calcule un intervalo de confianza para la proporción de hembras en esta población de peces, con un nivel de confianza del 94%.</li>

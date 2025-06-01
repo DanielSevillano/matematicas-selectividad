@@ -1,4 +1,4 @@
 Un fabricante elabora dos tipos de anillos a base de oro y plata.
 Cada anillo del primer tipo precisa 4 g de oro y 2 de plata, mientras que cada uno del segundo necesita 3 g de oro y 1 de plata.
 Sabiendo que dispone de 48 g de oro y 20 de plata y que los precios de venta de cada tipo de anillo son 150 euros el primero y 100 euros el segundo, ¿cuántos anillos de cada tipo tendría que producir para obtener los ingresos máximos?
-¿A cuánto ascenderian estos ingresos?
+¿A cuánto ascenderían estos ingresos?
