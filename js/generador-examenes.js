@@ -10,8 +10,8 @@ const intervalo1 = document.querySelector("#curso-inicial");
 const intervalo2 = document.querySelector("#curso-final");
 const intervalos = [intervalo1, intervalo2];
 
-const minimoCiencias = 2012;
-const minimoSociales = 2012;
+const minimoCiencias = 2011;
+const minimoSociales = 2011;
 
 let metadatosCiencias;
 let metadatosSociales;
@@ -67,7 +67,7 @@ async function procesar(event) {
 
     const datos = metadatos.filter(ejercicio => {
         const curso = parseInt(ejercicio.ejercicio / 100);
-        return curso >= cursoFinal && curso <= cursoInicial;
+        return (curso >= cursoFinal && curso <= cursoInicial) || ejercicio.categorias.includes("Sistemas de ecuaciones");
     });
 
     if (modalidad === "ciencias") {
