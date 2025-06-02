@@ -1,0 +1,8 @@
+Un banco lanza al mercado un plan de inversión cuya rentabilidad $R(x)$, en miles de euros, viene dada en función de la cantidad, $x$, que se invierte, también en miles de euros, por la siguiente expresión:
+$$R(x) = -0,001x^2 + 0,4x + 3,5, \quad \text{con } x \geq 10.$$
+
+<ol>
+    <li>Calcule la rentabilidad para una inversión de 100.000 euros.</li>
+    <li>Deduzca y razone qué cantidad habría que invertir para obtener la máxima rentabilidad.</li>
+    <li>¿Qué rentabilidad máxima se obtendría?</li>
+</ol>

@@ -1,0 +1,3 @@
+Un estudio sociológico afirma que el 70% de las familias cena viendo la televisión.
+Se desea contrastar la veracidad de esta afirmación y, para ello, se toma una muestra de 500 familias, en la que se observa que 340 ven la televisión mientras cenan.
+Decida, mediante un contraste de hipótesis, si la afirmación es cierta con un nivel de significación de 0,01.

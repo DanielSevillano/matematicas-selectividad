@@ -1,0 +1,7 @@
+En un distrito universitario, la calificación de los alumnos sigue una distribución Normal de media 6,2 puntos y desviación típica de 1 punto.
+Se seleccionó, aleatoriamente, una muestra de tamaño 25.
+
+<ol>
+    <li>Indique la distribución de la media de las muestras de tamaño 25.</li>
+    <li>¿Cuál es la probabilidad de que la media de las calificaciones de los alumnos de una de esas muestras esté comprendida entre 6 y 6,6 puntos?</li>
+</ol>

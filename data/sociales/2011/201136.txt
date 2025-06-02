@@ -1,0 +1,11 @@
+Sea la función
+$$f(x) = \begin{cases} 
+    1 - 2x^2, & \text{si } x \leq 1, \\
+    x^2 - 2ax + 3, & \text{si } 1 < x \leq 3, \\
+    -x^2 + 8x - 15, & \text{si } x > 3.
+\end{cases}$$
+
+<ol>
+    <li>Calcule el valor de $a$ para que $f$ sea continua en $x = 1$.</li>
+    <li>Para $a = 2$, estudie la continuidad y la derivabilidad de $f$.</li>
+</ol>

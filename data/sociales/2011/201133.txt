@@ -1,0 +1,7 @@
+Un jugador lanza a la vez un dado y una moneda.
+
+<ol>
+    <li>Construya el espacio muestral de este experimento aleatorio.</li>
+    <li>Determine la probabilidad del suceso $A$: "El jugador obtiene un número par en el dado y cruz en la moneda".</li>
+    <li>Si sabemos que en la moneda ha salido cara, ¿cuál es la probabilidad de que en el dado haya salido más de 3 puntos?</li>
+</ol>

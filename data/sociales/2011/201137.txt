@@ -1,0 +1,9 @@
+Una bolsa contiene 5 bolas blancas, 3 rojas y 4 negras.
+Ana y Manolo practican el siguiente juego: Ana saca una bola, anota su color y la devuelve a la bolsa, a continuación Manolo extrae una bola y anota su color.
+Si las dos bolas extraídas tienen el mismo color, gana Ana; si sólo hay una bola blanca, gana Manolo, y en otro caso hay empate.
+
+<ol>
+    <li>Calcule la probabilidad de que gane Ana.</li>
+    <li>Calcule la probabilidad de que gane Manolo.</li>
+    <li>Calcule la probabilidad de que haya empate.</li>
+</ol>
