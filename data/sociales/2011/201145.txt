@@ -1,0 +1,11 @@
+Se considera el recinto R del plano determinado por las siguientes inecuaciones:
+$$13x + 8y \leq 600, \quad 3(x - 2) \geq 2(y - 3), \quad x - 4y \leq 0.$$
+
+<ol>
+    <li>Represente gráficamente el recinto $R$ y calcule sus vértices.</li>
+    <li>
+        Calcule el valor máximo en dicho recinto de la función:
+        $$F(x, y) = 65x + 40y,$$
+        indicando dónde se alcanza.
+    </li>
+</ol>

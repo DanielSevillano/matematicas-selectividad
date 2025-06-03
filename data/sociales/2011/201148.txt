@@ -1,0 +1,9 @@
+Con el fin de estudiar el peso medio de los perros recién nacidos de una determinada raza, se tomó una muestra en una clínica veterinaria y se obtuvieron los siguientes pesos, medidos en kg:
+$$1,2 \quad 0,9 \quad 1,1 \quad 1,2 \quad 1,1 \quad 0,8 \quad 1,1.$$
+Se sabe que el peso de los cachorros de esta raza se distribuye según una ley Normal con desviación típica 0,25 kg.
+
+<ol>
+    <li>Obtenga un intervalo de confianza para estimar la media poblacional, al 95%.</li>
+    <li>Halle el error máximo que se cometería usando el intervalo anterior.</li>
+    <li>Razone cómo variaría la amplitud del intervalo de confianza si, manteniendo el mismo nivel de confianza, aumentásemos el tamaño de la muestra.</li>
+</ol>

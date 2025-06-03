@@ -1,0 +1,25 @@
+<ol>
+    <li>
+        Dada una matriz cuadrada, $A$, de orden 3 con los siguientes elementos:
+        $$a_{12} = a_{21} = -2, \quad a_{13} = a_{31} = 0, \quad a_{23} = a_{32} = 1.$$
+
+        Determine los demás elementos de la matriz $A$ sabiendo que debe cumplirse la ecuación:
+        $$A \cdot B = C^t,$$
+        donde:
+        $$B^t = \begin{pmatrix}
+            1 & -1 \\
+            1 & 1
+        \end{pmatrix}, \quad
+        C = \begin{pmatrix}
+            -4 & 2 & -1
+        \end{pmatrix}.$$
+    </li>
+
+    <li>
+        Calcule $2D^2$, siendo:
+        $$D = \begin{pmatrix}
+            1 & -5 \\
+            3 & -5
+        \end{pmatrix}.$$
+    </li>
+</ol>

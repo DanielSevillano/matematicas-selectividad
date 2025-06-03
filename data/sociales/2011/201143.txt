@@ -1,0 +1,8 @@
+En una ciudad, el 55% de la población consume aceite de oliva, el 30% consume aceite de girasol y el 20% consume ambos tipos de aceite.
+Se escoge una persona al azar:
+
+<ol>
+    <li>Si consume aceite de oliva, ¿cuál es la probabilidad de que consuma también aceite de girasol?</li>
+    <li>Si consume aceite de girasol, ¿cuál es la probabilidad de que no consuma aceite de oliva?</li>
+    <li>¿Cuál es la probabilidad de que no consuma ninguno de los dos tipos de aceite?</li>
+</ol>

@@ -1,0 +1,8 @@
+El peso de los adultos de una determinada población sigue una distribución Normal de media 70 kg y desviación típica 16 kg.
+Si elegimos al azar muestras de tamaño 4:
+
+<ol>
+    <li>¿Cuál es la distribución de la media muestral?</li>
+    <li>¿Cuál es la probabilidad de que el peso medio de una de esas muestras esté comprendido entre 65 y 72 kg?</li>
+    <li>¿Cuál es la probabilidad de que ese peso medio sea menor que 70 kg?</li>
+</ol>

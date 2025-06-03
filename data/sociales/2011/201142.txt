@@ -1,0 +1,16 @@
+El beneficio, en miles de euros, alcanzado en una tienda de ropa el pasado año está dado por la función:
+$$B(t) = \begin{cases} 
+    t^2 - t + 5, & 0 \leq t \leq 6, \\
+    \dfrac{t + 1}{2}, & 6 < t \leq 12,
+\end{cases},$$
+donde $t$ es el tiempo transcurrido en meses.
+
+<ol>
+    <li>Estudie la derivabilidad de la función al cabo de 6 meses.</li>
+    <li>¿Cuándo fue mínimo el beneficio? ¿Cuál fue dicho beneficio?</li>
+    <li>
+        Represente gráficamente la función $B(t)$.
+        ¿Cuándo fue máximo el beneficio?
+        ¿A cuánto ascendió?
+    </li>
+</ol>

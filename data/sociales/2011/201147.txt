@@ -1,0 +1,8 @@
+El 30% de los aparatos que llegan a un servicio técnico para ser reparados están en garantía.
+De los que no están en garantía, el 20% ya fueron reparados en otra ocasión y de los que sí lo están, solamente un 5% fueron reparados anteriormente.
+Se elige un aparato al azar en el servicio técnico:
+
+<ol>
+    <li>¿Cuál es la probabilidad de que haya sido reparado en otra ocasión?</li>
+    <li>Si es la primera vez que ha llegado al servicio técnico, ¿cuál es la probabilidad de que esté en garantía?</li>
+</ol>

@@ -1,0 +1,12 @@
+<ol>
+    <li>
+        La gráfica de la función derivada, $f'$, de una función $f$ es una parábola que corta al eje $OX$ en los puntos $(-1, 0)$ y $(3, 0)$, y tiene su vértice en $(1, -4)$.
+        Estudie, a partir de ella, la monotonía de la función $f$ e indique la abscisa de cada extremo relativo.
+    </li>
+    
+    <li>
+        Halle la ecuación de la recta tangente a la gráfica de la función:
+        $$g(x) = -2e^{3x}$$
+        en el punto de abscisa $x = 0$.
+    </li>
+</ol>
