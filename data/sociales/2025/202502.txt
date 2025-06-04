@@ -1,0 +1,13 @@
+Un periódico digital ha publicado una noticia de última hora.
+El número de personas que han visto la noticia $t$ horas después de su lanzamiento viene modelado por la función:
+$$N(t) = 500.000 \cdot (1 - e^{-0,2t}), \quad t > 0.$$
+
+<ol>
+    <li>Estudie la monotonía y curvatura de la función $N$.</li>
+    <li>Represente gráficamente la función $N$ y describa su tendencia a lo largo del tiempo.</li>
+    <li>¿Cuánto tiempo ha debido de pasar para que la noticia haya sido vista por 450.000 personas?</li>
+    <li>
+        La velocidad de difusión de la noticia (número de personas por hora que han visto la publicación) es $N'(t)$.
+        ¿Qué conclusión se obtiene al comparar $N'(t)$ en los instantes $t = 1$ y $t = 10$?
+    </li>
+</ol>

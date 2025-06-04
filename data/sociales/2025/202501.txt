@@ -1,0 +1,23 @@
+<ol>
+    <li>
+        Plantee y resuelva el siguiente problema de forma matricial:
+        El gerente de una empresa de productos hospitalarios desea introducir un nuevo producto en el mercado nacional.
+        Para ello contrata a 3 vendedores que se han encargado de las zonas A, B y C del país, respectivamente.
+        El vendedor de la zona A ha trabajado 40 horas, ha realizado 10 demostraciones y 5 viajes para dicha promoción.
+        El vendedor de la zona B ha trabajado el doble de horas que el de la zona A, realizando 15 demostraciones y 8 viajes.
+        En cuanto al vendedor de la zona C, ha trabajado 100 horas, ha realizado 25 demostraciones y 10 viajes.
+        El gerente debe abonarles 75€ por hora trabajada, 300€ por demostración y 250€ por viaje realizado.
+        Teniendo en cuenta que, además, debe aplicárseles una retención en concepto del impuesto del IRPF del 15% si la cantidad a abonar al vendedor es menor de diez mil euros y del 18% en caso contrario, determine la cantidad final que cobrará cada vendedor.
+    </li>
+
+    <li>
+        Sea
+        $$A = \begin{pmatrix}
+            -2 & 2 & 1 \\
+            3 & a - 1 & 2 \\
+            4 & 0 & 3
+        \end{pmatrix}.$$
+        
+        ¿Para qué valores de $a$ es la matriz $A$ invertible?
+    </li>
+</ol>

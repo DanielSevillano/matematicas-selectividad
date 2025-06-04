@@ -1,0 +1,9 @@
+El tiempo de estudio semanal de los estudiantes andaluces, medido en horas, se distribuye según una ley Normal de media desconocida y desviación típica 5 horas.
+A partir de una muestra de 81 estudiantes se ha obtenido que el intervalo de confianza para la media poblacional es $(10,794; \; 13,206)$, con un nivel de confianza del 97%.
+
+<ol>
+    <li>Obtenga el tiempo medio de estudio de esa muestra de estudiantes.</li>
+    <li>Si se amplía el tamaño de la muestra, razone si manteniendo el nivel de confianza, la amplitud del intervalo de confianza aumenta o disminuye.</li>
+    <li>Si se desea reducir la amplitud del intervalo de confianza, razone si manteniendo el tamaño muestral, ha de reducirse o aumentarse el nivel de confianza.</li>
+    <li>Si la media de la población es de 10,2 horas y sabiendo que la media muestral es de 12 horas, calcule el tamaño máximo de la muestra para obtener un intervalo de confianza que contenga la media poblacional, manteniendo el 97% de confianza.</li>
+</ol>

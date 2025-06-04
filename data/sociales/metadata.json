@@ -1,5 +1,55 @@
 [
     {
+        "ejercicio": 202501,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202502,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 202503,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202504,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202505,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202506,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 202507,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
         "ejercicio": 202401,
         "resuelto": true,
         "categorias": [

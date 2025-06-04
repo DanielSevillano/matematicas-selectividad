@@ -1,0 +1,11 @@
+En una casa con trastero viven tres personas y cada una tiene un llavero con las llaves de la casa.
+El primer llavero contiene 7 llaves, el segundo 8 y el tercero 5.
+En cada uno de los llaveros hay una única llave que abre el trastero. Otra persona necesita abrir el trastero y, para ello, selecciona un llavero al azar y, de este, elige una llave aleatoriamente e intenta abrirlo.
+Calcule la probabilidad de que:
+
+<ol>
+    <li>No haya acertado con la llave seleccionada.</li>
+    <li>El llavero sea el tercero y la llave abra el trastero.</li>
+    <li>Sabiendo que la llave elegida abre el trastero, esta pertenezca al primer o al tercer llavero.</li>
+    <li>Si la llave no abre el trastero, esta no pertenezca al primer llavero.</li>
+</ol>

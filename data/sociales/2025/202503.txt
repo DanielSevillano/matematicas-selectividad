@@ -1,0 +1,12 @@
+A un paciente con diabetes se le monitoriza durante un día completo, suministrándole un medicamento a mediodía para observar su reacción.
+La cantidad de glucosa en sangre (mg/dl) del paciente, en cada instante $t$ (horas), es:
+$$f(t) =\begin{cases} 
+    \dfrac{5}{6} \left(\dfrac{t^3}{3} - 12t^2 + 108t + 108\right), & \text{si } 0 \leq t \leq 12, \\
+    t^2 - 40t + 546, & \text{si } 12 < t \leq 24.
+\end{cases}$$
+
+<ol>
+    <li>Halle en qué periodos de tiempo el nivel de glucosa va aumentando.</li>
+    <li>¿En qué momentos del día el paciente tiene los niveles más alto y más bajo de glucosa en sangre y a cuánto ascienden?</li>
+    <li>¿En qué momentos, después del mediodía, el paciente tiene 155 mg/dl?</li>
+</ol>
