@@ -1,6 +1,7 @@
 [
     {
         "ejercicio": 202501,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Problemas de matrices"
