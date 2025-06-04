@@ -9,6 +9,7 @@ window.MathJax = {
         macros: {
             Adj: "\\operatorname{Adj}",
             arctan: "\\operatorname{arctg}",
+            Bi: "\\operatorname{Bi}",
             dist: "\\operatorname{dist}",
             Dom: "\\operatorname{Dom}",
             rang: "\\operatorname{rang}",

@@ -1,0 +1,36 @@
+<p>
+    Llamamos $X$ al número de personas que contratan el servicio, con $X \sim \Bi(n = 20, \; p = 0,2)$.
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que 10 personas contraten el servicio es:
+        $$P(X = 10) = \binom{20}{10} 0,2^{10} \cdot 0,8^{10} \approx 0,0020.$$
+    </li>
+
+    <li>
+        En primer lugar, hallamos la probabilidad de que contraten el servicio menos de 2 personas.
+        \begin{align}
+            P(X = 0) & = \binom{20}{0} 0,2^0 \cdot 0,8^{20} \approx 0,0115, \\
+            P(X = 1) & = \binom{20}{1} 0,2^1 \cdot 0,8^{19} \approx 0,0576.
+        \end{align}
+
+        Así que:
+        $$P(X \leq 1) = P(X = 0) + P(X = 1) = 0,0115 + 0,0576 = 0,0691.$$
+
+        Por tanto, la probabilidad de que contraten el servicio al menos 2 personas es:
+        $$P(X \geq 2) = 1 - P(X \leq 1) = 1 - 0,0691 = 0,9309.$$
+    </li>
+
+    <li>
+        El valor esperado viene dado por:
+        $$E(X) = np = 20 \cdot 0,2 = 4.$$
+    </li>
+
+    <li>
+        Para que el valor esperado sea 13, ha de verificarse:
+        $$E(X) = 13 \Leftrightarrow np = 13 \Leftrightarrow 0,2n = 13 \Leftrightarrow n = 65.$$
+
+        Por tanto,  se deberían seleccionar al menos 65 personas.
+    </li>
+</ol>
