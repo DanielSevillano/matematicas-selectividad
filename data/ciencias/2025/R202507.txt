@@ -1,0 +1,48 @@
+<p>
+    Llamamos $C$ a elegir un coche, $M$ a elegir una moto y $A$ a resultar apto.
+    Podemos ampliar la tabla de contingencia con los totales.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <th>Coches</th>
+            <th>Motos</th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <th>Aptos</th>
+            <td>116.383</td>
+            <td>160.667</td>
+            <td>277.050</td>
+        </tr>
+
+        <tr>
+            <th>No aptos</th>
+            <td>2.679</td>
+            <td>3.447</td>
+            <td>6.126</td>
+        </tr>
+
+        <tr>
+            <th></th>
+            <td>119.062</td>
+            <td>164.114</td>
+            <td>283.176</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        La probabilidad de que el vehículo elegido sea una moto o haya resultado apto es:
+        $$P(M \cup A) = P(M \cap A) + P(M \cap \bar{A}) + P(C \cap A) = \frac{160.667}{283.176} + \frac{3.447}{283.176} + \frac{116.383}{283.176} \approx 0,9905.$$
+    </li>
+
+    <li>
+        La probabilidad de que el vehículo haya resultado no apto sabiendo que es un coche es:
+        $$P(\bar{A}|C) = \frac{2.679}{119.062} \approx 0,0225.$$
+    </li>
+</ol>

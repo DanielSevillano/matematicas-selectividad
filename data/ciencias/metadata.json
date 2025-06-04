@@ -45,6 +45,7 @@
     },
     {
         "ejercicio": 202507,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
