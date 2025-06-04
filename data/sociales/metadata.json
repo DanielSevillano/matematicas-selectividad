@@ -3,8 +3,7 @@
         "ejercicio": 202501,
         "categorias": [
             "Álgebra",
-            "Sistemas de ecuaciones",
-            "Problemas de sistemas"
+            "Problemas de matrices"
         ]
     },
     {
@@ -18,6 +17,7 @@
     },
     {
         "ejercicio": 202503,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos"
@@ -25,6 +25,7 @@
     },
     {
         "ejercicio": 202504,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
@@ -37,6 +38,7 @@
     },
     {
         "ejercicio": 202506,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"

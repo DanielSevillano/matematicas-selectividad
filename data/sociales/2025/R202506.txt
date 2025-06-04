@@ -1,0 +1,30 @@
+<ol>
+    <li>
+        La media muestral viene dada por el punto medio del intervalo.
+        $$\bar{x} = \frac{10,704 + 13,206}{2} = 12.$$
+    </li>
+
+    <li>
+        La amplitud del intervalo disminuye al aumentar el tamaño de la muestra, porque el error máximo cometido se reduce.
+    </li>
+
+    <li>
+        El nivel de confianza debe reducirse para disminuir la amplitud del intervalo, porque el error máximo cometido se reduce.
+    </li>
+
+    <li>
+        El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
+        $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \, \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+        Como el nivel de confianza es del 97%, entonces:
+        $$P(Z \leq z_{\alpha/2}) = \frac{1 + 0,97}{2} = 0,985 \Leftrightarrow z_{\alpha/2} = 2,17.$$
+        
+        Así que el intervalo de confianza para estimar la media de la población con un nivel de confianza del 97% es:
+        $$I = \left(12 - 2,17 \cdot \frac{5}{\sqrt{n}}, \, 12 + 2,17 \cdot \frac{5}{\sqrt{n}}\right) = \left(12 - \frac{10,85}{\sqrt{n}}, \, 12 + \frac{10,85}{\sqrt{n}}\right).$$
+
+        Para que el intervalo contenga a la media poblacional $\mu = 10,2$, ha de verificarse:
+        $$12 - \frac{10,85}{\sqrt{n}} = 10,2 \Leftrightarrow \frac{10,85}{\sqrt{n}} = 1,8 \Leftrightarrow \sqrt{n} = \frac{10,85}{1,8} \Leftrightarrow n = \frac{10,85^2}{1,8^2} \approx 36,3341.$$
+
+        Por tanto, el tamaño máximo de la muestra debe ser de 36 estudiantes.
+    </li>
+</ol>

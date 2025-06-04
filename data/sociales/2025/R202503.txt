@@ -1,0 +1,71 @@
+<ol>
+    <li>
+        Si $t \neq 12$, la función es continua y derivable con:
+        $$f'(t) = \begin{cases}
+            \frac{5}{6} \left(t^2 - 24t + 108\right), & \text{si } 0 \leq t < 12, \\
+            2t - 40, & \text{si } 12 < t \leq 24.
+        \end{cases}$$
+
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+
+        <ul>
+            <li>
+                Si $0 < t < 12$,
+                $$f'(t) = 0 \Leftrightarrow \frac{5}{6} \left(t^2 - 24t + 108\right) = 0 \Leftrightarrow t^2 - 24t + 108 = 0 \Leftrightarrow \begin{cases}
+                    t = 6, \\
+                    t = 18 \notin (0, 12).
+                \end{cases}$$
+            </li>
+
+            <li>
+                Si $12 < t < 24$,
+                $$f'(t) = 0 \Leftrightarrow 2t - 40 = 0 \Leftrightarrow 2t = 40 \Leftrightarrow t = 20.$$
+            </li>
+        </ul>
+
+        Así que los puntos críticos son $t = 6$ y $t = 20$.
+        También consideramos $t = 12$ por ser el punto de ruptura.
+        Estudiamos el signo de $f'$.
+
+        <ul>
+            <li>
+                Si $0 < t < 6$, $f'(t) > 0$.
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $6 < t < 12$, $f'(t) < 0$.
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $12 < t < 20$, $f'(t) < 0$.
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $20 < t < 24$, $f'(t) > 0$.
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es creciente en $(0, 6)$ y $(20, 24)$.
+        Es decir, la glucosa aumenta a lo largo de las seis primeras horas y a partir de las 20 horas.
+    </li>
+
+    <li>
+        Los puntos $(6, 330)$ y $(24, 162)$ son máximos relativos y los puntos $(0, 90)$ y $(20, 146)$ son mínimos relativos.
+        Por tanto, $(6, 330)$ es el máximo absoluto y $(0, 90)$ es el mínimo absoluto.
+        Es decir, el nivel más alto se alcanza a las seis horas, con 330 mg/dl, y el nivel más bajo lo tiene al principio del día, con 90 mg/dl.
+    </li>
+
+    <li>
+        Si $t > 6$,
+        $$f(t) = 155 \Leftrightarrow t^2 - 40t + 546 = 155 \Leftrightarrow t^2 - 40t + 391 = 0 \Leftrightarrow \begin{cases}
+            t = 17, \\
+            t = 23.
+        \end{cases}$$
+
+        Por tanto, el paciente alcanza una cantidad de glucosa de 155 mg/dl a las 17 horas y a las 23 horas.
+    </li>
+</ol>
