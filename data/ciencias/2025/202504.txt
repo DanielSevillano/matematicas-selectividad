@@ -1,0 +1,6 @@
+Sean los puntos $O(0, 0, 0)$, $A(0, 2, -2)$, $B(1, 2, m)$ y $C(2, 3, 2)$.
+
+<ol>
+    <li>Halla los valores de $m$ para que el tetraedro determinado por los puntos $O$, $A$, $B$ y $C$ tenga un volumen de 3 unidades cúbicas.</li>
+    <li>Para $m = 0$, calcula la distancia del punto $O$ al plano que pasa por los puntos $A$, $B$ y $C$.</li>
+</ol>

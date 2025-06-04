@@ -1,0 +1,15 @@
+Juan ha gastado 80€ por la compra de un jersey, una camisa y un pantalón.
+Sabemos que el precio del jersey es un tercio del precio de la camisa y el pantalón juntos.
+
+<ol>
+    <li>
+        ¿Es posible determinar de forma única el precio del jersey?
+        ¿Y el de la camisa?
+        Razona la respuesta.
+    </li>
+
+    <li>
+        Si Juan hubiera esperado a las rebajas se habría gastado 57€, pues el jersey, la camisa y el pantalón tenían un descuento del 30%, del 40% y del 20%, respectivamente.
+        Calcula el precio de cada prenda antes de las rebajas.
+    </li>
+</ol>

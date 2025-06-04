@@ -1,5 +1,55 @@
 [
     {
+        "ejercicio": 202501,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Problemas"
+        ]
+    },
+    {
+        "ejercicio": 202502,
+        "categorias": [
+            "Análisis",
+            "Límites"
+        ]
+    },
+    {
+        "ejercicio": 202503,
+        "categorias": [
+            "Análisis",
+            "Asíntotas",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202504,
+        "categorias": [
+            "Geometría",
+            "Distancia",
+            "Volumen"
+        ]
+    },
+    {
+        "ejercicio": 202505,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "ejercicio": 202506,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202507,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
         "ejercicio": 2025601,
         "resuelto": true,
         "categorias": [

@@ -1,0 +1,30 @@
+En la tabla siguiente se recoge el número de coches y motos que se presentaron a la ITV en el año 2023:
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <th>Coches</th>
+            <th>Motos</th>
+        </tr>
+
+        <tr>
+            <th>Aptos</th>
+            <td>116.383</td>
+            <td>160.667</td>
+        </tr>
+
+        <tr>
+            <th>No aptos</th>
+            <td>2.679</td>
+            <td>3.447</td>
+        </tr>
+    </table>
+</div>
+
+Se elige un vehículo al azar de entre los coches y motos que se presentaron a dicha inspección.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que el vehículo elegido sea una moto o haya resultado apto?</li>
+    <li>Si el vehículo elegido es un coche, ¿cuál es la probabilidad de que haya resultado no apto?</li>
+</ol>

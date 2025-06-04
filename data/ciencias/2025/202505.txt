@@ -1,0 +1,7 @@
+Considera el punto $P(1, 1, 1)$ y la recta $r$ dada por:
+$$\frac{x - 1}{1} = \frac{y - 2}{2} = \frac{z - 3}{2}.$$
+
+<ol>
+    <li>Halla el plano que pasa por el punto $P$ y contiene a la recta $r$.</li>
+    <li>Halla la recta que pasa por el punto $P$ y corta perpendicularmente a la recta $r$.</li>
+</ol>

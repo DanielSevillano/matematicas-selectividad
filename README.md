@@ -35,6 +35,8 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ## 📋 Progreso
 
 ### Exámenes de ciencias
+- [ ] 2025
+    - [x] Junio
 - [x] 2024 a 2012
 - [ ] 2011
     - [x] Junio

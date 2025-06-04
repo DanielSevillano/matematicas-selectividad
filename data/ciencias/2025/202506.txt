@@ -1,0 +1,2 @@
+Halla la función $f: (0, +\infty) \to \mathbb{R}$ que pasa por los puntos $(2, e - 2 - 2 \ln(2))$ y $(1, 0)$, y verifica que:
+$$f''(x) = e^{x-1} - \frac{1}{x}.$$
