@@ -287,6 +287,37 @@ main img {
 }
 
 /********************
+Tablas
+********************/
+
+.tabla {
+    max-width: 100%;
+    margin-block: 1.5em;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.tabla mjx-container {
+    background: none;
+}
+
+table {
+    margin-inline: auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    min-width: max-content;
+    padding-inline: 8px;
+}
+
+tr.subrayado>th {
+    border-bottom: 1px solid var(--on-button);
+}
+
+/********************
 Acordeón
 ********************/
 
