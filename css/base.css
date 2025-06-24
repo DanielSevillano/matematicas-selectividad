@@ -415,7 +415,8 @@ section.cargando::after {
 Sombras de desplazamiento
 ********************/
 
-mjx-container {
+mjx-container,
+.tabla {
     --shadow-color: hsla(0, 0%, 50%, 0.4);
     --shadow-margin: 40px;
     --shadow-width: 10px;

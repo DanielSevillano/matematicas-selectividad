@@ -196,8 +196,7 @@ div.cargando>* {
 Sombras de desplazamiento
 ********************/
 
-.contenedor-grupos,
-.tabla {
+.contenedor-grupos {
     --shadow-color: hsla(0, 0%, 50%, 0.4);
     --shadow-margin: 40px;
     --shadow-width: 10px;
