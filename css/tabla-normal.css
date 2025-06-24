@@ -1,0 +1,8 @@
+table {
+    border-collapse: separate;
+}
+
+tbody tr:hover {
+    background-color: var(--header-color);
+    outline: 2px solid hsla(0, 0%, 50%, 0.25);
+}
