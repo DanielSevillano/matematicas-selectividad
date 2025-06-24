@@ -1,0 +1,14 @@
+Un nuevo servicio de streaming utiliza un algoritmo para recomendar películas a sus usuarios en función de las películas vistas anteriormente.
+Como la plataforma es de reciente creación, solo tiene disponibles tres géneros: ciencia ficción, terror y musicales.
+El 62% de las películas disponibles son de ciencia ficción, la cuarta parte son de terror y el resto musicales.
+De las películas de ciencia ficción, el algoritmo hace una recomendación correcta en el 70% de las ocasiones, de las de terror, el 75% de las veces y de los musicales, el 15%.
+Un usuario selecciona al azar una película de su lista de recomendaciones.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que el algoritmo haya hecho una recomendación correcta?</li>
+    <li>Si no ha sido recomendada correctamente, ¿qué probabilidad hay de que la película sea de terror?</li>
+    <li>
+        De las recomendaciones correctas del género de ciencia ficción, el usuario queda satisfecho con la elección de la película en el 55% de las ocasiones.
+        ¿Qué probabilidad hay de que la película sea de ciencia ficción, esté recomendada correctamente y el usuario haya quedado satisfecho?
+    </li>
+</ol>

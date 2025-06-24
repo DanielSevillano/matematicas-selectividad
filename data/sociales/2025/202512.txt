@@ -1,0 +1,7 @@
+Una empresa de catering dispone semanalmente de 58 horas de cocina, 50 horas de empaquetado y 60 dm<sup>3</sup> de almacenamiento en cámaras frigoríficas para elaborar dos tipos de menús: premium y estándar.
+Ambos menús requieren tiempo, tanto de preparación como de empaquetado, y espacio de almacenamiento en frigoríficos.
+Concretamente, el menú premium requiere de 2 horas de cocina, 2 horas de empaquetado y ocupa 1 dm<sup>3</sup> en frigoríficos.
+Por su parte, el menú estándar requiere de 3 horas de cocina, 1 hora de empaquetado y ocupa 4 dm<sup>3</sup> en frigoríficos.
+El beneficio obtenido por cada menú premium es de 10,50€ y por cada menú estándar es de 5,50€.
+La empresa sabe que venderá todos los menús producidos.
+Determine cuántos menús de cada tipo deben elaborarse semanalmente para maximizar el beneficio total y a cuánto asciende este beneficio.

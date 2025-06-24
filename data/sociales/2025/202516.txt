@@ -1,0 +1,12 @@
+El tiempo que tardan los usuarios de un sistema de salud en conseguir una cita en Atención Primaria sigue una distribución Normal con media desconocida y desviación típica 4,2 días.
+
+<ol>
+    <li>
+        Elegidos al azar 30 usuarios, se obtiene que el tiempo medio que tardan en obtener cita en Atención Primaria es de 11,3 días.
+        Determine un intervalo de confianza para estimar la media poblacional, con un nivel de confianza del 97%.
+        La gerencia del sistema de salud asegura que el promedio de días para obtener una cita en Atención Primaria es de 9,8 días.
+        Según el intervalo obtenido ¿podría asumirse la afirmación de la gerencia como posible?
+    </li>
+
+    <li>¿Cuántos usuarios como mínimo se deberían seleccionar en una nueva muestra para que, con un nivel de confianza del 95%, el error máximo en el intervalo de la media poblacional sea de 0,6 días.</li>
+</ol>

@@ -1,0 +1,17 @@
+<ol>
+    <li>
+        Se considera la función
+        $$f(x) = \begin{cases}
+            a \cdot e^{x+1}, & \text{si } x \leq -1, \\
+            x^2 - 2, & \text{si } -1 < x < 2, \\
+            b \cdot \log(12 - x), & \text{si } 2 \leq x < 12,
+        \end{cases}$$
+        siendo $a$ y $b$ números reales.
+        Determine los valores de $a$ y $b$ para que la función $f$ sea continua en su dominio.
+    </li>
+
+    <li>
+        Represente el recinto acotado, limitado por la recta $y = -x + 3$ y la parábola $y = -x^2 + 5$.
+        Calcule el área del recinto.
+    </li>
+</ol>

@@ -1,0 +1,18 @@
+Se considera la matriz
+$$A = \begin{pmatrix}
+    2 & 1 & 0 \\
+    0 & 1 & 2 \\
+    2 & 2 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Resuelva el sistema de ecuaciones matriciales:
+        $$(A + I_3) \cdot X + Y = A - I_3, \quad X - Y = I_3.$$
+    </li>
+
+    <li>
+        Halle el rango de las matrices $A + I_3$ y $A - I_3$.
+        ¿Son matrices invertibles?
+    </li>
+</ol>

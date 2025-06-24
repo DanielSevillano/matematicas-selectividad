@@ -54,6 +54,57 @@
         ]
     },
     {
+        "ejercicio": 202511,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202512,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202513,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202514,
+        "categorias": [
+            "Continuidad",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202515,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202516,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 202517,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
         "ejercicio": 202401,
         "resuelto": true,
         "categorias": [

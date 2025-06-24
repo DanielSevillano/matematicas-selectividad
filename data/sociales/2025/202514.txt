@@ -1,0 +1,15 @@
+El nivel de concentración de un alumno universitario durante un examen viene dado por la siguiente función:
+$$f(t) = \begin{cases}
+    -t^2 + 2t + 10, & \text{si } 0 \leq t \leq 2,5, \\
+    \dfrac{t^2 + at + b}{t^2 + at + b}, & \text{si } 2,5 < t \leq 5,
+\end{cases}$$
+donde $t$ es el tiempo en horas y $a$ y $b$ números reales.
+
+<ol>
+    <li>
+        ¿Con qué nivel de concentración el alumno comienza el examen?
+        Determine los valores de $a$ y $b$ para que la función $f$ sea continua y derivable en $t = 2,5$.
+    </li>
+    
+    <li>Para $a = -8$ y $b = 22,5$, esboce la gráfica de la función $f$, estudiando previamente la monotonía y calculando en qué momentos se alcanzan los niveles máximo y mínimo de concentración.</li>
+</ol>

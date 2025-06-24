@@ -1,0 +1,8 @@
+Se desea estimar la proporción de personas de una determinada localidad que se muestran favorables a la celebración de las fiestas locales durante el mes de mayo.
+Para ello, se ha tomado una muestra aleatoria de 200 personas resultando que 130 de ellas están a favor.
+
+<ol>
+    <li>Obtenga un intervalo de confianza, con un nivel de confianza del 96,5%, para estimar la proporción de personas de esta localidad que está a favor de celebrar las fiestas locales durante el mes de mayo.</li>
+    <li>Manteniendo la misma proporción muestral y con un nivel de confianza del 99%, ¿cuál es el número mínimo de personas que deberán seleccionarse aleatoriamente para que la proporción muestral y la poblacional no difieran en más de un 2%?</li>
+    <li>Manteniendo el tamaño de la muestra y la proporción muestral, si se aumenta el nivel de confianza, razone cómo influye en el error máximo de estimación.</li>
+</ol>
