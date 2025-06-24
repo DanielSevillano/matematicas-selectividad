@@ -1,0 +1,6 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = (x - 1)e^x$.
+
+<ol>
+    <li>Determina la ecuación de la recta tangente y la ecuación de la recta normal a la gráfica de $f$ en el punto de inflexión.</li>
+    <li>Estudia y calcula las asíntotas de la función.</li>
+</ol>

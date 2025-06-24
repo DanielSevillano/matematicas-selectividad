@@ -1,0 +1,6 @@
+Sea la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = (x - 1)^2$.
+
+<ol>
+    <li>Esboza el recinto acotado y limitado por la gráfica de $f$ y la recta $y = a$ con $a > 0$.</li>
+    <li>Calcula $a > 0$ para que el área del recinto acotado y limitado por la gráfica de $f$ y la recta $y = a$ sea $\frac{4}{3}$ unidades cuadradas.</li>
+</ol>

@@ -51,6 +51,58 @@
         ]
     },
     {
+        "ejercicio": 202511,
+        "categorias": [
+            "Ánálisis",
+            "Recta tangente",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 202512,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202513,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202514,
+        "categorias": [
+            "Geometría",
+            "Área",
+            "Volumen"
+        ]
+    },
+    {
+        "ejercicio": 202515,
+        "categorias": [
+            "Geometría",
+            "Punto simétrico",
+            "Distancia"
+        ]
+    },
+    {
+        "ejercicio": 202516,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "ejercicio": 202517,
+        "categorias": [
+            "Probabilidad",
+            "Distribución normal"
+        ]
+    },
+    {
         "ejercicio": 2025601,
         "resuelto": true,
         "categorias": [

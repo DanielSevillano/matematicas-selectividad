@@ -37,6 +37,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ### Exámenes de ciencias
 - [ ] 2025
     - [x] Junio
+    - [x] Reserva 1
 - [x] 2024 a 2012
 - [ ] 2011
     - [x] Junio

@@ -1,0 +1,11 @@
+Sea la matriz
+$$A = \begin{pmatrix}
+    \alpha & \alpha + 4 & 0 \\
+    1 & \alpha & 1 \\
+    0 & \alpha + 4 & \alpha
+\end{pmatrix}.$$
+
+<ol>
+    <li>Indica para qué valores de $\alpha$ la matriz $A$ admite inversa.</li>
+    <li>Para $\alpha = 1$ determina, si es posible, la matriz inversa de $A$.</li>
+</ol>

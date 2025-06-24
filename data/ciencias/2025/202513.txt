@@ -1,0 +1,7 @@
+Considera la función
+$$f(x) = \begin{cases}
+    x \sin(2x), & \text{si } x \leq 0, \\
+    \cos(\pi x) - 1, & \text{si } x > 0.
+\end{cases}$$
+
+Calcula $\displaystyle \int_{\frac{\pi}{4}}^{1} f(x) dx$.

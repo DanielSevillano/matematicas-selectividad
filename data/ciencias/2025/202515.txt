@@ -1,0 +1,6 @@
+Considera el plano $\pi \equiv 2x + y + 2z + 5 = 0$.
+
+<ol>
+    <li>Calcula el punto simétrico de $P(1, 0, 1)$ respecto de $\pi$.</li>
+    <li>Calcula los planos paralelos a $\pi$ que disten 2 unidades de $\pi$.</li>
+</ol>
