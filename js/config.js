@@ -12,6 +12,7 @@ window.MathJax = {
             Bi: "\\operatorname{Bi}",
             dist: "\\operatorname{dist}",
             Dom: "\\operatorname{Dom}",
+            lim: "\\mathop{\\,\\:\\mathrm{lím}\\,\\:}",
             rang: "\\operatorname{rang}",
             sin: "\\operatorname{sen}",
             tan: "\\operatorname{tg}"
