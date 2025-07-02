@@ -1,0 +1,15 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    0 & 3 & 4 \\
+    1 & -4 & -5 \\
+    -1 & 3 & 4
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Comprueba que $A^3 + I = O$, siendo $I$ la matriz identidad y $O$ la matriz nula.
+        Calcula $A^{-1}$.
+    </li>
+    
+    <li>Calcula $A^{2025}$.</li>
+</ol>

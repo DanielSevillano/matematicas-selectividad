@@ -1,0 +1,3 @@
+Calcula
+$$\int_{\sqrt{3}}^2 \frac{4x}{x^4 - 6x^2 + 10} dx.$$
+(Sugerencia: efectúa el cambio de variable $t = x^2 - 3 $).

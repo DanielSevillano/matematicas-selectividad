@@ -103,6 +103,57 @@
         ]
     },
     {
+        "ejercicio": 202521,
+        "categorias": [
+            "Ánálisis",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202522,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202523,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202524,
+        "categorias": [
+            "Álgebra",
+            "Potencias"
+        ]
+    },
+    {
+        "ejercicio": 202525,
+        "categorias": [
+            "Álgebra",
+            "Determinantes"
+        ]
+    },
+    {
+        "ejercicio": 202526,
+        "categorias": [
+            "Geometría",
+            "Punto simétrico"
+        ]
+    },
+    {
+        "ejercicio": 202527,
+        "categorias": [
+            "Probabilidad",
+            "Probabilidad total"
+        ]
+    },
+    {
         "ejercicio": 2025601,
         "resuelto": true,
         "categorias": [

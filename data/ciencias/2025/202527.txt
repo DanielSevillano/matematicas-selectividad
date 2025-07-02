@@ -1,0 +1,9 @@
+Se hace un estudio sobre el café que se consume en la cafetería de una estación.
+Según el tipo de taza tenemos tres opciones: expreso, medio y americano; con porcentajes, respectivamente, de 29%, 51% y 20%.
+Por otra parte, también sabemos que el café puede ser de la variedad que tiene cafeína o ser descafeinado.
+En concreto, las tasas de café con cafeína presentan, para cada uno de los tipos de taza establecidos antes, los porcentajes 18%, 31% y 11%, respectivamente.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que una persona adquiera un café expreso descafeinado?</li>
+    <li>Si sabemos que el café es descafeinado, ¿cuál es la probabilidad de que sea un expreso?</li>
+</ol>

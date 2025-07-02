@@ -1,0 +1,10 @@
+Sea $f: [0, 2] \to \mathbb{R}$ la función definida por
+$$f(x) = \begin{cases}
+    1 - e^x, & \text{si } 0 \leq x < 1, \\
+    2x - 1 - e, & \text{si } 1 \leq x \leq 2.
+\end{cases}$$
+
+<ol>
+    <li>Estudia la derivabilidad de $f$.</li>
+    <li>Halla los extremos absolutos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
+</ol>

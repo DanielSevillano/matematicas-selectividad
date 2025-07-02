@@ -1,0 +1,25 @@
+Sabiendo que
+$$\begin{vmatrix}
+a & b & c \\
+x & y & z \\
+u & w & v
+\end{vmatrix} = 1,$$
+calcula razonadamente:
+
+<ol>
+    <li>
+        $\displaystyle \begin{vmatrix}
+        a + x & b + y & c + z \\
+        a & b & c \\
+        2a + u & 2b + v & 2c + w
+        \end{vmatrix}.$
+    </li>
+
+    <li>
+        $\displaystyle \begin{vmatrix}
+            z & c & w \\
+            x & a & u \\
+            y & b & v
+        \end{vmatrix}.$
+    </li>
+</ol>

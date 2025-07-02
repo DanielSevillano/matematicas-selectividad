@@ -1,0 +1,6 @@
+Considera el plano $\pi \equiv x + y + z + 1 = 0$ y los puntos $A(1, 2, 0)$ y $B(3, 1, 0)$.
+
+<ol>
+    <li>Calcula el punto simétrico del punto $A$ con respecto al plano $\pi$.</li>
+    <li>Halla el plano que contiene a los puntos $A$ y $B$ y es perpendicular al plano $\pi$.</li>
+</ol>

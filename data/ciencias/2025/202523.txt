@@ -1,0 +1,9 @@
+Sean las funciones $ f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = x^3 - x$ y $g(x) = -x^2 + 1$.
+
+<ol>
+    <li>
+        Halla los puntos de corte (abscisas donde se obtienen y valores que se alcanzan) de las gráficas de $ f$ y $ g$.
+        Realiza un esbozo del recinto acotado y limitado por dichas gráficas.
+    </li>
+    <li>Calcula el área del recinto acotado y limitado por las gráficas de $ f$ y $ g$.</li>
+</ol>
