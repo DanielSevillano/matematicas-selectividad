@@ -10,7 +10,7 @@ $$f(t) = \begin{cases}
     <li>Represente gráficamente la función $f.$</li>
     <li>Conteste razonadamente a qué hora se produjo el corte de energía y cuánto duró dicho corte.</li>
     <li>
-        El equipo de refrigeracion se utiliza para conservar sueros y vacunas.
+        El equipo de refrigeración se utiliza para conservar sueros y vacunas.
         Los sueros se estropean si se alcanzan temperaturas de 20°C en algún momento.
         Las vacunas se estropean si están por encima de 0°C durante más de seis horas.
         Razone si alguno de esos productos se estropeó ese día.
