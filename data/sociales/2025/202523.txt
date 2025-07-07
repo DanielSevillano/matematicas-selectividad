@@ -1,0 +1,14 @@
+<ol>
+    <li>
+        El índice de audiencia de un programa de radio se puede modelizar por una función del tipo:
+        $$f(t) = at^2 + bt + c, \quad t \in [0, 60],$$
+        donde $t$ es el tiempo medido en minutos y $a, b, c \in \mathbb{R}$.
+        Se sabe que cuando comienza el programa el índice de audiencia es 20 puntos y que a los 40 minutos se alcanza el máximo índice de audiencia, que es 36 puntos.
+        Determine $a$, $b$ y $c$ y represente gráficamente la función obtenida.
+    </li>
+
+    <li>
+        Calcule la derivada de las siguientes funciones:
+        $$g(x) = \ln\left(\frac{x^2-1}{x^2+1}\right), \quad h(x) = (2x-1)e^{x^2-x}.$$
+    </li>
+</ol>

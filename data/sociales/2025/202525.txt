@@ -1,0 +1,13 @@
+Una encuesta realizada a personas que utilizan productos de cosmética arroja los siguientes datos: el 66% de las personas encuestadas son mujeres y, de estas, el 71% utilizan cosmética natural.
+Además, se sabe que el 17,86% son hombres que no utilizan cosmética natural.
+Se selecciona una de estas personas al azar.
+
+<ol>
+    <li>Calcule la probabilidad de que sea mujer o use cosmética natural.</li>
+    <li>Calcule la probabilidad de que sea hombre y utilice cosmética natural.</li>
+    <li>Sabiendo que no usa cosmética natural, calcule la probabilidad de que sea hombre.</li>
+    <li>
+        ¿Son sucesos incompatibles "utilizar cosmética natural" y "ser mujer"?
+        ¿Son independientes?
+    </li>
+</ol>

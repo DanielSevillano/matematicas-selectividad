@@ -1,0 +1,15 @@
+Se considera la función
+$$f(x) = \begin{cases}
+    10 + \frac{5x}{2}, & \text{si } x \leq -2, \\
+    x^2 + 1, & \text{si } -2 < x < 2, \\
+    10 - \frac{5x}{2}, & \text{si } x \geq 2.
+\end{cases}$$
+
+<ol>
+    <li>Estudie la continuidad y derivabilidad de $f$ en el punto de abscisa $x = -2$.</li>
+    <li>Calcule la ecuación de la recta tangente a la gráfica de la función $f$ con pendiente -1.</li>
+    <li>
+        Represente la región del plano acotada superiormente por la gráfica de $f$ e inferiormente por el eje de abscisas.
+        Calcule el área de dicha región.
+    </li>
+</ol>

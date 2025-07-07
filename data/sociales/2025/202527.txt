@@ -1,0 +1,8 @@
+En un invernadero de Palos de la Frontera (Huelva), se cultivan fresas y frambuesas.
+Se desea estimar la proporción de fresas y frambuesas que se recolectan.
+Para ello, se ha tomado una muestra aleatoria de 300 kg, obteniéndose que 180 kg de ellos son fresas y el resto frambuesas.
+
+<ol>
+    <li>Obtenga, con un nivel de confianza del 97%, un intervalo para estimar la proporción de fresas recolectadas en el invernadero y otro intervalo para estimar la proporción de frambuesas recolectadas.</li>
+    <li>Con las proporciones muestrales iniciales y con un nivel de confianza del 95%, ¿cuántos kilogramos de frutos deberían seleccionarse aleatoriamente como mínimo para que las proporciones muestrales difieran de las proporciones poblacionales a lo sumo en un 2%?</li>
+</ol>

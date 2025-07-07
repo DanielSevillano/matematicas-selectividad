@@ -1,0 +1,13 @@
+Un tratamiento experimental para tratar una determinada intolerancia alimentaria mejora al 60% de los pacientes a los que se les suministra.
+Cinco pacientes deciden someterse a dicho tratamiento.
+
+<ol>
+    <li>
+        Indique la distribución que sigue la variable "número de pacientes de entre los 5 que mejoran con este tratamiento".
+        ¿Cuál es la probabilidad de que mejoren cuatro pacientes gracias al tratamiento?
+    </li>
+
+    <li>Calcule la probabilidad de que al menos dos pacientes experimenten mejoría tras someterse al tratamiento.</li>
+    <li>¿Cuántos pacientes se espera que mejoren al someterse a ese tratamiento?</li>
+    <li>¿Cuántos pacientes deberían someterse al tratamiento para que el número esperado de pacientes que mejoren sea mayor o igual a 12?</li>
+</ol>

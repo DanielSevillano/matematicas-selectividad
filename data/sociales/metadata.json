@@ -79,6 +79,7 @@
     {
         "ejercicio": 202514,
         "categorias": [
+            "Análisis",
             "Continuidad",
             "Derivabilidad",
             "Monotonía y extremos"
@@ -99,6 +100,57 @@
     },
     {
         "ejercicio": 202517,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 202521,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 202522,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202523,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202524,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Recta tangente",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202525,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202526,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202527,
         "categorias": [
             "Estadística",
             "Estimación de la proporción"

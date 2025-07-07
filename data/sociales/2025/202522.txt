@@ -1,0 +1,6 @@
+Un servicio técnico recibe un encargo para revisar lavadoras y frigoríficos de una empresa de apartahoteles.
+La revisión de cada lavadora requiere 100 minutos de trabajo, mientras que cada frigorífico requiere 50 minutos.
+El servicio técnico dispone de 26 horas y 40 minutos para hacer las revisiones.
+Por política de empresa, no se aceptan encargos de más de 12 lavadoras ni de más de 16 frigoríficos.
+Sabiendo que las revisiones se pagan a 50€ la hora, en ambos tipos de electrodomésticos, ¿cuántos electrodomésticos de cada clase debe revisar el servicio técnico para maximizar el ingreso con el encargo?
+¿A cuánto asciende este ingreso máximo?

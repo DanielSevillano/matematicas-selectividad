@@ -1,0 +1,20 @@
+<ol>
+    <li>
+        En un festival gastronómico gaditano se han vendido entradas para tres eventos culinarios.
+        Concretamente, 120 entradas para un taller de repostería, 50 para una demostración de cocina gourmet y 150 para una cata de vinos de la tierra de Cádiz.
+        El total recaudado por la venta de entradas ha sido de 6.460€.
+        Se sabe que el precio de 10 entradas para el taller de repostería coincide con el coste de la suma de 2 entradas para la cata de vinos y 1 entrada para la demostración de cocina gourmet.
+        Además, el coste de 2 entradas para el taller y 1 entrada para la cata de vinos supera en 6€ al de 2 entradas para la demostración de cocina gourmet.
+        ¿Cuánto cuesta la entrada de cada evento?
+    </li>
+
+    <li>
+        Dada la matriz
+        $$A = \begin{pmatrix}
+            1 & 0 & -1 \\
+            -1 & 2 & 3 \\
+            1 & 2 & 1
+        \end{pmatrix},$$
+        calcule el rango de $A$ y $A^2$.
+    </li>
+</ol>
