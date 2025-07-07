@@ -1,0 +1,11 @@
+Los alumnos de un colegio de una localidad andaluza van a realizar una excursión a la estación de esquí de Sierra Nevada desplazándose en tres autobuses A, B y C.
+En el autobús A se desplazan cuatro novenos de los alumnos de la excursión, en el B se desplaza la tercera parte y el resto van en el autobús C.
+Se sabe que el 65% de los alumnos que viajan en el autobús A y el 40% de los del autobús B no sabe esquiar y todos los del autobús C sí que saben esquiar.
+Se escoge al azar a uno de los alumnos de la excursión.
+Calcule la probabilidad de que:
+
+<ol>
+    <li>Sepa esquiar.</li>
+    <li>Viaje en el autobús C, si sabe esquiar.</li>
+    <li>Sepa esquiar y no viaje en el autobús B.</li>
+</ol>

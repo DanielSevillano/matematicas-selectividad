@@ -1,0 +1,8 @@
+A partir de un estudio muestral se sabe que, con un nivel de confianza del 95%, la proporción de estudiantes de una universidad que tienen carnet de conducir pertenece al intervalo $(0,5616; \, 0,7184)$.
+
+<ol>
+    <li>Calcule la proporción muestral de estudiantes que tienen carnet de conducir.</li>
+    <li>Calcule el error máximo cometido en la estimación de la proporción poblacional.</li>
+    <li>Calcule el tamaño de la muestra seleccionada.</li>
+    <li>Razone qué efecto producirá sobre la amplitud del intervalo un aumento del tamaño muestral.</li>
+</ol>

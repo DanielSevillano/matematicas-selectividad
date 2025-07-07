@@ -1,0 +1,5 @@
+Un agricultor cultiva dos tipos de lechuga: iceberg y romana.
+Por razones de demanda, en cada ciclo de cultivo, la cantidad de iceberg debe ser al menos la mitad de la de romana, pero no puede superar las 1.500 unidades.
+Además, deben cultivarse en total entre 900 y 2.400 lechugas.
+El cultivo de iceberg requiere 15 litros de agua por unidad, mientras que el de romana necesita 18 litros de agua por unidad.
+¿Cuántas unidades de cada tipo de lechuga deben cultivarse para minimizar el consumo total de agua?

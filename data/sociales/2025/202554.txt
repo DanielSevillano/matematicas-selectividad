@@ -1,0 +1,12 @@
+En un determinado centro educativo, el 50% del alumnado aprueba Historia, el 70% aprueba Matemáticas y el 30% aprueba ambas asignaturas.
+Si se elige un alumno al azar:
+
+<ol>
+    <li>Halle la probabilidad de que apruebe solo una de las dos asignaturas.</li>
+    <li>Halle la probabilidad de que no apruebe más de una asignatura.</li>
+    <li>Halle la probabilidad de que apruebe Historia si ha suspendido Matemáticas.</li>
+    <li>
+        Determine si los sucesos "Aprobar Matemáticas" y "Aprobar Historia" son independientes.
+        ¿Son incompatibles?
+    </li>
+</ol>

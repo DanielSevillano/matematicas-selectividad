@@ -1,0 +1,12 @@
+Trinidad, una persona ahorradora, deposita 5.000€ en un fondo de inversión y el capital final que obtiene cuando transcurren $t$ años viene dado por la siguiente función:
+$$f(t) = \begin{cases}
+    5.000 \cdot (1 + 0,05t), & \text{si } 0 \leq t \leq 1, \\
+    5.000 \cdot 1,05^t, & \text{si } t > 1.
+\end{cases}$$
+
+<ol>
+    <li>¿Cuánto tiempo debe mantener invertido el dinero si el capital final que se obtiene es de 5.931,10€?</li>
+    <li>Calcule los intereses que obtiene Trinidad entre el año 2 y el año 4, si se conoce que los intereses que genera esta inversión entre el año $t_1$ y el año $t_2$ vienen dados por $I = f(t_2) - f(t_1)$.</li>
+    <li>Estudie la continuidad y derivabilidad de la función $f$.</li>
+    <li>Estudie la monotonía de la función $f$ y esboce su gráfica.</li>
+</ol>

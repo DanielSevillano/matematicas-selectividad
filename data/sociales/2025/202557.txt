@@ -1,0 +1,11 @@
+El tiempo de adaptación a la guardería, en días, de los menores de dos años andaluces, sigue una distribución Normal de media 10,5 días y desviación típica 1,5 días.
+
+<ol>
+    <li>
+        Se toma una muestra aleatoria de 25 menores de estas características.
+        ¿Qué distribución sigue la media muestral del tiempo de adaptación?
+        ¿Cuál es la probabilidad de que el tiempo medio de adaptación de esta muestra supere los 10 días?
+    </li>
+
+    <li>¿Qué porcentaje de muestras de tamaño 25 nos proporcionará un tiempo medio de adaptación entre 8 y 11 días?</li>
+</ol>

@@ -1,0 +1,22 @@
+<ol>
+    <li>
+        Un fabricante de paneles fotovoltaicos está analizando la eficiencia de tres modelos de placas (A, B y C).
+        En un día determinado se realizaron tres pruebas.
+        En la primera, utilizando 2 placas del modelo A, 1 placa del modelo B y 3 placas del modelo C, se generó una potencia efectiva total de 2.960 W.
+        En la segunda, al combinar 1 placa del modelo A, 3 placas del modelo B y 2 placas del modelo C, se obtuvo una potencia efectiva total de 2.990 W.
+        En la tercera, una configuración con 3 placas del modelo A, 2 placas del modelo B y 1 placa del modelo C produjo una potencia efectiva total de 2.870 W.
+        Exprese el problema en forma matricial y discuta, a partir de la matriz del sistema, si se puede obtener la potencia efectiva que generó individualmente cada modelo de placa fotovoltaica.
+        En caso afirmativo, obtenga dichas potencias efectivas.
+    </li>
+
+    <li>
+        Resuelva la ecuación matricial
+        $$2X = \begin{pmatrix}
+            1 & 1 \\
+            0 & -1
+        \end{pmatrix}^2 \cdot
+        \begin{pmatrix}
+            4 \\ 1
+        \end{pmatrix}.$$
+    </li>
+</ol>

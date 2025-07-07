@@ -161,6 +161,56 @@
         ]
     },
     {
+        "ejercicio": 202551,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202552,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202553,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202554,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202555,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202556,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 202557,
+        "categorias": [
+            "Estadística",
+            "Distribución de medias muestrales"
+        ]
+    },
+    {
         "ejercicio": 202401,
         "resuelto": true,
         "categorias": [
