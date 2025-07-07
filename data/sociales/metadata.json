@@ -35,7 +35,8 @@
         "ejercicio": 202505,
         "resuelto": true,
         "categorias": [
-            "Probabilidad"
+            "Probabilidad",
+            "Distribución binomial"
         ]
     },
     {
@@ -57,7 +58,8 @@
         "ejercicio": 202511,
         "categorias": [
             "Álgebra",
-            "Sistemas de ecuaciones matriciales"
+            "Sistemas de ecuaciones matriciales",
+            "Rango"
         ]
     },
     {
@@ -109,7 +111,8 @@
         "ejercicio": 202521,
         "categorias": [
             "Álgebra",
-            "Sistemas de ecuaciones"
+            "Sistemas de ecuaciones",
+            "Rango"
         ]
     },
     {
@@ -146,7 +149,8 @@
     {
         "ejercicio": 202526,
         "categorias": [
-            "Probabilidad"
+            "Probabilidad",
+            "Distribución binomial"
         ]
     },
     {

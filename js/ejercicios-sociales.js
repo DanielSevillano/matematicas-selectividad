@@ -20,8 +20,8 @@ let metadatos;
 const guardarMetadatos = datos => { metadatos = datos; };
 
 const categoriasProgramacionLineal = ["programacion-lineal", "problemas-de-optimizacion"];
-const categoriasAlgebra = ["algebra", "dimensiones", "potencias", "ecuaciones-matriciales", "sistemas-de-ecuaciones-matriciales", "problemas-de-matrices", "sistemas-de-ecuaciones", "problemas-de-sistemas"];
-const categoriasEstadistica = ["probabilidad", "problemas-de-sucesos", "estadistica", "muestreo", "estimacion-de-la-media", "estimacion-de-la-proporcion", "distribucion-de-medias-muestrales", "contraste-de-hipotesis"];
+const categoriasAlgebra = ["algebra", "dimensiones", "potencias", "rango", "ecuaciones-matriciales", "sistemas-de-ecuaciones-matriciales", "problemas-de-matrices", "sistemas-de-ecuaciones", "problemas-de-sistemas"];
+const categoriasEstadistica = ["probabilidad", "problemas-de-sucesos", "distribucion-binomial", "estadistica", "muestreo", "estimacion-de-la-media", "estimacion-de-la-proporcion", "distribucion-de-medias-muestrales", "contraste-de-hipotesis"];
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
