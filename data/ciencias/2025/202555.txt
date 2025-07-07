@@ -1,0 +1,11 @@
+Sean las rectas
+$$r \equiv \frac{x+1}{4} = \frac{y+2}{3} = \frac{z-2}{-1} \quad \text{y} \quad s \equiv \begin{cases}
+    x = 1 - \lambda, \\
+    y = 2 + \lambda, \\
+    z = -3 - 2\lambda.
+\end{cases}$$
+
+<ol>
+    <li>Estudia la posición relativa de las rectas $r$ y $s$.</li>
+    <li>Halla la ecuación de un plano que contiene a $r$ y a una recta perpendicular a las rectas $r$ y $s$.</li>
+</ol>

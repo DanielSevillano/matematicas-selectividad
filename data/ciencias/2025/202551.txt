@@ -1,0 +1,4 @@
+Se sabe que la suma de tres números naturales es 22 y que la suma de cuatro veces el primero más el triple del segundo más el doble del tercero es 61.
+¿Puede ser 15 uno de los tres números?
+En caso afirmativo, calcula los restantes.
+¿Existen otras opciones?

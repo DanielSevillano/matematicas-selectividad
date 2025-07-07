@@ -1,0 +1,2 @@
+Calcula $a$ y $b$ sabiendo que
+$$\lim_{x \to 0} \frac{x\sin(x) + a(e^x-1) + \sin(x)}{bx^2 + x - \sin(x)} = 1.$$

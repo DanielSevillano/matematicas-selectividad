@@ -154,6 +154,56 @@
         ]
     },
     {
+        "ejercicio": 202551,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Problemas"
+        ]
+    },
+    {
+        "ejercicio": 202552,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202553,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202554,
+        "categorias": [
+            "Geometría",
+            "Distancia"
+        ]
+    },
+    {
+        "ejercicio": 202555,
+        "categorias": [
+            "Geometría",
+            "Posición relativa"
+        ]
+    },
+    {
+        "ejercicio": 202556,
+        "categorias": [
+            "Análisis",
+            "Límites"
+        ]
+    },
+    {
+        "ejercicio": 202557,
+        "categorias": [
+            "Probabilidad",
+            "Distribución normal"
+        ]
+    },
+    {
         "ejercicio": 2025601,
         "resuelto": true,
         "categorias": [

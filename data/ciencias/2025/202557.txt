@@ -1,0 +1,13 @@
+La velocidad máxima a la que puede circular un vehículo sobre un determinado puente del río Guadalete es de 70 km/h.
+
+<ol>
+    <li>
+        En uno de los sentidos de circulación, la velocidad de los vehículos sigue una distribución normal de media 64 km/h y desviación típica 4 km/h.
+        Si el radar de control salta a partir de 72 km/h, ¿cuál es el porcentaje de vehículos que se sancionan?
+    </li>
+
+    <li>
+        En el sentido contrario, también sigue una distribución normal de la que sabemos que la velocidad media es de 63,6 km/h y que el 5,05% de todos los vehículos viaja a más de 80 km/h.
+        En este caso, ¿cuánto vale la desviación típica?
+    </li>
+</ol>

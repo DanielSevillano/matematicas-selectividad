@@ -1,0 +1,2 @@
+Calcula el valor de $k$ para que
+$$\int_1^3 e^{x-k}(x-2)dx = 2.$$

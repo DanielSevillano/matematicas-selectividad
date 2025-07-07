@@ -1,0 +1,11 @@
+Considera la recta
+$$r \equiv \begin{cases}
+    x - y + z = 3, \\
+    x + 2y - z = 4
+\end{cases}$$
+y el plano $\pi \equiv mx - y - 2z = 5$.
+
+<ol>
+    <li>Halla $m$ para que $r$ y $\pi$ sean paralelos.</li>
+    <li>Para $m = -8$, calcula la distancia de la recta $r$ al plano $\pi$.</li>
+</ol>

@@ -1,0 +1,4 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \frac{1}{x^2 + 2x + 2}.$$
+
+Calcula una primitiva de $f$ cuya gráfica pase por el punto $\left(0, \frac{\pi}{4}\right)$.
