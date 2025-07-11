@@ -1,0 +1,33 @@
+<ol>
+    <li>
+        La ordenada de la asíntota horizontal viene dada por:
+        $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \left(a + \frac{\ln(x)}{x^2}\right) = a.$$
+
+        Para que $y = 1$ sea la asíntota horizontal, ha de verificarse que $a = 1$.
+    </li>
+
+    <li>
+        En primer lugar, hallamos la derivada de la función $f$.
+        $$f'(x) = \frac{\frac{1}{x} \cdot x^2 - \ln(x) \cdot 2x}{x^4} = \frac{x - 2x\ln(x)}{x^4} = \frac{1 - 2\ln(x)}{x^3}.$$
+
+        Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
+        $$f'(x) = 0 \Leftrightarrow \frac{1 - 2\ln(x)}{x^3} = 0 \Leftrightarrow 1 - 2\ln(x) = 0 \Leftrightarrow \ln(x) = \frac{1}{2} \Leftrightarrow x = \sqrt{e}.$$
+
+        Estudiamos el signo de $f'$.
+
+        <ul>
+            <li>
+                Si $0 < x < \sqrt{e}$, $f'(x) > 0$.
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $x > \sqrt{e}$, $f'(x) < 0$.
+                Así que $f$ es decreciente.
+            </li>
+        </ul>
+
+        Por tanto, $f$ es creciente en $(0, \sqrt{e})$ y decreciente en $(\sqrt{e}, +\infty)$.
+        Además, el punto $\left(\sqrt{e}, \frac{1}{2e}\right)$ es un máximo relativo.
+    </li>
+</ul>

@@ -1,0 +1,54 @@
+<p>
+    Llamamos $x$ al precio del jersey, $y$ al precio de la camisa y $z$ al precio del pantalón.
+</p>
+
+<p>
+    Planteamos el sistema de ecuaciones.
+    $$\begin{cases}
+        x + y + z = 80, \\
+        x = \frac{y+z}{3}
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        x + y + z = 80, \\
+        3x - y - z = 0.
+    \end{cases}$$
+
+    Si sumamos las dos ecuaciones, obtenemos que:
+    $$4x = 80 \Leftrightarrow x = 20.$$
+
+    El sistema queda:
+    $$\begin{cases}
+        y + z = 60, \\
+        -y - z = -60
+    \end{cases} \Leftrightarrow y + z = 60.$$
+
+    Por tanto, el jersey cuesta 20€ pero no se puede determinar de forma única el precio de la camisa.
+</p>
+
+<p>
+    Completamos el sistema de ecuaciones con la nueva ecuación.
+    $$\begin{cases}
+        x + y + z = 80, \\
+        3x - y - z = 0, \\
+        0,7x + 0,6y + 0,8z = 57
+    \end{cases} \Leftrightarrow \begin{cases}
+        x + y + z = 80, \\
+        3x - y - z = 0, \\
+        7x + 6y + 8z = 570.
+    \end{cases}$$
+
+    Como sabemos que $x = 20$ por el apartado anterior, el sistema queda:
+    $$\begin{cases}
+        y + z = 60, \\
+        6y + 8z = 430
+    \end{cases} \Leftrightarrow \begin{cases}
+        y + z = 60, \\
+        3y + 4z = 215.
+    \end{cases}$$
+
+    Resolvemos el sistema por sustitución.
+    Como $z = 60 - y$, entonces:
+    $$3y + 240 - 4y = 215 \Leftrightarrow y = 25 \Rightarrow z = 60 - y = 60 - 25 = 35.$$
+
+    Por tanto, el jersey cuesta 20€, la camisa cuesta 25€ y el pantalón cuesta 35€.
+</p>

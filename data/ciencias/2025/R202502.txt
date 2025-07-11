@@ -1,0 +1,16 @@
+<p>
+    Calculamos el límite.
+    $$\lim_{x \to 0} \frac{\sin(x) - ax + 2 - 2\cos(x)}{e^x - x\cos(x) - 1} = \frac{0}{0}.$$
+</p>
+
+<p>
+    Para resolver la indeterminación, aplicamos la regla de l'Hôpital.
+    $$\lim_{x \to 0} \frac{\sin(x) - ax + 2 - 2\cos(x)}{e^x - x\cos(x) - 1} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{\cos(x) - a + 2\sin(x)}{e^x - cos(x) + x\sin(x)} = \frac{1-a}{0}.$$
+
+    Si $a \neq 1$ este límite será infinito, así que necesariamente $a = 1$.
+</p>
+
+<p>
+    Continuamos resolviendo el límite para $a = 1$.
+    $$\lim_{x \to 0} \frac{\cos(x) - 1 + 2\sin(x)}{e^x - cos(x) + x\sin(x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{-\sin(x) + 2\cos(x)}{e^x + \sin(x) + \sin(x) - x\cos(x)} = 2.$$
+</p>

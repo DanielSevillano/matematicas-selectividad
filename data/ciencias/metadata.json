@@ -1,6 +1,7 @@
 [
     {
         "ejercicio": 202501,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
@@ -9,6 +10,7 @@
     },
     {
         "ejercicio": 202502,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Límites"
@@ -16,6 +18,7 @@
     },
     {
         "ejercicio": 202503,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Asíntotas",
