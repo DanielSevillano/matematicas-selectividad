@@ -1,0 +1,33 @@
+<ol>
+    <li>
+        El volumen del tetraedro determinado por los puntos $O$, $A$, $B$ y $C$ es un sexto del volumen del paralelepípedo formado por los vectores $\vec{OA} = (0, 2, -2)$, $\vec{OB} = (1, 2, m)$ y $\vec{OC} = (2, 3, 2)$.
+        Este viene dado por el valor absoluto del producto mixto de los tres vectores.
+        $$[\vec{OA}, \vec{OB}, \vec{OC}] = \begin{vmatrix}
+            0 & 2 & -2 \\
+            1 & 2 & m \\
+            2 & 3 & 2
+        \end{vmatrix} = 4m - 6 + 8 - 4 = 4m - 2 \Rightarrow V = \frac{|4m - 2|}{6}.$$
+
+        Si el volumen es de 3 unidades cúbicas, ha de verificarse:
+        $$\frac{|4m - 2|}{6} = 3 \Leftrightarrow |4m - 2| = 18 \Leftrightarrow \begin{cases}
+            4m - 2 = 18 \Leftrightarrow 4m = 20 \Leftrightarrow m = 5, \\
+            4m - 2 = -18 \Leftrightarrow 4m = -16 \Leftrightarrow m = -4.
+        \end{cases}$$
+    </li>
+
+    <li>
+        El plano $\pi$ determinado por los puntos $A$, $B$ y $C$ tiene como vectores directores $\vec{AB} = (1, 0, 2)$ y $\vec{AC} = (2, 1, 4)$.
+        El vector normal al plano viene dado por:
+        $$\vec{n}_{\pi} = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            1 & 0 & 2 \\
+            2 & 1 & 4
+        \end{vmatrix} = (-2, 0, 1).$$
+
+        Como $A$ pertenece al plano, la ecuación del plano $\pi$ es:
+        $$\pi \equiv -2x + z + 2 = 0 \Leftrightarrow 2x - z - 2 = 0.$$
+
+        Por tanto, la distancia del punto $O$ al plano $\pi$ viene dada por:
+        $$\dist(O, \pi) = \frac{|-2|}{\sqrt{5}} = \frac{2}{\sqrt{5}}.$$
+    </li>
+</ol>

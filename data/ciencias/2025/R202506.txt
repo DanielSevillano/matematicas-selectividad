@@ -1,0 +1,35 @@
+<p>
+    Como $f''$ es la derivada de $f'$, entonces:
+    $$f'(x) = \int f''(x)dx = \int \left(e^{x-1} - \frac{1}{x}\right)dx = e^{x-1} - \ln(x) + C.$$
+
+    De igual forma, $f'$ es la derivada de $f$, así que:
+    $$f(x) = \int f'(x)dx = \int (e^{x-1} - \ln(x) + C)dx = e^{x-1} - x\ln(x) + x + Cx + K.$$
+</p>
+
+<ul>
+    <li>
+        Si la gráfica de $f$ pasa por el punto $(1, 0)$, ha de verificarse que:
+        $$f(1) = 0 \Leftrightarrow 1 + 1 + C + K = 0 \Leftrightarrow C + K = -2.$$
+    </li>
+
+    <li>
+        Si la gráfica de $f$ para por el punto $(2, e - 2 - 2\ln(2))$, ha de verificarse que:
+        $$f(2) = e - 2 - 2\ln(2) \Leftrightarrow e - 2\ln(2) + 2 + 2C + K = e - 2 - 2\ln(2) \Leftrightarrow 2C + K = -4.$$
+    </li>
+</ul>
+
+<p>
+    Planteamos un sistema de ecuaciones con las dos condiciones.
+    $$\begin{cases}
+        C + K = -2, \\
+        2C + K = -4.
+    \end{cases}$$
+
+    Si restamos las dos ecuaciones, obtenemos que:
+    $$C = -2 \Rightarrow K = -2 - C = -2 + 2 = 0.$$
+</p>
+
+<p>
+    Por tanto,
+    $$f(x) = e^{x-1} - x\ln(x) + x - 2x = e^{x-1} - x\ln(x) - x.$$
+</p>

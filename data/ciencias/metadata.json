@@ -27,6 +27,7 @@
     },
     {
         "ejercicio": 202504,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Distancia",
@@ -41,6 +42,7 @@
     },
     {
         "ejercicio": 202506,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
