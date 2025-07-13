@@ -1,7 +1,7 @@
 <ol>
     <li>
-        Llamamos $\tau$ al plano que los piden.
-        Como $\tau$ es perpendicular a $\pi$ y contiene a $r$, $\vec{n}_\pi = (1, -1, 0)$ y $\vec{d}_r = (2, 3, 1)$ son dos vectores directores del plano.
+        Llamamos $\tau$ al plano que nos piden.
+        Como $\tau$ es perpendicular a $\pi$ y contiene a $r$, entonces $\vec{n}_\pi = (1, -1, 0)$ y $\vec{d}_r = (2, 3, 1)$ son dos vectores directores del plano.
         Además, el punto $(1, 0, 2)$ pertenece al plano por ser un punto de $r.$
         Por tanto, las ecuaciones paramétricas del plano $\tau$ son:
         $$\tau \equiv \begin{cases}
