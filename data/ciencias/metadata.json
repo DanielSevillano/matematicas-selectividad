@@ -36,6 +36,7 @@
     },
     {
         "ejercicio": 202505,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]

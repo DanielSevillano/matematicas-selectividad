@@ -1,0 +1,40 @@
+<ol>
+    <li>
+        Llamamos $\pi$ al plano que nos piden.
+        Como $\pi$ contiene a la recta $r$, entonces $\vec{d}_r = (1, 2, 2)$ es un vector director del plano.
+        Por otro lado, como $R(1, 2, 3)$ es un punto de $r$, el vector $\vec{PR} = (0, 1, 2)$ es otro vector director del plano.
+        Por tanto, las ecuaciones paramétricas del plano $\pi$ son:
+        $$\pi \equiv \begin{cases}
+            x = 1 + \lambda, \\
+            y = 1 + 2\lambda + \mu, \\
+            z = 1 + 2\lambda + 2\mu,
+        \end{cases} \quad \lambda, \mu \in \mathbb{R}.$$
+    </li>
+
+    <li>
+        En primer lugar, escribimos las ecuaciones paramétricas de la recta $r$.
+        $$r \equiv \begin{cases}
+            x = 1 + \lambda, \\
+            y = 2 + 2\lambda, \\
+            z = 3 + 2\lambda,
+        \end{cases} \quad \lambda \in \mathbb{R}.$$
+
+        Llamamos $s$ a la recta que nos piden.
+        Para hallarla, trazamos un plano $\tau$ perpendicular a $r$ que pase por $P$.
+        Como $\tau$ es perpendicular a $r$, entonces $\vec{n}_{\tau} = \vec{d}_r = (1, 2, 2)$.
+        Luego la ecuación del plano $\tau$ es:
+        $$\tau \equiv x - 1 + 2(y-1) + 2(z-1) = 0 \Leftrightarrow x + 2y + 2z - 5 = 0.$$
+
+        A continuación, hallamos el punto de intersección $Q$ de la recta $r$ y el plano $\tau$ sustituyendo las ecuaciones paramétricas de la recta en la ecuación del plano.
+        $$1 + \lambda + 2(2 + 2\lambda) + 2(3 + 2\lambda) - 5 = 0 \Leftrightarrow 9\lambda + 6 = 0 \Leftrightarrow \lambda = -\frac{2}{3}.$$
+
+        Así que el punto de intersección es $Q\left(\frac{1}{3}, \frac{2}{3}, \frac{5}{3}\right)$.
+        Luego el vector director de la recta $s$ es $\vec{d}_s = \vec{PQ} = \left(-\frac{2}{3}, -\frac{1}{3}, \frac{2}{3}\right) \parallel (2, 1, -2)$.
+        Por tanto, las ecuaciones paramétricas de la recta $s$ son:
+        $$s \equiv \begin{cases}
+            x = 1 + 2\lambda, \\
+            y = 1 + \lambda, \\
+            z = 1 - 2\lambda,
+        \end{cases} \quad \lambda \in \mathbb{R}.$$
+    </li>
+</ol>
