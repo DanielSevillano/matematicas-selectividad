@@ -9,6 +9,7 @@
     },
     {
         "ejercicio": 202502,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Monotonía y extremos",

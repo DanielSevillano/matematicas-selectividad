@@ -1,0 +1,42 @@
+<ol>
+    <li>
+        En primer lugar, hallamos las dos primeras derivadas de la función $N$.
+        \begin{align}
+            N'(t) & = 500.000 \cdot (-e^{-0,2t}) \cdot (-0,2) = 100.000e^{-0,2t}, \\
+            N''(t) & = 100.000e^{-0,2t} \cdot (-0,2) = -20.000e^{-0,2t}.
+        \end{align}
+
+        <ul>
+            <li>Observamos que $N'(t) > 0$ para $t > 0$, así que $N$ es creciente en todo su dominio.</li>
+            <li>Observamos que $N''(t) < 0$ para $t > 0$, así que $N$ es cóncava en todo su dominio.</li>
+        </ul>
+    </li>
+
+    <li>
+        Veamos si la gráfica de la función tiene asíntota horizontal para estudiar su tendencia.
+        $$\lim_{t \to +\infty} N(t) = \lim_{t \to +\infty} 500.000(1 - e^{-0,2t}) = 500.000.$$
+
+        Por tanto, la recta $y = 500.000$ es una asíntota horizontal.
+        Representamos gráficamente la función usando esta información.
+        <img src="img/sociales/R202502.png" alt="Figura" loading="lazy">
+
+        Podemos observar que el número de personas que ven la noticia aumenta rápidamente en las primeras horas y se va acercando a 500.000, cada vez con menor velocidad.
+    </li>
+
+    <li>
+        Para que la noticia haya sido vista por 450.000 personas ha de verificarse que:
+        \begin{align}
+            N(t) = 450.000 & \Leftrightarrow 500.000(1 - e^{-0,2t}) = 450.000 \Leftrightarrow 1 - e^{-0,2t} = \frac{9}{10} \Leftrightarrow e^{-0,2t} = \frac{1}{10} \Leftrightarrow \\
+            & \Leftrightarrow -0,2t = \ln\left(\frac{1}{10}\right) \Leftrightarrow t = -\frac{\ln\left(\frac{1}{10}\right)}{0,2} = 5\ln(10) \approx 11,5129.
+        \end{align}
+
+        Por tanto, han debido de pasar un poco más de 11 horas y media.
+    </li>
+
+    <li>
+        Calculamos el valor de la derivada en los dos instantes.
+        $$N'(1) \approx 81.873,0753, \quad N'(10) \approx 13.533,5283.$$
+
+        Observamos que la velocidad de difusión de la noticia se reduce en gran medida con el paso de las horas.
+    </li>
+</ol>
