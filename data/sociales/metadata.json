@@ -50,6 +50,7 @@
     },
     {
         "ejercicio": 202507,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Estimación de la media"

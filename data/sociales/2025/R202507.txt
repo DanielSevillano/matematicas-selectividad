@@ -1,0 +1,48 @@
+<ol>
+    <li>
+        El desajuste sobre el horario previsto $X$ sigue una distribución $N(0; \, 2,2)$.
+        La probabilidad de que un tren tenga un desajuste máximo de 1 minuto es:
+        \begin{align}
+            P(-1 \leq X \leq 1) & = P\left(\frac{-1}{2,2} \leq Z \leq \frac{1}{2,2}\right) = P(-0,45 \leq Z \leq 0,45) = P(Z \leq 0,45) - P(Z \leq -0,45) = \\
+            & = P(Z \leq 0,45) - (1 - P(Z \leq 0,45)) = 2P(Z \leq 0,45) - 1 = 2 \cdot 0,6736 - 1 = 0,3472.
+        \end{align}
+    
+        Por tanto, el porcentaje de trenes que tienen un desajuste máximo de 1 minuto es el 34,72%.
+    </li>
+
+    <li>
+        <ol>
+            <li>
+                El intervalo de confianza para estimar la media poblacional con nivel de confianza $1-\alpha$ viene dado por:
+                $$I = \left(\overline{x} - z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}, \, \overline{x} + z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}\right).$$
+
+                Calculamos la media muestral.
+                $$\overline{x} = \frac{0 + 1,3 - 2,1 - 1,5 + 2 + 0,8 + 5 + 2,1 - 3 + 1,8 + 3,1 + 4 - 0,7 + 1,6 - 5,4}{15} = 0,6.$$
+
+                Como el nivel de confianza es del 96%, entonces:
+                $$\alpha = 1 - 0,96 = 0,04 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,04}{2} = 0,98 \Rightarrow z_{\alpha/2} = 2,055.$$
+
+                Por tanto, el intervalo de confianza para estimar el desajuste medio en minutos de los trenes con un nivel de confianza del 96% es:
+                $$I = \left(0,6 - 2,055 \cdot \frac{2,2}{\sqrt{15}}, \, 0,6 + 2,055 \cdot \frac{2,2}{\sqrt{15}}\right) \approx (-0,5673; \, 1,7673).$$
+
+                El error máximo cometido con esta estimación viene dado por:
+                $$E = \frac{1,7673 - (-0,5673)}{2} = 1,1673.$$
+
+                Como 2 no pertenece al intervalo de confianza, no puede afirmarse que un tren tenga un retraso de 2 minutos.
+            </li>
+
+            <li>
+                Si el nivel de confianza es del 98%, entonces:
+                $$\alpha = 1 - 0,98 = 0,02 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,02}{2} = 0,99 \Rightarrow z_{\alpha/2} = 2,325.$$
+        
+                El error máximo cometido viene dado por:
+                $$E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 2,325 \cdot \frac{2,2}{\sqrt{n}} = \frac{5,115}{\sqrt{n}}.$$
+
+                Para que el error máximo no sea superior a 1,1, ha de verificarse que:
+                $$E = 1,1 \Leftrightarrow \frac{5,115}{\sqrt{n}} = 1,1 \Leftrightarrow \sqrt{n} = 4,65 \Leftrightarrow n = 21,6225.$$
+
+                Por tanto, el numero mínimo de trenes de la muestra debe ser 22.
+            </li>
+        </ol>
+    </li>
+</ol>
