@@ -1,0 +1,2 @@
+Sea $f: (0, +\infty) \to \mathbb{R}$ la función definida por $f(x) = x(1 - \ln(x))$.
+Determina la primitiva de $f$ cuya gráfica pasa por el punto $P(1, 1)$.

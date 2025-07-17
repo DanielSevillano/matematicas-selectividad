@@ -1,0 +1,10 @@
+Dados los puntos $A(1, 0, 0)$, $B(0, 0, 1)$ y $P(1, -1, 1)$, y la recta $r$ definida por  
+$$\begin{cases}
+    x - y - 2 = 0, \\
+    z = 0.
+\end{cases}$$
+
+<ol>
+    <li>Halla los puntos de la recta $r$ cuya distancia al punto $P$ es de 3 unidades.</li>
+    <li>Calcula el área del triángulo $ABP$.</li>
+</ol>

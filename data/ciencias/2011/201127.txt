@@ -1,0 +1,12 @@
+Dadas las matrices  
+$$A = \begin{pmatrix}
+    1 & 1 & 0 \\
+    2 & t + 1 & t - 1 \\
+    -2t - 1 & 0 & t + 3
+\end{pmatrix} \quad \text{y} \quad
+X = \begin{pmatrix} x \\ y \\ z \end{pmatrix}.$$
+
+<ol>
+    <li>Calcula el rango de $A$ según los diferentes valores de $t$.</li>
+    <li>Razona para qué valores de $t$ el sistema homogéneo $AX = 0$ tiene más de una solución.</li>
+</ol>

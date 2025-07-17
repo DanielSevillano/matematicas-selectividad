@@ -1,0 +1,3 @@
+Una ventana <i>normanda</i> consiste en un rectángulo coronado con un semicírculo.
+<img class="figura" src="img/ciencias/201121.png" alt="Figura" loading="lazy">
+De entre todas las ventanas <i>normandas</i> de perímetro 10 m, halla las dimensiones del marco de la de área máxima.

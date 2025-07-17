@@ -5417,6 +5417,65 @@
         ]
     },
     {
+        "ejercicio": 201121,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201122,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 201123,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201124,
+        "categorias": [
+            "Geometría",
+            "Distancia",
+            "Área"
+        ]
+    },
+    {
+        "ejercicio": 201125,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201126,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201127,
+        "categorias": [
+            "Álgebra",
+            "Rango",
+            "Sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201128,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
         "ejercicio": 201151,
         "categorias": [
             "Análisis",

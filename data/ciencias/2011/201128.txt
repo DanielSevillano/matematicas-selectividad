@@ -1,0 +1,10 @@
+Dados el punto $P(1, 1, -1)$ y la recta $r$ de ecuaciones  
+$$\begin{cases}
+    x + z = 1, \\
+    y + z = 0.
+\end{cases}$$
+
+<ol>
+    <li>Halla la ecuación del plano que contiene a $r$ y pasa por $P$.</li>
+    <li>Halla la ecuación de la recta contenida en el plano de ecuación $y + z = 0$, que es perpendicular a $r$ y pasa por $P$.</li>
+</ol>

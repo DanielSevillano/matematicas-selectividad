@@ -1,0 +1,1 @@
+Calcula el valor de $b > 0$, sabiendo que el área de la región comprendida entre la curva $y = \sqrt{x}$ y la recta $y = bx$ es de $\frac{4}{3}$ unidades cuadradas.

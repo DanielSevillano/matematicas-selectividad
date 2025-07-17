@@ -1,0 +1,16 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    1 & 0 & 0 \\
+    0 & \lambda & 1 \\
+    0 & -1 & \lambda
+\end{pmatrix} \quad y \quad
+B = \begin{pmatrix}
+    0 & 0 & 1 \\
+    1 & 0 & 0 \\
+    0 & 1 & 0
+\end{pmatrix}.$$
+
+<ol>
+    <li>¿Hay algún valor de $\lambda$ para el que $A$ no tiene inversa?</li>
+    <li>Para $\lambda = 1$, resuelve la ecuación matricial $A^{-1}XA = B$.</li>
+</ol>

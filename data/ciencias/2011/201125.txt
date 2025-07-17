@@ -1,0 +1,10 @@
+Sea $f: \left[\frac{1}{e}, 4\right] \to \mathbb{R}$ la función definida por
+$$f(x) = \begin{cases} 
+    x - \ln(x) + a, & \text{si } \frac{1}{e} \leq x \leq 2, \\
+    bx + 1 - \ln(2), & \text{si } 2 < x \leq 4.
+\end{cases}$$
+
+<ol>
+    <li>Calcula los valores de $a$ y $b$ para que $f$ sea derivable en el intervalo $\left(\frac{1}{e}, 4\right)$.</li>
+    <li>Para $a = 0$ y $b = \frac{1}{2}$, halla los extremos absolutos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
+</ol>
