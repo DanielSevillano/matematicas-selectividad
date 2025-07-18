@@ -42,7 +42,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [ ] 2011
     - [x] Junio
     - [x] Septiembre
-    - [x] Reservas 1 y 2
+    - [x] Reservas 1 a 3
 
 ### Exámenes de sociales
 - [ ] 2025

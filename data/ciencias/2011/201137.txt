@@ -1,0 +1,11 @@
+Sea la matriz
+$$A = \begin{pmatrix}
+    3 & 0 & \lambda \\
+    -5 & \lambda & -5 \\
+    \lambda & 0 & 3
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina los valores de $\lambda$ para los que la matriz $A -2I$ tiene inversa.</li>
+    <li>Para $\lambda = -2$, resuelve la ecuación matricial $AX = 2X + I$.</li>
+</ol>

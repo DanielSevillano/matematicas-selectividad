@@ -1,0 +1,11 @@
+Sea el punto $P(2, 3, -1)$ y la recta $r$ dada por las ecuaciones
+$$\begin{cases}
+    x = 1, \\
+    y = -2\lambda, \\
+    z = \lambda.
+\end{cases}$$
+
+<ol>
+    <li>Halla la ecuación del plano perpendicular a $r$ que pasa por $P$.</li>
+    <li>Calcula la distancia del punto $P$ a la recta $r$ y determina el punto simétrico de $P$ respecto de $r$.</li>
+</ol>

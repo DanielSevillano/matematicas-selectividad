@@ -1,0 +1,2 @@
+Calcula:
+$$\int_0^{\frac{\pi}{2}} x\cos(x)dx.$$

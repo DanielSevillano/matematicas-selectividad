@@ -1,0 +1,2 @@
+En el primer cuadrante representamos un rectángulo de tal manera que tiene un vertice en el origen de coordenadas y el vertice opuesto en la parábola $y = -x^2 + 3$.
+Determina las dimensiones del rectángulo para que su área sea máxima.

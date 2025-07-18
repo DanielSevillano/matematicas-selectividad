@@ -1,0 +1,1 @@
+Dada la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = ax^3 + bx^2 + cx$, determina $a$, $b$ y $c$ sabiendo que su gráfica tiene un punto de inflexión en $(1, 0)$ y que la recta tangente en ese punto tiene por ecuación $y = -3x + 3$.

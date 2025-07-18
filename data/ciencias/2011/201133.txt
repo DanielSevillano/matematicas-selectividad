@@ -1,0 +1,21 @@
+Sean $A$ y $B$ dos matrices que verifican:
+$$A + B = \begin{pmatrix}
+    4 & 2 \\
+    3 & 2
+\end{pmatrix} \quad \text{y} \quad
+A - B = \begin{pmatrix}
+    2 & 4 \\
+    -1 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>
+        Halla las matrices
+        $$(A + B)(A - B) \quad \text{y} \quad A^2 - B^2.$$
+    </li>
+
+    <li>
+        Resuelve la ecuación matricial
+        $$XA - XB - (A + B)^t = 2I.$$
+    </li>
+</ol>

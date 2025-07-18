@@ -1,0 +1,6 @@
+Considera los planos $\pi_1$ y $\pi_2$ dados respectivamente por las ecuaciones
+$$(x, y, z) = (-2, 0, 7) + \lambda(1, -2, 0) + \mu(0, 1, -1) \quad \text{y} \quad 2x + y - z + 5 = 0.$$
+
+Determina los puntos de la recta $r$ definida por
+$$x = y + 1 = \frac{z-1}{-3}$$
+que equidistan de $\pi_1$ y $\pi_2$.

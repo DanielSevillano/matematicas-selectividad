@@ -5477,6 +5477,64 @@
         ]
     },
     {
+        "ejercicio": 201131,
+        "categorias": [
+            "Análisis",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 201132,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 201133,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201134,
+        "categorias": [
+            "Geometría",
+            "Distancia",
+            "Punto simétrico"
+        ]
+    },
+    {
+        "ejercicio": 201135,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201136,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201137,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201138,
+        "categorias": [
+            "Geometría",
+            "Distancia"
+        ]
+    },
+    {
         "ejercicio": 201151,
         "categorias": [
             "Análisis",
