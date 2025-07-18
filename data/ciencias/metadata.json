@@ -197,6 +197,7 @@
     },
     {
         "ejercicio": 202556,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Límites"

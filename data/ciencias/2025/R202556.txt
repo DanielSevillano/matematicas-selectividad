@@ -1,0 +1,19 @@
+<p>
+    Calculamos el límite.
+    $$\lim_{x \to 0} \frac{x\sin(x) + a(e^x-1) + \sin(x)}{bx^2 + x - \sin(x)} = \frac{0}{0}.$$
+
+    Para resolver la indeterminación, aplicamos la regla de L'Hôpital.
+    $$\lim_{x \to 0} \frac{x\sin(x) + a(e^x-1) + \sin(x)}{bx^2 + x - \sin(x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{\sin(x) + x\cos(x) + ae^x + \cos(x)}{2bx + 1 - \cos(x)} = \frac{a + 1}{0}.$$
+
+    Si $a \neq -1$ este límite será infinito, así que necesariamente $a = -1$.
+</p>
+
+<p>
+    Continuamos resolviendo el límite para $a = -1$.
+    $$\lim_{x \to 0} \frac{\sin(x) + x\cos(x) - e^x + \cos(x)}{2bx + 1 - \cos(x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{\cos(x) + \cos(x) - x\sin(x) - e^x - \sin(x)}{2b + \sin(x)} = \frac{1}{2b}.$$
+</p>
+
+<p>
+    Por tanto,
+    $$\lim_{x \to 0} \frac{x\sin(x) + a(e^x-1) + \sin(x)}{bx^2 + x - \sin(x)} = 1 \Leftrightarrow \frac{1}{2b} = 1 \Leftrightarrow 2b = 1 \Leftrightarrow b = \frac{1}{2}.$$
+</p>
