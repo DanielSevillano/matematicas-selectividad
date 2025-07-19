@@ -1,0 +1,1 @@
+Calcula un número positivo $a$, menor que 2, para que el recinto limitado por la parábola de ecuación $y = \frac{1}{2}x^2$ y las dos rectas horizontales de ecuaciones $y = a$ e $y = 2$ tenga un área de $\frac{14}{3}$ unidades cuadradas.

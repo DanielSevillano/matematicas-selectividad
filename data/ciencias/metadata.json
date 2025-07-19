@@ -5535,6 +5535,64 @@
         ]
     },
     {
+        "ejercicio": 201141,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201142,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 201143,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Discusión de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201144,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "ejercicio": 201145,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201146,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 201147,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201148,
+        "categorias": [
+            "Geometría",
+            "Distancia"
+        ]
+    },
+    {
         "ejercicio": 201151,
         "categorias": [
             "Análisis",

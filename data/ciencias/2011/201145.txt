@@ -1,0 +1,4 @@
+En una empresa los ingresos (en euros) dependen de la edad. Si la edad, $x$, es de 18 a 50 años, los ingresos vienen dados por la fórmula $-x^2 + 70x$, mientras que para edades iguales o superiores a 50 anos los ingresos estan determinados por la expresión
+$$\frac{400x}{x - 30}.$$
+
+Calcula cuál es el máximo de los ingresos y a qué edad se alcanza.

@@ -1,0 +1,3 @@
+Queremos hacer junto a la carretera un cercado rectangular para unos caballos en una zona llana.
+Cada metro del lado del cercado que está junto a la carretera nos cuesta 100 euros, mientras que para el resto del cercado nos cuesta 10 euros el metro.
+¿Cuáles son las dimensiones del prado de área máxima que podemos cercar con 3.000 euros?

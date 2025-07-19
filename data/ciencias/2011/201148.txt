@@ -1,0 +1,13 @@
+Dada la recta $r$ definida por
+$$\frac{x+7}{2} = \frac{y-7}{-1} = z$$
+y la recta $s$ definida por
+$$\begin{cases}
+    x = 2, \\
+    y = -5, \\
+    z = \lambda.
+\end{cases}$$
+
+<ol>
+    <li>Halla la ecuación de la recta que corta perpendicularmente a ambas.</li>
+    <li>Calcula la distancia entre $r$ y $s$.</li>
+</ol>

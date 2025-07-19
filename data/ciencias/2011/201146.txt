@@ -1,0 +1,6 @@
+Dada la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = -2x^2 + 3x - 1$.
+
+<ol>
+    <li>Prueba que las rectas $y = -x + 1$ e $y = 3x - 1$ son tangentes a su gráfica.</li>
+    <li>Halla el área del recinto limitado por la gráfica de $f$ y las rectas mencionadas en el apartado anterior.</li>
+</ol>

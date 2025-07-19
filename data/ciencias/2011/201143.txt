@@ -1,0 +1,11 @@
+Considera el sistema de ecuaciones
+$$\begin{cases}
+    2x - 2y + 4z = 4, \\
+    2x + z = a, \\
+    -3x - 3y + 3z = -3.
+\end{cases}$$
+
+<ol>
+    <li>Discútelo según los valores del parámetro $a$.</li>
+    <li>Resuélvelo cuando sea posible.</li>
+</ol>

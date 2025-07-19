@@ -1,0 +1,10 @@
+Dada la matriz
+$$A = \begin{pmatrix}
+    -1 & 1 \\
+    2 & -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Demuestra que $A^2 + 2A = I$ y que $A^{-1} = A + 2I$.</li>
+    <li>Calcula la matriz $X$ que verifica la ecuación $A^2 + XA + 5A = 4I$.</li>
+</ol>
