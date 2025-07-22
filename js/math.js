@@ -231,7 +231,7 @@ async function obtenerCategoria(modalidad, categoria, metadatos, contador, soloR
         const articulo = document.createElement("article");
         main.append(articulo);
 
-        let prioridad = "auto";
+        let prioridad;
         if (indice < 5) prioridad = "high";
         promesas.push(obtenerEjercicio(articulo, ejercicio, true, prioridad));
     });
