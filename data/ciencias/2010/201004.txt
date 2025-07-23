@@ -1,0 +1,11 @@
+Considera las rectas $r$ y $s$ de ecuaciones
+$$x - 1 = y = 1 - z \quad \text{y} \quad \begin{cases}
+    x - 2y = -1, \\
+    y + z = 1.
+\end{cases}$$
+
+<ol>
+    <li>Determina su punto de corte.</li>
+    <li>Halla el ángulo que forman $r$ y $s$.</li>
+    <li>Determina la ecuación del plano que contiene a $r$ y $s$.</li>
+</ol>

@@ -1,0 +1,8 @@
+Sea $f$ la función definida como
+$$f(x) = \frac{ax^2 + b}{a - x}$$
+para $x \neq a$.
+
+<ol>
+    <li>Calcula $a$ y $b$ para que la gráfica de $f$ pase por el punto $(2, 3)$ y tenga una asíntota oblicua con pendiente -4.</li>
+    <li>Para el caso $a = 2$, $b = 3$, obtén la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1$.</li>
+</ol>

@@ -1,0 +1,11 @@
+Los puntos $P(2, 0, 0)$ y $Q(-1, 12, 4)$ son dos vértices de un triángulo.
+El tercer vértice $S$ pertenece a la recta $r$ de ecuación
+$$\begin{cases}
+    4x + 3z = 33, \\
+    y = 0.
+\end{cases}$$
+
+<ol>
+    <li>Calcula las coordenadas del punto $S$ sabiendo que $r$ es perpendicular a la recta que pasa por $P$ y $S$.</li>
+    <li>Comprueba si el triángulo es rectángulo.</li>
+</ol>

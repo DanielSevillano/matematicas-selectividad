@@ -1,0 +1,2 @@
+Calcula
+$$\lim_{x \to 0} \frac{e^x - e^{\sin(x)}}{x^2}.$$

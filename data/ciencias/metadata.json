@@ -5653,5 +5653,63 @@
             "Geometría",
             "Punto simétrico"
         ]
+    },
+    {
+        "ejercicio": 201001,
+        "categorias": [
+            "Análisis",
+            "Asíntotas",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 201002,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201003,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201004,
+        "categorias": [
+            "Geometría",
+            "Ángulos"
+        ]
+    },
+    {
+        "ejercicio": 201005,
+        "categorias": [
+            "Análisis",
+            "Límites"
+        ]
+    },
+    {
+        "ejercicio": 201006,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 201007,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Discusión de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201008,
+        "categorias": [
+            "Geometría"
+        ]
     }
 ]

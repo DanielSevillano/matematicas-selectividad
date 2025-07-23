@@ -1,0 +1,15 @@
+Sea el siguiente sistema de ecuaciones
+$$\begin{cases}
+    \lambda x + y + z = \lambda + 2, \\
+    2x - \lambda y + z = 2, \\
+    x - y + \lambda z = \lambda.
+\end{cases}$$
+
+<ol>
+    <li>
+        Discútelo según los valores de $\lambda$.
+        ¿Tiene siempre solución?
+    </li>
+
+    <li>Resuelve el sistema para $\lambda = -1$.</li>
+</ol>

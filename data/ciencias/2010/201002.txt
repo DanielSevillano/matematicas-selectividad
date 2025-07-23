@@ -1,0 +1,4 @@
+Calcula
+$$\int_0^{\pi^2} \sin(\sqrt{x})dx.$$
+
+Sugerencia: efectúa el cambio $\sqrt{x} = t$.

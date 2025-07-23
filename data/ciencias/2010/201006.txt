@@ -1,0 +1,6 @@
+Considera la función $f$ dada por $f(x) = 5 - x$ y la función $g$ definida como $g(x) = \frac{4}{x}$ para $x \neq 0$.
+
+<ol>
+    <li>Esboza el recinto limitado por las gráficas de $f$ y $g$ indicando sus puntos de corte.</li>
+    <li>Calcula el área de dicho recinto.</li>
+</ol>

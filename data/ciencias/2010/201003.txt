@@ -1,0 +1,20 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & 0 & -1 \\
+    0 & m & 3 \\
+    4 & 1 & -m
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 0 \\
+    3 & 2 \\
+    -1 & 1
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    5 & -3 & 4 \\
+    -3 & -2 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Indica los valores de $m$ para los que $A$ es invertible.</li>
+    <li>Resuelve la ecuación matricial $XA - B^t = C$ para $m = 0$.</li>
+</ol>
