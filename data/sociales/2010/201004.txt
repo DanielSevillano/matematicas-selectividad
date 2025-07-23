@@ -1,0 +1,8 @@
+Una empresa consultora quiere estudiar algunos aspectos de la vida laboral de los trabajadores de una ciudad.
+Para ello selecciona una muestra aleatoria de 500 trabajadores, de los que 118 afirman residir en otra ciudad.
+Con un nivel de confianza del 93%,
+
+<ol>
+    <li>Calcule un intervalo de confianza para la proporción de trabajadores que residen fuera.</li>
+    <li>Calcule el error cometido en el intervalo anterior.</li>
+</ol>

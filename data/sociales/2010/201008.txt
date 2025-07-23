@@ -1,0 +1,10 @@
+Un agricultor piensa que la producción media por naranjo, en su finca, es de 88 kg o más.
+Para confirmar su creencia selecciona, al azar, 10 de sus naranjos, pesa su producción y obtiene como resultado, en kg, para cada uno de ellos:
+$$80 \quad 83 \quad 87 \quad 95 \quad 86 \quad 92 \quad 85 \quad 83 \quad 84 \quad 95.$$
+
+Se acepta que la producción de un naranjo sigue una distribución Normal con desviación típica 5 kg.
+
+<ol>
+    <li>Plantee el contraste de hipótesis unilateral que responda a las condiciones del problema y determine la región crítica para un nivel de significación $\alpha = 0,05$.</li>
+    <li>Con los datos de esta muestra, ¿qué conclusión debe obtener el agricultor sobre la producción media por naranjo de su finca, utilizando ese mismo nivel de significación?</li>
+</ol>

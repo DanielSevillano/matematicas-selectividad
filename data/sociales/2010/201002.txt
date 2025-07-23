@@ -1,0 +1,8 @@
+Sea la función $f(x) = 2x^2 - \frac{1}{3}x^3$.
+Calcule:
+
+<ol>
+    <li>Los intervalos de crecimiento y decrecimiento.</li>
+    <li>Las coordenadas de sus extremos relativos.</li>
+    <li>El punto de la gráfica en el que la pendiente de la recta tangente a dicha gráfica es 4.</li>
+</ol>

@@ -1,0 +1,8 @@
+Sea el recinto definido por las inecuaciones siguientes:
+$$x + y \leq 15, \quad x \leq 2y, \quad 0 \leq y \leq 6, \quad x \geq 0.$$
+
+<ol>
+    <li>Represente gráficamente dicho recinto.</li>
+    <li>Calcule sus vértices.</li>
+    <li>Determine el máximo valor de la función $F(x, y) = 8x + 5y$ en el recinto anterior y dónde se alcanza.</li>
+</ol>

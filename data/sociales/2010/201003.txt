@@ -1,0 +1,9 @@
+Un alumno va a la Facultad en autobús el 80% de los días y el resto en su coche.
+Cuando va en autobús llega tarde el 20% de las veces y cuando va en coche llega a tiempo sólo el 10% de las veces.
+Elegido un día cualquiera al azar, determine:
+
+<ol>
+    <li>La probabilidad de que llegue a tiempo a clase y haya ido en autobús.</li>
+    <li>La probabilidad de que llegue tarde a clase.</li>
+    <li>Si ha llegado a tiempo a clase, ¿cuál es la probabilidad de que no haya ido en autobús?</li>
+</ol>

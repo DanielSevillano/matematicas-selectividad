@@ -1,0 +1,7 @@
+Calcule las derivadas de las siguientes funciones:
+
+<ol>
+    <li>$\displaystyle f(x) = \frac{e^{3x}}{1 + x^2}$.</li>
+    <li>$g(x) = \ln(x(1 + 3x^2))$.</li>
+    <li>$\displaystyle h(x) = 2^{5x} + \frac{1}{x^2}$.</li>
+</ol>

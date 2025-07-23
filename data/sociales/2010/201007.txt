@@ -1,0 +1,9 @@
+De las 180 personas que asisten a un congreso médico, 100 son mujeres.
+Observando las especialidades de los congresistas, vemos que de las 60 personas que son pediatras 20 son mujeres.
+Se elige al azar una persona asistente al congreso.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que sea mujer y pediatra?</li>
+    <li>¿Cuál es la probabilidad de que no sea hombre ni sea pediatra?</li>
+    <li>¿Cuál es la probabilidad de que sea pediatra?</li>
+</ol>
