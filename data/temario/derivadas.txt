@@ -442,7 +442,7 @@
         </table>
     </div>
 
-    Por tanto, la función es creciente en $(-\infty, 1) \cup (3, +\infty)$ y decreciente en $(1, 3)$.
-    Además, tiene un máximo relativo en $x = 1$ y un mínimo relativo en $x = 3$.
-    Sustituyendo estos valores en la función, obtenemos que el máximo relativo es el punto $(1, 4)$ y el mínimo relativo es el punto $(3, 0)$.
+    Por tanto, la función es convexa en $(2, +\infty)$ y cóncava en $(-\infty, 2)$.
+    Además, tiene un punto de inflexión en $x = 2$.
+    Sustituyendo este valor en la función, obtenemos que el punto de inflexión es $(2, 2)$.
 </p>
