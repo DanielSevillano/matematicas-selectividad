@@ -9,20 +9,26 @@
 <p>
     Una <b>ecuación lineal</b> es una ecuación de primer grado que puede incluir a una o más variables.
     Es decir, una ecuación en la que las variables aparecen elevadas a 1 y no contiene productos entre variables.
-    Por ejemplo:
-    $$2x + 3 = 0, \quad 3x - y = 2 \quad \text{y} \quad -x + 3y + 5z = -2.$$
 </p>
+
+<div class="ejemplo">
+    $$2x + 3 = 0, \quad 3x - y = 2 \quad \text{y} \quad -x + 3y + 5z = -2.$$
+</div>
 
 <p>
     Un <b>sistema de ecuaciones lineales</b> es un conjunto de ecuaciones lineales que debe tener una solución común.
-    Por ejemplo:
+</p>
+
+<div class="ejemplo">
     \begin{cases}
         2x = -3, \\
         3x - y = 2, \\
         -x + 3y + 5z = -2.
     \end{cases}
+</div>
 
-    En general, un sistema de $m$ ecuaciones lineales con $n$ incógnitas se puede escribir de la forma
+<p>
+    En general, un sistema de $m$ ecuaciones lineales con $n$ incógnitas se puede escribir de la forma:
     \begin{cases}
         a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = b_1, \\
         a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = b_2, \\
@@ -54,8 +60,11 @@
         b_m
     \end{pmatrix},$$
     donde $A$ se llama <b>matriz de coeficientes</b>, $X$ <b>matriz de incógnitas</b> y $B$ <b>matriz de términos independientes</b>.
-    También es útil considerar la <b>matriz ampliada</b> $A^\ast$, que se obtiene al añadir la columna de la matriz $B$ a la matriz de coeficientes.<br>
-    Por ejemplo, el sistema anterior se puede escribir matricialmente como
+    También es útil considerar la <b>matriz ampliada</b> $A^\ast$, que se obtiene al añadir la columna de la matriz $B$ a la matriz de coeficientes.
+</p>
+
+<div class="ejemplo">
+    El sistema del ejemplo anterior se puede escribir matricialmente como:
     $$\begin{pmatrix}
         2 & 0 & 0 \\
         3 & -1 & 0 \\
@@ -87,7 +96,7 @@
         3 & -1 & 0 & 2 \\
         -1 & 3 & 5 & -2
     \end{ampmatrix}.$$
-</p>
+</div>
 
 <p>
     Un sistema de ecuaciones es <b>compatible</b> cuando tiene alguna solución e <b>incompatible</b> en caso contrario.
@@ -109,8 +118,8 @@
 
 <p>Merece la pena observar que, como la matriz ampliada es una extensión de la matriz $A$, entonces $\rang(A^\ast) \geq \rang(A)$ siempre.</p>
 
-<p>
-    Por ejemplo, discutamos el sistema
+<div class="ejemplo">
+    Discutamos el sistema
     \begin{cases}
         2x + 3 = 0, \\
         3x - y = 2, \\
@@ -129,12 +138,15 @@
     Los rangos de las dos matrices coinciden, así que por el teorema de Rouché-Frobenius podemos afirmar que el sistema es compatible.
     Puesto que además el sistema tiene 3 incógnitas, el sistema es compatible determinado.
     Es decir, tiene solución única.
-</p>
+</div>
 
 <h4>Discusión de sistemas con parámetros</h4>
 <p>
     En ocasiones, tendremos que discutir un sistema en función de un parámetro.
-    Por ejemplo, discutamos en función del parámetro $\lambda$ el sistema
+</p>
+
+<div class="ejemplo">
+    Discutamos en función del parámetro $\lambda$ el sistema
     \begin{cases}
         \lambda x - y + z = 1, \\
         x - y - z = \lambda - 1, \\
@@ -215,7 +227,7 @@
             Como los rangos de las dos matrices no coinciden, por el teorema de Rouché-Frobenius el sistema es incompatible.
         </li>
     </ul>
-</p>
+</div>
 
 <h3 id="sistemas-homogeneos">Sistemas homogéneos</h3>
 <p>
@@ -228,19 +240,25 @@
         a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = 0.
     \end{cases}
 
-    Por ejemplo:
+</p>
+
+<div class="ejemplo">
     \begin{cases}
         2x - y + 8z = 0, \\
         3x - y = 0, \\
         -x + 3y + 5z = 0.
     \end{cases}
+</div>
 
+<p>
     La característica más importante de estos sistemas es que siempre tienen una solución: la trivial.
     Esto es, $x_1 = 0, x_2 = 0, \ldots x_n = 0.$
-    Por tanto, estos sistemas siempre son compatibles.<br>
-
-    En el ejemplo anterior es fácil ver que $x = 0, y = 0, z = 0$ es solución del sistema.
+    Por tanto, estos sistemas siempre son compatibles.
 </p>
+
+<div class="ejemplo">
+    En el ejemplo anterior es fácil ver que $x = 0, y = 0, z = 0$ es solución del sistema.
+</div>
 
 <p>
     Esta observación se puede verificar con el teorema de Rouché-Frobenius.
@@ -263,7 +281,7 @@
 <h3 id="resolucion-sistemas">Resolución de sistemas</h3>
 <p>
     Hay tres métodos principales para resolver un sistema de ecuaciones compatible determinado y dos de ellos son también válidos para sistemas compatibles indeterminados.
-    Vamos a usar todos ellos para resolver el sistema
+    Vamos a usar todos ellos para resolver el sistema $S$ dado por:
     \begin{cases}
         x - y + 2z = -3, \\
         -2x + 3y - z = 1, \\
@@ -279,8 +297,8 @@
     $$AX = B \Leftrightarrow X = A^{-1}B.$$
 </p>
 
-<p>
-    En nuestro ejemplo, podemos hallar $X$ de manera directa como $X = A^{-1}B.$
+<div class="ejemplo">
+    En el sistema $S$, podemos hallar $X$ de manera directa como $X = A^{-1}B.$
     La matriz inversa de $A$ es
     $$A^{-1} = \frac{1}{9}\begin{pmatrix}
         2 & -6 & -5 \\
@@ -309,12 +327,15 @@
         y = 1, \\
         z = -2.
     \end{cases}
-</p>
+</div>
 
 <h4>Método de Gauss</h4>
 <p>
     Se transforma el sistema en otro equivalente escalonado mediante transformaciones elementales de la matriz $A^\ast$ y se resuelve este nuevo sistema.<br>
-    Aplicamos el método de Gauss a nuestro ejemplo.
+</p>
+
+<div class="ejemplo">
+    Aplicamos el método de Gauss al sistema $S$.
     $$\begin{ampmatrix}
         1 & -1 & 2 & -3 \\
         -2 & 3 & -1 & 1 \\
@@ -337,36 +358,44 @@
         & y + 3z = -5 \xrightarrow{y = 1} 1 + 3z = -5 \Leftrightarrow 3z = -6 \Leftrightarrow z = -2, \\
         & x - y + 2z = -3 \xrightarrow[z = -2]{y = 1} x - 1 - 4 = -3 \Leftrightarrow x = 2.
     \end{align}
-</p>
+</div>
 
 <p>
     El método de Gauss también se puede usar para resolver sistemas compatibles indeterminados.
-    Por ejemplo, resolvamos el sistema
+</p>
+
+<div class="ejemplo">
+    Resolvamos el sistema
     \begin{cases}
         x + y + z = 3, \\
         2x + y - z = 4, \\
         5x + 2y - 4z = 9.
     \end{cases}
+
     De nuevo, el objetivo es llegar a un sistema escalonado usando transformaciones elementales.
-    $$\begin{ampmatrix}
-        1 & 1 & 1 & 3 \\
-        2 & 1 & -1 & 4 \\
-        5 & 2 & -4 & 9
-    \end{ampmatrix} \xrightarrow[F_3 - 5F_1]{F_2 - 2F_1}
-    \begin{ampmatrix}
-        1 & 1 & 1 & 3 \\
-        0 & -1 & -3 & -2 \\
-        0 & -3 & -9 & -6
-    \end{ampmatrix} \xrightarrow{F_3 - 3F_2}
-    \begin{ampmatrix}
-        1 & 1 & 1 & 3 \\
-        0 & -1 & -3 & -2 \\
-        0 & 0 & 0 & 0
-    \end{ampmatrix} \rightarrow
-    \begin{ampmatrix}
-        1 & 1 & 1 & 3 \\
-        0 & -1 & -3 & -2
-    \end{ampmatrix}.$$
+    \begin{align}
+        & \begin{ampmatrix}
+            1 & 1 & 1 & 3 \\
+            2 & 1 & -1 & 4 \\
+            5 & 2 & -4 & 9
+        \end{ampmatrix} \xrightarrow[F_3 - 5F_1]{F_2 - 2F_1}
+        \begin{ampmatrix}
+            1 & 1 & 1 & 3 \\
+            0 & -1 & -3 & -2 \\
+            0 & -3 & -9 & -6
+        \end{ampmatrix} \xrightarrow{F_3 - 3F_2}
+        \begin{ampmatrix}
+            1 & 1 & 1 & 3 \\
+            0 & -1 & -3 & -2 \\
+            0 & 0 & 0 & 0
+        \end{ampmatrix} \\
+        & \rightarrow
+        \begin{ampmatrix}
+            1 & 1 & 1 & 3 \\
+            0 & -1 & -3 & -2
+        \end{ampmatrix}.
+    \end{align}
+
     El sistema resultante es
     \begin{cases}
         x + y + z = 3, \\
@@ -381,15 +410,17 @@
         & -y - z = -2 \xrightarrow{z = \lambda} - y - 3\lambda = -2 \Leftrightarrow y = 2 - 3\lambda, \\
         & x + y + z = 3 \xrightarrow[y = 2-\lambda]{z = \lambda} x + 2 - 3\lambda + \lambda = 3 \Leftrightarrow x = 1 + 2\lambda.
     \end{align}
-</p>
+</div>
 
 <h4>Método de Cramer</h4>
 <p>
     Si el sistema es compatible determinado, entonces la solución se puede obtener como
     $$x = \frac{|\Delta_1|}{|A|}, \quad y = \frac{|\Delta_2|}{|A|} \quad \text{y} \quad z = \frac{|\Delta_3|}{|A|},$$
     donde $\Delta_i$ es la matriz resultante de reemplazar la columna $i$ de $A$ por la matriz columna $B.$<br>
-    
-    En nuestro ejemplo, podemos hallar la solución con el método de Cramer:
+</p>
+
+<div class="ejemplo">
+    En el sistema $S$, podemos hallar la solución con el método de Cramer:
     \begin{align}
         & x = \frac{
             \begin{vmatrix}
@@ -413,13 +444,16 @@
             \end{vmatrix}
         }{|A|} = \frac{-18}{9} = -2.
     \end{align}
-</p>
+</div>
 
 <p>
     El método de Cramer también se puede adaptar a sistemas compatibles indeterminados.
     Al eliminar las ecuaciones sobrantes en estos casos, los sistemas resultantes quedan con más incógnitas que ecuaciones.
     La estrategia consiste en transformar incógnitas en parámetros para conseguir tener el mismo número de incógnitas que ecuaciones.<br>
-    Por ejemplo, resolvamos el sistema
+</p>
+
+<div class="ejemplo">
+    Resolvamos el sistema
     \begin{cases}
         5x + 3y - 2z = 1, \\
         7x + 4y + z = 3.
@@ -453,4 +487,4 @@
         }{|A^\ast|} = \frac{8 - 19\lambda}{-1} = 19\lambda - 8, \\
         & z = \lambda.
     \end{align}
-</p>
+</div>

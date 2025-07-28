@@ -19,10 +19,14 @@
 <p>
     La <b>tasa de variación media</b> de una función $f$ en un intervalo $[a, b]$ representa la variación de la función en dicho intervalo y se calcula como:
     $$\operatorname{TVM}([a, b]) = \frac{f(b) - f(a)}{b - a}.$$
+</p>
 
-    Por ejemplo, si $f(x) = x^2$,
+<div class="ejemplo">
+    Si $f(x) = x^2$,
     $$\operatorname{TVM}([3, 5]) = \frac{f(5) - f(3)}{5 - 3} = \frac{25 - 9}{5 - 3} = 8.$$
+</div>
 
+<p>
     Geométricamente, es la pendiente de la recta que pasa por los puntos $(a, f(a))$ y $(b, f(b))$.
 </p>
 
@@ -44,13 +48,17 @@
     La <b>derivada de una función $f$ en un punto $a$</b> se corresponde con la tasa de variación instantánea y se denota $f'(a)$.
     Por tanto,
     $$f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}.$$
+</p>
 
-    Por ejemplo, si $f(x) = x^2$, entonces:
+<div class="ejemplo">
+    Si $f(x) = x^2$, entonces:
     \begin{align}
         f'(3) & = \lim_{h \to 0} \frac{f(3 + h) - f(3)}{h} = \lim_{h \to 0} \frac{(3 + h)^2 - 9}{h} = \lim_{h \to 0} \frac{9 + 6h + h^2 - 9}{h} = \lim_{h \to 0} \frac{h^2 + 6h}{h} = \\
         & = \lim_{h \to 0} \frac{h(h + 6)}{h} = \lim_{h \to 0} (h + 6) = 6.
     \end{align}
+</div>
 
+<p>
     En la práctica, en lugar de resolver este límite, calcularemos la función derivada y sustituiremos en el punto.
     Gráficamente, la derivada de la función en un punto es la pendiente de la recta tangente a la función en dicho punto.
 </p>
@@ -60,13 +68,17 @@
 <p>
     La <b>función derivada de $f$</b> se denota por $f'$ y se calcula como:
     $$f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}.$$
+</p>
 
-    Por ejemplo, si $f(x) = x^2$,
+<div class="ejemplo">
+    Si $f(x) = x^2$,
     \begin{align}
-        f'(x) & = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{(x + h)^2 - x^2}{h} = \lim_{h \to 0} \frac{x^2 + 2xh + h^2 - x^2}{h} = \lim_{h \to 0} \frac{h^2 + 2xh}{h} = \\
-        & = \lim_{h \to 0} \frac{h(h + 2x)}{h} = \lim_{h \to 0} (h + 2x) = 2x.
+        f'(x) & = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{(x + h)^2 - x^2}{h} = \lim_{h \to 0} \frac{x^2 + 2xh + h^2 - x^2}{h} = \\
+        & = \lim_{h \to 0} \frac{h^2 + 2xh}{h} = \lim_{h \to 0} \frac{h(h + 2x)}{h} = \lim_{h \to 0} (h + 2x) = 2x.
     \end{align}
+</div>
 
+<p>
     En la práctica, para derivar utilizaremos las reglas de derivación que veremos a continuación en lugar del cálculo de este límite.
 </p>
 
@@ -145,39 +157,44 @@
 <p>
     La derivada del producto de una función por una constante se calcula como:
     $$(k \cdot f(x))' = k \cdot f'(x).$$
-
-    Por ejemplo,
-    $$(4\sin(x))' = 4\cos(x), \quad (5x^3)' = 5 \cdot 3x^2 = 15x^2.$$
 </p>
+
+<div class="ejemplo">
+    $$(4\sin(x))' = 4\cos(x), \quad (5x^3)' = 5 \cdot 3x^2 = 15x^2.$$
+</div>
 
 <h4>Derivada de la suma y la resta</h4>
 
 <p>
     La derivada de la suma de funciones se calcula como la suma de sus derivadas.
     De igual forma, la derivada de la resta viene dada por la resta de las derivadas.
-    Por ejemplo:
-    $$(x^4 + x^2 - \sin(x))' = 4x^3 + 2x - \cos(x).$$
 </p>
+
+<div class="ejemplo">
+    $$(x^4 + x^2 - \sin(x))' = 4x^3 + 2x - \cos(x).$$
+</div>
 
 <h4>Derivada del producto</h4>
 
 <p>
     La derivada del producto de dos funciones se calcula como:
     $$(f(x) \cdot g(x))' = f'(x) \cdot g(x) + f(x) \cdot g'(x).$$
-
-    Por ejemplo,
-    $$(x^2\sin(x))' = 2x\sin(x) + x^2\cos(x).$$
 </p>
+
+<div class="ejemplo">
+    $$(x^2\sin(x))' = 2x\sin(x) + x^2\cos(x).$$
+</div>
 
 <h4>Derivada del cociente</h4>
 
 <p>
     La derivada del cociente de dos funciones se calcula como:
     $$\left(\frac{f(x)}{g(x)}\right)' = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g(x)^2}.$$
-
-    Por ejemplo,
-    $$\left(\frac{x^2}{\sin(x)}\right)' = \frac{2x\sin(x) - x^2\cos(x)}{\sin^2(x)}.$$
 </p>
+
+<div class="ejemplo">
+    $$\left(\frac{x^2}{\sin(x)}\right)' = \frac{2x\sin(x) - x^2\cos(x)}{\sin^2(x)}.$$
+</div>
 
 <h4>Regla de la cadena</h4>
 
@@ -186,10 +203,13 @@
     Por ejemplo, la función $\sin(x^2)$ es la composición de $x^2$ con $\sin(x)$.
     La regla de la cadena establece que:
     $$f(g(x))' = f'(g(x)) \cdot g'(x).$$
+</p>
 
-    Por ejemplo,
+<div class="ejemplo">
     $$(\sin(x^2))' = \cos(x^2) \cdot 2x = 2x\cos(x^2).$$
+</div>
 
+<p>
     La regla de la cadena se puede extender a más funciones.
     Por ejemplo,
     $$(\ln(\cos(x^2)))' = \frac{1}{\cos(x^2)} \cdot (-\sin(x^2)) \cdot 2x = \frac{-2x\sin(x^2)}{\cos(x^2)} = -2x\tan(x^2).$$
@@ -201,12 +221,14 @@
     La <b>recta tangente a una función $f$ en $x = a$</b> pasa por el punto $(a, f(a))$ y tiene pendiente $f'(a)$.
     Utilizando la ecuación punto-pendiente de la recta, obtenemos que la ecuación de la recta tangente es:
     $$y - f(a) = f'(a)(x-a).$$
+</p>
 
-    Por ejemplo, supongamos que queremos hallar la ecuación de la recta tangente a la función $f(x) = x^2$ en $x = 3$.
+<div class="ejemplo">
+    Supongamos que queremos hallar la ecuación de la recta tangente a la función $f(x) = x^2$ en $x = 3$.
     Como $f'(x) = 2x$, entonces $f(3) = 9$ y $f'(3) = 6$.
     Por tanto, la ecuación es:
     $$y - 9 = 6(x - 3) \Leftrightarrow y - 9 = 6x - 18 \Leftrightarrow y = 6x - 9.$$
-</p>
+</div>
 
 <section class="ciencias">
 <p>
@@ -217,6 +239,11 @@
     Por tanto, la ecuación de la recta normal es:
     $$y - f(a) = -\frac{1}{f'(a)}(x-a).$$
 </p>
+
+<div class="ejemplo">
+    Usando los resultados del ejemplo anterior, la ecuación de la recta normal a la función $f(x) = x^2$ en $x = 3$ es:
+    $$y - 9 = -\frac{1}{6}(x - 3) \Leftrightarrow y - 9 = -\frac{x}{6} + \frac{1}{2} \Leftrightarrow y = -\frac{x}{6} + \frac{19}{2}.$$
+</div>
 </section>
 
 <h3 id="derivabilidad">Derivabilidad</h3>
@@ -248,8 +275,8 @@
     Por ejemplo, las funciones polinómicas son derivables en $\mathbb{R}$ y la función $f(x) = \log_2(x + 3)$ es derivable en $(-3, +\infty).$
 </p>
 
-<p>
-    Por ejemplo, estudiemos la derivabilidad de la función:
+<div class="ejemplo">
+    Estudiemos la derivabilidad de la función:
     $$f(x) = \begin{cases}
         x - 5, & \text{si } x < 2, \\
         -x^2 + 1, & \text{si } x \geq 2.
@@ -278,7 +305,7 @@
 
     Como las derivadas laterales no coinciden, la función no es derivable en $x = 2$.
     Por tanto, $f$ es derivable en $\mathbb{R} \setminus \{2\}$.
-</p>
+</div>
 
 <h3 id="regla-de-lhopital">Regla de L'Hôpital</h3>
 
@@ -290,13 +317,13 @@
     La regla de L'Hôpital se puede aplicar tanto a límites en un punto como a límites en el infinito.
 </p>
 
-<p>
-    Por ejemplo, consideramos el siguiente límite:
+<div class="ejemplo">
+    Consideramos el siguiente límite:
     $$\lim_{x \to 0} \frac{2x}{\sin(x)} = \frac{0}{0}.$$
 
     Aplicando la regla de L'Hôpital, obtenemos que:
     $$\lim_{x \to 0} \frac{2x}{\sin(x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{2}{\cos(x)} = 2.$$
-</p>
+</div>
 
 <h3 id="monotonia-y-extremos">Monotonía y extremos</h3>
 
@@ -335,8 +362,8 @@
     Para determinar si la función es creciente o decreciente en cada intervalo, basta con comprobar si la derivada es positiva o negativa.
 </p>
 
-<p>
-    Por ejemplo, estudiemos la monotonía de la función $f(x) = x^3 - 6x^2 + 9x$, con derivada $f'(x) = 3x^2 - 12x + 9$.
+<div class="ejemplo">
+    Estudiemos la monotonía de la función $f(x) = x^3 - 6x^2 + 9x$, con derivada $f'(x) = 3x^2 - 12x + 9$.
     En primer lugar, hallamos sus puntos críticos igualando la derivada a cero.
     $$f'(x) = 0 \Leftrightarrow 3x^2 - 12x + 9 = 0 \Leftrightarrow x^2 - 4x + 3 = 0 \Leftrightarrow \begin{cases}
         x = 1, \\
@@ -375,7 +402,7 @@
     Por tanto, la función es creciente en $(-\infty, 1) \cup (3, +\infty)$ y decreciente en $(1, 3)$.
     Además, tiene un máximo relativo en $x = 1$ y un mínimo relativo en $x = 3$.
     Sustituyendo estos valores en la función, obtenemos que el máximo relativo es el punto $(1, 4)$ y el mínimo relativo es el punto $(3, 0)$.
-</p>
+</div>
 
 <h3 id="curvatura-y-puntos-de-inflexion">Curvatura y puntos de inflexión</h3>
 
@@ -386,12 +413,12 @@
     Es decir, donde pasa de convexa a cóncava o de cóncava a convexa.
 </p>
 
-<p>
-    Por ejemplo, consideramos la función dada por la siguiente gráfica.
+<div class="ejemplo">
+    Consideramos la función dada por la siguiente gráfica.
     <img src="img/temario/analisis-derivadas-1.png" alt="Figura" loading="lazy">
 
     Podemos observar que la función es cóncava en $(0, 2)$, convexa en $(2, 4)$ y tiene un punto de inflexión en $x = 2$.
-</p>
+</div>
 
 <p>
     La curvatura y los puntos de inflexión de una función $f$ se pueden estudiar analíticamente con ayuda de la <b>segunda derivada</b>.
@@ -410,8 +437,8 @@
     Para determinar si la función es convexa o cóncava en cada intervalo, basta con comprobar si la segunda derivada es positiva o negativa.
 </p>
 
-<p>
-    Por ejemplo, estudiemos la curvatura de la función $f(x) = x^3 - 6x^2 + 9x$, con primera y segunda derivada:
+<div class="ejemplo">
+    Estudiemos la curvatura de la función $f(x) = x^3 - 6x^2 + 9x$, con primera y segunda derivada:
     $$f'(x) = 3x^2 - 12x + 9, \quad f''(x) = 6x - 12.$$
     En primer lugar, hallamos sus candidatos a puntos de inflexión igualando la segunda derivada a cero.
     $$f''(x) = 0 \Leftrightarrow 6x - 12 = 0 \Leftrightarrow x = 2.$$
@@ -445,4 +472,4 @@
     Por tanto, la función es convexa en $(2, +\infty)$ y cóncava en $(-\infty, 2)$.
     Además, tiene un punto de inflexión en $x = 2$.
     Sustituyendo este valor en la función, obtenemos que el punto de inflexión es $(2, 2)$.
-</p>
+</div>

@@ -86,8 +86,10 @@
 
 <p>
     En general, los límites cuando $x \to a$ se calculan sustituyendo $x$ por el valor de $a.$
-    Por ejemplo:
-    $$\lim_{x \to 3} \; (x^2 - 2x - 1) = 3^2 - 2 \cdot 3 - 1 = 2.$$
+    
+    <div class="ejemplo">
+        $$\lim_{x \to 3} \; (x^2 - 2x - 1) = 3^2 - 2 \cdot 3 - 1 = 2.$$
+    </div>
 </p>
 
 <p>
@@ -99,25 +101,29 @@
     <li>
         Si al sustituir obtenemos algo de la forma $\frac{k}{0}$, con $k \neq 0$, entonces tendremos que estudiar los límites laterales.
         El resultado de estos límites será siempre $+\infty$ o $-\infty$, así que tendremos que determinar el signo en cada caso.
-        Por ejemplo:
-        $$\lim_{x \to 2} \frac{x-3}{x-2} = \frac{-1}{0}.$$
+        
+        <div class="ejemplo">
+            $$\lim_{x \to 2} \frac{x-3}{x-2} = \frac{-1}{0}.$$
 
-        Estudiamos los límites laterales.
-        \begin{align}
-            & \lim_{x \to 2^-} \frac{x-3}{x-2} = \frac{-1}{0^-} = +\infty, \\
-            & \lim_{x \to 2^+} \frac{x-3}{x-2} = \frac{-1}{0^+} = -\infty.
-        \end{align}
+            Estudiamos los límites laterales.
+            \begin{align}
+                & \lim_{x \to 2^-} \frac{x-3}{x-2} = \frac{-1}{0^-} = +\infty, \\
+                & \lim_{x \to 2^+} \frac{x-3}{x-2} = \frac{-1}{0^+} = -\infty.
+            \end{align}
 
-        Con $0^-$ y $0^+$ se denota que el valor del denominador se acerca a 0 por la izquierda o por la derecha, respectivamente, con el objetivo de determinar su signo.
+            Con $0^-$ y $0^+$ se denota que el valor del denominador se acerca a 0 por la izquierda o por la derecha, respectivamente, con el objetivo de determinar su signo.
+        </div>
     </li>
 
     <li>
         Si al sustituir obtenemos la indeterminación $\frac{0}{0}$, entonces tendremos que factorizar y simplificar la expresión.
-        Por ejemplo:
-        $$\lim_{x \to 2} \frac{x^2 - 5x + 6}{x^2 + 3x - 10} = \frac{0}{0}.$$
+        
+        <div class="ejemplo">
+            $$\lim_{x \to 2} \frac{x^2 - 5x + 6}{x^2 + 3x - 10} = \frac{0}{0}.$$
 
-        Para resolver la indeterminación, factorizamos y simplificamos.
-        $$\lim_{x \to 2} \frac{(x-2)(x-3)}{(x-2)(x+5)} = \lim_{x \to 2} \frac{x-3}{x+5} = -\frac{1}{7}.$$
+            Para resolver la indeterminación, factorizamos y simplificamos.
+            $$\lim_{x \to 2} \frac{(x-2)(x-3)}{(x-2)(x+5)} = \lim_{x \to 2} \frac{x-3}{x+5} = -\frac{1}{7}.$$
+        </div>
     </li>
 </ul>
 
@@ -133,22 +139,27 @@
 <ul>
     <li>
         Si $a$ no es un punto de ruptura, el límite se calcula sustituyendo $x$ por el valor de $a$ en la rama correspondiente.
-        Por ejemplo:
-        \begin{align}
-            & \lim_{x \to 0} f(x) = \lim_{x \to 0} \; (2x - 3) = -3, \\
-            & \lim_{x \to 3} f(x) = \lim_{x \to 3} \; (x^2 - 2x + 1) = 4.
-        \end{align}
+
+        <div class="ejemplo">
+            \begin{align}
+                & \lim_{x \to 0} f(x) = \lim_{x \to 0} \; (2x - 3) = -3, \
+                & \lim_{x \to 3} f(x) = \lim_{x \to 3} \; (x^2 - 2x + 1) = 4.
+            \end{align}
+        </div>
     </li>
 
     <li>
         Si $a$ es un punto de ruptura, tendremos que estudiar los límites laterales.
-        Por ejemplo, para calcular $\lim\limits_{x \to 1} f(x)$ hay que hallar los límites laterales.
-        \begin{align}
-            & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} \; (2x - 3) = -1, \\
-            & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} \; (x^2 - 2x + 1) = 0.
-        \end{align}
-
-        Como los límites laterales no coinciden, el límite de la función cuando $x \to 1$ no existe.
+        
+        <div class="ejemplo">
+            Para calcular $\lim\limits_{x \to 1} f(x)$ hay que hallar los límites laterales.
+            \begin{align}
+                & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} \; (2x - 3) = -1, \
+                & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} \; (x^2 - 2x + 1) = 0.
+            \end{align}
+        
+            Como los límites laterales no coinciden, el límite de la función cuando $x \to 1$ no existe.
+        </div>
     </li>
 </ul>
 
@@ -174,29 +185,35 @@
 <ul>
     <li>
         En las funciones polinómicas, el límite es $+\infty$ o $-\infty$ y su signo viene determinado por el término de mayor grado.
-        Por ejemplo:
-        \begin{align}
-            & \lim_{x \to +\infty} \; (3x^2 - 2x + 1) = +\infty, & & \lim_{x \to +\infty} \; (-x^3 + x - 3) = -\infty, \\
-            & \lim_{x \to -\infty} \; (3x^2 - 2x + 1) = -\infty, & & \lim_{x \to -\infty} \; (-x^3 + 5x) = +\infty.
-        \end{align}
+
+        <div class="ejemplo">
+            \begin{align}
+                & \lim_{x \to +\infty} \; (3x^2 - 2x + 1) = +\infty, & & \lim_{x \to +\infty} \; (-x^3 + x - 3) = -\infty, \\
+                & \lim_{x \to -\infty} \; (3x^2 - 2x + 1) = -\infty, & & \lim_{x \to -\infty} \; (-x^3 + 5x) = +\infty.
+            \end{align}
+        </div>
     </li>
 
     <li class="ciencias">
         En las funciones exponenciales con base mayor que 1, el límite viene determinado por el signo del exponente.
-        Por ejemplo:
-        \begin{align}
-            & \lim_{x \to +\infty} e^x = +\infty, & & \lim_{x \to +\infty} 2^{-x} = 0, \\
-            & \lim_{x \to -\infty} 3^{-x + 3} = +\infty, & & \lim_{x \to -\infty} 7^{x^3 + 1} = 0.
-        \end{align}
+
+        <div class="ejemplo">
+            \begin{align}
+                & \lim_{x \to +\infty} e^x = +\infty, & & \lim_{x \to +\infty} 2^{-x} = 0, \\
+                & \lim_{x \to -\infty} 3^{-x + 3} = +\infty, & & \lim_{x \to -\infty} 7^{x^3 + 1} = 0.
+            \end{align}
+        </div>
     </li>
 
     <li class="ciencias">
         En las funciones con raíces o logaritmos, hay que prestar atención al dominio de definición.
-        Por ejemplo:
-        \begin{align}
-            & \lim_{x \to +\infty} \sqrt{x^2 - 2} = +\infty, & & \lim_{x \to -\infty} \sqrt{x + 3} \; \text{ no existe}, \\
-            & \lim_{x \to -\infty} \log_3(x^2 + 1) = +\infty, & & \lim_{x \to +\infty} \ln(3 - x) \; \text{ no existe}.
-        \end{align}
+
+        <div class="ejemplo">
+            \begin{align}
+                & \lim_{x \to +\infty} \sqrt{x^2 - 2} = +\infty, & & \lim_{x \to -\infty} \sqrt{x + 3} \; \text{ no existe}, \\
+                & \lim_{x \to -\infty} \log_3(x^2 + 1) = +\infty, & & \lim_{x \to +\infty} \ln(3 - x) \; \text{ no existe}.
+            \end{align}
+        </div>
     </li>
 
     <li>
@@ -205,20 +222,26 @@
         <ul>
             <li>
                 Si el grado del numerador es mayor que el del denominador, el límite es $+\infty$ o $-\infty$ según los signos de los términos de mayor grado de los dos polinomios.
-                Por ejemplo:
-                $$\lim_{x \to +\infty} \frac{x^2 + 1}{x - 3} = +\infty, \quad \lim_{x \to -\infty} \frac{x^4 - 2x + 1}{x^3 + 3} = -\infty.$$
+
+                <div class="ejemplo">
+                    $$\lim_{x \to +\infty} \frac{x^2 + 1}{x - 3} = +\infty, \quad \lim_{x \to -\infty} \frac{x^4 - 2x + 1}{x^3 + 3} = -\infty.$$
+                </div>
             </li>
 
             <li>
                 Si el grado del denominador es mayor que el del numerador, el límite es 0.
-                Por ejemplo:
-                $$\lim_{x \to +\infty} \frac{3x^2 + 1}{x^3 + x} = 0.$$
+
+                <div class="ejemplo">
+                    $$\lim_{x \to +\infty} \frac{3x^2 + 1}{x^3 + x} = 0.$$
+                </div>
             </li>
 
             <li>
                 Si el grado del numerador y del denominador son iguales, el límite es el cociente de los coeficientes de los términos de mayor grado de los dos polinomios.
-                Por ejemplo:
-                $$\lim_{x \to +\infty} \frac{2x - 1}{x + 3} = 2, \quad \lim_{x \to -\infty} \frac{-5x^3 + x - 1}{2x^3 + 8} = -\frac{5}{2}.$$
+
+                <div class="ejemplo">
+                    $$\lim_{x \to +\infty} \frac{2x - 1}{x + 3} = 2, \quad \lim_{x \to -\infty} \frac{-5x^3 + x - 1}{2x^3 + 8} = -\frac{5}{2}.$$
+                </div>
             </li>
         </ul>
     </li>
@@ -257,23 +280,29 @@
 <ul>
     <li>
         Si el numerador aumenta más rápido que el denominador, el límite es $+\infty$ o $-\infty$ según los signos del numerador y el denominador.
-        Por ejemplo:
-        $$\lim_{x \to +\infty} \frac{\sqrt{x + 5}}{\log(x^2 + 1)} = +\infty, \quad \lim_{x \to +\infty} \frac{2^{x+3}}{-x^2 + 5x} = -\infty.$$
+
+        <div class="ejemplo">
+            $$\lim_{x \to +\infty} \frac{\sqrt{x + 5}}{\log(x^2 + 1)} = +\infty, \quad \lim_{x \to +\infty} \frac{2^{x+3}}{-x^2 + 5x} = -\infty.$$
+        </div>
     </li>
 
     <li>
         Si el denominador aumenta más rápido que el numerador, el límite es 0.
-        Por ejemplo:
-        $$\lim_{x \to +\infty} \frac{\ln(x^5 + 1)}{5^{x - 1}} = 0, \quad \lim_{x \to -\infty} \frac{\sqrt{2x + 1}}{x^4 + 10} = 0.$$
+        
+        <div class="ejemplo">
+            $$\lim_{x \to +\infty} \frac{\ln(x^5 + 1)}{5^{x - 1}} = 0, \quad \lim_{x \to -\infty} \frac{\sqrt{2x + 1}}{x^4 + 10} = 0.$$
+        </div>
     </li>
 
     <li>
         Si el numerador y el denominador aumentan a la misma velocidad, el límite se puede calcular dejando únicamente los términos de mayor grado.
-        Por ejemplo:
-        \begin{align}
-            & \lim_{x \to +\infty} \frac{5x^2 + 1}{\sqrt{x^4 - 3x} + x^2} = \lim_{x \to +\infty} \frac{5x^2}{\sqrt{x^4} + x^2} = \lim_{x \to +\infty} \frac{5x^2}{2x^2} = \frac{5}{2}, \\
-            & \lim_{x \to +\infty} \frac{\log(x^2 + 1)}{\log(x - 5)} = \lim_{x \to +\infty} \frac{\log(x^2)}{\log(x)} = \lim_{x \to +\infty} \frac{2\log(x)}{\log(x)} = 2.
-        \end{align}
+
+        <div class="ejemplo">
+            \begin{align}
+                & \lim_{x \to +\infty} \frac{5x^2 + 1}{\sqrt{x^4 - 3x} + x^2} = \lim_{x \to +\infty} \frac{5x^2}{\sqrt{x^4} + x^2} = \lim_{x \to +\infty} \frac{5x^2}{2x^2} = \frac{5}{2}, \\
+                & \lim_{x \to +\infty} \frac{\log(x^2 + 1)}{\log(x - 5)} = \lim_{x \to +\infty} \frac{\log(x^2)}{\log(x)} = \lim_{x \to +\infty} \frac{2\log(x)}{\log(x)} = 2.
+            \end{align}
+        </div>
     </li>
 </ul>
 </section>
@@ -295,8 +324,8 @@
     Por ejemplo, las funciones polinómicas son continuas en $\mathbb{R}$ y la función $f(x) = \log_2(x + 3)$ es continua en $(-3, +\infty).$
 </p>
 
-<p>
-    Por ejemplo, estudiemos la continuidad de la función:
+<div class="ejemplo">
+    Estudiemos la continuidad de la función:
     $$f(x) = \begin{cases}
         x - 5, & \text{si } x < 2, \\
         -x^2 + 1, & \text{si } x \geq 2.
@@ -312,12 +341,15 @@
 
     Como los tres valores coinciden, la función es continua en $x = 2.$
     Por tanto, $f$ es continua en $\mathbb{R}.$
-</p>
+</div>
 
 <h4>Continuidad con parámetros</h4>
 <p>
     En ocasiones, tendremos que estudiar para qué valores de una serie de parámetros es continua una función.
-    Por ejemplo, veamos para qué valores de $k$ es continua la función:
+</p>
+
+<div class="ejemplo">
+    Veamos para qué valores de $k$ es continua la función:
     $$f(x) = \begin{cases}
         x^2 - 5, & \text{si } x \leq 1, \\
         kx - 3, & \text{si } x > 1.
@@ -335,7 +367,7 @@
     $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1) \Leftrightarrow -4 = k-3 \Leftrightarrow k = -1.$$
 
     Por tanto, $f$ es continua si $k = -1.$
-</p>
+</div>
 
 <h3 id="asintotas">Asíntotas</h3>
 <p>
@@ -357,8 +389,8 @@
     Principalmente, tendremos que estudiar los puntos que anulan el denominador de una función racional o el argumento de un logaritmo.
 </p>
 
-<p>
-    Por ejemplo, consideramos la función:
+<div class="ejemplo">
+    Consideramos la función:
     $$f(x) = \frac{x^2+3}{x-1}.$$
 
     Observamos que $\Dom(f) = \mathbb{R} \setminus \{1\}$, así que $x = 1$ es el único candidato a asíntota vertical.
@@ -370,7 +402,7 @@
 
     Por tanto, $x = 1$ es una asíntota vertical.
     Además, los límites determinan la posición de la curva respecto a la asíntota.
-</p>
+</div>
 
 <h4>Asíntotas horizontales</h4>
 <p>
@@ -394,8 +426,8 @@
     Esto significa que en estas funciones tan solo es necesario estudiar uno de los dos límites para determinar si hay una asíntota horizontal.
 </p>
 
-<p>
-    Por ejemplo, consideramos la función:
+<div class="ejemplo">
+    Consideramos la función:
     $$f(x) = \frac{3x^2 + 2x - 1}{x^2 + 1}.$$
 
     Para determinar si tiene una asíntota horizontal, estudiamos el límite cuando $x \to +\infty$.
@@ -403,7 +435,7 @@
 
     Por tanto, $y = 3$ es una asíntota horizontal.
     Como es una función racional, también es una asíntota horizontal cuando $x \to -\infty.$
-</p>
+</div>
 
 <section class="ciencias">
 <h4>Asíntotas oblicuas</h4>
@@ -428,8 +460,8 @@
     Esto significa que en estas funciones tan solo es necesario estudiar uno de los dos límites para determinar si hay una asíntota oblicua.
 </p>
 
-<p>
-    Por ejemplo, consideramos la función:
+<div class="ejemplo">
+    Consideramos la función:
     $$f(x) = \frac{2x^3 - x^2}{x^2 + 1}.$$
 
     Para determinar si tiene una asíntota oblicua, estudiamos los límites cuando $x \to +\infty$.
@@ -437,9 +469,12 @@
 
     Así que tiene una asíntota oblicua con pendiente $m = 2.$
     Su ordenada en el origen viene dada por:
-    $$\lim_{x \to +\infty} (f(x) - 2x) = \lim_{x \to +\infty} \left(\frac{2x^3 - x^2}{x^2 + 1} - 2x\right) = \lim_{x \to +\infty} \left(\frac{2x^3 - x^2}{x^2 + 1} - \frac{2x^3 + 2x}{x^2 + 1}\right) = \lim_{x \to +\infty} \frac{-x^2 - 2x}{x^2 + 1} = -1.$$
+    \begin{align}
+        \lim_{x \to +\infty} (f(x) - 2x) & = \lim_{x \to +\infty} \left(\frac{2x^3 - x^2}{x^2 + 1} - 2x\right) = \lim_{x \to +\infty} \left(\frac{2x^3 - x^2}{x^2 + 1} - \frac{2x^3 + 2x}{x^2 + 1}\right) = \\
+        & = \lim_{x \to +\infty} \frac{-x^2 - 2x}{x^2 + 1} = -1.
+    \end{align}
 
     Por tanto, $y = 2x - 1$ es una asíntota oblicua.
     Como es una función racional, también es una asíntota oblicua cuando $x \to -\infty.$
-</p>
+</div>
 </section>

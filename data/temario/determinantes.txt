@@ -17,23 +17,26 @@
 <ul>
     <li>
         Si la matriz es de <b>orden 1</b>, su determinante es el único elemento que tiene.
-        Por ejemplo:
-        $$\begin{vmatrix}
-            2
-        \end{vmatrix} = 2.$$
+
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                2
+            \end{vmatrix} = 2.$$
+        </div>
     </li>
     <li>
-        Si la matriz es de <b>orden 2</b>, su determinante se calcula como
+        Si la matriz es de <b>orden 2</b>, su determinante se calcula como:
         $$\begin{vmatrix}
             a_{11} & a_{12} \\
             a_{21} & a_{22}
         \end{vmatrix} = a_{11}a_{22} - a_{12}a_{21}.$$
         
-        Por ejemplo:
-        $$\begin{vmatrix}
-            1 & -2 \\
-            5 & 3
-        \end{vmatrix} = 1 \cdot 3 - (-2) \cdot 5 = 13.$$
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                1 & -2 \\
+                5 & 3
+            \end{vmatrix} = 1 \cdot 3 - (-2) \cdot 5 = 13.$$
+        </div>
     </li>
     <li>
         Si la matriz es de <b>orden 3</b>, su determinante se calcula como
@@ -43,12 +46,13 @@
             a_{31} & a_{32} & a_{33}
         \end{vmatrix} = a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32} - a_{11}a_{23}a_{32} - a_{12}a_{21}a_{33} - a_{13}a_{22}a_{31}.$$
         
-        Por ejemplo:
-        $$\begin{vmatrix}
-            1 & 0 & 3 \\
-            -4 & 5 & 1 \\
-            -3 & 2 & 0
-        \end{vmatrix} = 1 \cdot 5 \cdot 0 + 0 \cdot 1 \cdot (-3) + (-4) \cdot 2 \cdot 3 - 3 \cdot 5 \cdot (-3) - 0 \cdot (-4) \cdot 0 - 1 \cdot 1 \cdot 2 = 19.$$
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                1 & 0 & 3 \\
+                -4 & 5 & 1 \\
+                -3 & 2 & 0
+            \end{vmatrix} = 1 \cdot 5 \cdot 0 + 0 \cdot 1 \cdot (-3) + (-4) \cdot 2 \cdot 3 - 3 \cdot 5 \cdot (-3) - 0 \cdot (-4) \cdot 0 - 1 \cdot 1 \cdot 2 = 19.$$
+        </div>
     </li>
 </ul>
 
@@ -61,17 +65,19 @@
 <ul>
     <li>
         El determinante de una matriz es igual al de su traspuesta.
-        Por ejemplo:
-        $$\begin{vmatrix}
-            1 & 2 & 3 \\
-            4 & 5 & 6 \\
-            7 & 8 & 9
-        \end{vmatrix} =
-        \begin{vmatrix}
-            1 & 4 & 7 \\
-            2 & 5 & 8 \\
-            3 & 6 & 9
-        \end{vmatrix}.$$
+        
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                1 & 2 & 3 \\
+                4 & 5 & 6 \\
+                7 & 8 & 9
+            \end{vmatrix} =
+            \begin{vmatrix}
+                1 & 4 & 7 \\
+                2 & 5 & 8 \\
+                3 & 6 & 9
+            \end{vmatrix}.$$
+        </div>
     </li>
 
     <li>
@@ -98,89 +104,98 @@
             a_{31} & a_{32} & a_{33}
         \end{vmatrix}.$$
 
-        Por ejemplo:
-        $$\begin{vmatrix}
-            1 & 0 & 3 \\
-            -4 + 3 & 5 - 1 & 1 + 5 \\
-            -3 & 2 & 0
-        \end{vmatrix} =
-        \begin{vmatrix}
-            1 & 0 & 3 \\
-            -4 & 5 & 1 \\
-            -3 & 2 & 0
-        \end{vmatrix} +
-        \begin{vmatrix}
-            1 & 0 & 3 \\
-            3 & -1 & 5 \\
-            -3 & 2 & 0
-        \end{vmatrix}.$$
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                1 & 0 & 3 \\
+                -4 + 3 & 5 - 1 & 1 + 5 \\
+                -3 & 2 & 0
+            \end{vmatrix} =
+            \begin{vmatrix}
+                1 & 0 & 3 \\
+                -4 & 5 & 1 \\
+                -3 & 2 & 0
+            \end{vmatrix} +
+            \begin{vmatrix}
+                1 & 0 & 3 \\
+                3 & -1 & 5 \\
+                -3 & 2 & 0
+            \end{vmatrix}.$$
+        </div>
     </li>
     
     <li>
         Si se multiplica una fila por un número real, el determinante de la matriz original queda multiplicado por ese número.
-        Por ejemplo:
-
-        $$\begin{vmatrix}
-            8 \cdot 1 & 8 \cdot 0 & 8 \cdot 3 \\
-            -4 & 5 & 1 \\
-            -3 & 2 & 0
-        \end{vmatrix} = 8\begin{vmatrix}
-            1 & 0 & 3 \\
-            -4 & 5 & 1 \\
-            -3 & 2 & 0
-        \end{vmatrix}.$$
+        
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                8 \cdot 1 & 8 \cdot 0 & 8 \cdot 3 \\
+                -4 & 5 & 1 \\
+                -3 & 2 & 0
+            \end{vmatrix} = 8\begin{vmatrix}
+                1 & 0 & 3 \\
+                -4 & 5 & 1 \\
+                -3 & 2 & 0
+            \end{vmatrix}.$$
+        </div>
     </li>
     
     <li>
         Si todos los elementos de una fila son nulos, el determinante es cero.
-        Por ejemplo:
-        $$\begin{vmatrix}
-            1 & 0 & -3 \\
-            0 & 0 & 0 \\
-            5 & 11 & -1
-        \end{vmatrix} = 0.$$
+
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                1 & 0 & -3 \\
+                0 & 0 & 0 \\
+                5 & 11 & -1
+            \end{vmatrix} = 0.$$
+        </div>
     </li>
     
     <li>
         Si una fila es combinación lineal de otras filas, el determinante es cero.
-        Por ejemplo:
-        $$\begin{vmatrix}
-            1 & 2 & 3 \\
-            -2 & 5 & 1 \\
-            0 & 9 & 7
-        \end{vmatrix} = 0,$$
-        porque la tercera fila es combinación lineal de las dos primeras.
+        
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                1 & 2 & 3 \\
+                -2 & 5 & 1 \\
+                0 & 9 & 7
+            \end{vmatrix} = 0, \quad \text{porque } F_3 = 2F_1 + F_2.$$
+        </div>
     </li>
     
     <li>
-        Si se intercambian entre sí dos filas, el determinante cambia de signo.
-        Por ejemplo:
-        $$\begin{vmatrix}
-            1 & 2 & 3 \\
-            4 & 5 & 6 \\
-            7 & 8 & 9
-        \end{vmatrix} =
-        -\begin{vmatrix}
-            4 & 5 & 6 \\
-            1 & 2 & 3 \\
-            7 & 8 & 9
-        \end{vmatrix}.$$
+        Si dos filas se intercambian entre sí, el determinante cambia de signo.
+        
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                1 & 2 & 3 \\
+                4 & 5 & 6 \\
+                7 & 8 & 9
+            \end{vmatrix} =
+            -\begin{vmatrix}
+                4 & 5 & 6 \\
+                1 & 2 & 3 \\
+                7 & 8 & 9
+            \end{vmatrix}.$$
+        </div>
     </li>
     
     <li>
         Si se suma a una fila una combinación lineal de otras filas, el determinante no varía.
-        Por ejemplo:
-        $$\begin{vmatrix}
-            1 & 2 & 3 \\
-            -2 & 5 & 1 \\
-            0 & 1 & 1
-        \end{vmatrix} =
-        \begin{vmatrix}
-            1 & 2 & 3 \\
-            -2 & 5 & 1 \\
-            4 & 0 & 6
-        \end{vmatrix},$$
-        porque la tercera fila está sumada por $2F_1 - F_2.$
+        
+        <div class="ejemplo">
+            $$\begin{vmatrix}
+                1 & 2 & 3 \\
+                -2 & 5 & 1 \\
+                0 & 1 & 1
+            \end{vmatrix} =
+            \begin{vmatrix}
+                1 & 2 & 3 \\
+                -2 & 5 & 1 \\
+                4 & 0 & 6
+            \end{vmatrix},$$
+            porque la tercera fila está sumada por $2F_1 - F_2.$
+        </div>
     </li>
     
     <li>
@@ -195,13 +210,17 @@
 <h3 id="menores-y-adjuntos">Menores y adjuntos</h3>
 <p>
     Los determinantes de las matrices cuadradas que se obtienen al eliminar cualquier número de filas y columnas en una matriz cualquiera se llaman <b>menores de la matriz</b>.
-    Por ejemplo, si tomamos la matriz
-    $$\begin{vmatrix}
+</p>
+
+<div class="ejemplo">
+    Consideramos la siguiente matriz:
+    $$\begin{pmatrix}
         1 & 2 & 3 & 4 \\
         5 & 6 & 7 & 8 \\
         9 & 10 & 11 & 12
-    \end{vmatrix},$$
-    algunos de sus menores son
+    \end{pmatrix}.$$
+    
+    Algunos de sus menores son
     $$\begin{vmatrix}
         1 & 2 & 3 \\
         5 & 6 & 7 \\
@@ -219,17 +238,21 @@
     \begin{vmatrix}
         7
     \end{vmatrix}.$$
-</p>
+</div>
 
 <p>
     Si se parte de una matriz cuadrada, al menor que se obtiene al eliminar la fila $i$ y la columna $j$ se le denomina <b>menor complementario</b> del elemento en la posición $(i, j)$ y se denota por $\alpha_{ij}.$
-    Por ejemplo, si tomamos la matriz
+</p>
+
+<div class="ejemplo">
+    Consideramos la siguiente matriz:
     $$A = \begin{pmatrix}
         0 & 3 & 4 \\
         1 & -4 & -5 \\
         -1 & 3 & 4
-    \end{pmatrix},$$
-    algunos de sus menores complementarios son
+    \end{pmatrix}.$$
+
+    Algunos de sus menores complementarios son
     $$\alpha_{12} = \begin{vmatrix}
         1 & -5 \\
         -1 & 4
@@ -238,7 +261,7 @@
         0 & 3 \\
         1 & -4
     \end{vmatrix}.$$
-</p>
+</div>
 
 <p>
     Dada una matriz cuadrada, se llama <b>adjunto</b> del elemento en la posición $(i, j)$ a su menor complementario multiplicado por $(-1)^{i+j}$ y se denota por $A_{ij}$
@@ -247,8 +270,10 @@
         \alpha_{ij}, & \text{si } i+j \text{ es par}, \\
         -\alpha_{ij}, & \text{si } i+j \text{ es impar}.
     \end{cases}$$
+</p>
 
-    Por ejemplo:
+<div class="ejemplo">
+    En la matriz del ejemplo anterior,
     $$A_{12} = -\alpha_{12} = -\begin{vmatrix}
         1 & -5 \\
         -1 & 4
@@ -257,7 +282,7 @@
         0 & 3 \\
         1 & -4
     \end{vmatrix} = -3.$$
-</p>
+</div>
 
 <p>
     La <b>matriz adjunta</b> de $A$ es una matriz del mismo orden cuyos elementos son los adjuntos de los elementos de $A$ y se denota $\Adj(A).$
@@ -267,14 +292,16 @@
         A_{21} & A_{22} & A_{23} \\
         A_{31} & A_{32} & A_{33}
     \end{pmatrix}.$$
+</p>
 
-    Volviendo al ejemplo,
+<div class="ejemplo">
+    Volviendo al ejemplo anterior,
     $$\Adj(A) = \begin{pmatrix}
         -1 & 1 & -1 \\
         0 & 4 & -3 \\
         1 & 4 & -3
     \end{pmatrix}.$$
-</p>
+</div>
 
 <section class="ciencias">
 <h3 id="calculo-rango">Cálculo del rango</h3>
@@ -287,13 +314,14 @@
 
 <p>Como consecuencia, si $A$ es una matriz cuadrada de orden $n$, entonces $\rang(A) = n \Leftrightarrow \det(A) \neq 0.$</p>
 
-<p>
-    Por ejemplo, estudiemos el rango de la matriz
+<div class="ejemplo">
+    Estudiemos el rango de la siguiente matriz:
     $$A = \begin{pmatrix}
         1 & 2 & 3 & 4 \\
         5 & 6 & 7 & 8 \\
         9 & 10 & 11 & 12
     \end{pmatrix}.$$
+
     Como el menor
     $$\begin{vmatrix}
         1 & 2 \\
@@ -323,12 +351,15 @@
     \end{vmatrix} = 0,$$
     entonces $\rang(A) < 3.$
     Por tanto, $\rang(A) = 2.$
-</p>
+</div>
 
 <h4>Estudio del rango con parámetros</h4>
 <p>
     En ocasiones, tendremos que estudiar el rango de una matriz en función de un parámetro.
-    Por ejemplo, estudiemos en función del parámetro $\lambda$ el rango de la matriz
+</p>
+
+<div class="ejemplo">
+    Estudiemos en función del parámetro $\lambda$ el rango de la siguiente matriz:
     $$A = \begin{pmatrix}
         2 & 1 & 0 & 1 \\
         \lambda & 2 & -1 & 0 \\
@@ -386,7 +417,7 @@
             Así que $\rang(A) = 3.$
         </li>
     </ul>
-</p>
+</div>
 </section>
 
 <h3 id="calculo-matriz-inversa">Cálculo de la matriz inversa</h3>
@@ -395,13 +426,16 @@
     Una matriz cuadrada $A$ es invertible si y solo si $\det(A) \neq 0.$
     En ese caso, se puede calcular la matriz inversa como
     $$A^{-1} = \frac{1}{|A|}\Adj(A)^t.$$
+</p>
 
-    Por ejemplo, hallemos la inversa de la matriz
+<div class="ejemplo">
+    Hallemos la inversa de la siguiente matriz:
     $$A = \begin{pmatrix}
         0 & 3 & 4 \\
         1 & -4 & -5 \\
         -1 & 3 & 4
     \end{pmatrix}.$$
+
     En primer lugar, observamos que $\det(A) = -1 \neq 0$, así que $A$ es invertible.
     Habíamos calculado previamente la matriz adjunta de $A$, así que
     $$A^{-1} = -\begin{pmatrix}
@@ -414,12 +448,15 @@
         -1 & -4 & -4 \\
         1 & 3 & 3
     \end{pmatrix}.$$
-</p>
+</div>
 
 <h4>Matrices invertibles con parámetros</h4>
 <p>
     En ocasiones, tendremos que determinar para qué valores de un parámetro es invertible una matriz.
-    Por ejemplo, veamos para qué valores del parámetro $\lambda$ es invertible la matriz
+</p>
+
+<div class="ejemplo">
+    Veamos para qué valores del parámetro $\lambda$ es invertible la siguiente matriz:
     $$A = \begin{pmatrix}
         1 & 1 & 0 \\
         \lambda & 1 & -\lambda \\
@@ -446,4 +483,4 @@
     </ul>
 
     Por tanto, $A$ es invertible si y solo si $\lambda \neq -1.$
-</p>
+</div>
