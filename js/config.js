@@ -8,6 +8,7 @@ window.MathJax = {
         },
         macros: {
             Adj: "\\operatorname{Adj}",
+            arcsin: "\\operatorname{arcsen}",
             arctan: "\\operatorname{arctg}",
             Bi: "\\operatorname{Bi}",
             dist: "\\operatorname{dist}",

@@ -1,0 +1,498 @@
+<h2>Integrales</h2>
+
+<ul class="categorias">
+    <li><a class="contorno" href="#integral-indefinida">Integral indefinida</a></li>
+    <li class="ciencias"><a class="contorno" href="#metodos-de-integracion">Métodos de integración</a></li>
+    <li><a class="contorno" href="#integral-definida">Integral definida</a></li>
+    <li><a class="contorno" href="#calculo-de-areas">Cálculo de áreas</a></li>
+</ul>
+
+<p>
+    La <b>integración</b> de una función es el proceso inverso de la derivación.
+</p>
+
+<h3 id="integral-indefinida">Integral indefinida</h3>
+
+<p>
+    Una función $F$ es una <b>primitiva</b> de otra función $f$ si se verifica que $F'(x) = f(x)$.
+</p>
+
+<div class="ejemplo">
+    <p>
+        Consideramos la función $f(x) = 2x$.
+        Una primitiva de $f$ es $F(x) = x^2$, dado que $F'(x) = 2x$.
+    </p>
+
+    <p>
+        Sin embargo, no es su única primitiva.
+        Por ejemplo, la función $G(x) = x^2 + 1$ también cumple que $G'(x) = 2x$, así que es otra primitiva de $f$.
+    </p>
+</div>
+
+<p>
+    Una función integrable tiene infinitas primitivas.
+    Si $F$ es una primitiva de una función $f$, entonces $F(x) + k$ es otra primitiva de $f$ para cada constante $k$.
+</p>
+
+<p>
+    La <b>integral indefinida</b> de una función $f$ es el conjunto de todas sus primitivas y se denota por $\int f(x)\, dx$, donde $dx$ indica la variable con respecto a la que se integra.
+    Si $F$ es una primitiva de una función $f$, entonces su integral indefinida es:
+    $$\int f(x) \, dx = F(x) + k.$$
+</p>
+
+<div class="ejemplo">
+    La integral indefinida de la función $f(x) = 2x$ es:
+    $$\int f(x) \, dx = \int 2x \, dx = x^2 + k.$$
+</div>
+
+<h4>Integrales inmediatas</h4>
+
+<p>
+    Algunas integrales que se pueden deducir directamente de las reglas de derivación.
+</p>
+
+<ul>
+    <li><b>Función constante:</b> $\displaystyle \int 1 \, dx = x + k$.</li>
+
+    <li>
+        <b>Función potencial</b>.
+
+        <ul>
+            <li>
+                Si $n \neq -1$, $\displaystyle \int x^n \, dx = \frac{x^{n+1}}{n+1} + k$.
+                
+                <div class="ejemplo">
+                    $$\int x^5 \, dx = \frac{x^6}{6} + k.$$
+                </div>
+            </li>
+
+            <li>Si $n = -1$, $\displaystyle \int \frac{1}{x} \, dx = \ln|x| + k$.</li>
+        </ul>
+    </li>
+
+    <li>
+        <b>Función exponencial</b>.
+        
+        <ul>
+            <li>$\displaystyle \int e^x \, dx = e^x + k$.</li>
+
+            <li>
+                En general, $\displaystyle \int a^x \, dx = \frac{a^x}{\ln(a)} + k$.
+
+                <div class="ejemplo">
+                    $$\int 2^x \, dx = \frac{2^x}{\ln(2)} + k.$$
+                </div>
+            </li>
+        </ul>
+    </li>
+
+    <li class="ciencias">
+        <b>Funciones trigonométricas</b>.
+
+        <ul>
+            <li><b>Función seno:</b> $\displaystyle \int \sin(x) \, dx = -\cos(x) + k$.</li>
+            <li><b>Función coseno:</b> $\displaystyle \int \cos(x) \, dx = \sin(x) + k$.</li>
+            <li>$\displaystyle \int (1 + \tan^2(x)) \, dx = \int \frac{1}{\cos^2(x)} \, dx = \tan(x) + k$.</li>
+            <li>$\displaystyle \int \frac{1}{\sqrt{1 - x^2}} \, dx = \arcsin(x) + k$.</li>
+            <li>$\displaystyle \int -\frac{1}{\sqrt{1 - x^2}} \, dx = \arccos(x) + k$.</li>
+            <li>$\displaystyle \int \frac{1}{1 + x^2} \, dx = \arctan(x) + k$.</li>
+        </ul>
+    </li>
+</ul>
+
+<h4>Propiedades de la integral indefinida</h4>
+
+<p>
+    Las dos propiedades fundamentales de la integral indefinida se deducen directamente de las propiedades de las derivadas.
+</p>
+
+<ul>
+    <li>
+        <b>Integral del producto por una constante</b>: $\displaystyle \int kf(x) \, dx = k \int f(x) \, dx$.
+        
+        <div class="ejemplo">
+            $$\int 3x^4 \, dx = 3\int x^4 \, dx = 3 \cdot \frac{x^5}{5} + k = \frac{3x^5}{5} + k.$$
+        </div>
+    </li>
+    
+    <li>
+        <b>Integral de la suma y la resta</b>: $\displaystyle \int (f(x) + g(x)) \, dx = \int f(x) \, dx + \int g(x) \, dx$.
+        <br>La propiedad es análoga para la resta de funciones.
+        
+        <div class="ejemplo">
+            $$\int (x^3 + x^2 - 2^x) \, dx = \int x^3 \, dx + \int x^2 \, dx - \int 2^x \, dx = \frac{x^4}{4} + \frac{x^3}{3} - \frac{2^x}{\ln(2)}.$$
+        </div>
+    </li>
+</ul>
+
+<h3 id="metodos-de-integracion" class="ciencias">Métodos de integración</h3>
+
+<h4>Integrales de funciones compuestas</h4>
+
+<p>
+    Las integrales de algunas funciones compuestas se pueden resolver como si fueran inmediatas deshaciendo la regla de la cadena.
+    Recordamos que la regla de la cadena establecía que:
+    $$(f(g(x)))' = f'(g(x)) \cdot g'(x) \Rightarrow \int f'(g(x)) \cdot g'(x) \, dx = f(g(x)) + k.$$
+</p>
+
+<div class="ejemplo">
+    \begin{align}
+        & \int \cos(x^2) \cdot 2x \, dx = \sin(x^2) + k, \\
+        & \int xe^{x^2} \, dx = \frac{1}{2} \int e^{x^2} \cdot 2x \, dx = \frac{1}{2}e^{x^2} + k, \\
+        & \int \frac{\ln(x)}{x} \, dx = \int \ln(x) \cdot \frac{1}{x} \, dx = \frac{\ln(x)^2}{2} + k.
+    \end{align}
+</div>
+
+<section class="ciencias">
+<h4>Integración por cambio de variable</h4>
+
+<p>
+    El método de integración por cambio de variable, o método de sustitución, consiste en identificar una parte del integrando con una nueva variable con el objetivo de llegar a una integral más sencilla.
+    Es necesario sustituir todas las referencias a la primera variable, incluido el diferencial, y al terminar hay que deshacer el cambio de variable.
+</p>
+
+<div class="ejemplo">
+    Consideramos la integral:
+    $$\int x\sqrt{x+5} \, dx.$$
+
+    Realizamos el cambio de variable $t = \sqrt{x + 5}$.
+    Sustituyendo y derivando, obtenemos que:
+    \begin{align}
+        t = \sqrt{x + 5} \Rightarrow x & = t^2 - 5, \\
+        dx & = 2t \, dt.
+    \end{align}
+
+    Por tanto, sustituyendo en la integral,
+    \begin{align}
+        \int x\sqrt{x+5} \, dx & = \int (t^2 - 5)t \cdot 2t \, dt = \int (2t^4 - 10t^2) \, dt = \frac{2t^5}{5} - \frac{10t^3}{3} + k = \\
+        & = \frac{2(\sqrt{x + 5})^5}{5} - \frac{10(\sqrt{x + 5})^3}{3} + k.
+    \end{align}
+</div>
+
+<h4>Integración por partes</h4>
+
+<p>
+    El método de integración por partes permite hallar la integral de algunos productos de dos funciones.
+    Su fórmula se puede deducir directamente de la derivada del producto:
+    \begin{align}
+        & (u(x) \cdot v(x))' = u'(x) \cdot v(x) + u(x) \cdot v'(x) \Leftrightarrow u(x) \cdot v'(x) = (u(x) \cdot v(x))' - u'(x) \cdot v(x) \Rightarrow \\
+        & \Rightarrow \int u(x) \cdot v'(x) \, dx = u(x) \cdot v(x) - \int u'(x) \cdot v(x) \, dx.
+    \end{align}
+
+    De forma simplificada, podemos escribirlo como:
+    $$\int u \cdot v' = u \cdot v - \int u' \cdot v.$$
+
+    El proceso consiste en identificar los factores con las funciones $u$ y $v$, respectivamente y según convenga, y aplicar la igualdad anterior.
+</p>
+
+<div class="ejemplo">
+    Consideramos la siguiente integral:
+    $$\int xe^x \, dx.$$
+
+    Asignamos $u = x$ y $v' = e^x$.
+    De esta forma,
+    \begin{align}
+        u = x & \Rightarrow u' = 1, \\
+        v' = e^x & \Rightarrow v = e^x.
+    \end{align}
+
+    Por tanto,
+    $$\int xe^x \, dx = xe^x - \int e^x \, dx = xe^x - e^x + k.$$
+</div>
+
+<h4>Integración de funciones racionales</h4>
+
+<p>
+    Hay un método concreto para integrar las funciones racionales, es decir, aquellas que se pueden expresar como cociente de dos polinomios.
+    Estas funciones son de la forma:
+    $$f(x) = \frac{P(x)}{Q(x)}.$$
+</p>
+
+<ul>
+    <li>
+        Si el grado del numerador es mayor o igual que el grado del denominador, realizamos la división de polinomios.
+        Si $C$ es el cociente y $R$ el resto, entonces podemos escribir:
+        $$P(x) = Q(x) \cdot C(x) + R(x) \Rightarrow f(x) = \frac{P(x)}{Q(x)} = C(x) + \frac{R(x)}{Q(x)}.$$
+
+        Este proceso da como resultado un polinomio y una nueva función racional, cuyo numerador tiene grado menor que el denominador.
+        
+        <div class="ejemplo">
+            Consideramos la siguiente función racional:
+            $$f(x) = \frac{x^3 + 2}{x^2 - 1}.$$
+
+            Como el grado del numerador es mayor que el grado del denominador, podemos realizar la división de polinomios.
+            Obtenemos que $C(x) = x$ y $R(x) = x + 2$, de forma que podemos expresar:
+            $$f(x) = \frac{x^3 + 2}{x^2 - 1} = x + \frac{x + 2}{x^2 - 1}.$$
+
+            De esta forma,
+            $$\int \frac{x^3 + 2}{x^2 - 1} \, dx = \int \left(x + \frac{x + 2}{x^2 - 1}\right) \, dx = \frac{x^2}{2} + \int \frac{x + 2}{x^2 - 1} \, dx.$$
+        </div>
+
+        A la nueva función racional obtenida se le pueden seguir aplicando los siguientes pasos.
+    </li>
+
+    <li>
+        Si el numerador es una constante y el denominador es de grado 1, entonces se puede integrar mediante el logaritmo neperiano.
+
+        <div class="ejemplo">
+            \begin{align}
+                & \int \frac{3}{x + 1} \, dx = 3\ln|x-1| + k, \\
+                & \int \frac{1}{4x - 5} \, dx = \frac{1}{4} \int \frac{1}{4x - 5} \cdot 4 \, dx = \frac{1}{4}\ln|4x - 5| + k.
+            \end{align}
+        </div>
+    </li>
+
+    <li>
+        Si el grado del numerador es menor que el grado del denominador, tenemos que descomponer la función en suma de fracciones simples.
+        Podemos distinguir dos casos en función de las raíces del denominador.
+
+        <ul>
+            <li>
+                Si todas las raíces del denominador $a_1, a_2, \ldots a_n$ son distintas, entonces la función se puede descomponer de la forma:
+                $$f(x) = \frac{P(x)}{Q(x)} = \frac{A_1}{x - a_1} + \frac{A_2}{x - a_2} + \ldots + \frac{A_n}{x - a_n}.$$
+
+                <div class="ejemplo">
+                    Consideramos la función:
+                    $$f(x) = \frac{4}{x^2 - 1}.$$
+
+                    En primer lugar, hallamos las raíces del denominador.
+                    $$x^2 - 1 = 0 \Leftrightarrow x^2 = 1 \Leftrightarrow x = \pm 1.$$
+
+                    Como las dos raíces son simples, podemos descomponer la función en suma de fracciones simples de la forma:
+                    $$\frac{4}{x^2 - 1} = \frac{A}{x - 1} + \frac{B}{x + 1} = \frac{Ax + A + Bx - B}{x^2 - 1} \Rightarrow Ax + A + Bx - B = 4.$$
+
+                    Podemos hallar los valores de $A$ y $B$ por sustitución.
+
+                    <ul>
+                        <li>Si $x = 1$, entonces $2A = 4 \Leftrightarrow A = 2$.</li>
+                        <li>Si $x = -1$, entonces $-2B = 4 \Leftrightarrow B = -2$.</li>
+                    </ul>
+
+                    Por tanto,
+                    $$f(x) = \frac{2}{x^2 - 1} = \frac{2}{x - 1} - \frac{2}{x + 1}.$$
+
+                    De esta forma,
+                    \begin{align}
+                        \int \frac{4}{x^2 - 1} \, dx & = \int \left(\frac{2}{x - 1} - \frac{2}{x + 1}\right) \, dx = 2\int \frac{1}{x-1} \, dx - 2\int \frac{1}{x+1} \, dx = \\
+                        & = 2\ln|x-1| - 2\ln|x+1| + k.
+                    \end{align}
+                </div>
+            </li>
+
+            <li>
+                Si el denominador tiene una raíz múltiple $a$ con multiplicidad $k$, entonces la función se puede descomponer de la forma:
+                $$f(x) = \frac{P(x)}{Q(x)} = \frac{A_1}{x - a} + \frac{A_2}{(x - a)^2} + \ldots + \frac{A_k}{(x - a)^k}.$$
+
+                <div class="ejemplo">
+                    Consideramos la función:
+                    $$f(x) = \frac{x + 1}{x^2 - 2x + 1}.$$
+
+                    En primer lugar, hallamos las raíces del denominador.
+                    $$x^2 - 2x + 1 = 0 \Leftrightarrow (x - 1)^2 = 0 \Leftrightarrow x - 1 = 0 \Leftrightarrow x = 1.$$
+
+                    Como la raíz es doble, podemos descomponer la función en suma de fracciones simples de la forma:
+                    $$\frac{x + 1}{x^2 - 2x + 1} = \frac{A}{x - 1} + \frac{B}{(x - 1)^2} = \frac{Ax - A + B}{x^2 - 2x + 1} \Rightarrow Ax - A + B = x + 1.$$
+
+                    Podemos hallar los valores de $A$ y $B$ identificando los coeficientes del numerador y resolviendo el siguiente sistema:
+                    $$\begin{cases}
+                        A = 1, \\
+                        -A + B = 1
+                    \end{cases} \Leftrightarrow
+                    \begin{cases}
+                        A = 1, \\
+                        B = 2.
+                    \end{cases}$$
+
+                    Por tanto,
+                    $$f(x) = \frac{x + 1}{x^2 - 2x + 1} = \frac{1}{x - 1} + \frac{2}{(x-1)^2}.$$
+
+                    De esta forma,
+                    \begin{align}
+                        \int \frac{x + 1}{x^2 - 2x + 1} \, dx & = \int \left(\frac{1}{x - 1} + \frac{2}{(x-1)^2}\right) \, dx = \int \frac{1}{x-1} \, dx + 2\int (x-1)^{-2} \, dx = \\
+                        & = \ln|x-1| - \frac{2}{x-1} + k.
+                    \end{align}
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>
+</section>
+
+<h3 id="integral-definida">Integral definida</h3>
+
+<p>
+    La <b>integral definida</b> de una función $f$ en el intervalo $[a, b]$ se denota por $\int_a^b f(x) \, dx$.
+    Si esta integral existe, se dice que la función es integrable en el intervalo.
+</p>
+
+<p>
+    La integral definida de una función continua $f$ en el intervalo $[a, b]$ con primitiva $F$ se calcula con la <b>regla de Barrow</b> como:
+    $$\int_a^b f(x) \, dx = \Big[F(x)\Big]_a^b = F(b) - F(a).$$
+</p>
+
+<div class="ejemplo">
+    $$\int_1^2 x^2 \, dx = \left[\frac{x^3}{3}\right]_1^2 = \frac{8}{3} - \frac{1}{3} = \frac{7}{3}.$$
+</div>
+
+<h4>Propiedades de la integral definida</h4>
+
+<p>
+    La integral definida cuenta con algunas propiedades adicionales que pueden resultar útiles.
+</p>
+
+<ul>
+    <li>$\displaystyle \int_a^b kf(x) \, dx = k \int_a^b f(x) \, dx$.</li>
+    <li>$\displaystyle \int_a^b (f(x) + g(x)) \, dx = \int_a^b f(x) \, dx + \int_a^b g(x) \, dx$.</li>
+    <li>$\displaystyle \int_a^b f(x) \, dx + \int_b^c f(x) \, dx = \int_a^c f(x) \, dx$.</li>
+    <li>$\displaystyle \int_b^a f(x) \, dx = -\int_a^b f(x) \, dx$.</li>
+    <li>$\displaystyle \int_a^a f(x) \, dx = 0$.</li>
+    <li>Si $f(x) \geq 0$ para $x \in [a, b]$, entonces $\displaystyle \int_a^b f(x) \, dx \geq 0$.</li>
+</ul>
+
+<h3 id="calculo-de-areas">Cálculo de áreas</h3>
+
+<p>
+    El área entre la gráfica de una función positiva $f$ en el intervalo $[a, b]$ y el eje de abscisas viene dada por la integral definida $\int_a^b f(x) \, dx$.
+</p>
+
+<div class="ejemplo">
+    Consideramos el recinto limitado por la gráfica de la función $f(x) = x^2$, el eje de abscisas, el eje de ordenadas y la recta vertical $x = 2$.
+    <img src="img/temario/analisis-integrales-1.png" class="figura" alt="Figura" loading="lazy">
+
+    Como la función es positiva en el intervalo $[0, 2]$ al estar su gráfica por encima del eje de abscisas, el área del recinto viene dado por:
+    $$A = \int_0^2 f(x) \, dx = \int_0^2 x^2 \, dx = \left[\frac{x^3}{3}\right]_0^2 = \frac{8}{3} \, u^2.$$
+</div>
+
+<p>
+    En el caso en que la función $f$ sea negativa en el intervalo $[a, b]$, el valor de la integral definida $\int_a^b f(x) \, dx$ será negativo.
+    Por este motivo, para hallar el área entre su gráfica y el eje de abscisas en ese intervalo basta con cambiarle el signo al resultado de la integral o, equivalentemente, a la función.
+</p>
+
+<div class="ejemplo">
+    <p>
+        Consideramos el recinto acotado limitado por la gráfica de la función $f(x) = x^2 - 1$ y el eje de abscisas.
+    </p>
+
+    <p>
+        Podemos hallar en primer lugar los puntos de corte de la función con el eje de abscisas.
+        $$f(x) = 0 \Leftrightarrow x^2 - 1 = 0 \Leftrightarrow x^2 = 1 \Leftrightarrow x = \pm 1.$$
+        
+        Estos puntos delimitan el recinto.
+        <img src="img/temario/analisis-integrales-2.png" class="figura" alt="Figura" loading="lazy">
+
+        Como la función es negativa en el intervalo $[-1, 1]$ al estar su gráfica por debajo del eje de abscisas, el área del recinto viene dado por:
+        $$A = \int_{-1}^1 -f(x) \, dx = \int_{-1}^1 (1 - x^2) \, dx = \left[x - \frac{x^3}{3}\right]_{-1}^1 = 1 - \frac{1}{3} - \left(-1 + \frac{1}{3}\right) = \frac{4}{3} \, u^2.$$
+
+        También se podría hallar el área usando que el recinto es simétrico.
+        De esta forma,
+        $$A = 2\int_0^1 (1 - x^2) \, dx = 2\left[x - \frac{x^3}{3}\right]_0^1 = 2\left(1 - \frac{1}{3}\right) = \frac{4}{3} \, u^2.$$
+    </p>
+</div>
+
+<p>
+    En general, para calcular el área entre la gráfica de la función y el eje de abscisas hay que hallar los puntos de corte de la función con el eje y sumar las integrales definidas de la función en cada uno de los tramos, cambiando el signo cuando corresponda.
+</p>
+
+<div class="ejemplo">
+    <p>
+        Consideramos el recinto acotado limitado por la gráfica de la función $f(x) = x^3 - 4x$ y el eje de abscisas.
+    </p>
+
+    <p>
+        En primer lugar, hallamos los puntos de corte de la función con el eje de abscisas.
+        $$f(x) = 0 \Leftrightarrow x^3 - 4x = 0 \Leftrightarrow x(x^2 - 4) = 0 \Leftrightarrow \begin{cases}
+            x = 0, \\
+            x^2 - 4 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.
+        \end{cases}$$
+
+        Estos puntos delimitan el recinto.
+        <img src="img/temario/analisis-integrales-3.png" class="figura" alt="Figura" loading="lazy">
+        
+        En el intervalo $[-2, 0]$ la gráfica está por encima del eje de abscisas, así que el resultado de la integral será positivo.
+        Por otro lado, en el intervalo $[0, 2]$ la gráfica se encuentra por debajo del eje, así que la integral será negativa y habrá que cambiarle el signo.
+    </p>
+
+    <p>
+        El área del recinto viene dado por:
+        \begin{align}
+            A & = \int_{-2}^0 f(x) \, dx + \int_0^2 -f(x) \, dx = \int_{-2}^0 (x^3 - 4x) \, dx + \int_0^2 (4x - x^3) \, dx = \\
+            & = \left[\frac{x^4}{4} - 2x^2\right]_{-2}^0 + \left[2x^2 - \frac{x^4}{4}\right]_0^2 = -(4 - 8) + (8 - 4) = 8 \, u^2.
+        \end{align}
+
+        También se podría hallar el área usando que el recinto es simétrico.
+        De esta forma,
+        $$A = 2\int_0^2 (4x - x^3) \, dx = 2\left[2x^2 - \frac{x^4}{4}\right]_0^2 = 2(8 - 4) = 8 \, u^2.$$
+    </p>
+</div>
+
+<h4>Área entre dos funciones</h4>
+
+<p>
+    El área entre las gráficas de dos funciones $f$ y $g$ en el intervalo $[a, b]$ viene dada por la integral definida de la resta de $f$ y $g$ en el intervalo.
+</p>
+
+<p>
+    Si la gráfica de la función $f$ está por encima de la gráfica de $g$ en el intervalo, entonces el área se calcula como $\int_a^b (f(x) - g(x)) \, dx$.
+    Por otro lado, si la gráfica de $g$ es la que está por encima, entonces la integral anterior da negativa y, en su lugar, el área se calcula como $\int_a^b (g(x) - f(x)) \, dx$.
+</p>
+
+<div class="ejemplo">
+    <p>
+        Consideramos el recinto acotado limitado por las gráficas de las funciones $f(x) = x^2 - 1$ y $g(x) = 1 - x^2$.
+    </p>
+
+    <p>
+        En primer lugar, hallamos los puntos de corte entre las dos funciones.
+        $$f(x) = g(x) \Leftrightarrow x^2 - 1 = 1 - x^2 \Leftrightarrow 2x^2 = 2 \Leftrightarrow x^2 = 1 \Leftrightarrow x = \pm 1.$$
+
+        Estos puntos delimitan el recinto.
+        <img src="img/temario/analisis-integrales-4.png" class="figura" alt="Figura" loading="lazy">
+
+        Como la gráfica de la función $g$ está por encima de la gráfica de $f$ en el intervalo $[-1, 1]$, el área del recinto viene dado por:
+        \begin{align}
+            A & = \int_{-1}^1 (g(x) - f(x)) \, dx = \int_{-1}^1 (1 - x^2 - x^2 + 1) \, dx = \int_{-1}^1 (-2x^2 + 2) \, dx = \left[-\frac{2x^3}{3} + 2x\right]_{-1}^1 = \\
+            & = -\frac{2}{3} + 2 - \left(\frac{2}{3} - 2\right) = \frac{8}{3} \, u^2.
+        \end{align}
+
+        También se podría hallar el área usando que el recinto es simétrico.
+        De esta forma,
+        $$A = 2\int_0^1 (-2x^2 + 2) \, dx = 2\left[-\frac{2x^3}{3} + 2x\right]_0^1 = 2\left(-\frac{2}{3} + 2\right) = \frac{8}{3} \, u^2.$$
+    </p>
+</div>
+
+<p>
+    En general, para calcular el área entre las gráficas de dos funciones hay que hallar los puntos de corte entre ambas y sumar las integrales definidas de la resta de funciones en cada uno de los tramos, restando en el orden que corresponda en cada caso.
+</p>
+
+<div class="ejemplo">
+    <p>
+        Consideramos el recinto acotado limitado por las gráficas de las funciones $f(x) = x^3 - 3x$ y $g(x) = x$.
+    </p>
+
+    <p>
+        En primer lugar, hallamos los puntos de corte entre las dos funciones.
+        $$f(x) = g(x) \Leftrightarrow x^3 - 3x = x \Leftrightarrow x(x^2 - 4) = 0 \Leftrightarrow \begin{cases}
+            x = 0, \\
+            x^2 - 4 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.
+        \end{cases}$$
+
+        Estos puntos delimitan el recinto.
+        <img src="img/temario/analisis-integrales-5.png" class="figura" alt="Figura" loading="lazy">
+
+        En el intervalo $[-2, 0]$ la gráfica de la función $f$ está por encima de la gráfica de $g$, así que habrá que integrar $f - g$.
+        Por otro lado, en el intervalo $[0, 2]$ la gráfica de $f$ se encuentra por debajo, así que la función a integrar será $g - f$.
+    </p>
+
+    <p>
+        El área del recinto viene dado por:
+        \begin{align}
+            A & = \int_{-2}^0 (f(x) - g(x)) \, dx + \int_0^2 (g(x) - f(x)) \, dx = \int_{-2}^0 (x^3 - 3x - x) \, dx + \int_0^2 (x - x^3 + 3x) \, dx = \\
+            & = \int_{-2}^0 (x^3 - 4x) \, dx + \int_0^2 (4x - x^3) \, dx = \left[\frac{x^4}{4} - 2x^2\right]_{-2}^0 + \left[2x^2 - \frac{x^4}{4}\right]_0^2 = \\
+            & = -(4 - 8) + (8 - 4) = 8 \, u^2.
+        \end{align}
+
+        También se podría hallar el área usando que el recinto es simétrico.
+        De esta forma,
+        $$A = 2\int_0^2 (4x - x^3) \, dx = 2\left[2x^2 - \frac{x^4}{4}\right]_0^2 = 2(8 - 4) = 8 \, u^2.$$
+    </p>
+</div>

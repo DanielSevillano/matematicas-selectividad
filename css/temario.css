@@ -44,3 +44,15 @@ button:disabled {
     color: var(--on-accent);
     border-radius: 5px;
 }
+
+.ejemplo>p {
+    margin-block: 0.5em;
+}
+
+.ejemplo>p:first-of-type {
+    margin-top: 0;
+}
+
+.ejemplo>p:last-of-type {
+    margin-bottom: 0;
+}
