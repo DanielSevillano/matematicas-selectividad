@@ -87,14 +87,21 @@
 <ul>
     <li>
         <b>Función constante:</b> $(k)' = 0$.
-        Por ejemplo, $(3)' = 0$.
+
+        <div class="ejemplo">
+            $$(3)' = 0.$$
+        </div>
     </li>
     
     <li><b>Función identidad:</b> $(x)' = 1$.</li>
     
     <li>
         <b>Función potencial:</b> $(x^n)' = nx^{n-1}$.
-        Por ejemplo, $(x^4)' = 4x^3$.
+
+        <div class="ejemplo">
+            $$(x^4)' = 4x^3.$$
+        </div>
+
         Esta derivada también se puede extender a expresiones con raíces y fracciones que se puedan expresar en forma de potencia.
         Podemos destacar dos casos importantes.
 
@@ -110,8 +117,11 @@
             </li>
         </ul>
 
-        Esta regla también permite derivar expresiones más complejas, como por ejemplo:
-        $$\left(\frac{1}{\sqrt[5]{x^2}}\right)' = \left(x^{-\frac{2}{5}}\right)' = -\frac{2}{5}x^{-\frac{7}{5}} = -\frac{2}{5\sqrt[5]{x^7}}.$$
+        Esta regla también permite derivar expresiones más complejas, siempre que se puedan expresar como potencia.
+
+        <div class="ejemplo">
+            $$\left(\frac{1}{\sqrt[5]{x^2}}\right)' = \left(x^{-\frac{2}{5}}\right)' = -\frac{2}{5}x^{-\frac{7}{5}} = -\frac{2}{5\sqrt[5]{x^7}}.$$
+        </div>
     </li>
 
     <li>
@@ -121,7 +131,10 @@
             <li>$(e^x)' = e^x$.</li>
             <li>
                 En general, $(a^x)' = a^x \cdot \ln(a)$.
-                Por ejemplo, $(2^x)' = 2^x \cdot \ln(2)$.
+                
+                <div class="ejemplo">
+                    $$(2^x)' = 2^x \cdot \ln(2).$$
+                </div>
             </li>
         </ul>
     </li>
@@ -133,7 +146,10 @@
             <li>$\displaystyle (\ln(x))' = \frac{1}{x}$.</li>
             <li>
                 En general, $\displaystyle (\log_a(x))' = \frac{1}{x \cdot \ln(a)}$.
-                Por ejemplo, $\displaystyle (\log_2(x))' = \frac{1}{x \cdot \ln(2)}$.
+                
+                <div class="ejemplo">
+                    $$(\log_2(x))' = \frac{1}{x \cdot \ln(2)}.$$
+                </div>
             </li>
         </ul>
     </li>
