@@ -15,13 +15,34 @@
 
 <p>
     Comprobamos que en el punto de abscisa $x = \frac{2}{3}$ se alcanza el máximo de la función.
-    <ul>
-        <li>Si $0 < x < \frac{2}{3}$, $f'(x) > 0.$
-        Así que $f$ es creciente.</li>
-        <li>Si $\frac{2}{3} < x < 1$, $f'(x) < 0.$
-        Así que $f$ es decreciente.</li>
-    </ul>
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td>
+            <th>$\left(0, \frac{2}{3}\right)$</th>
+            <th>$\left(\frac{2}{3}, 1\right)$</th>
+        </tr>
+
+        <tr>
+            <td>signo de $f'$</td>
+            <td>$+$</td>
+            <td>$-$</td>
+        </tr>
+
+        <tr>
+            <td>monotonía de $f$</td>
+            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+        </tr>
+    </table>
+</div>
+
+<p>
     Luego $f$ tiene un máximo en $x = \frac{2}{3}.$
 </p>
 
-<p>Por tanto, los números son $x = \frac{2}{3}$ e $y = 1-x = \frac{1}{3}.$</p>
+<p>
+    Por tanto, los números son $x = \frac{2}{3}$ e $y = 1-x = \frac{1}{3}.$
+</p>

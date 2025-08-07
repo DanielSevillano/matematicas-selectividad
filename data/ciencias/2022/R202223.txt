@@ -6,24 +6,46 @@
 </p>
 
 <ol>
-    <li>Hallamos los puntos críticos de $F.$
-    $$F'(x) = 0 \Leftrightarrow f(x) = 0 \Leftrightarrow 2x\cos(x) = 0 \Leftrightarrow \begin{cases}
-        x = 0, \\
-        \cos(x) = 0 \Leftrightarrow x = \dfrac{\pi}{2} \quad \text{o} \quad x = \dfrac{3\pi}{2}.
-    \end{cases}$$
+    <li>
+        Para hallar los puntos críticos, igualamos la derivada de $F$ a cero.
+        $$F'(x) = 0 \Leftrightarrow f(x) = 0 \Leftrightarrow 2x\cos(x) = 0 \Leftrightarrow \begin{cases}
+            x = 0, \\
+            \cos(x) = 0 \Leftrightarrow \begin{cases}
+                x = \frac{\pi}{2}, \\
+                x = \frac{3\pi}{2}.
+            \end{cases}
+        \end{cases}$$
 
-    Así que los puntos críticos son $x = 0$, $x = \frac{\pi}{2}$ y $x = \frac{3\pi}{2}.$
-    Estudiamos el signo de $F' = f$ para determinar si $F$ es creciente o decreciente.
-    <ul>
-        <li>Si $x \in \left(0, \frac{\pi}{2}\right)$, $F'(x) > 0.$
-        Así que $F$ es creciente.</li>
-        <li>Si $x \in \left(\frac{\pi}{2}, \frac{3\pi}{2}\right)$, $F'(x) < 0.$
-        Así que $F$ es decreciente.</li>
-        <li>Si $x \in \left(\frac{3\pi}{2}, 2\pi\right)$, $F'(x) > 0.$
-        Así que $F$ es creciente.</li>
-    </ul>
+        Así que los puntos críticos son $x = 0$, $x = \frac{\pi}{2}$ y $x = \frac{3\pi}{2}.$
+        Estudiamos el signo de la derivada para determinar si $F$ es creciente o decreciente.
 
-    Por tanto, $F$ es creciente en $\left(0, \frac{\pi}{2}\right) \cup \left(\frac{3\pi}{2}, 2\pi\right)$ y es decreciente en $\left(\frac{\pi}{2}, \frac{3\pi}{2}\right).$</li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$\left(0, \frac{\pi}{2}\right)$</th>
+                    <th>$\left(\frac{\pi}{2}, \frac{3\pi}{2}\right)$</th>
+                    <th>$\left(\frac{3\pi}{2}, 2\pi\right)$</th>
+                </tr>
+
+                <tr>
+                    <td>signo de $F'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $F$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
+
+        Por tanto, $F$ es creciente en $\left(0, \frac{\pi}{2}\right) \cup \left(\frac{3\pi}{2}, 2\pi\right)$ y es decreciente en $\left(\frac{\pi}{2}, \frac{3\pi}{2}\right).$
+    </li>
 
     <li>La ecuación de la recta tangente a la gráfica de $F$ en $x = \pi$ viene dada por
     $$y - F(\pi) = F'(\pi)(x-\pi).$$

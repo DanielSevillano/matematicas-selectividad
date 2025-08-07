@@ -1,34 +1,42 @@
 <ol>
     <li>
         En primer lugar, hallamos la derivada de la función $f.$
-        $$f'(x) = \frac{\cos(x)(2 - \cos(x)) - \sin^2(x)}{(2-cos(x))^2} = \frac{2\cos(x) - \cos^2(x) - \sin^2(x)}{(2-\cos(x))^2} = \frac{2\cos(x) - 1}{(2-\cos(x))^2}.$$
+        $$f'(x) = \frac{\cos(x)(2 - \cos(x)) - \sin^2(x)}{(2-\cos(x))^2} = \frac{2\cos(x) - \cos^2(x) - \sin^2(x)}{(2-\cos(x))^2} = \frac{2\cos(x) - 1}{(2-\cos(x))^2}.$$
 
         Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
         $$f'(x) = 0 \Leftrightarrow \frac{2\cos(x) - 1}{(2-\cos(x))^2} = 0 \Leftrightarrow 2\cos(x) - 1 = 0 \Leftrightarrow \cos(x) = \frac{1}{2} \Leftrightarrow \begin{cases}
             x = \frac{\pi}{3}, \\
-            y = \frac{5\pi}{3}.
+            x = \frac{5\pi}{3}.
         \end{cases}$$
 
-        Estudiamos el signo de $f'.$
-        
-        <ul>
-            <li>
-                Si $0 < x < \frac{\pi}{3}$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+        Estudiamos el signo de la derivada.
 
-            <li>
-                Si $\frac{\pi}{3} < x < \frac{5\pi}{3}$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$\left(0, \frac{\pi}{3}\right)$</th>
+                    <th>$\left(\frac{\pi}{3}, \frac{5\pi}{3}\right)$</th>
+                    <th>$\left(\frac{5\pi}{3}, 2\pi\right)$</th>
+                </tr>
 
-            <li>
-                Si $\frac{5\pi}{3} < x < 2\pi$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-        Así que los puntos $(0, 0)$ y $\left(\frac{\pi}{3}, \frac{1}{\sqrt{3}}\right)$ son máximos relativos y los puntos $\left(\frac{5\pi}{3}, -\frac{1}{\sqrt{3}}\right)$ y $(2\pi, 0)$ son mínimos relativos.
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
+
+        Así que los puntos $\left(\frac{\pi}{3}, \frac{1}{\sqrt{3}}\right)$ y $(2\pi, 0)$ son máximos relativos y los puntos $(0, 0)$ y $\left(\frac{5\pi}{3}, -\frac{1}{\sqrt{3}}\right)$ son mínimos relativos.
         Por tanto, $\left(\frac{\pi}{3}, \frac{1}{\sqrt{3}}\right)$ es el máximo absoluto y $\left(\frac{5\pi}{3}, -\frac{1}{\sqrt{3}}\right)$ es el mínimo absoluto.
     </li>
 

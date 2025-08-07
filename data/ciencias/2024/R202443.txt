@@ -21,26 +21,34 @@
                 Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
                 $$f'(x) = 0 \Leftrightarrow 3x^2 - 12x + 8 = 0 \Leftrightarrow x = 2 \pm \frac{2\sqrt{3}}{3}.$$
 
-                Estudiamos el signo de $f'.$
+                Estudiamos el signo de la derivada.
 
-                <ul>
-                    <li>
-                        Si $x < 2 - \frac{2\sqrt{3}}{3}$, $f'(x) > 0.$
-                        Así que $f$ es creciente.
-                    </li>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <td>
+                            <th>$\left(-\infty, \, 2 - \frac{2\sqrt{3}}{3}\right)$</th>
+                            <th>$\left(2 - \frac{2\sqrt{3}}{3}, \, 2 + \frac{2\sqrt{3}}{3}\right)$</th>
+                            <th>$\left(2 + \frac{2\sqrt{3}}{3}, \, +\infty\right)$</th>
+                        </tr>
 
-                    <li>
-                        Si $2 - \frac{2\sqrt{3}}{3} < x < 2 + \frac{2\sqrt{3}}{3}$, $f'(x) < 0.$
-                        Así que $f$ es decreciente.
-                    </li>
+                        <tr>
+                            <td>signo de $f'$</td>
+                            <td>$+$</td>
+                            <td>$-$</td>
+                            <td>$+$</td>
+                        </tr>
 
-                    <li>
-                        Si $x > 2 + \frac{2\sqrt{3}}{3}$, $f'(x) > 0.$
-                        Así que $f$ es creciente.
-                    </li>
-                </ul>
+                        <tr>
+                            <td>monotonía de $f$</td>
+                            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                        </tr>
+                    </table>
+                </div>
 
-                Por tanto, $f$ es creciente en $\left(-\infty, 2 - \frac{2\sqrt{3}}{3}\right) \cup \left(2 + \frac{2\sqrt{3}}{3}, +\infty\right)$ y decreciente en $\left(2 - \frac{2\sqrt{3}}{3}, 2 + \frac{2\sqrt{3}}{3}\right).$
+                Por tanto, $f$ es creciente en $\left(-\infty, \, 2 - \frac{2\sqrt{3}}{3}\right) \cup \left(2 + \frac{2\sqrt{3}}{3}, \, +\infty\right)$ y decreciente en $\left(2 - \frac{2\sqrt{3}}{3}, \, 2 + \frac{2\sqrt{3}}{3}\right).$
                 Además, el punto $\left(2 - \frac{2\sqrt{3}}{3}, \frac{16\sqrt{3}}{9}\right)$ es un máximo relativo y el punto $\left(2 + \frac{2\sqrt{3}}{3}, -\frac{16\sqrt{3}}{9}\right)$ es un mínimo relativo.
             </li>
         </ul>

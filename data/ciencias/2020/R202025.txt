@@ -58,24 +58,32 @@
 
         Así que $f$ no tiene puntos críticos.
         Consideramos $x = 0$ y $x = 2$ por no ser derivable y no pertenecer al dominio, respectivamente.
-        Estudiamos el signo de $f'.$
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $x < 0$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, 0)$</th>
+                    <th>$(0, 2)$</th>
+                    <th>$(2, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $0 < x < 2$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $x > 2$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, la función es creciente en $(0, 2) \cup (2, +\infty)$ y decreciente en $(-\infty, 0).$
     </li>

@@ -6,19 +6,29 @@
         Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
         $$f'(x) = 0 \Leftrightarrow \frac{2\ln(x)}{x} = 0 \Leftrightarrow \ln(x) = 0 \Leftrightarrow x = 1.$$
 
-        Estudiamos el signo de $f'.$
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $0 < x < 1$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, 1)$</th>
+                    <th>$(1, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $x > 1$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $(1, +\infty)$ y decreciente en $(0, 1).$
         Además, el punto $(1, 0)$ es un mínimo relativo.

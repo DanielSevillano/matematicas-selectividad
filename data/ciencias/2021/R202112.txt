@@ -43,33 +43,38 @@
 
         Así que los puntos críticos son $x = -5$ y $x = -2.$
         También consideramos $x = -3$ y $x = 1$ por no pertenecer al dominio.
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $x < -5$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, -5)$</th>
+                    <th>$(-5, -3)$</th>
+                    <th>$(-3, -2)$</th>
+                    <th>$(-2, 1)$</th>
+                    <th>$(1, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $-5 < x < -3$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $-3 < x < -2$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
-
-            <li>
-                Si $-2 < x < 1$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-
-            <li>
-                Si $x > 1$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $(-\infty, -5) \cup (-2, 1) \cup (1, +\infty)$ y decreciente en $(-5, -3) \cup (-3, -2).$
     </li>

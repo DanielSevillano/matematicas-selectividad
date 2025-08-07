@@ -9,23 +9,32 @@
             x = \frac{3\pi}{2}.
         \end{cases}$$
 
-        Estudiamos el signo de $f'.$
-        <ul>
-            <li>
-                Si $0 \leq x < \frac{\pi}{2}$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+        Estudiamos el signo de la derivada.
 
-            <li>
-                Si $\frac{\pi}{2} < x < \frac{3\pi}{2}$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$\left(0, \frac{\pi}{2}\right)$</th>
+                    <th>$\left(\frac{\pi}{2}, \frac{3\pi}{2}\right)$</th>
+                    <th>$\left(\frac{3\pi}{2}, 2\pi\right)$</th>
+                </tr>
 
-            <li>
-                Si $\frac{3\pi}{2} < x \leq 2\pi$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Así que los puntos $\left(\frac{\pi}{2}, e^\frac{\pi}{2}\right)$ y $(2\pi, e^{2\pi})$ son máximos relativos y los puntos $(0, 1)$ y $\left(\frac{3\pi}{2}, -e^\frac{\pi}{2}\right)$ son mínimos relativos.
         Por tanto, $(2\pi, e^{2\pi})$ es el máximo absoluto y $\left(\frac{3\pi}{2}, -e^\frac{\pi}{2}\right)$ es el mínimo absoluto.

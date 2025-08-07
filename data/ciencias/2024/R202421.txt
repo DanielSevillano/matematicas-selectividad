@@ -7,19 +7,29 @@
         $$f'(x) = 0 \Leftrightarrow \frac{x^2 - 1}{x(x^2 + 1)} = 0 \Leftrightarrow x^2 - 1 = 0 \Leftrightarrow x = \pm 1.$$
 
         Como $\Dom(f) = (0, +\infty)$, el único punto crítico es $x = 1.$
-        Estudiamos el signo de $f'.$
-        
-        <ul>
-            <li>
-                Si $0 < x < 1$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+        Estudiamos el signo de la derivada.
 
-            <li>
-                Si $x > 1$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, 1)$</th>
+                    <th>$(1, +\infty)$</th>
+                </tr>
+
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $(1, +\infty)$ y decreciente en $(0, 1).$
     </li>

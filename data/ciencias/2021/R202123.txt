@@ -22,30 +22,38 @@
 
             <li>
                 Si $x > 1$,
-                $$f'(x) = 0 \Leftrightarrow 2x + 1 = 0 \Leftrightarrow x = -\frac{1}{2} < 1.$$
+                $$f'(x) = 0 \Leftrightarrow 2x + 1 = 0 \Leftrightarrow x = -\frac{1}{2} \notin (1, +\infty).$$
             </li>
         </ul>
 
         Así que el único punto crítico es $x = \frac{1}{2}.$
         También consideramos $x = 1$ por ser el punto de ruptura.
-        Estudiamos el signo $f'.$
+        Estudiamos el signo la derivada.
 
-        <ul>
-            <li>
-                Si $x < \frac{1}{2}$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$\left(-\infty, \frac{1}{2}\right)$</th>
+                    <th>$\left(\frac{1}{2}, 1\right)$</th>
+                    <th>$(1, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $\frac{1}{2} < x < 1$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-            
-            <li>
-                Si $x > 1$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $\left(\frac{1}{2}, 1\right) \cup (1, +\infty)$ y decreciente en $\left(-\infty, \frac{1}{2}\right).$
     </li>

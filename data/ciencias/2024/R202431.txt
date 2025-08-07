@@ -23,19 +23,31 @@
 
 <p>
     Comprobamos que en el punto de abscisa $x = 5$ se alcanza el mínimo de la función.
+</p>
 
-    <ul>
-        <li>
-            Si $0 < x < 5$, $f'(x) < 0.$
-            Así que $f$ es decreciente.
-        </li>
+<div class="tabla">
+    <table>
+        <tr>
+            <td>
+            <th>$(0, 5)$</th>
+            <th>$(5, +\infty)$</th>
+        </tr>
 
-        <li>
-            Si $x > 5$, $f'(x) > 0.$
-            Así que $f$ es creciente.
-        </li>
-    </ul>
+        <tr>
+            <td>signo de $f'$</td>
+            <td>$-$</td>
+            <td>$+$</td>
+        </tr>
 
+        <tr>
+            <td>monotonía de $f$</td>
+            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+        </tr>
+    </table>
+</div>
+
+<p>
     Luego $f$ tiene un mínimo en $x = 5.$
     Por tanto, $y = \frac{25}{5} = 5.$
 </p>

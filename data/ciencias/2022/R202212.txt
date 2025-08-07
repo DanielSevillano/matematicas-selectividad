@@ -17,19 +17,31 @@
 
 <p>
     Comprobamos que en el punto de abscisa $a = \sqrt{200}$ se alcanza el mínimo de la función.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td>
+            <th>$(-\infty, \sqrt{200})$</th>
+            <th>$(\sqrt{200}, +\infty)$</th>
+        </tr>
+
+        <tr>
+            <td>signo de $f'$</td>
+            <td>$-$</td>
+            <td>$+$</td>
+        </tr>
+
+        <tr>
+            <td>monotonía de $f$</td>
+            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+        </tr>
+    </table>
+</div>
     
-    <ul>
-        <li>
-            Si $a < \sqrt{200}$, $f'(a) < 0.$
-            Así que $f$ es decreciente.
-        </li>
-
-        <li>
-            Si $a > \sqrt{200}$, $f'(a) > 0.$
-            Así que $f$ es creciente.
-        </li>
-    </ul>
-
+<p>
     Luego $f$ tiene un mínimo en $a = \sqrt{200}.$
     Por tanto,
     $$b = \frac{200}{\pi a} = \frac{200}{\pi \sqrt{200}} = \frac{\sqrt{200}}{\pi}.$$

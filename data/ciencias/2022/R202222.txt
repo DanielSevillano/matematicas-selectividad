@@ -6,19 +6,29 @@
         Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
         $$f'(x) = 0 \Leftrightarrow \frac{2x}{x^2+1} = 0 \Leftrightarrow 2x = 0 \Leftrightarrow x = 0.$$
 
-        Estudiamos el signo de $f'.$
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $x < 0$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, 0)$</th>
+                    <th>$(0, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $x > 0$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $(0, +\infty)$ y es decreciente en $(-\infty, 0).$
     </li>

@@ -13,19 +13,29 @@
         Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
         $$f'(x) = 0 \Leftrightarrow \frac{1 - 2\ln(x)}{x^3} = 0 \Leftrightarrow 1 - 2\ln(x) = 0 \Leftrightarrow \ln(x) = \frac{1}{2} \Leftrightarrow x = \sqrt{e}.$$
 
-        Estudiamos el signo de $f'$.
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $0 < x < \sqrt{e}$, $f'(x) > 0$.
-                Así que $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, \sqrt{e})$</th>
+                    <th>$(\sqrt{e}, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $x > \sqrt{e}$, $f'(x) < 0$.
-                Así que $f$ es decreciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $(0, \sqrt{e})$ y decreciente en $(\sqrt{e}, +\infty)$.
         Además, el punto $\left(\sqrt{e}, \frac{1}{2e}\right)$ es un máximo relativo.

@@ -9,24 +9,32 @@
             3 - x = 0 \Leftrightarrow x = 3.
         \end{cases}$$
 
-        Estudiamos el signo de $f'.$
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $x < 0$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, 0)$</th>
+                    <th>$(0, 3)$</th>
+                    <th>$(3, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $0 < x < 3$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                </tr>
 
-            <li>
-                Si $x > 3$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $(-\infty, 3)$ y es decreciente en $(3, +\infty).$
     </li>

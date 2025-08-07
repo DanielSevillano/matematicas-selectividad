@@ -33,30 +33,36 @@
 
         Así que $x = -1 - \sqrt{2}$ y $x = -1 + \sqrt{2}$ son los puntos críticos.
         También consideraremos $x = -1$ por ser un punto que no pertenece al dominio.
-        Estudiemos el signo de $f'.$
+        Estudiemos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $x < -1 - \sqrt{2}$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, \, -1 - \sqrt{2})$</th>
+                    <th>$(-1 - \sqrt{2}, \, -1)$</th>
+                    <th>$(-1, \, -1 + \sqrt{2})$</th>
+                    <th>$(-1 + \sqrt{2}, \, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $-1 - \sqrt{2} < x < -1$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $-1 < x < -1 + \sqrt{2}$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
-            <li>
-                Si $x > -1 + \sqrt{2}$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
-
-        Por tanto, $f$ es creciente en $(-\infty, -1 - \sqrt{2}) \cup (-1 + \sqrt{2}, +\infty)$ y es decreciente en $(-1 - \sqrt{2}, -1) \cup (-1, -1 + \sqrt{2}).$
+        Por tanto, $f$ es creciente en $(-\infty, \, -1 - \sqrt{2}) \cup (-1 + \sqrt{2}, \, +\infty)$ y es decreciente en $(-1 - \sqrt{2}, \, -1) \cup (-1, \, -1 + \sqrt{2}).$
     </li>
 </ol>

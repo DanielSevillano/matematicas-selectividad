@@ -10,24 +10,32 @@
         \end{cases}$$
 
         Así que los puntos críticos son $x = e^{-2}$ y $x = 1.$
-        Estudiamos el signo de $f'$ para determinar si se tratan de extremos.
+        Estudiamos el signo de la derivada para determinar si se tratan de extremos.
 
-        <ul>
-            <li>
-                Si $0 < x < e^{-2}$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, e^{-2})$</th>
+                    <th>$(e^{-2}, 1)$</th>
+                    <th>$(1, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $e^{-2} < x < 1$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $x > 1$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ tiene un máximo relativo en $x = e^{-2}$ y un mínimo relativo en $x = 1.$
         Es decir, el punto $(e^{-2}, 4e^{-2})$ es un máximo relativo y el punto $(1, 0)$ es un mínimo relativo.
