@@ -302,6 +302,11 @@ Tablas
     background: none;
 }
 
+.tabla mjx-math[breakable] {
+    display: inline-block;
+    width: max-content;
+}
+
 table {
     margin-inline: auto;
     border-collapse: collapse;
@@ -311,6 +316,7 @@ th,
 td {
     min-width: max-content;
     padding-inline: 8px;
+    white-space: nowrap;
 }
 
 tr.subrayado>th {
