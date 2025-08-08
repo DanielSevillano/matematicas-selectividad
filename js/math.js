@@ -91,7 +91,7 @@ function tituloExamen(examen) {
 
     let titulo = "";
     if (edicion == 0) {
-        if (examen.curso == 2020) titulo += "Julio";
+        if (curso == 2020) titulo += "Julio";
         else titulo += "Junio";
     }
     else if (edicion == 5) {
