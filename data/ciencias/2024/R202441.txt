@@ -19,24 +19,32 @@
             x = -1.
         \end{cases}$$
 
-        Estudiamos el signo de $f''.$
+        Estudiamos el signo de la segunda derivada.
 
-        <ul>
-            <li>
-                Si $x < -3$, $f''(x) > 0.$
-                Así que $f$ es convexa.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, -3)$</th>
+                    <th>$(-3, -1)$</th>
+                    <th>$(-1, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $-3 < x < -1$, $f''(x) < 0.$
-                Así que $f$ es cóncava.
-            </li>
+                <tr>
+                    <td>signo de $f''$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $x > -1$, $f''(x) > 0.$
-                Así que $f$ es convexa.
-            </li>
-        </ul>
+                <tr>
+                    <td>curvatura de $f$</td>
+                    <td>$\smile$</td>
+                    <td>$\frown$</td>
+                    <td>$\smile$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es convexa en $(-\infty, -3) \cup (-1, +\infty)$ y cóncava en $(-3, -1).$
         Además, $(-3, 10e^{-3})$ y $(-1, 2e^{-1})$ son los puntos de inflexión.

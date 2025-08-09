@@ -13,25 +13,33 @@
         x = 2.
     \end{cases}$$
 
-    Estudiamos el signo de $f''.$
+    Estudiamos el signo de la segunda derivada.
 </p>
 
-<ul>
-    <li>
-        Si $x < -1$, $f''(x) > 0.$
-        Así que $f$ es convexa.
-    </li>
+<div class="tabla">
+    <table>
+        <tr>
+            <td>
+            <th>$(-\infty, -1)$</th>
+            <th>$(-1, 2)$</th>
+            <th>$(2, +\infty)$</th>
+        </tr>
 
-    <li>
-        Si $-1 < x < 2$, $f''(x) < 0.$
-        Así que $f$ es cóncava.
-    </li>
-    
-    <li>
-        Si $x > 2$, $f''(x) > 0.$
-        Así que $f$ es convexa.
-    </li>
-</ul>
+        <tr>
+            <td>signo de $f''$</td>
+            <td>$+$</td>
+            <td>$-$</td>
+            <td>$+$</td>
+        </tr>
+
+        <tr>
+            <td>curvatura de $f$</td>
+            <td>$\smile$</td>
+            <td>$\frown$</td>
+            <td>$\smile$</td>
+        </tr>
+    </table>
+</div>
 
 <p>
     Por tanto, $f$ es convexa en $(-\infty, -1) \cup (2, +\infty)$ y cóncava en $(-1, 2).$

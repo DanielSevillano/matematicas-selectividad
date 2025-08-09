@@ -6,18 +6,29 @@
         Para hallar los candidatos a puntos de inflexión, igualamos la segunda derivada a cero.
         $$f''(x) = 0 \Leftrightarrow -\frac{2(x+\pi)}{(1+(x+\pi)^2)^2} = 0 \Leftrightarrow x + \pi = 0 \Leftrightarrow x = -\pi.$$
 
-        Estudiamos el signo de $f''.$
-        <ul>
-            <li>
-                Si $x < -\pi$, $f''(x) > 0.$
-                Así que $f$ es convexa.
-            </li>
+        Estudiamos el signo de la segunda derivada.
 
-            <li>
-                Si $x > -\pi$, $f''(x) < 0.$
-                Así que $f$ es cóncava.
-            </li>
-        </ul>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, -\pi)$</th>
+                    <th>$(-\pi, +\infty)$</th>
+                </tr>
+
+                <tr>
+                    <td>signo de $f''$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                </tr>
+
+                <tr>
+                    <td>curvatura de $f$</td>
+                    <td>$\smile$</td>
+                    <td>$\frown$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es convexa en $(-\infty, -\pi)$ y es cóncava en $(-\pi, +\infty).$
         Además, $(-\pi, 0)$ es el único punto de inflexión.

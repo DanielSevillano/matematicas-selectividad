@@ -15,20 +15,30 @@
         Para hallar los candidatos a puntos de inflexión igualamos la segunda derivada de $f$ a cero.
         $$f''(x) = 0 \Leftrightarrow (x+1)e^x = 0 \Leftrightarrow x + 1 = 0 \Leftrightarrow x = -1.$$
 
-        Estudiemos el signo de $f''.$
+        Estudiemos el signo de la segunda derivada.
 
-        <ul>
-            <li>
-                Si $x < -1$, $f''(x) < 0.$
-                Así que $f$ es cóncava.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, -1)$</th>
+                    <th>$(-1, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $x > -1$, $f''(x) > 0.$
-                Así que $f$ es convexa.
-            </li>
-        </ul>
+                <tr>
+                    <td>signo de $f''$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
+                <tr>
+                    <td>curvatura de $f$</td>
+                    <td>$\frown$</td>
+                    <td>$\smile$</td>
+                </tr>
+            </table>
+        </div>
+        
         Como en $x = -1$ se produce un cambio de curvatura, $\left(-1, -\frac{2}{e}\right)$ es el punto de inflexión de $f.$
     </li>
 </ol>

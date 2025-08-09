@@ -18,15 +18,35 @@
     Hallamos los candidatos a puntos de inflexión igualando la segunda derivada a cero.
     $$f''(x) = 0 \Leftrightarrow e^x(x+1) = 0 \Leftrightarrow x + 1 = 0 \Leftrightarrow x = -1.$$
     Así que el único candidato a punto de inflexión tiene abscisa $x = -1.$
+</p>
 
-    Estudiamos el signo de $f''$ para determinar si $f$ es cóncava o convexa.
-    <ul>
-        <li>Si $x < -1$, $f''(x) < 0.$
-        Así que $f$ es cóncava en $(-\infty, -1).$</li>
-        <li>Si $x > -1$, $f''(x) > 0.$
-        Así que $f$ es convexa en $(-1, +\infty).$</li>
-    </ul>
+<p>
+    Estudiamos el signo de la segunda derivada para determinar si $f$ es cóncava o convexa.
+</p>
 
+<div class="tabla">
+    <table>
+        <tr>
+            <td>
+            <th>$(-\infty, -1)$</th>
+            <th>$(-1, +\infty)$</th>
+        </tr>
+
+        <tr>
+            <td>signo de $f''$</td>
+            <td>$-$</td>
+            <td>$+$</td>
+        </tr>
+
+        <tr>
+            <td>curvatura de $f$</td>
+            <td>$\frown$</td>
+            <td>$\smile$</td>
+        </tr>
+    </table>
+</div>
+
+<p>
     Por tanto, $f$ tiene un punto de inflexión en $x = -1.$
     Su imagen viene dada por
     $$f(-1) = 1 + \int_0^{-1} te^tdt = 1 + \int_0^{-1} g(t)dt.$$

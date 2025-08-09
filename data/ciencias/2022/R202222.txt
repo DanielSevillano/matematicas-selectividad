@@ -40,24 +40,32 @@
         Para hallar los candidatos a puntos de inflexión, igualamos la segunda derivada a cero.
         $$f''(x) = 0 \Leftrightarrow \frac{-2x^2 + 2}{(x^2+1)^2} = 0 \Leftrightarrow -2x^2 + 2 = 0 \Leftrightarrow x^2 = 1 \Leftrightarrow x = \pm 1.$$
 
-        Estudiemos el signo de $f''.$
+        Estudiemos el signo de la segunda derivada.
 
-        <ul>
-            <li>
-                Si $x < -1$, $f''(x) < 0.$
-                Así que $f$ es cóncava.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, -1)$</th>
+                    <th>$(-1, 1)$</th>
+                    <th>$(1, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $-1 < x < 1$, $f''(x) > 0.$
-                Así que $f$ es convexa.
-            </li>
+                <tr>
+                    <td>signo de $f''$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                </tr>
 
-            <li>
-                Si $x > 1$, $f''(x) < 0.$
-                Así que $f$ es cóncava.
-            </li>
-        </ul>
+                <tr>
+                    <td>curvatura de $f$</td>
+                    <td>$\frown$</td>
+                    <td>$\smile$</td>
+                    <td>$\frown$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es convexa en $(-1, 1)$ y es cóncava en $(-\infty, -1) \cup (1, +\infty).$
         Además, tiene puntos de inflexión en $x = -1$ y $x = 1$, es decir, los puntos $(-1, \ln(2))$ y $(1, \ln(2)).$

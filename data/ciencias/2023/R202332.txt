@@ -17,19 +17,29 @@
         \end{cases}$$
 
         Observamos que $f$ no tiene puntos de inflexión, porque $f''(x) \neq 0$ para $x \neq 0.$
-        Estudiamos el signo de $f''$, considerando $x = 0$ por ser el punto de ruptura.
+        Estudiamos el signo de la segunda derivada, considerando $x = 0$ por ser el punto de ruptura.
 
-        <ul>
-            <li>
-                Si $x < 0$, $f''(x) < 0.$
-                Así que $f$ es cóncava.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, 0)$</th>
+                    <th>$(0, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $x > 0$, $f''(x) > 0.$
-                Así que $f$ es convexa.
-            </li>
-        </ul>
+                <tr>
+                    <td>signo de $f''$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>curvatura de $f$</td>
+                    <td>$\frown$</td>
+                    <td>$\smile$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es convexa en $(0, +\infty)$ y es cóncava en $(-\infty, 0).$
     </li>
