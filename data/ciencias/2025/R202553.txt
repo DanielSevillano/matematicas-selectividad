@@ -1,0 +1,20 @@
+<p>
+    En primer lugar, hallamos una primitiva de la función integrando por partes.
+    \begin{align}
+        u = x - 2 & \Rightarrow u' = 1, \\
+        v' = e^{x-k} & \Rightarrow v = e^{x-k}.
+    \end{align}
+
+    De esta forma,
+    $$\int e^{x-k}(x-2)dx = (x-2)e^{x-k} - \int e^{x-k}dx = (x-2)e^{x-k} - e^{x-k} = (x-3)e^{x-k}.$$
+</p>
+
+<p>
+    Calculamos la integral definida.
+    $$\int_1^3 e^{x-k}(x-2)dx = \Big[(x-3)e^{x-k}\Big]_1^3 = -(-2e^{1-k}) = 2e^{1-k}.$$
+
+    Ha de verificarse que:
+    $$\int_1^3 e^{x-k}(x-2)dx = 2 \Leftrightarrow 2e^{1-k} = 2 \Leftrightarrow e^{1-k} = 1 \Leftrightarrow k = 1.$$
+
+    Por tanto, $k = 1$.
+</p>

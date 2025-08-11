@@ -220,6 +220,7 @@
     },
     {
         "ejercicio": 202552,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
@@ -227,6 +228,7 @@
     },
     {
         "ejercicio": 202553,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"

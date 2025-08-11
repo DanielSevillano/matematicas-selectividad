@@ -53,7 +53,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ### Ejercicios resueltos de ciencias
 - [ ] 2025
     - [x] Junio
-    - [ ] Julio (1, 6, 7)
+    - [ ] Julio (1, 2, 3, 6, 7)
     - [ ] Modelo de prueba (1 a 10)
 - [x] 2024 a 2021
 - [ ] 2020
