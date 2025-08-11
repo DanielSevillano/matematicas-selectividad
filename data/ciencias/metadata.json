@@ -161,6 +161,7 @@
     },
     {
         "ejercicio": 202551,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas",
@@ -205,6 +206,7 @@
     },
     {
         "ejercicio": 202557,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Distribución normal"

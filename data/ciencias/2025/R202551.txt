@@ -1,0 +1,76 @@
+<p>
+    Llamamos $x$, $y$ y $z$ a los tres números en orden.
+    Planteamos el sistema de ecuaciones.
+    $$\begin{cases}
+        x + y + z = 22, \\
+        4x + 3y + 2z = 61.
+    \end{cases}$$
+</p>
+
+<p>
+    Consideramos los tres casos en los que algún número es 15.
+</p>
+
+<ul>
+    <li>
+        Si $x = 15$, el sistema queda:
+        $$\begin{cases}
+            15 + y + z = 22, \\
+            60 + 3y + 2z = 61
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            y + z = 7, \\
+            3y + 2z = 1.
+        \end{cases}$$
+
+        Resolvemos el sistema por reducción.
+        Si realizamos $F_2 - 2F_1$, obtenemos que $y = -13$.
+        Como no es un número natural, este caso no es posible.
+    </li>
+
+    <li>
+        Si $y = 15$, el sistema queda:
+        $$\begin{cases}
+            x + 15 + z = 22, \\
+            4x + 45 + 2z = 61
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            x + z = 7, \\
+            4x + 2z = 16
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            x + z = 7, \\
+            2x + z = 8.
+        \end{cases}$$
+
+        Resolvemos el sistema por reducción.
+        Si realizamos $F_2 - F_1$, obtenemos que $x = 1$.
+        
+        Despejando y sustituyendo en la primera ecuación,
+        $$x + z = 7 \Leftrightarrow z = 7 - x = 6.$$
+
+        Por tanto, los números son 1, 15 y 6.
+    </li>
+
+    <li>
+        Si $z = 15$, el sistema queda:
+        $$\begin{cases}
+            x + y + 15 = 22, \\
+            4x + 3y + 30 = 61
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            x + y = 7, \\
+            4x + 3y = 31.
+        \end{cases}$$
+
+        Resolvemos el sistema por reducción.
+        Si realizamos $F_2 - 3F_1$, obtenemos que $x = 10$.
+        Despejando y sustituyendo en la primera ecuación,
+        $$x + y = 7 \Leftrightarrow y = 7 - x = -3.$$
+        Como no es un número natural, este caso no es posible.
+    </li>
+</ul>
+
+<p>
+    Por tanto, el único caso posible es que los números sean 1, 15 y 6.
+</p>
