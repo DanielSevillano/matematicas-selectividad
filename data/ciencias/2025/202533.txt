@@ -1,0 +1,7 @@
+Sea la función $f : (-1, 1) \to \mathbb{R}$ definida por
+$$f(x) = \frac{1 + |x|}{1 - |x|}.$$
+
+<ol>
+    <li>Estudia la derivabilidad de $f$.</li>
+    <li>Halla los intervalos de crecimiento y de decrecimiento de $f$.</li>
+</ol>

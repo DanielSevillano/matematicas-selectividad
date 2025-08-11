@@ -160,6 +160,56 @@
         ]
     },
     {
+        "ejercicio": 202531,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "ejercicio": 202532,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 202533,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202534,
+        "categorias": [
+            "Álgebra",
+            "Determinantes"
+        ]
+    },
+    {
+        "ejercicio": 202535,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202536,
+        "categorias": [
+            "Análisis",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202537,
+        "categorias": [
+            "Probabilidad",
+            "Distribución normal"
+        ]
+    },
+    {
         "ejercicio": 202551,
         "resuelto": true,
         "categorias": [
