@@ -1,0 +1,45 @@
+<ol>
+    <li>
+        <p>
+            En primer lugar, comparamos los vectores directores $\vec{d}_r = (4, 3, -1)$ y $\vec{d}_s = (-1, 1, -2)$.
+            Observamos que sus coordenadas no son proporcionales, así que los vectores no son paralelos.
+            En consecuencia, las rectas no son paralelas ni coincidentes.
+        </p>
+
+        <p>
+            Para determinar si son perpendiculares o se cruzan, estudiamos si las rectas están contenidas en un mismo plano.
+            Tomamos un punto $R(-1, -2, 2)$ de $r$ y un punto $S(1, 2, -3)$ de $s$ para comprobar si los vectores $\vec{d}_r$, $\vec{d}_s$ y $\vec{RS} = (2, 4, -5)$ son linealmente dependientes.
+            $$\begin{vmatrix}
+                4 & 3 & -1 \\
+                -1 & 1 & -2 \\
+                2 & 4 & -5
+            \end{vmatrix} = -9 \neq 0.$$
+
+            Como los tres vectores son linealmente independientes, las rectas no están contenidas en un mismo plano.
+            Por tanto, las rectas $r$ y $s$ se cruzan.
+        </p>
+    </li>
+
+    <li>
+        Llamamos $\pi$ al plano que nos piden.
+
+        <ul>
+            <li>El plano $\pi$ contiene a la recta $r$, así que $\vec{d}_r$ es un vector director del plano y $R$ es un punto de $\pi$.</li>
+            <li>
+                El plano $\pi$ contiene a una recta perpendicular a $r$ y $s$, así que un vector director del plano es:
+                $$\vec{d}_r \times \vec{d}_s = (4, 3, -1) \times (-1, 1, -2) = \begin{vmatrix}
+                    \vec{i} & \vec{j} & \vec{k} \\
+                    4 & 3 & -1 \\
+                    -1 & 1 & -2
+                \end{vmatrix} = (-5, 9, 7).$$
+            </li>
+        </ul>
+
+        Por tanto, las ecuaciones paramétricas del plano $\pi$ son:
+        $$\pi \equiv \begin{cases}
+            x = -1 + 4\lambda - 5\mu, \\
+            y = -2 + 3\lambda + 9\mu, \\
+            z = 2 - \lambda + 7\mu,
+        \end{cases} \quad \lambda, \mu \in \mathbb{R}.$$
+    </li>
+</ol>

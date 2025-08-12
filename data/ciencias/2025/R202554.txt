@@ -1,0 +1,32 @@
+<ol>
+    <li>
+        En primer lugar, hallamos el vector director de la recta $r$.
+        $$\vec{d}_r = (1, -1, 1) \times (1, 2, -1) = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            1 & -1 & 1 \\
+            1 & 2 & -1
+        \end{vmatrix} = (-1, 2, 3).$$
+
+        La recta $r$ y el plano $\pi$ son paralelos si el vector director $\vec{d}_r$ y el vector normal $\vec{n}_\pi = (m, -1, -2)$ son perpendiculares.
+        Ha de verificarse que:
+        $$\vec{d}_r \cdot \vec{n}_\pi = 0 \Leftrightarrow -m - 2 - 6 = 0 \Leftrightarrow m = -8.$$
+    </li>
+
+    <li>
+        Si $m = -8$, por el apartado anterior sabemos que $r$ y $\pi$ son paralelos.
+        Para calcular la distancia, hallamos en primer lugar un punto de la recta $r$.
+        Si $x = 0$, entonces el sistema queda:
+        $$\begin{cases}
+            -y + z = 3, \\
+            2y - z = 4.
+        \end{cases}$$
+
+        Si realizamos $F_1 + F_2$, obtenemos que $y = 7$.
+        Despejando y sustituyendo en la primera ecuación,
+        $$-y + z = 3 \Leftrightarrow z = 3 + y = 10.$$
+
+        Luego $P(0, 7, 10)$ es un punto de la recta $r$.
+        Por tanto:
+        $$\dist(r, \pi) = \dist(P, \pi) = \frac{|-8 \cdot 0 - 7 - 2 \cdot 10 - 5|}{\sqrt{8^2 + 1^2 + 2^2}} = \frac{32}{\sqrt{69}} \; u^2.$$
+    </li>
+</ol>
