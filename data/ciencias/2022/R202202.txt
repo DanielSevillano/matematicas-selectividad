@@ -13,27 +13,46 @@
     Como además los vértices están sobre las gráficas de $f$ y $g$, entonces
     $$y = f(x) - g(x) = 4 - \frac{x^2}{3} - \left(\frac{x^2}{6} - 2\right) = -\frac{x^2}{2} + 6.$$
     Por tanto, la función a maximizar es
-    $$S(x) = 2x \cdot y = 2x \cdot \left(-\frac{x^2}{2} + 6\right) = -x^3 + 12x.$$
+    $$h(x) = 2x \cdot y = 2x \cdot \left(-\frac{x^2}{2} + 6\right) = -x^3 + 12x.$$
 </p>
 
 <p>
-    En primer lugar, calculamos la derivada de la función $S.$
-    $$S'(x) = -3x^2 + 12.$$
+    En primer lugar, calculamos la derivada de la función $h.$
+    $$h'(x) = -3x^2 + 12.$$
 
-    Hallamos los puntos críticos de $S$ igualando la derivada a cero.
-    $$S'(x) = 0 \Leftrightarrow -3x^2 + 12 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$
+    Hallamos los puntos críticos de $h$ igualando la derivada a cero.
+    $$h'(x) = 0 \Leftrightarrow -3x^2 + 12 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$
 
     Como $x \geq 0$ por ser una distancia, la solución $x = -2$ no es válida para este problema.
 </p>
 
 <p>
     Comprobamos que en el punto de abscisa $x = 2$ se alcanza el máximo de la función.
-    <ul>
-        <li>Si $-2 < x < 2$, $S'(x) > 0.$
-        Así que $S$ es creciente.</li>
-        <li>Si $x > 2$, $S'(x) < 0.$
-        Así que $S$ es decreciente.</li>
-    </ul>
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td>
+            <th>$(0, 2)$</th>
+            <th>$(2, +\infty)$</th>
+        </tr>
+
+        <tr>
+            <td>signo de $h'$</td>
+            <td>$+$</td>
+            <td>$-$</td>
+        </tr>
+
+        <tr>
+            <td>monotonía de $h$</td>
+            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+        </tr>
+    </table>
+</div>
+
+<p>
     Luego $S$ tiene un máximo en $x = 2.$
     Por tanto, $y = -\frac{x^2}{2} + 6 = 4.$
 </p>

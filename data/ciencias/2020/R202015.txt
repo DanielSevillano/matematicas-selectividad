@@ -7,27 +7,47 @@
     Como se dispone de 96 metros de valla y se deja una abertura de 4 metros, entonces el perímetro debe ser de 100 metros.
     Es decir,
     $$2x + 2y = 100 \Leftrightarrow x + y = 50 \Leftrightarrow y = 50-x.$$
-    Así que la función a maximizar es
-    $$S(x) = x \cdot y = x(50-x) = 50x - x^2.$$
+
+    Así que la función a maximizar es:
+    $$f(x) = x \cdot y = x(50-x) = 50x - x^2.$$
 </p>
 
 <p>
-    En primer lugar, calculamos la derivada de la función $S.$
-    $$S'(x) = 50 - 2x.$$
+    En primer lugar, calculamos la derivada de la función $f.$
+    $$f'(x) = 50 - 2x.$$
 
-    Hallamos los puntos críticos de $S$ igualando la derivada a cero.
-    $$S'(x) = 0 \Leftrightarrow 50 - 2x = 0 \Leftrightarrow 50 = 2x \Leftrightarrow x = 25.$$
+    Hallamos los puntos críticos de $f$ igualando la derivada a cero.
+    $$f'(x) = 0 \Leftrightarrow 50 - 2x = 0 \Leftrightarrow 50 = 2x \Leftrightarrow x = 25.$$
 </p>
 
 <p>
     Comprobamos que en el punto de abscisa $x = 25$ se alcanza el máximo de la función.
-    <ul>
-        <li>Si $x < 25$, $S'(x) > 0.$
-        Así que $S$ es creciente.</li>
-        <li>Si $x > 25$, $S'(x) < 0.$
-        Así que $S$ es decreciente.</li>
-    </ul>
-    Luego $S$ tiene un máximo en $x = 25.$
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td>
+            <th>$(0, 25)$</th>
+            <th>$(25, +\infty)$</th>
+        </tr>
+
+        <tr>
+            <td>signo de $f'$</td>
+            <td>$+$</td>
+            <td>$-$</td>
+        </tr>
+
+        <tr>
+            <td>monotonía de $f$</td>
+            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+        </tr>
+    </table>
+</div>
+
+<p>
+    Luego $f$ tiene un máximo en $x = 25.$
     Por tanto, $y = 50 - x = 25.$
 </p>
 

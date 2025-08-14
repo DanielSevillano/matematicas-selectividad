@@ -11,28 +11,47 @@
     Como la base del rectángulo es $2x$, el área viene dada por $2xy.$
     Como además los vértices superiores del rectángulos están sobre la gráfica de la función $f$, entonces $y = f(x) = -x^2 + 12.$
     Por tanto, la función a maximizar es
-    $$S(x) = 2x \cdot y = 2x \cdot (-x^2 + 12) = -2x^3 + 24x.$$
+    $$g(x) = 2x \cdot y = 2x \cdot (-x^2 + 12) = -2x^3 + 24x.$$
 </p>
 
 <p>
-    En primer lugar, calculamos la derivada de la función $S.$
-    $$S'(x) = -6x^2 + 24.$$
+    En primer lugar, calculamos la derivada de la función $g.$
+    $$g'(x) = -6x^2 + 24.$$
 
-    Hallamos los puntos críticos de $S$ igualando la derivada a cero.
-    $$S'(x) = 0 \Leftrightarrow -6x^2 + 24 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$
+    Hallamos los puntos críticos de $g$ igualando la derivada a cero.
+    $$g'(x) = 0 \Leftrightarrow -6x^2 + 24 = 0 \Leftrightarrow x^2 = 4 \Leftrightarrow x = \pm 2.$$
 
     Como $x \geq 0$ por ser una distancia, la solución $x = -2$ no es válida para este problema.
 </p>
 
 <p>
     Comprobamos que en el punto de abscisa $x = 2$ se alcanza el máximo de la función.
-    <ul>
-        <li>Si $-2 < x < 2$, $S'(x) > 0.$
-        Así que $S$ es creciente.</li>
-        <li>Si $x > 2$, $S'(x) < 0.$
-        Así que $S$ es decreciente.</li>
-    </ul>
-    Luego $S$ tiene un máximo en $x = 2.$
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td>
+            <th>$(0, 2)$</th>
+            <th>$(2, +\infty)$</th>
+        </tr>
+
+        <tr>
+            <td>signo de $g'$</td>
+            <td>$+$</td>
+            <td>$-$</td>
+        </tr>
+
+        <tr>
+            <td>monotonía de $g$</td>
+            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+        </tr>
+    </table>
+</div>
+
+<p>
+    Luego $g$ tiene un máximo en $x = 2.$
     Por tanto, $y = -x^2 + 12 = 8.$
 </p>
 

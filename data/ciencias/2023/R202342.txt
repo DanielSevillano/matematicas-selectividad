@@ -9,31 +9,43 @@
     $$\pi r^2 h = 20.000 \Leftrightarrow h = \frac{20.000}{\pi r^2}.$$
 
     Así que la función a minimizar es
-    $$S(r) = 2\pi r^2 + 2\pi rh = 2\pi r^2 + 2\pi \frac{20.000r}{\pi r^2} = 2\pi r^2 + \frac{40.000}{r}.$$
+    $$f(r) = 2\pi r^2 + 2\pi rh = 2\pi r^2 + 2\pi \frac{20.000r}{\pi r^2} = 2\pi r^2 + \frac{40.000}{r}.$$
 </p>
 
 <p>
-    En primer lugar, calculamos la derivada de la función $S.$
-    $$S'(r) = 4\pi r - \frac{40.000}{r^2}.$$
+    En primer lugar, calculamos la derivada de la función $f.$
+    $$f'(r) = 4\pi r - \frac{40.000}{r^2}.$$
 
-    Hallamos los puntos críticos de $S$ igualando su derivada a cero.
-    $$S'(r) = 0 \Leftrightarrow 4\pi r - \frac{40.000}{r^2} = 0 \Leftrightarrow 4\pi r = \frac{40.000}{r^2} \Leftrightarrow r^3 = \frac{10.000}{\pi} \Leftrightarrow r = \sqrt[3]{\frac{10.000}{\pi}} \approx 14,71.$$
+    Hallamos los puntos críticos de $f$ igualando su derivada a cero.
+    $$f'(r) = 0 \Leftrightarrow 4\pi r - \frac{40.000}{r^2} = 0 \Leftrightarrow 4\pi r = \frac{40.000}{r^2} \Leftrightarrow r^3 = \frac{10.000}{\pi} \Leftrightarrow r = \sqrt[3]{\frac{10.000}{\pi}} \approx 14,71.$$
 
     Comprobamos que en el punto de abscisa $r = \sqrt[3]{\frac{10.000}{\pi}}$ se alcanza el mínimo de la función.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td>
+            <th>$\left(0, \sqrt[3]{\frac{10.000}{\pi}}\right)$</th>
+            <th>$\left(\sqrt[3]{\frac{10.000}{\pi}}, +\infty\right)$</th>
+        </tr>
+
+        <tr>
+            <td>signo de $f'$</td>
+            <td>$-$</td>
+            <td>$+$</td>
+        </tr>
+
+        <tr>
+            <td>monotonía de $f$</td>
+            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+        </tr>
+    </table>
+</div>
     
-    <ul>
-        <li>
-            Si $r < \sqrt[3]{\frac{10.000}{\pi}}$, $S'(r) < 0.$
-            Así que $S$ es decreciente.
-        </li>
-
-        <li>
-            Si $r > \sqrt[3]{\frac{10.000}{\pi}}$, $S'(r) > 0.$
-            Así que $S$ es creciente.
-        </li>
-    </ul>
-
-    Luego $S$ tiene un mínimo en $r = \sqrt[3]{\frac{10.000}{\pi}}.$
+<p>
+    Luego $f$ tiene un mínimo en $r = \sqrt[3]{\frac{10.000}{\pi}}.$
     Por tanto,
     $$h = \frac{20.000}{\pi r^2} = \frac{20.000}{\pi} \left(\frac{\pi}{10.000}\right)^{2/3} \approx 29,42.$$
 </p>
