@@ -1,0 +1,76 @@
+<ol>
+    <li>
+        En primer lugar, hallamos las dos primeras derivadas de la función $f$.
+        \begin{align}
+            f'(x) & = e^x + (x-1)e^x = xe^x, \\
+            f''(x) & = e^x + xe^x = (x + 1)e^x.
+        \end{align}
+
+        Para hallar los candidatos a puntos de inflexión, igualamos la segunda derivada de $f$ a cero.
+        $$f''(x) = 0 \Leftrightarrow (x + 1)e^x = 0 \Leftrightarrow x + 1 = 0 \Leftrightarrow x = -1.$$
+
+        Estudiamos el signo de la segunda derivada para comprobar si se trata de un punto de inflexión.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, -1)$</th>
+                    <th>$(-1, +\infty)$</th>
+                </tr>
+
+                <tr>
+                    <td>signo de $f''$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>curvatura de $f$</td>
+                    <td>$\frown$</td>
+                    <td>$\smile$</td>
+                </tr>
+            </table>
+        </div>
+
+        Así que el punto de inflexión de la función tiene abscisa $x = -1$.
+
+        <ul>
+            <li>
+                La ecuación de la recta tangente a la gráfica de $f$ en $x = -1$ viene dada por:
+                $$y - f(-1) = f'(-1)(x + 1) \Leftrightarrow y + \frac{2}{e} = -\frac{1}{e}(x + 1) \Leftrightarrow y = -\frac{x}{e} - \frac{3}{e}.$$
+            </li>
+
+            <li>
+                La ecuación de la recta normal a la gráfica de $f$ en $x = -1$ viene dada por:
+                $$y - f(-1) = -\frac{1}{f'(-1)}(x + 1) \Leftrightarrow y + \frac{2}{e} = e(x + 1) \Leftrightarrow y = ex + e - \frac{2}{e}.$$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                La función no presenta ningún problema de dominio, así que no tiene ninguna asíntota vertical.
+            </li>
+
+            <li>
+                Estudiamos si $f$ tiene alguna asíntota horizontal estudiando sus límites en el infinito.
+                \begin{align}
+                    & \lim_{x \to -\infty} f(x) = \lim_{x \to -\infty} (x-1)e^x = 0, \\
+                    & \lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} (x-1)e^x = +\infty.
+                \end{align}
+
+                Por tanto, la recta $y = 0$ es una asíntota horizontal en $-\infty$ y no tiene asíntota horizontal en $+\infty$.
+                Así que no puede tener una asíntota oblicua en $-\infty$.
+            </li>
+
+            <li>
+                Estudiamos si $f$ tiene una asíntota oblicua en $+\infty$.
+                $$\lim_{x \to +\infty} \frac{f(x)}{x} = \lim_{x \to +\infty} \frac{(x-1)e^x}{x} = +\infty.$$
+
+                Por tanto, $f$ no tiene ninguna asíntota oblicua.
+            </li>
+        </ul>
+    </li>
+</ol>

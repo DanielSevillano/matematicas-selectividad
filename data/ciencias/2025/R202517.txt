@@ -1,0 +1,20 @@
+<ol>
+    <li>
+        Llamamos $X$ a los diámetros de las bolas elaboradas por la máquina en condiciones normales, con $X \sim N(13; \, 0,1)$.
+        La probabilidad de que la máquina elabore piezas con rodamiento óptimo es:
+        \begin{align}
+            P(12,9 \leq X \leq 13,15) & = P\left(\frac{12,9 - 13}{0,1} \leq Z \leq \frac{13,15 - 13}{0,1}\right) = P(-1 \leq Z \leq 1,5) = \\
+            & = P(Z \leq 1,5) - P(Z \leq -1) = P(Z \leq 1,5) - (1 - P(Z \leq 1)) = \\
+            & = 0,9332 - (1 - 0,8413) = 0,7745.
+        \end{align}
+    </li>
+
+    <li>
+        Llamamos $Y$ a los diámetros de las bolas elaboradas por la máquina el 15 de julio, con $Y \sim N(12,9; \, 0,2)$.
+        La probabilidad de que la máquina elabore piezas con rodamiento óptimo es:
+        \begin{align}
+            P(12,9 \leq X \leq 13,15) & = P\left(\frac{12,9 - 12,9}{0,2} \leq Z \leq \frac{13,15 - 12,9}{0,2}\right) = P(0 \leq Z \leq 1,25) = \\
+            & = P(Z \leq 1,25) - P(Z \leq 0) = 0,8944 - 0,5 = 0,3944.
+        \end{align}
+    </li>
+</ol>

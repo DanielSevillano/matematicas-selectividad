@@ -58,6 +58,7 @@
     },
     {
         "ejercicio": 202511,
+        "resuelto": true,
         "categorias": [
             "Ánálisis",
             "Recta tangente",
@@ -103,6 +104,7 @@
     },
     {
         "ejercicio": 202517,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Distribución normal"
