@@ -1,6 +1,6 @@
 <ol>
     <li>
-        Llamamos $X \sim N(64, 4)$ a la velocidad de los vehículos.
+        Llamamos $X$ a la velocidad de los vehículos, con $X \sim N(64, 4)$.
         La probabilidad de que un vehículo circule a una velocidad superior a 72 km/h es:
         $$P(X > 72) = P\left(Z > \frac{72 - 64}{4}\right) = P(Z > 2) = 1 - P(Z \leq 2) = 1 - 0,9772 = 0,0228.$$
 
@@ -8,15 +8,15 @@
     </li>
 
     <li>
-        Llamamos $X \sim N(63,6; \, \sigma)$ a la velocidad de los vehículos en sentido contrario.
+        Llamamos $Y$ a la velocidad de los vehículos en sentido contrario, con $Y \sim N(63,6; \, \sigma)$.
         Como el 5,05% de los vehículos viaja a más de 80 km/h, ha de verificarse que:
-        $$P(X > 80) = 0,0505 \Leftrightarrow P(X \leq 80) = 1 - 0,0505 = 0,9495.$$
+        $$P(Y > 80) = 0,0505 \Leftrightarrow P(Y \leq 80) = 1 - 0,0505 = 0,9495.$$
 
         Observamos que:
-        $$P(X \leq 80) = P\left(Z \leq \frac{80 - 63,6}{\sigma}\right) = P\left(Z \leq \frac{16,4}{\sigma}\right).$$
+        $$P(Y \leq 80) = P\left(Z \leq \frac{80 - 63,6}{\sigma}\right) = P\left(Z \leq \frac{16,4}{\sigma}\right).$$
 
         Así que:
-        $$P(X \leq 80) = 0,9495 \Leftrightarrow P\left(Z \leq \frac{16,4}{\sigma}\right) = 0,9495 \Leftrightarrow \frac{16,4}{\sigma} = 1,64 \Leftrightarrow \sigma = 10.$$
+        $$P(Y \leq 80) = 0,9495 \Leftrightarrow P\left(Z \leq \frac{16,4}{\sigma}\right) = 0,9495 \Leftrightarrow \frac{16,4}{\sigma} = 1,64 \Leftrightarrow \sigma = 10.$$
 
         Por tanto, la desviación típica es de 10 km/h.
     </li>
