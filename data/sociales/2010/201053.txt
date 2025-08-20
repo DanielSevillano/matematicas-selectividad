@@ -1,0 +1,9 @@
+En una capital se editan dos periódicos, CIUDAD y LA MAÑANA.
+Se sabe que el 85% de la población lee alguno de ellos, que el 18% lee los dos y que el 70% lee CIUDAD.
+Si elegimos al azar un habitante de esa capital, halle la probabilidad de que:
+
+<ol>
+    <li>No lea ninguno de los dos.</li>
+    <li>Lea sólo LA MAÑANA.</li>
+    <li>Lea CIUDAD, sabiendo que no lee LA MAÑANA.</li>
+</ol>

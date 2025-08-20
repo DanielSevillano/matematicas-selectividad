@@ -1,0 +1,10 @@
+Sea la función
+$$f(x) = \begin{cases}
+    -x^2 - 2ax + 3, & \text{si } x \leq 1, \\
+    ax^2 - 6x + 5, & \text{si } x > 1.
+\end{cases}$$
+
+<ol>
+    <li>Calcule el valor de $a$ para que $f$ sea continua en $x = 1$.</li>
+    <li>Para $a = 1$, represente su gráfica y, a la vista de ella, indique su monotonía y las coordenadas de sus extremos locales.</li>
+</ol>

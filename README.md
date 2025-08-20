@@ -50,6 +50,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 - [x] 2024 a 2011
 - [ ] 2010
     - [x] Junio
+    - [x] Septiembre
 
 ### Ejercicios resueltos de ciencias
 - [ ] 2025

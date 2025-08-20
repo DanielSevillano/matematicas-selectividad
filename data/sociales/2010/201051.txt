@@ -1,0 +1,12 @@
+Sea el recinto del plano definido por el siguiente sistema de inecuaciones:
+$$3x + y \geq 4, \quad x + y \leq 6, \quad 0 \leq y \leq 5.$$
+
+<ol>
+    <li>Represéntelo gráficamente.</li>
+    <li>Calcule los vértices de dicho recinto.</li>
+
+    <li>
+        En el recinto anterior, halle los valores máximo y mínimo de la función $F(x, y) = 5x + 3y$.
+        ¿En qué puntos se alcanzan dichos valores?
+    </li>
+</ol>

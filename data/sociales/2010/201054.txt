@@ -1,0 +1,4 @@
+En una determinada especie animal el porcentaje de mortalidad debida a una enfermedad vírica es de al menos un 40%.
+Se está realizando un estudio para probar la eficacia de un fármaco que permite tratar esa enfermedad y, consecuentemente, reducir el porcentaje de mortalidad en esa especie.
+Para ello, se suministró el fármaco a 50 sujetos enfermos, elegidos al azar, de los que murieron 14.
+A la vista de estos datos, y tomando como nivel de significación 0,015, ¿se puede afirmar que existe evidencia estadística suficiente para rechazar la hipótesis $H_0: p \geq 0,4$, donde $p$ es la proporción, y por lo tanto aceptar la eficacia del fármaco?

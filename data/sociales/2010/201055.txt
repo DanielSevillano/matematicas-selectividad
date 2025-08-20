@@ -1,0 +1,18 @@
+Sean las matrices:
+$$P = \begin{pmatrix}
+    1 & 2 \\
+    a & 0
+\end{pmatrix}, \quad
+Q = \begin{pmatrix}
+    1 & 1 & 5 \\
+    8 & 4 & b
+\end{pmatrix} \quad \text{y} \quad
+R = \begin{pmatrix}
+    c & d & 6 \\
+    10 & 10 & 50
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule, si es posible, $P \cdot Q$ y $Q \cdot P$, razonando la respuesta.</li>
+    <li>¿Cuánto deben valer las constantes $a$, $b$, $c$ y $d$ para que $P \cdot 2Q = R$?</li>
+</ol>

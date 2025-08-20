@@ -1,0 +1,9 @@
+Un dado tiene seis caras, tres de ellas marcadas con un 1, dos marcadas con una X y la
+otra marcada con un 2.
+Se lanza tres veces ese dado.
+
+<ol>
+    <li>¿Cuál es la probabilidad de obtener tres veces el 1?</li>
+    <li>¿Cuál es la probabilidad de obtener dos X y un 2 en cualquier orden?</li>
+    <li>¿Cuál es la probabilidad de obtener tres resultados diferentes?</li>
+</ol>

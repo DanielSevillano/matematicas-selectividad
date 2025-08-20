@@ -1,0 +1,8 @@
+<ol>
+    <li>
+        La altura de los alumnos de una Universidad sigue una distribución Normal de media desconocida y desviación típica 11 cm.
+        Calcule el tamaño mínimo que ha de tener una muestra aleatoria de esos alumnos para que el error cometido al estimar la altura media sea inferior a 1cm, con un nivel de confianza del 98%.
+    </li>
+
+    <li>Dada la población $\{10, 12, 17\}$, escriba todas las muestras de tamaño 2 mediante muestreo aleatorio simple y calcule la media y la desviación típica de las medias muestrales.</li>
+</ol>

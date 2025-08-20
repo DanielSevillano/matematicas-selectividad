@@ -5267,6 +5267,61 @@
         ]
     },
     {
+        "ejercicio": 201051,
+        "categorias": [
+            "Programación lineal"
+        ]
+    },
+    {
+        "ejercicio": 201052,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201053,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201054,
+        "categorias": [
+            "Estadística",
+            "Contraste de hipótesis"
+        ]
+    },
+    {
+        "ejercicio": 201055,
+        "categorias": [
+            "Álgebra",
+            "Dimensiones"
+        ]
+    },
+    {
+        "ejercicio": 201056,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201057,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 201058,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media",
+            "Distribución de medias muestrales"
+        ]
+    },
+    {
         "ejercicio": 200911,
         "categorias": [
             "Álgebra",
