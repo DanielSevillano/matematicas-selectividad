@@ -1,0 +1,16 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    1 & 0 \\
+    -1 & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 0 & 0 \\
+    0 & -1 & -1 \\
+    0 & 1 & 2
+\end{pmatrix} \quad \text{y} \quad
+C = \begin{pmatrix}
+    3 & 1 & 2 \\
+    0 & 1 & -2
+\end{pmatrix}.$$
+
+Calcula la matriz $X$ que cumpla la ecuación $AXB = C$.

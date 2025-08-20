@@ -1,0 +1,10 @@
+Considera la función $f: \mathbb{R} \to \mathbb{R}$ dada por $f(x) = x^2 + 4$.
+
+<ol>
+    <li>Halla la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x = 1$.</li>
+
+    <li>
+        Esboza el recinto limitado por la gráfica de $f$, el eje de ordenadas y la recta de ecuación $y = 2x + 3$.
+        Calcula su área.
+    </li>
+</ol>

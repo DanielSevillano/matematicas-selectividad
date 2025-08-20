@@ -1,0 +1,12 @@
+<ol>
+    <li>
+        Discute, según los valores del parámetro $\lambda$, el siguiente sistema de ecuaciones.
+        $$\begin{cases}
+            -x + \lambda y + z = \lambda, \\
+            \lambda x + 2y + (\lambda + 2)z = 4, \\
+            x + 3y + 2z = 6 - \lambda.
+        \end{cases}$$
+    </li>
+
+    <li>Resuelve el sistema anterior para $\lambda = 0$.</li>
+</ol>

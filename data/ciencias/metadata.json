@@ -5769,5 +5769,64 @@
         "categorias": [
             "Geometría"
         ]
+    },
+    {
+        "ejercicio": 201051,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 201052,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 201053,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Discusión de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 201054,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "ejercicio": 201055,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 201056,
+        "categorias": [
+            "Análisis",
+            "Recta tangente",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 201057,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 201058,
+        "categorias": [
+            "Geometría",
+            "Posición relativa"
+        ]
     }
 ]

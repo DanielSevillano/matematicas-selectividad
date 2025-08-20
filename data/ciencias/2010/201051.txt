@@ -1,0 +1,3 @@
+Una hoja de papel tiene que contener 18 cm<sup>2</sup> de texto.
+Los márgenes superior e inferior han de tener 2 cm cada uno y los laterales 1 cm.
+Calcula las dimensiones de la hoja para que el gasto de papel sea mínimo.

@@ -1,0 +1,7 @@
+Sea
+$$I = \int \frac{5}{1 + \sqrt{e^{-x}}}dx.$$
+
+<ol>
+    <li>Expresa $I$ haciendo el cambio de variable $t^2 = e^{-x}$.</li>
+    <li>Determina $I$.</li>
+</ol>

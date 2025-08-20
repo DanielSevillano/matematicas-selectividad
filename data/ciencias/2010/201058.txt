@@ -1,0 +1,7 @@
+Considera los planos $\pi_1$, $\pi_2$ y $\pi_3$ dados respectivamente por las ecuaciones
+$$x + y = 1, \quad ay + z = 0 \quad \text{y} \quad x + (1+a)y + az = a + 1.$$
+
+<ol>
+    <li>¿Cuánto ha de valer $a$ para que no tengan ningún punto en común?</li>
+    <li>Para $a = 0$, determina la posición relativa de los planos.</li>
+</ol>

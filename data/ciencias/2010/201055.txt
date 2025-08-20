@@ -1,0 +1,10 @@
+Considera la función $f: [0, 4] \to \mathbb{R}$ definida por:
+$$f(x) = \begin{cases}
+    x^2 + ax + b, & \text{si } 0 \leq x \leq 2, \\
+    cx, & \text{si } 2 < x \leq 4.
+\end{cases}$$
+
+<ol>
+    <li>Sabiendo que $f$ es derivable en todo el dominio y que verifica $f(0) = f(4)$, determina los valores de $a$, $b$ y $c$.</li>
+    <li>Para $a = -3$, $b = 4$ y $c = 1$ halla los extremos absolutos de $f$ (abscisas donde se obtienen y valores que se alcanzan).</li>
+</ol>
