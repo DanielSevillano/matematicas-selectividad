@@ -1,0 +1,39 @@
+<ol>
+    <li>
+        En primer lugar, calculamos el producto vectorial de los vectores $\vec{AB} = (-2, 4, -4)$ y $\vec{AC} = (-5, -1, 0)$.
+        $$\vec{AB} \times \vec{AC} = \begin{vmatrix}
+            \vec{i} & \vec{j} & \vec{k} \\
+            -2 & 4 & -4 \\
+            -5 & -1 & 0
+        \end{vmatrix} = (-4, 20, 22).$$
+
+        El área del triángulo determinado por los puntos $A$, $B$ y $C$ viene dada por:
+        $$S = \frac{|\vec{AB} \times \vec{AC}|}{2} = \frac{\sqrt{4^2 + 20^2 + 22^2}}{2} = 15 \; u^2.$$
+    </li>
+
+    <li>
+        <p>
+            Los puntos del eje $OZ$ son de la forma $D = (0, 0, a)$.
+        </p
+
+        <p>
+            En primer lugar, hallamos el producto mixto de los vectores $\vec{AB}$, $\vec{AC}$ y $\vec{AD} = (-3, 1, a-1)$.
+            $$[\vec{AB}, \vec{AC}, \vec{AD}] = \begin{vmatrix}
+                -2 & 4 & -4 \\
+                -5 & -1 & 0 \\
+                -3 & 1 & a-1
+            \end{vmatrix} = 2a - 2 + 20 + 12 + 20a - 20 = 22a + 10.$$
+
+            El volumen del tetraedro determinado por los puntos $A$, $B$, $C$ y $D$ viene dado por:
+            $$V = \frac{|22a + 10|}{6} = \frac{|11a + 5|}{3}.$$
+
+            Para que el volumen sea de 20 unidades cúbicas, ha de verificarse:
+            $$V = 20 \Leftrightarrow \frac{|11a + 5|}{3} = 20 \Leftrightarrow \begin{cases}
+                \frac{11a + 5}{3} = 20 \Leftrightarrow 11a + 5 = 60 \Leftrightarrow 11a = 55 \Leftrightarrow a = 5, \\
+                \frac{11a + 5}{3} = -20 \Leftrightarrow 11a + 5 = -60 \Leftrightarrow 11a = -65 \Leftrightarrow a = -\frac{65}{11}.
+            \end{cases}$$
+
+            Por tanto, los puntos son $D_1(0, 0, 5)$ y $D_2\left(0, 0, -\frac{65}{11}\right)$.
+        </p>
+    </li>
+</ol>

@@ -82,6 +82,7 @@
     },
     {
         "ejercicio": 202514,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Área",
