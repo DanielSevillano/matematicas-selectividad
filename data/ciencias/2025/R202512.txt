@@ -1,0 +1,27 @@
+<ol>
+    <li>
+        Representamos el recinto.
+        <img src="img/ciencias/R202512.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        En primer lugar, hallamos los puntos de corte entre la función y la recta.
+        $$f(x) = a \Leftrightarrow (x - 1)^2 = a \Leftrightarrow |x - 1| = \sqrt{a} \Leftrightarrow \begin{cases}
+            x - 1 = \sqrt{a} \Leftrightarrow x = 1 + \sqrt{a}, \\
+            x - 1 = -\sqrt{a} \Leftrightarrow x = 1 - \sqrt{a}.
+        \end{cases}$$
+
+        Como el recinto es simétrico, podemos calcular el área como:
+        $$S = 2\int_0^{1 + \sqrt{a}} (x^2 - 2x + 1)dx = 2\left[\frac{x^3}{3} - x^2 + x\right]_0^{1 + \sqrt{a}} = 2\left(\frac{(1 + \sqrt{a})^3}{3} - (1 + \sqrt{a})^2 + 1 + \sqrt{a}\right).$$
+
+        Para que el área sea de $\frac{4}{3}$ unidades cuadradas, ha de verificarse:
+        $$S = \frac{4}{3} \Leftrightarrow 2\left(\frac{(1 + \sqrt{a})^3}{3} - (1 + \sqrt{a})^2 + 1 + \sqrt{a}\right) = \frac{4}{3}.$$
+
+        Por comodidad, realizamos el cambio de variable $t = 1 + \sqrt{a}$.
+        De esta forma, la ecuación se puede escribir como:
+        $$2\left(\frac{t^3}{3} - t^2 + t\right) = \frac{4}{3} \Leftrightarrow \frac{t^3}{3} - t^2 + t = \frac{2}{3} \Leftrightarrow t^3 - 3t^2 + 3t - 2 = 0 \Leftrightarrow (t-2)(t^2-t+1) = 0 \Leftrightarrow t = 2.$$
+
+        Deshaciendo el cambio de variable,
+        $$1 + \sqrt{a} = 2 \Leftrightarrow \sqrt{a} = 1 \Leftrightarrow a = 1.$$
+    </li>
+</ol>
