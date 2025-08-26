@@ -4,7 +4,8 @@ window.MathJax = {
     tex: {
         inlineMath: [["$", "$"]],
         environments: {
-            ampmatrix: ["\\left(\\begin{array}{ccc|c}", "\\end{array}\\right)"]
+            ampmatrix: ["\\left(\\begin{array}{ccc|c}", "\\end{array}\\right)"],
+            vproduct: ["\\begin{vmatrix}\\vec{x} & \\vec{y} & \\vec{z} \\\\", "\\end{vmatrix}"]
         },
         macros: {
             Adj: "\\operatorname{Adj}",

@@ -12,11 +12,10 @@
         Llamamos $r$ a la recta que nos piden.
         El plano que contiene a los puntos $A$, $B$ y $C$ tiene como vectores directores $\vec{AB} = (3, -4, -3)$ y $\vec{AC} = (0, 4, -1).$
         Como $r$ es perpendicular a dicho plano, su vector director viene dado por:
-        $$\vec{d}_r = \vec{AB} \times \vec{AC} = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{d}_r = \vec{AB} \times \vec{AC} = \begin{vproduct}
             3 & -4 & -3 \\
             0 & 4 & -1
-        \end{vmatrix} = (16, 3, 12).$$
+        \end{vproduct} = (16, 3, 12).$$
 
         Además, el punto $(0, 0, 0)$ pertenece a la recta.
         Por tanto, las ecuaciones paramétricas de la recta $r$ son:

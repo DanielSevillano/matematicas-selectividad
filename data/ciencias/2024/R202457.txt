@@ -15,12 +15,10 @@
         Llamamos $s$ a la recta que queremos hallar.
         Como la recta $s$ está contenida en $\pi$ y es perpendicular a $r$, el vector director de $s$ tiene que ser perpendicular a $\vec{n}$ y a $\vec{d}_r.$
         Así que
-        $$\vec{d}_s = \vec{n} \times \vec{d}_r =
-        \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{d}_s = \vec{n} \times \vec{d}_r = \begin{vproduct}
             1 & -2 & 1 \\
             2 & 1 & 0
-        \end{vmatrix} = (-1, 2, 5).$$
+        \end{vproduct} = (-1, 2, 5).$$
 
         Además, el punto $P(2, -1, -2)$ pertenece a la recta.
         Por tanto, las ecuaciones paramétricas de la recta $s$ son

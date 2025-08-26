@@ -2,11 +2,10 @@
     <li>
         Para hallar el área del triángulo $ABC$, calculamos en primer lugar los vectores $\vec{AB} = (-3, 2, -6)$ y $\vec{AC} = (-11, -1, -3).$
         Su producto vectorial es
-        $$\vec{AB} \times \vec{AC} = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{AB} \times \vec{AC} = \begin{vproduct}
             -3 & 2 & -6 \\
             -11 & -1 & -3
-        \end{vmatrix} = (-12, 57, 25).$$
+        \end{vproduct} = (-12, 57, 25).$$
 
         Por último, calculamos el área como
         $$\frac{1}{2}|\vec{AB} \times \vec{AC}| = \frac{1}{2} \sqrt{12^2 + 57^2 + 25^2} = \frac{\sqrt{4018}}{2} = \frac{7\sqrt{82}}{2} \; u^2.$$

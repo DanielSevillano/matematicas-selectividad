@@ -14,11 +14,10 @@
     <li>
         Llamamos $s$ a la recta que nos piden.
         Como $s$ es perpendicular a $r$ y está contenida en $\pi$,
-        $$\vec{d}_s = \vec{d}_r \times \vec{n}_\pi = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{d}_s = \vec{d}_r \times \vec{n}_\pi = \begin{vproduct}
             2 & 3 & 1 \\
             1 & -1 & 0
-        \end{vmatrix} = (1, 1, -5).$$
+        \end{vproduct} = (1, 1, -5).$$
 
         Además, el punto $(0, 0, 0)$ pertenece a la recta.
         Por tanto, las ecuaciones paramétricas de la recta $s$ es:

@@ -1,11 +1,10 @@
 <ol>
     <li>
         Para hallar el área del triángulo $OAB$, calculamos en primer lugar el producto vectorial de los vectores $\vec{OA} = (a, -1, 2)$ y $\vec{OB} = (a, 1, 0).$
-        $$\vec{OA} \times \vec{OB} = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{OA} \times \vec{OB} = \begin{vproduct}
             a & -1 & 2 \\
             a & 1 & 0
-        \end{vmatrix} = (-2, 2a, 2a).$$
+        \end{vproduct} = (-2, 2a, 2a).$$
 
         El área del triángulo viene dada por:
         $$S = \frac{1}{2}|\vec{OA} \times \vec{OB}| = \frac{1}{2}\sqrt{2^2 + (2a)^2 + (2a)^2} = \frac{1}{2}\sqrt{4 + 8a^2} = \sqrt{1 + 2a^2}.$$

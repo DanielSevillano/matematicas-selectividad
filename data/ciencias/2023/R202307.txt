@@ -29,11 +29,10 @@
 
 <p>
     Hallamos los vectores $\vec{AB} = (8, 8, 0)$ y $\vec{AC} = (8, 0, 8)$ y hacemos su producto vectorial.
-    $$\vec{AB} \times \vec{AC} = \begin{vmatrix}
-        \vec{i} & \vec{j} & \vec{k} \\
+    $$\vec{AB} \times \vec{AC} = \begin{vproduct}
         8 & 8 & 0 \\
         8 & 0 & 8
-    \end{vmatrix} = (64, -64, -64),$$
+    \end{vproduct} = (64, -64, -64),$$
     con módulo
     $$|\vec{AB} \times \vec{AC}| = |(64, -64, -64)| = \sqrt{64^2 + 64^2 + 64^2} = \sqrt{3 \cdot 64^2} = 64\sqrt{3}.$$
 </p>

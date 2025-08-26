@@ -18,11 +18,10 @@
     <li>
         El plano $\pi$ determinado por los puntos $A$, $B$ y $C$ tiene como vectores directores $\vec{AB} = (1, 0, 2)$ y $\vec{AC} = (2, 1, 4)$.
         El vector normal al plano viene dado por:
-        $$\vec{n}_{\pi} = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{n}_{\pi} = \begin{vproduct}
             1 & 0 & 2 \\
             2 & 1 & 4
-        \end{vmatrix} = (-2, 0, 1).$$
+        \end{vproduct} = (-2, 0, 1).$$
 
         Como $A$ pertenece al plano, la ecuación del plano $\pi$ es:
         $$\pi \equiv -2x + z + 2 = 0 \Leftrightarrow 2x - z - 2 = 0.$$

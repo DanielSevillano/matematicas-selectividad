@@ -32,11 +32,10 @@
         Si $a = 2$, $r$ y $s$ son secantes por el apartado anterior.
         Llamamos $t$ a la recta que nos piden.
         Como es perpendicular a las rectas $r$ y $s$, su vector director viene dado por:
-        $$\vec{d}_t = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{d}_t = \begin{vproduct}
             1 & 1 & 2 \\
             -2 & -1 & 2
-        \end{vmatrix} = (4, -6, 1).$$
+        \end{vproduct} = (4, -6, 1).$$
 
         Además, pasa por el punto de corte de $r$ y $s.$
         Para ello, hallamos en primer lugar las ecuaciones paramétricas de $r$ y $s.$

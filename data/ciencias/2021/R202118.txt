@@ -15,11 +15,10 @@
     <li>
         Para hallar el área del triángulo $BCD$, calculamos en primer lugar los vectores $\vec{BC} = (1, 1, -2)$ y $\vec{BD} = (2, -1, -1).$
         Su producto vectorial es
-        $$\vec{BC} \times \vec{BD} = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{BC} \times \vec{BD} = \begin{vproduct}
             1 & 1 & -2 \\
             2 & -1 & -1
-        \end{vmatrix} = (-3, -3, -3).$$
+        \end{vproduct} = (-3, -3, -3).$$
 
         Por último, calculamos el área como
         $$\frac{1}{2}|\vec{BC} \times \vec{BD}| = \frac{1}{2}\sqrt{3^2 + 3^2 + 3^2} = \frac{\sqrt{27}}{2} = \frac{3\sqrt{3}}{2} \; u^2.$$

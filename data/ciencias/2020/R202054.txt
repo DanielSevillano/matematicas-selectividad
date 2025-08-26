@@ -1,11 +1,10 @@
 <ol>
     <li>
         En primer lugar, hallamos el vector director de la recta $r.$
-        $$\vec{d}_r = (4, -3, 4) \times (3, -2, 1) = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{d}_r = (4, -3, 4) \times (3, -2, 1) = \begin{vproduct}
             4 & -3 & 4 \\
             3 & -2 & 1
-        \end{vmatrix} = (5, 8, 1).$$
+        \end{vproduct} = (5, 8, 1).$$
 
         Además, el vector normal de $\pi$ es $\vec{n}_\pi = (1, -1, a).$
         Como $\pi$ es paralelo a $r$, ha de verificarse que:

@@ -2,11 +2,10 @@
     El plano $\pi$ determinado por los puntos $A$, $B$ y $C$ tiene como vectores directores
     $$\vec{AB} = (3, 0, 3) \parallel (1, 0, 1) \quad y \quad \vec{AC} = (2, 1, 4).$$
     El vector normal al plano es perpendicular a ambos, así que
-    $$\vec{n} = (1, 0, 1) \times (2, 1, 4) = \begin{vmatrix}
-        \vec{i} & \vec{j} & \vec{k} \\
+    $$\vec{n} = (1, 0, 1) \times (2, 1, 4) = \begin{vproduct}
         1 & 0 & 1 \\
         2 & 1 & 4
-    \end{vmatrix} = (-1, -2, 1).$$
+    \end{vproduct} = (-1, -2, 1).$$
 
     Como $A$ pertenece al plano, la ecuación de $\pi$ es
     $$\pi \equiv -x - 2(y-2) + z+2 = 0 \Leftrightarrow -x - 2y + z + 6 = 0.$$

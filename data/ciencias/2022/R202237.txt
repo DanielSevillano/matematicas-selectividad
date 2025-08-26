@@ -2,11 +2,10 @@
     <li>
         El área del triángulo formado por $A$, $B$ y $C$ es la mitad del área del paralelogramo determinado por dichos puntos, es decir, el paralelogramo formado por los vectores $\vec{AB} = (m, -2, -2)$ y $\vec{AC} = (2, -1, -1).$
         Esta viene dada por el módulo del producto vectorial de los vectores.
-        $$\vec{AB} \times \vec{AC} = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{AB} \times \vec{AC} = \begin{vproduct}
             m & -2 & -2 \\
             2 & -1 & -1
-        \end{vmatrix} = (0, m-4, -m+4).$$
+        \end{vproduct} = (0, m-4, -m+4).$$
 
         Así que el área del triángulo es
         $$\frac{|\vec{AB} \times \vec{AC}|}{2} = \frac{|(0, m-4, -m+4)|}{2} = \frac{\sqrt{(m-4)^2 + (-m+4)^2}}{2} = \frac{\sqrt{2m^2-16m+32}}{2}.$$

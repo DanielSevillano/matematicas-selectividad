@@ -28,11 +28,10 @@
     <li>
         Llamamos $t$ a la recta que queremos hallar.
         Como es perpendicular a las rectas $r$ y $s$, su vector director viene dado por
-        $$\vec{d}_t = \vec{d}_r \times \vec{d}_s = (1, 0, -1) \times (1, -1, 0) = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{d}_t = \vec{d}_r \times \vec{d}_s = (1, 0, -1) \times (1, -1, 0) = \begin{vproduct}
             1 & 0 & -1 \\
             1 & -1 & 0
-        \end{vmatrix} = (-1, -1, -1).$$
+        \end{vproduct} = (-1, -1, -1).$$
 
         Como además corta a las dos rectas, tiene que pasar por el punto de corte de $r$ y $s.$
         Calculamos el punto de corte igualando las ecuaciones entre sí.

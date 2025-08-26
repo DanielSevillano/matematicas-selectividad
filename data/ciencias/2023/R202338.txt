@@ -24,11 +24,10 @@
         Si $x = 1$, entonces $\vec{OB} = (3, 0, 1).$
         Cada cara del paralelepípedo es un paralelogramo.
         El área del paralelogramo formado por los vectores $\vec{OA}$ y $\vec{OB}$ viene dado por el módulo de su producto vectorial.
-        $$\vec{OA} \times \vec{OB} = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{OA} \times \vec{OB} = \begin{vproduct}
             2 & -1 & 0 \\
             3 & 0 & 1
-        \end{vmatrix} = (-1, -2, 3).$$
+        \end{vproduct} = (-1, -2, 3).$$
 
         Por tanto, el área de la cara es
         $$|\vec{OA} \times \vec{OB}| = |(-1, -2, 3)| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{14} \; u^2.$$

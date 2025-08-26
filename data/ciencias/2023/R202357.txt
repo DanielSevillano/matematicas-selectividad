@@ -8,11 +8,10 @@
 
         Hallamos en primer lugar las ecuaciones paramétricas de $r.$
         Su vector director viene dado por el producto vectorial de los vectores normales de cada plano, $\vec{n}_1 = (1, -1, 1)$ y $\vec{n}_2 = (1, 1, 0).$
-        $$\vec{d}_r = \vec{n}_1 \times \vec{n}_2 = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{d}_r = \vec{n}_1 \times \vec{n}_2 = \begin{vproduct}
             1 & -1 & 1 \\
             1 & 1 & 0
-        \end{vmatrix} = (-1, 1, 2).$$
+        \end{vproduct} = (-1, 1, 2).$$
 
         Como el punto $(0, 2, 2)$ pertenece a la recta $r$, sus ecuaciones paramétricas son
         $$r \equiv \begin{cases}

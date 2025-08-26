@@ -1,11 +1,10 @@
 <ol>
     <li>
         En primer lugar, hallamos el vector director de la recta $r$.
-        $$\vec{d}_r = (1, -1, 1) \times (1, 2, -1) = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{d}_r = (1, -1, 1) \times (1, 2, -1) = \begin{vproduct}
             1 & -1 & 1 \\
             1 & 2 & -1
-        \end{vmatrix} = (-1, 2, 3).$$
+        \end{vproduct} = (-1, 2, 3).$$
 
         La recta $r$ y el plano $\pi$ son paralelos si el vector director $\vec{d}_r$ y el vector normal $\vec{n}_\pi = (m, -1, -2)$ son perpendiculares.
         Ha de verificarse que:

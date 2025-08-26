@@ -46,11 +46,10 @@
     <li>
         Si $\pi$ contiene a $r$ y es paralelo a $s$, entonces su vector normal $\vec{n}$ es perpendicular a $\vec{d}_r$ y $\vec{d}_s.$
         Podemos hallarlo haciendo el producto vectorial de estos vectores.
-        $$\vec{n} = \vec{d}_r \times \vec{d}_s = \begin{vmatrix}
-            \vec{i} & \vec{j} & \vec{k} \\
+        $$\vec{n} = \vec{d}_r \times \vec{d}_s = \begin{vproduct}
             1 & 2 & 2 \\
             -1 & 1 & 1
-        \end{vmatrix} = (0, -3, 3) \parallel (0, 1, -1).$$
+        \end{vproduct} = (0, -3, 3) \parallel (0, 1, -1).$$
 
         Como la recta $r$ está contenida en $\pi$, también lo están todos sus puntos.
         En particular, $P(2, 1, 0)$ pertenece a $\pi.$

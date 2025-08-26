@@ -1,11 +1,10 @@
 <p>
     En primer lugar, hallamos las ecuaciones paramétricas de la recta $r.$
     Su vector director viene dado por el producto vectorial:
-    $$\vec{d} = (1, 0, -2) \times (0, 1, -1) = \begin{vmatrix}
-        \vec{i} & \vec{j} & \vec{k} \\
+    $$\vec{d} = (1, 0, -2) \times (0, 1, -1) = \begin{vproduct}
         1 & 0 & -2 \\
         0 & 1 & -1
-    \end{vmatrix} = (2, 1, 1).$$
+    \end{vproduct} = (2, 1, 1).$$
 
     Como el punto $(3, 2, 0)$ pertenece a la recta $r$, sus ecuaciones paramétricas son:
     $$r \equiv \begin{cases}
@@ -18,11 +17,10 @@
 <p>
     El plano $\pi$ determinado por los puntos $A$, $B$ y $C$ tiene como vectores directores $\vec{AB} = (1, 1, 1)$ y $\vec{AC} = (3, 1, 0).$
     El vector normal del plano es perpendicular a ambos, así que:
-    $$\vec{n} = \vec{AB} \times \vec{AC} = \begin{vmatrix}
-        \vec{i} & \vec{j} & \vec{k} \\
+    $$\vec{n} = \vec{AB} \times \vec{AC} = \begin{vproduct}
         1 & 1 & 1 \\
         3 & 1 & 0
-    \end{vmatrix} = (-1, 3, -2) \parallel (1, -3, 2).$$
+    \end{vproduct} = (-1, 3, -2) \parallel (1, -3, 2).$$
 
     Como $A$ pertenece al plano, la ecuación de $\pi$ es:
     $$\pi \equiv x + 1 - 3y + 2z = 0 \Leftrightarrow x - 3y + 2z + 1 = 0.$$

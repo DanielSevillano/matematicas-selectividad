@@ -27,11 +27,10 @@
             <li>El plano $\pi$ contiene a la recta $r$, así que $\vec{d}_r$ es un vector director del plano y $R$ es un punto de $\pi$.</li>
             <li>
                 El plano $\pi$ contiene a una recta perpendicular a $r$ y $s$, así que un vector director del plano es:
-                $$\vec{d}_r \times \vec{d}_s = (4, 3, -1) \times (-1, 1, -2) = \begin{vmatrix}
-                    \vec{i} & \vec{j} & \vec{k} \\
+                $$\vec{d}_r \times \vec{d}_s = (4, 3, -1) \times (-1, 1, -2) = \begin{vproduct}
                     4 & 3 & -1 \\
                     -1 & 1 & -2
-                \end{vmatrix} = (-5, 9, 7).$$
+                \end{vproduct} = (-5, 9, 7).$$
             </li>
         </ul>
 
