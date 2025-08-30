@@ -1,0 +1,13 @@
+El 20% de los estudiantes de danza de una localidad andaluza están matriculados en la escuela A y el resto en la B.
+En estas escuelas se practica danza clásica y moderna y cada estudiante solo se puede matricular en una de estas dos especialidades.
+De los matriculados en A, el 70% practica danza clásica y el resto danza moderna.
+Se sabe
+también que el 32% de los estudiantes de danza son de la escuela B y practican danza clásica.
+Elegido al azar un estudiante de danza de la localidad, calcule la probabilidad de que:
+
+<ol>
+    <li>Practique danza clásica.</li>
+    <li>Practique danza moderna si es de la escuela B.</li>
+    <li>Estudie en la escuela B si resulta ser un estudiante de danza moderna.</li>
+    <li>Sea de la escuela A, practique danza clásica y realice un Máster, sabiendo que el 80% de los estudiantes de danza clásica de la escuela A realiza un Máster.</li>
+</ol>

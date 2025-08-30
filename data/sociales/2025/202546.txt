@@ -1,0 +1,13 @@
+Se selecciona una muestra aleatoria de 600 familias a las que se les pregunta si tienen mascota, resultando que 240 de esas familias contestaron afirmativamente.
+Con un nivel de confianza del 95%,
+
+<ol>
+    <li>
+        Obtenga el correspondiente intervalo de confianza para estimar la proporción poblacional de familias que tienen mascota.
+        ¿Puede suponerse que la mitad de las familias de esta población tiene mascota?
+    </li>
+
+    <li>¿Qué tamaño muestral mínimo se debe tomar para que el error máximo al estimar esta proporción sea 0,025?</li>
+
+    <li>Explique razonadamente el efecto que tendría sobre la amplitud del intervalo de confianza de la proporción poblacional el aumento del tamaño de la muestra elegida.</li>
+</ol>

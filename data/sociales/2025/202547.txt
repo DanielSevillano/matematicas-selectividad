@@ -1,0 +1,14 @@
+Se ha realizado un estudio para analizar el peso, en kilogramos, de las mochilas de los estudiantes de ESO de los institutos de una localidad.
+Para ello, se seleccionó una muestra aleatoria de 13 mochilas, obteniéndose los siguientes datos:
+$$4,5 \quad 5,3 \quad 4,9 \quad 5,2 \quad 5,5 \quad 5,5 \quad 5,7 \quad 4,8 \quad 5,6 \quad 4,7 \quad 4,2 \quad 5,8 \quad 4,6.$$
+
+El peso de las mochilas se distribuye según una ley Normal de desviación típica 0,9 kg y media desconocida.
+
+<ol>
+    <li>Halle un intervalo de confianza, con un nivel de confianza del 98,5%, para estimar el peso medio de las mochilas escolares.</li>
+    <li>Para el mismo nivel de confianza, ¿qué tamaño muestral mínimo se debería tomar para que el error cometido al estimar el peso medio de estas mochilas sea inferior al 10%?</li>
+    <li>
+        El peso medio de las mochilas de los estudiantes de ESO de esa localidad es de 4,9 kg y tomando una muestra aleatoria de 36 mochilas, ¿qué distribución sigue la variable que mide el peso medio de estas 36 mochilas?
+        ¿Cuál es la probabilidad de que el peso medio no supere los 5,2 kg?
+    </li>
+</ol>

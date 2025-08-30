@@ -114,6 +114,7 @@
         "categorias": [
             "Álgebra",
             "Sistemas de ecuaciones",
+            "Problemas de sistemas",
             "Rango"
         ]
     },
@@ -166,7 +167,8 @@
         "ejercicio": 202531,
         "categorias": [
             "Álgebra",
-            "Sistemas de ecuaciones"
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
         ]
     },
     {
@@ -212,6 +214,56 @@
             "Estadística",
             "Distribución de medias muestrales",
             "Muestreo"
+        ]
+    },
+    {
+        "ejercicio": 202541,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202542,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202543,
+        "categorias": [
+            "Análisis",
+            "Recta tangente",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 202544,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202545,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202546,
+        "categorias": [
+            "Estadística",
+            "Estimación de la proporción"
+        ]
+    },
+    {
+        "ejercicio": 202547,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media",
+            "Distribución de medias muestrales"
         ]
     },
     {

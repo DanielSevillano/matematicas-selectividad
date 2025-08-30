@@ -1,0 +1,4 @@
+Un fabricante produce mensualmente dos tipos de abonos ecológicos, A y B, que vende en su totalidad, obteniendo unos beneficios de 15 y 10 euros por kilogramo (kg), respectivamente.
+La producción de abono del tipo A no puede superar los 200 kg; el doble de la producción de B menos el triple de la producción de A es a lo sumo 100 kg.
+Además, la producción de A más el doble de la producción de B es como mucho de 500 kg.
+Obtenga las cantidades que este fabricante debe producir de sendos abonos para obtener el máximo beneficio e indique el valor de este beneficio.

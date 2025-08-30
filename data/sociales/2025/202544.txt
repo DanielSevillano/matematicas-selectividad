@@ -1,0 +1,13 @@
+Una empresa de tecnología fabrica tres modelos de teléfonos móviles: Básico, Intermedio y Premium.
+Cada modelo puede estar fabricado con uno de los siguientes tipos de pantalla: A o B.
+El 35% de los móviles fabricados por esta empresa son del modelo Básico, el 45% son del Intermedio y el resto son Premium.
+Se sabe que el 80% de los móviles fabricados del modelo Básico tienen una pantalla del tipo A, mientras que en el modelo Premium solo un
+5% dispone de esta pantalla.
+Finalmente, el 53% de los teléfonos producidos tienen pantalla del tipo A.
+Se selecciona un teléfono al azar de la línea de producción.
+Determine la probabilidad de que:
+
+<ol>
+    <li>Tenga una pantalla del tipo A sabiendo que es del modelo Intermedio.</li>
+    <li>Sea del modelo Intermedio sabiendo que tiene pantalla del tipo A.</li>
+</ol>

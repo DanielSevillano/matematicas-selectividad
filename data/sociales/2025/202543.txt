@@ -1,0 +1,12 @@
+El Cesio 137 es un elemento radioactivo que se usa, entre otros, para tratamientos de radioterapia.
+La cantidad (en mg) de Cesio 137 que queda en el lugar de almacenamiento, transcurrido un número de años $t$, viene dada por la función:
+$$f(t) = 10 \cdot \left(\frac{1}{2}\right)^{\frac{t}{30}}, \quad t \geq 0.$$
+
+<ol>
+    <li>Calcule los años que deben pasar para que la cantidad de Cesio 137 que quede en el almacén sea la mitad de la que había al inicio.</li>
+    <li>Calcule la ecuación de la recta tangente a la gráfica de la función $f$, en el punto de abscisa $t = 10$.</li>
+    <li>
+        Indique si la función tiene asíntotas horizontales y verticales.
+        En caso afirmativo, calcúlelas.
+    </li>
+</ol>

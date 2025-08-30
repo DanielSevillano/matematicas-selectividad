@@ -1,0 +1,19 @@
+<ol>
+    <li>
+        La suma de tres números naturales es 113; al dividir el mayor entre el menor se obtiene de cociente 6 y resto 4 y al dividir el mayor entre el intermedio se obtiene de cociente 2 y resto 6.
+        Halle dichos números.
+    </li>
+
+    <li>
+        Dadas las matrices
+        $$A = \begin{pmatrix}
+            1 & -1 \\
+            2 & 3
+        \end{pmatrix} \quad \text{y} \quad
+        B = \begin{pmatrix}
+            0 & 1 \\
+            2 & 1
+        \end{pmatrix},$$
+        compruebe si la inversa de la suma de dichas matrices coincide con la suma de las inversas de cada una.
+    </li>
+</ol>
