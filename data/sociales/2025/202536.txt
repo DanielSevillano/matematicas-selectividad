@@ -1,0 +1,8 @@
+Una industria conservera envasa latas de anchoas cuyo peso en gramos sigue una distribución Normal con media poblacional desconocida y desviación típica 1 g.
+Para estimar la media poblacional, se selecciona al azar una muestra de 30 latas que dan un peso total de 2.404,5 g.
+
+<ol>
+    <li>Determine un intervalo de confianza, con un nivel de confianza del 99%, para estimar el peso medio de las latas envasadas por la conservera.</li>
+    <li>Calcule el tamaño mínimo de una nueva muestra para que, manteniendo el mismo nivel de confianza, el error máximo de estimación de la media poblacional sea menor que 0,3 g.</li>
+    <li>Explique, razonadamente, el efecto que tendría sobre el error máximo de estimación un aumento del número de latas seleccionadas en la muestra, manteniendo el mismo nivel de confianza, y explique también qué ocurriría con dicho error si se aumentara el nivel de confianza manteniendo el mismo tamaño muestral.</li>
+</ol>

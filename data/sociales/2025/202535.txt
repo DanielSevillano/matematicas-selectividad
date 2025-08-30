@@ -1,0 +1,9 @@
+En un estudio sobre la presencia de mujeres en las empresas tecnológicas se observa que el 20% de los operarios, el 40% de los ingenieros y el 30% de los directivos son mujeres.
+Se sabe que en estas empresas el 20% de las plantillas son directivos, el 35% son ingenieros y el resto son operarios.
+Se elige un trabajador al azar de una de estas empresas.
+
+<ol>
+    <li>¿Cuál es la probabilidad de que no sea un operario y sea mujer?</li>
+    <li>Si el trabajador elegido no es un operario, ¿cuál es la probabilidad de que sea mujer?</li>
+    <li>Si el trabajador elegido es hombre, ¿a qué colectivo es más probable que pertenezca?</li>
+</ol>

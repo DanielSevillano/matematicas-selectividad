@@ -1,0 +1,10 @@
+Un grupo de emprendedores valora crear una empresa y, para ello, ha encargado un estudio de mercado en el que se estima que los beneficios para los próximos 10 años, en millones de euros, vendrán dados por la función:
+$$B(t) = \frac{3t}{t+2} - 1, \quad 0 \leq t \leq 10,$$
+donde $t$ representa los años transcurridos desde la apertura de la empresa.
+
+<ol>
+    <li>¿En qué intervalo de tiempo la empresa no tendrá beneficios?</li>
+    <li>¿En qué momento se alcanza el máximo beneficio y a cuánto asciende su valor?</li>
+    <li>¿Cuánto tiempo ha de pasar para que la empresa obtenga un beneficio de 800.000€?</li>
+    <li>Si la función de beneficios se mantuviera y transcurrieran los años de manera indefinida, ¿a que valor tendería el beneficio de la empresa?</li>
+</ol>

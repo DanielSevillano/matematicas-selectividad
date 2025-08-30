@@ -1,0 +1,11 @@
+<ol>
+    <li>Dada la población $\{-4,-2, 1, 4, 6\}$, calcule la varianza de la distribución de las medias muestrales de tamaño 2 obtenidas mediante muestreo aleatorio simple.</li>
+    
+    <li>
+        Una empresa multinacional con 10.000 empleados desea realizar un estudio sobre la brecha salarial de género en su organización.
+        La empresa está dividida en tres niveles jerárquicos, en los que se tiene 1.000 empleados de nivel ejecutivo, siendo el 30% mujeres, 3.000 empleados de nivel medio, de los cuales el 55% son hombres, y el resto empleados de nivel operativo, de los que el 55% son mujeres.
+        Se quiere seleccionar una muestra estratificada de 2.000 empleados, manteniendo la proporción de cada nivel jerárquico y la distribución de género dentro de cada nivel.
+        ¿Cuántos empleados deben seleccionarse en cada nivel jerárquico?
+        Y dentro de cada uno, ¿cuántos hombres y cuántas mujeres deben seleccionarse?
+    </li>
+</ol>

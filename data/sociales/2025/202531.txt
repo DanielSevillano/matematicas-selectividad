@@ -1,0 +1,13 @@
+En una empresa de diseño gráfico, tres personas empleadas, Ana, Bruno y Carla, trabajan en un proyecto conjunto.
+
+<ol>
+    <li>
+        Se sabe que Ana ha dedicado un tercio del total de horas que ha necesitado el proyecto.
+        Además, la suma de las horas trabajadas por Ana y Bruno excede en 6 horas a las que ha dedicado Carla, quien a su vez ha trabajado 4 horas más que Bruno.
+        ¿Cuántas horas ha trabajado cada persona involucrada en el proyecto?
+    </li>
+
+    <li>
+        Si la empresa paga 25€ por cada hora de trabajo en el proyecto y de seguros sociales el 23,60% del salario, ¿cuánto tiene que abonar la empresa para pagar los costes de este proyecto?
+    </li>
+</ol>

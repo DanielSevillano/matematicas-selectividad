@@ -163,6 +163,58 @@
         ]
     },
     {
+        "ejercicio": 202531,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones"
+        ]
+    },
+    {
+        "ejercicio": 202532,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202533,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Asíntotas"
+        ]
+    },
+    {
+        "ejercicio": 202534,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202535,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202536,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
+        "ejercicio": 202537,
+        "categorias": [
+            "Estadística",
+            "Distribución de medias muestrales",
+            "Muestreo"
+        ]
+    },
+    {
         "ejercicio": 202551,
         "categorias": [
             "Álgebra",

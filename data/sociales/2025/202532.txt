@@ -1,0 +1,7 @@
+Una agricultora vende en su tienda online frutas y hortalizas envasándolas en cajas de dos tipos diferentes.
+La caja "El regalo de la tierra" la vende a 19,75€ y contiene 3 kg de frutas y 3,5 kg de hortalizas.
+La caja "El tesoro de la huerta" contiene 2 kg de frutas y 4 kg de hortalizas y la vende a 18,50€.
+La agricultora dispone semanalmente de 210 kg de hortalizas y 150 kg de frutas.
+Debe vender al menos 12 cajas de "El regalo de la tierra" y no menos de 15 cajas de "El tesoro de la huerta".
+¿Cuántas cajas de cada tipo debe vender a la semana para que el ingreso por la venta sea máximo?
+¿A cuánto asciende este ingreso?

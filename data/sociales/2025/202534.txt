@@ -1,0 +1,14 @@
+Las ventas de un producto (en miles de euros), en los 6 primeros años desde que se lanzó una campaña de publicidad, evolucionan de acuerdo con la siguiente función:
+$$V(t) = 4t^3 - 24t^2 + 36t + 100, \quad 0 \leq t \leq 6,$$
+siendo $t$ el tiempo transcurrido en años.
+
+<ol>
+    <li>
+        Estudie el crecimiento y decrecimiento de las ventas a lo largo de los 6 años.
+        Calcule los extremos.
+    </li>
+
+    <li>Represente gráficamente la función $V$.</li>
+
+    <li>Calcule el área de la región limitada por la gráfica de $V$, la recta $t = 6$ y los ejes de coordenadas.</li>
+</ol>
