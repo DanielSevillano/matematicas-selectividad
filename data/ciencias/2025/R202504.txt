@@ -27,6 +27,6 @@
         $$\pi \equiv -2x + z + 2 = 0 \Leftrightarrow 2x - z - 2 = 0.$$
 
         Por tanto, la distancia del punto $O$ al plano $\pi$ viene dada por:
-        $$\dist(O, \pi) = \frac{|-2|}{\sqrt{5}} = \frac{2}{\sqrt{5}}.$$
+        $$\dist(O, \pi) = \frac{|-2|}{\sqrt{5}} = \frac{2}{\sqrt{5}} \; u.$$
     </li>
 </ol>

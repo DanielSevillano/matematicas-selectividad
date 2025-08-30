@@ -26,6 +26,6 @@
 
         Luego $P(0, 7, 10)$ es un punto de la recta $r$.
         Por tanto:
-        $$\dist(r, \pi) = \dist(P, \pi) = \frac{|-8 \cdot 0 - 7 - 2 \cdot 10 - 5|}{\sqrt{8^2 + 1^2 + 2^2}} = \frac{32}{\sqrt{69}} \; u^2.$$
+        $$\dist(r, \pi) = \dist(P, \pi) = \frac{|-8 \cdot 0 - 7 - 2 \cdot 10 - 5|}{\sqrt{8^2 + 1^2 + 2^2}} = \frac{32}{\sqrt{69}} \; u.$$
     </li>
 </ol>
