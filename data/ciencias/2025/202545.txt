@@ -1,0 +1,15 @@
+Sean las matrices
+$$A = \begin{pmatrix}
+    a & 3 \\
+    b & 1
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    1 & 1 \\
+    -1 & 2 \\
+    1 & 1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Determina $a$ y $b$ para que $A^2 = 4I$, donde $I$ es la matriz identidad de orden 2.</li>
+    <li>Para $a = -1$ y $b = 1$, calcula, si es posible, la matriz $X$ que cumple $A^2X = B^t$.</li>
+</ol>

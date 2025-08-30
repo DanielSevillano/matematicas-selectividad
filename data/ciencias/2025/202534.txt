@@ -1,26 +1,10 @@
-Se considera la matriz 
-$$M = \begin{pmatrix}
-    a_{11} & a_{12} & a_{13} \\
-    a_{21} & a_{22} & a_{23} \\
-    a_{31} & a_{32} & a_{33}
-\end{pmatrix}$$
-con determinante igual a -5.
+Considera la matriz
+$$A = \begin{pmatrix}
+    0 & -1 \\
+    1 & 0
+\end{pmatrix}.$$
 
 <ol>
-    <li>
-        Calcula
-        $$\begin{vmatrix}
-        a_{11} & a_{31} & 2a_{21} \\
-        3a_{12} & 3a_{32} & 6a_{22} \\
-        2a_{13} & 2a_{33} & 4a_{23}
-        \end{vmatrix}.$$
-    </li>
-    <li>
-    Calcula
-        $$\begin{vmatrix}
-            2a_{11} - 3a_{31} & 2a_{12} - 3a_{32} & 4a_{13} - 6a_{33} \\
-            a_{21} & a_{22} & 2a_{23} \\
-            a_{31} & a_{32} & 2a_{33}
-        \end{vmatrix}.$$
-    </li>
+    <li>Calcula $A^4$ y $A^{31}$.</li>
+    <li>Halla razonadamente el determinante de la matriz $4A^{25}(A^t)^4$.</li>
 </ol>

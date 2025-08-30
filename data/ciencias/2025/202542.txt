@@ -1,0 +1,4 @@
+Un náufrago se encuentra en una isla situada en el punto de coordenadas $(2, 0)$ de un plano.
+Se sabe que un ferry navega en el mismo plano siempre en la trayectoria dada por la gráfica de la función $f(x) = \sqrt{x + 1}$.
+¿Hacia qué punto de la trayectoria debe nadar el náufrago para recorrer la menor distancia posible?
+Calcula dicha distancia.

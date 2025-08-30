@@ -1,15 +1,14 @@
 Sean las matrices
 $$A = \begin{pmatrix}
-    a & 3 \\
-    b & 1
-\end{pmatrix}, \quad
+    2 & 2 \\
+    3 & 4
+\end{pmatrix} \quad \text{y} \quad
 B = \begin{pmatrix}
-    1 & 1 \\
-    -1 & 2 \\
-    1 & 1
+    3 & 1 \\
+    2 & 2
 \end{pmatrix}.$$
 
 <ol>
-    <li>Determina $a$ y $b$ para que $A^2 = 4I$, donde $I$ es la matriz identidad de orden 2.</li>
-    <li>Para $a = -1$ y $b = 1$, calcula, si es posible, la matriz $X$ que cumple $A^2X = B^t$.</li>
+    <li>Halla razonadamente el determinante de una matriz $X$ que verifica $X^3AX^2 = B^2$.</li>
+    <li>Determina, si existe, una matriz $Y$ que verifique $A^3YB^{-1} = A^2$.</li>
 </ol>

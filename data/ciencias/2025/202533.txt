@@ -1,7 +1,7 @@
-Sea la función $f : (-1, 1) \to \mathbb{R}$ definida por
-$$f(x) = \frac{1 + |x|}{1 - |x|}.$$
+Sean las funciones $f: (-1, 0) \cup (0, 1) \to \mathbb{R}$ y $g: \mathbb{R} \to \mathbb{R}$, definidas por
+$$f(x) = \ln\left(\frac{x^2}{e}\right) \quad \text{y} \quad g(x) = x^3 + 2.$$
 
 <ol>
-    <li>Estudia la derivabilidad de $f$.</li>
-    <li>Halla los intervalos de crecimiento y de decrecimiento de $f$.</li>
+    <li>Calcula $a \neq 0$ de forma que en el punto $(a, f(a))$ la recta normal a la gráfica de la función $f$ sea paralela a la recta tangente a la gráfica de $g$ en el punto $(a, g(a))$.</li>
+    <li>Determina los intervalos de crecimiento y de decrecimiento de la función $f$.</li>
 </ol>

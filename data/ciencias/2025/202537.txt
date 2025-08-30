@@ -1,6 +1,8 @@
-El peso de las manzanas producidas en una granja sigue una distribución normal de media 200 gramos y desviación típica desconocida.
+Una empresa fabrica bolígrafos en tres provincias: Almería, Barcelona y Cáceres.
+El porcentaje de producción total de bolígrafos que se fabrica en cada provincia es, respectivamente, del 20%, 50% y 30%.
+Además, el porcentaje de bolígrafos defectuosos en cada una de ellas es del 7%, 6% y 2%, respectivamente.
 
 <ol>
-    <li>Si el 33% de las manzanas pesan más de 230 gramos, calcula la desviación típica del peso de las manzanas.</li>
-    <li>Si la desviación típica es de 50 gramos, calcula el porcentaje de manzanas que pesen entre 160 y 220 gramos.</li>
+    <li>¿Cuál es la probabilidad de que un bolígrafo, tomado al azar, sea defectuoso?</li>
+    <li>Si se ha escogido un bolígrafo no defectuoso, ¿cuál es la probabilidad de que provenga de Almería?</li>
 </ol>

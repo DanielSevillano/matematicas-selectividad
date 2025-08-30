@@ -1,6 +1,11 @@
-Considera las funciones $f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = -e^x$ y $g(x) = -e^{-x}$.
+Considera la recta
+$$r \equiv \begin{cases}
+    x + y + z = 0, \\
+    y - z = 0
+\end{cases}$$
+y el punto $P(2, 1, 0)$.
 
 <ol>
-    <li>Esboza las gráficas de dichas funciones.</li>
-    <li>Calcula la suma de las áreas de los recintos acotados y limitados por las gráficas de dichas funciones y las rectas $x = -1$ y $x = 1$.</li>
+    <li>Halla la distancia del punto $P$ a la recta $r$.</li>
+    <li>Calcula la ecuación del plano que contiene a la recta $r$ y al punto $P$.</li>
 </ol>

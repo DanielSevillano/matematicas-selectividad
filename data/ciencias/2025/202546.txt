@@ -1,0 +1,6 @@
+Considera las funciones $f, g: \mathbb{R} \to \mathbb{R}$ definidas por $f(x) = -e^x$ y $g(x) = -e^{-x}$.
+
+<ol>
+    <li>Esboza las gráficas de dichas funciones.</li>
+    <li>Calcula la suma de las áreas de los recintos acotados y limitados por las gráficas de dichas funciones y las rectas $x = -1$ y $x = 1$.</li>
+</ol>

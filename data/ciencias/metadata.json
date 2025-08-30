@@ -166,21 +166,24 @@
     {
         "ejercicio": 202531,
         "categorias": [
-            "Geometría"
+            "Ánálisis",
+            "Integrales"
         ]
     },
     {
         "ejercicio": 202532,
         "categorias": [
             "Análisis",
-            "Optimización"
+            "Continuidad",
+            "Derivabilidad",
+            "Monotonía y extremos"
         ]
     },
     {
         "ejercicio": 202533,
         "categorias": [
             "Análisis",
-            "Derivabilidad",
+            "Recta tangente",
             "Monotonía y extremos"
         ]
     },
@@ -188,6 +191,7 @@
         "ejercicio": 202534,
         "categorias": [
             "Álgebra",
+            "Potencias",
             "Determinantes"
         ]
     },
@@ -195,11 +199,61 @@
         "ejercicio": 202535,
         "categorias": [
             "Álgebra",
+            "Determinantes",
             "Ecuaciones matriciales"
         ]
     },
     {
         "ejercicio": 202536,
+        "categorias": [
+            "Geometría",
+            "Distancia"
+        ]
+    },
+    {
+        "ejercicio": 202537,
+        "categorias": [
+            "Probabilidad",
+            "Probabilidad total"
+        ]
+    },
+    {
+        "ejercicio": 202541,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "ejercicio": 202542,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 202543,
+        "categorias": [
+            "Análisis",
+            "Derivabilidad",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202544,
+        "categorias": [
+            "Álgebra",
+            "Determinantes"
+        ]
+    },
+    {
+        "ejercicio": 202545,
+        "categorias": [
+            "Álgebra",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202546,
         "categorias": [
             "Análisis",
             "Integrales",
@@ -207,7 +261,7 @@
         ]
     },
     {
-        "ejercicio": 202537,
+        "ejercicio": 202547,
         "categorias": [
             "Probabilidad",
             "Distribución normal"
