@@ -1,0 +1,17 @@
+<p>
+    En primer lugar, hallamos una primitiva de la primera rama integrando por partes.
+    \begin{align}
+        u = x & \Rightarrow u' = 1, \\
+        v' = \sin(2x) & \Rightarrow v = -\frac{1}{2}\cos(x).
+    \end{align}
+
+    De esta forma,
+    $$\int x\sin(2x)dx = -\frac{1}{2}x\cos(2x) + \frac{1}{2} \int \cos(2x)dx = -\frac{1}{2}x\cos(2x) + \frac{1}{4}\sin(2x).$$
+</p>
+
+<p>
+    Calculamos la integral definida.
+    \begin{align}
+        \int_{-\frac{\pi}{4}}^1 f(x)dx & = \int_{-\frac{\pi}{4}}^0 x\sin(2x)dx + \int_0^1 (\cos(\pi x) - 1)dx = \left[-\frac{1}{2}x\cos(2x) + \frac{1}{4}\sin(2x)\right]_{-\frac{\pi}{4}}^0 + \left[\frac{1}{\pi}\sin(\pi x) - x\right]_0^1 = \\
+        & = -\left(-\frac{1}{4}\right) + (-1) = -\frac{3}{4}.
+    \end{align}

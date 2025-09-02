@@ -76,6 +76,7 @@
     },
     {
         "ejercicio": 202513,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Integrales"
