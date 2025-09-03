@@ -1,0 +1,45 @@
+<ol>
+    <li>
+        Para hallar el punto simétrico $P'$ de $P$ con respecto a $\pi$, trazamos una recta $r$ perpendicular al plano que pase por el punto $P$.
+        Al ser perpendicular a $\pi$, su vector director es $\vec{d}_r = \vec{n}_\pi = (2, 1, 2)$.
+        Así que la ecuación de la recta $r$ es:
+        $$r \equiv \begin{cases}
+            x = 1 + 2\lambda, \\
+            y = \lambda, \\
+            z = 1 + 2\lambda,
+        \end{cases} \quad \lambda \in \mathbb{R}.$$
+
+        A continuación, hallamos el punto de intersección $Q$ entre la recta y el plano sustituyendo las ecuaciones paramétricas de $r$ en la ecuación del plano.
+        $$2(1 + 2\lambda) + \lambda + 2(1 + 2\lambda) + 5 = 0 \Leftrightarrow 2 + 4\lambda + \lambda + 2 + 4\lambda + 5 = 0 \Leftrightarrow 9\lambda + 9 = 0 \Leftrightarrow \lambda = -1.$$
+
+        Por tanto, el punto de intersección es $Q(-1, -1, -1)$.
+        De esta forma, podemos hallar $P'$ como el punto simétrico de $P$ con respecto a $Q$.
+        Si llamamos $P'(a, b, c)$, ha de verificarse:
+        $$\begin{cases}
+            \frac{1 + a}{2} = -1 \Leftrightarrow a = -3, \\
+            \frac{b}{2} = -1 \Leftrightarrow b = -2, \\
+            \frac{1 + c}{2} = -1 \Leftrightarrow c = -3.
+        \end{cases}$$
+
+        Por tanto, el punto simétrico de $P$ con respecto al plano $\pi$ es $P'(-3, -2, -3)$.
+    </li>
+
+    <li>
+        Llamamos $\tau$ al plano que nos piden.
+        Como $\tau$ es un plano paralelo a $\pi$, su vector normal es $\vec{n}_\tau = \vec{n}_\pi = (2, 1, 2)$.
+        Así que la ecuación del plano $\tau$ es de la forma:
+        $$\tau \equiv 2x + y + 2z + d = 0.$$
+
+        El punto $Q(-1, -1, -1)$ pertenece al plano $\pi$, así que la distancia entre $\pi$ y $\tau$ viene dada por:
+        $$\dist(\pi, \tau) = \dist(Q, \tau) = \frac{|2 \cdot (-1) + (-1) + 2 \cdot (-1) + d|}{\sqrt{2^2 + 1^2 + 2^2}} = \frac{|-5 + d|}{3}.$$
+
+        Para que la distancia sea de 2 unidades, ha de verificarse:
+        $$\dist(\pi, \tau) = 2 \Leftrightarrow \frac{|-5 + d|}{3} = 2 \Leftrightarrow |-5 + d| = 6 \Leftrightarrow \begin{cases}
+            -5 + d = 6 \Leftrightarrow d = 11, \\
+            -5 + d = -6 \Leftrightarrow d = -1.
+        \end{cases}$$
+
+        Por tanto, las ecuaciones de los planos son:
+        $$\tau_1 \equiv 2x + y + 2z + 11 = 0 \quad \text{y} \quad \tau_2 \equiv 2x + y + 2z - 1 = 0.$$
+    </li>
+</ol>

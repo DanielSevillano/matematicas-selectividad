@@ -93,6 +93,7 @@
     },
     {
         "ejercicio": 202515,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Punto simétrico",
