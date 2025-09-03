@@ -1,0 +1,27 @@
+<p>
+    Llamamos $H$ a aprobar Historia y $M$ a aprobar Matemáticas.
+    Sabemos que:
+    $$P(H) = 0,5, \quad P(M) = 0,7 \quad \text{y} \quad P(H \cap M) = 0,3.$$
+</p>
+
+<ol>
+    <li>
+        La probabilidad de que apruebe solo una de las dos asignaturas es:
+        $$P(H - M) + P(M - H) = P(H) - P(H \cap M) + P(M) - P(H \cap M) = 0,5 - 0,3 + 0,7 - 0,3 = 0,6.$$
+    </li>
+
+    <li>
+        La probabilidad de que no apruebe más de una asignatura es:
+        $$P((H \cap M)^c) = 1 - P(H \cap M) = 1 - 0,3 = 0,7.$$
+    </li>
+
+    <li>
+        La probabilidad de que apruebe Historia sabiendo que ha suspendido Matemáticas es:
+        $$P(H|M^c) = \frac{P(H \cap M^c)}{P(M^c)} = \frac{P(H) - P(H \cap M)}{1 - P(M)} = \frac{0,5 - 0,3}{1 - 0,7} = \frac{2}{3}.$$
+    </li>
+
+    <li>
+        Como $P(H) \neq P(H|M^c)$, los sucesos $H$ y $M$ no son independientes.
+        Por otro lado, como $P(H \cap M) > 0$, los sucesos no son incompatibles.
+    </li>
+</ol>
