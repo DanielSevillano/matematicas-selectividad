@@ -1,0 +1,20 @@
+<ol>
+    <li>
+        La distribución de la media muestral $\overline{X}$ sigue una normal $N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)$ con $\mu = 10,5$, $\sigma = 1,5$ y $n = 25$.
+        Es decir,
+        $$\overline{X} \sim N\left(10,5; \, \frac{1,5}{\sqrt{25}}\right) = N(10,5; \, 0,3).$$
+
+        La probabilidad de que el tiempo medio de adaptación de esta muestra supere los 10 días es:
+        $$P(\overline{X} > 10) = P\left(Z > \frac{10 - 10,5}{0,3}\right) = P(Z > -1,67) = P(Z < 1,67) = 0,9525.$$
+    </li>
+
+    <li>
+        La probabilidad de que el tiempo medio de adaptación esté entre 8 y 11 días es:
+        \begin{align}
+            P(8 < \overline{X} < 11) & = P\left(\frac{8 - 10,5}{0,3} < Z < \frac{11 - 10,5}{0,3}\right) = P(-8,33 < Z < 1,67) = \\
+            & = P(Z < 1,67) - P(Z < -8,33) = 0,9525.
+        \end{align}
+
+        Por tanto, el porcentaje de muestras de tamaño 25 que presenta un tiempo medio de adaptación entre 8 y 11 días es el 95,25%.
+    </li>
+</ol>

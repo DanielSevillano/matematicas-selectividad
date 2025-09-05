@@ -313,6 +313,7 @@
     },
     {
         "ejercicio": 202557,
+        "resuelto": true,
         "categorias": [
             "Estadística",
             "Distribución de medias muestrales"
