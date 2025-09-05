@@ -300,6 +300,7 @@
     },
     {
         "ejercicio": 202555,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

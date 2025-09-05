@@ -69,7 +69,7 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ### Ejercicios resueltos de sociales
 - [ ] 2025
     - [x] Junio
-    - [ ] Julio (4, 7)
+    - [ ] Julio (4, 5, 7)
     - [ ] Reservas 1 a 4
 - [x] 2024 a 2022
 - [ ] 2021
