@@ -448,6 +448,10 @@ mjx-container {
     overflow-y: hidden;
 }
 
+mjx-stretchy-h>mjx-ext {
+    padding: 0 ! important;
+}
+
 /********************
 Adaptabilidad
 ********************/
