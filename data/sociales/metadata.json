@@ -268,6 +268,7 @@
     },
     {
         "ejercicio": 202551,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas de ecuaciones",
