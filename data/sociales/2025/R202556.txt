@@ -1,0 +1,26 @@
+<ol>
+    <li>
+        La proporción muestral viene dada por el punto medio del intervalo.
+        $$p = \frac{0,5616 + 0,7184}{2} = 0,64.$$
+    </li>
+
+    <li>
+        El error cometido viene dado por la mitad de la amplitud del intervalo.
+        $$E = \frac{0,7184 - 0,5616}{2} = 0,0784.$$
+    </li>
+
+    <li>
+        Como el nivel de confianza es del 95%, entonces:
+        $$\alpha = 1 - 0,95 = 0,05 \Rightarrow 1 - \frac{\alpha}{2} = 1 - \frac{0,05}{2} = 0,975 \Rightarrow z_{\alpha/2} = 1,96.$$
+        
+        El error máximo cometido viene dado por:
+        $$E = z_{\alpha/2} \cdot \sqrt{\frac{p(1-p)}{n}}.$$
+
+        Despejando en la ecuación, podemos calcular el tamaño de la muestra como:
+        $$n = \frac{z_{\alpha/2}^2 \cdot p \cdot (1-p)}{E^2} = \frac{1,96^2 \cdot 0,64 \cdot (1 - 0,64)}{0,0784^2} = 144.$$
+    </li>
+
+    <li>
+        La amplitud del intervalo disminuye al aumentar el tamaño de la muestra, porque el error máximo cometido se reduce.
+    </li>
+</ol>
