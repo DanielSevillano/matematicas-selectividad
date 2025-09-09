@@ -285,6 +285,7 @@
     },
     {
         "ejercicio": 202553,
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Continuidad",

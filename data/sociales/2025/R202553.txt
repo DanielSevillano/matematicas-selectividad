@@ -1,0 +1,116 @@
+<ol>
+    <li>
+        <ul>
+            <li>
+                Si $0 \leq t \leq 1$,
+                \begin{align}
+                    & f(t) = 5.931,10 \Leftrightarrow 5.000 \cdot (1 + 0,05t) = 5.931,10 \Leftrightarrow 1 + 0,05t = 1,1862 \Leftrightarrow 0,05t = 0,1862 \Leftrightarrow \\
+                    & \Leftrightarrow t = 3,724 \notin [0, 1].
+                \end{align}
+            </li>
+
+            <li>
+                Si $t > 1$,
+                $$f(t) = 5.931,10 \Leftrightarrow 5.000 \cdot 1,05^t = 5.931,10 \Leftrightarrow 1,05^t = 1,1862 \Leftrightarrow t = \log_{1,05}(1,1862) \approx 3,5.$$
+            </li>
+        </ul>
+
+        Por tanto, debe mantener invertido el dinero alrededor de 3 años y medio.
+    </li>
+
+    <li>
+        Calculamos los intereses.
+        $$I = f(4) - f(2) = 5.000 \cdot 1,05^4 - 5.000 \cdot 1,05^2 \approx 565,0313 \, \text{€}.$$
+    </li>
+
+    <li>
+        Estudiamos la continuidad y la derivabilidad de $f$.
+
+        <ul>
+            <li>
+                Si $t \in [0, +\infty)$ con $t \neq 1$, $f$ es continua y derivable con:
+                $$f'(t) = \begin{cases}
+                    250, & \text{si } 0 < t < 1, \\
+                    5.000\ln(1,05) \cdot 1,05^t, & \text{si } t > 1.
+                \end{cases}$$
+            </li>
+
+            <li>
+                <p>
+                    Estudiamos la continuidad en $t = 1$.
+                    \begin{align}
+                        & \lim_{t \to 1^-} f(t) = \lim_{t \to 1^-} 5.000 \cdot (1 + 0,05t) = 5.250, \\
+                        & \lim_{t \to 1^+} f(t) = \lim_{t \to 1^+} 5.000 \cdot 1,05^t = 5.250, \\
+                        & f(1) = 5.250.
+                    \end{align}
+                    Observamos que:
+                    $$\lim_{t \to 1^-} f(t) = \lim_{t \to 1^+} f(t) = f(1).$$
+                    Así que $f$ es continua en $t = 1$.
+                </p>
+
+                <p>
+                    Pasamos a estudiar la derivabilidad.
+                    \begin{align}
+                        & f'_-(1) = \lim_{t \to 1^-} f'(t) = \lim_{t \to 1^-} 250 = 250, \\
+                        & f'_+(1) = \lim_{t \to 1^+} f'(t) = \lim_{t \to 1^+} 5.000 \cdot 1,05^t \cdot \ln(1,05) = 5.250\ln(1,05) \approx 256,1484.
+                    \end{align}
+
+                    Observamos que $f'_-(1) \neq f'_+(1)$, así que $f$ no es derivable en $t = 1$.
+                </p>
+            </li>
+        </ul>
+
+        Por tanto, $f$ es continua en $[0, +\infty]$ y derivable en $[0, 1) \cup (1, +\infty)$.
+    </li>
+
+    <li>
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+
+        <ul>
+            <li>
+                Si $0 \leq t < 1$, $f'(t) = 250 \neq 0$.
+            </li>
+
+            <li>
+                Si $t > 1$,
+                $$f'(t) = 5.000 \cdot 1,05^t \cdot \ln(1,05) \neq 0.$$
+            </li>
+        </ul>
+
+        Así que la función no tiene ningún punto crítico.
+        Consideramos $t = 1$ por ser no derivable.
+        Estudiamos el signo de la derivada.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, 1)$</th>
+                    <th>$(1, +\infty)$</th>
+                </tr>
+
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
+
+        <p>
+            Por tanto, $f$ es creciente en todo su dominio.
+        </p>
+
+        <p>
+            Representamos gráficamente la función.
+        </p>
+
+        <img src="img/sociales/R202553.png" alt="Figura" loading="lazy">
+    </li>
+</ol>
