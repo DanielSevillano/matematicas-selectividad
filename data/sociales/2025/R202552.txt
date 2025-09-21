@@ -1,0 +1,93 @@
+<p>
+    Llamamos $x$ al número de unidades de lechuga iceberg e $y$ al de lechuga romana.
+</p>
+
+<p>
+    Las restricciones del problema son:
+    $$\begin{cases}
+        x \geq \frac{y}{2}, \\
+        x \leq 1.500, \\
+        x + y \geq 900, \\
+        x + y \leq 2.400, \\
+        x \geq 0, \\
+        y \geq 0
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        2x \geq y, \\
+        x \leq 1.500, \\
+        x + y \geq 900, \\
+        x + y \leq 2.400, \\
+        x \geq 0, \\
+        y \geq 0.
+    \end{cases}$$
+
+    La función objetivo a minimizar es:
+    $$F(x, y) = 15x + 18y.$$
+</p>
+
+<p>
+    Representamos la región.
+    <img src="img/sociales/R202552.png" alt="Figura" loading="lazy">
+
+    Hallamos los vértices desconocidos.
+    
+    <ul>
+        <li>
+            Para determinar el vértice $A$, resolvemos el sistema:
+            $$\begin{cases}
+                2x = y, \\
+                x + y = 900
+            \end{cases} \Leftrightarrow \begin{cases}
+                x = 300, \\
+                y = 600.
+            \end{cases}$$
+        </li>
+
+        <li>
+            Para determinar el vértice $B$, resolvemos el sistema:
+            $$\begin{cases}
+                2x = y, \\
+                x + y = 2.400
+            \end{cases} \Leftrightarrow \begin{cases}
+                x = 800, \\
+                y = 1.600.
+            \end{cases}$$
+        </li>
+
+        <li>
+            Para determinar el vértice $C$, resolvemos el sistema:
+            $$\begin{cases}
+                x = 1.500, \\
+                x + y = 2.400
+            \end{cases} \Leftrightarrow \begin{cases}
+                x = 1.500, \\
+                y = 900.
+            \end{cases}$$
+        </li>
+
+        <li>
+            Para determinar el vértice $E$, resolvemos el sistema:
+            $$\begin{cases}
+                x + y = 900, \\
+                y = 0
+            \end{cases} \Leftrightarrow \begin{cases}
+                x = 900, \\
+                y = 0.
+            \end{cases}$$
+        </li>
+    </ul>
+
+    Por tanto, los vértices son:
+    $$A(300, 600), \quad B(800, 1.600), \quad C(1.500, 900), \quad D(1.500, 0) \quad \text{y} \quad E(900, 0).$$
+</p>
+
+<p>
+    Por el teorema fundamental de la programación lineal, el mínimo de la función se alcanza en uno de los vértices de la región en caso de existir.
+    Evaluamos la función en los vértices.
+    \begin{align}
+        & F(A) = F(300, 600) = 15.300, & & F(B) = F(800, 1.600) = 40.800, & & F(C) = F(1.500, 900) = 38.700, \\
+        & F(D) = F(1.500, 0) = 22.500, & & F(E) = F(900, 0) = 13.500.
+    \end{align}
+
+    Por tanto, el consumo de agua mínimo se alcanza cultivando 900 lechugas iceberg y ninguna lechuga romana.
+</p>
