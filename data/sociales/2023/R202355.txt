@@ -106,7 +106,7 @@
     </li>
 
     <li>
-        La probabilidad de que un jugador consiga en tercer premio es:
+        La probabilidad de que un jugador consiga el tercer premio es:
         \begin{align}
             & P(E_3) = P(V_1 \cap A_1) + P(A_1 \cap V_2) + P(A_1 \cap R_2) + P(R_1 \cap A_2) = \\
             & = P(V_1) \cdot P(A_1|V_1) + P(A_1) \cdot P(V_2|A_1) + P(A_1) \cdot P(R_2|A_1) + P(R_1) \cdot P(A_2|R_1) = \\
