@@ -30,6 +30,9 @@ window.MathJax = {
             }
         }
     },
+    output: {
+        displayOverflow: "scroll"
+    },
     startup: {
         ready: () => {
             MathJax.startup.defaultReady();
