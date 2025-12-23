@@ -120,6 +120,26 @@ a.acento:active {
     background-color: var(--accent-color-active);
 }
 
+.boton-segmentado {
+    display: flex;
+    gap: 4px;
+}
+
+.boton-segmentado a {
+    max-width: none;
+}
+
+.boton-segmentado a:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.boton-segmentado a:last-child {
+    --accent-color: hsl(208, 100%, 32%);
+    --accent-color-hover: hsl(208, 75%, 38%);
+    --accent-color-active: hsl(208, 58%, 44%);
+    border-radius: 0 4px 4px 0;
+}
+
 /********************
 Acordeón
 ********************/
