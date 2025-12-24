@@ -134,10 +134,23 @@ a.acento:active {
 }
 
 .boton-segmentado a:last-child {
-    --accent-color: hsl(208, 100%, 32%);
-    --accent-color-hover: hsl(208, 75%, 38%);
-    --accent-color-active: hsl(208, 58%, 44%);
     border-radius: 2px 4px 4px 2px;
+}
+
+@media (prefers-color-scheme: light) {
+    .boton-segmentado a:last-child {
+        --accent-color: hsl(208, 100%, 32%);
+        --accent-color-hover: hsl(208, 75%, 38%);
+        --accent-color-active: hsl(208, 58%, 44%);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .boton-segmentado a:last-child {
+        --accent-color: hsl(201, 100%, 63%);
+        --accent-color-hover: hsl(201, 80%, 57%);
+        --accent-color-active: hsl(201, 64%, 53%);
+    }
 }
 
 /********************
