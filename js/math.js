@@ -265,20 +265,20 @@ async function obtenerExamenGenerado(modalidad, ejercicios) {
 
     const promesas = [];
 
-    for (let numero = 1; numero <= 7; numero++) {
+    for (let numero = 1; numero <= 6; numero++) {
         const objeto = ejercicios[numero - 1];
         const ejercicio = new Ejercicio(modalidad, objeto.ejercicio, objeto.resuelto, objeto.categorias);
         const articulo = document.createElement("article");
 
-        if (numero == 1 || numero % 2 == 0) {
+        if (numero <= 2 || numero % 2 == 1) {
             const indicacion = document.createElement("div");
             indicacion.classList.add("indicacion");
             if (modalidad == "ciencias") {
-                if (numero == 1) indicacion.innerHTML = "<b>Bloque obligatorio.</b> Resuelve el siguiente ejercicio";
-                else indicacion.innerHTML = "<b>Bloque con optatividad " + numero / 2 + ".</b> Resuelve solo uno de los siguientes ejercicios";
+                if (numero <= 2) indicacion.innerHTML = "<b>Bloque obligatorio " + numero + ".</b> Resuelve el siguiente ejercicio";
+                else indicacion.innerHTML = "<b>Bloque con optatividad " + (numero - 1) / 2 + ".</b> Resuelve solo uno de los siguientes ejercicios";
             } else {
-                if (numero == 1) indicacion.innerHTML = "<b>Bloque obligatorio.</b> Resuelva el siguiente ejercicio";
-                else indicacion.innerHTML = "<b>Bloque con optatividad " + numero / 2 + ".</b> Resuelva solo uno de los siguientes ejercicios";
+                if (numero <= 2) indicacion.innerHTML = "<b>Bloque obligatorio " + numero + ".</b> Resuelva el siguiente ejercicio";
+                else indicacion.innerHTML = "<b>Bloque con optatividad " + (numero - 1) / 2 + ".</b> Resuelva solo uno de los siguientes ejercicios";
             }
 
             const grupo = document.createElement("div");

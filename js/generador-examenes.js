@@ -86,9 +86,9 @@ async function procesar(event) {
         const ejerciciosProbabilidad = metadatos.filter(ejercicio => ejercicio.categorias.includes("Probabilidad"));
 
         const bloques = ["Funciones", "Integrales", "Álgebra", "Geometría"];
-        const indiceObligatorio = Math.floor(Math.random() * bloques.length);
-        const bloqueObligatorio = bloques[indiceObligatorio];
-        bloques.splice(indiceObligatorio, 1);
+        const indiceOpcional = Math.floor(Math.random() * bloques.length);
+        const bloqueOpcional = bloques[indiceOpcional];
+        bloques.splice(indiceOpcional, 1);
 
         const indiceFinal = Math.floor(Math.random() * bloques.length);
         const bloqueFinal = bloques[indiceFinal];
@@ -96,29 +96,27 @@ async function procesar(event) {
 
         const ejercicios = [];
 
-        if (bloqueObligatorio == "Funciones") ejercicios.push(ejercicioAleatorio(ejerciciosFunciones1));
-        else if (bloqueObligatorio == "Integrales") ejercicios.push(ejercicioAleatorio(ejerciciosIntegrales));
-        else if (bloqueObligatorio == "Álgebra") ejercicios.push(ejercicioAleatorio(ejerciciosAlgebra));
-        else if (bloqueObligatorio == "Geometría") ejercicios.push(ejercicioAleatorio(ejerciciosGeometria1));
+        if (bloques.includes("Funciones")) ejercicios.push(ejercicioAleatorio(ejerciciosFunciones1));
+        if (bloques.includes("Integrales")) ejercicios.push(ejercicioAleatorio(ejerciciosIntegrales));
+        if (bloques.includes("Álgebra")) ejercicios.push(ejercicioAleatorio(ejerciciosAlgebra));
+        if (bloques.includes("Geometría")) ejercicios.push(ejercicioAleatorio(ejerciciosGeometria1));
 
-        bloques.forEach(bloque => {
-            if (bloque == "Funciones") {
-                const referencia = ejercicioAleatorio(ejerciciosFunciones1);
-                ejercicios.push(referencia);
-                ejercicios.push(ejercicioAleatorio(ejerciciosFunciones2, referencia));
-            } else if (bloque == "Integrales") {
-                const referencia = ejercicioAleatorio(ejerciciosIntegrales);
-                ejercicios.push(referencia);
-                ejercicios.push(ejercicioAleatorio(ejerciciosIntegrales, referencia));
-            } else if (bloque == "Álgebra") {
-                ejercicios.push(ejercicioAleatorio(ejerciciosMatrices));
-                ejercicios.push(ejercicioAleatorio(ejerciciosSistemas));
-            } else if (bloque == "Geometría") {
-                const referencia = ejercicioAleatorio(ejerciciosGeometria1);
-                ejercicios.push(referencia);
-                ejercicios.push(ejercicioAleatorio(ejerciciosGeometria2, referencia));
-            }
-        });
+        if (bloqueOpcional == "Funciones") {
+            const referencia = ejercicioAleatorio(ejerciciosFunciones1);
+            ejercicios.push(referencia);
+            ejercicios.push(ejercicioAleatorio(ejerciciosFunciones2, referencia));
+        } else if (bloqueOpcional == "Integrales") {
+            const referencia = ejercicioAleatorio(ejerciciosIntegrales);
+            ejercicios.push(referencia);
+            ejercicios.push(ejercicioAleatorio(ejerciciosIntegrales, referencia));
+        } else if (bloqueOpcional == "Álgebra") {
+            ejercicios.push(ejercicioAleatorio(ejerciciosMatrices));
+            ejercicios.push(ejercicioAleatorio(ejerciciosSistemas));
+        } else if (bloqueOpcional == "Geometría") {
+            const referencia = ejercicioAleatorio(ejerciciosGeometria1);
+            ejercicios.push(referencia);
+            ejercicios.push(ejercicioAleatorio(ejerciciosGeometria2, referencia));
+        }
 
         if (bloqueFinal == "Funciones") {
             ejercicios.push(ejercicioAleatorio(ejerciciosFunciones1));
@@ -143,19 +141,18 @@ async function procesar(event) {
         const ejerciciosProbabilidad = datos.filter(ejercicio => ejercicio.categorias.includes("Probabilidad"));
         const ejerciciosEstadistica = datos.filter(ejercicio => ejercicio.categorias.includes("Estadística") && !ejercicio.categorias.includes("Contraste de hipótesis"));
 
-        const bloques = ["Números", "Análisis", "Probabilidad", "Estadística"];
-        const indiceObligatorio = Math.floor(Math.random() * bloques.length);
-        const bloqueObligatorio = bloques[indiceObligatorio];
-        bloques.splice(indiceObligatorio, 1);
+        const bloques = ["Números", "Análisis", "Probabilidad", "Estadística"].sort(() => Math.random() - 0.5);
+        const bloquesObligatorios = bloques.slice(0, 2);
+        const bloquesOpcionales = bloques.slice(2);
 
         const ejercicios = [];
 
-        if (bloqueObligatorio == "Números") ejercicios.push(ejercicioAleatorio(ejerciciosNumeros));
-        else if (bloqueObligatorio == "Análisis") ejercicios.push(ejercicioAleatorio(ejerciciosAnalisis));
-        else if (bloqueObligatorio == "Probabilidad") ejercicios.push(ejercicioAleatorio(ejerciciosProbabilidad));
-        else if (bloqueObligatorio == "Estadística") ejercicios.push(ejercicioAleatorio(ejerciciosEstadistica));
+        if (bloquesObligatorios.includes("Números")) ejercicios.push(ejercicioAleatorio(ejerciciosNumeros));
+        if (bloquesObligatorios.includes("Análisis")) ejercicios.push(ejercicioAleatorio(ejerciciosAnalisis));
+        if (bloquesObligatorios.includes("Probabilidad")) ejercicios.push(ejercicioAleatorio(ejerciciosProbabilidad));
+        if (bloquesObligatorios.includes("Estadística")) ejercicios.push(ejercicioAleatorio(ejerciciosEstadistica));
 
-        bloques.forEach(bloque => {
+        bloquesOpcionales.forEach(bloque => {
             if (bloque == "Números") {
                 ejercicios.push(ejercicioAleatorio(ejerciciosProgramacionLineal));
                 ejercicios.push(ejercicioAleatorio(ejerciciosAlgebra));
