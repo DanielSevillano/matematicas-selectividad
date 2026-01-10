@@ -885,6 +885,7 @@
         "resuelto": true,
         "categorias": [
             "Análisis",
+            "Cálculo de derivadas",
             "Integrales",
             "Área de recintos"
         ]
@@ -3480,7 +3481,8 @@
         "categorias": [
             "Análisis",
             "Asíntotas",
-            "Recta tangente"
+            "Recta tangente",
+            "Cálculo de derivadas"
         ]
     },
     {
@@ -4559,7 +4561,8 @@
     {
         "ejercicio": 201342,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Cálculo de derivadas"
         ]
     },
     {
@@ -4924,7 +4927,8 @@
     {
         "ejercicio": 201246,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Cálculo de derivadas"
         ]
     },
     {
@@ -5090,7 +5094,8 @@
     {
         "ejercicio": 201116,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Cálculo de derivadas"
         ]
     },
     {
@@ -5364,7 +5369,8 @@
     {
         "ejercicio": 201006,
         "categorias": [
-            "Análisis"
+            "Análisis",
+            "Cálculo de derivadas"
         ]
     },
     {
