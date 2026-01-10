@@ -59,28 +59,35 @@
                     x = \frac{1}{3}.
                 \end{cases}$$
 
-                Estudiemos el signo de $g'.$
+                Estudiemos el signo de la derivada.
 
-                <ul>
-                    <li>
-                        Si $x < -1$, $g'(x) < 0.$
-                        Así que $g$ es decreciente.
-                    </li>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <td>
+                            <th>$(-\infty, -1)$</th>
+                            <th>$\left(-1, \frac{1}{3}\right)$</th>
+                            <th>$\left(\frac{1}{3}, +\infty\right)$</th>
+                        </tr>
 
-                    <li>
-                        Si $-1 < x < \frac{1}{3}$, $g'(x) > 0.$
-                        Así que $g$ es creciente.
-                    </li>
+                        <tr>
+                            <td>signo de $g'$</td>
+                            <td>$-$</td>
+                            <td>$+$</td>
+                            <td>$-$</td>
+                        </tr>
 
-                    <li>
-                        Si $x > \frac{1}{3}$, $g'(x) < 0.$
-                        Así que $g$ es decreciente.
-                    </li>
-                </ul>
+                        <tr>
+                            <td>monotonía de $g$</td>
+                            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                        </tr>
+                    </table>
+                </div>
 
                 Por tanto, $f$ es creciente en $\left(-1, \frac{1}{3}\right)$ y decreciente en $(-\infty, -1) \cup \left(\frac{1}{3}, +\infty\right).$
-                Además, tiene un máximo relativo en $x = \frac{1}{3}$ y un mínimo relativo en $x = -1.$
-                Es decir, el punto $\left(\frac{1}{3}, \frac{32}{27}\right)$ es un máximo relativo y el punto $(-1, 0)$ es un mínimo relativo.
+                Además, el punto $\left(\frac{1}{3}, \frac{32}{27}\right)$ es un máximo relativo y el punto $(-1, 0)$ es un mínimo relativo.
             </li>
         </ul>
 

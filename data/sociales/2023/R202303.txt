@@ -21,29 +21,37 @@
                 $$f'(x) = 3x^2 - 6x + 2.$$
 
                 Para hallar los puntos críticos, igualamos la derivada de $f$ a cero.
-                $$f'(x) = 0 \Leftrightarrow 3x^2 - 6x + 2 = 0 \Leftrightarrow x = \frac{3 \pm \sqrt{3}}{3} = 1 \pm \frac{\sqrt{3}}{3} = 1 \pm \frac{1}{\sqrt{3}}.$$
+                $$f'(x) = 0 \Leftrightarrow 3x^2 - 6x + 2 = 0 \Leftrightarrow x = \frac{3 \pm \sqrt{3}}{3} = 1 \pm \frac{\sqrt{3}}{3}.$$
                 
-                Estudiemos el signo de $f'.$
+                Estudiemos el signo de la derivada.
 
-                <ul>
-                    <li>
-                        Si $x < 1 - \frac{1}{\sqrt{3}}$, $f'(x) > 0.$
-                        Así que $f$ es creciente.
-                    </li>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <td>
+                            <th>$\left(-\infty, 1 - \frac{\sqrt{3}}{3}\right)$</th>
+                            <th>$\left(1 - \frac{\sqrt{3}}{3}, 1 + \frac{\sqrt{3}}{3}\right)$</th>
+                            <th>$\left(1 + \frac{\sqrt{3}}{3}, +\infty\right)$</th>
+                        </tr>
 
-                    <li>
-                        Si $1 - \frac{1}{\sqrt{3}} < x < 1 + \frac{1}{\sqrt{3}}$, $f'(x) < 0.$
-                        Así que $f$ es decreciente.
-                    </li>
+                        <tr>
+                            <td>signo de $f'$</td>
+                            <td>$+$</td>
+                            <td>$-$</td>
+                            <td>$+$</td>
+                        </tr>
 
-                    <li>
-                        Si $x > 1 + \frac{1}{\sqrt{3}}$, $f'(x) > 0.$
-                        Así que $f$ es creciente.
-                    </li>
-                </ul>
+                        <tr>
+                            <td>monotonía de $f$</td>
+                            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                        </tr>
+                    </table>
+                </div>
 
-                Por tanto, $f$ es creciente en $\left(-\infty, 1 - \frac{1}{\sqrt{3}}\right) \cup \left(1 + \frac{1}{\sqrt{3}}, +\infty\right)$ y es decreciente en $\left(1 - \frac{1}{\sqrt{3}}, 1 + \frac{1}{\sqrt{3}}\right).$
-                Además, tiene un máximo relativo en $x = 1 - \frac{1}{\sqrt{3}}$ y un mínimo relativo en $1 + \frac{1}{\sqrt{3}}.$
+                Por tanto, $f$ es creciente en $\left(-\infty, 1 - \frac{\sqrt{3}}{3}\right) \cup \left(1 + \frac{\sqrt{3}}{3}, +\infty\right)$ y es decreciente en $\left(1 - \frac{\sqrt{3}}{3}, 1 + \frac{\sqrt{3}}{3}\right).$
+                Además, tiene un máximo relativo en $x = 1 - \frac{\sqrt{3}}{3}$ y un mínimo relativo en $1 + \frac{\sqrt{3}}{3}.$
                 Es decir, el punto $(0,42; \; 0,38)$ es un máximo relativo y el punto $(1,58; \; -0,38)$ es un mínimo relativo.
             </li>
 
@@ -55,19 +63,29 @@
                 Para hallar los candidatos a puntos de inflexión, igualamos la segunda derivada a cero.
                 $$f''(x) = 0 \Leftrightarrow 6x - 6 = 0 \Leftrightarrow x = 1.$$
 
-                Estudiemos el signo de $f''.$
+                Estudiemos el signo de la segunda derivada.
 
-                <ul>
-                    <li>
-                        Si $x < 1$, $f''(x) < 0.$
-                        Así que $f$ es cóncava.
-                    </li>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <td>
+                            <th>$(-\infty, 1)$</th>
+                            <th>$(1, +\infty)$</th>
+                        </tr>
 
-                    <li>
-                        Si $x > 1$, $f''(x) > 0.$
-                        Así que $f$ es convexa.
-                    </li>
-                </ul>
+                        <tr>
+                            <td>signo de $f''$</td>
+                            <td>$-$</td>
+                            <td>$+$</td>
+                        </tr>
+
+                        <tr>
+                            <td>curvatura de $f$</td>
+                            <td>$\frown$</td>
+                            <td>$\smile$</td>
+                        </tr>
+                    </table>
+                </div>
 
                 Por tanto, $f$ es convexa en $(1, +\infty)$ y es cóncava en $(-\infty, 1).$
                 Además, tiene un punto de inflexión en $x = 1$, es decir, el punto $(1, 0).$

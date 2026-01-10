@@ -6,24 +6,32 @@
             t = 20.
         \end{cases}$$
 
-        Estudiamos el signo de $c'.$
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $0 \leq t < 10$, $c'(t) > 0.$
-                Así que $c$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, 10)$</th>
+                    <th>$(10, 20)$</th>
+                    <th>$(20, 24)$</th>
+                </tr>
 
-            <li>
-                Si $10 < t < 20$, $c'(t) < 0.$
-                Así que $c$ es decreciente.
-            </li>
+                <tr>
+                    <td>signo de $c'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $20 < t \leq 24$, $c'(t) > 0.$
-                Así que $c$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $c$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $(0, 10) \cup (20, 24).$
     </li>

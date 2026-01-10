@@ -80,34 +80,38 @@
 
         Así que los puntos críticos son $t = 1$ y $t = 8,3.$
         También consideramos $t = 1,8$ y $t = 5$ por no ser derivable.
-        Estudiamos el signo de $f'.$
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $0,2 \leq t < 1$, $f'(t) > 0.$
-                Luego $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0,2; \, 1)$</th>
+                    <th>$(1; \, 1,8)$</th>
+                    <th>$(1,8; \, 5)$</th>
+                    <th>$(5; \, 8,3)$</th>
+                    <th>$(8,3; \, 10)$</th>
+                </tr>
 
-            <li>
-                Si $1 < t < 1,8$, $f'(t) < 0.$
-                Luego $f$ es decreciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                </tr>
 
-            <li>
-                Si $1,8 < t < 5$, $f'(t) > 0.$
-                Luego $f$ es creciente.
-            </li>
-
-            <li>
-                Si $5 < t < 8,3$, $f'(t) > 0.$
-                Luego $f$ es creciente.
-            </li>
-
-            <li>
-                Si $8,3 < t \leq 10$, $f'(t) < 0.$
-                Luego $f$ es decreciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, los puntos $(1; \, 0,7)$ y $(8,3; \, 5,825)$ son máximos relativos, así que $(8,3; \, 5,825)$ es el máximo absoluto.
         Esto significa que 5.825 fue el número máximo de diagnosticados y se alcanzó a los 8 meses y 9 días.

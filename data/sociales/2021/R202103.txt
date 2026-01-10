@@ -9,24 +9,32 @@
             x = 2.
         \end{cases}$$
 
-        Estudiamos el signo de $f'.$
+        Estudiamos el signo de $la derivada.
 
-        <ul>
-            <li>
-                Si $x < \frac{2}{3}$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$\left(-\infty, \frac{2}{3}\right)$</th>
+                    <th>$\left(\frac{2}{3}, 2\right)$</th>
+                    <th>$(2, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $\frac{2}{3} < x < 2$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $x > 2$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $\left(-\infty, \frac{2}{3}\right) \cup (2, +\infty)$ y decreciente en $\left(\frac{2}{3}, 2\right).$
         Además, el punto $\left(\frac{2}{3}, \frac{32}{27}\right)$ es un máximo relativo y $(2, 0)$ es un mínimo relativo.

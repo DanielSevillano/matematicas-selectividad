@@ -53,29 +53,35 @@
 
         Así que los puntos críticos son $x = -1$ y $x = 1.$
         Consideramos también $x = 0$ por no ser derivable.
-        Estudiamos el signo de $f'.$
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $-2 < x < -1$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-2, -1)$</th>
+                    <th>$(-1, 0)$</th>
+                    <th>$(0, 1)$</th>
+                    <th>$(1, 2)$</th>
+                </tr>
 
-            <li>
-                Si $-1 < x < 0$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $0 < x < 1$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
-
-            <li>
-                Si $1 < x < 2$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, los puntos $(-2, 1)$, $(0, 1)$ y $(2, 1)$ son máximos relativos y los puntos $(-1, 0)$ y $(1, 0)$ son mínimos relativos.
     </li>

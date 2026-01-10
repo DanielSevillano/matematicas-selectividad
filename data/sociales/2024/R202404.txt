@@ -55,24 +55,32 @@
         </ul>
 
         Así que los puntos críticos son $t = 4$ y $t = 16.$
-        Estudiamos el signo de $v'.$
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $0 \leq t < 4$, $v'(t) < 0.$
-                Así que $v$ es decreciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, 4)$</th>
+                    <th>$(4, 16)$</th>
+                    <th>$(16, 24)$</th>
+                </tr>
 
-            <li>
-                Si $4 < t < 16$, $v'(t) > 0.$
-                Así que $v$ es creciente.
-            </li>
+                <tr>
+                    <td>signo de $v'$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                </tr>
 
-            <li>
-                Si $16 < t \leq 24$, $v'(t) < 0.$
-                Así que $v$ es decreciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $v$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $v$ es creciente en $(4, 16)$ y es decreciente en $(0, 4) \cup (16, 24).$
         Los puntos $(0, 60)$ y $(16, 116)$ son máximos relativos y los puntos $(4, 44)$ y $(24, 52)$ son mínimos relativos.

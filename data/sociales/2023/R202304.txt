@@ -7,24 +7,32 @@
         \end{cases}$$
 
         Así que los puntos críticos se encuentran en $t = 2$ y $t = 3.$
-        Estudiemos el signo de $v'.$
+        Estudiemos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $0 < t < 2$, $v'(t) > 0.$
-                Así que $v$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, 2)$</th>
+                    <th>$(2, 3)$</th>
+                    <th>$(3, 6)$</th>
+                </tr>
 
-            <li>
-                Si $2 < t < 3$, $v'(t) < 0.$
-                Así que $v$ es decreciente.
-            </li>
+                <tr>
+                    <td>signo de $v'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $3 < t < 6$, $v'(t) > 0.$
-                Así que $v$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $v$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $v$ es creciente en $(0, 2) \cup (3, 6)$ y es decreciente en $(2, 3).$
     </li>

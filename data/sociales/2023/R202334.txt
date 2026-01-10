@@ -38,7 +38,9 @@
     </li>
 
     <li>
-        Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+        <p>
+            Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+        </p>
 
         <ul>
             <li>
@@ -52,27 +54,42 @@
             </li>
         </ul>
         
-        Así que el único punto crítico es $x = 0.$
-        También consideramos $x = 2$ por ser el punto de ruptura.
-        Estudiemos el signo de $f'.$
+        <p>
+            Así que el único punto crítico es $x = 0.$
+            También consideramos $x = 2$ por ser el punto de ruptura.
+            Estudiemos el signo de la derivada.
+        </p>
 
-        <ul>
-            <li>
-                Si $0 \leq x < 2$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, 2)$</th>
+                    <th>$(2, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $x > 2$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                </tr>
 
-        Por tanto, $f$ es creciente en $(0, 2)$ y es decreciente en $(2, +\infty).$
-        Además, tiene un máximo relativo en $x = 2$, el punto $\left(2, \frac{4}{3}\right).$
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
-        <br>
+        <p>
+            Por tanto, $f$ es creciente en $(0, 2)$ y es decreciente en $(2, +\infty).$
+            Además, el punto $\left(2, \frac{4}{3}\right)$ es un máximo relativo.
+        </p>
 
-        Representamos gráficamente la función usando la información obtenida.
+        <p>
+            Representamos gráficamente la función usando la información obtenida.
+        </p>
+        
         <img src="img/sociales/R202334.png" alt="Figura" loading="lazy">
 </ol>

@@ -25,29 +25,35 @@
 
         Así que los puntos críticos son $t = 6$ y $t = 20$.
         También consideramos $t = 12$ por ser el punto de ruptura.
-        Estudiamos el signo de $f'$.
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $0 < t < 6$, $f'(t) > 0$.
-                Así que $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, 6)$</th>
+                    <th>$(6, 12)$</th>
+                    <th>$(12, 20)$</th>
+                    <th>$(20, 24)$</th>
+                </tr>
 
-            <li>
-                Si $6 < t < 12$, $f'(t) < 0$.
-                Así que $f$ es decreciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $12 < t < 20$, $f'(t) < 0$.
-                Así que $f$ es decreciente.
-            </li>
-
-            <li>
-                Si $20 < t < 24$, $f'(t) > 0$.
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $(0, 6)$ y $(20, 24)$.
         Es decir, la glucosa aumenta a lo largo de las seis primeras horas y a partir de las 20 horas.

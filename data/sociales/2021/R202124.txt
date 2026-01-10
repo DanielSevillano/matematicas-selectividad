@@ -8,24 +8,32 @@
 
             <li>
                 La derivada de $f$ se anula en $x = -4$ y $x = 4$, así que estos son sus puntos críticos.
-                Observamos que:
+                Estudiamos el signo de la derivada.
 
-                <ul>
-                    <li>
-                        Si $x < -4$, $f'(x) < 0.$
-                        Así que $f$ es decreciente.
-                    </li>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <td>
+                            <th>$(-\infty, -4)$</th>
+                            <th>$(-4, 4)$</th>
+                            <th>$(4, +\infty)$</th>
+                        </tr>
 
-                    <li>
-                        Si $-4 < x < 4$, $f'(x) > 0.$
-                        Así que $f$ es creciente.
-                    </li>
+                        <tr>
+                            <td>signo de $f'$</td>
+                            <td>$-$</td>
+                            <td>$+$</td>
+                            <td>$-$</td>
+                        </tr>
 
-                    <li>
-                        Si $x > 4$, $f'(x) < 0.$
-                        Así que $f$ es decreciente.
-                    </li>
-                </ul>
+                        <tr>
+                            <td>monotonía de $f$</td>
+                            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                            <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                            <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                        </tr>
+                    </table>
+                </div>
 
                 Por tanto, $f$ es creciente en $(4, 4)$ y decreciente en $(-\infty, -4)$ y $(4, \infty)$.
                 Además, tiene un máximo relativo en $x = 4$ y un mínimo relativo en $x = -4.$

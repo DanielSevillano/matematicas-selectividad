@@ -54,24 +54,32 @@
 
         Así que el único punto crítico es $x = 2.$
         También consideramos $x = 4$ por no ser derivable.
-        Estudiamos el signo de $f'.$
+        Estudiamos el signo de la derivada.
 
-        <ul>
-            <li>
-                Si $x < 2$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(-\infty, 2)$</th>
+                    <th>$(2, 4)$</th>
+                    <th>$(4, +\infty)$</th>
+                </tr>
 
-            <li>
-                Si $2 < x < 4$, $f'(x) < 0.$
-                Así que $f$ es decreciente.
-            </li>
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
 
-            <li>
-                Si $x > 4$, $f'(x) > 0.$
-                Así que $f$ es creciente.
-            </li>
-        </ul>
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
 
         Por tanto, $f$ es creciente en $(-\infty, 2) \cup (4, +\infty)$ y decreciente en $(2, 4).$
         Además, el punto $(2, 7)$ es un máximo relativo y el punto $(4, 3)$ es un mínimo relativo.

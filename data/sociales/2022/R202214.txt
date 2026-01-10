@@ -22,19 +22,31 @@
                 $$f''(x) = -\frac{10}{(x+2)^3}.$$
 
                 Observamos que $f''(x) \neq 0$ para $x \neq -2$, así que no tiene puntos de inflexión.
-                Estudiamos el signo de $f''$ considerando $x = -2$ por no pertenecer al dominio.
+                Estudiamos el signo de la segunda derivada, considerando $x = -2$ por no pertenecer al dominio.
 
-                <ul>
-                    <li>
-                        Si $x < -2$, $f''(x) > 0.$
-                        Así que $f$ es convexa.
-                    </li>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <td>
+                            <th>$(-\infty, -2)$</th>
+                            <th>$(-2, +\infty)$</th>
+                        </tr>
 
-                    <li>
-                        Si $x > -2$, $f''(x) < 0.$
-                        Así que $f$ es cóncava.
-                    </li>
-                </ul>
+                        <tr>
+                            <td>signo de $f''$</td>
+                            <td>$+$</td>
+                            <td>$-$</td>
+                        </tr>
+
+                        <tr>
+                            <td>curvatura de $f$</td>
+                            <td>$\smile$</td>
+                            <td>$\frown$</td>
+                        </tr>
+                    </table>
+                </div>
+
+                Por tanto, la función es convexa en $(-\infty, 2)$ y cóncava en $(2, +\infty)$.
             </li>
         </ul>
     </li>
