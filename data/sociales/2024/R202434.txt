@@ -19,7 +19,7 @@
         Estudiamos la derivabilidad.
         \begin{align}
             & f'_-(1) = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} e^x = e, \\
-            & f'_+(1) = \lim_{x \to 1^+} f'(x) = \lim_{x \to 1^+} 2x + e = 2 + e.
+            & f'_+(1) = \lim_{x \to 1^+} f'(x) = \lim_{x \to 1^+} (2x + e) = 2 + e.
         \end{align}
 
         Observamos que $f'_-(1) \neq f'_+(1)$, así que $f$ no es derivable en $x = 1.$
