@@ -43,6 +43,9 @@ Tarjeta
 
 .tarjeta {
     --parent-color: var(--container-color);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     padding: 20px;
     background-color: var(--container-color);
     border: 1px solid var(--border-color);
@@ -58,10 +61,19 @@ Tarjeta
 
 .tarjeta>p {
     margin-top: 0.5em;
+    text-wrap: balance;
 }
 
 .tarjeta>ul {
     margin-top: 0.5em;
+}
+
+.tarjeta>.acento {
+    margin-top: auto;
+}
+
+.tarjeta>div {
+    width: 100%;
 }
 
 #ejercicios-diarios .tarjeta:not(:first-of-type) {
