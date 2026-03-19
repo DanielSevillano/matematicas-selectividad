@@ -1,0 +1,84 @@
+<ol>
+    <li>
+        Estudiamos la continuidad y la derivabilidad de $f$.
+        
+        <ul>
+            <li>
+                Si $x \in [0, 2]$ con $x \neq 1$, $f$ es continua y derivable con:
+                $$f'(x) = \begin{cases}
+                    -e^x, & \text{si } 0 \leq x < 1, \\
+                    2, & \text{si } 1 < x \leq 2.
+                \end{cases}$$
+            </li>
+
+            <li>
+                <p>
+                    Estudiamos la continuidad en $x = 1$.
+                    \begin{align}
+                        & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} (1 - e^x) = 1 - e, \\
+                        & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} (2x - 1 - e) = 1 - e, \\
+                        & f(1) = 1 - e.
+                    \end{align}
+                    Observamos que:
+                    $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1).$$
+                    Así que $f$ es continua en $x = 1$.
+                </p>
+
+                <p>
+                    Pasamos a estudiar la derivabilidad.
+                    \begin{align}
+                        & f'_-(1) = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} -e^x = -e, \\
+                        & f'_+(1) = \lim_{x \to 1^+} f'(x) = \lim_{x \to 1^+} 2 = 2.
+                    \end{align}
+
+                    Observamos que $f'_-(1) \neq f'_+(1)$, así que $f$ no es derivable en $x = 1$.
+                </p>
+            </li>
+        </ul>
+
+        Por tanto, $f$ es derivable en $[0, 1) \cup (1, 2]$.
+    </li>
+
+    <li>
+        Para hallar los puntos críticos, igualamos las dos ramas de la derivada a cero.
+        
+        <ul>
+            <li>
+                Si $0 < x < 1$, observamos que $f'(x) = -e^x < 0$.
+            </li>
+
+            <li>
+                Si $1 < x < 2$, observamos que $f'(x) = 2 > 0$.
+            </li>
+        </ul>
+
+        Así que $f$ no tiene puntos críticos.
+        Consideramos $x = 1$ por no ser derivable.
+        Estudiamos el signo de la derivada.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$(0, 1)$</th>
+                    <th>$(1, 2)$</th>
+                </tr>
+
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
+
+        Por tanto, los puntos $(0, 0)$ y $(2, 3-e)$ son máximos relativos y el punto $(1, 1-e)$ es un mínimo relativo.
+        Así que $(2, 3-e)$ es el máximo absoluto y $(1, 1-e)$ es el mínimo absoluto.
+    </li>
+</ol>
