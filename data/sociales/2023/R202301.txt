@@ -44,6 +44,6 @@
             & F(E) = F(0,5; 0) = 2,5.
         \end{align}
 
-        Por tanto, el máximo se alcanza en el punto $D(2, 1)$ y el valor de la función es 7, mientras que el mínimo se alcanza en el punto $C\left(\frac{4}{3}, \frac{11}{3}\right)$ y el valor es $-\frac{13}{3}.$
+        Por tanto, el máximo se alcanza en el punto $D(2, 1)$ y el valor de la función es 7, mientras que el mínimo se alcanza en el punto $B(0,5; 4,5)$ y el valor es -11.
     </li>
 </ol>
