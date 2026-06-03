@@ -1,0 +1,21 @@
+<ol>
+    <li>
+        Hallamos la media $\mu_p$ y la varianza $\sigma_p^2$ de la población.
+        \begin{align}
+            & \mu_p = \frac{-5 + (-2) + 13 + 18 + 20}{5} = 8,8, \\
+            & \sigma_p^2 = \frac{(-5)^2 + (-2)^2 + 13^2 + 18^2 + 20^2}{5} - 8,8^2 = 106,96.
+        \end{align}
+
+        Por tanto, la distribución de medias muestrales de tamaño 3 tiene media $\mu_m = 8,8$ y varianza
+        $$\sigma_m^2 = \frac{\sigma_p^2}{3} = \frac{106,96}{3} \approx 35,6533.$$
+    </li>
+
+    <li>
+        <ul>
+            <li>$P(A|B) = \dfrac{P(A \cap B)}{P(B)} \Rightarrow P(A \cap B) = P(B) \cdot P(A|B) = 0,2 \cdot 0,6 = 0,12$.</li>
+            <li>$P(B - A) = P(B) - P(A \cap B) = 0,2 - 0,12 = 0,08$.</li>
+            <li>$P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0,75 + 0,2 - 0,12 = 0,83$.</li>
+            <li>$P(A^c - B) = P(A^c) - P(A^c \cap B) = P(A^c) - P(B - A) = 0,25 - 0,08 = 0,17$.</li>
+        </ul>
+    </li>
+</ol>
