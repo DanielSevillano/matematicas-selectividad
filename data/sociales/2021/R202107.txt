@@ -21,10 +21,10 @@
     </li>
 
     <li>
-        La media $\mu$ de la población viene dada por
-        $$\mu = \frac{a + 10 + 12 + 11 + 18}{5} = \frac{51 + a}{5}.$$
+        La media $\mu_p$ de la población viene dada por
+        $$\mu_p = \frac{a + 10 + 12 + 11 + 18}{5} = \frac{51 + a}{5}.$$
 
-        Como la media de las medias muestrales coincide con la media poblacional $\mu$, entonces
-        $$\mu = 13,2 \Leftrightarrow \frac{51 + a}{5} = 13,2 \Leftrightarrow 51 + a = 66 \Leftrightarrow a = 15.$$
+        Como la media de las medias muestrales $\mu_m$ coincide con la media poblacional $\mu_p$, entonces
+        $$\mu_m = 13,2 \Leftrightarrow \frac{51 + a}{5} = 13,2 \Leftrightarrow 51 + a = 66 \Leftrightarrow a = 15.$$
     </li>
 </ol>

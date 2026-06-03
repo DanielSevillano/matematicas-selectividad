@@ -18,13 +18,13 @@
     </li>
 
     <li>
-        En primer lugar, hallamos la media $\mu$ y la varianza $\sigma^2$ de la población.
+        En primer lugar, hallamos la media $\mu_p$ y la varianza $\sigma_p^2$ de la población.
         \begin{align}
-            & \mu = \frac{9+11+13+18+20}{5} = 14,2, \\
-            & \sigma^2 = \frac{(9-14,2)^2+(11-14,2)^2+(13-14,2)^2+(18-14,2)^2+(20-14,2)^2}{5} = 17,36.
+            & \mu_p = \frac{9 + 11 + 13 + 18 + 20}{5} = 14,2, \\
+            & \sigma_p^2 = \frac{9^2 + 11^2 + 13^2 + 18^2 + 20^2}{5} - 14,2^2 = 17,36.
         \end{align}
         
         Por tanto, la distribución de las medias muestrales de tamaño 2 tiene varianza
-        $$\frac{\sigma^2}{2} = \frac{17,36}{2} = 8,68.$$
+        $$\sigma_m^2 = \frac{\sigma_p^2}{2} = \frac{17,36}{2} = 8,68.$$
     </li>
 </ol>
