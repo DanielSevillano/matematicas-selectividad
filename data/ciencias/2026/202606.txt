@@ -1,0 +1,10 @@
+Disponemos de dos bolsas con monedas de oro y monedas de plata.
+En la primera hay 2 monedas de oro y 3 monedas de plata.
+En la segunda hay 6 monedas de oro y 3 de plata.
+Sin mirar, extraemos una moneda al azar de la primera bolsa y la depositamos en la segunda bolsa.
+Luego extraemos una moneda de la segunda bolsa.
+
+<ol>
+    <li>Calcula la probabilidad de que la segunda moneda sea de oro, sabiendo que la moneda que se extrajo de la primera bolsa era de plata.</li>
+    <li>Calcula la probabilidad de que la moneda que se extrajo de la primera bolsa fuera de plata, sabiendo que la segunda moneda es de oro.</li>
+</ol>

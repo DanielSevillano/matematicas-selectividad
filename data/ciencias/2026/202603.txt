@@ -1,0 +1,11 @@
+Considera el sistema
+$$\begin{cases}
+    3x - y = a^2, \\
+    (1-a)y + 2z = 0, \\
+    4y + (3-a)z = a - 5.
+\end{cases}$$
+
+<ol>
+    <li>Discútelo según los valores de $a$.</li>
+    <li>Para $a = 0$ resuelve el sistema, si es posible.</li>
+</ol>

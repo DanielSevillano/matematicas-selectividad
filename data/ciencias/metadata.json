@@ -1,5 +1,48 @@
 [
     {
+        "ejercicio": 202601,
+        "categorias": [
+            "Análisis",
+            "Optimización"
+        ]
+    },
+    {
+        "ejercicio": 202602,
+        "categorias": [
+            "Geometría",
+            "Área",
+            "Volumen"
+        ]
+    },
+    {
+        "ejercicio": 202603,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Discusión de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202604,
+        "categorias": [
+            "Álgebra",
+            "Determinantes"
+        ]
+    },
+    {
+        "ejercicio": 202605,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202606,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
         "ejercicio": 202501,
         "resuelto": true,
         "categorias": [

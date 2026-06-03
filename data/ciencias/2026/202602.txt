@@ -1,0 +1,6 @@
+Considera los puntos $A(1, 2, 0)$, $B(2, m, 1)$, $C(3, 4, 2)$ y $D(1, -1, m)$.
+
+<ol>
+    <li>Halla los valores de $m$ para los cuales los puntos anteriores son coplanarios.</li>
+    <li>Para $m = 1$, calcula el área del triángulo de vértices $A$, $B$, $C$ y el volumen del tetraedro de vértices $A$, $B$, $C$, $D$.</li>
+</ol>

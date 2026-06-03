@@ -1,0 +1,4 @@
+Una ventana tiene forma de rectángulo y está coronada por un semicírculo.
+Sabiendo que el perímetro de la ventana mide 8 metros, halla las dimensiones de la ventana que permitan la mayor entrada de luz.
+
+<img class="figura" src="img/ciencias/202601.png" alt="Figura" loading="lazy">

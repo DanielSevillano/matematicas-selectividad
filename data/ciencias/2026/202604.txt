@@ -1,0 +1,20 @@
+Considera la matriz
+$$A = \begin{pmatrix}
+    \alpha & \beta & 1 \\
+    2 & \alpha & \beta \\
+    3 & 4 & \alpha
+\end{pmatrix}$$
+que cumple $|A| = -2$.
+
+<ol>
+    <li>
+        Calcula
+        $$\begin{vmatrix}
+            -3 & -4 & -\alpha \\
+            \alpha - 2 & \beta - \alpha & 1 - \beta \\
+            8 & 4\alpha & 4\beta
+        \end{vmatrix}.$$
+    </li>
+
+    <li>Calcula $|A^{-1}(A^t)^2A|$.</li>
+</ol>

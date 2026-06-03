@@ -1,0 +1,5 @@
+Dada la función $f: \mathbb{R} \to \mathbb{R}$ definida por
+$$f(x) = \frac{8e^x - 4e^{2x}}{1 + e^x},$$
+halla la primitiva de $f$ cuya gráfica tiene por tangente a la recta $y = 2x + 12\ln(2)$ en el punto de abscisa $x = 0$.
+
+(Sugerencia: puedes hacer el cambio $e^x = t$).
