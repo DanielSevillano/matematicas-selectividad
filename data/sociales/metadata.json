@@ -1,5 +1,52 @@
 [
     {
+        "ejercicio": 202601,
+        "categorias": [
+            "Álgebra",
+            "Sistemas de ecuaciones",
+            "Problemas de sistemas"
+        ]
+    },
+    {
+        "ejercicio": 202602,
+        "categorias": [
+            "Programación lineal",
+            "Problemas de optimización"
+        ]
+    },
+    {
+        "ejercicio": 202603,
+        "categorias": [
+            "Análisis",
+            "Continuidad",
+            "Monotonía y extremos",
+            "Integrales",
+            "Área de recintos"
+        ]
+    },
+    {
+        "ejercicio": 202604,
+        "categorias": [
+            "Estadística",
+            "Distribución de medias muestrales",
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202605,
+        "categorias": [
+            "Probabilidad",
+            "Distribución binomial"
+        ]
+    },
+    {
+        "ejercicio": 202606,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media"
+        ]
+    },
+    {
         "ejercicio": 202501,
         "resuelto": true,
         "categorias": [

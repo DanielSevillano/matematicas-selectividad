@@ -1,0 +1,9 @@
+En un festival de cine con tres sesiones se venden tres tipos de entradas: Estándar, Premium y VIP.
+En la sesión inaugural se vendieron 5 entradas Premium, 20 Estándar y 20 VIP, obteniéndose una recaudación de 1.800€.
+En la sesión nocturna se vendieron 10 VIP, 10 Estándar y 5 Premium, recaudándose 1.000€.
+El día de la proyección de clausura, el número de entradas Premium superó en 4 al resto de entradas, que fueron 12 VIP y 4 Estándar, arrojando una recaudación de 1.560€.
+
+<ol>
+    <li>Calcule el precio de cada tipo de entrada y la recaudación total obtenida.</li>
+    <li>Determine el tipo de entrada con la que se obtuvo una mayor recaudación y el valor de dicha recaudación.</li>
+</ol>

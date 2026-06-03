@@ -1,0 +1,9 @@
+Una empresa de transporte contrata una consultora para optimizar sus recursos.
+La consultora estudia la distancia en kilómetros que recorren en cada viaje los camiones de la empresa, sabiendo que la variable que mide dicha distancia se distribuye según una Normal de varianza 225 km<sup>2</sup> y media desconocida.
+Para ello, toma aleatoriamente una muestra de 49 viajes y obtiene una media de 325 km recorridos por viaje.
+
+<ol>
+    <li>Calcule un intervalo de confianza al 97% para que la consultora pueda estimar la distancia media que recorren por viaje los camiones de la empresa.</li>
+    <li>A la vista del intervalo obtenido, razone si la consultora puede considerar que los camiones de la empresa recorren por término medio 310 km por viaje que realizan.</li>
+    <li>¿Cuántos viajes, como mínimo, tendría que seleccionar aleatoriamente la consultora para estimar la distancia media que recorren por viaje los camiones de la empresa mediante un intervalo de confianza del 99% que tuviera una amplitud inferior a 4 km?</li>
+</ol>

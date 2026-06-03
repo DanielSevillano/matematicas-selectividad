@@ -1,0 +1,20 @@
+Sean $A$ y $B$ dos sucesos del espacio muestral asociado a un experimento aleatorio.
+Se sabe que $P(A)$ es el doble de $P(B)$, $P(B^c|A) = 0,75$ y $P(A \cap B) = 0,2$.
+
+<ol>
+    <li>Calcule la probabilidad de que ocurra $B$.</li>
+
+    <li>
+        Calcule la probabilidad de que no ocurra ni $A$ ni $B$.
+        ¿Son los sucesos $A$ y $B$ incompatibles?
+    </li>
+
+    <li>
+        Si el experimento se realiza 1.350 veces de forma independiente:
+
+        <ol>
+            <li>Determine la distribución de la variable aleatoria $X$: "Número de veces que ocurre $B$".</li>
+            <li>Calcule la probabilidad de que $B$ ocurra a lo sumo 580 veces, pero más de 499 veces.</li>
+        </ol>
+    </li>
+</ol>

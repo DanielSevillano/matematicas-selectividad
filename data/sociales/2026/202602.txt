@@ -1,0 +1,6 @@
+Una empresa maderera fabrica tableros de dos tipos, DM y aglomerado, a partir de madera triturada.
+Para producir 1 m<sup>2</sup> de tablero DM se consumen 10 m<sup>3</sup> de madera triturada y se obtiene un beneficio de 10€.
+Para producir 1 m<sup>2</sup> de tablero aglomerado se consumen 30 m<sup>3</sup> de madera triturada y se obtiene un beneficio de 20€.
+La empresa puede fabricar diariamente como máximo 12 m<sup>2</sup> de tableros DM y 18 m<sup>2</sup> de tableros de aglomerado.
+Además, la capacidad total de la empresa limita la producción conjunta a 26 m<sup>2</sup> diarios y dispone de 600 m<sup>3</sup> de madera triturada al día.
+Determine cuántos metros cuadrados de cada tipo de tablero deben producirse diariamente para maximizar el beneficio total y calcule cuál es ese beneficio.
