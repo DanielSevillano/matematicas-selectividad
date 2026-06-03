@@ -5,7 +5,7 @@
     </li>
 
     <li>
-        Dados dos sucesos $A$ y $B$ de un mismo espacio muestral, se sabe que $P(A) = 0,75$, $P(B) = 0,8$ y $P(A|B) = 0,6$.
+        Dados dos sucesos $A$ y $B$ de un mismo espacio muestral, se sabe que $P(A) = 0,75$, $P(B^c) = 0,8$ y $P(A|B) = 0,6$.
         Calcule las siguientes probabilidades:
         $$P(A \cap B), \quad P(B - A), \quad P(A \cup B), \quad P(A^c - B).$$
     </li>
