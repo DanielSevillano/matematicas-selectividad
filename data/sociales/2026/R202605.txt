@@ -1,0 +1,54 @@
+<ol>
+    <li>
+        En primer lugar, calculamos la probabilidad de $B$ sabiendo que ha ocurrido $A$.
+        $$P(B|A) = 1 - P(B^c|A) = 1 - 0,75 = 0,25.$$
+
+        Despejando en la expresión de la probabilidad condicionada, obtenemos que:
+        $$P(B|A) = \frac{P(A \cap B)}{P(A)} \Rightarrow P(A) = \frac{P(A \cap B)}{P(B|A)} = \frac{0,2}{0,25} = 0,8.$$
+
+        Por tanto, la probabilidad de que ocurra $B$ es:
+        $$P(B) = \frac{P(A)}{2} = \frac{0,8}{2} = 0,4.$$
+    </li>
+
+    <li>
+        La probabilidad de que no ocurra ni $A$ ni $B$ viene dada por:
+        $$P(A^c \cap B^c) = P((A \cup B)^c) = 1 - P(A \cup B).$$
+
+        Calculamos la probabilidad de la unión.
+        $$P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0,8 + 0,4 - 0,2 = 1.$$
+
+        Por tanto, la probabilidad de que no ocurra ni $A$ ni $B$ es:
+        $$P(A^c \cap B^c) = 1 - P(A \cup B) = 1 - 1 = 0.$$
+
+        Así que los sucesos $A$ y $B$ son incompatibles.
+    </li>
+
+    <li>
+        <ol>
+            <li>$X$ sigue una distribución $\Bi(n = 1.350, \; p = 0,4)$.</li>
+
+            <li>
+                La probabilidad de que $B$ ocurra a lo sumo 580 veces y más de 499 veces viene dada por $P(500 \leq X \leq 580)$.
+                Observamos que:
+                \begin{align}
+                    & np = 1350 \cdot 0,4 = 540 \geq 5, \\
+                    & nq = 1350 \cdot 0,6 = 810 \geq 5.
+                \end{align}
+
+                Así que podemos aproximar $X$ por una distribución normal con:
+                \begin{align}
+                    & \mu = np = 540, \\
+                    & \sigma = \sqrt{npq} = \sqrt{1350 \cdot 0,4 \cdot 0,6} = 18.
+                \end{align}
+
+                Es decir, podemos aproximar $X$ por una variable $\tilde{X} \sim N(540, 18)$.
+                Por tanto, la probabilidad de que $B$ ocurra entre 500 y 580 veces es:
+                \begin{align}
+                    & P(500 \leq X \leq 580) \approx P(499,5 \leq \tilde{X} \leq 580,5) = \left(\frac{499,5 - 540}{18} \leq Z \leq \frac{580,5 - 540}{18}\right) = \\
+                    & = P(-2,25 \leq Z \leq 2,25) = P(Z \leq 2,25) - P(Z \leq -2,25) = P(Z \leq 2,25) - [1 - P(Z \leq 2,25)] = \\
+                    & = 2P(Z \leq 2,25) - 1 = 2 \cdot 0,9878 - 1 = 0,9756.
+                \end{align}
+            </li>
+        </ol>
+    </li>
+</ol>
