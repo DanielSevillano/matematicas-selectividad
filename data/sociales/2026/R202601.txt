@@ -1,0 +1,63 @@
+<ol>
+    <li>
+        Llamamos $x$ al precio de una entrada Estándar, $y$ al de una entrada Premium y $z$ al de una entrada VIP.
+        Planteamos el sistema de ecuaciones.
+        $$\begin{cases}
+            20x + 5y + 20z = 1800, \\
+            10x + 5y + 10z = 1000, \\
+            4x + 20y + 12z = 1560
+        \end{cases} \Rightarrow
+        \begin{cases}
+            4x + y + 4z = 360, \\
+            2x + y + 2z = 200, \\
+            x + 5y + 3z = 390.
+        \end{cases}$$
+
+        Resolvemos el sistema mediante el método de Gauss.
+        $$\begin{ampmatrix}
+            4 & 1 & 4 & 360 \\
+            2 & 1 & 2 & 200 \\
+            1 & 5 & 3 & 390
+        \end{ampmatrix} \xrightarrow[F_3 - 5F_2]{F_1 - F_2}
+        \begin{ampmatrix}
+            2 & 0 & 2 & 160 \\
+            2 & 1 & 2 & 200 \\
+            -9 & 0 & -7 & -610
+        \end{ampmatrix} \xrightarrow[F_3 \cdot (-1)]{F_1/2}
+        \begin{ampmatrix}
+            1 & 0 & 1 & 80 \\
+            2 & 1 & 2 & 200 \\
+            9 & 0 & 7 & 610
+        \end{ampmatrix} \xrightarrow{F_3 - 7F_1}
+        \begin{ampmatrix}
+            1 & 0 & 1 & 80 \\
+            2 & 1 & 2 & 200 \\
+            2 & 0 & 0 & 50
+        \end{ampmatrix}.$$
+
+        El sistema escalonado resultante es:
+        $$\begin{cases}
+            x + z = 80, \\
+            2x + y + 2z = 200, \\
+            2x = 50
+        \end{cases} \Rightarrow
+        \begin{cases}
+            x = 25, \\
+            y = 40, \\
+            z = 55.
+        \end{cases}$$
+
+        Por tanto, el precio de la entrada Estándar es de 25€, el de la Premium es 40€ y el de la VIP es 55€.
+        La recaudación total es $1800 + 1000 + 1560 = 4.360\text{€}$.
+    </li>
+
+    <li>
+        <ul>
+            <li>Con las entradas Estándar se recaudan $54 \cdot 25 = 850\text{€}$.</li>
+            <li>Con las entradas Premium se recaudan $30 \cdot 40 = 1.200\text{€}$.</li>
+            <li>Con las entradas VIP se recaudan $42 \cdot 55 = 2.310\text{€}$.</li>
+        </ul>
+
+        Por tanto, se obtuvo una mayor recaudación con las entradas VIP, con un beneficio de 2.310€.
+    </li>
+</ol>

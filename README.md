@@ -35,12 +35,16 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
 ## 📋 Progreso
 
 ### Exámenes de ciencias
+- [ ] 2026
+    - [x] Junio
 - [x] 2025 a 2011
 - [ ] 2010
     - [x] Junio
     - [x] Septiembre
 
 ### Exámenes de sociales
+- [ ] 2026
+    - [x] Junio
 - [x] 2025 a 2011
 - [ ] 2010
     - [x] Junio
@@ -67,6 +71,8 @@ Para proponer una idea, crea una [propuesta](https://github.com/DanielSevillano/
     - [ ] Reserva 4
 
 ### Ejercicios resueltos de sociales
+- [ ] 2026
+    - [] Junio (1, 4)
 - [ ] 2025
     - [x] Junio y julio
     - [ ] Reservas 1 a 4

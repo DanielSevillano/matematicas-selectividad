@@ -1,6 +1,7 @@
 [
     {
         "ejercicio": 202601,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Sistemas de ecuaciones",
