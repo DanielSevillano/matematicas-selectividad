@@ -1,0 +1,44 @@
+<ol>
+    <li>
+        Calculamos el determinante.
+        \begin{align}
+            & \begin{vmatrix}
+                -3 & -4 & -\alpha \\
+                \alpha - 2 & \beta - \alpha & 1 - \beta \\
+                8 & 4\alpha & 4\beta
+            \end{vmatrix} =
+            -4 \cdot \begin{vmatrix}
+                3 & 4 & \alpha \\
+                \alpha - 2 & \beta - \alpha & 1 - \beta \\
+                2 & \alpha & \beta
+            \end{vmatrix} =
+            -4 \cdot \left(
+                \begin{vmatrix}
+                    3 & 4 & \alpha \\
+                    \alpha & \beta & 1 \\
+                    2 & \alpha & \beta
+                \end{vmatrix} -
+                \begin{vmatrix}
+                    3 & 4 & \alpha \\
+                    2 & \alpha & \beta \\
+                    2 & \alpha & \beta
+                \end{vmatrix}
+            \right) = \\
+            & = -4 \cdot \begin{vmatrix}
+                3 & 4 & \alpha \\
+                \alpha & \beta & 1 \\
+                2 & \alpha & \beta
+            \end{vmatrix} =
+            -4 \cdot \begin{vmatrix}
+                \alpha & \beta & 1 \\
+                2 & \alpha & \beta \\
+                3 & 4 & \alpha
+            \end{vmatrix} = -4 \cdot (-2) = 8.
+        \end{align}
+    </li>
+
+    <li>
+        Calculamos el determinante.
+        $$|A^{-1}(A^t)^2A| = |A|^{-1} \cdot |A|^2 \cdot |A| = (-2)^{-1} \cdot (-2)^2 \cdot (-2) = 4.$$
+    </li>
+</ol>

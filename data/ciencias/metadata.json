@@ -24,6 +24,7 @@
     },
     {
         "ejercicio": 202604,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Determinantes"
