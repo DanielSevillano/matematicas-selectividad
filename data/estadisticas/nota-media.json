@@ -48,5 +48,10 @@
         "curso": 2024,
         "ciencias": 6.42,
         "sociales": 6.42
+    },
+    {
+        "curso": 2025,
+        "ciencias": 6.38,
+        "sociales": 4.45
     }
 ]
