@@ -1,0 +1,4 @@
+Una familia va al mercado semanalmente y compra tres tipos de alimentos: verdura, carne y pescado.
+El año pasado, en el que gastó 115€ semanales, observó que pagaba el doble en el puesto del pescado que en el de la verdura.
+En 2026 se ha notado un incremento de precios pues ahora gasta 19€ más que el año pasado por la misma compra, comprobando que la verdura ha subido un 12%, la carne un 15% y el pescado un 20%.
+Calcula el precio que la familia paga semanalmente en 2026, por cada tipo de alimento.

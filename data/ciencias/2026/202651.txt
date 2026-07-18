@@ -1,0 +1,4 @@
+La velocidad de crecimiento de la población de peces en un lago al cabo del tiempo, $t$ en años, viene dada por
+$$P'(t) = 20te^{\frac{-t}{10}},$$
+siendo $P(t)$ la población de peces.
+Sabiendo que la población inicial es de 1000 peces, calcula cuántos tendrá el lago transcurridos 10 años.

@@ -1,0 +1,2 @@
+Se sabe que la función $f: \mathbb{R} \to \mathbb{R}$ definida por $f(x) = x^3 + ax^2 + bx + c$, verifica que: $f(1) = 0$, $x = 1$ es un punto crítico de la función y la recta tangente a su gráfica en $x = —1$, es paralela a la recta de ecuación $y + 3x = 0$.
+Determina $a$, $b$ y $c$.

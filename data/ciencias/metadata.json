@@ -45,6 +45,50 @@
         ]
     },
     {
+        "ejercicio": 202651,
+        "categorias": [
+            "Análisis",
+            "Integrales"
+        ]
+    },
+    {
+        "ejercicio": 202652,
+        "categorias": [
+            "Análisis",
+            "Recta tangente"
+        ]
+    },
+    {
+        "ejercicio": 202653,
+        "categorias": [
+            "Álgebra",
+            "Sistemas",
+            "Problemas"
+        ]
+    },
+    {
+        "ejercicio": 202654,
+        "categorias": [
+            "Álgebra",
+            "Determinantes",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202655,
+        "categorias": [
+            "Geometría",
+            "Punto simétrico"
+        ]
+    },
+    {
+        "ejercicio": 202656,
+        "categorias": [
+            "Probabilidad",
+            "Probabilidad total"
+        ]
+    },
+    {
         "ejercicio": 202501,
         "resuelto": true,
         "categorias": [

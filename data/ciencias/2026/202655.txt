@@ -1,0 +1,12 @@
+Considera la recta
+$$r \equiv \begin{cases}
+    x = -2\lambda, \\
+    y = -1 + 2\lambda, \\
+    z = 3 + 2\lambda
+\end{cases}$$
+y el plano $\pi \equiv x - 2y + z - 3 = 0$.
+
+<ol>
+    <li>Determina la ecuación de la recta que corta perpendicularmente a $r$ y que está contenida en $\pi$.</li>
+    <li>Halla el punto simétrico de $P(1, 1, 1)$ respecto de $\pi$.</li>
+</ol>

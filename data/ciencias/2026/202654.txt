@@ -1,0 +1,14 @@
+Considera las matrices
+$$A = \begin{pmatrix}
+    2 & 2 \\
+    3 & 4
+\end{pmatrix} \quad \text{y} \quad
+B = \begin{pmatrix}
+    3 & 1 \\
+    2 & 2
+\end{pmatrix}.$$
+
+<ol>
+    <li>Halla razonadamente el determinante de una matriz $X$ que verifica $A^3XB^t = 5B^2A^{-1}$.</li>
+    <li>Determina, si existe, una matriz $Y$ que verifica $A^3YB^{-1} = A^2$.</li>
+</ol>

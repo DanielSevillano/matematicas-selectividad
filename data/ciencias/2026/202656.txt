@@ -1,0 +1,14 @@
+Tres máquinas A, B y C, producen el 45%, 30% y 25%, respectivamente, del total de los coches que se producen en una fábrica.
+Los porcentajes de producción defectuosa de estas máquinas son del 3%, 4% y 5%, respectivamente.
+
+<ol>
+    <li>
+        Seleccionamos un coche al azar.
+        Calcula la probabilidad de que sea defectuoso.
+    </li>
+
+    <li>
+        Tomamos, al azar, un coche y resulta ser defectuoso.
+        ¿Qué máquina tiene la mayor probabilidad de haber producido dicho coche?
+    </li>
+</ol>
