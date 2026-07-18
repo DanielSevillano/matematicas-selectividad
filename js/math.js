@@ -59,7 +59,7 @@ function tituloEjercicio(ejercicio, tituloCompleto) {
         else {
             const enlace = document.createElement("a");
             enlace.textContent = tituloExamen(ejercicio.examen);
-            enlace.href = "/examenes-" + ejercicio.modalidad + html + "?examen=" + ejercicio.examen;
+            enlace.href = "examenes-" + ejercicio.modalidad + html + "?examen=" + ejercicio.examen;
             titulo.append(enlace);
         }
     } else titulo.textContent = "Ejercicio " + letra + numeracion;
@@ -74,7 +74,7 @@ function categoriasEjercicio(modalidad, categorias) {
         const elementoCategoria = document.createElement("li");
         const enlaceCategoria = document.createElement("a");
         enlaceCategoria.textContent = categoria;
-        enlaceCategoria.href = "/ejercicios-" + modalidad + html + "?categoria=" + normalizar(categoria);
+        enlaceCategoria.href = "ejercicios-" + modalidad + html + "?categoria=" + normalizar(categoria);
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
