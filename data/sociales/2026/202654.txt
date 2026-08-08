@@ -1,0 +1,9 @@
+Una urna contiene bolas de tres colores, siendo el 30% rojas, el 20% blancas y el resto azules.
+Algunas bolas están premiadas: de cada 4 bolas rojas 1 contiene un premio de 20€; de cada 2 bolas blancas 1 contiene un premio de 10€; y todas las bolas azules tienen premio (de cada 3 bolas azules 2 contienen un premio de 20€ y el resto contiene un premio de 10€).
+Si se extrae una bola al azar, calcule la probabilidad de que:
+
+<ol>
+    <li>La bola contenga 20€ de premio.</li>
+    <li>La bola sea blanca o no contenga premio.</li>
+    </li>La bola no contenga premio, sabiendo que no es azul.</li>
+</ol>

@@ -1,0 +1,9 @@
+Los ingresos (en miles de euros) de una empresa que opera en mercados financieros en los últimos años vienen dados por la función
+$$f(t) = -t^3 + \frac{21}{2}t^2 - 30t + 80, \quad 1 \leq t \leq 6,$$
+siendo $t$ el tiempo medido en años.
+
+<ol>
+    <li>Determine los intervalos de tiempo en los que los ingresos aumentaron y los intervalos en los que disminuyeron.</li>
+    <li>Calcule los momentos en los que la empresa obtuvo el mayor y el menor ingreso, así como los valores correspondientes.</li>
+    <li>Estudie la evolución de los ingresos de la empresa, obteniendo sus puntos de inflexión, realizando su gráfica e interpretándola.</li>
+</ol>

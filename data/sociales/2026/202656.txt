@@ -1,0 +1,22 @@
+Sean $A$ y $B$ dos sucesos asociados a un mismo experimento aleatorio de los que se sabe que
+$$P(A \cap B^c) = 0,3, \quad P(A^c) = 0,35, \quad P(B) = 0,55.$$
+
+<ol>
+    <li>
+        Calcule la probabilidad de que:
+        
+        <ol>
+            <li>Suceda al menos uno de ellos.</li>
+            <li>Ocurra $B$, sabiendo que no ha ocurrido $A$.</li>
+        </ol>
+    </li>
+
+    <li>
+        Se realiza este experimento aleatorio 11 veces, calcule:
+        
+        <ol>
+            <li>La probabilidad de que el suceso $B$ ocurra exactamente 8 veces.</li>
+            <li>El número esperado de veces que ocurre el suceso $B$.</li>
+        </ol>
+    </li>
+</ol>

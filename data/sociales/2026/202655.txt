@@ -1,0 +1,14 @@
+Con el propósito de estudiar el precio medio del litro de gasoil en una provincia andaluza un determinado día, se seleccionan al azar 16 estaciones de servicio, obteniéndose que el precio medio del litro de gasoil es 1,458€.
+Se sabe que el precio del litro de gasoil en esa provincia sigue una distribución Normal de media desconocida y desviación típica 0,08€.
+
+<ol>
+    <li>
+        Calcule un intervalo con un nivel de confianza del 97,5% para estimar el precio medio del litro de gasoil en dicha provincia.
+        ¿Qué error máximo de estimación se obtiene?
+    </li>
+
+    <li>
+        Suponiendo que el precio medio del litro de gasoil en esa provincia es de 1,44€ y considerando muestras aleatorias de 7 estaciones de servicio, ¿qué distribución de probabilidad sigue la variable aleatoria precio medio muestral del litro de gasoil?
+        ¿Cuál es la probabilidad de que el precio medio muestral del litro de gasoil en esa provincia esté comprendido entre 1,383€ y 1,4523€?
+    </li>
+</ol>

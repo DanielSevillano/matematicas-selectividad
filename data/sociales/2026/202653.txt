@@ -1,0 +1,21 @@
+El coste en euros de producción de $x$ toneladas de un determinado producto en una factoría es
+$$C(x) = 0,2x^2 + 40x + 5000.$$
+
+El ingreso por venta es de 150 euros por tonelada.
+Se vende todo lo que se produce.
+
+<ol>
+    <li>Calcule la función $B(x)$ que expresa el beneficio obtenido al vender $x$ toneladas del producto.</li>
+    
+    <li>
+        Halle la cantidad de toneladas de producto que debe venderse para maximizar el beneficio.
+        Obtenga dicho beneficio.
+    </li>
+    
+    <li>
+        Obtenga el beneficio cuando no hay producción y calcule para qué valores de la producción el beneficio es positivo.
+        ¿Para qué producción se obtiene un beneficio de 4000€?
+    </li>
+
+    <li>Estudie cuándo los beneficios van aumentando y cuándo van disminuyendo.</li>
+</ol>

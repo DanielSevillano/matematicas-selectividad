@@ -1,0 +1,20 @@
+Se consideran las matrices
+$$A = \begin{pmatrix}
+    2 & m & 0 \\
+    -1 & m & 2 \\
+    0 & m & 1
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+    1 & 0 & 2 \\
+    0 & 1 & 1 \\
+    1 & 0 & 1
+\end{pmatrix}, \quad
+C = \begin{pmatrix}
+    3 \\ 1 \\ -1
+\end{pmatrix}.$$
+
+<ol>
+    <li>Calcule los valores de $m$ para que el rango de la matriz $A$ sea 3.</li>
+    <li>Para $m = 1$, resuelva la ecuación matricial $A^tX - B^2 = 2X$.</li>
+    <li>¿Es posible encontrar una matriz $D$ que satisfaga $C^tA = BD$?</li>
+</ol>

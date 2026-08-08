@@ -50,6 +50,51 @@
         ]
     },
     {
+        "ejercicio": 202651,
+        "categorias": [
+            "Álgebra",
+            "Rango",
+            "Ecuaciones matriciales"
+        ]
+    },
+    {
+        "ejercicio": 202652,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos",
+            "Curvatura y puntos de inflexión"
+        ]
+    },
+    {
+        "ejercicio": 202653,
+        "categorias": [
+            "Análisis",
+            "Monotonía y extremos"
+        ]
+    },
+    {
+        "ejercicio": 202654,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "ejercicio": 202655,
+        "categorias": [
+            "Estadística",
+            "Estimación de la media",
+            "Distribución de medias muestrales"
+        ]
+    },
+    {
+        "ejercicio": 202656,
+        "categorias": [
+            "Probabilidad",
+            "Problemas de sucesos",
+            "Distribución binomial"
+        ]
+    },
+    {
         "ejercicio": 202501,
         "resuelto": true,
         "categorias": [
