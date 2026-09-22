@@ -243,7 +243,7 @@ Tarjetas de contenido
 }
 
 #utilidades .icono-texto::after {
-    content: "->";
+    content: "→";
     margin-block: auto;
     color: var(--accent-link);
     font-size: 1.5rem;
@@ -301,7 +301,7 @@ a.modalidad {
 }
 
 a.modalidad::after {
-    content: "->";
+    content: "→";
     transition: translate 200ms;
 }
 
