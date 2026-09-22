@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: light) {
     :root {
-        --header-color: white;
-        --background-color: #FAFAFA;
+        --header-color: rgba(253, 253, 253, 0.85);
+        --background-color: rgb(253, 253, 253);
 
         --accent-color: #036ac4;
         --accent-color-hover: #0473ce;
@@ -13,8 +13,9 @@
         --accent-link-active: #0360b9;
 
         --container-color: white;
-        --container-color-alt: #fefefe;
-        --border-color: #efefef;
+        --container-color-alt: hsl(0, 0%, 99%);
+        --container-color-alt: rgb(254, 254, 254);
+        --border-color: hsl(0, 0%, 92%);
 
         --button-background-color: white;
         --button-background-color-hover: #f5f5f5;
@@ -26,8 +27,11 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --header-color: black;
-        --background-color: #1F1F1F;
+        --header-color: hsla(0, 0%, 12%, 0.85);
+        --background-color: hsl(0, 0%, 12%);
+
+        --mattex-color-1: hsl(208, 100%, 22%);
+        --mattex-color-2: hsl(208, 90%, 52%);
 
         --accent-color: #60c9fc;
         --accent-color-hover: #4fc0fc;
@@ -38,8 +42,8 @@
         --accent-link-hover: #9eecfd;
         --accent-link-active: #3db5fb;
 
-        --container-color: #333333;
-        --container-color-alt: #212121;
+        --container-color: hsl(0, 0%, 20%);
+        --container-color-alt: hsl(0, 0%, 13%);
         --border-color: #383838;
 
         --button-background-color: #292929;
@@ -84,15 +88,19 @@ main {
 }
 
 h1 {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-block: 0;
     font-size: 1.125rem;
 }
 
 h2 {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
 }
 
 h3 {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
 }
 
 /********************
@@ -105,63 +113,40 @@ body>header {
     z-index: 3;
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    gap: 20px;
     width: 100%;
+    max-width: 100ch;
     padding: 0.75em 20px;
     box-sizing: border-box;
-    background-color: var(--header-color);
-    border-bottom: 1px solid hsla(0, 0%, 50%, 0.25);
+    background-color: var(--background-color);
+    backdrop-filter: blur(15px);
     transition: background-color 200ms;
 }
 
-h1 {
+@supports (backdrop-filter: blur(15px)) {
+    body>header {
+        background-color: var(--header-color);
+        backdrop-filter: blur(15px);
+    }
+}
+
+body>header a {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-block: 0;
-    text-align: center;
-}
-
-header a {
     color: inherit;
+}
+
+body>header a:hover {
     text-decoration: none;
-}
-
-header>a:first-child {
-    margin-right: 15px;
-}
-
-#navegacion-global ul {
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#navegacion-global a {
-    font-size: 0.875rem;
 }
 
 .busqueda {
     height: 20px;
     margin-left: auto;
-    transition: opacity 200ms;
 }
 
 .github {
     height: 25px;
-    transition: opacity 200ms;
-}
-
-.busqueda:hover,
-.github:hover {
-    opacity: 80%;
-}
-
-.busqueda:active,
-.github:active {
-    opacity: 60%;
 }
 
 /********************
@@ -204,10 +189,9 @@ button {
     min-width: 96px;
     padding-inline: 12px;
     box-sizing: border-box;
-    background-color: var(--button-background-color);
+    background-color: var(--container-color);
     border: 1px solid var(--button-border-color);
     color: var(--on-button);
-    font-family: inherit;
     font-size: 0.875rem;
     font-weight: 600;
     border-radius: 4px;
@@ -452,25 +436,20 @@ mjx-container {
 Adaptabilidad
 ********************/
 
-@media (max-width: 600px) {
-
-    .busqueda,
-    .github {
-        display: none;
-    }
-
-    #navegacion-global {
-        margin-left: auto;
+@media (max-width: 450px) {
+    h1 {
+        font-size: 1rem;
     }
 }
 
-@media (max-width: 500px) {
-    body>header {
-        position: initial;
-        flex-direction: column;
+@media (max-width: 400px) {
+    .github {
+        display: none;
     }
+}
 
-    #navegacion-global {
+@media (max-width: 375px) {
+    h1 img {
         display: none;
     }
 }
@@ -492,7 +471,7 @@ Adaptabilidad
         filter: invert(1);
     }
 
-    main img {
+    article img {
         filter: invert(1) hue-rotate(180deg);
     }
 }

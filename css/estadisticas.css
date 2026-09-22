@@ -1,3 +1,20 @@
+h2 {
+    position: relative;
+    padding-left: 15px;
+}
+
+h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+}
+
 .contenedor-grafica {
     max-width: 90ch;
     width: 90vw;
@@ -21,7 +38,7 @@ section.cargando::after {
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18ch, 30ch));
-    gap: 15px;
+    gap: 10px;
     margin-bottom: 30px;
 }
 
@@ -29,9 +46,6 @@ section.cargando::after {
     --parent-color: var(--container-color);
     padding: 20px;
     background-color: var(--container-color);
-    border: 1px solid var(--border-color);
+    border: 2px solid var(--border-color);
     border-radius: 10px;
-    box-shadow:
-        0 0 2px rgba(0, 0, 0, 0.12),
-        0 2px 4px rgba(0, 0, 0, 0.14);
 }

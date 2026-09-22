@@ -19,19 +19,12 @@
 
 <body>
     <header>
-        <a href="/index.html">
+        <a href="index.html">
             <h1>
                 <img src="img/favicon.png" alt="Icono" width="25" height="25">
                 Matemáticas de Selectividad
             </h1>
         </a>
-
-        <nav id="navegacion-global">
-            <ul>
-                <li><a href="/examenes-ciencias.html">Exámenes</a></li>
-                <li><a href="/ejercicios-ciencias.html">Ejercicios</a></li>
-            </ul>
-        </nav>
 
         <a class="busqueda" href="busqueda.html" title="Buscar">
             <img src="img/icono-busqueda.svg" alt="Buscar" width="20" height="20">
@@ -44,7 +37,10 @@
     </header>
 
     <nav id="navegacion-local">
-        <h2>📘 Exámenes de ciencias</h2>
+        <h2>
+            Exámenes de ciencias
+            <button id="aleatorio">🎲<span>Examen aleatorio</span></button>
+        </h2>
 
         <div class="contenedor-grupos">
             <button id="grupo-2026" class="grupo">2026</button>
@@ -212,11 +208,7 @@
         </div>
     </nav>
 
-    <main>
-        <p class="pista">Selecciona un examen para abrirlo.</p>
-
-        <button id="aleatorio">Examen aleatorio</button>
-    </main>
+    <main></main>
 </body>
 
 </html>

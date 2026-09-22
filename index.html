@@ -38,78 +38,108 @@
         </a>
     </header>
 
+    <aside>
+        <div id="portada">
+            <div>
+                <p>Matemáticas de <strong>Selectividad</strong></p>
+
+                <p>
+                    Tu rincón para prepararte las matemáticas de Selectividad de Andalucía 🩵
+                </p>
+            </div>
+
+            <div>
+                <img src="img/favicon.png" alt="Icono" loading="lazy">
+            </div>
+        </div>
+    </aside>
+
     <main>
-        <p>¡Bienvenido a Matemáticas de Selectividad!</p>
-
-        <p>
-            En esta página puedes encontrar los exámenes de Selectividad de Matemáticas de Andalucía más recientes, con
-            ejercicios resueltos y distintas formas de navegar por ellos para que te sea más sencillo encontrar lo que
-            buscas.
-        </p>
-
-        <p>Espero que te sea de gran ayuda y que te vaya fenomenal este curso. ¡Mucho ánimo!</p>
-
         <section>
-            <h2>📘 Contenido</h2>
             <div class="galeria">
                 <div class="tarjeta">
-                    <h3>Exámenes</h3>
-                    <p>Navega por los exámenes más recientes ordenados por año.</p>
+                    <div class="icono-texto">
+                        <div>
+                            <p>📋</p>
+                        </div>
+                        <h3>Exámenes</h3>
+                    </div>
+
                     <div class="boton-segmentado">
-                        <a href="examenes-ciencias.html" class="acento">Ciencias</a>
-                        <a href="examenes-sociales.html" class="acento">Sociales</a>
+                        <a href="examenes-ciencias.html" class="modalidad">Ciencias</a>
+                        <a href="examenes-sociales.html" class="modalidad">Sociales</a>
                     </div>
                 </div>
 
                 <div class="tarjeta">
-                    <h3>Ejercicios</h3>
-                    <p>Navega por los ejercicios clasificados por categorías.</p>
+                    <div class="icono-texto">
+                        <div>
+                            <p>🏷️</p>
+                        </div>
+                        <h3>Categorías</h3>
+                    </div>
+
                     <div class="boton-segmentado">
-                        <a href="ejercicios-ciencias.html" class="acento">Ciencias</a>
-                        <a href="ejercicios-sociales.html" class="acento">Sociales</a>
+                        <a href="ejercicios-ciencias.html" class="modalidad">Ciencias</a>
+                        <a href="ejercicios-sociales.html" class="modalidad">Sociales</a>
                     </div>
                 </div>
 
                 <div class="tarjeta">
-                    <h3>Temario</h3>
-                    <p>Navega por el temario clasificado en bloques y temas.</p>
+                    <div class="icono-texto">
+                        <div>
+                            <p>📖</p>
+                        </div>
+                        <h3>Temario</h3>
+                    </div>
+
                     <div class="boton-segmentado">
-                        <a href="temario-ciencias.html" class="acento">Ciencias</a>
-                        <a href="temario-sociales.html" class="acento">Sociales</a>
+                        <a href="temario-ciencias.html" class="modalidad">Ciencias</a>
+                        <a href="temario-sociales.html" class="modalidad">Sociales</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <h2>🎁 Contenido adicional</h2>
+        <section id="utilidades">
+            <h2>Utilidades</h2>
             <div class="galeria">
                 <div class="tarjeta">
-                    <h3>Generador de exámenes</h3>
-                    <p>Genera exámenes aleatorios a partir de los ejercicios de años anteriores.</p>
-                    <a href="generador-examenes.html" class="acento">Ir a la página</a>
+                    <div class="icono-texto">
+                        <div>
+                            <p>🪄</p>
+                        </div>
+                        <h3><a href="generador-examenes.html">Generador de exámenes</a></h3>
+                    </div>
+                </div>
+
+
+                <div class="tarjeta">
+                    <div class="icono-texto">
+                        <div>
+                            <p>📄</p>
+                        </div>
+                        <h3><a href="tabla-normal.html">Tabla de la normal</a></h3>
+                    </div>
                 </div>
 
                 <div class="tarjeta">
-                    <h3>Tabla de la normal</h3>
-                    <p>Accede a una tabla interactiva de la distribución normal estándar.</p>
-                    <a href="tabla-normal.html" class="acento">Ir a la página</a>
-                </div>
-
-                <div class="tarjeta">
-                    <h3>Estadísticas</h3>
-                    <p>Accede a las estadísticas de Selectividad en Andalucía y de esta página.</p>
-                    <a href="estadisticas.html" class="acento">Ir a la página</a>
+                    <div class="icono-texto">
+                        <div>
+                            <p>📊</p>
+                        </div>
+                        <h3><a href="estadisticas.html">Estadísticas</a></h3>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="ejercicios-diarios" class="cargando">
-            <h2>📅 Ejercicios del día</h2>
+            <h2>Ejercicios del día</h2>
         </section>
 
         <section>
-            <h2>📣 Novedades</h2>
+            <h2>Novedades</h2>
 
             <details name="novedad">
                 <summary>
@@ -224,7 +254,7 @@
         </section>
 
         <section class="texto">
-            <h2>🧭 Enlaces de interés</h2>
+            <h2>Enlaces de interés</h2>
             <ul>
                 <li>
                     🏠
@@ -278,7 +308,7 @@
         </section>
 
         <section class="texto">
-            <h2>💻 Acerca del proyecto</h2>
+            <h2>Acerca del proyecto</h2>
             <p>
                 Este es un proyecto de código abierto.
                 Puedes encontrar el código fuente, proponer cambios, reportar errores y seguir el progreso en
@@ -295,22 +325,31 @@
 
             <h3>Agradecimientos</h3>
             <div class="galeria">
-                <div class="tarjeta agradecimiento">
-                    <p>🌐</p>
-                    <p>Emestrada</p>
-                    <p>Inspiración</p>
+                <div class="tarjeta">
+                    <div class="icono-texto">
+                        <div>
+                            <p>🌐</p>
+                        </div>
+                        <h3>Emestrada</h3>
+                    </div>
                 </div>
 
-                <div class="tarjeta agradecimiento">
-                    <p>👨🏻‍🏫</p>
-                    <p>Javier Ramos</p>
-                    <p>Selección de categorías</p>
+                <div class="tarjeta">
+                    <div class="icono-texto">
+                        <div>
+                            <p>👨🏻‍🏫</p>
+                        </div>
+                        <h3>Javier Ramos</h3>
+                    </div>
                 </div>
 
-                <div class="tarjeta agradecimiento">
-                    <p>🧙🏻‍♂️</p>
-                    <p>Javier Pérez</p>
-                    <p>Correcciones de ejercicios</p>
+                <div class="tarjeta">
+                    <div class="icono-texto">
+                        <div>
+                            <p>🧙🏻‍♂️</p>
+                        </div>
+                        <h3>Javier Pérez</h3>
+                    </div>
                 </div>
             </div>
 

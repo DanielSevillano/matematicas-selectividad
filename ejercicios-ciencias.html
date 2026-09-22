@@ -7,7 +7,7 @@
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
     <meta name="description" content="Navega por los ejercicios de ciencias clasificados por bloques y categorías.">
-    <title>Ejercicios de ciencias</title>
+    <title>Categorías de ciencias</title>
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="stylesheet" href="css/base.css" />
@@ -20,19 +20,12 @@
 
 <body>
     <header>
-        <a href="/index.html">
+        <a href="index.html">
             <h1>
                 <img src="img/favicon.png" alt="Icono" width="25" height="25">
                 Matemáticas de Selectividad
             </h1>
         </a>
-
-        <nav id="navegacion-global">
-            <ul>
-                <li><a href="/examenes-ciencias.html">Exámenes</a></li>
-                <li><a href="/ejercicios-ciencias.html">Ejercicios</a></li>
-            </ul>
-        </nav>
 
         <a class="busqueda" href="busqueda.html" title="Buscar">
             <img src="img/icono-busqueda.svg" alt="Buscar" width="20" height="20">
@@ -45,7 +38,10 @@
     </header>
 
     <nav id="navegacion-local">
-        <h2>📘 Ejercicios de ciencias</h2>
+        <h2>
+            Categorías de ciencias
+            <button id="aleatorio">🎲<span>Categoría aleatoria</span></button>
+        </h2>
 
         <div class="contenedor-grupos">
             <button id="grupo-analisis" class="grupo">Análisis</button>
@@ -108,11 +104,7 @@
         </div>
     </nav>
 
-    <main>
-        <p class="pista">Selecciona una categoría para abrirla.</p>
-
-        <button id="aleatorio">Categoría aleatoria</button>
-    </main>
+    <main></main>
 </body>
 
 </html>
